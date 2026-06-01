@@ -109,6 +109,14 @@ Status: Planned
 - Create Chief Ministers timeline for major states
 - Add state formation timeline
 - Add state governance comparison framework
+- Add States of India overview
+- Add state reorganization coverage
+- Add Chief Minister vs Governor comparison
+- Add state governance structure diagrams
+- Add state administration workflow
+- Add Centre-State coordination examples
+- Add major state development model comparisons
+- Add state formation case studies
 
 ---
 
@@ -237,6 +245,9 @@ Proposed Structure:
 - President Timeline Dashboard
 - Constitutional Offices Dashboard
 - Prime Minister Timeline Dashboard
+- Chief Minister Timeline Dashboard
+- State Formation Dashboard
+- State Governance Dashboard
 - economy-dashboard.md
 - demographics-dashboard.md
 - current-india-dashboard.md
@@ -353,6 +364,9 @@ Explain major events, crises, conflicts, and shocks that significantly changed I
 - President Timeline Dashboard
 - Constitutional Offices Dashboard
 - Prime Minister Timeline Dashboard
+- Chief Minister Timeline Dashboard
+- State Formation Dashboard
+- State Governance Dashboard
 
 ---
 
@@ -598,6 +612,8 @@ Coverage:
 - State Institutions
 - President of India
 - Vice President of India
+- Governors
+- State Legislatures
 
 Goal:
 

@@ -4,6 +4,87 @@ All notable changes to this repository will be documented in this file.
 
 ---
 
+# v1.9.0 - States and Chief Ministers Foundation
+
+Release Date: 2026-06-01
+
+## Added
+
+### States and Chief Ministers
+
+- States and Chief Ministers README
+- States of India
+- Chief Ministers Timeline
+- State Formation Timeline
+- State Reorganization
+
+### Federal Governance Journey
+
+```text
+Constitution
+        ↓
+Federalism
+        ↓
+States
+        ↓
+Chief Minister
+        ↓
+State Government
+        ↓
+Development & Administration
+```
+
+### State Evolution
+
+```text
+Independence
+       ↓
+Integration
+       ↓
+State Reorganization
+       ↓
+New States
+       ↓
+Modern Federal India
+```
+
+### Repository Enhancements
+
+- Root README expanded further
+- State governance roadmap expanded
+- Chief Ministers coverage added
+- State evolution coverage strengthened
+- Federal governance learning path improved
+
+### Knowledge Coverage Expansion
+
+Repository now covers:
+
+- Civilization & History
+- India Through Time
+- Constitution & Nation Building
+- Government Structure
+- Elections & Democracy
+- Political Parties
+- Prime Ministers & Governments
+- Presidents & Vice Presidents
+- States & Chief Ministers
+- Federal Governance
+
+### Significance
+
+This release establishes the state governance foundation required to understand:
+
+- Parliament & Law Making
+- Public Administration
+- Centre-State Relations
+- State Politics
+- Development Models
+
+The repository now explains how Indian states evolved, how state governments function, and how Chief Ministers shape governance and development.
+
+---
+
 # v1.8.0 - Presidents and Vice Presidents Foundation
 
 Release Date: 2026-06-01

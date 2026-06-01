@@ -251,10 +251,6 @@ Understanding the constitutional heads of India.
 - President Election Process
 - Powers of the President
 - President vs Prime Minister
-
-- President Election Process
-- Powers of the President
-- President vs Prime Minister
 - Rajendra Prasad
 - Sarvepalli Radhakrishnan
 - Zakir Husain
@@ -271,13 +267,19 @@ Understanding the constitutional heads of India.
 Understanding India's states and their evolution.
 
 - States of India
-- State Formation Timeline
 - Chief Ministers Timeline
-
+- State Formation Timeline
 - State Reorganization
 - State Governance
+- Chief Minister vs Governor
 - Centre-State Relations
 - Major States Overview
+- West Bengal
+- Uttar Pradesh
+- Maharashtra
+- Tamil Nadu
+- Karnataka
+- Gujarat
 
 ---
 
@@ -411,6 +413,7 @@ Coverage includes:
 - Vice President Timeline
 - President Election Timeline
 - State Formation Timeline
+- Chief Ministers Timeline
 - Political Party Timeline
 - Election Timeline
 - Parliament Timeline
@@ -496,6 +499,8 @@ Planned visual learning areas:
 - Political Party Growth Dashboard
 - Prime Minister Timeline Dashboard
 - Chief Minister Timeline Dashboard
+- State Formation Dashboard
+- State Governance Dashboard
 - Economic Transformation Dashboard
 - Population Dashboard
 - Budget Dashboard
