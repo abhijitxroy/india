@@ -81,6 +81,8 @@ Social Justice & Representation
         ↓
 Social Transformations
         ↓
+Foreign Policy & Defence
+        ↓
 Modern India
 ```
 
@@ -492,12 +494,53 @@ P3
 Understanding India's place in the world.
 
 - Foreign Policy
-- Armed Forces
-- Major Wars
-- Strategic Relations
+- Strategic Autonomy
+- National Security
+- Defence Policy
+- Neighbourhood First Policy
+- Act East Policy
+- Nuclear Doctrine
+- Armed Forces Overview
+- Chief of Defence Staff (CDS)
+- Defence Modernization
 - India-China Relations
 - India-Pakistan Relations
-- Nuclear Program
+- India and United Nations
+- International Organizations
+- Indo-Pak War (1947-48)
+- Sino-Indian War (1962)
+- Indo-Pak War (1965)
+- Indo-Pak War (1971)
+- Kargil War (1999)
+- Surgical Strikes (2016)
+- Balakot Airstrike (2019)
+
+### Priority Learning Order
+
+```text
+P1 (Highest ROI)
+├── Foreign Policy
+├── National Security
+├── Defence Policy
+├── Strategic Autonomy
+├── Armed Forces
+├── India-China Relations
+└── India-Pakistan Relations
+
+P2
+├── Neighbourhood First Policy
+├── Act East Policy
+├── Nuclear Doctrine
+├── Defence Modernization
+├── India and United Nations
+└── International Organizations
+
+P3
+├── Chief of Defence Staff
+├── Major Wars
+├── Surgical Strikes (2016)
+└── Balakot Airstrike (2019)
+```
 
 ---
 
@@ -544,6 +587,12 @@ The goal is to help readers understand events chronologically at a glance.
 
 - Judiciary Timeline
 - Public Administration Timeline
+- Foreign Policy Timeline
+- Defence Timeline
+- National Security Timeline
+- Wars Timeline
+- India-China Relations Timeline
+- India-Pakistan Relations Timeline
 
 ---
 
@@ -625,6 +674,11 @@ Planned visual learning areas:
 - State Formation Dashboard
 - State Governance Dashboard
 - Economic Transformation Dashboard
+- Foreign Policy Dashboard
+- National Security Dashboard
+- Defence Dashboard
+- India-China Relations Dashboard
+- India-Pakistan Relations Dashboard
 - Population Dashboard
 - Budget Dashboard
 - Governance Scorecards

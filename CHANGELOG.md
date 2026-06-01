@@ -1,6 +1,131 @@
 # Changelog
 
+
 All notable changes to this repository will be documented in this file.
+
+---
+
+# v1.16.0 - Foreign Policy & Defence Foundation
+
+Release Date: 2026-06-02
+
+## Added
+
+### Foreign Policy & Defence
+
+- Foreign Policy & Defence README
+- Foreign Policy
+- Strategic Autonomy
+- National Security
+- Defence Policy
+- Neighbourhood First Policy
+- Act East Policy
+- Nuclear Doctrine
+- Armed Forces Overview
+- Chief of Defence Staff (CDS)
+- Defence Modernization
+- India-China Relations
+- India-Pakistan Relations
+- India and United Nations
+- International Organizations
+
+### Wars & Security Operations
+
+- Indo-Pak War (1947-48)
+- Sino-Indian War (1962)
+- Indo-Pak War (1965)
+- Indo-Pak War (1971)
+- Kargil War (1999)
+- Surgical Strikes (2016)
+- Balakot Airstrike (2019)
+
+### Foreign Policy Journey
+
+```text
+Foreign Policy
+        ↓
+Strategic Autonomy
+        ↓
+Neighbourhood First
+        ↓
+Act East Policy
+        ↓
+National Security
+        ↓
+Defence Policy
+        ↓
+Armed Forces
+        ↓
+Military Modernization
+        ↓
+Wars & Security Operations
+        ↓
+Global Engagement
+```
+
+### Security & Defence Framework
+
+```text
+Foreign Policy
+        ↓
+National Security
+        ↓
+Defence Policy
+        ↓
+Armed Forces
+        ↓
+Strategic Deterrence
+        ↓
+National Security Preparedness
+```
+
+### Repository Enhancements
+
+- Root README expanded further
+- Foreign Policy & Defence roadmap added
+- Learning priority framework added
+- Foreign policy journey diagrams added
+- National security framework added
+- Defence learning roadmap added
+- Timeline roadmap expanded
+- Dashboard roadmap expanded
+
+### Knowledge Coverage Expansion
+
+Repository now covers:
+
+- Civilization & History
+- India Through Time
+- Constitution & Nation Building
+- Government Structure
+- Elections & Democracy
+- Political Parties
+- Prime Ministers & Governments
+- Presidents & Vice Presidents
+- States & Chief Ministers
+- Parliament & Law Making
+- Judiciary
+- Public Administration & Governance
+- Major Laws & Reforms
+- Economic Transformations
+- Social Transformations
+- Foreign Policy & Defence
+
+### Significance
+
+This release establishes the foreign policy, defence, strategic affairs, and national security foundation required to understand:
+
+- India's External Relations
+- National Security Strategy
+- Defence Preparedness
+- Strategic Autonomy
+- Military Modernization
+- India-China Relations
+- India-Pakistan Relations
+- Global Diplomacy
+- Major Wars and Security Operations
+
+The repository now explains how diplomacy, defence institutions, security strategy, military modernization, strategic doctrines, international organizations, regional relations, wars, and national security frameworks shape India's position in the world.
 
 ---
 

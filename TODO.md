@@ -285,6 +285,52 @@ Status: Planned
 - Add Minority Welfare
 - Add Education and Social Mobility
 
+### Foreign Policy & Defence
+
+- Add Foreign Policy & Defence README
+- Add learning priority framework (P1/P2/P3)
+- Add foreign policy timeline
+- Add defence timeline
+- Add national security timeline
+- Add wars timeline
+- Add India-China relations timeline
+- Add India-Pakistan relations timeline
+- Add foreign policy journey diagrams
+- Add defence strategy framework
+- Add national security framework diagrams
+- Add strategic autonomy framework
+- Add foreign policy dashboard
+- Add national security dashboard
+- Add defence dashboard
+- Add war timeline dashboard
+- Add India-China relations dashboard
+- Add India-Pakistan relations dashboard
+- Add military modernization dashboard
+- Add strategic partnership dashboard
+- Add India-US Relations
+- Add India-Russia Relations
+- Add India-Japan Relations
+- Add India-France Relations
+- Add QUAD
+- Add Indo-Pacific Strategy
+- Add SAARC
+- Add BRICS
+- Add G20
+- Add BIMSTEC
+- Add Look East Policy
+- Add Maritime Security
+- Add Border Security
+- Add Counter-Terrorism Framework
+- Add Intelligence Agencies Overview
+- Add Defence Production Ecosystem
+- Add Make in India Defence Sector
+- Add Space Security
+- Add Cyber Security Framework
+- Add Defence Procurement Framework
+- Add Foreign Policy case studies
+- Add National Security case studies
+- Add War lessons learned comparisons
+
 ---
 
 ## Phase 5 - India First Strategy
