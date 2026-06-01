@@ -5,6 +5,104 @@ All notable changes to this repository will be documented in this file.
 
 ---
 
+# v1.17.0 - Contemporary India Foundation
+
+Release Date: 2026-06-02
+
+## Added
+
+### Contemporary India
+
+- Contemporary India README
+- Contemporary Governance
+- Contemporary Parliament
+- Contemporary Public Policy
+- Contemporary States & Union Territories
+
+### Contemporary India Journey
+
+```text
+Constitution
+      ↓
+Government Structure
+      ↓
+Contemporary Governance
+      ↓
+Contemporary Parliament
+      ↓
+Public Policy
+      ↓
+States & Union Territories
+      ↓
+Development & Governance
+```
+
+### Contemporary Governance Framework
+
+```text
+Citizens
+      ↓
+Democracy
+      ↓
+Government
+      ↓
+Parliament
+      ↓
+Public Policy
+      ↓
+Administration
+      ↓
+Development Outcomes
+```
+
+### Repository Enhancements
+
+- Current India section renamed to Contemporary India
+- Root README expanded further
+- Contemporary India learning roadmap added
+- Governance framework diagrams added
+- Public policy coverage added
+- Federal governance coverage strengthened
+- Long-term repository structure improved
+
+### Knowledge Coverage Expansion
+
+Repository now covers:
+
+- Civilization & History
+- India Through Time
+- Constitution & Nation Building
+- Government Structure
+- Elections & Democracy
+- Political Parties
+- Prime Ministers & Governments
+- Presidents & Vice Presidents
+- States & Chief Ministers
+- Parliament & Law Making
+- Judiciary
+- Public Administration & Governance
+- Major Laws & Reforms
+- Economic Transformations
+- Social Transformations
+- Foreign Policy & Defence
+- Contemporary India
+
+### Significance
+
+This release establishes the contemporary governance foundation required to understand:
+
+- How India is Governed Today
+- Public Policy Formation
+- Parliamentary Functioning
+- Federal Governance
+- Centre-State Relations
+- Administrative Coordination
+- Development Administration
+
+The repository now explains how governance institutions, Parliament, public policy systems, and federal structures interact to shape contemporary India.
+
+---
+
 # v1.16.0 - Foreign Policy & Defence Foundation
 
 Release Date: 2026-06-02
