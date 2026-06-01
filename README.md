@@ -338,15 +338,48 @@ Understanding how India is administered.
 
 Understanding key laws that shaped India.
 
-- Article 370
+- Economic Liberalization (1991)
 - GST
-- RTI
+- RTI Act
+- 73rd Constitutional Amendment
+- 74th Constitutional Amendment
+- Anti-Defection Law
+- Mandal Commission
+- Right to Education Act (RTE)
+- Emergency (1975–77)
+- Demonetization (2016)
+- Article 370
+- Article 35A
+- Jammu & Kashmir Reorganisation Act
 - CAA
 - NRC
 - UCC
-- Emergency (1975)
-- Major Constitutional Changes
-- Landmark Policy Reforms
+
+### Priority Learning Order
+
+```text
+P1 (Highest ROI)
+├── Economic Liberalization (1991)
+├── GST
+├── RTI Act
+├── Emergency (1975–77)
+├── Anti-Defection Law
+├── 73rd Amendment
+└── 74th Amendment
+
+P2
+├── Mandal Commission
+├── Right to Education Act
+└── Demonetization (2016)
+
+P3
+├── Article 370
+├── Article 35A
+├── Jammu & Kashmir Reorganisation
+├── CAA
+├── NRC
+└── UCC
+```
 
 ---
 
@@ -664,6 +697,12 @@ If you're new to the repository, follow this order:
 11 Judiciary
         ↓
 12 Public Administration
+        ↓
+13 Major Laws & Reforms
+        ↓
+14 Economic Transformations
+        ↓
+15 Social Transformations
         ↓
 Remaining Sections
 ```

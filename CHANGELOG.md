@@ -4,6 +4,100 @@ All notable changes to this repository will be documented in this file.
 
 ---
 
+# v1.13.0 - Major Laws & Reforms Foundation
+
+Release Date: 2026-06-01
+
+## Added
+
+### Major Laws & Reforms
+
+- Major Laws & Reforms README
+- Economic Liberalization (1991)
+- GST
+- RTI Act
+- 73rd Constitutional Amendment
+- 74th Constitutional Amendment
+- Anti-Defection Law
+- Mandal Commission
+- Right to Education Act (RTE)
+- Emergency (1975–77)
+- Demonetization (2016)
+- Article 370
+- Article 35A
+- Jammu & Kashmir Reorganisation Act
+- CAA
+- NRC
+- UCC
+
+### Reform Journey
+
+```text
+Constitution
+      ↓
+Governance
+      ↓
+Reforms
+      ↓
+Institutional Change
+      ↓
+Modern India
+```
+
+### Reform Categories
+
+```text
+Constitutional Reforms
+          ↓
+Governance Reforms
+          ↓
+Economic Reforms
+          ↓
+Social Justice Reforms
+          ↓
+Education Reforms
+```
+
+### Repository Enhancements
+
+- Root README expanded further
+- Major Laws & Reforms roadmap expanded
+- Learning priority framework added
+- Reform classification structure added
+- Revision roadmap improved
+
+### Knowledge Coverage Expansion
+
+Repository now covers:
+
+- Civilization & History
+- India Through Time
+- Constitution & Nation Building
+- Government Structure
+- Elections & Democracy
+- Political Parties
+- Prime Ministers & Governments
+- Presidents & Vice Presidents
+- States & Chief Ministers
+- Parliament & Law Making
+- Judiciary
+- Public Administration & Governance
+- Major Laws & Reforms
+
+### Significance
+
+This release establishes the reform foundation required to understand:
+
+- Economic Transformation
+- Governance Modernization
+- Social Justice Policies
+- Constitutional Change
+- Contemporary Policy Debates
+
+The repository now explains how major laws, constitutional amendments, governance reforms, economic reforms, and social reforms shaped modern India.
+
+---
+
 # v1.12.0 - Public Administration & Governance Foundation
 
 Release Date: 2026-06-01
