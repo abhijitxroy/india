@@ -4,6 +4,91 @@ All notable changes to this repository will be documented in this file.
 
 ---
 
+# v1.12.0 - Public Administration & Governance Foundation
+
+Release Date: 2026-06-01
+
+## Added
+
+### Public Administration
+
+- Public Administration README
+- Bureaucracy
+- Civil Services
+- District Administration
+- Indian Administrative Service (IAS)
+- Indian Police Service (IPS)
+- Indian Foreign Service (IFS)
+
+### Governance Journey
+
+```text
+Government Policy
+        ↓
+Public Administration
+        ↓
+Civil Services
+        ↓
+Implementation
+        ↓
+Service Delivery
+        ↓
+Citizen Outcomes
+```
+
+### Administrative Structure
+
+```text
+Union Government
+        ↓
+State Governments
+        ↓
+District Administration
+        ↓
+Local Administration
+        ↓
+Citizens
+```
+
+### Repository Enhancements
+
+- Root README expanded further
+- Public Administration roadmap expanded
+- Civil Services coverage added
+- Administrative institutions coverage strengthened
+- Governance learning path improved
+
+### Knowledge Coverage Expansion
+
+Repository now covers:
+
+- Civilization & History
+- India Through Time
+- Constitution & Nation Building
+- Government Structure
+- Elections & Democracy
+- Political Parties
+- Prime Ministers & Governments
+- Presidents & Vice Presidents
+- States & Chief Ministers
+- Parliament & Law Making
+- Judiciary
+- Public Administration & Governance
+
+### Significance
+
+This release establishes the administrative foundation required to understand:
+
+- Public Policy
+- Service Delivery
+- Governance Reforms
+- State Capacity
+- Development Administration
+
+The repository now explains how government policies move from decision-making to implementation through administrative institutions and civil services.
+
+---
+
 # v1.11.0 - Judiciary Foundation
 
 Release Date: 2026-06-01
