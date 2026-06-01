@@ -171,6 +171,21 @@ Status: Planned
 - Expand IAS, IPS, and IFS coverage
 - Add district administration structure
 - Add governance workflows
+- Add Public Administration overview
+- Add Governance fundamentals
+- Add Bureaucracy overview
+- Add Civil Services overview
+- Add IAS coverage
+- Add IPS coverage
+- Add IFS coverage
+- Add District Administration structure
+- Add Policy Implementation workflow
+- Add Centre-State Relations overview
+- Add E-Governance coverage
+- Add Administrative Reforms timeline
+- Add Public Administration timeline
+- Add governance case studies
+- Add service delivery workflow diagrams
 
 ### Major Laws & Reforms
 
@@ -280,6 +295,11 @@ Proposed Structure:
 - demographics-dashboard.md
 - current-india-dashboard.md
 - west-bengal-dashboard.md
+- Public Administration Dashboard
+- Civil Services Dashboard
+- Governance Dashboard
+- District Administration Dashboard
+- Service Delivery Dashboard
 
 Examples:
 
@@ -399,6 +419,11 @@ Explain major events, crises, conflicts, and shocks that significantly changed I
 - Chief Minister Timeline Dashboard
 - State Formation Dashboard
 - State Governance Dashboard
+- Public Administration Dashboard
+- Civil Services Dashboard
+- Governance Dashboard
+- District Administration Dashboard
+- Service Delivery Dashboard
 
 ---
 
@@ -652,6 +677,11 @@ Coverage:
 - Supreme Court of India
 - High Courts
 - District Judiciary
+- Civil Services
+- Indian Administrative Service (IAS)
+- Indian Police Service (IPS)
+- Indian Foreign Service (IFS)
+- District Administration
 
 Goal:
 

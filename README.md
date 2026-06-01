@@ -319,12 +319,18 @@ Understanding India's legal system.
 
 Understanding how India is administered.
 
+- Public Administration Overview
+- Governance
+- Bureaucracy
 - Civil Services
 - IAS
 - IPS
 - IFS
-- Bureaucracy
 - District Administration
+- Policy Implementation
+- Centre-State Relations
+- E-Governance
+- Administrative Reforms
 
 ---
 
@@ -431,6 +437,7 @@ Coverage includes:
 The goal is to help readers understand events chronologically at a glance.
 
 - Judiciary Timeline
+- Public Administration Timeline
 
 ---
 
@@ -530,6 +537,12 @@ Planned visual learning areas:
 - Landmark Judgments Dashboard
 - State Governance Dashboard
 - Federalism Dashboard
+
+These dashboards will help transform complex political and governance information into easy-to-understand visual insights.
+
+- Public Administration Dashboard
+- Civil Services Dashboard
+- Governance Dashboard
 
 These dashboards will help transform complex political and governance information into easy-to-understand visual insights.
 
@@ -649,6 +662,8 @@ If you're new to the repository, follow this order:
 10 Parliament & Law Making
         ↓
 11 Judiciary
+        ↓
+12 Public Administration
         ↓
 Remaining Sections
 ```
