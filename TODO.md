@@ -46,9 +46,9 @@ Status: In Progress
 
 ## Elections & Democracy
 
-- Complete election-related content
+- Complete election-related content ✅
 - Add election process diagrams
-- Add EVM and electoral reform coverage
+- Add EVM and electoral reform coverage ✅
 - Build election learning journey from voter to government formation
 - Add election timelines
 - Add major election case studies
@@ -60,6 +60,11 @@ Status: In Progress
 - Expand regional party coverage
 - Add party evolution timeline
 - Add major political movements
+- Add party recognition system
+- Add party symbols and election symbols
+- Add coalition politics
+- Add anti-defection law
+- Add national vs regional party comparison
 
 ---
 
@@ -296,6 +301,15 @@ Goal:
 
 Explain major events, crises, conflicts, and shocks that significantly changed India's political, economic, social, administrative, or strategic direction.
 
+### Future Dashboards
+
+- War Timeline Dashboard
+- Pandemic Timeline Dashboard
+- Economic Crisis Dashboard
+- Government Performance Dashboard
+- State Development Dashboard
+- Election Analytics Dashboard
+
 ---
 
 ## Deep-Dive Historical Events
@@ -350,6 +364,11 @@ Sources to Integrate:
 - NITI Aayog Reports
 - State Government Reports
 - National Archives
+- Ministry of Statistics and Programme Implementation (MoSPI)
+- National Family Health Survey (NFHS)
+- National Crime Records Bureau (NCRB)
+- Reserve Bank Historical Statistics
+- State Budget Documents
 
 Goal:
 
@@ -492,10 +511,41 @@ Coverage:
 - Digital Adoption
 - Infrastructure Growth
 - Election Data
+- Health Indicators
+- Life Expectancy
+- Inflation Trends
+- Fiscal Deficit Trends
+- Energy Production
+- Internet & Mobile Adoption
+- State-wise Development Indicators
 
 Goal:
 
 Provide a data-driven view of India's development journey.
+
+## India Through Institutions Project
+
+Status: Planned (Long-Term)
+
+Purpose:
+
+Explain how India's major institutions evolved and function.
+
+Coverage:
+
+- Parliament
+- Supreme Court
+- Election Commission
+- CAG
+- UPSC
+- RBI
+- Armed Forces
+- NITI Aayog
+- State Institutions
+
+Goal:
+
+Help readers understand the institutional backbone of the Indian Republic.
 
 ---
 

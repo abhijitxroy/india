@@ -96,6 +96,30 @@ India Through Data & Analytics
 
 This repository aims to connect all five perspectives into a single learning journey.
 
+### Understanding India Through Multiple Layers
+
+```text
+Civilization
+      ↓
+History
+      ↓
+Constitution
+      ↓
+Government
+      ↓
+Elections
+      ↓
+Political Parties
+      ↓
+Laws & Reforms
+      ↓
+Economy & Society
+      ↓
+Modern India
+```
+
+This layered approach helps explain not only what happened, but why India evolved the way it did.
+
 ---
 
 # 🗂️ Repository Structure
@@ -161,6 +185,7 @@ Understanding how India is governed.
 - Central Government
 - State Government
 - Federalism
+- Union Territories
 
 ---
 
@@ -168,7 +193,9 @@ Understanding how India is governed.
 
 Understanding how representatives are elected.
 
+- Voter System
 - Election Commission
+- Electronic Voting Machines (EVMs)
 - Lok Sabha Elections
 - Rajya Sabha Elections
 - Vidhan Sabha Elections
@@ -253,6 +280,7 @@ Understanding how India is administered.
 - IPS
 - IFS
 - Bureaucracy
+- District Administration
 
 ---
 
@@ -425,6 +453,11 @@ Planned visual learning areas:
 - Governance Scorecards
 - State Comparison Dashboards
 - Historical Timeline Visualizations
+- War Timeline Dashboard
+- Pandemic Timeline Dashboard
+- Economic Crisis Dashboard
+- Government Comparison Dashboard
+- State Development Dashboard
 
 These dashboards will help transform complex political and governance information into easy-to-understand visual insights.
 
@@ -503,6 +536,12 @@ Planned future enhancements include:
 - Political Party Growth Analytics
 - Historical Crisis & Recovery Tracking
 - War, Conflict & Security Timeline
+- Pandemic & Public Health Timeline
+- Economic Crisis Timeline
+- Agricultural Transformation Timeline
+- Food Security Timeline
+- India Through Institutions Project
+- India Through Data Project
 
 The repository aims to combine historical understanding, governance knowledge, data visualization, and long-term institutional analysis in a single knowledge system.
 
@@ -524,6 +563,8 @@ If you're new to the repository, follow this order:
 05 Elections & Democracy
         ↓
 06 Political Parties
+        ↓
+07 Prime Ministers & Governments
         ↓
 Remaining Sections
 ```

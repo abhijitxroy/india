@@ -6,6 +6,84 @@ The format is inspired by Keep a Changelog and follows a repository milestone ap
 
 ---
 
+# v1.5.0 - Elections and Democracy Foundation
+
+Release Date: 2026-06-01
+
+## Added
+
+### Elections and Democracy
+
+- Elections and Democracy README
+- Voter System
+- Election Commission of India
+- Electronic Voting Machines (EVMs)
+- Lok Sabha Elections
+- Vidhan Sabha Elections
+- Rajya Sabha Elections
+- Panchayat Elections
+- Municipal Elections
+- Electoral Reforms
+
+### Democracy Journey
+
+```text
+Citizen
+      ↓
+Voter Registration
+      ↓
+Electoral Roll
+      ↓
+Voting
+      ↓
+Election Commission
+      ↓
+Election Process
+      ↓
+MP / MLA Elected
+      ↓
+Government Formation
+      ↓
+Prime Minister / Chief Minister
+```
+
+### Repository Enhancements
+
+- Root README expanded further
+- Elections learning path added
+- Democracy journey visualization added
+- Dashboard roadmap expanded
+- Timeline roadmap expanded
+
+### Knowledge Coverage Expansion
+
+Repository now covers:
+
+- Civilization & History
+- Colonial India
+- Freedom Movement
+- Constitution
+- Government Structure
+- Elections & Democracy
+- Federal Governance
+- Constitutional Offices
+- Local Self Governance Foundations
+
+### Significance
+
+This release establishes the democratic foundation required to understand:
+
+- Political Parties
+- Coalition Politics
+- Parliament
+- Government Formation
+- Electoral Trends
+- Public Representation
+
+The repository now explains how citizens, votes, elections, representatives, and governments are connected.
+
+---
+
 # v1.4.0 - Government Structure Foundation
 
 Release Date: 2026-06-01
