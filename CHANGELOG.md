@@ -4,6 +4,123 @@ All notable changes to this repository will be documented in this file.
 
 ---
 
+# v1.14.0 - Economic Transformations Foundation
+
+Release Date: 2026-06-01
+
+## Added
+
+### Economic Transformations
+
+- Economic Transformations README
+- Planning Commission
+- License Raj
+- Green Revolution
+- White Revolution
+- Economic Reforms (1991)
+- NITI Aayog
+- Telecom Revolution
+- IT & Software Revolution
+- Digital India
+- Jan Dhan Yojana
+- Aadhaar & DBT
+- UPI Revolution
+- Make in India
+- Startup India
+
+### Economic Transformation Journey
+
+```text
+Planning Commission
+        ↓
+License Raj
+        ↓
+Green Revolution
+        ↓
+White Revolution
+        ↓
+Economic Reforms (1991)
+        ↓
+NITI Aayog
+        ↓
+Telecom Revolution
+        ↓
+IT & Software Revolution
+        ↓
+Digital India
+        ↓
+Jan Dhan Yojana
+        ↓
+Aadhaar & DBT
+        ↓
+UPI Revolution
+        ↓
+Make in India
+        ↓
+Startup India
+```
+
+### Transformation Categories
+
+```text
+Agricultural Transformation
+          ↓
+Economic Structure Transformation
+          ↓
+Institutional Transformation
+          ↓
+Technology Transformation
+          ↓
+Digital Transformation
+          ↓
+Financial Inclusion
+          ↓
+Industrial & Innovation Transformation
+```
+
+### Repository Enhancements
+
+- Root README expanded further
+- Economic Transformations roadmap expanded
+- Learning priority framework added
+- Economic transformation timeline added
+- Transformation classification structure added
+- Revision roadmap improved
+
+### Knowledge Coverage Expansion
+
+Repository now covers:
+
+- Civilization & History
+- India Through Time
+- Constitution & Nation Building
+- Government Structure
+- Elections & Democracy
+- Political Parties
+- Prime Ministers & Governments
+- Presidents & Vice Presidents
+- States & Chief Ministers
+- Parliament & Law Making
+- Judiciary
+- Public Administration & Governance
+- Major Laws & Reforms
+- Economic Transformations
+
+### Significance
+
+This release establishes the economic foundation required to understand:
+
+- India's Development Journey
+- Agricultural Modernization
+- Economic Liberalization
+- Digital Economy Growth
+- Financial Inclusion
+- Technology-Led Transformation
+
+The repository now explains how agriculture, planning institutions, economic reforms, telecom growth, digital infrastructure, financial inclusion, manufacturing initiatives, and startup ecosystems transformed modern India.
+
+---
+
 # v1.13.0 - Major Laws & Reforms Foundation
 
 Release Date: 2026-06-01

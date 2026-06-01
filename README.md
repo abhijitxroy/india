@@ -75,7 +75,9 @@ Political Parties
         ↓
 Laws & Reforms
         ↓
-Economic & Social Transformations
+Economic Transformations
+        ↓
+Social Transformations
         ↓
 Modern India
 ```
@@ -387,18 +389,44 @@ P3
 
 Understanding India's economic journey.
 
-- Planned Economy
+- Planning Commission
 - License Raj
 - Green Revolution
-- 1991 Reforms
-- Digital India
-- UPI Revolution
 - White Revolution
-- Economic Crises
-- Banking Reforms
-- Liberalization, Privatization & Globalization (LPG)
-- Economic Booms & Crises
-- Food Security Transformations
+- Economic Reforms (1991)
+- NITI Aayog
+- Telecom Revolution
+- IT & Software Revolution
+- Digital India
+- Jan Dhan Yojana
+- Aadhaar & DBT
+- UPI Revolution
+- Make in India
+- Startup India
+
+### Priority Learning Order
+
+```text
+P1 (Highest ROI)
+├── Economic Reforms (1991)
+├── Green Revolution
+├── Telecom Revolution
+├── IT & Software Revolution
+├── Digital India
+└── UPI Revolution
+
+P2
+├── License Raj
+├── Planning Commission
+├── NITI Aayog
+├── Aadhaar & DBT
+├── Jan Dhan Yojana
+└── White Revolution
+
+P3
+├── Make in India
+└── Startup India
+```
 
 ---
 
@@ -465,6 +493,11 @@ Coverage includes:
 - Parliament Timeline
 - Law-Making Timeline
 - Economic Reform Timeline
+- Agricultural Transformation Timeline
+- Telecom Revolution Timeline
+- Digital Transformation Timeline
+- Financial Inclusion Timeline
+- Economic Institution Timeline
 - Major Laws Timeline
 
 The goal is to help readers understand events chronologically at a glance.
