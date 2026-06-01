@@ -5,6 +5,112 @@ All notable changes to this repository will be documented in this file.
 The format is inspired by Keep a Changelog and follows a repository milestone approach.
 
 ---
+# v1.6.0 - Political Parties Foundation
+
+Release Date: 2026-06-01
+
+## Added
+
+### Political Parties
+
+- Political Parties README
+- National Political Parties
+- Regional Political Parties
+- Recognition of Political Parties
+- Party Symbols
+- Coalition Politics
+- Anti-Defection Law
+- Political Party Evolution Timeline
+
+### National Parties
+
+- Bharatiya Janata Party (BJP)
+- Indian National Congress (INC)
+- Communist Party of India (CPI)
+- Communist Party of India (Marxist) [CPI(M)]
+
+### Regional Parties
+
+- All India Trinamool Congress (TMC)
+- Regional Parties Overview
+
+### Political Journey
+
+```text
+Citizen
+      ↓
+Vote
+      ↓
+Political Party
+      ↓
+Election Campaign
+      ↓
+Election
+      ↓
+Seats Won
+      ↓
+Majority / Coalition
+      ↓
+Government Formation
+      ↓
+Public Policy
+```
+
+### Party System Journey
+
+```text
+Political Organization
+          ↓
+Registered Party
+          ↓
+State Party
+          ↓
+National Party
+          ↓
+Election Symbol
+          ↓
+Electoral Competition
+          ↓
+Government Formation
+```
+
+### Repository Enhancements
+
+- Root README expanded further
+- Political learning path strengthened
+- Party system coverage added
+- Coalition politics roadmap added
+- Party recognition concepts introduced
+
+### Knowledge Coverage Expansion
+
+Repository now covers:
+
+- Civilization & History
+- India Through Time
+- Constitution & Nation Building
+- Government Structure
+- Elections & Democracy
+- Political Parties
+- Federal Governance
+- Constitutional Offices
+- Local Self Governance Foundations
+
+### Significance
+
+This release establishes the political party foundation required to understand:
+
+- Prime Ministers and Governments
+- Coalition Governments
+- Parliament
+- Law Making
+- Electoral Competition
+- Public Policy Formation
+- Modern Indian Politics
+
+The repository now explains how political parties emerge, compete in elections, form alliances, win power, and participate in democratic governance.
+
+---
 
 # v1.5.0 - Elections and Democracy Foundation
 

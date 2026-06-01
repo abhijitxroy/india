@@ -216,6 +216,10 @@ Understanding India's political landscape.
 - CPI
 - CPI(M)
 - TMC
+- Recognition of Political Parties
+- Party Symbols
+- Coalition Politics
+- Anti-Defection Law
 - Party Evolution Timeline
 
 ---
@@ -257,6 +261,8 @@ Understanding how laws are created.
 - Rajya Sabha
 - Bills and Acts
 - Legislative Process
+- Parliamentary Committees
+- Ordinances
 
 ---
 
@@ -371,6 +377,8 @@ Coverage includes:
 - Prime Minister Timeline
 - President Timeline
 - Political Party Timeline
+- Election Timeline
+- Parliament Timeline
 - Economic Reform Timeline
 - Major Laws Timeline
 
@@ -406,6 +414,8 @@ Quick reference for important terms.
 - Political Terminology
 - Constitutional Terms
 - Election Terms
+- Parliamentary Terms
+- Political Party Terms
 - Governance Terms
 
 ---
@@ -565,6 +575,14 @@ If you're new to the repository, follow this order:
 06 Political Parties
         ↓
 07 Prime Ministers & Governments
+        ↓
+08 Presidents & Vice Presidents
+        ↓
+09 Chief Ministers & States
+        ↓
+10 Parliament & Law Making
+        ↓
+11 Judiciary
         ↓
 Remaining Sections
 ```
