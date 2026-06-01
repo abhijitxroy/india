@@ -248,6 +248,21 @@ Understanding the constitutional heads of India.
 
 - Presidents Timeline
 - Vice Presidents Timeline
+- President Election Process
+- Powers of the President
+- President vs Prime Minister
+
+- President Election Process
+- Powers of the President
+- President vs Prime Minister
+- Rajendra Prasad
+- Sarvepalli Radhakrishnan
+- Zakir Husain
+- V. V. Giri
+- A. P. J. Abdul Kalam
+- K. R. Narayanan
+- Pranab Mukherjee
+- Droupadi Murmu
 
 ---
 
@@ -258,6 +273,11 @@ Understanding India's states and their evolution.
 - States of India
 - State Formation Timeline
 - Chief Ministers Timeline
+
+- State Reorganization
+- State Governance
+- Centre-State Relations
+- Major States Overview
 
 ---
 
@@ -388,6 +408,9 @@ Coverage includes:
 - Prime Minister Timeline
 - Government Timeline
 - President Timeline
+- Vice President Timeline
+- President Election Timeline
+- State Formation Timeline
 - Political Party Timeline
 - Election Timeline
 - Parliament Timeline
@@ -440,6 +463,10 @@ Visual learning resources.
 - Timelines
 - Elections
 - Governance
+- Parliament Diagrams
+- Judiciary Diagrams
+- Federalism Diagrams
+- State Governance Diagrams
 - Political Parties
 - Dashboards
 - Bar Charts
@@ -480,6 +507,10 @@ Planned visual learning areas:
 - Economic Crisis Dashboard
 - Government Comparison Dashboard
 - Prime Minister Comparison Dashboard
+- President Timeline Dashboard
+- Constitutional Offices Dashboard
+- State Governance Dashboard
+- Federalism Dashboard
 
 These dashboards will help transform complex political and governance information into easy-to-understand visual insights.
 
@@ -555,6 +586,8 @@ Planned future enhancements include:
 - India By Decades Project
 - India Through Governments Project
 - Prime Minister Performance Tracking
+- President Performance Timeline
+- Constitutional Offices Evolution Timeline
 - Government Reform Timeline
 - National & State Performance Dashboards
 - Political Party Growth Analytics

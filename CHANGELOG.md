@@ -2,7 +2,79 @@
 
 All notable changes to this repository will be documented in this file.
 
-# The format is inspired by Keep a Changelog and follows a repository milestone approach.
+---
+
+# v1.8.0 - Presidents and Vice Presidents Foundation
+
+Release Date: 2026-06-01
+
+## Added
+
+### Presidents and Vice Presidents
+
+- Presidents and Vice Presidents README
+- Presidents Timeline of India
+- Vice Presidents Timeline of India
+- President Election Process
+- Powers of the President
+- President vs Prime Minister
+
+### Constitutional Journey
+
+```text
+Constitution
+        ↓
+President
+        ↓
+Vice President
+        ↓
+Election Process
+        ↓
+Constitutional Powers
+        ↓
+Parliamentary Functions
+```
+
+### Major Constitutional Offices
+
+- President of India
+- Vice President of India
+- Chairman of Rajya Sabha
+- Constitutional Head of State
+
+### Repository Enhancements
+
+- Root README expanded further
+- Constitutional offices roadmap expanded
+- President timeline added
+- Vice President timeline added
+- Institutional governance coverage strengthened
+
+### Knowledge Coverage Expansion
+
+Repository now covers:
+
+- Civilization & History
+- India Through Time
+- Constitution & Nation Building
+- Government Structure
+- Elections & Democracy
+- Political Parties
+- Prime Ministers & Governments
+- Presidents & Vice Presidents
+- Federal Governance
+
+### Significance
+
+This release establishes the constitutional leadership foundation required to understand:
+
+- Parliament & Law Making
+- Judiciary
+- Public Administration
+- Constitutional Processes
+- Institutional Governance
+
+The repository now explains the role of India's highest constitutional offices and their relationship with democratic governance.
 
 ---
 

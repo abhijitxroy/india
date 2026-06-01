@@ -92,6 +92,14 @@ Status: Planned
 - Explain constitutional powers and limitations
 - Add President vs Prime Minister comparison
 - Add election process diagrams
+- Add Presidents timeline
+- Add Vice Presidents timeline
+- Add President election workflow diagram
+- Add President succession process
+- Add President vs Vice President comparison
+- Add President vs Prime Minister comparison
+- Add constitutional office timeline
+- Add major constitutional case studies involving Presidents
 
 ### States & Chief Ministers
 
@@ -226,6 +234,9 @@ Proposed Structure:
 - political-parties-dashboard.md
 - parliament-dashboard.md
 - judiciary-dashboard.md
+- President Timeline Dashboard
+- Constitutional Offices Dashboard
+- Prime Minister Timeline Dashboard
 - economy-dashboard.md
 - demographics-dashboard.md
 - current-india-dashboard.md
@@ -339,6 +350,9 @@ Explain major events, crises, conflicts, and shocks that significantly changed I
 - Government Timeline Dashboard
 - Parliament Dashboard
 - Judiciary Dashboard
+- President Timeline Dashboard
+- Constitutional Offices Dashboard
+- Prime Minister Timeline Dashboard
 
 ---
 
@@ -582,6 +596,8 @@ Coverage:
 - Armed Forces
 - NITI Aayog
 - State Institutions
+- President of India
+- Vice President of India
 
 Goal:
 
