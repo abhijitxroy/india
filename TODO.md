@@ -333,6 +333,38 @@ Status: Planned
 
 ---
 
+### Contemporary India
+
+- Add Contemporary India README
+- Add learning priority framework (P1/P2/P3)
+- Add Contemporary India framework diagrams
+- Add governance workflow diagrams
+- Add public policy lifecycle diagrams
+- Add Parliament workflow diagrams
+- Add federal governance framework
+- Add Centre-State coordination framework
+- Add governance dashboard
+- Add public policy dashboard
+- Add Parliament dashboard
+- Add federalism dashboard
+- Add States & Union Territories dashboard
+- Add governance case studies
+- Add public policy case studies
+- Add digital governance overview
+- Add e-Governance overview
+- Add India in the 21st Century
+- Add contemporary challenges overview
+- Add governance reform timeline
+- Add public policy timeline
+- Add Parliament productivity dashboard
+- Add citizen-to-policy workflow diagrams
+- Add governance performance indicators
+- Add service delivery framework
+- Add cooperative federalism overview
+- Add administrative modernization overview
+
+---
+
 ## Phase 5 - India First Strategy
 
 Status: Planned

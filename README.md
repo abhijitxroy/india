@@ -83,7 +83,7 @@ Social Transformations
         ↓
 Foreign Policy & Defence
         ↓
-Modern India
+Contemporary India
 ```
 
 ### India Can Be Studied Through 5 Different Lenses
@@ -123,7 +123,7 @@ Economy
       ↓
 Society
       ↓
-Modern India
+Contemporary India
 ```
 
 This layered approach helps explain not only what happened, but why India evolved the way it did.
@@ -544,16 +544,24 @@ P3
 
 ---
 
-## 17. Current India
+## 17. Contemporary India
 
-Understanding present-day India.
+Understanding how India functions in the contemporary era.
 
-- Current Leadership
-- Current Parliament
-- Current States
-- Current Major Policies
-- Current Government Priorities
-- Current National Programs
+- Contemporary Governance
+- Contemporary Parliament
+- Contemporary Public Policy
+- Contemporary States & Union Territories
+
+### Priority Learning Order
+
+```text
+P1 (Highest ROI)
+├── Contemporary Governance
+├── Contemporary Parliament
+├── Contemporary Public Policy
+└── Contemporary States & Union Territories
+```
 
 ---
 
@@ -754,7 +762,7 @@ The long-term objective is to create a complete India Knowledge System covering:
 - Society
 - Defence
 - Foreign Policy
-- Current Affairs
+- Contemporary India
 - Government Performance
 - Data & Analytics
 
@@ -830,6 +838,10 @@ If you're new to the repository, follow this order:
 14 Economic Transformations
         ↓
 15 Social Transformations
+        ↓
+16 Foreign Policy & Defence
+        ↓
+17 Contemporary India
         ↓
 Remaining Sections
 ```
