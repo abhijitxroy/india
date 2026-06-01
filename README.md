@@ -290,8 +290,10 @@ Understanding how laws are created.
 - Parliament
 - Lok Sabha
 - Rajya Sabha
-- Bills and Acts
-- Legislative Process
+- Law-Making Process
+- Bill vs Act
+- Money Bill vs Finance Bill
+- Joint Session
 - Parliamentary Committees
 - Ordinances
 
@@ -417,6 +419,7 @@ Coverage includes:
 - Political Party Timeline
 - Election Timeline
 - Parliament Timeline
+- Law-Making Timeline
 - Economic Reform Timeline
 - Major Laws Timeline
 
@@ -514,6 +517,8 @@ Planned visual learning areas:
 - Prime Minister Comparison Dashboard
 - President Timeline Dashboard
 - Constitutional Offices Dashboard
+- Parliament Dashboard
+- Law-Making Dashboard
 - State Governance Dashboard
 - Federalism Dashboard
 

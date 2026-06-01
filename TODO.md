@@ -133,6 +133,17 @@ Status: Planned
 - Add Ordinance process
 - Add Lok Sabha vs Rajya Sabha comparison
 - Add Parliament workflow diagrams
+- Add Parliament overview
+- Add Lok Sabha coverage
+- Add Rajya Sabha coverage
+- Add law-making process workflow
+- Add Bill vs Act comparison
+- Add Money Bill vs Finance Bill comparison
+- Add Joint Session workflow
+- Add Question Hour and Zero Hour
+- Add Parliamentary Sessions overview
+- Add Speaker and Chairman roles
+- Add Parliament timeline
 
 ### Judiciary
 
@@ -248,6 +259,9 @@ Proposed Structure:
 - Chief Minister Timeline Dashboard
 - State Formation Dashboard
 - State Governance Dashboard
+- Parliament Dashboard
+- Law-Making Dashboard
+- Parliamentary Productivity Dashboard
 - economy-dashboard.md
 - demographics-dashboard.md
 - current-india-dashboard.md
@@ -360,6 +374,8 @@ Explain major events, crises, conflicts, and shocks that significantly changed I
 - Prime Minister Comparison Dashboard
 - Government Timeline Dashboard
 - Parliament Dashboard
+- Law-Making Dashboard
+- Parliamentary Productivity Dashboard
 - Judiciary Dashboard
 - President Timeline Dashboard
 - Constitutional Offices Dashboard
@@ -614,6 +630,9 @@ Coverage:
 - Vice President of India
 - Governors
 - State Legislatures
+- Lok Sabha
+- Rajya Sabha
+- Parliamentary Committees
 
 Goal:
 

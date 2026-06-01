@@ -4,6 +4,88 @@ All notable changes to this repository will be documented in this file.
 
 ---
 
+# v1.10.0 - Parliament and Law Making Foundation
+
+Release Date: 2026-06-01
+
+## Added
+
+### Parliament and Law Making
+
+- Parliament and Law Making README
+- Parliament of India
+- Lok Sabha
+- Rajya Sabha
+- Law-Making Process
+- Bill vs Act
+- Ordinance
+
+### Legislative Journey
+
+```text
+Citizens
+      ↓
+Election
+      ↓
+Members of Parliament
+      ↓
+Lok Sabha & Rajya Sabha
+      ↓
+Bills
+      ↓
+Law-Making
+      ↓
+Acts
+```
+
+### Parliamentary Structure
+
+```text
+President
+      ↓
+Parliament
+      ↓
+├── Lok Sabha
+└── Rajya Sabha
+```
+
+### Repository Enhancements
+
+- Root README expanded further
+- Parliament roadmap expanded
+- Legislative process coverage added
+- Parliamentary institution coverage strengthened
+- Law-making learning path improved
+
+### Knowledge Coverage Expansion
+
+Repository now covers:
+
+- Civilization & History
+- India Through Time
+- Constitution & Nation Building
+- Government Structure
+- Elections & Democracy
+- Political Parties
+- Prime Ministers & Governments
+- Presidents & Vice Presidents
+- States & Chief Ministers
+- Parliament & Law Making
+
+### Significance
+
+This release establishes the legislative foundation required to understand:
+
+- Judiciary
+- Public Administration
+- Constitutional Processes
+- Public Policy
+- Governance Reforms
+
+The repository now explains how Parliament functions, how laws are made, and how legislative institutions contribute to democratic governance.
+
+---
+
 # v1.9.0 - States and Chief Ministers Foundation
 
 Release Date: 2026-06-01
