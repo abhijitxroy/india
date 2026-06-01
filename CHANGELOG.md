@@ -6,6 +6,78 @@ The format is inspired by Keep a Changelog and follows a repository milestone ap
 
 ---
 
+# v1.3.0 - Constitution and Nation Building Foundation
+
+Release Date: 2026-06-01
+
+## Added
+
+### Constitution and Nation Building
+
+- Constitution Overview
+- Constituent Assembly
+- Making of the Constitution
+- Preamble
+- Fundamental Rights
+- Directive Principles of State Policy (DPSP)
+- Fundamental Duties
+- Constitutional Amendments
+- Constitution and Nation Building README
+
+### Constitutional Journey
+
+```text
+Constituent Assembly
+        ↓
+Making of the Constitution
+        ↓
+Constitution Overview
+        ↓
+Preamble
+        ↓
+Fundamental Rights
+        ↓
+Directive Principles
+        ↓
+Fundamental Duties
+        ↓
+Constitutional Amendments
+```
+
+### Repository Enhancements
+
+- Root README further expanded
+- India Knowledge System vision strengthened
+- Future Analytics & Dashboards roadmap added
+- Constitution expansion backlog added
+- India by Decades roadmap added
+
+### Knowledge Coverage Expansion
+
+Repository now covers:
+
+- Civilization
+- History
+- Colonial India
+- Freedom Movement
+- Independence
+- Republic Formation
+- Constitution
+- Rights, Duties and Governance Foundations
+
+## Significance
+
+This release establishes the constitutional foundation required to understand:
+
+- Government Structure
+- Parliament
+- Judiciary
+- Elections
+- Public Administration
+- Laws and Policies
+
+---
+
 # v1.2.0 - India Through Time Foundation
 
 Release Date: 2026-06-01

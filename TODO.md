@@ -385,6 +385,46 @@ Allow readers to understand India's complete transformation from early civilizat
 
 ---
 
+## India by Decades Project
+
+Status: Planned (Long-Term)
+
+Purpose:
+
+Explain how India changed decade by decade after independence.
+
+Proposed Structure:
+
+- 1947-1959 Nation Building Era
+- 1960-1969 Wars & Green Revolution Era
+- 1970-1979 Bangladesh War & Emergency Era
+- 1980-1989 Political Transition Era
+- 1990-1999 Liberalization Era
+- 2000-2009 IT & Infrastructure Growth Era
+- 2010-2019 Digital Transformation Era
+- 2020-Present New India Era
+
+For each decade:
+
+- Political Landscape
+- Prime Ministers
+- Major Laws
+- Economic Changes
+- Social Changes
+- Wars & Conflicts
+- Foreign Policy
+- Technology & Innovation
+- Major Successes
+- Major Challenges
+
+Goal:
+
+Allow readers to understand modern Indian history through a decade-by-decade transformation journey.
+
+---
+
+---
+
 ## Long-Term Vision
 
 Build a comprehensive, easy-to-understand knowledge repository explaining India's journey from ancient civilization to modern nationhood through history, politics, governance, institutions, laws, reforms, elections, and major transformations.
