@@ -77,15 +77,30 @@ Status: Planned
 - Create timeline and profile for every Prime Minister
 - Cover major policies, reforms, achievements, and criticisms
 
+- Add governments timeline
+- Add coalition governments overview
+- Add Prime Minister comparison framework
+- Add governance era comparison tables
+- Add major policy timeline
+- Add government formation diagrams
+
 ### Presidents & Vice Presidents
 
 - Create timeline and profile for every President
 - Create timeline and profile for every Vice President
 
+- Explain constitutional powers and limitations
+- Add President vs Prime Minister comparison
+- Add election process diagrams
+
 ### States & Chief Ministers
 
 - Document state formation history
 - Cover major state-level political developments
+
+- Create Chief Ministers timeline for major states
+- Add state formation timeline
+- Add state governance comparison framework
 
 ---
 
@@ -98,10 +113,20 @@ Status: Planned
 - Expand legislative process coverage
 - Add bill-to-law lifecycle diagrams
 
+- Add Parliamentary Committees
+- Add Ordinance process
+- Add Lok Sabha vs Rajya Sabha comparison
+- Add Parliament workflow diagrams
+
 ### Judiciary
 
 - Add landmark judgments
 - Add constitutional case studies
+
+- Add Supreme Court structure
+- Add High Court system
+- Add Judicial Review
+- Add PIL (Public Interest Litigation)
 
 ### Public Administration
 
@@ -310,6 +335,11 @@ Explain major events, crises, conflicts, and shocks that significantly changed I
 - State Development Dashboard
 - Election Analytics Dashboard
 
+- Prime Minister Comparison Dashboard
+- Government Timeline Dashboard
+- Parliament Dashboard
+- Judiciary Dashboard
+
 ---
 
 ## Deep-Dive Historical Events
@@ -472,6 +502,11 @@ Coverage:
 - UPA Era
 - NDA Era
 
+- Contemporary NDA Era
+- Government Transition Timeline
+- Coalition Governments Analysis
+- Prime Minister Comparison Matrix
+
 For each government:
 
 - Election Context
@@ -518,6 +553,11 @@ Coverage:
 - Energy Production
 - Internet & Mobile Adoption
 - State-wise Development Indicators
+
+- Government Performance Indicators
+- Election Participation Trends
+- Parliamentary Productivity Trends
+- State Governance Indicators
 
 Goal:
 

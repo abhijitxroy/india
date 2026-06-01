@@ -2,7 +2,88 @@
 
 All notable changes to this repository will be documented in this file.
 
-The format is inspired by Keep a Changelog and follows a repository milestone approach.
+# The format is inspired by Keep a Changelog and follows a repository milestone approach.
+
+---
+
+# v1.7.0 - Prime Ministers and Governments Foundation
+
+Release Date: 2026-06-01
+
+## Added
+
+### Prime Ministers and Governments
+
+- Prime Ministers and Governments README
+- Governments Timeline of India
+- Prime Ministers Timeline of India
+- Coalition Governments
+
+### Governance Journey
+
+```text
+Citizen
+      ↓
+Election
+      ↓
+Political Party / Coalition
+      ↓
+Prime Minister
+      ↓
+Council of Ministers
+      ↓
+Government
+      ↓
+Policies & Reforms
+      ↓
+National Development
+```
+
+### Major Governance Eras
+
+- Nehru Era
+- Shastri Era
+- Indira Gandhi Era
+- Janata Era
+- Coalition Era
+- NDA Era
+- UPA Era
+- Contemporary NDA Era
+
+### Repository Enhancements
+
+- Root README expanded further
+- Government timeline added
+- Prime Minister timeline added
+- Governance roadmap expanded
+- Prime Minister comparison roadmap added
+
+### Knowledge Coverage Expansion
+
+Repository now covers:
+
+- Civilization & History
+- India Through Time
+- Constitution & Nation Building
+- Government Structure
+- Elections & Democracy
+- Political Parties
+- Prime Ministers & Governments
+- Federal Governance
+- Constitutional Offices
+
+### Significance
+
+This release establishes the governance and leadership foundation required to understand:
+
+- Presidents & Vice Presidents
+- Parliament & Law Making
+- Judiciary
+- Public Administration
+- Policy Making
+- Modern Governance
+
+The repository now explains how elections, political parties, governments, and national leadership are connected in India's democratic system.
 
 ---
 # v1.6.0 - Political Parties Foundation

@@ -230,6 +230,15 @@ Understanding leadership at the national level.
 
 - Prime Ministers Timeline
 - Government Timeline
+- Coalition Governments
+- Jawaharlal Nehru
+- Lal Bahadur Shastri
+- Indira Gandhi
+- Morarji Desai
+- Rajiv Gandhi
+- Atal Bihari Vajpayee
+- Manmohan Singh
+- Narendra Modi
 
 ---
 
@@ -364,6 +373,8 @@ Understanding present-day India.
 - Current Parliament
 - Current States
 - Current Major Policies
+- Current Government Priorities
+- Current National Programs
 
 ---
 
@@ -375,6 +386,7 @@ Coverage includes:
 
 - Civilization Timeline
 - Prime Minister Timeline
+- Government Timeline
 - President Timeline
 - Political Party Timeline
 - Election Timeline
@@ -467,7 +479,7 @@ Planned visual learning areas:
 - Pandemic Timeline Dashboard
 - Economic Crisis Dashboard
 - Government Comparison Dashboard
-- State Development Dashboard
+- Prime Minister Comparison Dashboard
 
 These dashboards will help transform complex political and governance information into easy-to-understand visual insights.
 
@@ -542,6 +554,8 @@ Planned future enhancements include:
 - India Transformation Journey (Ancient India → Modern India)
 - India By Decades Project
 - India Through Governments Project
+- Prime Minister Performance Tracking
+- Government Reform Timeline
 - National & State Performance Dashboards
 - Political Party Growth Analytics
 - Historical Crisis & Recovery Tracking
