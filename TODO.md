@@ -247,6 +247,44 @@ Status: Planned
 - Add Semiconductor Mission
 - Add Skill India
 
+### Social Transformations
+
+- Add Social Transformations README
+- Add learning priority framework (P1/P2/P3)
+- Add social transformation timeline
+- Add social justice timeline
+- Add reservation policy timeline
+- Add women empowerment timeline
+- Add education transformation timeline
+- Add urbanization timeline
+- Add digital society timeline
+- Add social transformation comparison tables
+- Add social justice impact analysis framework
+- Add reservation system overview dashboard
+- Add SC/ST vs OBC vs EWS comparison
+- Add reservation policy evolution timeline
+- Add women representation dashboard
+- Add caste and politics overview
+- Add affirmative action comparison framework
+- Add social mobility framework
+- Add demographic transformation dashboard
+- Add middle class growth dashboard
+- Add digital society dashboard
+- Add social transformation dashboard
+- Add social transformation journey diagrams
+- Add Women Empowerment
+- Add Education Expansion
+- Add Urbanization
+- Add Population Growth
+- Add Middle Class Rise
+- Add Digital Society
+- Add Social Media Impact
+- Add Gender and Governance
+- Add Tribal Development
+- Add Dalit Movements
+- Add Minority Welfare
+- Add Education and Social Mobility
+
 ---
 
 ## Phase 5 - India First Strategy

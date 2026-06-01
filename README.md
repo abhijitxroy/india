@@ -77,6 +77,8 @@ Laws & Reforms
         ↓
 Economic Transformations
         ↓
+Social Justice & Representation
+        ↓
 Social Transformations
         ↓
 Modern India
@@ -115,7 +117,9 @@ Political Parties
       ↓
 Laws & Reforms
       ↓
-Economy & Society
+Economy
+      ↓
+Society
       ↓
 Modern India
 ```
@@ -434,16 +438,52 @@ P3
 
 Understanding major social changes.
 
+- Social Justice
 - Reservation System
-- Education
-- Healthcare
+- Affirmative Action
+- SC/ST Reservations
+- OBC Reservations
+- EWS Reservation
+- Women Reservation
+- Backward Class Commissions
+- Creamy Layer
+- Reservation Debates
+- Caste and Politics
 - Women Empowerment
-- Demographic Changes
-- Social Reform Movements
-- Census & Population Changes
+- Education Expansion
 - Urbanization
-- Public Health Transformations
-- Pandemic Responses
+- Population Growth
+- Middle Class Rise
+- Digital Society
+- Social Media Impact
+
+### Priority Learning Order
+
+```text
+P1 (Highest ROI)
+├── Social Justice
+├── Reservation System
+├── SC/ST Reservations
+├── OBC Reservations
+├── Women Reservation
+└── Women Empowerment
+
+P2
+├── Affirmative Action
+├── Backward Class Commissions
+├── EWS Reservation
+├── Caste and Politics
+├── Education Expansion
+└── Urbanization
+
+P3
+├── Creamy Layer
+├── Reservation Debates
+├── Population Growth
+├── Middle Class Rise
+├── Digital Society
+└── Social Media Impact
+```
 
 ---
 

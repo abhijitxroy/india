@@ -4,6 +4,110 @@ All notable changes to this repository will be documented in this file.
 
 ---
 
+# v1.15.0 - Social Justice & Reservation Foundation
+
+Release Date: 2026-06-01
+
+## Added
+
+### Social Transformations
+
+- Social Transformations README
+- Social Justice
+- Reservation System
+- Affirmative Action
+- SC/ST Reservations
+- OBC Reservations
+- EWS Reservation
+- Women Reservation
+- Backward Class Commissions
+- Creamy Layer
+- Reservation Debates
+- Caste and Politics
+- 103rd Constitutional Amendment
+
+### Social Justice Journey
+
+```text
+Social Justice
+        ↓
+Reservation System
+        ↓
+SC/ST Reservations
+        ↓
+OBC Reservations
+        ↓
+Creamy Layer
+        ↓
+EWS Reservation
+        ↓
+Women Reservation
+        ↓
+Representation
+        ↓
+Inclusive Governance
+```
+
+### Social Transformation Categories
+
+```text
+Social Justice
+        ↓
+Representation
+        ↓
+Affirmative Action
+        ↓
+Reservation Policies
+        ↓
+Political Participation
+        ↓
+Inclusive Development
+```
+
+### Repository Enhancements
+
+- Root README expanded further
+- Social Transformations roadmap expanded
+- Learning priority framework added
+- Social transformation journey added
+- Social justice classification structure added
+- Revision roadmap improved
+
+### Knowledge Coverage Expansion
+
+Repository now covers:
+
+- Civilization & History
+- India Through Time
+- Constitution & Nation Building
+- Government Structure
+- Elections & Democracy
+- Political Parties
+- Prime Ministers & Governments
+- Presidents & Vice Presidents
+- States & Chief Ministers
+- Parliament & Law Making
+- Judiciary
+- Public Administration & Governance
+- Major Laws & Reforms
+- Economic Transformations
+- Social Transformations
+
+### Significance
+
+This release establishes the social justice and representation foundation required to understand:
+
+- Equality and Inclusion
+- Reservation Policies
+- Representation in Governance
+- Social Justice Reforms
+- Democratic Participation
+- Contemporary Social Debates
+
+The repository now explains how social justice policies, reservation systems, representation mechanisms, affirmative action measures, and governance reforms shaped modern Indian society.
+
+---
+
 # v1.14.0 - Economic Transformations Foundation
 
 Release Date: 2026-06-01
