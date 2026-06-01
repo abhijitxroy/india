@@ -270,7 +270,28 @@ Understanding present-day India.
 
 ---
 
-## 18. Glossary
+### 18. Governments & Performance Tracking (Planned)
+
+Understanding governments term-by-term using evidence-based analysis.
+
+- Central Governments
+- State Governments
+- Election Manifestos
+- Major Decisions
+- Achievements
+- Criticisms
+- Infrastructure Progress
+- Education Progress
+- Healthcare Progress
+- Economic Performance
+- Budget & Spending
+- Government Report Cards
+
+This section will track governments chronologically rather than politically.
+
+---
+
+## 19. Glossary
 
 Quick reference for important terms.
 
@@ -281,7 +302,7 @@ Quick reference for important terms.
 
 ---
 
-## 19. Diagrams
+## 20. Diagrams
 
 Visual learning resources.
 
@@ -290,10 +311,15 @@ Visual learning resources.
 - Elections
 - Governance
 - Political Parties
+- Dashboards
+- Bar Charts
+- Pie Charts
+- Election Visualizations
+- Government Performance Views
 
 ---
 
-## 20. Reference Material
+## 21. Reference Material
 
 Source and reference collection.
 
@@ -335,6 +361,26 @@ No prior knowledge is required.
 # 🚀 Long-Term Vision
 
 To build a complete, easy-to-understand knowledge repository that explains India's journey from ancient civilization to modern nationhood through history, politics, governance, institutions, laws, reforms, and major transformations.
+
+---
+
+## Future Expansion Roadmap
+
+Planned future enhancements include:
+
+- Government Performance Tracking
+- Central Government Term Analysis
+- State Government Term Analysis
+- Election Promise Tracking
+- Policy Impact Tracking
+- Historical Dashboards
+- Election Dashboards
+- Economic Trend Dashboards
+- Population & Census Visualizations
+- Interactive Political Timelines
+- India Transformation Journey (Ancient India → Modern India)
+
+The repository aims to combine historical understanding, governance knowledge, data visualization, and long-term institutional analysis in a single knowledge system.
 
 ---
 

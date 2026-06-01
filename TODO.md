@@ -269,6 +269,7 @@ Track government performance using facts, data, outcomes, and multiple viewpoint
 
 ---
 
+
 ## National Crises, Conflicts & Transformations
 
 Status: Planned
@@ -286,6 +287,101 @@ Topics:
 Goal:
 
 Explain major events, crises, conflicts, and shocks that significantly changed India's political, economic, social, administrative, or strategic direction.
+
+---
+
+## Deep-Dive Historical Events
+
+Status: Planned (Post Foundation Phase)
+
+Purpose:
+
+Create dedicated deep-dive documents for major events that significantly changed Indian history.
+
+Topics:
+
+- Revolt of 1857
+- Partition of Bengal (1905)
+- Jallianwala Bagh Massacre
+- Non-Cooperation Movement
+- Salt March
+- Civil Disobedience Movement
+- Quit India Movement
+- INA (Indian National Army)
+- Integration of Princely States
+- Bangladesh Liberation War (1971)
+- Emergency (1975–1977)
+- Economic Liberalization (1991)
+- Pokhran Nuclear Tests
+- COVID-19 Pandemic
+
+Goal:
+
+Provide event-level analysis showing causes, timeline, key leaders, impact, controversies, and long-term consequences.
+
+---
+
+## Data, Research & Reference Expansion
+
+Status: Planned
+
+Purpose:
+
+Strengthen the repository using verifiable public data, official reports, historical records, and institutional references.
+
+Sources to Integrate:
+
+- Constitution of India
+- Election Commission of India
+- Parliament of India
+- Supreme Court of India
+- Census of India
+- RBI Publications
+- Economic Survey
+- Union Budget Documents
+- NITI Aayog Reports
+- State Government Reports
+- National Archives
+
+Goal:
+
+Ensure future dashboards, timelines, government analysis, and historical content are evidence-based and supported by reliable sources.
+
+---
+
+## India Transformation Project
+
+Status: Planned (Long-Term)
+
+Purpose:
+
+Build a single end-to-end transformation journey explaining how India evolved across every major phase.
+
+Journey:
+
+Prehistoric India
+↓
+Ancient Civilizations
+↓
+Kingdoms & Empires
+↓
+Colonial India
+↓
+Freedom Struggle
+↓
+Independent India
+↓
+Republic of India
+↓
+Economic Reforms
+↓
+Digital India
+↓
+Future India
+
+Goal:
+
+Allow readers to understand India's complete transformation from early civilization to a modern democratic republic through one connected narrative.
 
 ---
 
