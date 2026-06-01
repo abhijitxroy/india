@@ -4,6 +4,90 @@ All notable changes to this repository will be documented in this file.
 
 ---
 
+# v1.11.0 - Judiciary Foundation
+
+Release Date: 2026-06-01
+
+## Added
+
+### Judiciary
+
+- Judiciary README
+- Judiciary Overview
+- Supreme Court of India
+- High Courts
+- District Courts
+- Judicial Review
+- Landmark Judgments
+
+### Judicial Journey
+
+```text
+Constitution
+       ↓
+Judiciary
+       ↓
+Court Hierarchy
+       ↓
+Supreme Court
+       ↓
+High Courts
+       ↓
+District Courts
+       ↓
+Rights Protection
+```
+
+### Judicial Structure
+
+```text
+Supreme Court
+      ↓
+High Courts
+      ↓
+District Courts
+      ↓
+Subordinate Courts
+```
+
+### Repository Enhancements
+
+- Root README expanded further
+- Judiciary roadmap expanded
+- Judicial Review coverage added
+- Court system coverage strengthened
+- Constitutional safeguards learning path improved
+
+### Knowledge Coverage Expansion
+
+Repository now covers:
+
+- Civilization & History
+- India Through Time
+- Constitution & Nation Building
+- Government Structure
+- Elections & Democracy
+- Political Parties
+- Prime Ministers & Governments
+- Presidents & Vice Presidents
+- States & Chief Ministers
+- Parliament & Law Making
+- Judiciary
+
+### Significance
+
+This release establishes the judicial foundation required to understand:
+
+- Public Administration
+- Governance Reforms
+- Constitutional Remedies
+- Citizen Rights Protection
+- Institutional Accountability
+
+The repository now explains how courts function, how constitutional rights are protected, and how the judiciary maintains constitutional supremacy and rule of law.
+
+---
+
 # v1.10.0 - Parliament and Law Making Foundation
 
 Release Date: 2026-06-01

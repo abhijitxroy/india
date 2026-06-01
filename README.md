@@ -306,6 +306,11 @@ Understanding India's legal system.
 - Judiciary Overview
 - Supreme Court
 - High Courts
+- District Courts
+- Judicial Review
+- Public Interest Litigation (PIL)
+- Fundamental Rights Protection
+- Court Hierarchy
 - Landmark Judgments
 
 ---
@@ -425,6 +430,8 @@ Coverage includes:
 
 The goal is to help readers understand events chronologically at a glance.
 
+- Judiciary Timeline
+
 ---
 
 ### 18. Governments & Performance Tracking (Planned)
@@ -519,6 +526,8 @@ Planned visual learning areas:
 - Constitutional Offices Dashboard
 - Parliament Dashboard
 - Law-Making Dashboard
+- Judiciary Dashboard
+- Landmark Judgments Dashboard
 - State Governance Dashboard
 - Federalism Dashboard
 

@@ -154,6 +154,17 @@ Status: Planned
 - Add High Court system
 - Add Judicial Review
 - Add PIL (Public Interest Litigation)
+- Add Judiciary overview
+- Add Supreme Court coverage
+- Add High Court system coverage
+- Add District Court structure
+- Add Court Hierarchy overview
+- Add Judicial Review workflow
+- Add Fundamental Rights protection framework
+- Add Landmark Judgments coverage
+- Add constitutional remedies overview
+- Add separation of powers case studies
+- Add judiciary timeline
 
 ### Public Administration
 
@@ -262,6 +273,9 @@ Proposed Structure:
 - Parliament Dashboard
 - Law-Making Dashboard
 - Parliamentary Productivity Dashboard
+- Judiciary Dashboard
+- Landmark Judgments Dashboard
+- Constitutional Cases Dashboard
 - economy-dashboard.md
 - demographics-dashboard.md
 - current-india-dashboard.md
@@ -377,6 +391,8 @@ Explain major events, crises, conflicts, and shocks that significantly changed I
 - Law-Making Dashboard
 - Parliamentary Productivity Dashboard
 - Judiciary Dashboard
+- Landmark Judgments Dashboard
+- Constitutional Cases Dashboard
 - President Timeline Dashboard
 - Constitutional Offices Dashboard
 - Prime Minister Timeline Dashboard
@@ -633,6 +649,9 @@ Coverage:
 - Lok Sabha
 - Rajya Sabha
 - Parliamentary Committees
+- Supreme Court of India
+- High Courts
+- District Judiciary
 
 Goal:
 
