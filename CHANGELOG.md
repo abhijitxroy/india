@@ -5,6 +5,117 @@ All notable changes to this repository will be documented in this file.
 
 ---
 
+---
+
+# v1.18.0 - Glossary & Revision Hub Foundation
+
+Release Date: 2026-06-02
+
+## Added
+
+### Glossary
+
+- Glossary README
+- Political Terminology
+- Constitutional Terminology
+- Economic Terminology
+- Governance Terminology
+- Administrative Terminology
+- Election Terminology
+- Parliamentary Terminology
+- Judicial Terminology
+- Legal Terminology
+- Foreign Policy Terminology
+
+### Glossary Learning Framework
+
+```text
+Political Terminology
+        ↓
+Constitutional Terminology
+        ↓
+Economic Terminology
+        ↓
+Governance Terminology
+        ↓
+Administrative Terminology
+        ↓
+Election Terminology
+        ↓
+Parliamentary Terminology
+        ↓
+Judicial Terminology
+        ↓
+Legal Terminology
+        ↓
+Foreign Policy Terminology
+```
+
+### Revision Framework
+
+```text
+Term
+      ↓
+Simple Meaning
+      ↓
+Concept Understanding
+      ↓
+Related Topic
+      ↓
+Quick Revision
+```
+
+### Repository Enhancements
+
+- Root README expanded further
+- Glossary section completed
+- Repository-wide terminology coverage added
+- Learning priority framework expanded
+- Quick revision support strengthened
+- Cross-topic reference structure improved
+
+### Knowledge Coverage Expansion
+
+Repository now covers:
+
+- Civilization & History
+- India Through Time
+- Constitution & Nation Building
+- Government Structure
+- Elections & Democracy
+- Political Parties
+- Prime Ministers & Governments
+- Presidents & Vice Presidents
+- States & Chief Ministers
+- Parliament & Law Making
+- Judiciary
+- Public Administration & Governance
+- Major Laws & Reforms
+- Economic Transformations
+- Social Transformations
+- Foreign Policy & Defence
+- Contemporary India
+- Glossary & Revision Hub
+
+### Significance
+
+This release establishes a repository-wide terminology and revision foundation required to understand:
+
+- Political Concepts
+- Constitutional Concepts
+- Governance Concepts
+- Administrative Systems
+- Election Processes
+- Parliamentary Procedures
+- Judicial Institutions
+- Legal Frameworks
+- Economic Concepts
+- Foreign Policy Terminology
+
+The repository now provides a centralized quick-reference system that connects terminology, concepts, institutions, governance structures, laws, policies, and historical developments across the entire India knowledge ecosystem.
+
+---
+
 # v1.17.0 - Contemporary India Foundation
 
 Release Date: 2026-06-02

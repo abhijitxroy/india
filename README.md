@@ -8,7 +8,7 @@
 
 This repository explains how India evolved from early civilizations and kingdoms to the world's largest democracy.
 
-It covers Indian history, constitution, government, elections, political parties, laws, institutions, reforms, governance, and major transformations in simple, easy-to-understand language.
+It covers Indian history, constitution, government, elections, political parties, laws, institutions, reforms, governance, foreign policy, defence, contemporary India, and a comprehensive terminology glossary in simple, easy-to-understand language.
 
 The goal is not to create notes.
 
@@ -84,6 +84,8 @@ Social Transformations
 Foreign Policy & Defence
         ↓
 Contemporary India
+        ↓
+Glossary & Revision Hub
 ```
 
 ### India Can Be Studied Through 5 Different Lenses
@@ -124,6 +126,8 @@ Economy
 Society
       ↓
 Contemporary India
+      ↓
+Glossary & Revision
 ```
 
 This layered approach helps explain not only what happened, but why India evolved the way it did.
@@ -630,11 +634,35 @@ This section will track governments chronologically rather than politically.
 Quick reference for important terms.
 
 - Political Terminology
-- Constitutional Terms
-- Election Terms
-- Parliamentary Terms
-- Political Party Terms
-- Governance Terms
+- Constitutional Terminology
+- Economic Terminology
+- Governance Terminology
+- Administrative Terminology
+- Election Terminology
+- Parliamentary Terminology
+- Judicial Terminology
+- Legal Terminology
+- Foreign Policy Terminology
+
+### Priority Learning Order
+
+```text
+P1 (Highest ROI)
+├── Political Terminology
+├── Constitutional Terminology
+└── Economic Terminology
+
+P2
+├── Governance Terminology
+├── Administrative Terminology
+└── Election Terminology
+
+P3
+├── Parliamentary Terminology
+├── Judicial Terminology
+├── Legal Terminology
+└── Foreign Policy Terminology
+```
 
 ---
 
@@ -728,6 +756,7 @@ Every topic follows a simple structure:
 6. Criticisms
 7. Current Status
 8. Quick Revision
+9. Glossary Cross-Reference
 
 ---
 
@@ -763,6 +792,7 @@ The long-term objective is to create a complete India Knowledge System covering:
 - Defence
 - Foreign Policy
 - Contemporary India
+- Glossary & Revision Hub
 - Government Performance
 - Data & Analytics
 
@@ -842,6 +872,8 @@ If you're new to the repository, follow this order:
 16 Foreign Policy & Defence
         ↓
 17 Contemporary India
+        ↓
+19 Glossary
         ↓
 Remaining Sections
 ```

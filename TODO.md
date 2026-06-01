@@ -362,6 +362,11 @@ Status: Planned
 - Add service delivery framework
 - Add cooperative federalism overview
 - Add administrative modernization overview
+- Add Digital Public Infrastructure (DPI) overview
+- Add India Stack overview
+- Add Aadhaar ecosystem overview
+- Add UPI ecosystem overview
+- Add DigiLocker overview
 
 ---
 
@@ -464,7 +469,7 @@ Proposed Structure:
 - Constitutional Cases Dashboard
 - economy-dashboard.md
 - demographics-dashboard.md
-- current-india-dashboard.md
+- contemporary-india-dashboard.md
 - west-bengal-dashboard.md
 - Public Administration Dashboard
 - Civil Services Dashboard
@@ -595,6 +600,8 @@ Explain major events, crises, conflicts, and shocks that significantly changed I
 - Governance Dashboard
 - District Administration Dashboard
 - Service Delivery Dashboard
+- Contemporary India Dashboard
+- Digital Public Infrastructure Dashboard
 
 ---
 
