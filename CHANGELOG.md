@@ -6,6 +6,93 @@ The format is inspired by Keep a Changelog and follows a repository milestone ap
 
 ---
 
+# v1.4.0 - Government Structure Foundation
+
+Release Date: 2026-06-01
+
+## Added
+
+### Government Structure
+
+- Government Structure README
+- Central Government
+- State Government
+- Federalism
+- President of India
+- Vice President of India
+- Prime Minister of India
+- Governor
+- Chief Minister
+- Union Territories
+
+### Governance Journey
+
+```text
+Constitution
+        ↓
+Federalism
+        ↓
+Central Government
+        ↓
+President
+        ↓
+Prime Minister
+        ↓
+State Government
+        ↓
+Governor
+        ↓
+Chief Minister
+        ↓
+Union Territories
+```
+
+### Repository Enhancements
+
+- Root README expanded further
+- India Timeline Hub added
+- India Through 5 Lenses concept added
+- Recommended Reading Journey improved
+- Future roadmap expanded
+
+### TODO Enhancements
+
+Added future planning for:
+
+- Cabinet System
+- Council of Ministers
+- Union List, State List & Concurrent List
+- Centre-State Relations
+- India Through Governments Project
+- India Through Data Project
+- Election Analytics & Case Studies
+
+## Knowledge Coverage Expansion
+
+Repository now covers:
+
+- Civilization & History
+- Colonial India
+- Freedom Movement
+- Constitution
+- Government Structure
+- Federal Governance
+- Constitutional Offices
+- Union & State Administration
+
+## Significance
+
+This release establishes the governance foundation required to understand:
+
+- Elections & Democracy
+- Political Parties
+- Parliament
+- Judiciary
+- Public Administration
+- Policy Making
+
+---
+
 # v1.3.0 - Constitution and Nation Building Foundation
 
 Release Date: 2026-06-01

@@ -80,6 +80,22 @@ Economic & Social Transformations
 Modern India
 ```
 
+### India Can Be Studied Through 5 Different Lenses
+
+```text
+India Through History
+        ↓
+India Through Governments
+        ↓
+India Through Reforms
+        ↓
+India Through Institutions
+        ↓
+India Through Data & Analytics
+```
+
+This repository aims to connect all five perspectives into a single learning journey.
+
 ---
 
 # 🗂️ Repository Structure
@@ -99,6 +115,8 @@ Understanding the foundations of India.
 - Regional Kingdoms
 - Delhi Sultanate
 - Mughal Empire
+- South Indian Kingdoms
+- Civilization Timeline
 
 ---
 
@@ -113,6 +131,7 @@ Understanding India's historical evolution.
 - Partition
 - Independence
 - Republic of India
+- Timeline of Modern India
 
 ---
 
@@ -248,6 +267,8 @@ Understanding key laws that shaped India.
 - NRC
 - UCC
 - Emergency (1975)
+- Major Constitutional Changes
+- Landmark Policy Reforms
 
 ---
 
@@ -265,6 +286,8 @@ Understanding India's economic journey.
 - Economic Crises
 - Banking Reforms
 - Liberalization, Privatization & Globalization (LPG)
+- Economic Booms & Crises
+- Food Security Transformations
 
 ---
 
@@ -280,6 +303,8 @@ Understanding major social changes.
 - Social Reform Movements
 - Census & Population Changes
 - Urbanization
+- Public Health Transformations
+- Pandemic Responses
 
 ---
 
@@ -305,6 +330,23 @@ Understanding present-day India.
 - Current Parliament
 - Current States
 - Current Major Policies
+
+---
+
+## India Timeline Hub
+
+A dedicated timeline section connects major events across the repository.
+
+Coverage includes:
+
+- Civilization Timeline
+- Prime Minister Timeline
+- President Timeline
+- Political Party Timeline
+- Economic Reform Timeline
+- Major Laws Timeline
+
+The goal is to help readers understand events chronologically at a glance.
 
 ---
 
@@ -455,6 +497,12 @@ Planned future enhancements include:
 - Population & Census Visualizations
 - Interactive Political Timelines
 - India Transformation Journey (Ancient India → Modern India)
+- India By Decades Project
+- India Through Governments Project
+- National & State Performance Dashboards
+- Political Party Growth Analytics
+- Historical Crisis & Recovery Tracking
+- War, Conflict & Security Timeline
 
 The repository aims to combine historical understanding, governance knowledge, data visualization, and long-term institutional analysis in a single knowledge system.
 
@@ -480,4 +528,30 @@ If you're new to the repository, follow this order:
 Remaining Sections
 ```
 
-This sequence provides the clearest understanding of how India evolved into the nation it is today.
+### Recommended Reading Style
+
+Do not read the repository as separate topics.
+
+Instead, follow the journey chronologically:
+
+```text
+Civilizations
+        ↓
+Empires
+        ↓
+Colonial India
+        ↓
+Freedom Movement
+        ↓
+Constitution
+        ↓
+Government
+        ↓
+Elections
+        ↓
+Political Parties
+        ↓
+Modern India
+```
+
+This provides the clearest understanding of how India evolved over thousands of years.

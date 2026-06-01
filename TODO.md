@@ -32,19 +32,27 @@ Status: In Progress
 
 ## Phase 2 - Core Governance & Politics
 
-Status: Planned
+Status: In Progress
 
 ## Government Structure
 
-- Complete central and state government sections
+- Complete central and state government sections ✅
 - Add organization charts
 - Add governance diagrams
+- Add Cabinet System
+- Add Council of Ministers
+- Add Union List, State List & Concurrent List
+- Add Centre-State Relations
 
 ## Elections & Democracy
 
 - Complete election-related content
 - Add election process diagrams
 - Add EVM and electoral reform coverage
+- Build election learning journey from voter to government formation
+- Add election timelines
+- Add major election case studies
+- Add election statistics and trend analysis
 
 ## Political Parties
 
@@ -422,6 +430,72 @@ Goal:
 Allow readers to understand modern Indian history through a decade-by-decade transformation journey.
 
 ---
+
+---
+
+## India Through Governments Project
+
+Status: Planned (Long-Term)
+
+Purpose:
+
+Explain India through successive governments rather than only through historical events.
+
+Coverage:
+
+- Nehru Era
+- Shastri Era
+- Indira Era
+- Janata Era
+- Rajiv Gandhi Era
+- Coalition Era
+- Vajpayee Era
+- UPA Era
+- NDA Era
+
+For each government:
+
+- Election Context
+- Major Promises
+- Major Decisions
+- Achievements
+- Criticisms
+- Economic Policies
+- Foreign Policy
+- Social Policies
+- Long-Term Impact
+
+Goal:
+
+Allow readers to understand how different governments shaped modern India.
+
+---
+
+## India Through Data Project
+
+Status: Planned (Long-Term)
+
+Purpose:
+
+Explain India's transformation through measurable data and trends.
+
+Coverage:
+
+- Population Growth
+- GDP Growth
+- Literacy
+- Poverty
+- Employment
+- Agriculture
+- Industry
+- Exports & Imports
+- Digital Adoption
+- Infrastructure Growth
+- Election Data
+
+Goal:
+
+Provide a data-driven view of India's development journey.
 
 ---
 
