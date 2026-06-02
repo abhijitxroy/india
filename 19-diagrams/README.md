@@ -31,6 +31,20 @@ These diagrams are designed for:
 
 ## How India Works
 
+### Visual Version (GitHub Mermaid)
+
+```mermaid
+flowchart TD
+    A[History] --> B[Constitution]
+    B --> C[Elections]
+    C --> D[Political Parties]
+    D --> E[Parliament]
+    E --> F[Government]
+    F --> G[Governance]
+    G --> H[Judiciary Oversight]
+    H --> I[Citizens]
+```
+
 ```text
 History
    ↓
