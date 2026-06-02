@@ -748,6 +748,7 @@ Coverage includes:
 - Judiciary Diagrams
 - Governance Diagrams
 - Government Structure Diagrams
+- Local Governance Diagrams
 - Political Parties Diagrams
 - History Diagrams
 - Timeline Diagrams
@@ -768,16 +769,9 @@ This section serves as the visual learning system for the repository.
 
 ### Current Status
 
-The repository currently contains diagram blueprints, learning maps, workflows, and visual specifications.
+The repository contains visual learning maps, governance workflows, institutional relationship diagrams, timeline visualizations, and Mermaid-based learning assets covering the major pillars of Indian politics and governance.
 
-Future enhancements will progressively convert important diagrams into:
-
-- Mermaid diagrams
-- SVG diagrams
-- Visual learning assets
-- Interactive learning maps
-
-The goal is to make complex political and governance concepts easier to understand through visual learning.
+The goal is to make complex political, constitutional, governance, institutional, and historical concepts easier to understand through visual learning and quick revision frameworks.
 
 ---
 
@@ -1023,11 +1017,11 @@ If you're new to the repository, follow this order:
         ↓
 19 Governments & Performance Tracking
         ↓
-20 Reference Material
-        ↓
-21 Visual Diagrams & Learning Maps
-        ↓
 20 Glossary
+↓
+21 Visual Diagrams & Learning Maps
+↓
+22 Reference Material
         ↓
 Remaining Sections
 ```

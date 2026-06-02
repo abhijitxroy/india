@@ -4,6 +4,63 @@ All notable changes to this repository will be documented in this file.
 
 ---
 
+# v1.23.0 - Visual Learning System Expansion
+
+Release Date: 2026-06-02
+
+## Added
+
+### Local Governance Visual Learning System
+
+Completed diagram coverage for:
+
+- Three-Tier Local Government
+- Panchayati Raj Structure
+- Municipal Governance Structure
+- Citizen to Local Government Journey
+- Local Governance Visual Learning Hub
+
+### Timeline Visual Expansion
+
+Expanded timeline coverage with:
+
+- Constitutional Development Timeline
+- Election Timeline
+- Economic Reforms Timeline
+- Governance Reform Timeline
+- Foreign Policy Timeline
+- Political Party Evolution Timeline
+- Prime Ministers Timeline
+- Presidents Timeline
+- State Formation Timeline
+- Social Transformation Timeline
+- Major Laws Timeline
+
+### Visual Learning Coverage
+
+```text
+History
+      ↓
+Constitution
+      ↓
+Elections
+      ↓
+Parliament
+      ↓
+Government Structure
+      ↓
+Political Parties
+      ↓
+Governance
+      ↓
+Local Governance
+      ↓
+Timelines
+      ↓
+Citizens
+
+---
+
 # v1.22.0 - Government Performance Tracking Foundation
 
 Release Date: 2026-06-02
