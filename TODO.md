@@ -605,6 +605,61 @@ Goal:
 
 Teach citizens how to evaluate governments using evidence, long-term outcomes, public data, accountability mechanisms, and measurable performance indicators rather than political narratives.
 
+---
+
+## Phase 8.7 - Governance Case Studies
+
+Status: Foundation Complete
+
+Purpose:
+
+Understand how major governance reforms, public policies, and development initiatives were designed, implemented, evaluated, and transformed India.
+
+Structure:
+
+23-governance-case-studies
+
+### Completed
+
+- Green Revolution ✅
+- White Revolution ✅
+- Economic Liberalization 1991 ✅
+- GST Implementation ✅
+- RTI Act Impact ✅
+- Aadhaar & DBT ✅
+- JAM Trinity ✅
+- UPI Digital Payments ✅
+- Swachh Bharat Mission ✅
+- COVID-19 Governance Response ✅
+- Governance Case Studies README ✅
+
+### Current Status
+
+```text
+Agricultural Transformation     ✅
+Economic Reforms                ✅
+Transparency & Accountability   ✅
+Digital Governance              ✅
+Public Service Delivery         ✅
+Governance Case Studies Hub     ✅
+```
+
+### Future Expansion
+
+- MGNREGA
+- Ayushman Bharat
+- National Education Policy
+- Digital India
+- Make in India
+- Startup India
+- PM-KISAN
+- Gati Shakti
+- Aspirational Districts Programme
+- National Infrastructure Pipeline
+
+Goal:
+
+Connect governance theory with real-world implementation, outcomes, lessons, successes, failures, and policy evolution.
 
 ## Phase 9 - Dashboards
 
@@ -767,7 +822,6 @@ Goal:
 Track government performance using facts, data, outcomes, and multiple viewpoints rather than political opinions.
 
 ---
-
 
 ## National Crises, Conflicts & Transformations
 

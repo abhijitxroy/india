@@ -789,10 +789,86 @@ Primary sources and supporting references used throughout the repository.
 - Census & Statistics Resources
 - Official Reports & Commissions
 
+# ## 23. Governance Case Studies
+
+Real-world governance and policy case studies that connect theory with implementation, outcomes, challenges, and lessons.
+
+### Coverage
+
+#### Agricultural Transformation
+
+- Green Revolution
+- White Revolution
+
+#### Economic Reforms
+
+- Economic Liberalization (1991)
+- GST Implementation
+
+#### Transparency & Accountability
+
+- RTI Act Impact
+
+#### Digital Governance
+
+- JAM Trinity
+- Aadhaar & DBT
+- UPI Digital Payments
+
+#### Public Service Delivery
+
+- Swachh Bharat Mission
+- COVID-19 Governance Response
+
 ### Why It Matters
 
-This section helps readers move beyond summaries and learn directly from authoritative sources, official publications, constitutional material, parliamentary records, judicial resources, economic reports, and statistical datasets.
+Case studies help readers understand:
+
+- Real governance challenges
+- Policy design decisions
+- Implementation approaches
+- Successes and failures
+- Public impact
+- Governance lessons
+
+### Governance Learning Model
+
+```text
+Problem
+    ↓
+Policy
+    ↓
+Implementation
+    ↓
+Outcome
+    ↓
+Lessons
+```
+
+### Priority Learning Order
+
+```text
+P1 (Highest ROI)
+├── Economic Liberalization (1991)
+├── GST
+├── Aadhaar & DBT
+├── UPI
+└── RTI
+
+P2
+├── Green Revolution
+├── White Revolution
+├── JAM Trinity
+└── COVID-19 Response
+
+P3
+└── Swachh Bharat Mission
+```
+
 ---
+
+# 🧭 Learning Paths & Study Strategy
+
 # 🧭 Learning Paths & Study Strategy
 
 ## 🧭 Recommended Learning Paths
@@ -913,7 +989,6 @@ No prior knowledge is required.
 ---
 
 # 🚀 Long-Term Vision
-
 
 To build a complete, easy-to-understand knowledge repository that explains India's journey from ancient civilization to modern nationhood through history, politics, governance, institutions, laws, reforms, and major transformations.
 

@@ -4,6 +4,80 @@ All notable changes to this repository will be documented in this file.
 
 ---
 
+# v1.24.0 - Governance Case Studies
+
+Release Date: 2026-06-02
+
+## Added
+
+### Governance Case Studies
+
+Completed governance case study coverage for:
+
+- Green Revolution
+- White Revolution
+- Economic Liberalization (1991)
+- GST Implementation
+- RTI Act Impact
+- Aadhaar & DBT
+- JAM Trinity
+- UPI Digital Payments
+- Swachh Bharat Mission
+- COVID-19 Governance Response
+
+### Governance Learning Framework
+
+```text
+Problem
+    ↓
+Policy
+    ↓
+Implementation
+    ↓
+Outcome
+    ↓
+Lessons
+```
+
+### Governance Coverage
+
+```text
+Agricultural Transformation
+        ↓
+Economic Reform
+        ↓
+Transparency
+        ↓
+Digital Governance
+        ↓
+Public Service Delivery
+        ↓
+Crisis Governance
+```
+
+### Learning Enhancements
+
+- Governance journey mapping
+- Reform progression framework
+- Governance theme classification
+- Interview preparation support
+- Quick revision summaries
+- Mermaid-based learning diagrams
+
+## Updated
+
+- 23-governance-case-studies README
+- Root README
+- TODO roadmap
+
+## Significance
+
+This release introduces practical governance case studies that connect public policy theory with real-world implementation.
+
+The repository now explains how major reforms, governance initiatives, development programs, transparency measures, digital public infrastructure, and public service delivery systems evolved and influenced modern India.
+
+---
+
 # v1.23.0 - Visual Learning System Expansion
 
 Release Date: 2026-06-02
@@ -38,7 +112,7 @@ Expanded timeline coverage with:
 
 ### Visual Learning Coverage
 
-```text
+````text
 History
       ↓
 Constitution
@@ -100,7 +174,7 @@ Healthcare
 Social Development
     ↓
 Performance Evaluation
-```
+````
 
 ### Evaluation Categories
 
@@ -1464,6 +1538,7 @@ This release establishes the governance and leadership foundation required to un
 The repository now explains how elections, political parties, governments, and national leadership are connected in India's democratic system.
 
 ---
+
 # v1.6.0 - Political Parties Foundation
 
 Release Date: 2026-06-01
