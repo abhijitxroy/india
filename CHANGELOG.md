@@ -1,9 +1,46 @@
 # Changelog
 
-
 All notable changes to this repository will be documented in this file.
 
 ---
+
+# v1.20.0 - India Timelines Foundation
+
+Release Date: 2026-06-02
+
+## Added
+
+### 21-India-Timelines
+
+Completed timeline coverage for:
+
+- Civilization Timeline
+- Freedom Struggle Timeline
+- Constitutional Development Timeline
+- Election Timeline
+- Political Party Timeline
+- Prime Minister Timeline
+- President Timeline
+- State Formation Timeline
+- Major Laws Timeline
+- Economic Reforms Timeline
+
+### Timeline Learning Framework
+
+```text
+Civilization
+      ↓
+Freedom Struggle
+      ↓
+Constitutional Development
+      ↓
+Elections
+      ↓
+Prime Ministers
+      ↓
+Major Laws & Reforms
+      ↓
+Modern India
 
 ---
 
