@@ -7,6 +7,106 @@ All notable changes to this repository will be documented in this file.
 
 ---
 
+# v1.19.0 - Visual Learning System Foundation
+
+Release Date: 2026-06-02
+
+## Added
+
+### 19-Diagrams Visual Learning System
+
+Completed citizen-first visual learning coverage for:
+
+- Constitution
+- Elections
+- Parliament
+- Judiciary
+- Governance
+- Government Structure
+- Political Parties
+- History
+- Timelines
+
+### Constitution Diagrams
+
+- Fundamental Rights Framework
+- Directive Principles Framework
+- Constitutional Governance Model
+- Constitution Amendment Process
+- Basic Structure Doctrine
+
+### Government Structure Diagrams
+
+- President–Prime Minister Relationship
+- Governor–Chief Minister Relationship
+- Union Government Structure
+- State Government Structure
+- Constitutional Authorities Framework
+
+### Parliament Diagrams
+
+- Parliament Structure
+- How a Bill Becomes a Law
+- Lok Sabha vs Rajya Sabha
+- Parliament Session Workflow
+- Parliamentary Committee System
+
+### Judiciary Diagrams
+
+- Judicial Hierarchy
+- Judicial Review Framework
+- Public Interest Litigation Workflow
+- Case Journey Through Courts
+
+### Repository Enhancements
+
+- 19-diagrams README synchronized
+- Root README enhanced with learning paths
+- Citizen learning journey framework added
+- Visual learning navigation improved
+- Repository learning order refined
+- Diagram ecosystem standardized
+
+### Visual Learning Journey
+
+```text
+History
+      ↓
+Constitution
+      ↓
+Elections
+      ↓
+Parliament
+      ↓
+Government Structure
+      ↓
+Governance
+      ↓
+Judiciary
+      ↓
+Citizens
+```
+
+## Updated
+
+- Root README
+- 19-diagrams README
+- Constitution README
+- Government Structure README
+- Parliament README
+- Judiciary README
+- TODO roadmap
+
+## Significance
+
+This release establishes a complete visual learning foundation for understanding Indian politics and governance.
+
+The repository now provides diagram-based learning paths covering institutions, elections, law making, governance structures, constitutional concepts, judicial safeguards, and democratic processes.
+
+The visual learning system serves as a citizen-friendly entry point into the broader India politics and governance knowledge ecosystem.
+
+---
+
 # v1.18.0 - Glossary & Revision Hub Foundation
 
 Release Date: 2026-06-02
