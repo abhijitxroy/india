@@ -4,6 +4,69 @@ All notable changes to this repository will be documented in this file.
 
 ---
 
+# v1.21.0 - Reference Material Foundation
+
+Release Date: 2026-06-02
+
+## Added
+
+### 20-Reference-Material
+
+Completed reference coverage for:
+
+- Constitution of India Resources
+- Parliament Resources
+- Judiciary Resources
+- Election Commission Resources
+- Government Portals
+- Budget Resources
+- Economic Survey Resources
+- Census & Statistics Resources
+- Official Reports & Commissions
+
+### Reference Learning Framework
+
+```text
+Constitution
+      ↓
+Parliament
+      ↓
+Judiciary
+      ↓
+Elections
+      ↓
+Government
+      ↓
+Economy
+      ↓
+Public Policy
+```
+
+### Reference Categories
+
+- Constitutional References
+- Parliamentary References
+- Judicial References
+- Electoral References
+- Government References
+- Economic References
+- Statistical References
+- Policy & Commission References
+
+## Updated
+
+- 20-reference-material README
+- Root README
+- TODO roadmap
+
+## Significance
+
+This release establishes a reference foundation built around authoritative sources, official publications, parliamentary material, judicial resources, government platforms, economic reports, statistical datasets, and policy commissions.
+
+The repository now provides a dedicated verification and research layer alongside its history, governance, timeline, glossary, and visual learning foundations.
+
+---
+
 # v1.20.0 - India Timelines Foundation
 
 Release Date: 2026-06-02
@@ -41,6 +104,7 @@ Prime Ministers
 Major Laws & Reforms
       ↓
 Modern India
+```
 
 ---
 

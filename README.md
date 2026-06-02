@@ -622,6 +622,8 @@ Major Laws & Reforms
 Modern India
 ```
 
+---
+
 ## 19. Governments & Performance Tracking (Planned)
 
 Understanding governments term-by-term using evidence-based analysis.
@@ -640,6 +642,8 @@ Understanding governments term-by-term using evidence-based analysis.
 - Government Report Cards
 
 This section will track governments chronologically rather than politically.
+
+---
 
 ## 20. Glossary
 
@@ -675,6 +679,8 @@ P3
 ├── Legal Terminology
 └── Foreign Policy Terminology
 ```
+
+---
 
 ## 21. Visual Diagrams & Learning Maps
 
@@ -719,15 +725,25 @@ Future enhancements will progressively convert important diagrams into:
 
 The goal is to make complex political and governance concepts easier to understand through visual learning.
 
+---
+
 ## 22. Reference Material
 
 Primary sources and supporting references used throughout the repository.
 
-- Constitution
-- Government Publications
-- Election Data
-- Census Data
-- Historical References
+- Constitution of India Resources
+- Parliament Resources
+- Judiciary Resources
+- Election Commission Resources
+- Government Portals
+- Budget Resources
+- Economic Survey Resources
+- Census & Statistics Resources
+- Official Reports & Commissions
+
+### Why It Matters
+
+This section helps readers move beyond summaries and learn directly from authoritative sources, official publications, constitutional material, parliamentary records, judicial resources, economic reports, and statistical datasets.
 ---
 # 🧭 Learning Paths & Study Strategy
 
@@ -950,6 +966,10 @@ If you're new to the repository, follow this order:
 17 Contemporary India
         ↓
 18 India Timelines
+        ↓
+20 Reference Material
+        ↓
+21 Visual Diagrams & Learning Maps
         ↓
 20 Glossary
         ↓

@@ -490,7 +490,66 @@ Priority Order:
 
 ---
 
-## Phase 8 - India Timelines
+---
+
+## Phase 8.5 - Reference Material
+
+Status: Foundation Complete
+
+Purpose:
+
+Provide authoritative, primary-source-oriented references that help readers verify information, explore official publications, and build evidence-based understanding of Indian politics and governance.
+
+Structure:
+
+20-reference-material
+
+### Completed
+
+- Constitution of India Resources ✅
+- Parliament Resources ✅
+- Judiciary Resources ✅
+- Election Commission Resources ✅
+- Government Portals ✅
+- Budget Resources ✅
+- Economic Survey Resources ✅
+- Census & Statistics Resources ✅
+- Official Reports & Commissions ✅
+- Reference Material README ✅
+
+### Current Status
+
+```text
+Constitutional References     ✅
+Parliamentary References      ✅
+Judicial References           ✅
+Electoral References          ✅
+Government References         ✅
+Economic References           ✅
+Statistical References        ✅
+Policy & Commission Reports   ✅
+Reference Hub                 ✅
+```
+
+### Future Expansion
+
+- RBI Resources
+- CAG Reports Guide
+- UPSC & Constitutional Bodies Resources
+- NITI Aayog Reports Guide
+- National Archives Guide
+- State Government Reference Sources
+- Public Policy Research Sources
+- Parliamentary Research Resources
+- Open Data & Transparency Resources
+
+Goal:
+
+Help readers move beyond summaries and understand India through official documents, primary sources, public datasets, parliamentary records, judicial material, and government publications.
+
+---
+
+## Phase 9 - Dashboards
 
 Status: Foundation Complete
 
