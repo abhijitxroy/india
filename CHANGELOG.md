@@ -4,6 +4,73 @@ All notable changes to this repository will be documented in this file.
 
 ---
 
+# v1.22.0 - Government Performance Tracking Foundation
+
+Release Date: 2026-06-02
+
+## Added
+
+### 22-Governments-Performance-Tracking
+
+Completed citizen-focused governance evaluation coverage for:
+
+- Citizen Accountability Framework
+- Governance Performance Framework
+- Central Government Performance Framework
+- State Government Comparison Framework
+- Economic Performance Framework
+- Infrastructure Performance Framework
+- Education Performance Framework
+- Healthcare Performance Framework
+- Social Development Framework
+- Manifesto vs Performance Framework
+
+### Government Evaluation Framework
+
+```text
+Citizen
+    ↓
+Accountability
+    ↓
+Governance
+    ↓
+Economy
+    ↓
+Education
+    ↓
+Healthcare
+    ↓
+Social Development
+    ↓
+Performance Evaluation
+```
+
+### Evaluation Categories
+
+- Citizen Accountability
+- Governance Evaluation
+- Economic Evaluation
+- Infrastructure Evaluation
+- Education Evaluation
+- Healthcare Evaluation
+- Social Development Evaluation
+- Manifesto Assessment
+- Government Comparison
+
+## Updated
+
+- 22-governments-performance-tracking README
+- Root README
+- TODO roadmap
+
+## Significance
+
+This release establishes a citizen-first framework for evaluating governments using evidence, measurable outcomes, accountability mechanisms, governance indicators, and public data.
+
+The repository now provides a dedicated performance and accountability layer alongside its history, governance, timelines, visual learning, glossary, and reference material foundations.
+
+---
+
 # v1.21.0 - Reference Material Foundation
 
 Release Date: 2026-06-02

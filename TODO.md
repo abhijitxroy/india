@@ -549,6 +549,65 @@ Help readers move beyond summaries and understand India through official documen
 
 ---
 
+## Phase 8.6 - Governments & Performance Tracking
+
+Status: Foundation Complete
+
+Purpose:
+
+Provide a citizen-focused, evidence-based framework for evaluating governments using governance outcomes, economic indicators, public services, accountability mechanisms, and measurable development results.
+
+Structure:
+
+22-governments-performance-tracking
+
+### Completed
+
+- Citizen Accountability Framework ✅
+- Governance Performance Framework ✅
+- Central Government Performance Framework ✅
+- State Government Comparison Framework ✅
+- Economic Performance Framework ✅
+- Infrastructure Performance Framework ✅
+- Education Performance Framework ✅
+- Healthcare Performance Framework ✅
+- Social Development Framework ✅
+- Manifesto vs Performance Framework ✅
+- Governments & Performance Tracking README ✅
+
+### Current Status
+
+```text
+Citizen Accountability          ✅
+Governance Evaluation           ✅
+Economic Evaluation             ✅
+Infrastructure Evaluation       ✅
+Education Evaluation            ✅
+Healthcare Evaluation           ✅
+Social Development Evaluation   ✅
+Manifesto Assessment            ✅
+Government Comparison           ✅
+Foundation Hub                  ✅
+```
+
+### Future Expansion
+
+- Central Government Term Tracking
+- State Government Term Tracking
+- Government Scorecard Methodology
+- Governance KPI Dashboard
+- Public Service Delivery Metrics
+- State Development Comparison Models
+- Manifesto Tracking System
+- Budget vs Outcome Analysis
+- Governance Case Studies
+- India Through Governments Project Integration
+
+Goal:
+
+Teach citizens how to evaluate governments using evidence, long-term outcomes, public data, accountability mechanisms, and measurable performance indicators rather than political narratives.
+
+
 ## Phase 9 - Dashboards
 
 Status: Foundation Complete
@@ -655,7 +714,7 @@ Make complex topics easier to understand through visual representations.
 
 ---
 
-## Phase 10 - Governments & Performance Tracking
+## Phase 10 - Government Term Tracking & Scorecards
 
 Status: Planned (Post Foundation Phase)
 

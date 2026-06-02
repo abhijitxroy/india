@@ -624,24 +624,78 @@ Modern India
 
 ---
 
-## 19. Governments & Performance Tracking (Planned)
+## 19. Governments & Performance Tracking
 
-Understanding governments term-by-term using evidence-based analysis.
+Understanding how citizens can evaluate governments using evidence, governance outcomes, public policy results, and measurable indicators.
 
-- Central Governments
-- State Governments
-- Election Manifestos
-- Major Decisions
-- Achievements
-- Criticisms
-- Infrastructure Progress
-- Education Progress
-- Healthcare Progress
+### Coverage
+
+- Citizen Accountability Framework
+- Governance Performance Framework
+- Central Government Performance Framework
+- State Government Comparison Framework
+- Economic Performance Framework
+- Infrastructure Performance Framework
+- Education Performance Framework
+- Healthcare Performance Framework
+- Social Development Framework
+- Manifesto vs Performance Framework
+
+### Why It Matters
+
+This section teaches readers how to evaluate governance beyond political narratives.
+
+The focus is on:
+
+- Accountability
+- Governance Outcomes
 - Economic Performance
-- Budget & Spending
-- Government Report Cards
+- Education Outcomes
+- Healthcare Outcomes
+- Infrastructure Development
+- Social Development
+- Evidence-Based Assessment
 
-This section will track governments chronologically rather than politically.
+### Evaluation Model
+
+```text
+Citizen
+    ↓
+Accountability
+    ↓
+Governance
+    ↓
+Economy
+    ↓
+Education
+    ↓
+Healthcare
+    ↓
+Social Development
+    ↓
+Performance Evaluation
+```
+
+### Learning Priority
+
+#### Must Know
+
+- Citizen Accountability Framework
+- Governance Performance Framework
+- Economic Performance Framework
+- Manifesto vs Performance Framework
+
+#### Important
+
+- Education Performance Framework
+- Healthcare Performance Framework
+- Social Development Framework
+- Infrastructure Performance Framework
+
+#### Advanced
+
+- Central Government Performance Framework
+- State Government Comparison Framework
 
 ---
 
@@ -885,7 +939,7 @@ The long-term objective is to create a complete India Knowledge System covering:
 - Foreign Policy
 - Contemporary India
 - Glossary & Revision Hub
-- Government Performance
+- Government Performance & Accountability
 - Data & Analytics
 
 ---
@@ -966,6 +1020,8 @@ If you're new to the repository, follow this order:
 17 Contemporary India
         ↓
 18 India Timelines
+        ↓
+19 Governments & Performance Tracking
         ↓
 20 Reference Material
         ↓
