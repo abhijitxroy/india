@@ -22,34 +22,52 @@ Understanding public service delivery helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((❤️ Public Service Delivery))
+    📜 Public Policy
+    🏛️ Government Programs
+    ⚙️ Administration
+    🚀 Implementation
+    ❤️ Service Delivery
+    👨‍👩‍👧‍👦 Citizens
+    📈 Outcomes
+```
+
+---
+
 ## Public Service Delivery Workflow
 
-```text
-Public Policy
-      ↓
-Government Program
-      ↓
-Administration
-      ↓
-Implementation
-      ↓
-Service Delivery
-      ↓
-Citizens
+```mermaid
+flowchart TD
+    A[📜 Public Policy]
+    B[🏛️ Government Program]
+    C[⚙️ Administration]
+    D[🚀 Implementation]
+    E[❤️ Service Delivery]
+    F[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Policy to Program Flow
 
-```text
-Public Issue
-      ↓
-Policy Decision
-      ↓
-Government Program
-      ↓
-Implementation Plan
+```mermaid
+flowchart TD
+    A[📢 Public Issue]
+    B[📜 Policy Decision]
+    C[🏛️ Government Program]
+    D[📝 Implementation Plan]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -62,14 +80,16 @@ Implementation Plan
 
 ## Administrative Execution Model
 
-```text
-Government
-     ↓
-Ministry
-     ↓
-Department
-     ↓
-Field Administration
+```mermaid
+flowchart TD
+    A[🏛️ Government]
+    B[🏢 Ministry]
+    C[📂 Department]
+    D[🏙️ Field Administration]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Responsibilities
@@ -83,14 +103,16 @@ Field Administration
 
 ## Service Delivery Chain
 
-```text
-Administration
-      ↓
-Implementation Agency
-      ↓
-Service Provider
-      ↓
-Citizen
+```mermaid
+flowchart TD
+    A[⚙️ Administration]
+    B[🏢 Implementation Agency]
+    C[❤️ Service Provider]
+    D[👨‍👩‍👧‍👦 Citizen]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -102,14 +124,16 @@ Citizen
 
 ## Citizen Interaction Model
 
-```text
-Citizen Request
-        ↓
-Government Service
-        ↓
-Processing
-        ↓
-Service Delivery
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizen Request]
+    B[🏛️ Government Service]
+    C[⚙️ Processing]
+    D[❤️ Service Delivery]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -122,28 +146,32 @@ Service Delivery
 
 ## Monitoring Framework
 
-```text
-Service Delivery
-        ↓
-Performance Review
-        ↓
-Issue Identification
-        ↓
-Improvement Actions
+```mermaid
+flowchart TD
+    A[❤️ Service Delivery]
+    B[📊 Performance Review]
+    C[🔍 Issue Identification]
+    D[🔄 Improvement Actions]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ---
 
 ## Feedback Loop
 
-```text
-Citizens
-    ↓
-Feedback
-    ↓
-Government Review
-    ↓
-Service Improvement
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗣️ Feedback]
+    C[🏛️ Government Review]
+    D[📈 Service Improvement]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -156,18 +184,13 @@ Service Improvement
 
 ## Quick Revision
 
-```text
-Policy
-   ↓
-Program
-   ↓
-Administration
-   ↓
-Implementation
-   ↓
-Service Delivery
-   ↓
-Citizen
+```mermaid
+flowchart LR
+    A[📜 Policy] --> B[🏛️ Program]
+    B --> C[⚙️ Administration]
+    C --> D[🚀 Implementation]
+    D --> E[❤️ Service Delivery]
+    E --> F[👨‍👩‍👧‍👦 Citizen]
 ```
 
 ---

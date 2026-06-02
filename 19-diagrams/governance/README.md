@@ -20,6 +20,18 @@ Governance diagrams help:
 - Understand accountability systems
 - Improve revision efficiency
 
+```mermaid
+mindmap
+  root((🌐 Governance))
+    Accountability
+    Federalism
+    Administration
+    Public Policy
+    Service Delivery
+    Digital Governance
+    Citizen Participation
+```
+
 ---
 
 ## Learning Priority Order
@@ -41,24 +53,23 @@ Governance diagrams help:
 - E-Governance Workflow ✓
 ## Progress Status
 
-```text
-Completed
-├── Governance Framework
-├── Citizen to Policy Journey
-├── Public Policy Lifecycle
-├── Accountability Framework
-├── Centre-State Relations Framework
-├── Administrative Hierarchy
-├── Public Service Delivery Workflow
-├── Cooperative Federalism Model
-├── Digital Governance Framework
-└── E-Governance Workflow
-
-Next Recommended
-├── Governance Reform Timeline
-├── Grievance Redressal System
-├── District Administration Structure
-└── Policy Monitoring Framework
+```mermaid
+mindmap
+  root((🌐 Governance Diagrams))
+    ✅ Governance Framework
+    ✅ Citizen to Policy Journey
+    ✅ Public Policy Lifecycle
+    ✅ Accountability Framework
+    ✅ Centre-State Relations
+    ✅ Administrative Hierarchy
+    ✅ Public Service Delivery
+    ✅ Cooperative Federalism
+    ✅ Digital Governance
+    ✅ E-Governance Workflow
+    🚀 Governance Reform Timeline
+    🚀 Grievance Redressal System
+    🚀 District Administration Structure
+    🚀 Policy Monitoring Framework
 ```
 
 ### P3
@@ -72,20 +83,22 @@ Next Recommended
 
 ## Recommended Diagram Structure
 
-```text
-Citizens
-     ↓
-Democratic Institutions
-     ↓
-Government
-     ↓
-Public Policy
-     ↓
-Administration
-     ↓
-Service Delivery
-     ↓
-Development Outcomes
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Democratic Institutions]
+    C[🏛️ Government]
+    D[📜 Public Policy]
+    E[⚙️ Administration]
+    F[❤️ Service Delivery]
+    G[📈 Development Outcomes]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
@@ -124,18 +137,13 @@ Development Outcomes
 
 ## Quick Revision
 
-```text
-Citizen
-    ↓
-Government
-    ↓
-Policy
-    ↓
-Administration
-    ↓
-Service Delivery
-    ↓
-Development
+```mermaid
+flowchart LR
+    A[👨‍👩‍👧‍👦 Citizen] --> B[🏛️ Government]
+    B --> C[📜 Policy]
+    C --> D[⚙️ Administration]
+    D --> E[❤️ Service Delivery]
+    E --> F[📈 Development]
 ```
 
 ---

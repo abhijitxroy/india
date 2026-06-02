@@ -22,34 +22,49 @@ Understanding Rajya Sabha elections helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((🏛️ Rajya Sabha Election))
+    🏘️ States
+    🏛️ Legislative Assemblies
+    🙋 Candidates
+    🗳️ Indirect Election
+    👥 Rajya Sabha Members
+    🇮🇳 Parliament
+```
+
 ## Rajya Sabha Election Workflow
 
-```text
-State Legislative Assembly
-            ↓
-Eligible Candidates
-            ↓
-Indirect Election
-            ↓
-Vote Counting
-            ↓
-Member Elected
-            ↓
-Rajya Sabha
+```mermaid
+flowchart TD
+    A[🏛️ State Legislative Assembly]
+    B[🙋 Eligible Candidates]
+    C[🗳️ Indirect Election]
+    D[📊 Vote Counting]
+    E[🏆 Member Elected]
+    F[🏛️ Rajya Sabha]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Representation Framework
 
-```text
-States
-   ↓
-Legislative Assemblies
-   ↓
-Rajya Sabha Elections
-   ↓
-Parliament Representation
+```mermaid
+flowchart TD
+    A[🏘️ States]
+    B[🏛️ Legislative Assemblies]
+    C[🗳️ Rajya Sabha Elections]
+    D[🇮🇳 Parliament Representation]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -62,16 +77,18 @@ Parliament Representation
 
 ## Election Process
 
-```text
-Vacancy
-   ↓
-Candidate Nomination
-   ↓
-Voting
-   ↓
-Counting
-   ↓
-Result Declaration
+```mermaid
+flowchart TD
+    A[📌 Vacancy]
+    B[🙋 Candidate Nomination]
+    C[🗳️ Voting]
+    D[📊 Counting]
+    E[🏆 Result Declaration]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Outcome
@@ -84,14 +101,16 @@ Result Declaration
 
 ## Parliamentary Continuity Model
 
-```text
-Periodic Elections
-         ↓
-Member Replacement
-         ↓
-Continuous Functioning
-         ↓
-Legislative Stability
+```mermaid
+flowchart TD
+    A[🔄 Periodic Elections]
+    B[👥 Member Replacement]
+    C[🏛️ Continuous Functioning]
+    D[⚖️ Legislative Stability]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -104,14 +123,16 @@ Legislative Stability
 
 ## Federal Governance Connection
 
-```text
-States
-   ↓
-Rajya Sabha
-   ↓
-Parliament
-   ↓
-National Legislation
+```mermaid
+flowchart TD
+    A[🏘️ States]
+    B[🏛️ Rajya Sabha]
+    C[🇮🇳 Parliament]
+    D[📜 National Legislation]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -124,30 +145,28 @@ National Legislation
 
 ## Legislative Workflow
 
-```text
-Rajya Sabha Members
-          ↓
-Parliamentary Participation
-          ↓
-Debate
-          ↓
-Legislation
+```mermaid
+flowchart TD
+    A[👥 Rajya Sabha Members]
+    B[🏛️ Parliamentary Participation]
+    C[💬 Debate]
+    D[📜 Legislation]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-State Assembly
-      ↓
-Indirect Election
-      ↓
-Rajya Sabha Member
-      ↓
-Parliament
-      ↓
-Legislation
+```mermaid
+flowchart LR
+    A[🏛️ State Assembly] --> B[🗳️ Indirect Election]
+    B --> C[👥 Rajya Sabha Member]
+    C --> D[🇮🇳 Parliament]
+    D --> E[📜 Legislation]
 ```
 
 ---

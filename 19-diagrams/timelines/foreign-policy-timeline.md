@@ -20,38 +20,54 @@ Understanding foreign policy helps explain:
 - How security considerations shaped policy
 - How India emerged as a major global actor
 
+```mermaid
+mindmap
+  root((🌏 Foreign Policy))
+    🇮🇳 Independence
+    🤝 Regional Engagement
+    🌐 Global Diplomacy
+    💰 Economic Diplomacy
+    🛡️ Strategic Partnerships
+    🌍 Global Leadership
+    🚀 Contemporary India
+```
+
 ---
 
 ## Foreign Policy Timeline
 
-```text
-Independence
-      ↓
-Nation Building
-      ↓
-Regional Engagement
-      ↓
-Global Diplomacy
-      ↓
-Economic Diplomacy
-      ↓
-Strategic Partnerships
-      ↓
-Global Leadership Role
-      ↓
-Contemporary India
+```mermaid
+flowchart TD
+    A[🇮🇳 Independence]
+    B[🏗️ Nation Building]
+    C[🤝 Regional Engagement]
+    D[🌐 Global Diplomacy]
+    E[💰 Economic Diplomacy]
+    F[🛡️ Strategic Partnerships]
+    G[🌍 Global Leadership Role]
+    H[🚀 Contemporary India]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
 ```
 
 ---
 
 ## Phase 1: Independence & Foundations
 
-```text
-Independence
-      ↓
-National Interests
-      ↓
-Foreign Policy Foundations
+```mermaid
+flowchart TD
+    A[🇮🇳 Independence]
+    B[🎯 National Interests]
+    C[📜 Foreign Policy Foundations]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -64,12 +80,14 @@ Foreign Policy Foundations
 
 ## Phase 2: Regional Engagement
 
-```text
-Neighbourhood Relations
-         ↓
-Regional Cooperation
-         ↓
-Regional Stability
+```mermaid
+flowchart TD
+    A[🏘️ Neighbourhood Relations]
+    B[🤝 Regional Cooperation]
+    C[🕊️ Regional Stability]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -82,12 +100,14 @@ Regional Stability
 
 ## Phase 3: Global Diplomacy
 
-```text
-International Participation
-          ↓
-Multilateral Engagement
-          ↓
-Global Presence
+```mermaid
+flowchart TD
+    A[🌐 International Participation]
+    B[🏛️ Multilateral Engagement]
+    C[🌍 Global Presence]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -99,12 +119,14 @@ Global Presence
 
 ## Phase 4: Economic Diplomacy
 
-```text
-Trade Relations
-        ↓
-Investment Cooperation
-        ↓
-Economic Partnerships
+```mermaid
+flowchart TD
+    A[📈 Trade Relations]
+    B[💰 Investment Cooperation]
+    C[🤝 Economic Partnerships]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -117,12 +139,14 @@ Economic Partnerships
 
 ## Phase 5: Strategic Partnerships
 
-```text
-Strategic Cooperation
-          ↓
-Defence Collaboration
-          ↓
-Technology & Security Cooperation
+```mermaid
+flowchart TD
+    A[🛡️ Strategic Cooperation]
+    B[⚔️ Defence Collaboration]
+    C[💻 Technology & Security Cooperation]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -135,12 +159,14 @@ Technology & Security Cooperation
 
 ## Phase 6: Global Leadership Role
 
-```text
-Economic Growth
-       ↓
-Global Influence
-       ↓
-International Leadership
+```mermaid
+flowchart TD
+    A[📈 Economic Growth]
+    B[🌍 Global Influence]
+    C[🏛️ International Leadership]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -153,36 +179,33 @@ International Leadership
 
 ## Foreign Policy Framework
 
-```text
-National Interests
-        ↓
-Diplomacy
-        ↓
-Partnerships
-        ↓
-Security
-        ↓
-Development
-        ↓
-Global Influence
+```mermaid
+flowchart TD
+    A[🎯 National Interests]
+    B[🤝 Diplomacy]
+    C[🛡️ Partnerships]
+    D[🔒 Security]
+    E[📈 Development]
+    F[🌍 Global Influence]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Independence
-      ↓
-Regional Relations
-      ↓
-Global Diplomacy
-      ↓
-Economic Diplomacy
-      ↓
-Strategic Partnerships
-      ↓
-Global Role
+```mermaid
+flowchart LR
+    A[🇮🇳 Independence] --> B[🤝 Regional Relations]
+    B --> C[🌐 Global Diplomacy]
+    C --> D[💰 Economic Diplomacy]
+    D --> E[🛡️ Strategic Partnerships]
+    E --> F[🌍 Global Role]
 ```
 
 ---

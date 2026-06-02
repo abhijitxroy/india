@@ -20,36 +20,52 @@ Understanding governance reforms helps explain:
 - How decentralization strengthened local governance
 - How technology transformed administration
 
+```mermaid
+mindmap
+  root((⚙️ Governance Reforms))
+    🇮🇳 Independence
+    🏛️ Institution Building
+    🔄 Administrative Reforms
+    🏘️ Decentralization
+    🔍 Transparency
+    💻 Digital Governance
+    👨‍👩‍👧‍👦 Citizen-Centric Governance
+```
+
 ---
 
 ## Governance Reform Timeline
 
-```text
-Independence
-      ↓
-Institution Building
-      ↓
-Administrative Reforms
-      ↓
-Decentralization
-      ↓
-Transparency Reforms
-      ↓
-Digital Governance
-      ↓
-Citizen-Centric Governance
+```mermaid
+flowchart TD
+    A[🇮🇳 Independence]
+    B[🏛️ Institution Building]
+    C[🔄 Administrative Reforms]
+    D[🏘️ Decentralization]
+    E[🔍 Transparency Reforms]
+    F[💻 Digital Governance]
+    G[👨‍👩‍👧‍👦 Citizen-Centric Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
 
 ## Phase 1: Institution Building
 
-```text
-Independence
-      ↓
-Government Institutions
-      ↓
-Administrative Foundations
+```mermaid
+flowchart TD
+    A[🇮🇳 Independence]
+    B[🏛️ Government Institutions]
+    C[⚙️ Administrative Foundations]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -62,12 +78,14 @@ Administrative Foundations
 
 ## Phase 2: Administrative Reforms
 
-```text
-Governance Challenges
-         ↓
-Administrative Improvements
-         ↓
-Efficiency Enhancement
+```mermaid
+flowchart TD
+    A[⚠️ Governance Challenges]
+    B[🔄 Administrative Improvements]
+    C[📈 Efficiency Enhancement]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -80,14 +98,16 @@ Efficiency Enhancement
 
 ## Phase 3: Decentralization
 
-```text
-Governance
-     ↓
-State Governments
-     ↓
-Local Governments
-     ↓
-Citizens
+```mermaid
+flowchart TD
+    A[🏛️ Governance]
+    B[🏞️ State Governments]
+    C[🏘️ Local Governments]
+    D[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -100,12 +120,14 @@ Citizens
 
 ## Phase 4: Transparency Reforms
 
-```text
-Accountability
-      ↓
-Transparency Measures
-      ↓
-Public Oversight
+```mermaid
+flowchart TD
+    A[⚖️ Accountability]
+    B[🔍 Transparency Measures]
+    C[👀 Public Oversight]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -118,14 +140,16 @@ Public Oversight
 
 ## Phase 5: Digital Governance
 
-```text
-Technology
-     ↓
-Digital Platforms
-     ↓
-Digital Services
-     ↓
-Citizens
+```mermaid
+flowchart TD
+    A[💻 Technology]
+    B[🌐 Digital Platforms]
+    C[📱 Digital Services]
+    D[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -138,32 +162,30 @@ Citizens
 
 ## Governance Evolution Framework
 
-```text
-Administration
-      ↓
-Reforms
-      ↓
-Transparency
-      ↓
-Digital Governance
-      ↓
-Citizen-Centric Governance
+```mermaid
+flowchart TD
+    A[⚙️ Administration]
+    B[🔄 Reforms]
+    C[🔍 Transparency]
+    D[💻 Digital Governance]
+    E[👨‍👩‍👧‍👦 Citizen-Centric Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Institutions
-      ↓
-Administrative Reforms
-      ↓
-Decentralization
-      ↓
-Transparency
-      ↓
-Digital Governance
+```mermaid
+flowchart LR
+    A[🏛️ Institutions] --> B[🔄 Administrative Reforms]
+    B --> C[🏘️ Decentralization]
+    C --> D[🔍 Transparency]
+    D --> E[💻 Digital Governance]
 ```
 
 ---

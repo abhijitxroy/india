@@ -1,5 +1,3 @@
-
-
 # Major Empires Timeline
 
 ## Overview
@@ -22,36 +20,53 @@ Understanding major empires helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((👑 Major Empires))
+    Mahajanapadas
+    Mauryan Empire
+    Gupta Empire
+    Regional Kingdoms
+    Delhi Sultanate
+    Mughal Empire
+    Colonial Rule
+    Republic of India
+```
+
 ## Major Empires Timeline
 
-```text
-Mahajanapadas
-       ↓
-Mauryan Empire
-       ↓
-Gupta Empire
-       ↓
-Regional Kingdoms
-       ↓
-Delhi Sultanate
-       ↓
-Mughal Empire
-       ↓
-Colonial Rule
-       ↓
-Republic of India
+```mermaid
+flowchart TD
+    A[⚔️ Mahajanapadas]
+    B[🦁 Mauryan Empire]
+    C[🌟 Gupta Empire]
+    D[🏰 Regional Kingdoms]
+    E[🕌 Delhi Sultanate]
+    F[👑 Mughal Empire]
+    G[🇬🇧 Colonial Rule]
+    H[🇮🇳 Republic of India]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
 ```
 
 ---
 
 ## Mauryan Empire
 
-```text
-Political Consolidation
-         ↓
-Large Empire
-         ↓
-Central Administration
+```mermaid
+flowchart TD
+    A[🤝 Political Consolidation]
+    B[🦁 Large Empire]
+    C[🏛️ Central Administration]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -64,12 +79,14 @@ Central Administration
 
 ## Gupta Empire
 
-```text
-Political Stability
-        ↓
-Economic Growth
-        ↓
-Cultural Development
+```mermaid
+flowchart TD
+    A[⚖️ Political Stability]
+    B[📈 Economic Growth]
+    C[🎨 Cultural Development]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -82,12 +99,14 @@ Cultural Development
 
 ## Regional Kingdoms
 
-```text
-Regional Powers
-       ↓
-Local Governance
-       ↓
-Cultural Diversity
+```mermaid
+flowchart TD
+    A[🏰 Regional Powers]
+    B[🏛️ Local Governance]
+    C[🎭 Cultural Diversity]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -99,12 +118,14 @@ Cultural Diversity
 
 ## Delhi Sultanate
 
-```text
-Political Expansion
-        ↓
-Administrative Reforms
-        ↓
-Institutional Development
+```mermaid
+flowchart TD
+    A[⚔️ Political Expansion]
+    B[📜 Administrative Reforms]
+    C[🏛️ Institutional Development]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -116,12 +137,14 @@ Institutional Development
 
 ## Mughal Empire
 
-```text
-Imperial Governance
-         ↓
-Administrative Integration
-         ↓
-Economic Expansion
+```mermaid
+flowchart TD
+    A[👑 Imperial Governance]
+    B[🤝 Administrative Integration]
+    C[💰 Economic Expansion]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -134,12 +157,14 @@ Economic Expansion
 
 ## Colonial Rule
 
-```text
-Colonial Administration
-         ↓
-Institutional Changes
-         ↓
-Modern Bureaucracy Foundations
+```mermaid
+flowchart TD
+    A[🇬🇧 Colonial Administration]
+    B[📜 Institutional Changes]
+    C[🏢 Modern Bureaucracy Foundations]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -151,38 +176,33 @@ Modern Bureaucracy Foundations
 
 ## Governance Evolution
 
-```text
-Kingdoms
-    ↓
-Empires
-    ↓
-Administrative Systems
-    ↓
-Colonial Institutions
-    ↓
-Modern Republic
+```mermaid
+flowchart TD
+    A[🏰 Kingdoms]
+    B[👑 Empires]
+    C[🏛️ Administrative Systems]
+    D[🇬🇧 Colonial Institutions]
+    E[🇮🇳 Modern Republic]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Mahajanapadas
-      ↓
-Mauryas
-      ↓
-Guptas
-      ↓
-Regional Kingdoms
-      ↓
-Delhi Sultanate
-      ↓
-Mughals
-      ↓
-Colonial Rule
-      ↓
-Republic of India
+```mermaid
+flowchart LR
+    A[⚔️ Mahajanapadas] --> B[🦁 Mauryas]
+    B --> C[🌟 Guptas]
+    C --> D[🏰 Regional Kingdoms]
+    D --> E[🕌 Delhi Sultanate]
+    E --> F[👑 Mughals]
+    F --> G[🇬🇧 Colonial Rule]
+    G --> H[🇮🇳 Republic]
 ```
 
 ---

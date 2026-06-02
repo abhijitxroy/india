@@ -22,34 +22,52 @@ Understanding the public policy lifecycle helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((📜 Public Policy Lifecycle))
+    Public Issues
+    Policy Formulation
+    Policy Approval
+    Implementation
+    Monitoring
+    Evaluation
+    Policy Improvement
+```
+
+---
+
 ## Complete Public Policy Lifecycle
 
-```text
-Public Issue
-      ↓
-Policy Formulation
-      ↓
-Policy Approval
-      ↓
-Implementation
-      ↓
-Monitoring
-      ↓
-Evaluation
-      ↓
-Policy Improvement
+```mermaid
+flowchart TD
+    A[📢 Public Issue]
+    B[📜 Policy Formulation]
+    C[✅ Policy Approval]
+    D[⚙️ Implementation]
+    E[📊 Monitoring]
+    F[🔍 Evaluation]
+    G[🔄 Policy Improvement]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
 
 ## Stage 1: Public Issue Identification
 
-```text
-Citizen Needs
-      ↓
-Public Concerns
-      ↓
-Issue Identification
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizen Needs]
+    B[📢 Public Concerns]
+    C[🎯 Issue Identification]
+
+    A --> B
+    B --> C
 ```
 
 ### Examples
@@ -64,14 +82,16 @@ Issue Identification
 
 ## Stage 2: Policy Formulation
 
-```text
-Public Issue
-      ↓
-Research & Analysis
-      ↓
-Policy Options
-      ↓
-Policy Proposal
+```mermaid
+flowchart TD
+    A[📢 Public Issue]
+    B[🔬 Research & Analysis]
+    C[📋 Policy Options]
+    D[📜 Policy Proposal]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -83,14 +103,16 @@ Policy Proposal
 
 ## Stage 3: Policy Approval
 
-```text
-Policy Proposal
-        ↓
-Government Review
-        ↓
-Approval
-        ↓
-Implementation Plan
+```mermaid
+flowchart TD
+    A[📜 Policy Proposal]
+    B[🏛️ Government Review]
+    C[✅ Approval]
+    D[📝 Implementation Plan]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -102,14 +124,16 @@ Implementation Plan
 
 ## Stage 4: Implementation
 
-```text
-Approved Policy
-        ↓
-Departments
-        ↓
-Administration
-        ↓
-Field Execution
+```mermaid
+flowchart TD
+    A[✅ Approved Policy]
+    B[🏢 Departments]
+    C[⚙️ Administration]
+    D[🚀 Field Execution]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -120,12 +144,14 @@ Field Execution
 
 ## Stage 5: Monitoring
 
-```text
-Implementation
-       ↓
-Progress Tracking
-       ↓
-Performance Review
+```mermaid
+flowchart TD
+    A[⚙️ Implementation]
+    B[📈 Progress Tracking]
+    C[📊 Performance Review]
+
+    A --> B
+    B --> C
 ```
 
 ### Purpose
@@ -137,12 +163,14 @@ Performance Review
 
 ## Stage 6: Evaluation
 
-```text
-Policy Outcomes
-        ↓
-Impact Assessment
-        ↓
-Evaluation Report
+```mermaid
+flowchart TD
+    A[📈 Policy Outcomes]
+    B[🔍 Impact Assessment]
+    C[📄 Evaluation Report]
+
+    A --> B
+    B --> C
 ```
 
 ### Purpose
@@ -154,12 +182,14 @@ Evaluation Report
 
 ## Stage 7: Policy Improvement
 
-```text
-Evaluation Findings
-         ↓
-Policy Revision
-         ↓
-Improved Policy
+```mermaid
+flowchart TD
+    A[📄 Evaluation Findings]
+    B[✏️ Policy Revision]
+    C[🔄 Improved Policy]
+
+    A --> B
+    B --> C
 ```
 
 ### Outcome
@@ -171,36 +201,33 @@ Improved Policy
 
 ## Continuous Policy Cycle
 
-```text
-Issue
-  ↓
-Policy
-  ↓
-Implementation
-  ↓
-Outcome
-  ↓
-Feedback
-  ↓
-Improvement
+```mermaid
+flowchart TD
+    A[📢 Issue]
+    B[📜 Policy]
+    C[⚙️ Implementation]
+    D[📈 Outcome]
+    E[🗣️ Feedback]
+    F[🔄 Improvement]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Issue
-  ↓
-Policy
-  ↓
-Approval
-  ↓
-Implementation
-  ↓
-Evaluation
-  ↓
-Improvement
+```mermaid
+flowchart LR
+    A[📢 Issue] --> B[📜 Policy]
+    B --> C[✅ Approval]
+    C --> D[⚙️ Implementation]
+    D --> E[🔍 Evaluation]
+    E --> F[🔄 Improvement]
 ```
 
 ---

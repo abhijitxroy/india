@@ -1,5 +1,3 @@
-
-
 # Election Process Flow
 
 ## Overview
@@ -22,44 +20,62 @@ Understanding the election process helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((🗳️ Election Process))
+    👨‍👩‍👧‍👦 Voters
+    📝 Registration
+    🙋 Candidates
+    📣 Campaign
+    🗳️ Polling
+    📊 Counting
+    🏛️ Government Formation
+```
+
+---
+
 ## Complete Election Process
 
-```text
-Citizen
-    ↓
-Voter Registration
-    ↓
-Electoral Roll
-    ↓
-Election Notification
-    ↓
-Candidate Nomination
-    ↓
-Election Campaign
-    ↓
-Polling
-    ↓
-Vote Counting
-    ↓
-Result Declaration
-    ↓
-Representation
-    ↓
-Government Formation
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizen]
+    B[📝 Voter Registration]
+    C[📋 Electoral Roll]
+    D[📢 Election Notification]
+    E[🙋 Candidate Nomination]
+    F[📣 Election Campaign]
+    G[🗳️ Polling]
+    H[📊 Vote Counting]
+    I[🏆 Result Declaration]
+    J[🙋 Representation]
+    K[🏛️ Government Formation]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+    H --> I
+    I --> J
+    J --> K
 ```
 
 ---
 
 ## Stage 1: Voter Registration
 
-```text
-Citizen
-    ↓
-Eligibility Verification
-    ↓
-Voter Registration
-    ↓
-Electoral Roll
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizen]
+    B[✅ Eligibility Verification]
+    C[📝 Voter Registration]
+    D[📋 Electoral Roll]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -71,14 +87,16 @@ Electoral Roll
 
 ## Stage 2: Election Preparation
 
-```text
-Election Commission
-        ↓
-Election Schedule
-        ↓
-Candidate Nomination
-        ↓
-Final Candidate List
+```mermaid
+flowchart TD
+    A[🗳️ Election Commission]
+    B[📅 Election Schedule]
+    C[🙋 Candidate Nomination]
+    D[📋 Final Candidate List]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -90,14 +108,16 @@ Final Candidate List
 
 ## Stage 3: Campaign Period
 
-```text
-Political Parties
-        ↓
-Campaign Activities
-        ↓
-Voter Outreach
-        ↓
-Public Debate
+```mermaid
+flowchart TD
+    A[🏛️ Political Parties]
+    B[📣 Campaign Activities]
+    C[🤝 Voter Outreach]
+    D[💬 Public Debate]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -108,14 +128,16 @@ Public Debate
 
 ## Stage 4: Polling
 
-```text
-Voters
-    ↓
-Polling Booth
-    ↓
-Vote Casting
-    ↓
-EVM / Ballot Recording
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Voters]
+    B[🏫 Polling Booth]
+    C[🗳️ Vote Casting]
+    D[💻 EVM / Ballot Recording]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -126,14 +148,16 @@ EVM / Ballot Recording
 
 ## Stage 5: Counting & Results
 
-```text
-Votes
-    ↓
-Counting
-    ↓
-Result Declaration
-    ↓
-Winning Candidates
+```mermaid
+flowchart TD
+    A[🗳️ Votes]
+    B[📊 Counting]
+    C[🏆 Result Declaration]
+    D[🙋 Winning Candidates]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -144,14 +168,16 @@ Winning Candidates
 
 ## Stage 6: Government Formation
 
-```text
-Elected Representatives
-          ↓
-Majority Formation
-          ↓
-Government Formation
-          ↓
-Governance
+```mermaid
+flowchart TD
+    A[🙋 Elected Representatives]
+    B[🤝 Majority Formation]
+    C[🏛️ Government Formation]
+    D[🌐 Governance]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -163,18 +189,13 @@ Governance
 
 ## Quick Revision
 
-```text
-Register
-    ↓
-Vote
-    ↓
-Count
-    ↓
-Result
-    ↓
-Representation
-    ↓
-Government
+```mermaid
+flowchart LR
+    A[📝 Register] --> B[🗳️ Vote]
+    B --> C[📊 Count]
+    C --> D[🏆 Result]
+    D --> E[🙋 Representation]
+    E --> F[🏛️ Government]
 ```
 
 ---

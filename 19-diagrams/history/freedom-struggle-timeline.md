@@ -22,32 +22,50 @@ Understanding the freedom struggle helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((✊ Freedom Struggle))
+    Early Resistance
+    Political Awakening
+    National Movement
+    Mass Movements
+    Independence
+    Constitution
+    Republic of India
+```
+
+---
+
 ## Freedom Struggle Timeline
 
-```text
-Colonial Rule
-      ↓
-Early Resistance
-      ↓
-Political Awakening
-      ↓
-National Movement
-      ↓
-Mass Movements
-      ↓
-Independence
+```mermaid
+flowchart TD
+    A[🇬🇧 Colonial Rule]
+    B[⚔️ Early Resistance]
+    C[💡 Political Awakening]
+    D[🏛️ National Movement]
+    E[✊ Mass Movements]
+    F[🎉 Independence]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Phase 1: Early Resistance
 
-```text
-Colonial Expansion
-        ↓
-Local Resistance
-        ↓
-Early Opposition
+```mermaid
+flowchart TD
+    A[🇬🇧 Colonial Expansion]
+    B[⚔️ Local Resistance]
+    C[📢 Early Opposition]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -59,12 +77,14 @@ Early Opposition
 
 ## Phase 2: Political Awakening
 
-```text
-Education
-    ↓
-Reform Movements
-    ↓
-Political Consciousness
+```mermaid
+flowchart TD
+    A[🎓 Education]
+    B[🔄 Reform Movements]
+    C[💡 Political Consciousness]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -76,12 +96,14 @@ Political Consciousness
 
 ## Phase 3: Organized National Movement
 
-```text
-Political Organizations
-         ↓
-National Leadership
-         ↓
-Constitutional Demands
+```mermaid
+flowchart TD
+    A[🏛️ Political Organizations]
+    B[👥 National Leadership]
+    C[📜 Constitutional Demands]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -93,12 +115,14 @@ Constitutional Demands
 
 ## Phase 4: Mass Movements
 
-```text
-Public Mobilization
-        ↓
-Nationwide Movements
-        ↓
-Mass Participation
+```mermaid
+flowchart TD
+    A[📢 Public Mobilization]
+    B[✊ Nationwide Movements]
+    C[👨‍👩‍👧‍👦 Mass Participation]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -110,12 +134,14 @@ Mass Participation
 
 ## Phase 5: Towards Independence
 
-```text
-Negotiations
-      ↓
-Transfer of Power
-      ↓
-Independence
+```mermaid
+flowchart TD
+    A[🤝 Negotiations]
+    B[🔄 Transfer of Power]
+    C[🎉 Independence]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -127,32 +153,29 @@ Independence
 
 ## From Independence to Republic
 
-```text
-Independence
-      ↓
-Nation Building
-      ↓
-Constitution
-      ↓
-Republic of India
+```mermaid
+flowchart TD
+    A[🎉 Independence]
+    B[🏗️ Nation Building]
+    C[📜 Constitution]
+    D[🇮🇳 Republic of India]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Resistance
-     ↓
-Awareness
-     ↓
-National Movement
-     ↓
-Mass Movements
-     ↓
-Independence
-     ↓
-Republic
+```mermaid
+flowchart LR
+    A[⚔️ Resistance] --> B[💡 Awareness]
+    B --> C[🏛️ National Movement]
+    C --> D[✊ Mass Movements]
+    D --> E[🎉 Independence]
+    E --> F[🇮🇳 Republic]
 ```
 
 ---

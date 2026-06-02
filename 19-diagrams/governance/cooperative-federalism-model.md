@@ -1,5 +1,3 @@
-
-
 # Cooperative Federalism Model
 
 ## Overview
@@ -22,34 +20,52 @@ Understanding cooperative federalism helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((🤝 Cooperative Federalism))
+    🇮🇳 Union Government
+    🏛️ State Governments
+    📜 Constitution
+    💰 Resource Sharing
+    📋 Policy Coordination
+    ⚙️ Implementation
+    👨‍👩‍👧‍👦 Citizens
+```
+
+---
+
 ## Cooperative Federalism Framework
 
-```text
-Constitution
-      ↓
-Union Government
-      ↕
-State Governments
-      ↓
-Policy Coordination
-      ↓
-Implementation
-      ↓
-Citizens
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🇮🇳 Union Government]
+    C[🏛️ State Governments]
+    D[📋 Policy Coordination]
+    E[⚙️ Implementation]
+    F[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B <--> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Shared Governance Model
 
-```text
-National Priorities
-         ↓
-Union Government
-         ↕
-State Governments
-         ↓
-Development Programs
+```mermaid
+flowchart TD
+    A[🎯 National Priorities]
+    B[🇮🇳 Union Government]
+    C[🏛️ State Governments]
+    D[📈 Development Programs]
+
+    A --> B
+    B <--> C
+    C --> D
 ```
 
 ### Purpose
@@ -62,16 +78,18 @@ Development Programs
 
 ## Policy Implementation Framework
 
-```text
-National Policy
-        ↓
-Union Government
-        ↓
-State Governments
-        ↓
-District Administration
-        ↓
-Citizens
+```mermaid
+flowchart TD
+    A[📜 National Policy]
+    B[🇮🇳 Union Government]
+    C[🏛️ State Governments]
+    D[🏙️ District Administration]
+    E[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Outcome
@@ -84,14 +102,16 @@ Citizens
 
 ## Resource Sharing Framework
 
-```text
-National Resources
-         ↓
-Allocation
-         ↓
-State Governments
-         ↓
-Development Activities
+```mermaid
+flowchart TD
+    A[💰 National Resources]
+    B[📦 Allocation]
+    C[🏛️ State Governments]
+    D[📈 Development Activities]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -104,46 +124,46 @@ Development Activities
 
 ## Development Partnership Model
 
-```text
-Union Government
-         ↕
-State Governments
-         ↕
-Local Administration
-         ↓
-Development Outcomes
+```mermaid
+flowchart TD
+    A[🇮🇳 Union Government]
+    B[🏛️ State Governments]
+    C[🏘️ Local Administration]
+    D[📈 Development Outcomes]
+
+    A <--> B
+    B <--> C
+    C --> D
 ```
 
 ---
 
 ## Governance Coordination Flow
 
-```text
-Policy Planning
-       ↓
-Coordination
-       ↓
-Implementation
-       ↓
-Monitoring
-       ↓
-Outcomes
+```mermaid
+flowchart TD
+    A[📋 Policy Planning]
+    B[🤝 Coordination]
+    C[⚙️ Implementation]
+    D[📊 Monitoring]
+    E[📈 Outcomes]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Union Government
-       ↕
-State Governments
-       ↓
-Coordination
-       ↓
-Implementation
-       ↓
-Citizens
+```mermaid
+flowchart LR
+    A[🇮🇳 Union Government] <--> B[🏛️ State Governments]
+    B --> C[🤝 Coordination]
+    C --> D[⚙️ Implementation]
+    D --> E[👨‍👩‍👧‍👦 Citizens]
 ```
 
 ---

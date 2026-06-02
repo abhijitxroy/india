@@ -18,40 +18,56 @@ Understanding the citizen-to-policy journey helps explain:
 - How administration implements decisions
 - How governance outcomes affect citizens
 
+```mermaid
+mindmap
+  root((👨‍👩‍👧‍👦 Citizen to Policy))
+    Public Issues
+    Democratic Representation
+    Policy Formulation
+    Policy Approval
+    Implementation
+    Service Delivery
+    Development Outcomes
+```
+
 ---
 
 ## Complete Citizen to Policy Journey
 
-```text
-Citizen
-    ↓
-Public Issue
-    ↓
-Political Discussion
-    ↓
-Government Attention
-    ↓
-Policy Formulation
-    ↓
-Policy Approval
-    ↓
-Implementation
-    ↓
-Service Delivery
-    ↓
-Development Outcomes
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizen]
+    B[📢 Public Issue]
+    C[💬 Political Discussion]
+    D[🏛️ Government Attention]
+    E[📜 Policy Formulation]
+    F[✅ Policy Approval]
+    G[⚙️ Implementation]
+    H[❤️ Service Delivery]
+    I[📈 Development Outcomes]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+    H --> I
 ```
 
 ---
 
 ## Stage 1: Citizen Needs
 
-```text
-Citizens
-    ↓
-Needs & Concerns
-    ↓
-Public Issues
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[💡 Needs & Concerns]
+    C[📢 Public Issues]
+
+    A --> B
+    B --> C
 ```
 
 ### Examples
@@ -66,14 +82,16 @@ Public Issues
 
 ## Stage 2: Democratic Representation
 
-```text
-Citizens
-    ↓
-Representatives
-    ↓
-Parliament / Assembly
-    ↓
-Government
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🙋 Representatives]
+    C[🏛️ Parliament / Assembly]
+    D[⚙️ Government]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -85,14 +103,16 @@ Government
 
 ## Stage 3: Policy Formulation
 
-```text
-Public Issue
-      ↓
-Government Analysis
-      ↓
-Policy Design
-      ↓
-Policy Proposal
+```mermaid
+flowchart TD
+    A[📢 Public Issue]
+    B[🔍 Government Analysis]
+    C[📜 Policy Design]
+    D[📋 Policy Proposal]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -104,28 +124,32 @@ Policy Proposal
 
 ## Stage 4: Policy Approval
 
-```text
-Policy Proposal
-        ↓
-Government Decision
-        ↓
-Approval
-        ↓
-Implementation Plan
+```mermaid
+flowchart TD
+    A[📋 Policy Proposal]
+    B[🏛️ Government Decision]
+    C[✅ Approval]
+    D[📝 Implementation Plan]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ---
 
 ## Stage 5: Implementation
 
-```text
-Government
-      ↓
-Administration
-      ↓
-Departments
-      ↓
-Field Execution
+```mermaid
+flowchart TD
+    A[⚙️ Government]
+    B[🏛️ Administration]
+    C[📂 Departments]
+    D[🚀 Field Execution]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -136,48 +160,47 @@ Field Execution
 
 ## Stage 6: Citizen Outcomes
 
-```text
-Implementation
-       ↓
-Public Services
-       ↓
-Citizen Benefits
-       ↓
-Development Outcomes
+```mermaid
+flowchart TD
+    A[⚙️ Implementation]
+    B[❤️ Public Services]
+    C[🎯 Citizen Benefits]
+    D[📈 Development Outcomes]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ---
 
 ## Feedback Loop
 
-```text
-Citizens
-     ↓
-Feedback
-     ↓
-Government Review
-     ↓
-Policy Improvement
-     ↓
-Better Outcomes
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗣️ Feedback]
+    C[🔍 Government Review]
+    D[🔄 Policy Improvement]
+    E[📈 Better Outcomes]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Citizen
-   ↓
-Issue
-   ↓
-Policy
-   ↓
-Implementation
-   ↓
-Service Delivery
-   ↓
-Development
+```mermaid
+flowchart LR
+    A[👨‍👩‍👧‍👦 Citizen] --> B[📢 Issue]
+    B --> C[📜 Policy]
+    C --> D[⚙️ Implementation]
+    D --> E[❤️ Service Delivery]
+    E --> F[📈 Development]
 ```
 
 ---

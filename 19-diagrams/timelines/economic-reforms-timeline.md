@@ -22,36 +22,55 @@ Understanding economic reforms helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((📈 Economic Reforms))
+    🇮🇳 Independence
+    📋 Planned Development
+    🏭 Economic Expansion
+    🔄 Economic Reforms
+    🌐 Liberalization
+    🤝 Global Integration
+    💻 Digital Economy
+    🚀 Contemporary India
+```
+
+---
+
 ## Economic Reforms Timeline
 
-```text
-Independence
-      ↓
-Planned Development
-      ↓
-Economic Expansion
-      ↓
-Economic Reforms
-      ↓
-Liberalization
-      ↓
-Global Integration
-      ↓
-Digital Economy
-      ↓
-Contemporary India
+```mermaid
+flowchart TD
+    A[🇮🇳 Independence]
+    B[📋 Planned Development]
+    C[🏭 Economic Expansion]
+    D[🔄 Economic Reforms]
+    E[🌐 Liberalization]
+    F[🤝 Global Integration]
+    G[💻 Digital Economy]
+    H[🚀 Contemporary India]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
 ```
 
 ---
 
 ## Phase 1: Planned Development
 
-```text
-Independence
-      ↓
-National Development Planning
-      ↓
-Economic Foundations
+```mermaid
+flowchart TD
+    A[🇮🇳 Independence]
+    B[📋 National Development Planning]
+    C[🏗️ Economic Foundations]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -64,12 +83,14 @@ Economic Foundations
 
 ## Phase 2: Economic Expansion
 
-```text
-Development Programs
-         ↓
-Industrial Growth
-         ↓
-Economic Capacity
+```mermaid
+flowchart TD
+    A[📈 Development Programs]
+    B[🏭 Industrial Growth]
+    C[⚙️ Economic Capacity]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -81,12 +102,14 @@ Economic Capacity
 
 ## Phase 3: Economic Reforms
 
-```text
-Economic Challenges
-         ↓
-Policy Reforms
-         ↓
-Structural Changes
+```mermaid
+flowchart TD
+    A[⚠️ Economic Challenges]
+    B[🔄 Policy Reforms]
+    C[🏛️ Structural Changes]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -99,14 +122,16 @@ Structural Changes
 
 ## Phase 4: Liberalization
 
-```text
-Reforms
-   ↓
-Competition
-   ↓
-Investment
-   ↓
-Growth
+```mermaid
+flowchart TD
+    A[🔄 Reforms]
+    B[🏢 Competition]
+    C[💰 Investment]
+    D[📈 Growth]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -119,12 +144,14 @@ Growth
 
 ## Phase 5: Global Integration
 
-```text
-International Trade
-         ↓
-Global Participation
-         ↓
-Economic Integration
+```mermaid
+flowchart TD
+    A[🌍 International Trade]
+    B[🤝 Global Participation]
+    C[🌐 Economic Integration]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -136,12 +163,14 @@ Economic Integration
 
 ## Phase 6: Digital Economy
 
-```text
-Technology Adoption
-        ↓
-Digital Services
-        ↓
-Digital Public Infrastructure
+```mermaid
+flowchart TD
+    A[💻 Technology Adoption]
+    B[📱 Digital Services]
+    C[🏛️ Digital Public Infrastructure]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -154,34 +183,31 @@ Digital Public Infrastructure
 
 ## Economic Development Framework
 
-```text
-Development
-     ↓
-Reforms
-     ↓
-Liberalization
-     ↓
-Globalization
-     ↓
-Digital Economy
+```mermaid
+flowchart TD
+    A[🏗️ Development]
+    B[🔄 Reforms]
+    C[🌐 Liberalization]
+    D[🤝 Globalization]
+    E[💻 Digital Economy]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Planning
-    ↓
-Development
-    ↓
-Reforms
-    ↓
-Liberalization
-    ↓
-Globalization
-    ↓
-Digital Economy
+```mermaid
+flowchart LR
+    A[📋 Planning] --> B[🏗️ Development]
+    B --> C[🔄 Reforms]
+    C --> D[🌐 Liberalization]
+    D --> E[🤝 Globalization]
+    E --> F[💻 Digital Economy]
 ```
 
 ---

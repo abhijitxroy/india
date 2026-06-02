@@ -1,5 +1,3 @@
-
-
 # Prime Ministers Timeline
 
 ## Overview
@@ -22,34 +20,52 @@ Understanding the Prime Ministers timeline helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((👤 Prime Ministers of India))
+    🇮🇳 Independence
+    🏗️ Nation Building
+    🏛️ Institution Building
+    📈 Economic Development
+    🔄 Reforms & Liberalization
+    💻 Digital Transformation
+    🌏 Contemporary India
+```
+
+---
+
 ## Prime Ministers Timeline
 
-```text
-Independence
-      ↓
-Nation Building
-      ↓
-Institution Building
-      ↓
-Economic Development
-      ↓
-Reforms & Liberalization
-      ↓
-Digital Transformation
-      ↓
-Contemporary India
+```mermaid
+flowchart TD
+    A[🇮🇳 Independence]
+    B[🏗️ Nation Building]
+    C[🏛️ Institution Building]
+    D[📈 Economic Development]
+    E[🔄 Reforms & Liberalization]
+    F[💻 Digital Transformation]
+    G[🌏 Contemporary India]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
 
 ## Phase 1: Nation Building
 
-```text
-Independence
-      ↓
-Democratic Foundations
-      ↓
-Institution Building
+```mermaid
+flowchart TD
+    A[🇮🇳 Independence]
+    B[🏛️ Democratic Foundations]
+    C[🏗️ Institution Building]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -62,12 +78,14 @@ Institution Building
 
 ## Phase 2: Development Era
 
-```text
-Planning
-    ↓
-Infrastructure
-    ↓
-Economic Expansion
+```mermaid
+flowchart TD
+    A[📋 Planning]
+    B[🏗️ Infrastructure]
+    C[📈 Economic Expansion]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -80,12 +98,14 @@ Economic Expansion
 
 ## Phase 3: Reform Era
 
-```text
-Policy Reforms
-        ↓
-Economic Changes
-        ↓
-Modernization
+```mermaid
+flowchart TD
+    A[🔄 Policy Reforms]
+    B[📈 Economic Changes]
+    C[🚀 Modernization]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -98,12 +118,14 @@ Modernization
 
 ## Phase 4: Global Integration
 
-```text
-Economic Growth
-       ↓
-Global Engagement
-       ↓
-International Influence
+```mermaid
+flowchart TD
+    A[📈 Economic Growth]
+    B[🌐 Global Engagement]
+    C[🌍 International Influence]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -116,12 +138,14 @@ International Influence
 
 ## Phase 5: Digital Transformation
 
-```text
-Technology Adoption
-        ↓
-Digital Governance
-        ↓
-Digital Public Infrastructure
+```mermaid
+flowchart TD
+    A[💻 Technology Adoption]
+    B[🏛️ Digital Governance]
+    C[📱 Digital Public Infrastructure]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -134,32 +158,36 @@ Digital Public Infrastructure
 
 ## Governance Evolution Framework
 
-```text
-Prime Minister
-       ↓
-Government
-       ↓
-Public Policy
-       ↓
-Administration
-       ↓
-Development Outcomes
+```mermaid
+flowchart TD
+    A[👤 Prime Minister]
+    B[🏛️ Government]
+    C[📜 Public Policy]
+    D[⚙️ Administration]
+    E[📈 Development Outcomes]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Prime Minister and Democracy
 
-```text
-Citizens
-    ↓
-Election
-    ↓
-Parliament
-    ↓
-Prime Minister
-    ↓
-Government
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Election]
+    C[🏛️ Parliament]
+    D[👤 Prime Minister]
+    E[🏛️ Government]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Significance
@@ -172,18 +200,13 @@ Government
 
 ## Quick Revision
 
-```text
-Nation Building
-      ↓
-Development
-      ↓
-Reforms
-      ↓
-Global Integration
-      ↓
-Digital Transformation
-      ↓
-Contemporary India
+```mermaid
+flowchart LR
+    A[🏗️ Nation Building] --> B[📈 Development]
+    B --> C[🔄 Reforms]
+    C --> D[🌐 Global Integration]
+    D --> E[💻 Digital Transformation]
+    E --> F[🌏 Contemporary India]
 ```
 
 ---

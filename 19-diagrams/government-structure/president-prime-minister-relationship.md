@@ -1,5 +1,3 @@
-
-
 # President–Prime Minister Relationship
 
 ## Overview
@@ -22,34 +20,51 @@ Understanding the President–Prime Minister relationship helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((🇮🇳 Union Governance))
+    📜 Constitution
+    👤 President
+    👨‍💼 Prime Minister
+    👥 Council of Ministers
+    🏛️ Parliament
+    ⚙️ Government
+    👨‍👩‍👧‍👦 Citizens
+```
+
+---
+
 ## President–Prime Minister Framework
 
-```text
-Constitution
-      ↓
-President
-      ↕
-Prime Minister
-      ↓
-Council of Ministers
-      ↓
-Government
-      ↓
-Citizens
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[👤 President]
+    C[👨‍💼 Prime Minister]
+    D[👥 Council of Ministers]
+    E[⚙️ Government]
+    F[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B <--> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Constitutional Structure
 
-```text
-President
-     ↓
-Head of State
+```mermaid
+flowchart TD
+    A[👤 President]
+    B[🇮🇳 Head of State]
+    C[👨‍💼 Prime Minister]
+    D[⚙️ Head of Government]
 
-Prime Minister
-     ↓
-Head of Government
+    A --> B
+    C --> D
 ```
 
 ### Significance
@@ -62,16 +77,18 @@ Head of Government
 
 ## Democratic Governance Model
 
-```text
-Citizens
-    ↓
-General Election
-    ↓
-Lok Sabha
-    ↓
-Majority Support
-    ↓
-Prime Minister
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ General Election]
+    C[🏛️ Lok Sabha]
+    D[👑 Majority Support]
+    E[👨‍💼 Prime Minister]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Purpose
@@ -84,16 +101,18 @@ Prime Minister
 
 ## Executive Governance Framework
 
-```text
-Prime Minister
-       ↓
-Council of Ministers
-       ↓
-Policy Decisions
-       ↓
-Administration
-       ↓
-Governance
+```mermaid
+flowchart TD
+    A[👨‍💼 Prime Minister]
+    B[👥 Council of Ministers]
+    C[📜 Policy Decisions]
+    D[⚙️ Administration]
+    E[🌐 Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Significance
@@ -106,14 +125,16 @@ Governance
 
 ## Constitutional Authority Framework
 
-```text
-Constitution
-      ↓
-President
-      ↓
-Constitutional Functions
-      ↓
-Institutional Stability
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[👤 President]
+    C[🛡️ Constitutional Functions]
+    D[🏛️ Institutional Stability]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -126,14 +147,16 @@ Institutional Stability
 
 ## Parliamentary Accountability Model
 
-```text
-Prime Minister
-       ↓
-Council of Ministers
-       ↓
-Lok Sabha
-       ↓
-Accountability
+```mermaid
+flowchart TD
+    A[👨‍💼 Prime Minister]
+    B[👥 Council of Ministers]
+    C[🏛️ Lok Sabha]
+    D[⚖️ Accountability]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -146,34 +169,29 @@ Accountability
 
 ## Governance Cycle
 
-```text
-Citizens
-    ↓
-Election
-    ↓
-Government
-    ↓
-Governance
-    ↓
-Citizens
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Election]
+    C[⚙️ Government]
+    D[🌐 Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> A
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-President
-    ↓
-Head of State
-
-Prime Minister
-    ↓
-Head of Government
-
-Together
-    ↓
-Constitutional Democracy
+```mermaid
+flowchart LR
+    A[👤 President] --> B[🇮🇳 Head of State]
+    C[👨‍💼 Prime Minister] --> D[⚙️ Head of Government]
+    B --> E[📜 Constitutional Democracy]
+    D --> E
 ```
 
 ---

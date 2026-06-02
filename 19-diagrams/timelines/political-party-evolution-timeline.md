@@ -22,34 +22,52 @@ Understanding political party evolution helps explain:
 
 ---
 
+## 
+
+```mermaid
+mindmap
+  root((🏛️ Political Party Evolution))
+    🇮🇳 Independence
+    🏛️ Dominant Party Era
+    🗳️ Competitive Politics
+    🗺️ Regional Party Growth
+    🤝 Coalition Politics
+    ⚖️ National & Regional Competition
+    🌏 Contemporary Party System
+```
+
 ## Political Party Evolution Timeline
 
-```text
-Independence
-      ↓
-Dominant Party Era
-      ↓
-Competitive Politics
-      ↓
-Regional Party Growth
-      ↓
-Coalition Politics
-      ↓
-National & Regional Competition
-      ↓
-Contemporary Party System
+```mermaid
+flowchart TD
+    A[🇮🇳 Independence]
+    B[🏛️ Dominant Party Era]
+    C[🗳️ Competitive Politics]
+    D[🗺️ Regional Party Growth]
+    E[🤝 Coalition Politics]
+    F[⚖️ National & Regional Competition]
+    G[🌏 Contemporary Party System]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
 
 ## Phase 1: Democratic Foundation
 
-```text
-Independence
-      ↓
-Political Representation
-      ↓
-Democratic Competition
+```mermaid
+flowchart TD
+    A[🇮🇳 Independence]
+    B[👥 Political Representation]
+    C[🗳️ Democratic Competition]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -62,12 +80,14 @@ Democratic Competition
 
 ## Phase 2: Competitive Politics
 
-```text
-Political Competition
-         ↓
-Multiple Parties
-         ↓
-Electoral Alternatives
+```mermaid
+flowchart TD
+    A[🗳️ Political Competition]
+    B[🏛️ Multiple Parties]
+    C[👨‍👩‍👧‍👦 Electoral Alternatives]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -80,12 +100,14 @@ Electoral Alternatives
 
 ## Phase 3: Regional Party Growth
 
-```text
-Regional Interests
-        ↓
-Regional Parties
-        ↓
-State-Level Representation
+```mermaid
+flowchart TD
+    A[🗺️ Regional Interests]
+    B[🏛️ Regional Parties]
+    C[📍 State-Level Representation]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -98,12 +120,14 @@ State-Level Representation
 
 ## Phase 4: Coalition Politics
 
-```text
-Multiple Parties
-        ↓
-Alliance Building
-        ↓
-Coalition Governments
+```mermaid
+flowchart TD
+    A[🏛️ Multiple Parties]
+    B[🤝 Alliance Building]
+    C[🏛️ Coalition Governments]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -116,14 +140,17 @@ Coalition Governments
 
 ## Phase 5: Contemporary Party System
 
-```text
-National Parties
-        ↕
-Regional Parties
-        ↓
-Electoral Competition
-        ↓
-Government Formation
+```mermaid
+flowchart TD
+    A[🇮🇳 National Parties]
+    B[🗺️ Regional Parties]
+    C[🗳️ Electoral Competition]
+    D[🏛️ Government Formation]
+
+    A <--> B
+    B --> C
+    A --> C
+    C --> D
 ```
 
 ### Significance
@@ -136,32 +163,30 @@ Government Formation
 
 ## Political Representation Framework
 
-```text
-Citizens
-    ↓
-Political Parties
-    ↓
-Elections
-    ↓
-Representation
-    ↓
-Government
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🏛️ Political Parties]
+    C[🗳️ Elections]
+    D[👥 Representation]
+    E[🏛️ Government]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Democratic Foundation
-          ↓
-Competition
-          ↓
-Regional Growth
-          ↓
-Coalitions
-          ↓
-Contemporary Party System
+```mermaid
+flowchart LR
+    A[🇮🇳 Democratic Foundation] --> B[🗳️ Competition]
+    B --> C[🗺️ Regional Growth]
+    C --> D[🤝 Coalitions]
+    D --> E[🌏 Contemporary Party System]
 ```
 
 ---

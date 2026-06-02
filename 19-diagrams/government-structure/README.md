@@ -1,5 +1,3 @@
-
-
 # Government Structure Diagrams
 
 ## Overview
@@ -24,6 +22,18 @@ This section explains:
 
 Understanding these concepts helps explain how India functions as a constitutional parliamentary democracy.
 
+```mermaid
+mindmap
+  root((🏛️ Government Structure))
+    President
+    Prime Minister
+    Governor
+    Chief Minister
+    Union Government
+    State Government
+    Constitutional Authorities
+```
+
 ---
 
 ## Learning Priority
@@ -43,36 +53,37 @@ Understanding these concepts helps explain how India functions as a constitution
 
 ## Progress Status
 
-```text
-Completed
-├── President–Prime Minister Relationship
-├── Governor–Chief Minister Relationship
-├── Union Government Structure
-├── State Government Structure
-└── Constitutional Authorities Framework
-
-Status
-└── Government Structure Section Complete
+```mermaid
+mindmap
+  root((🏛️ Government Structure))
+    ✅ President–Prime Minister
+    ✅ Governor–Chief Minister
+    ✅ Union Government Structure
+    ✅ State Government Structure
+    ✅ Constitutional Authorities
+    🎯 Section Complete
 ```
 
 ---
 
 ## Citizen Learning Path
 
-```text
-Constitution
-      ↓
-President
-      ↓
-Prime Minister
-      ↓
-Union Government
-      ↓
-States
-      ↓
-Chief Ministers
-      ↓
-Citizens
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[👤 President]
+    C[👨‍💼 Prime Minister]
+    D[🇮🇳 Union Government]
+    E[🏛️ State Governments]
+    F[👨‍💼 Chief Ministers]
+    G[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
@@ -123,18 +134,13 @@ The goal is to understand:
 
 ## Quick Revision
 
-```text
-President
-    ↓
-Prime Minister
-    ↓
-Union Government
-    ↓
-State Governments
-    ↓
-Chief Ministers
-    ↓
-Citizens
+```mermaid
+flowchart LR
+    A[👤 President] --> B[👨‍💼 Prime Minister]
+    B --> C[🇮🇳 Union Government]
+    C --> D[🏛️ State Governments]
+    D --> E[👨‍💼 Chief Ministers]
+    E --> F[👨‍👩‍👧‍👦 Citizens]
 ```
 
 ---

@@ -20,32 +20,48 @@ Understanding the Presidents timeline helps explain:
 - Role of the Head of State
 - Institutional development over time
 
+```mermaid
+mindmap
+  root((👤 Presidents of India))
+    🇮🇳 Republic of India
+    📜 Constitution
+    👤 President
+    🏛️ Parliament
+    ⚙️ Government
+    ⚖️ Constitutional Governance
+    🌏 Contemporary India
+```
+
 ---
 
 ## Presidents Timeline
 
-```text
-Republic of India
-        ↓
-Constitutional Head of State
-        ↓
-Presidential Institution
-        ↓
-Democratic Continuity
-        ↓
-Contemporary India
+```mermaid
+flowchart TD
+    A[🇮🇳 Republic of India]
+    B[📜 Constitutional Head of State]
+    C[👤 Presidential Institution]
+    D[🏛️ Democratic Continuity]
+    E[🌏 Contemporary India]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Constitutional Foundation
 
-```text
-Constitution of India
-         ↓
-President of India
-         ↓
-Constitutional Authority
+```mermaid
+flowchart TD
+    A[📜 Constitution of India]
+    B[👤 President of India]
+    C[⚖️ Constitutional Authority]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -58,14 +74,16 @@ Constitutional Authority
 
 ## Institutional Continuity
 
-```text
-President
-     ↓
-Constitutional Functions
-     ↓
-Democratic Institutions
-     ↓
-Governance Stability
+```mermaid
+flowchart TD
+    A[👤 President]
+    B[📜 Constitutional Functions]
+    C[🏛️ Democratic Institutions]
+    D[⚙️ Governance Stability]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -78,16 +96,18 @@ Governance Stability
 
 ## President and Government
 
-```text
-Citizens
-    ↓
-Electoral Process
-    ↓
-President
-    ↓
-Constitutional Functions
-    ↓
-Government Formation
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Electoral Process]
+    C[👤 President]
+    D[📜 Constitutional Functions]
+    E[🏛️ Government Formation]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Significance
@@ -100,14 +120,16 @@ Government Formation
 
 ## President and Parliament
 
-```text
-President
-     ↓
-Parliament
-     ↓
-Legislation
-     ↓
-Constitutional Process
+```mermaid
+flowchart TD
+    A[👤 President]
+    B[🏛️ Parliament]
+    C[📜 Legislation]
+    D[⚖️ Constitutional Process]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -120,46 +142,46 @@ Constitutional Process
 
 ## Evolution of the Republic
 
-```text
-Republic Formation
-        ↓
-Democratic Development
-        ↓
-Institutional Growth
-        ↓
-Modern Republic
+```mermaid
+flowchart TD
+    A[🇮🇳 Republic Formation]
+    B[🏛️ Democratic Development]
+    C[📈 Institutional Growth]
+    D[🌏 Modern Republic]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ---
 
 ## Constitutional Governance Framework
 
-```text
-Constitution
-      ↓
-President
-      ↓
-Parliament
-      ↓
-Government
-      ↓
-Citizens
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[👤 President]
+    C[🏛️ Parliament]
+    D[⚙️ Government]
+    E[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Constitution
-      ↓
-President
-      ↓
-Democratic Institutions
-      ↓
-Governance
-      ↓
-Republic Continuity
+```mermaid
+flowchart LR
+    A[📜 Constitution] --> B[👤 President]
+    B --> C[🏛️ Democratic Institutions]
+    C --> D[⚙️ Governance]
+    D --> E[🇮🇳 Republic Continuity]
 ```
 
 ---

@@ -20,29 +20,45 @@ Understanding Lok Sabha and Rajya Sabha helps explain:
 - How democratic checks and balances work
 - How national legislation is scrutinized
 
+```mermaid
+mindmap
+  root((🏛️ Indian Parliament))
+    👨‍👩‍👧‍👦 Lok Sabha
+    🏛️ Rajya Sabha
+    🗳️ Representation
+    📜 Law Making
+    ⚖️ Accountability
+    🤝 Federal Balance
+    🇮🇳 Democracy
+```
+
 ---
 
 ## Parliament Structure
 
-```text
-Parliament
-     ↓
-├── Lok Sabha
-└── Rajya Sabha
+```mermaid
+flowchart TD
+    A[🏛️ Parliament]
+    B[👨‍👩‍👧‍👦 Lok Sabha]
+    C[🏛️ Rajya Sabha]
+
+    A --> B
+    A --> C
 ```
 
 ---
 
 ## Representation Model
 
-```text
-Citizens
-    ↓
-Lok Sabha
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[👨‍👩‍👧‍👦 Lok Sabha]
+    C[🏛️ States & Union Territories]
+    D[🏛️ Rajya Sabha]
 
-States & Union Territories
-            ↓
-Rajya Sabha
+    A --> B
+    C --> D
 ```
 
 ### Significance
@@ -55,18 +71,21 @@ Rajya Sabha
 
 ## House Comparison Framework
 
-```text
-Lok Sabha
-     ↓
-Direct Representation
-     ↓
-Elections
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Lok Sabha]
+    B[🗳️ Direct Representation]
+    C[🏛️ Elections]
 
-Rajya Sabha
-      ↓
-Federal Representation
-      ↓
-States
+    D[🏛️ Rajya Sabha]
+    E[🤝 Federal Representation]
+    F[🗺️ States]
+
+    A --> B
+    B --> C
+
+    D --> E
+    E --> F
 ```
 
 ### Purpose
@@ -79,16 +98,18 @@ States
 
 ## Legislative Process Model
 
-```text
-Bill
- ↓
-Lok Sabha
- ↓
-Rajya Sabha
- ↓
-President
- ↓
-Law
+```mermaid
+flowchart TD
+    A[📜 Bill]
+    B[👨‍👩‍👧‍👦 Lok Sabha]
+    C[🏛️ Rajya Sabha]
+    D[👤 President]
+    E[⚖️ Law]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Significance
@@ -101,18 +122,21 @@ Law
 
 ## Accountability Framework
 
-```text
-Government
-     ↓
-Lok Sabha
-     ↓
-Accountability
+```mermaid
+flowchart TD
+    A[⚙️ Government]
+    B[👨‍👩‍👧‍👦 Lok Sabha]
+    C[⚖️ Accountability]
 
-Government
-     ↓
-Rajya Sabha
-     ↓
-Review & Debate
+    D[⚙️ Government]
+    E[🏛️ Rajya Sabha]
+    F[💬 Review & Debate]
+
+    A --> B
+    B --> C
+
+    D --> E
+    E --> F
 ```
 
 ### Purpose
@@ -125,14 +149,17 @@ Review & Debate
 
 ## Bicameral Parliament Framework
 
-```text
-Lok Sabha
-      ↕
-Rajya Sabha
-      ↓
-Parliament
-      ↓
-Law Making
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Lok Sabha]
+    B[🏛️ Rajya Sabha]
+    C[🏛️ Parliament]
+    D[⚖️ Law Making]
+
+    A <--> B
+    A --> C
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -145,18 +172,12 @@ Law Making
 
 ## Quick Revision
 
-```text
-Lok Sabha
-     ↓
-People
-
-Rajya Sabha
-      ↓
-States
-
-Together
-      ↓
-Parliament
+```mermaid
+flowchart LR
+    A[👨‍👩‍👧‍👦 Lok Sabha] --> B[People]
+    C[🏛️ Rajya Sabha] --> D[States]
+    B --> E[🏛️ Parliament]
+    D --> E
 ```
 
 ---

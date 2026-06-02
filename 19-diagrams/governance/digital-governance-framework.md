@@ -1,5 +1,3 @@
-
-
 # Digital Governance Framework
 
 ## Overview
@@ -22,34 +20,52 @@ Understanding digital governance helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((💻 Digital Governance))
+    🏛️ Government
+    🌐 Digital Platforms
+    📱 Citizen Services
+    📊 Transparency
+    🗣️ Citizen Feedback
+    ⚙️ Efficiency
+    📈 Governance Improvement
+```
+
+---
+
 ## Digital Governance Framework
 
-```text
-Government
-     ↓
-Digital Platforms
-     ↓
-Digital Services
-     ↓
-Citizens
-     ↓
-Feedback
-     ↓
-Governance Improvement
+```mermaid
+flowchart TD
+    A[🏛️ Government]
+    B[🌐 Digital Platforms]
+    C[📱 Digital Services]
+    D[👨‍👩‍👧‍👦 Citizens]
+    E[🗣️ Feedback]
+    F[📈 Governance Improvement]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Digital Governance Ecosystem
 
-```text
-Government Institutions
-          ↓
-Digital Infrastructure
-          ↓
-Digital Platforms
-          ↓
-Public Services
+```mermaid
+flowchart TD
+    A[🏛️ Government Institutions]
+    B[🖥️ Digital Infrastructure]
+    C[🌐 Digital Platforms]
+    D[📱 Public Services]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -62,14 +78,16 @@ Public Services
 
 ## Service Delivery Model
 
-```text
-Government Service
-         ↓
-Digital Platform
-         ↓
-Citizen Access
-         ↓
-Service Delivery
+```mermaid
+flowchart TD
+    A[📜 Government Service]
+    B[🌐 Digital Platform]
+    C[👨‍👩‍👧‍👦 Citizen Access]
+    D[❤️ Service Delivery]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -82,14 +100,16 @@ Service Delivery
 
 ## Transparency Framework
 
-```text
-Government Data
-        ↓
-Digital Publication
-        ↓
-Public Access
-        ↓
-Transparency
+```mermaid
+flowchart TD
+    A[📊 Government Data]
+    B[🌐 Digital Publication]
+    C[👀 Public Access]
+    D[🔍 Transparency]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -102,14 +122,16 @@ Transparency
 
 ## Citizen Participation Model
 
-```text
-Citizens
-    ↓
-Digital Interaction
-    ↓
-Feedback
-    ↓
-Government Response
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[📱 Digital Interaction]
+    C[🗣️ Feedback]
+    D[🏛️ Government Response]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -122,34 +144,31 @@ Government Response
 
 ## Governance Improvement Cycle
 
-```text
-Technology
-     ↓
-Efficiency
-     ↓
-Better Services
-     ↓
-Citizen Satisfaction
-     ↓
-Governance Improvement
+```mermaid
+flowchart TD
+    A[💻 Technology]
+    B[⚙️ Efficiency]
+    C[❤️ Better Services]
+    D[😊 Citizen Satisfaction]
+    E[📈 Governance Improvement]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Government
-     ↓
-Technology
-     ↓
-Digital Services
-     ↓
-Citizens
-     ↓
-Feedback
-     ↓
-Improvement
+```mermaid
+flowchart LR
+    A[🏛️ Government] --> B[💻 Technology]
+    B --> C[📱 Digital Services]
+    C --> D[👨‍👩‍👧‍👦 Citizens]
+    D --> E[🗣️ Feedback]
+    E --> F[📈 Improvement]
 ```
 
 ---

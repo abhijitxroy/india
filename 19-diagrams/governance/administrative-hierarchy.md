@@ -1,5 +1,3 @@
-
-
 # Administrative Hierarchy
 
 ## Overview
@@ -22,36 +20,52 @@ Understanding the administrative hierarchy helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((🏛️ Administration))
+    🇮🇳 Union Government
+    🏢 Ministries
+    📂 Departments
+    🏛️ State Governments
+    🏙️ District Administration
+    🏘️ Local Bodies
+    👨‍👩‍👧‍👦 Citizens
+```
+
 ## Administrative Hierarchy Framework
 
-```text
-Union Government
-        ↓
-Ministries
-        ↓
-Departments
-        ↓
-State Governments
-        ↓
-District Administration
-        ↓
-Local Administration
-        ↓
-Citizens
+```mermaid
+flowchart TD
+    A[🇮🇳 Union Government]
+    B[🏢 Ministries]
+    C[📂 Departments]
+    D[🏛️ State Governments]
+    E[🏙️ District Administration]
+    F[🏘️ Local Administration]
+    G[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
 
 ## National Administration
 
-```text
-Union Government
-        ↓
-Ministries
-        ↓
-Departments
-        ↓
-National Programs
+```mermaid
+flowchart TD
+    A[🇮🇳 Union Government]
+    B[🏢 Ministries]
+    C[📂 Departments]
+    D[📜 National Programs]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Responsibilities
@@ -65,14 +79,16 @@ National Programs
 
 ## State Administration
 
-```text
-State Government
-        ↓
-State Departments
-        ↓
-Implementation Agencies
-        ↓
-Public Services
+```mermaid
+flowchart TD
+    A[🏛️ State Government]
+    B[📂 State Departments]
+    C[⚙️ Implementation Agencies]
+    D[❤️ Public Services]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Responsibilities
@@ -85,14 +101,16 @@ Public Services
 
 ## District Administration
 
-```text
-State Government
-        ↓
-District Administration
-        ↓
-Sub-District Administration
-        ↓
-Field Implementation
+```mermaid
+flowchart TD
+    A[🏛️ State Government]
+    B[🏙️ District Administration]
+    C[🏘️ Sub-District Administration]
+    D[⚙️ Field Implementation]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Responsibilities
@@ -106,14 +124,17 @@ Field Implementation
 
 ## Local Administration
 
-```text
-District Administration
-         ↓
-Urban Local Bodies
-         +
-Rural Local Bodies
-         ↓
-Citizen Services
+```mermaid
+flowchart TD
+    A[🏙️ District Administration]
+    B[🏢 Urban Local Bodies]
+    C[🌾 Rural Local Bodies]
+    D[👨‍👩‍👧‍👦 Citizen Services]
+
+    A --> B
+    A --> C
+    B --> D
+    C --> D
 ```
 
 ### Responsibilities
@@ -126,48 +147,47 @@ Citizen Services
 
 ## Governance Execution Model
 
-```text
-Policy
-   ↓
-Administration
-   ↓
-Implementation
-   ↓
-Service Delivery
-   ↓
-Citizens
+```mermaid
+flowchart TD
+    A[📜 Policy]
+    B[🏛️ Administration]
+    C[⚙️ Implementation]
+    D[❤️ Service Delivery]
+    E[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Accountability Flow
 
-```text
-Citizens
-     ↑
-Service Delivery
-     ↑
-Administration
-     ↑
-Government
+```mermaid
+flowchart BT
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[❤️ Service Delivery]
+    C[🏛️ Administration]
+    D[🇮🇳 Government]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Government
-     ↓
-Ministry
-     ↓
-Department
-     ↓
-District
-     ↓
-Local Body
-     ↓
-Citizen
+```mermaid
+flowchart LR
+    A[🇮🇳 Government] --> B[🏢 Ministry]
+    B --> C[📂 Department]
+    C --> D[🏙️ District]
+    D --> E[🏘️ Local Body]
+    E --> F[👨‍👩‍👧‍👦 Citizen]
 ```
 
 ---

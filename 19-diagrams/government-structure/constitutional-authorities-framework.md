@@ -20,36 +20,47 @@ Understanding constitutional authorities helps explain:
 - How constitutional accountability is maintained
 - How governance remains independent and transparent
 
+```mermaid
+mindmap
+  root((📜 Constitutional Authorities))
+    🗳️ Election Commission
+    💰 Finance Commission
+    📊 Comptroller & Auditor General
+    👨‍💼 UPSC
+    ⚖️ Accountability
+    🏛️ Governance
+    👨‍👩‍👧‍👦 Citizens
+```
+
 ---
 
 ## Constitutional Authorities Framework
 
-```text
-Constitution
-      ↓
-Constitutional Authorities
-      ↓
-Independent Functions
-      ↓
-Governance Support
-      ↓
-Citizens
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🏛️ Constitutional Authorities]
+    C[⚙️ Independent Functions]
+    D[🤝 Governance Support]
+    E[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Institutional Structure
 
-```text
-Constitution
-      ↓
-Election Commission
-      ↓
-Comptroller & Auditor General
-      ↓
-Finance Commission
-      ↓
-Union Public Service Commission
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    A --> B[🗳️ Election Commission]
+    A --> C[📊 Comptroller & Auditor General]
+    A --> D[💰 Finance Commission]
+    A --> E[👨‍💼 Union Public Service Commission]
 ```
 
 ### Purpose
@@ -62,14 +73,16 @@ Union Public Service Commission
 
 ## Electoral Governance Framework
 
-```text
-Citizens
-    ↓
-Elections
-    ↓
-Election Commission
-    ↓
-Democratic Legitimacy
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Elections]
+    C[🗳️ Election Commission]
+    D[✅ Democratic Legitimacy]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -82,14 +95,16 @@ Democratic Legitimacy
 
 ## Financial Accountability Framework
 
-```text
-Public Funds
-      ↓
-Government Spending
-      ↓
-Audit & Review
-      ↓
-Accountability
+```mermaid
+flowchart TD
+    A[💰 Public Funds]
+    B[🏛️ Government Spending]
+    C[📊 Audit & Review]
+    D[⚖️ Accountability]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -102,14 +117,16 @@ Accountability
 
 ## Administrative Governance Framework
 
-```text
-Public Administration
-          ↓
-Recruitment Systems
-          ↓
-Civil Services
-          ↓
-Governance Delivery
+```mermaid
+flowchart TD
+    A[🏢 Public Administration]
+    B[👨‍💼 Recruitment Systems]
+    C[📋 Civil Services]
+    D[⚙️ Governance Delivery]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -122,16 +139,18 @@ Governance Delivery
 
 ## Constitutional Balance Model
 
-```text
-Constitution
-      ↓
-Authorities
-      ↓
-Oversight
-      ↓
-Accountability
-      ↓
-Citizens
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🏛️ Authorities]
+    C[👀 Oversight]
+    D[⚖️ Accountability]
+    E[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Purpose
@@ -144,16 +163,12 @@ Citizens
 
 ## Quick Revision
 
-```text
-Constitution
-      ↓
-Independent Authorities
-      ↓
-Oversight
-      ↓
-Accountability
-      ↓
-Citizens
+```mermaid
+flowchart LR
+    A[📜 Constitution] --> B[🏛️ Independent Authorities]
+    B --> C[👀 Oversight]
+    C --> D[⚖️ Accountability]
+    D --> E[👨‍👩‍👧‍👦 Citizens]
 ```
 
 ---

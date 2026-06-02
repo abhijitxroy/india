@@ -22,38 +22,54 @@ Understanding government formation helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((🏛️ Government Formation))
+    🗳️ Election Results
+    🏛️ Seat Distribution
+    👑 Majority
+    🤝 Coalition
+    🙋 Leadership
+    ⚙️ Government
+    🌐 Governance
+```
+
 ## Overall Government Formation Flow
 
-```text
-Election Results
-        ↓
-Seat Distribution
-        ↓
-Majority Assessment
-        ↓
-Government Formation
-        ↓
-Council of Ministers
-        ↓
-Governance
+```mermaid
+flowchart TD
+    A[🗳️ Election Results]
+    B[🏛️ Seat Distribution]
+    C[👑 Majority Assessment]
+    D[🤝 Government Formation]
+    E[👥 Council of Ministers]
+    F[🌐 Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Majority Government Scenario
 
-```text
-Election Results
-        ↓
-Single Party Majority
-        ↓
-Leader Selection
-        ↓
-Government Formation
-        ↓
-Prime Minister / Chief Minister
-        ↓
-Council of Ministers
+```mermaid
+flowchart TD
+    A[🗳️ Election Results]
+    B[🏆 Single Party Majority]
+    C[🙋 Leader Selection]
+    D[🏛️ Government Formation]
+    E[👑 Prime Minister / Chief Minister]
+    F[👥 Council of Ministers]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ### Outcome
@@ -65,18 +81,20 @@ Council of Ministers
 
 ## Coalition Government Scenario
 
-```text
-Election Results
-        ↓
-No Clear Majority
-        ↓
-Party Negotiations
-        ↓
-Coalition Agreement
-        ↓
-Government Formation
-        ↓
-Shared Governance
+```mermaid
+flowchart TD
+    A[🗳️ Election Results]
+    B[❓ No Clear Majority]
+    C[🤝 Party Negotiations]
+    D[📜 Coalition Agreement]
+    E[🏛️ Government Formation]
+    F[🌐 Shared Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ### Outcome
@@ -88,50 +106,50 @@ Shared Governance
 
 ## Parliamentary Leadership Flow
 
-```text
-Legislative Majority
-          ↓
-Leader Selection
-          ↓
-Prime Minister / Chief Minister
-          ↓
-Cabinet Formation
-          ↓
-Executive Government
+```mermaid
+flowchart TD
+    A[🏛️ Legislative Majority]
+    B[🙋 Leader Selection]
+    C[👑 Prime Minister / Chief Minister]
+    D[👥 Cabinet Formation]
+    E[⚙️ Executive Government]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Governance Cycle
 
-```text
-Government Formation
-          ↓
-Policy Decisions
-          ↓
-Administration
-          ↓
-Public Services
-          ↓
-Citizen Evaluation
-          ↓
-Next Election
+```mermaid
+flowchart TD
+    A[🏛️ Government Formation]
+    B[📜 Policy Decisions]
+    C[⚙️ Administration]
+    D[❤️ Public Services]
+    E[📊 Citizen Evaluation]
+    F[🗳️ Next Election]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Election
-    ↓
-Majority
-    ↓
-Government
-    ↓
-Cabinet
-    ↓
-Governance
+```mermaid
+flowchart LR
+    A[🗳️ Election] --> B[👑 Majority]
+    B --> C[🏛️ Government]
+    C --> D[👥 Cabinet]
+    D --> E[🌐 Governance]
 ```
 
 ---

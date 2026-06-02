@@ -20,38 +20,54 @@ Understanding the State Government structure helps explain:
 - How state administration functions
 - How governance reaches citizens
 
+```mermaid
+mindmap
+  root((🏛️ State Government))
+    👨‍👩‍👧‍👦 Citizens
+    🗳️ State Elections
+    🏛️ Legislative Assembly
+    👨‍💼 Chief Minister
+    👥 Council of Ministers
+    ⚙️ Administration
+    🌐 Governance
+```
+
 ---
 
 ## State Government Structure
 
-```text
-Citizens
-    ↓
-State Elections
-    ↓
-Legislative Assembly
-    ↓
-Chief Minister
-    ↓
-Council of Ministers
-    ↓
-State Administration
-    ↓
-Citizens
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ State Elections]
+    C[🏛️ Legislative Assembly]
+    D[👨‍💼 Chief Minister]
+    E[👥 Council of Ministers]
+    F[⚙️ State Administration]
+    G[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
 
 ## Constitutional Framework
 
-```text
-Constitution
-      ↓
-Governor
-      ↓
-State Government
-      ↓
-Governance
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[👤 Governor]
+    C[🏛️ State Government]
+    D[🌐 Governance]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -64,14 +80,16 @@ Governance
 
 ## Legislative Structure
 
-```text
-Citizens
-    ↓
-State Elections
-    ↓
-Legislative Assembly
-    ↓
-Law Making
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ State Elections]
+    C[🏛️ Legislative Assembly]
+    D[📜 Law Making]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -84,14 +102,16 @@ Law Making
 
 ## Executive Structure
 
-```text
-Chief Minister
-       ↓
-Council of Ministers
-       ↓
-Departments
-       ↓
-Administration
+```mermaid
+flowchart TD
+    A[👨‍💼 Chief Minister]
+    B[👥 Council of Ministers]
+    C[🏢 Departments]
+    D[⚙️ Administration]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -104,16 +124,18 @@ Administration
 
 ## Governance Delivery Framework
 
-```text
-State Government
-       ↓
-Departments
-       ↓
-District Administration
-       ↓
-Local Governance
-       ↓
-Citizens
+```mermaid
+flowchart TD
+    A[🏛️ State Government]
+    B[🏢 Departments]
+    C[🏙️ District Administration]
+    D[🏘️ Local Governance]
+    E[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Purpose
@@ -126,14 +148,16 @@ Citizens
 
 ## Accountability Framework
 
-```text
-Government
-     ↓
-Legislature
-     ↓
-Oversight
-     ↓
-Accountability
+```mermaid
+flowchart TD
+    A[⚙️ Government]
+    B[🏛️ Legislature]
+    C[👀 Oversight]
+    D[⚖️ Accountability]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -146,12 +170,14 @@ Accountability
 
 ## Federal Governance Model
 
-```text
-Union Government
-        ↕
-State Government
-        ↓
-Citizens
+```mermaid
+flowchart TD
+    A[🇮🇳 Union Government]
+    B[🏛️ State Government]
+    C[👨‍👩‍👧‍👦 Citizens]
+
+    A <--> B
+    B --> C
 ```
 
 ### Purpose
@@ -164,16 +190,12 @@ Citizens
 
 ## Quick Revision
 
-```text
-Governor
-    ↓
-Chief Minister
-    ↓
-Council of Ministers
-    ↓
-Administration
-    ↓
-Citizens
+```mermaid
+flowchart LR
+    A[👤 Governor] --> B[👨‍💼 Chief Minister]
+    B --> C[👥 Council of Ministers]
+    C --> D[⚙️ Administration]
+    D --> E[👨‍👩‍👧‍👦 Citizens]
 ```
 
 ---

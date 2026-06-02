@@ -22,36 +22,54 @@ Understanding e-governance helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((💻 E-Governance))
+    👨‍👩‍👧‍👦 Citizens
+    🌐 Digital Platforms
+    📝 Service Requests
+    🏛️ Departments
+    ⚙️ Processing
+    ✅ Approvals
+    ❤️ Service Delivery
+```
+
+---
+
 ## E-Governance Workflow
 
-```text
-Citizen
-    ↓
-Digital Platform
-    ↓
-Service Request
-    ↓
-Administrative Processing
-    ↓
-Decision / Approval
-    ↓
-Digital Service Delivery
-    ↓
-Citizen
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizen]
+    B[🌐 Digital Platform]
+    C[📝 Service Request]
+    D[🏛️ Administrative Processing]
+    E[✅ Decision / Approval]
+    F[❤️ Digital Service Delivery]
+    G[👨‍👩‍👧‍👦 Citizen]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
 
 ## Citizen Access Model
 
-```text
-Citizen
-    ↓
-Website / Mobile App
-    ↓
-Authentication
-    ↓
-Service Access
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizen]
+    B[📱 Website / Mobile App]
+    C[🔐 Authentication]
+    D[🌐 Service Access]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -64,16 +82,18 @@ Service Access
 
 ## Service Processing Workflow
 
-```text
-Service Request
-       ↓
-Department
-       ↓
-Verification
-       ↓
-Processing
-       ↓
-Approval / Rejection
+```mermaid
+flowchart TD
+    A[📝 Service Request]
+    B[🏛️ Department]
+    C[🔍 Verification]
+    D[⚙️ Processing]
+    E[✅ Approval / ❌ Rejection]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Outcome
@@ -86,14 +106,16 @@ Approval / Rejection
 
 ## Digital Service Delivery Model
 
-```text
-Approved Request
-        ↓
-Digital Platform
-        ↓
-Citizen Notification
-        ↓
-Service Delivery
+```mermaid
+flowchart TD
+    A[✅ Approved Request]
+    B[🌐 Digital Platform]
+    C[🔔 Citizen Notification]
+    D[❤️ Service Delivery]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -106,28 +128,32 @@ Service Delivery
 
 ## Administrative Efficiency Framework
 
-```text
-Manual Process
-       ↓
-Digitization
-       ↓
-Automation
-       ↓
-Efficiency Improvement
+```mermaid
+flowchart TD
+    A[📄 Manual Process]
+    B[💻 Digitization]
+    C[🤖 Automation]
+    D[📈 Efficiency Improvement]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ---
 
 ## Feedback & Improvement Cycle
 
-```text
-Citizens
-    ↓
-Feedback
-    ↓
-Government Review
-    ↓
-Service Improvement
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗣️ Feedback]
+    C[🏛️ Government Review]
+    D[🔄 Service Improvement]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -140,34 +166,31 @@ Service Improvement
 
 ## E-Governance Ecosystem
 
-```text
-Government
-     ↓
-Digital Infrastructure
-     ↓
-Digital Platforms
-     ↓
-Public Services
-     ↓
-Citizens
+```mermaid
+flowchart TD
+    A[🏛️ Government]
+    B[🖥️ Digital Infrastructure]
+    C[🌐 Digital Platforms]
+    D[❤️ Public Services]
+    E[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Citizen
-    ↓
-Digital Platform
-    ↓
-Request
-    ↓
-Processing
-    ↓
-Approval
-    ↓
-Service Delivery
+```mermaid
+flowchart LR
+    A[👨‍👩‍👧‍👦 Citizen] --> B[🌐 Platform]
+    B --> C[📝 Request]
+    C --> D[⚙️ Processing]
+    D --> E[✅ Approval]
+    E --> F[❤️ Service Delivery]
 ```
 
 ---

@@ -22,34 +22,50 @@ Understanding major laws helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((⚖️ Major Laws Timeline))
+    📜 Constitution
+    🏛️ Nation Building Laws
+    👥 Social Reform Laws
+    📈 Economic Reform Laws
+    🔍 Transparency Laws
+    💻 Digital Era Laws
+    🇮🇳 Contemporary India
+```
+
 ## Major Laws Timeline
 
-```text
-Constitution
-      ↓
-Nation Building Laws
-      ↓
-Social Reform Laws
-      ↓
-Economic Reform Laws
-      ↓
-Transparency Laws
-      ↓
-Digital Era Laws
-      ↓
-Contemporary India
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🏛️ Nation Building Laws]
+    C[👥 Social Reform Laws]
+    D[📈 Economic Reform Laws]
+    E[🔍 Transparency Laws]
+    F[💻 Digital Era Laws]
+    G[🇮🇳 Contemporary India]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
 
 ## Phase 1: Constitutional Foundation
 
-```text
-Constitution
-      ↓
-Fundamental Rights
-      ↓
-Democratic Governance
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🛡️ Fundamental Rights]
+    C[🏛️ Democratic Governance]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -62,12 +78,14 @@ Democratic Governance
 
 ## Phase 2: Nation Building Laws
 
-```text
-Independence
-      ↓
-Institution Building
-      ↓
-Governance Framework
+```mermaid
+flowchart TD
+    A[🇮🇳 Independence]
+    B[🏗️ Institution Building]
+    C[🏛️ Governance Framework]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -80,12 +98,14 @@ Governance Framework
 
 ## Phase 3: Social Reform Laws
 
-```text
-Social Challenges
-       ↓
-Legislation
-       ↓
-Social Change
+```mermaid
+flowchart TD
+    A[👥 Social Challenges]
+    B[📜 Legislation]
+    C[🤝 Social Change]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -98,12 +118,14 @@ Social Change
 
 ## Phase 4: Economic Reform Laws
 
-```text
-Economic Development
-         ↓
-Regulatory Reforms
-         ↓
-Growth & Modernization
+```mermaid
+flowchart TD
+    A[📈 Economic Development]
+    B[🔄 Regulatory Reforms]
+    C[🚀 Growth & Modernization]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -116,12 +138,14 @@ Growth & Modernization
 
 ## Phase 5: Transparency & Accountability Laws
 
-```text
-Governance
-     ↓
-Transparency
-     ↓
-Public Accountability
+```mermaid
+flowchart TD
+    A[🏛️ Governance]
+    B[🔍 Transparency]
+    C[⚖️ Public Accountability]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -134,12 +158,14 @@ Public Accountability
 
 ## Phase 6: Digital Era Laws
 
-```text
-Technology
-     ↓
-Digital Governance
-     ↓
-Modern Regulatory Frameworks
+```mermaid
+flowchart TD
+    A[💻 Technology]
+    B[🌐 Digital Governance]
+    C[📜 Modern Regulatory Frameworks]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -152,34 +178,31 @@ Modern Regulatory Frameworks
 
 ## Law to Governance Framework
 
-```text
-Law
- ↓
-Institution
- ↓
-Implementation
- ↓
-Citizens
- ↓
-Outcomes
+```mermaid
+flowchart TD
+    A[📜 Law]
+    B[🏛️ Institution]
+    C[⚙️ Implementation]
+    D[👨‍👩‍👧‍👦 Citizens]
+    E[📈 Outcomes]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Constitution
-      ↓
-Nation Building
-      ↓
-Social Reform
-      ↓
-Economic Reform
-      ↓
-Transparency
-      ↓
-Digital Era
+```mermaid
+flowchart LR
+    A[📜 Constitution] --> B[🏛️ Nation Building]
+    B --> C[👥 Social Reform]
+    C --> D[📈 Economic Reform]
+    D --> E[🔍 Transparency]
+    E --> F[💻 Digital Era]
 ```
 
 ---

@@ -22,32 +22,50 @@ Understanding the journey of a case helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((⚖️ Case Journey))
+    👨‍👩‍👧‍👦 Citizen
+    🏛️ Lower Court
+    📜 Trial
+    ⬆️ Appeal
+    ⚖️ High Court
+    🏛️ Supreme Court
+    ✅ Final Resolution
+```
+
+---
+
 ## Case Journey Through Courts
 
-```text
-Citizen / Organization
-          ↓
-Lower Court
-          ↓
-Appeal
-          ↓
-High Court
-          ↓
-Appeal
-          ↓
-Supreme Court
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizen / Organization]
+    B[🏛️ Lower Court]
+    C[⬆️ Appeal]
+    D[⚖️ High Court]
+    E[⬆️ Appeal]
+    F[🏛️ Supreme Court]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Entry into the Judicial System
 
-```text
-Dispute
-   ↓
-Complaint / Petition
-   ↓
-Court Proceedings
+```mermaid
+flowchart TD
+    A[⚠️ Dispute]
+    B[📄 Complaint / Petition]
+    C[⚖️ Court Proceedings]
+
+    A --> B
+    B --> C
 ```
 
 ### Purpose
@@ -60,12 +78,14 @@ Court Proceedings
 
 ## Trial Stage
 
-```text
-Evidence
-    ↓
-Arguments
-    ↓
-Court Decision
+```mermaid
+flowchart TD
+    A[📑 Evidence]
+    B[🗣️ Arguments]
+    C[📜 Court Decision]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -78,12 +98,14 @@ Court Decision
 
 ## Appeals Framework
 
-```text
-Court Decision
-       ↓
-Appeal
-       ↓
-Higher Court Review
+```mermaid
+flowchart TD
+    A[📜 Court Decision]
+    B[⬆️ Appeal]
+    C[⚖️ Higher Court Review]
+
+    A --> B
+    B --> C
 ```
 
 ### Purpose
@@ -96,12 +118,14 @@ Higher Court Review
 
 ## High Court Role
 
-```text
-Appeals
-    ↓
-High Court
-    ↓
-Review & Judgment
+```mermaid
+flowchart TD
+    A[⬆️ Appeals]
+    B[⚖️ High Court]
+    C[📜 Review & Judgment]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -114,12 +138,14 @@ Review & Judgment
 
 ## Supreme Court Role
 
-```text
-National Importance
-         ↓
-Supreme Court
-         ↓
-Final Decision
+```mermaid
+flowchart TD
+    A[🇮🇳 National Importance]
+    B[🏛️ Supreme Court]
+    C[✅ Final Decision]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -132,32 +158,30 @@ Final Decision
 
 ## Justice Delivery Framework
 
-```text
-Citizens
-    ↓
-Courts
-    ↓
-Judgments
-    ↓
-Remedies
-    ↓
-Justice
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[⚖️ Courts]
+    C[📜 Judgments]
+    D[🛡️ Remedies]
+    E[✅ Justice]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Dispute
-   ↓
-Lower Court
-   ↓
-High Court
-   ↓
-Supreme Court
-   ↓
-Final Resolution
+```mermaid
+flowchart LR
+    A[⚠️ Dispute] --> B[🏛️ Lower Court]
+    B --> C[⚖️ High Court]
+    C --> D[🏛️ Supreme Court]
+    D --> E[✅ Final Resolution]
 ```
 
 ---

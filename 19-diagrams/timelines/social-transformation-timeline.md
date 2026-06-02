@@ -1,5 +1,3 @@
-
-
 # Social Transformation Timeline
 
 ## Overview
@@ -22,34 +20,52 @@ Understanding social transformation helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((👥 Social Transformation))
+    🇮🇳 Independence
+    🏗️ Nation Building
+    🎓 Education Expansion
+    🤝 Social Development
+    📈 Economic Transformation
+    💻 Digital Transformation
+    🌏 Contemporary India
+```
+
+---
+
 ## Social Transformation Timeline
 
-```text
-Independence
-      ↓
-Nation Building
-      ↓
-Education Expansion
-      ↓
-Social Development
-      ↓
-Economic Transformation
-      ↓
-Digital Transformation
-      ↓
-Contemporary India
+```mermaid
+flowchart TD
+    A[🇮🇳 Independence]
+    B[🏗️ Nation Building]
+    C[🎓 Education Expansion]
+    D[🤝 Social Development]
+    E[📈 Economic Transformation]
+    F[💻 Digital Transformation]
+    G[🌏 Contemporary India]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
 
 ## Phase 1: Nation Building
 
-```text
-Independence
-      ↓
-Institution Building
-      ↓
-Social Foundations
+```mermaid
+flowchart TD
+    A[🇮🇳 Independence]
+    B[🏛️ Institution Building]
+    C[🤝 Social Foundations]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -62,12 +78,14 @@ Social Foundations
 
 ## Phase 2: Education Expansion
 
-```text
-Education Access
-        ↓
-Skill Development
-        ↓
-Social Mobility
+```mermaid
+flowchart TD
+    A[🎓 Education Access]
+    B[🛠️ Skill Development]
+    C[📈 Social Mobility]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -80,12 +98,14 @@ Social Mobility
 
 ## Phase 3: Social Development
 
-```text
-Social Reforms
-       ↓
-Public Welfare
-       ↓
-Citizen Empowerment
+```mermaid
+flowchart TD
+    A[🤝 Social Reforms]
+    B[🏥 Public Welfare]
+    C[👨‍👩‍👧‍👦 Citizen Empowerment]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -98,14 +118,16 @@ Citizen Empowerment
 
 ## Phase 4: Economic Transformation
 
-```text
-Development
-     ↓
-Employment
-     ↓
-Urbanization
-     ↓
-Rising Aspirations
+```mermaid
+flowchart TD
+    A[📈 Development]
+    B[💼 Employment]
+    C[🏙️ Urbanization]
+    D[🚀 Rising Aspirations]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -118,14 +140,16 @@ Rising Aspirations
 
 ## Phase 5: Digital Transformation
 
-```text
-Technology
-     ↓
-Connectivity
-     ↓
-Digital Services
-     ↓
-Citizen Access
+```mermaid
+flowchart TD
+    A[💻 Technology]
+    B[🌐 Connectivity]
+    C[📱 Digital Services]
+    D[👨‍👩‍👧‍👦 Citizen Access]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -138,32 +162,30 @@ Citizen Access
 
 ## Social Change Framework
 
-```text
-Education
-     ↓
-Opportunity
-     ↓
-Participation
-     ↓
-Development
-     ↓
-Social Change
+```mermaid
+flowchart TD
+    A[🎓 Education]
+    B[📈 Opportunity]
+    C[🤝 Participation]
+    D[📊 Development]
+    E[👥 Social Change]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Nation Building
-      ↓
-Education
-      ↓
-Social Development
-      ↓
-Economic Change
-      ↓
-Digital Transformation
+```mermaid
+flowchart LR
+    A[🏗️ Nation Building] --> B[🎓 Education]
+    B --> C[🤝 Social Development]
+    C --> D[📈 Economic Change]
+    D --> E[💻 Digital Transformation]
 ```
 
 ---

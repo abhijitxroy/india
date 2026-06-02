@@ -18,38 +18,54 @@ Understanding the Union Government structure helps explain:
 - How ministries and departments function
 - How governance reaches citizens
 
+```mermaid
+mindmap
+  root((🇮🇳 Union Government))
+    👨‍👩‍👧‍👦 Citizens
+    🗳️ General Elections
+    🏛️ Parliament
+    👨‍💼 Prime Minister
+    👥 Council of Ministers
+    ⚙️ Administration
+    🌐 Governance
+```
+
 ---
 
 ## Union Government Structure
 
-```text
-Citizens
-    ↓
-General Elections
-    ↓
-Lok Sabha
-    ↓
-Prime Minister
-    ↓
-Council of Ministers
-    ↓
-Union Administration
-    ↓
-Citizens
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ General Elections]
+    C[🏛️ Lok Sabha]
+    D[👨‍💼 Prime Minister]
+    E[👥 Council of Ministers]
+    F[⚙️ Union Administration]
+    G[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
 
 ## Constitutional Framework
 
-```text
-Constitution
-      ↓
-President
-      ↓
-Union Government
-      ↓
-Governance
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[👤 President]
+    C[🇮🇳 Union Government]
+    D[🌐 Governance]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -62,14 +78,16 @@ Governance
 
 ## Legislative Structure
 
-```text
-Citizens
-    ↓
-Elections
-    ↓
-Parliament
-    ↓
-Law Making
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Elections]
+    C[🏛️ Parliament]
+    D[📜 Law Making]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -82,16 +100,18 @@ Law Making
 
 ## Executive Structure
 
-```text
-Prime Minister
-       ↓
-Council of Ministers
-       ↓
-Ministries
-       ↓
-Departments
-       ↓
-Administration
+```mermaid
+flowchart TD
+    A[👨‍💼 Prime Minister]
+    B[👥 Council of Ministers]
+    C[🏢 Ministries]
+    D[📂 Departments]
+    E[⚙️ Administration]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Significance
@@ -104,16 +124,18 @@ Administration
 
 ## Governance Delivery Framework
 
-```text
-Union Government
-       ↓
-Ministries
-       ↓
-Departments
-       ↓
-States
-       ↓
-Citizens
+```mermaid
+flowchart TD
+    A[🇮🇳 Union Government]
+    B[🏢 Ministries]
+    C[📂 Departments]
+    D[🏛️ States]
+    E[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Purpose
@@ -126,14 +148,16 @@ Citizens
 
 ## Accountability Framework
 
-```text
-Government
-     ↓
-Parliament
-     ↓
-Oversight
-     ↓
-Accountability
+```mermaid
+flowchart TD
+    A[⚙️ Government]
+    B[🏛️ Parliament]
+    C[👀 Oversight]
+    D[⚖️ Accountability]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -146,16 +170,18 @@ Accountability
 
 ## National Governance Model
 
-```text
-Constitution
-      ↓
-Parliament
-      ↓
-Government
-      ↓
-Administration
-      ↓
-Citizens
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🏛️ Parliament]
+    C[🇮🇳 Government]
+    D[⚙️ Administration]
+    E[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Purpose
@@ -168,18 +194,13 @@ Citizens
 
 ## Quick Revision
 
-```text
-President
-    ↓
-Prime Minister
-    ↓
-Council of Ministers
-    ↓
-Ministries
-    ↓
-Administration
-    ↓
-Citizens
+```mermaid
+flowchart LR
+    A[👤 President] --> B[👨‍💼 Prime Minister]
+    B --> C[👥 Council of Ministers]
+    C --> D[🏢 Ministries]
+    D --> E[⚙️ Administration]
+    E --> F[👨‍👩‍👧‍👦 Citizens]
 ```
 
 ---

@@ -22,38 +22,57 @@ Understanding this journey helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((🇮🇳 India's Journey))
+    Ancient Civilizations
+    Kingdoms & Mahajanapadas
+    Empires
+    Medieval India
+    Colonial Rule
+    Freedom Struggle
+    Republic of India
+    Contemporary India
+```
+
+---
+
 ## Complete Historical Journey
 
-```text
-Ancient Civilizations
-         ↓
-Kingdoms & Mahajanapadas
-         ↓
-Empires
-         ↓
-Medieval India
-         ↓
-Colonial Rule
-         ↓
-Freedom Struggle
-         ↓
-Independence
-         ↓
-Republic of India
-         ↓
-Contemporary India
+```mermaid
+flowchart TD
+    A[🏺 Ancient Civilizations]
+    B[🏛️ Kingdoms & Mahajanapadas]
+    C[👑 Empires]
+    D[🕌 Medieval India]
+    E[🇬🇧 Colonial Rule]
+    F[✊ Freedom Struggle]
+    G[🎉 Independence]
+    H[📜 Republic of India]
+    I[🌏 Contemporary India]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+    H --> I
 ```
 
 ---
 
 ## Stage 1: Ancient Civilizations
 
-```text
-Early Settlements
-       ↓
-Indus Valley Civilization
-       ↓
-Ancient Foundations
+```mermaid
+flowchart TD
+    A[🏕️ Early Settlements]
+    B[🏺 Indus Valley Civilization]
+    C[🏛️ Ancient Foundations]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -66,12 +85,14 @@ Ancient Foundations
 
 ## Stage 2: Kingdoms & Mahajanapadas
 
-```text
-Regional Kingdoms
-        ↓
-Mahajanapadas
-        ↓
-Political Consolidation
+```mermaid
+flowchart TD
+    A[🏘️ Regional Kingdoms]
+    B[⚔️ Mahajanapadas]
+    C[🏛️ Political Consolidation]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -83,12 +104,14 @@ Political Consolidation
 
 ## Stage 3: Empires
 
-```text
-Large Kingdoms
-       ↓
-Major Empires
-       ↓
-Administrative Expansion
+```mermaid
+flowchart TD
+    A[👑 Large Kingdoms]
+    B[🌟 Major Empires]
+    C[📜 Administrative Expansion]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -101,12 +124,14 @@ Administrative Expansion
 
 ## Stage 4: Medieval India
 
-```text
-Regional Powers
-       ↓
-Sultanates
-       ↓
-Large Empires
+```mermaid
+flowchart TD
+    A[🏰 Regional Powers]
+    B[🕌 Sultanates]
+    C[👑 Large Empires]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -119,12 +144,14 @@ Large Empires
 
 ## Stage 5: Colonial Rule
 
-```text
-European Presence
-        ↓
-Colonial Administration
-        ↓
-British Rule
+```mermaid
+flowchart TD
+    A[⛵ European Presence]
+    B[🏛️ Colonial Administration]
+    C[🇬🇧 British Rule]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -137,12 +164,14 @@ British Rule
 
 ## Stage 6: Freedom Struggle
 
-```text
-Political Awareness
-        ↓
-Mass Movements
-        ↓
-Independence Movement
+```mermaid
+flowchart TD
+    A[💡 Political Awareness]
+    B[✊ Mass Movements]
+    C[🇮🇳 Independence Movement]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -155,12 +184,14 @@ Independence Movement
 
 ## Stage 7: Republic of India
 
-```text
-Independence
-      ↓
-Constitution
-      ↓
-Democratic Republic
+```mermaid
+flowchart TD
+    A[🎉 Independence]
+    B[📜 Constitution]
+    C[🗳️ Democratic Republic]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -173,14 +204,16 @@ Democratic Republic
 
 ## Stage 8: Contemporary India
 
-```text
-Democracy
-    ↓
-Governance
-    ↓
-Economic Growth
-    ↓
-Global Role
+```mermaid
+flowchart TD
+    A[🗳️ Democracy]
+    B[🏛️ Governance]
+    C[📈 Economic Growth]
+    D[🌏 Global Role]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -193,22 +226,15 @@ Global Role
 
 ## Quick Revision
 
-```text
-Civilizations
-      ↓
-Kingdoms
-      ↓
-Empires
-      ↓
-Colonial Rule
-      ↓
-Freedom Struggle
-      ↓
-Independence
-      ↓
-Republic
-      ↓
-Contemporary India
+```mermaid
+flowchart LR
+    A[🏺 Civilizations] --> B[🏛️ Kingdoms]
+    B --> C[👑 Empires]
+    C --> D[🇬🇧 Colonial Rule]
+    D --> E[✊ Freedom Struggle]
+    E --> F[🎉 Independence]
+    F --> G[📜 Republic]
+    G --> H[🌏 Contemporary India]
 ```
 
 ---

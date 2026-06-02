@@ -1,5 +1,3 @@
-
-
 # Parliamentary Committee System
 
 ## Overview
@@ -22,30 +20,48 @@ Understanding Parliamentary Committees helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((📋 Parliamentary Committees))
+    📜 Bill Scrutiny
+    💰 Financial Oversight
+    👀 Government Accountability
+    🔍 Detailed Examination
+    📝 Reports
+    💡 Recommendations
+    🌐 Better Governance
+```
+
+---
+
 ## Parliamentary Committee System
 
-```text
-Parliament
-     ↓
-Committees
-     ↓
-Examination
-     ↓
-Recommendations
-     ↓
-Parliament
+```mermaid
+flowchart TD
+    A[🏛️ Parliament]
+    B[📋 Committees]
+    C[🔍 Examination]
+    D[📝 Recommendations]
+    E[🏛️ Parliament]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Committee Framework
 
-```text
-Parliament
-     ↓
-Specialized Committees
-     ↓
-Detailed Review
+```mermaid
+flowchart TD
+    A[🏛️ Parliament]
+    B[📋 Specialized Committees]
+    C[🔍 Detailed Review]
+
+    A --> B
+    B --> C
 ```
 
 ### Purpose
@@ -58,14 +74,16 @@ Detailed Review
 
 ## Legislative Examination Model
 
-```text
-Bill
- ↓
-Committee Review
- ↓
-Analysis
- ↓
-Recommendations
+```mermaid
+flowchart TD
+    A[📜 Bill]
+    B[📋 Committee Review]
+    C[📊 Analysis]
+    D[📝 Recommendations]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -78,14 +96,16 @@ Recommendations
 
 ## Accountability Framework
 
-```text
-Government
-     ↓
-Committee Examination
-     ↓
-Reports
-     ↓
-Parliamentary Oversight
+```mermaid
+flowchart TD
+    A[⚙️ Government]
+    B[📋 Committee Examination]
+    C[📄 Reports]
+    D[👀 Parliamentary Oversight]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -98,14 +118,16 @@ Parliamentary Oversight
 
 ## Public Finance Oversight Model
 
-```text
-Public Funds
-      ↓
-Government Spending
-      ↓
-Committee Review
-      ↓
-Accountability
+```mermaid
+flowchart TD
+    A[💰 Public Funds]
+    B[🏛️ Government Spending]
+    C[📋 Committee Review]
+    D[⚖️ Accountability]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -118,14 +140,16 @@ Accountability
 
 ## Committee Contribution Framework
 
-```text
-Research
-    ↓
-Review
-    ↓
-Recommendations
-    ↓
-Better Governance
+```mermaid
+flowchart TD
+    A[📚 Research]
+    B[🔍 Review]
+    C[📝 Recommendations]
+    D[🌐 Better Governance]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -138,32 +162,30 @@ Better Governance
 
 ## Democratic Governance Framework
 
-```text
-Citizens
-    ↓
-Parliament
-    ↓
-Committees
-    ↓
-Review & Oversight
-    ↓
-Governance
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🏛️ Parliament]
+    C[📋 Committees]
+    D[👀 Review & Oversight]
+    E[🌐 Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Parliament
-     ↓
-Committees
-     ↓
-Review
-     ↓
-Recommendations
-     ↓
-Accountability
+```mermaid
+flowchart LR
+    A[🏛️ Parliament] --> B[📋 Committees]
+    B --> C[🔍 Review]
+    C --> D[📝 Recommendations]
+    D --> E[⚖️ Accountability]
 ```
 
 ---

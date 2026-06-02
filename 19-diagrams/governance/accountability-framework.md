@@ -22,58 +22,74 @@ Understanding accountability helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((⚖️ Accountability))
+    👨‍👩‍👧‍👦 Citizens
+    🗳️ Elections
+    🏛️ Government
+    ⚖️ Judiciary
+    📜 Parliament
+    📺 Media
+    📊 Public Evaluation
+```
+
+---
+
 ## Core Accountability Framework
 
-```text
-Citizens
-     ↓
-Elections
-     ↓
-Government
-     ↓
-Public Decisions
-     ↓
-Governance Outcomes
-     ↓
-Public Evaluation
-     ↓
-Accountability
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Elections]
+    C[🏛️ Government]
+    D[📜 Public Decisions]
+    E[🌐 Governance Outcomes]
+    F[📊 Public Evaluation]
+    G[⚖️ Accountability]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
 
 ## Democratic Accountability Cycle
 
-```text
-Citizens
-     ↓
-Vote
-     ↓
-Representatives
-     ↓
-Government
-     ↓
-Policy Decisions
-     ↓
-Public Impact
-     ↓
-Next Election
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Vote]
+    C[🙋 Representatives]
+    D[🏛️ Government]
+    E[📜 Policy Decisions]
+    F[📈 Public Impact]
+    G[🗳️ Next Election]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
 
 ## Institutional Accountability Framework
 
-```text
-Government
-      │
-      ├──────── Parliament
-      │
-      ├──────── Judiciary
-      │
-      ├──────── Constitutional Bodies
-      │
-      └──────── Citizens & Media
+```mermaid
+flowchart TD
+    A[🏛️ Government]
+
+    A --> B[📜 Parliament]
+    A --> C[⚖️ Judiciary]
+    A --> D[🏢 Constitutional Bodies]
+    A --> E[👨‍👩‍👧‍👦 Citizens & Media]
 ```
 
 ### Purpose
@@ -86,18 +102,20 @@ Government
 
 ## Parliamentary Accountability
 
-```text
-Government
-      ↓
-Parliament
-      ↓
-Questions
-      ↓
-Debates
-      ↓
-Committees
-      ↓
-Oversight
+```mermaid
+flowchart TD
+    A[🏛️ Government]
+    B[📜 Parliament]
+    C[❓ Questions]
+    D[💬 Debates]
+    E[👥 Committees]
+    F[👀 Oversight]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ### Examples
@@ -111,14 +129,16 @@ Oversight
 
 ## Judicial Accountability Mechanism
 
-```text
-Government Action
-         ↓
-Judicial Review
-         ↓
-Constitutional Examination
-         ↓
-Court Decision
+```mermaid
+flowchart TD
+    A[⚙️ Government Action]
+    B[⚖️ Judicial Review]
+    C[📜 Constitutional Examination]
+    D[🏛️ Court Decision]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -130,52 +150,51 @@ Court Decision
 
 ## Public Accountability Framework
 
-```text
-Citizens
-     ↓
-Information Access
-     ↓
-Public Awareness
-     ↓
-Feedback & Participation
-     ↓
-Government Response
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[📖 Information Access]
+    C[💡 Public Awareness]
+    D[🗣️ Feedback & Participation]
+    E[🏛️ Government Response]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Governance Outcome Loop
 
-```text
-Policy
-   ↓
-Implementation
-   ↓
-Service Delivery
-   ↓
-Public Outcomes
-   ↓
-Evaluation
-   ↓
-Improvement
+```mermaid
+flowchart TD
+    A[📜 Policy]
+    B[⚙️ Implementation]
+    C[❤️ Service Delivery]
+    D[📈 Public Outcomes]
+    E[📊 Evaluation]
+    F[🔄 Improvement]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Citizen
-   ↓
-Government
-   ↓
-Decision
-   ↓
-Outcome
-   ↓
-Evaluation
-   ↓
-Accountability
+```mermaid
+flowchart LR
+    A[👨‍👩‍👧‍👦 Citizen] --> B[🏛️ Government]
+    B --> C[📜 Decision]
+    C --> D[📈 Outcome]
+    D --> E[📊 Evaluation]
+    E --> F[⚖️ Accountability]
 ```
 
 ---

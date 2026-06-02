@@ -1,5 +1,3 @@
-
-
 # Centre-State Relations Framework
 
 ## Overview
@@ -22,32 +20,46 @@ Understanding Centre-State relations helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((🤝 Federalism))
+    🇮🇳 Union Government
+    🏛️ State Governments
+    📜 Constitution
+    ⚖️ Distribution of Powers
+    💰 Financial Relations
+    🌐 Policy Coordination
+    👨‍👩‍👧‍👦 Citizens
+```
+
+---
+
 ## Federal Governance Framework
 
-```text
-Constitution of India
-          ↓
-Federal Structure
-          ↓
-Union Government
-          ↕
-State Governments
-          ↓
-Citizens
+```mermaid
+flowchart TD
+    A[📜 Constitution of India]
+    B[🤝 Federal Structure]
+    C[🇮🇳 Union Government]
+    D[🏛️ State Governments]
+    E[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C <--> D
+    D --> E
 ```
 
 ---
 
 ## Distribution of Powers
 
-```text
-Constitution
-      │
-      ├── Union List
-      │
-      ├── State List
-      │
-      └── Concurrent List
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    A --> B[🇮🇳 Union List]
+    A --> C[🏛️ State List]
+    A --> D[🤝 Concurrent List]
 ```
 
 ### Purpose
@@ -60,32 +72,36 @@ Constitution
 
 ## Cooperative Federalism Model
 
-```text
-Union Government
-         ↕
-State Governments
-         ↕
-Policy Coordination
-         ↕
-Implementation
-         ↓
-Development Outcomes
+```mermaid
+flowchart TD
+    A[🇮🇳 Union Government]
+    B[🏛️ State Governments]
+    C[🤝 Policy Coordination]
+    D[⚙️ Implementation]
+    E[📈 Development Outcomes]
+
+    A <--> B
+    B <--> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Policy Implementation Framework
 
-```text
-National Policy
-        ↓
-Union Government
-        ↓
-State Governments
-        ↓
-District Administration
-        ↓
-Citizens
+```mermaid
+flowchart TD
+    A[📜 National Policy]
+    B[🇮🇳 Union Government]
+    C[🏛️ State Governments]
+    D[🏙️ District Administration]
+    E[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Outcome
@@ -97,14 +113,16 @@ Citizens
 
 ## Financial Relations Framework
 
-```text
-Revenue Collection
-         ↓
-Resource Sharing
-         ↓
-States
-         ↓
-Public Services
+```mermaid
+flowchart TD
+    A[💰 Revenue Collection]
+    B[🤝 Resource Sharing]
+    C[🏛️ States]
+    D[❤️ Public Services]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -117,32 +135,30 @@ Public Services
 
 ## Governance Coordination Framework
 
-```text
-Union Policies
-       ↓
-State Adaptation
-       ↓
-Administrative Execution
-       ↓
-Citizen Services
-       ↓
-Development Outcomes
+```mermaid
+flowchart TD
+    A[📜 Union Policies]
+    B[🏛️ State Adaptation]
+    C[⚙️ Administrative Execution]
+    D[👨‍👩‍👧‍👦 Citizen Services]
+    E[📈 Development Outcomes]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Constitution
-      ↓
-Union Government
-      ↕
-State Governments
-      ↓
-Administration
-      ↓
-Citizens
+```mermaid
+flowchart LR
+    A[📜 Constitution] --> B[🇮🇳 Union Government]
+    B <--> C[🏛️ State Governments]
+    C --> D[🏙️ Administration]
+    D --> E[👨‍👩‍👧‍👦 Citizens]
 ```
 
 ---

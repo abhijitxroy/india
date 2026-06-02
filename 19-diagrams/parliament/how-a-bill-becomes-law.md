@@ -1,5 +1,3 @@
-
-
 # How a Bill Becomes a Law
 
 ## Overview
@@ -22,32 +20,50 @@ Understanding how a bill becomes a law helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((📜 Bill to Law))
+    💡 Policy Need
+    📝 Bill Drafting
+    🏛️ Parliament
+    💬 Debate
+    🗳️ Approval
+    👤 President
+    ⚖️ Law
+```
+
+---
+
 ## Bill to Law Framework
 
-```text
-Idea / Policy Need
-         ↓
-Bill Drafting
-         ↓
-Parliament
-         ↓
-Debate & Approval
-         ↓
-President
-         ↓
-Law
+```mermaid
+flowchart TD
+    A[💡 Idea / Policy Need]
+    B[📝 Bill Drafting]
+    C[🏛️ Parliament]
+    D[💬 Debate & Approval]
+    E[👤 President]
+    F[⚖️ Law]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Legislative Process
 
-```text
-Government / Member
-          ↓
-Bill Introduction
-          ↓
-Parliamentary Consideration
+```mermaid
+flowchart TD
+    A[🏛️ Government / MP]
+    B[📝 Bill Introduction]
+    C[🏛️ Parliamentary Consideration]
+
+    A --> B
+    B --> C
 ```
 
 ### Purpose
@@ -60,16 +76,18 @@ Parliamentary Consideration
 
 ## Parliamentary Review Framework
 
-```text
-Bill
- ↓
-Discussion
- ↓
-Debate
- ↓
-Examination
- ↓
-Voting
+```mermaid
+flowchart TD
+    A[📜 Bill]
+    B[💬 Discussion]
+    C[🗣️ Debate]
+    D[🔍 Examination]
+    E[🗳️ Voting]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Significance
@@ -82,14 +100,16 @@ Voting
 
 ## Bicameral Process Model
 
-```text
-Lok Sabha
-    ↓
-Approval
-    ↓
-Rajya Sabha
-    ↓
-Approval
+```mermaid
+flowchart TD
+    A[🏛️ Lok Sabha]
+    B[✅ Approval]
+    C[🏛️ Rajya Sabha]
+    D[✅ Approval]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -102,14 +122,16 @@ Approval
 
 ## Presidential Assent Framework
 
-```text
-Parliament Approval
-         ↓
-President
-         ↓
-Assent
-         ↓
-Law
+```mermaid
+flowchart TD
+    A[🏛️ Parliament Approval]
+    B[👤 President]
+    C[✍️ Assent]
+    D[⚖️ Law]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -122,52 +144,51 @@ Law
 
 ## Law Making Cycle
 
-```text
-Public Need
-      ↓
-Bill
-      ↓
-Parliament
-      ↓
-Law
-      ↓
-Implementation
-      ↓
-Citizens
+```mermaid
+flowchart TD
+    A[📢 Public Need]
+    B[📜 Bill]
+    C[🏛️ Parliament]
+    D[⚖️ Law]
+    E[⚙️ Implementation]
+    F[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Democratic Governance Framework
 
-```text
-Citizens
-    ↓
-Representatives
-    ↓
-Parliament
-    ↓
-Law Making
-    ↓
-Governance
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Representatives]
+    C[🏛️ Parliament]
+    D[⚖️ Law Making]
+    E[🌐 Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Idea
- ↓
-Bill
- ↓
-Lok Sabha
- ↓
-Rajya Sabha
- ↓
-President
- ↓
-Law
+```mermaid
+flowchart LR
+    A[💡 Idea] --> B[📜 Bill]
+    B --> C[🏛️ Lok Sabha]
+    C --> D[🏛️ Rajya Sabha]
+    D --> E[👤 President]
+    E --> F[⚖️ Law]
 ```
 
 ---

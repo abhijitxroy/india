@@ -22,34 +22,50 @@ Understanding the election timeline helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((🗳️ Election Timeline))
+    🇮🇳 Independence
+    🗳️ Universal Franchise
+    🏛️ Electoral Institutions
+    👥 Democratic Participation
+    🤝 Coalition Politics
+    💻 Digital Elections
+    🌏 Contemporary Democracy
+```
+
 ## Election Timeline
 
-```text
-Independence
-      ↓
-Universal Adult Franchise
-      ↓
-Electoral Institutions
-      ↓
-Democratic Expansion
-      ↓
-Coalition Era
-      ↓
-Digital Elections
-      ↓
-Contemporary Democracy
+```mermaid
+flowchart TD
+    A[🇮🇳 Independence]
+    B[🗳️ Universal Adult Franchise]
+    C[🏛️ Electoral Institutions]
+    D[👥 Democratic Expansion]
+    E[🤝 Coalition Era]
+    F[💻 Digital Elections]
+    G[🌏 Contemporary Democracy]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
 
 ## Phase 1: Democratic Foundation
 
-```text
-Independence
-      ↓
-Constitution
-      ↓
-Universal Voting Rights
+```mermaid
+flowchart TD
+    A[🇮🇳 Independence]
+    B[📜 Constitution]
+    C[🗳️ Universal Voting Rights]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -62,12 +78,14 @@ Universal Voting Rights
 
 ## Phase 2: Electoral Institution Building
 
-```text
-Election Commission
-         ↓
-Election Processes
-         ↓
-Democratic Stability
+```mermaid
+flowchart TD
+    A[🏛️ Election Commission]
+    B[📋 Election Processes]
+    C[⚖️ Democratic Stability]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -80,12 +98,14 @@ Democratic Stability
 
 ## Phase 3: Expansion of Participation
 
-```text
-Citizens
-    ↓
-Voter Participation
-    ↓
-Democratic Representation
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Voter Participation]
+    C[👥 Democratic Representation]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -98,12 +118,14 @@ Democratic Representation
 
 ## Phase 4: Coalition Politics
 
-```text
-Multi-Party Competition
-          ↓
-Coalition Governments
-          ↓
-Shared Governance
+```mermaid
+flowchart TD
+    A[🏛️ Multi-Party Competition]
+    B[🤝 Coalition Governments]
+    C[⚙️ Shared Governance]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -116,12 +138,14 @@ Shared Governance
 
 ## Phase 5: Digital Transformation
 
-```text
-Technology
-     ↓
-Election Management
-     ↓
-Improved Accessibility
+```mermaid
+flowchart TD
+    A[💻 Technology]
+    B[🗳️ Election Management]
+    C[📱 Improved Accessibility]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -134,32 +158,30 @@ Improved Accessibility
 
 ## Democratic Governance Framework
 
-```text
-Citizens
-    ↓
-Election
-    ↓
-Representation
-    ↓
-Government
-    ↓
-Governance
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Election]
+    C[👥 Representation]
+    D[🏛️ Government]
+    E[⚙️ Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Voting Rights
-      ↓
-Elections
-      ↓
-Representation
-      ↓
-Government
-      ↓
-Democracy
+```mermaid
+flowchart LR
+    A[🗳️ Voting Rights] --> B[🗳️ Elections]
+    B --> C[👥 Representation]
+    C --> D[🏛️ Government]
+    D --> E[🌏 Democracy]
 ```
 
 ---

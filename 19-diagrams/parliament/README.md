@@ -24,6 +24,18 @@ It serves as:
 
 Understanding Parliament helps explain how public policy, laws, and governance decisions are created.
 
+```mermaid
+mindmap
+  root((🏛️ Parliament))
+    👨‍👩‍👧‍👦 Citizens
+    🗳️ Elections
+    👥 Representatives
+    📜 Law Making
+    📋 Committees
+    ⚖️ Accountability
+    🌐 Governance
+```
+
 ---
 
 ## Learning Priority
@@ -43,34 +55,35 @@ Understanding Parliament helps explain how public policy, laws, and governance d
 
 ## Progress Status
 
-```text
-Completed
-├── Parliament Structure
-├── How a Bill Becomes a Law
-├── Lok Sabha vs Rajya Sabha
-├── Parliament Session Workflow
-└── Parliamentary Committee System
-
-Status
-└── Parliament Section Complete
+```mermaid
+mindmap
+  root((🏛️ Parliament Diagrams))
+    ✅ Parliament Structure
+    ✅ How a Bill Becomes a Law
+    ✅ Lok Sabha vs Rajya Sabha
+    ✅ Parliament Session Workflow
+    ✅ Parliamentary Committee System
+    🎯 Parliament Section Complete
 ```
 
 ---
 
 ## Citizen Learning Path
 
-```text
-Citizens
-    ↓
-Elections
-    ↓
-Representatives
-    ↓
-Parliament
-    ↓
-Laws
-    ↓
-Governance
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Elections]
+    C[👥 Representatives]
+    D[🏛️ Parliament]
+    E[⚖️ Laws]
+    F[🌐 Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
@@ -122,18 +135,13 @@ The goal is to understand:
 
 ## Quick Revision
 
-```text
-Citizens
-    ↓
-Elections
-    ↓
-Parliament
-    ↓
-Law Making
-    ↓
-Government Oversight
-    ↓
-Governance
+```mermaid
+flowchart LR
+    A[👨‍👩‍👧‍👦 Citizens] --> B[🗳️ Elections]
+    B --> C[🏛️ Parliament]
+    C --> D[📜 Law Making]
+    D --> E[⚖️ Government Oversight]
+    E --> F[🌐 Governance]
 ```
 
 ---

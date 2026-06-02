@@ -24,6 +24,18 @@ It acts as:
 
 Understanding the judiciary helps citizens understand how justice, accountability, and constitutional governance work in India.
 
+```mermaid
+mindmap
+  root((⚖️ Judiciary))
+    🏛️ Supreme Court
+    ⚖️ High Courts
+    🏢 District Courts
+    📜 Judicial Review
+    🛡️ Fundamental Rights
+    📢 Public Interest Litigation
+    👨‍👩‍👧‍👦 Citizens
+```
+
 ---
 
 ## Learning Priority
@@ -42,31 +54,32 @@ Understanding the judiciary helps citizens understand how justice, accountabilit
 
 ## Progress Status
 
-```text
-Completed
-├── Judicial Hierarchy
-├── Judicial Review Framework
-├── Public Interest Litigation Workflow
-└── Case Journey Through Courts
-
-Status
-└── Judiciary Section Complete
+```mermaid
+mindmap
+  root((⚖️ Judiciary Diagrams))
+    ✅ Judicial Hierarchy
+    ✅ Judicial Review Framework
+    ✅ Public Interest Litigation Workflow
+    ✅ Case Journey Through Courts
+    🎯 Judiciary Section Complete
 ```
 
 ---
 
 ## Citizen Learning Path
 
-```text
-Citizens
-    ↓
-Rights
-    ↓
-Courts
-    ↓
-Judicial Review
-    ↓
-Constitutional Protection
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🛡️ Rights]
+    C[⚖️ Courts]
+    D[📜 Judicial Review]
+    E[🏛️ Constitutional Protection]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
@@ -117,16 +130,12 @@ The goal is to understand:
 
 ## Quick Revision
 
-```text
-Citizens
-    ↓
-Courts
-    ↓
-Judicial Review
-    ↓
-Rights Protection
-    ↓
-Constitution
+```mermaid
+flowchart LR
+    A[👨‍👩‍👧‍👦 Citizens] --> B[⚖️ Courts]
+    B --> C[📜 Judicial Review]
+    C --> D[🛡️ Rights Protection]
+    D --> E[📜 Constitution]
 ```
 
 ---

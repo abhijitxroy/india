@@ -22,32 +22,50 @@ Understanding Judicial Review helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((⚖️ Judicial Review))
+    📜 Constitution
+    🏛️ Legislature
+    ⚙️ Executive
+    ⚖️ Judiciary
+    🛡️ Fundamental Rights
+    👀 Constitutional Oversight
+    👨‍👩‍👧‍👦 Citizens
+```
+
+---
+
 ## Judicial Review Framework
 
-```text
-Constitution
-      ↓
-Law / Government Action
-      ↓
-Judicial Examination
-      ↓
-Constitutional Test
-      ↓
-Valid / Invalid
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[📄 Law / Government Action]
+    C[⚖️ Judicial Examination]
+    D[📋 Constitutional Test]
+    E[✅ Valid / ❌ Invalid]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Constitutional Supremacy Model
 
-```text
-Constitution
-      ↓
-Government Institutions
-      ↓
-Actions & Decisions
-      ↓
-Judicial Review
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🏛️ Government Institutions]
+    C[⚙️ Actions & Decisions]
+    D[⚖️ Judicial Review]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -60,14 +78,16 @@ Judicial Review
 
 ## Review Process Framework
 
-```text
-Law or Action
-      ↓
-Court Challenge
-      ↓
-Judicial Examination
-      ↓
-Decision
+```mermaid
+flowchart TD
+    A[📄 Law or Action]
+    B[📢 Court Challenge]
+    C[⚖️ Judicial Examination]
+    D[📜 Decision]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -80,16 +100,18 @@ Decision
 
 ## Rights Protection Model
 
-```text
-Citizens
-    ↓
-Fundamental Rights
-    ↓
-Rights Violation Claim
-    ↓
-Judicial Review
-    ↓
-Protection
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🛡️ Fundamental Rights]
+    C[⚠️ Rights Violation Claim]
+    D[⚖️ Judicial Review]
+    E[✅ Protection]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Significance
@@ -102,14 +124,16 @@ Protection
 
 ## Checks and Balances Framework
 
-```text
-Legislature
-      ↓
-Executive
-      ↓
-Judiciary
-      ↓
-Constitutional Oversight
+```mermaid
+flowchart TD
+    A[🏛️ Legislature]
+    B[⚙️ Executive]
+    C[⚖️ Judiciary]
+    D[👀 Constitutional Oversight]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -122,14 +146,16 @@ Constitutional Oversight
 
 ## Constitutional Safeguard Framework
 
-```text
-Constitution
-      ↓
-Judiciary
-      ↓
-Judicial Review
-      ↓
-Constitutional Protection
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[⚖️ Judiciary]
+    C[⚖️ Judicial Review]
+    D[🛡️ Constitutional Protection]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -142,16 +168,12 @@ Constitutional Protection
 
 ## Quick Revision
 
-```text
-Constitution
-      ↓
-Law / Action
-      ↓
-Judicial Review
-      ↓
-Constitutional Test
-      ↓
-Valid / Invalid
+```mermaid
+flowchart LR
+    A[📜 Constitution] --> B[📄 Law / Action]
+    B --> C[⚖️ Judicial Review]
+    C --> D[📋 Constitutional Test]
+    D --> E[✅ Valid / ❌ Invalid]
 ```
 
 ---

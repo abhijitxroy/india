@@ -12,6 +12,21 @@ Timelines help connect isolated events into a coherent story.
 
 For Indian politics and governance, understanding chronology is often more important than memorizing individual facts because institutions, laws, reforms, elections, and governments evolve over time.
 
+```mermaid
+mindmap
+  root((📅 India Through Time))
+    📜 Constitutional Development
+    👤 Prime Ministers
+    👤 Presidents
+    🗳️ Elections
+    🏛️ Political Parties
+    ⚙️ Governance Reforms
+    📈 Economic Reforms
+    👥 Social Transformation
+    🌏 Foreign Policy
+    🗺️ State Formation
+```
+
 ---
 
 ## Why Use Timelines?
@@ -46,25 +61,21 @@ Timeline diagrams help:
 - Election Timeline ✓
 ## Progress Status
 
-```text
-Completed
-├── India Through Time Timeline
-├── Freedom Struggle Timeline
-├── Nation Building Timeline
-├── Constitutional Development Timeline
-├── Prime Ministers Timeline
-├── Presidents Timeline
-├── Economic Reforms Timeline
-├── Foreign Policy Timeline
-├── Election Timeline
-├── Major Laws Timeline
-├── Governance Reform Timeline
-├── Political Party Evolution Timeline
-├── Social Transformation Timeline
-└── State Formation Timeline
-
-Status
-└── Timeline Section Complete
+```mermaid
+mindmap
+  root((📅 Timeline Diagrams))
+    ✅ Constitutional Development
+    ✅ Prime Ministers
+    ✅ Presidents
+    ✅ Elections
+    ✅ Political Party Evolution
+    ✅ Governance Reforms
+    ✅ Economic Reforms
+    ✅ Social Transformation
+    ✅ Foreign Policy
+    ✅ State Formation
+    ✅ Major Laws
+    🎯 Timeline Section Complete
 ```
 
 ### P3
@@ -78,16 +89,18 @@ Status
 
 ## Recommended Timeline Structure
 
-```text
-Event
-   ↓
-Development
-   ↓
-Reform
-   ↓
-Institution
-   ↓
-Outcome
+```mermaid
+flowchart TD
+    A[📍 Event]
+    B[📈 Development]
+    C[🔄 Reform]
+    D[🏛️ Institution]
+    E[🎯 Outcome]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
@@ -135,38 +148,35 @@ Outcome
 
 ## Citizen Learning Path
 
-```text
-History
-   ↓
-Freedom Struggle
-   ↓
-Constitution
-   ↓
-Nation Building
-   ↓
-Governments
-   ↓
-Economic Reforms
-   ↓
-Contemporary India
+```mermaid
+flowchart TD
+    A[🏺 History]
+    B[✊ Freedom Struggle]
+    C[📜 Constitution]
+    D[🏗️ Nation Building]
+    E[🏛️ Governments]
+    F[📈 Economic Reforms]
+    G[🇮🇳 Contemporary India]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-History
-   ↓
-Politics
-   ↓
-Constitution
-   ↓
-Governance
-   ↓
-Development
-   ↓
-Contemporary India
+```mermaid
+flowchart LR
+    A[🏺 History] --> B[🗳️ Politics]
+    B --> C[📜 Constitution]
+    C --> D[⚙️ Governance]
+    D --> E[📈 Development]
+    E --> F[🇮🇳 Contemporary India]
 ```
 
 ---

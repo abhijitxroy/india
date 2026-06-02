@@ -22,60 +22,80 @@ Understanding the governance framework helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((🌐 Governance))
+    👨‍👩‍👧‍👦 Citizens
+    🗳️ Democratic Institutions
+    🏛️ Government
+    📜 Public Policy
+    ⚙️ Administration
+    ❤️ Service Delivery
+    📈 Development Outcomes
+```
+
+---
+
 ## Core Governance Framework
 
-```text
-Citizens
-     ↓
-Democratic Institutions
-     ↓
-Government
-     ↓
-Public Policy
-     ↓
-Administration
-     ↓
-Service Delivery
-     ↓
-Development Outcomes
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Democratic Institutions]
+    C[🏛️ Government]
+    D[📜 Public Policy]
+    E[⚙️ Administration]
+    F[❤️ Service Delivery]
+    G[📈 Development Outcomes]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
 
 ## Governance Ecosystem
 
-```text
-Citizens
-      ↓
-Elections
-      ↓
-Representatives
-      ↓
-Government
-      ↓
-Policy Decisions
-      ↓
-Administration
-      ↓
-Implementation
-      ↓
-Citizen Outcomes
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Elections]
+    C[🙋 Representatives]
+    D[🏛️ Government]
+    E[📜 Policy Decisions]
+    F[⚙️ Administration]
+    G[🚀 Implementation]
+    H[📈 Citizen Outcomes]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
 ```
 
 ---
 
 ## Institutional Governance Structure
 
-```text
-Constitution
-      ↓
-Legislature
-      ↓
-Executive
-      ↓
-Judiciary
-      ↓
-Constitutional Bodies
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🏛️ Legislature]
+    C[⚙️ Executive]
+    D[⚖️ Judiciary]
+    E[🏢 Constitutional Bodies]
+
+    A --> B
+    A --> C
+    A --> D
+    A --> E
 ```
 
 ### Purpose
@@ -88,72 +108,73 @@ Constitutional Bodies
 
 ## Policy to Outcome Framework
 
-```text
-Public Issue
-      ↓
-Policy Formulation
-      ↓
-Policy Approval
-      ↓
-Implementation
-      ↓
-Service Delivery
-      ↓
-Development Outcomes
+```mermaid
+flowchart TD
+    A[📢 Public Issue]
+    B[📜 Policy Formulation]
+    C[✅ Policy Approval]
+    D[⚙️ Implementation]
+    E[❤️ Service Delivery]
+    F[📈 Development Outcomes]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Accountability Framework
 
-```text
-Citizens
-     ↓
-Elections
-     ↓
-Government
-     ↓
-Governance Outcomes
-     ↓
-Public Evaluation
-     ↓
-Accountability
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Elections]
+    C[🏛️ Government]
+    D[📈 Governance Outcomes]
+    E[📊 Public Evaluation]
+    F[⚖️ Accountability]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Continuous Governance Cycle
 
-```text
-Citizen Needs
-      ↓
-Policy Response
-      ↓
-Implementation
-      ↓
-Outcomes
-      ↓
-Feedback
-      ↓
-Policy Improvement
+```mermaid
+flowchart TD
+    A[💡 Citizen Needs]
+    B[📜 Policy Response]
+    C[⚙️ Implementation]
+    D[📈 Outcomes]
+    E[🗣️ Feedback]
+    F[🔄 Policy Improvement]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Citizen
-   ↓
-Government
-   ↓
-Policy
-   ↓
-Administration
-   ↓
-Service Delivery
-   ↓
-Development
+```mermaid
+flowchart LR
+    A[👨‍👩‍👧‍👦 Citizen] --> B[🏛️ Government]
+    B --> C[📜 Policy]
+    C --> D[⚙️ Administration]
+    D --> E[❤️ Service Delivery]
+    E --> F[📈 Development]
 ```
 
 ---

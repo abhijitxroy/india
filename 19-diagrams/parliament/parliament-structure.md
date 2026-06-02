@@ -20,31 +20,48 @@ Understanding Parliament helps explain:
 - How democratic debates take place
 - How constitutional governance functions
 
+```mermaid
+mindmap
+  root((🏛️ Parliament))
+    👤 President
+    👨‍👩‍👧‍👦 Lok Sabha
+    🏛️ Rajya Sabha
+    📜 Law Making
+    ⚖️ Oversight
+    🗳️ Representation
+    🇮🇳 Democracy
+```
+
 ---
 
 ## Parliament Structure
 
-```text
-Parliament
-     ↓
-President
-     ↓
-├── Lok Sabha
-└── Rajya Sabha
+```mermaid
+flowchart TD
+    A[🏛️ Parliament]
+    B[👤 President]
+    C[👨‍👩‍👧‍👦 Lok Sabha]
+    D[🏛️ Rajya Sabha]
+
+    A --> B
+    B --> C
+    B --> D
 ```
 
 ---
 
 ## Constitutional Framework
 
-```text
-Constitution
-      ↓
-Parliament
-      ↓
-Law Making
-      ↓
-Governance
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🏛️ Parliament]
+    C[📜 Law Making]
+    D[🌐 Governance]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -57,16 +74,17 @@ Governance
 
 ## Representation Framework
 
-```text
-Citizens
-    ↓
-Elections
-    ↓
-Lok Sabha
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Elections]
+    C[👨‍👩‍👧‍👦 Lok Sabha]
+    D[🏛️ States]
+    E[🏛️ Rajya Sabha]
 
-States
-   ↓
-Rajya Sabha
+    A --> B
+    B --> C
+    D --> E
 ```
 
 ### Purpose
@@ -79,16 +97,18 @@ Rajya Sabha
 
 ## Legislative Structure
 
-```text
-Bill
- ↓
-Lok Sabha
- ↓
-Rajya Sabha
- ↓
-President
- ↓
-Law
+```mermaid
+flowchart TD
+    A[📜 Bill]
+    B[👨‍👩‍👧‍👦 Lok Sabha]
+    C[🏛️ Rajya Sabha]
+    D[👤 President]
+    E[⚖️ Law]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Significance
@@ -101,16 +121,18 @@ Law
 
 ## Government Accountability Framework
 
-```text
-Government
-     ↓
-Parliament
-     ↓
-Questions
-     ↓
-Oversight
-     ↓
-Accountability
+```mermaid
+flowchart TD
+    A[⚙️ Government]
+    B[🏛️ Parliament]
+    C[❓ Questions]
+    D[👀 Oversight]
+    E[⚖️ Accountability]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Purpose
@@ -123,16 +145,18 @@ Accountability
 
 ## Parliamentary Functions Model
 
-```text
-Representation
-      ↓
-Legislation
-      ↓
-Oversight
-      ↓
-Debate
-      ↓
-Governance
+```mermaid
+flowchart TD
+    A[🗳️ Representation]
+    B[📜 Legislation]
+    C[👀 Oversight]
+    D[💬 Debate]
+    E[🌐 Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Significance
@@ -145,34 +169,31 @@ Governance
 
 ## Democratic Governance Cycle
 
-```text
-Citizens
-    ↓
-Representatives
-    ↓
-Parliament
-    ↓
-Laws
-    ↓
-Governance
-    ↓
-Citizens
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Representatives]
+    C[🏛️ Parliament]
+    D[⚖️ Laws]
+    E[🌐 Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> A
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-President
-     ↓
-Lok Sabha
-     ↕
-Rajya Sabha
-     ↓
-Parliament
-     ↓
-Law Making
+```mermaid
+flowchart LR
+    A[👤 President] --> B[👨‍👩‍👧‍👦 Lok Sabha]
+    B <--> C[🏛️ Rajya Sabha]
+    C --> D[🏛️ Parliament]
+    D --> E[⚖️ Law Making]
 ```
 
 ---

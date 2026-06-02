@@ -18,6 +18,19 @@ History diagrams help:
 - Improve retention and revision
 - Simplify complex historical transitions
 
+```mermaid
+mindmap
+  root((📜 History))
+    🏺 Ancient India
+    👑 Empires
+    🕌 Medieval India
+    🇬🇧 Colonial Rule
+    ✊ Freedom Struggle
+    🎉 Independence
+    📜 Republic of India
+    🌏 Contemporary India
+```
+
 ---
 
 ## Learning Priority Order
@@ -32,19 +45,18 @@ History diagrams help:
 
 ## Progress Status
 
-```text
-Completed
-├── India Through Time Timeline
-├── Ancient to Contemporary India Journey
-├── Major Empires Timeline
-├── Freedom Struggle Timeline
-└── Nation Building Timeline
-
-Next Recommended
-├── Civilization Evolution Map
-├── Colonial Rule Framework
-├── Constitutional Development Timeline
-└── State Formation Timeline
+```mermaid
+mindmap
+  root((📜 History Diagrams))
+    ✅ India Through Time Timeline
+    ✅ Ancient to Contemporary Journey
+    ✅ Major Empires Timeline
+    ✅ Freedom Struggle Timeline
+    ✅ Nation Building Timeline
+    🚀 Civilization Evolution Map
+    🚀 Colonial Rule Framework
+    🚀 Constitutional Development Timeline
+    🚀 State Formation Timeline
 ```
 
 ### P2
@@ -65,20 +77,22 @@ Next Recommended
 
 ## Recommended Diagram Structure
 
-```text
-Ancient India
-      ↓
-Medieval India
-      ↓
-Colonial India
-      ↓
-Freedom Struggle
-      ↓
-Independence
-      ↓
-Republic of India
-      ↓
-Contemporary India
+```mermaid
+flowchart TD
+    A[🏺 Ancient India]
+    B[🕌 Medieval India]
+    C[🇬🇧 Colonial India]
+    D[✊ Freedom Struggle]
+    E[🎉 Independence]
+    F[📜 Republic of India]
+    G[🌏 Contemporary India]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
@@ -119,22 +133,15 @@ Contemporary India
 
 ## Quick Revision
 
-```text
-Civilizations
-      ↓
-Kingdoms
-      ↓
-Empires
-      ↓
-Colonial Rule
-      ↓
-Freedom Struggle
-      ↓
-Independence
-      ↓
-Republic
-      ↓
-Contemporary India
+```mermaid
+flowchart LR
+    A[🏺 Civilizations] --> B[🏛️ Kingdoms]
+    B --> C[👑 Empires]
+    C --> D[🇬🇧 Colonial Rule]
+    D --> E[✊ Freedom Struggle]
+    E --> F[🎉 Independence]
+    F --> G[📜 Republic]
+    G --> H[🌏 Contemporary India]
 ```
 
 ---

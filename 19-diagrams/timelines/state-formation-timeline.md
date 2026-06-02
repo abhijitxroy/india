@@ -22,32 +22,50 @@ Understanding state formation helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((🗺️ State Formation))
+    🇮🇳 Independence
+    🤝 Territorial Integration
+    🏛️ State Reorganization
+    ⚖️ Federal Development
+    🗺️ New States
+    🏘️ Local Governance
+    🌏 Contemporary India
+```
+
+---
+
 ## State Formation Timeline
 
-```text
-Independence
-      ↓
-Integration of Territories
-      ↓
-State Reorganization
-      ↓
-Federal Expansion
-      ↓
-New States Formation
-      ↓
-Contemporary India
+```mermaid
+flowchart TD
+    A[🇮🇳 Independence]
+    B[🤝 Integration of Territories]
+    C[🏛️ State Reorganization]
+    D[⚖️ Federal Expansion]
+    E[🗺️ New States Formation]
+    F[🌏 Contemporary India]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Phase 1: National Integration
 
-```text
-Independence
-      ↓
-Territorial Integration
-      ↓
-Union of India
+```mermaid
+flowchart TD
+    A[🇮🇳 Independence]
+    B[🤝 Territorial Integration]
+    C[🏛️ Union of India]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -60,12 +78,14 @@ Union of India
 
 ## Phase 2: State Reorganization
 
-```text
-Administrative Challenges
-          ↓
-State Reorganization
-          ↓
-Improved Governance
+```mermaid
+flowchart TD
+    A[⚠️ Administrative Challenges]
+    B[🏛️ State Reorganization]
+    C[📈 Improved Governance]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -78,12 +98,14 @@ Improved Governance
 
 ## Phase 3: Federal Development
 
-```text
-Union Government
-        ↓
-States
-        ↓
-Federal Structure
+```mermaid
+flowchart TD
+    A[🇮🇳 Union Government]
+    B[🏛️ States]
+    C[⚖️ Federal Structure]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -96,12 +118,14 @@ Federal Structure
 
 ## Phase 4: New State Formation
 
-```text
-Regional Aspirations
-         ↓
-State Creation
-         ↓
-Local Representation
+```mermaid
+flowchart TD
+    A[📢 Regional Aspirations]
+    B[🗺️ State Creation]
+    C[👥 Local Representation]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -114,12 +138,14 @@ Local Representation
 
 ## Phase 5: Contemporary Federal India
 
-```text
-Union
-  ↕
-States
-  ↕
-Local Governments
+```mermaid
+flowchart TD
+    A[🇮🇳 Union]
+    B[🏛️ States]
+    C[🏘️ Local Governments]
+
+    A <--> B
+    B <--> C
 ```
 
 ### Significance
@@ -132,30 +158,28 @@ Local Governments
 
 ## Federal Structure Framework
 
-```text
-Constitution
-      ↓
-Union Government
-      ↕
-State Governments
-      ↓
-Citizens
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🇮🇳 Union Government]
+    C[🏛️ State Governments]
+    D[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B <--> C
+    C --> D
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Integration
-     ↓
-Reorganization
-     ↓
-Federalism
-     ↓
-New States
-     ↓
-Modern India
+```mermaid
+flowchart LR
+    A[🤝 Integration] --> B[🏛️ Reorganization]
+    B --> C[⚖️ Federalism]
+    C --> D[🗺️ New States]
+    D --> E[🌏 Modern India]
 ```
 
 ---

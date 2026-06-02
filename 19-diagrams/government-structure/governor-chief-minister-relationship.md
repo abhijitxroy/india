@@ -22,36 +22,52 @@ Understanding the Governor–Chief Minister relationship helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((🏛️ State Governance))
+    📜 Constitution
+    👤 Governor
+    👨‍💼 Chief Minister
+    👥 Council of Ministers
+    ⚙️ Administration
+    👨‍👩‍👧‍👦 Citizens
+    🤝 Federalism
+```
+
 ## Governor–Chief Minister Framework
 
-```text
-Constitution
-      ↓
-Governor
-      ↕
-Chief Minister
-      ↓
-Council of Ministers
-      ↓
-State Administration
-      ↓
-Citizens
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[👤 Governor]
+    C[👨‍💼 Chief Minister]
+    D[👥 Council of Ministers]
+    E[⚙️ State Administration]
+    F[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B <--> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Constitutional Structure
 
-```text
-Constitution
-      ↓
-Governor
-      ↓
-Constitutional Head
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[👤 Governor]
+    C[🛡️ Constitutional Head]
+    D[👨‍💼 Chief Minister]
+    E[⚙️ Head of Government]
 
-Chief Minister
-      ↓
-Head of Government
+    A --> B
+    B --> C
+    A --> D
+    D --> E
 ```
 
 ### Significance
@@ -64,16 +80,18 @@ Head of Government
 
 ## Democratic Governance Model
 
-```text
-Citizens
-    ↓
-State Elections
-    ↓
-Legislative Assembly
-    ↓
-Chief Minister
-    ↓
-Government Formation
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ State Elections]
+    C[🏛️ Legislative Assembly]
+    D[👨‍💼 Chief Minister]
+    E[⚙️ Government Formation]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Purpose
@@ -86,14 +104,16 @@ Government Formation
 
 ## Executive Governance Framework
 
-```text
-Chief Minister
-       ↓
-Council of Ministers
-       ↓
-Policy Decisions
-       ↓
-Administration
+```mermaid
+flowchart TD
+    A[👨‍💼 Chief Minister]
+    B[👥 Council of Ministers]
+    C[📜 Policy Decisions]
+    D[⚙️ Administration]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -106,14 +126,16 @@ Administration
 
 ## Constitutional Accountability Model
 
-```text
-Government Actions
-         ↓
-Governor
-         ↓
-Constitutional Review
-         ↓
-Constitutional Compliance
+```mermaid
+flowchart TD
+    A[⚙️ Government Actions]
+    B[👤 Governor]
+    C[📜 Constitutional Review]
+    D[✅ Constitutional Compliance]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -126,32 +148,35 @@ Constitutional Compliance
 
 ## State Governance Cycle
 
-```text
-Citizens
-    ↓
-Election
-    ↓
-Chief Minister
-    ↓
-Government
-    ↓
-Governance
-    ↓
-Citizens
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Election]
+    C[👨‍💼 Chief Minister]
+    D[⚙️ Government]
+    E[🌐 Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> A
 ```
 
 ---
 
 ## Federal Governance Connection
 
-```text
-Union Government
-        ↕
-Governor
-        ↕
-State Government
-        ↓
-Citizens
+```mermaid
+flowchart TD
+    A[🇮🇳 Union Government]
+    B[👤 Governor]
+    C[🏛️ State Government]
+    D[👨‍👩‍👧‍👦 Citizens]
+
+    A <--> B
+    B <--> C
+    C --> D
 ```
 
 ### Significance
@@ -164,18 +189,12 @@ Citizens
 
 ## Quick Revision
 
-```text
-Governor
-    ↓
-Constitutional Head
-
-Chief Minister
-    ↓
-Elected Government Head
-
-Together
-    ↓
-State Governance
+```mermaid
+flowchart LR
+    A[👤 Governor] --> B[📜 Constitutional Head]
+    C[👨‍💼 Chief Minister] --> D[⚙️ Elected Government Head]
+    B --> E[🏛️ State Governance]
+    D --> E
 ```
 
 ---

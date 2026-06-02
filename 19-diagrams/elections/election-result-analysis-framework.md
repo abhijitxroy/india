@@ -1,5 +1,3 @@
-
-
 # Election Result Analysis Framework
 
 ## Overview
@@ -22,32 +20,49 @@ Understanding election result analysis helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((📊 Election Results))
+    🗳️ Vote Share
+    🏛️ Seats Won
+    🤝 Majority
+    ⚙️ Government Formation
+    🛡️ Opposition
+    🌐 Governance Outcomes
+```
+
+---
+
 ## Election Result Analysis Framework
 
-```text
-Election Results
-        ↓
-Vote Analysis
-        ↓
-Seat Analysis
-        ↓
-Government Formation
-        ↓
-Governance Outcomes
+```mermaid
+flowchart TD
+    A[📊 Election Results]
+    B[🗳️ Vote Analysis]
+    C[🏛️ Seat Analysis]
+    D[🤝 Government Formation]
+    E[🌐 Governance Outcomes]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Vote Analysis Model
 
-```text
-Votes Cast
-      ↓
-Vote Share
-      ↓
-Party Support
-      ↓
-Political Trends
+```mermaid
+flowchart TD
+    A[🗳️ Votes Cast]
+    B[📈 Vote Share]
+    C[🏛️ Party Support]
+    D[📊 Political Trends]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -60,14 +75,16 @@ Political Trends
 
 ## Seat Analysis Model
 
-```text
-Vote Share
-      ↓
-Seats Won
-      ↓
-Legislative Strength
-      ↓
-Majority Position
+```mermaid
+flowchart TD
+    A[📈 Vote Share]
+    B[🏛️ Seats Won]
+    C[💪 Legislative Strength]
+    D[👑 Majority Position]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -80,14 +97,16 @@ Majority Position
 
 ## Government Formation Framework
 
-```text
-Election Results
-        ↓
-Majority Assessment
-        ↓
-Government Formation
-        ↓
-Executive Leadership
+```mermaid
+flowchart TD
+    A[📊 Election Results]
+    B[🧮 Majority Assessment]
+    C[🤝 Government Formation]
+    D[🏛️ Executive Leadership]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -99,12 +118,14 @@ Executive Leadership
 
 ## Opposition Analysis
 
-```text
-Non-Government Parties
-          ↓
-Opposition Strength
-          ↓
-Legislative Oversight
+```mermaid
+flowchart TD
+    A[🛡️ Non-Government Parties]
+    B[📊 Opposition Strength]
+    C[⚖️ Legislative Oversight]
+
+    A --> B
+    B --> C
 ```
 
 ### Purpose
@@ -116,44 +137,44 @@ Legislative Oversight
 
 ## Electoral Trend Analysis
 
-```text
-Current Results
-        ↓
-Historical Comparison
-        ↓
-Trend Identification
-        ↓
-Political Insights
+```mermaid
+flowchart TD
+    A[📊 Current Results]
+    B[📚 Historical Comparison]
+    C[📈 Trend Identification]
+    D[💡 Political Insights]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ---
 
 ## Governance Impact Framework
 
-```text
-Election Outcome
-        ↓
-Government Structure
-        ↓
-Policy Direction
-        ↓
-Governance Outcomes
+```mermaid
+flowchart TD
+    A[🗳️ Election Outcome]
+    B[🏛️ Government Structure]
+    C[📜 Policy Direction]
+    D[🌐 Governance Outcomes]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Votes
-   ↓
-Seats
-   ↓
-Majority
-   ↓
-Government
-   ↓
-Governance
+```mermaid
+flowchart LR
+    A[🗳️ Votes] --> B[🏛️ Seats]
+    B --> C[👑 Majority]
+    C --> D[🤝 Government]
+    D --> E[🌐 Governance]
 ```
 
 ---

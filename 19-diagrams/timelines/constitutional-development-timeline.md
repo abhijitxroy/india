@@ -20,36 +20,52 @@ Understanding constitutional development helps explain:
 - How representative government expanded
 - How the Republic of India was established
 
+```mermaid
+mindmap
+  root((📜 Constitutional Development))
+    🇬🇧 Colonial Reforms
+    🏛️ Representative Institutions
+    📈 Constitutional Evolution
+    🏗️ Constituent Assembly
+    📜 Constitution of India
+    🇮🇳 Republic of India
+    ⚖️ Constitutional Governance
+```
+
 ---
 
 ## Constitutional Development Timeline
 
-```text
-Colonial Reforms
-        ↓
-Representative Institutions
-        ↓
-Constitutional Evolution
-        ↓
-Constituent Assembly
-        ↓
-Constitution of India
-        ↓
-Republic of India
-        ↓
-Constitutional Governance
+```mermaid
+flowchart TD
+    A[🇬🇧 Colonial Reforms]
+    B[🏛️ Representative Institutions]
+    C[📈 Constitutional Evolution]
+    D[🏗️ Constituent Assembly]
+    E[📜 Constitution of India]
+    F[🇮🇳 Republic of India]
+    G[⚖️ Constitutional Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
 
 ## Phase 1: Colonial Constitutional Reforms
 
-```text
-Colonial Administration
-         ↓
-Institutional Reforms
-         ↓
-Limited Representation
+```mermaid
+flowchart TD
+    A[🇬🇧 Colonial Administration]
+    B[🏛️ Institutional Reforms]
+    C[👥 Limited Representation]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -61,12 +77,14 @@ Limited Representation
 
 ## Phase 2: Expanding Representation
 
-```text
-Political Participation
-         ↓
-Legislative Development
-         ↓
-Representative Governance
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Political Participation]
+    B[🏛️ Legislative Development]
+    C[🗳️ Representative Governance]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -78,12 +96,14 @@ Representative Governance
 
 ## Phase 3: Constitutional Evolution
 
-```text
-Political Demands
-        ↓
-Constitutional Negotiations
-        ↓
-Self-Governance Framework
+```mermaid
+flowchart TD
+    A[📢 Political Demands]
+    B[🤝 Constitutional Negotiations]
+    C[🏛️ Self-Governance Framework]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -95,12 +115,14 @@ Self-Governance Framework
 
 ## Phase 4: Constituent Assembly
 
-```text
-Independence Process
-         ↓
-Constituent Assembly
-         ↓
-Constitution Drafting
+```mermaid
+flowchart TD
+    A[🎉 Independence Process]
+    B[🏗️ Constituent Assembly]
+    C[📜 Constitution Drafting]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -112,12 +134,14 @@ Constitution Drafting
 
 ## Phase 5: Constitution of India
 
-```text
-Draft Constitution
-         ↓
-Adoption
-         ↓
-Constitution of India
+```mermaid
+flowchart TD
+    A[📄 Draft Constitution]
+    B[✅ Adoption]
+    C[📜 Constitution of India]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -130,12 +154,14 @@ Constitution of India
 
 ## Phase 6: Republic of India
 
-```text
-Constitution
-      ↓
-Republic
-      ↓
-Democratic Institutions
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🇮🇳 Republic]
+    C[🏛️ Democratic Institutions]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -148,34 +174,31 @@ Democratic Institutions
 
 ## Constitutional Governance Framework
 
-```text
-Constitution
-      ↓
-Legislature
-      ↓
-Executive
-      ↓
-Judiciary
-      ↓
-Citizens
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🏛️ Legislature]
+    C[⚙️ Executive]
+    D[⚖️ Judiciary]
+    E[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Colonial Reforms
-        ↓
-Representation
-        ↓
-Constitutional Evolution
-        ↓
-Constituent Assembly
-        ↓
-Constitution
-        ↓
-Republic
+```mermaid
+flowchart LR
+    A[🇬🇧 Colonial Reforms] --> B[👥 Representation]
+    B --> C[📈 Constitutional Evolution]
+    C --> D[🏗️ Constituent Assembly]
+    D --> E[📜 Constitution]
+    E --> F[🇮🇳 Republic]
 ```
 
 ---

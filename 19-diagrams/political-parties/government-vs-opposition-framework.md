@@ -22,36 +22,57 @@ Understanding the Government-Opposition framework helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((🏛️ Government vs Opposition))
+    🗳️ Elections
+    🏛️ Government
+    👥 Opposition
+    💬 Debate
+    ⚖️ Accountability
+    📜 Policy Review
+    🌐 Governance
+```
+
+---
+
 ## Core Framework
 
-```text
-Citizens
-    ↓
-Election
-    ↓
-Legislature
-    ↓
-Government        Opposition
-       ↕               ↕
-     Debate & Accountability
-               ↓
-          Governance
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Election]
+    C[🏛️ Legislature]
+    D[🏛️ Government]
+    E[👥 Opposition]
+    F[💬 Debate & Accountability]
+    G[🌐 Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    C --> E
+    D --> F
+    E --> F
+    F --> G
 ```
 
 ---
 
 ## Government Structure
 
-```text
-Legislative Majority
-          ↓
-Government
-          ↓
-Prime Minister / Chief Minister
-          ↓
-Council of Ministers
-          ↓
-Policy Decisions
+```mermaid
+flowchart TD
+    A[📈 Legislative Majority]
+    B[🏛️ Government]
+    C[👤 Prime Minister / Chief Minister]
+    D[👥 Council of Ministers]
+    E[📜 Policy Decisions]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Responsibilities
@@ -65,14 +86,16 @@ Policy Decisions
 
 ## Opposition Structure
 
-```text
-Non-Government Parties
-           ↓
-Opposition
-           ↓
-Alternative Policies
-           ↓
-Government Scrutiny
+```mermaid
+flowchart TD
+    A[🏛️ Non-Government Parties]
+    B[👥 Opposition]
+    C[📋 Alternative Policies]
+    D[👀 Government Scrutiny]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Responsibilities
@@ -86,66 +109,67 @@ Government Scrutiny
 
 ## Parliamentary Accountability Model
 
-```text
-Government Decisions
-          ↓
-Parliament Debate
-          ↓
-Opposition Review
-          ↓
-Public Scrutiny
+```mermaid
+flowchart TD
+    A[📜 Government Decisions]
+    B[🏛️ Parliament Debate]
+    C[👥 Opposition Review]
+    D[👨‍👩‍👧‍👦 Public Scrutiny]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ---
 
 ## Democratic Balance Framework
 
-```text
-Government
-      ↕
-Opposition
-      ↕
-Debate
-      ↕
-Accountability
-      ↕
-Better Governance
+```mermaid
+flowchart TD
+    A[🏛️ Government]
+    B[👥 Opposition]
+    C[💬 Debate]
+    D[⚖️ Accountability]
+    E[🌐 Better Governance]
+
+    A <--> B
+    B <--> C
+    C <--> D
+    D --> E
 ```
 
 ---
 
 ## Legislative Process Interaction
 
-```text
-Policy Proposal
-       ↓
-Government Support
-       ↓
-Parliament Debate
-       ↓
-Opposition Response
-       ↓
-Decision
+```mermaid
+flowchart TD
+    A[📜 Policy Proposal]
+    B[🏛️ Government Support]
+    C[💬 Parliament Debate]
+    D[👥 Opposition Response]
+    E[✅ Decision]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Election
-    ↓
-Legislature
-    ↓
-Government
-    ↕
-Opposition
-    ↓
-Debate
-    ↓
-Accountability
-    ↓
-Governance
+```mermaid
+flowchart LR
+    A[🗳️ Election] --> B[🏛️ Legislature]
+    B --> C[🏛️ Government]
+    B --> D[👥 Opposition]
+    C --> E[💬 Debate]
+    D --> E
+    E --> F[⚖️ Accountability]
+    F --> G[🌐 Governance]
 ```
 
 ---

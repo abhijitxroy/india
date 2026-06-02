@@ -1,5 +1,3 @@
-
-
 # Coalition Formation Model
 
 ## Overview
@@ -22,36 +20,52 @@ Understanding coalition formation helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((🤝 Coalition Formation))
+    🗳️ Election Results
+    ⚖️ No Clear Majority
+    🤝 Negotiations
+    📜 Alliance Agreement
+    👥 Coalition Government
+    ⚙️ Governance
+    👨‍👩‍👧‍👦 Citizens
+```
+
 ## Coalition Formation Framework
 
-```text
-Election Results
-        ↓
-No Clear Majority
-        ↓
-Party Negotiations
-        ↓
-Alliance Formation
-        ↓
-Majority Support
-        ↓
-Government Formation
+```mermaid
+flowchart TD
+    A[🗳️ Election Results]
+    B[⚖️ No Clear Majority]
+    C[🤝 Party Negotiations]
+    D[📜 Alliance Formation]
+    E[📈 Majority Support]
+    F[🏛️ Government Formation]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Coalition Building Process
 
-```text
-Political Parties
-        ↓
-Negotiations
-        ↓
-Common Agenda
-        ↓
-Coalition Agreement
-        ↓
-Legislative Majority
+```mermaid
+flowchart TD
+    A[🏛️ Political Parties]
+    B[🤝 Negotiations]
+    C[📋 Common Agenda]
+    D[📝 Coalition Agreement]
+    E[📈 Legislative Majority]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Outcome
@@ -64,30 +78,34 @@ Legislative Majority
 
 ## Government Formation Flow
 
-```text
-Coalition Agreement
-         ↓
-Leader Selection
-         ↓
-Government Formation
-         ↓
-Council of Ministers
-         ↓
-Governance
+```mermaid
+flowchart TD
+    A[📝 Coalition Agreement]
+    B[👤 Leader Selection]
+    C[🏛️ Government Formation]
+    D[👥 Council of Ministers]
+    E[⚙️ Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Coalition Governance Model
 
-```text
-Coalition Partners
-         ↓
-Policy Coordination
-         ↓
-Shared Decision Making
-         ↓
-Government Actions
+```mermaid
+flowchart TD
+    A[🤝 Coalition Partners]
+    B[📋 Policy Coordination]
+    C[👥 Shared Decision Making]
+    D[⚙️ Government Actions]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -100,48 +118,47 @@ Government Actions
 
 ## Coalition Accountability Framework
 
-```text
-Citizens
-     ↓
-Election
-     ↓
-Coalition Government
-     ↓
-Governance Outcomes
-     ↓
-Public Evaluation
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Election]
+    C[🤝 Coalition Government]
+    D[📈 Governance Outcomes]
+    E[📊 Public Evaluation]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Coalition vs Majority Government
 
-```text
-Majority Government
-      ↓
-Single Party Majority
+```mermaid
+flowchart TD
+    A[🏛️ Majority Government]
+    B[🎯 Single Party Majority]
 
-Coalition Government
-      ↓
-Multiple Party Majority
+    C[🤝 Coalition Government]
+    D[👥 Multiple Party Majority]
+
+    A --> B
+    C --> D
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Election
-    ↓
-No Majority
-    ↓
-Alliance
-    ↓
-Coalition
-    ↓
-Government
-    ↓
-Governance
+```mermaid
+flowchart LR
+    A[🗳️ Election] --> B[⚖️ No Majority]
+    B --> C[🤝 Alliance]
+    C --> D[👥 Coalition]
+    D --> E[🏛️ Government]
+    E --> F[⚙️ Governance]
 ```
 
 ---

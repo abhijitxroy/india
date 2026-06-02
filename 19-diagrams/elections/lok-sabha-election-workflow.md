@@ -22,36 +22,52 @@ Understanding Lok Sabha elections helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((🗳️ Lok Sabha Election))
+    👨‍👩‍👧‍👦 Voters
+    🗳️ Voting
+    📊 Counting
+    🏛️ Seats
+    👑 Majority
+    🤝 Government Formation
+    🌐 Governance
+```
+
 ## Lok Sabha Election Workflow
 
-```text
-Eligible Voters
-       ↓
-Voting
-       ↓
-Vote Counting
-       ↓
-Election Results
-       ↓
-Seat Distribution
-       ↓
-Majority Assessment
-       ↓
-Government Formation
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Eligible Voters]
+    B[🗳️ Voting]
+    C[📊 Vote Counting]
+    D[🏆 Election Results]
+    E[🏛️ Seat Distribution]
+    F[👑 Majority Assessment]
+    G[🤝 Government Formation]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
 
 ## Voter Participation Framework
 
-```text
-Citizens
-    ↓
-Voter Registration
-    ↓
-Eligible Voters
-    ↓
-Voting
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[📝 Voter Registration]
+    C[✅ Eligible Voters]
+    D[🗳️ Voting]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -64,16 +80,18 @@ Voting
 
 ## Election Process
 
-```text
-Candidates
-      ↓
-Campaign
-      ↓
-Voting
-      ↓
-Counting
-      ↓
-Results
+```mermaid
+flowchart TD
+    A[🙋 Candidates]
+    B[📣 Campaign]
+    C[🗳️ Voting]
+    D[📊 Counting]
+    E[🏆 Results]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Outcome
@@ -86,14 +104,16 @@ Results
 
 ## Representation Model
 
-```text
-Constituencies
-        ↓
-Elected Members
-        ↓
-Lok Sabha
-        ↓
-Parliament
+```mermaid
+flowchart TD
+    A[🏘️ Constituencies]
+    B[🙋 Elected Members]
+    C[🏛️ Lok Sabha]
+    D[🇮🇳 Parliament]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -106,14 +126,16 @@ Parliament
 
 ## Majority Formation Framework
 
-```text
-Election Results
-        ↓
-Seat Distribution
-        ↓
-Majority Assessment
-        ↓
-Government Formation
+```mermaid
+flowchart TD
+    A[🏆 Election Results]
+    B[🏛️ Seat Distribution]
+    C[👑 Majority Assessment]
+    D[🤝 Government Formation]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -125,50 +147,49 @@ Government Formation
 
 ## Government Formation Connection
 
-```text
-Lok Sabha Majority
-         ↓
-Leader Selection
-         ↓
-Prime Minister
-         ↓
-Council of Ministers
-         ↓
-Government
+```mermaid
+flowchart TD
+    A[🏛️ Lok Sabha Majority]
+    B[🙋 Leader Selection]
+    C[👑 Prime Minister]
+    D[👥 Council of Ministers]
+    E[⚙️ Government]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Governance Flow
 
-```text
-Citizens
-    ↓
-Election
-    ↓
-Lok Sabha
-    ↓
-Government
-    ↓
-Governance
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Election]
+    C[🏛️ Lok Sabha]
+    D[⚙️ Government]
+    E[🌐 Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Voters
-   ↓
-Election
-   ↓
-Lok Sabha
-   ↓
-Majority
-   ↓
-Government
-   ↓
-Governance
+```mermaid
+flowchart LR
+    A[👨‍👩‍👧‍👦 Voters] --> B[🗳️ Election]
+    B --> C[🏛️ Lok Sabha]
+    C --> D[👑 Majority]
+    D --> E[⚙️ Government]
+    E --> F[🌐 Governance]
 ```
 
 ---

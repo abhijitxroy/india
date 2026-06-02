@@ -1,5 +1,3 @@
-
-
 # Political Party Ecosystem
 
 ## Overview
@@ -22,38 +20,57 @@ Understanding the political party ecosystem helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((🏛️ Political Party Ecosystem))
+    👨‍👩‍👧‍👦 Citizens
+    🏛️ Political Parties
+    🗳️ Elections
+    👥 Representation
+    🏛️ Government
+    👥 Opposition
+    ⚙️ Governance
+```
+
+---
+
 ## Political Party Ecosystem
 
-```text
-Citizens
-    ↓
-Political Parties
-    ↓
-Elections
-    ↓
-Representation
-    ↓
-Legislature
-    ↓
-Government
-    ↕
-Opposition
-    ↓
-Governance
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🏛️ Political Parties]
+    C[🗳️ Elections]
+    D[👥 Representation]
+    E[🏛️ Legislature]
+    F[🏛️ Government]
+    G[👥 Opposition]
+    H[⚙️ Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    E --> G
+    F <--> G
+    G --> H
 ```
 
 ---
 
 ## Citizen Participation Framework
 
-```text
-Citizens
-    ↓
-Political Participation
-    ↓
-Political Parties
-    ↓
-Democratic Representation
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🤝 Political Participation]
+    C[🏛️ Political Parties]
+    D[👥 Democratic Representation]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -66,16 +83,18 @@ Democratic Representation
 
 ## Election Framework
 
-```text
-Political Parties
-        ↓
-Candidates
-        ↓
-Election Campaign
-        ↓
-Voters
-        ↓
-Election Results
+```mermaid
+flowchart TD
+    A[🏛️ Political Parties]
+    B[🧑 Candidates]
+    C[📢 Election Campaign]
+    D[🗳️ Voters]
+    E[📊 Election Results]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Outcome
@@ -87,14 +106,16 @@ Election Results
 
 ## Representation Framework
 
-```text
-Election Results
-         ↓
-Representatives
-         ↓
-Legislature
-         ↓
-Policy Debate
+```mermaid
+flowchart TD
+    A[📊 Election Results]
+    B[👥 Representatives]
+    C[🏛️ Legislature]
+    D[💬 Policy Debate]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -106,68 +127,70 @@ Policy Debate
 
 ## Government Formation Framework
 
-```text
-Legislative Majority
-         ↓
-Government Formation
-         ↓
-Executive Leadership
-         ↓
-Governance
+```mermaid
+flowchart TD
+    A[📈 Legislative Majority]
+    B[🏛️ Government Formation]
+    C[👤 Executive Leadership]
+    D[⚙️ Governance]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ---
 
 ## Government and Opposition Model
 
-```text
-Legislature
-      ↓
-Government
-      ↕
-Opposition
-      ↓
-Accountability
-      ↓
-Better Governance
+```mermaid
+flowchart TD
+    A[🏛️ Legislature]
+    B[🏛️ Government]
+    C[👥 Opposition]
+    D[⚖️ Accountability]
+    E[🌐 Better Governance]
+
+    A --> B
+    A --> C
+    B <--> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Democratic Accountability Cycle
 
-```text
-Citizens
-     ↓
-Election
-     ↓
-Government
-     ↓
-Governance Outcomes
-     ↓
-Public Evaluation
-     ↓
-Next Election
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Election]
+    C[🏛️ Government]
+    D[📈 Governance Outcomes]
+    E[📊 Public Evaluation]
+    F[🗳️ Next Election]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Citizens
-    ↓
-Political Parties
-    ↓
-Elections
-    ↓
-Legislature
-    ↓
-Government
-    ↕
-Opposition
-    ↓
-Governance
+```mermaid
+flowchart LR
+    A[👨‍👩‍👧‍👦 Citizens] --> B[🏛️ Political Parties]
+    B --> C[🗳️ Elections]
+    C --> D[🏛️ Legislature]
+    D --> E[🏛️ Government]
+    D --> F[👥 Opposition]
+    E <--> F
+    F --> G[⚙️ Governance]
 ```
 
 ---

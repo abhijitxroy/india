@@ -20,53 +20,69 @@ Understanding the Election Commission helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((🗳️ Election Commission))
+    📜 Constitution
+    👨‍👩‍👧‍👦 Voters
+    📝 Electoral Rolls
+    🏛️ Political Parties
+    🗳️ Elections
+    📊 Results
+```
+
+---
+
 ## Constitutional Position
 
-```text
-Constitution of India
-          ↓
-Election Commission of India
-          ↓
-Election Administration
-          ↓
-Free & Fair Elections
+```mermaid
+flowchart TD
+    A[📜 Constitution of India]
+    B[🗳️ Election Commission of India]
+    C[⚙️ Election Administration]
+    D[✅ Free & Fair Elections]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ---
 
 ## Election Commission Structure
 
-```text
-Election Commission of India
-              │
-      ┌───────┴───────┐
-      ↓               ↓
-Chief Election   Election
-Commissioner     Commissioners
-              │
-              ↓
-Election Machinery
-              │
-              ↓
-State & District Officials
+```mermaid
+flowchart TD
+    A[🗳️ Election Commission of India]
+
+    A --> B[👤 Chief Election Commissioner]
+    A --> C[👥 Election Commissioners]
+
+    B --> D[⚙️ Election Machinery]
+    C --> D
+
+    D --> E[🏢 State Officials]
+    D --> F[🏛️ District Officials]
 ```
 
 ---
 
 ## Election Management Framework
 
-```text
-Election Commission
-         ↓
-Electoral Roll
-         ↓
-Candidate Nomination
-         ↓
-Polling Process
-         ↓
-Vote Counting
-         ↓
-Result Declaration
+```mermaid
+flowchart TD
+    A[🗳️ Election Commission]
+    B[📝 Electoral Roll]
+    C[🙋 Candidate Nomination]
+    D[🗳️ Polling Process]
+    E[📊 Vote Counting]
+    F[🏆 Result Declaration]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
@@ -75,68 +91,71 @@ Result Declaration
 
 ### Electoral Roll Management
 
-```text
-Citizens
-    ↓
-Voter Registration
-    ↓
-Electoral Roll
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[📝 Voter Registration]
+    C[📋 Electoral Roll]
+
+    A --> B
+    B --> C
 ```
 
 ### Election Conduct
 
-```text
-Election Schedule
-        ↓
-Polling
-        ↓
-Counting
-        ↓
-Results
+```mermaid
+flowchart TD
+    A[📅 Election Schedule]
+    B[🗳️ Polling]
+    C[📊 Counting]
+    D[🏆 Results]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Monitoring & Oversight
 
-```text
-Political Parties
-         ↓
-Campaign Activities
-         ↓
-Model Code of Conduct
-         ↓
-Election Monitoring
+```mermaid
+flowchart TD
+    A[🏛️ Political Parties]
+    B[📣 Campaign Activities]
+    C[📜 Model Code of Conduct]
+    D[👀 Election Monitoring]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ---
 
 ## Democratic Significance
 
-```text
-Independent Elections
-          ↓
-Representative Democracy
-          ↓
-Legitimate Government
-          ↓
-Public Trust
+```mermaid
+flowchart TD
+    A[✅ Independent Elections]
+    B[🗳️ Representative Democracy]
+    C[🏛️ Legitimate Government]
+    D[🤝 Public Trust]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Constitution
-      ↓
-Election Commission
-      ↓
-Election Process
-      ↓
-Voting
-      ↓
-Counting
-      ↓
-Government Formation
+```mermaid
+flowchart LR
+    A[📜 Constitution] --> B[🗳️ Election Commission]
+    B --> C[🗳️ Election Process]
+    C --> D[🗳️ Voting]
+    D --> E[📊 Counting]
+    E --> F[🏛️ Government Formation]
 ```
 
 ---

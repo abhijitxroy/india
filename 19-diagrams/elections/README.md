@@ -22,30 +22,34 @@ Understanding coalition formation helps explain:
 
 ## Coalition Formation Workflow
 
-```text
-Election Results
-        ↓
-No Clear Majority
-        ↓
-Party Negotiations
-        ↓
-Alliance Building
-        ↓
-Majority Support
-        ↓
-Government Formation
+```mermaid
+flowchart TD
+    A[🗳️ Election Results]
+    B[❓ No Clear Majority]
+    C[🤝 Party Negotiations]
+    D[🏛️ Alliance Building]
+    E[👑 Majority Support]
+    F[⚙️ Government Formation]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Post-Election Scenario
 
-```text
-Election Results
-        ↓
-Seat Distribution
-        ↓
-Majority Assessment
+```mermaid
+flowchart TD
+    A[🗳️ Election Results]
+    B[📊 Seat Distribution]
+    C[👑 Majority Assessment]
+
+    A --> B
+    B --> C
 ```
 
 ### Outcome
@@ -57,14 +61,16 @@ Majority Assessment
 
 ## Alliance Building Process
 
-```text
-Political Parties
-        ↓
-Negotiations
-        ↓
-Common Agenda
-        ↓
-Coalition Agreement
+```mermaid
+flowchart TD
+    A[🏛️ Political Parties]
+    B[🤝 Negotiations]
+    C[📜 Common Agenda]
+    D[✍️ Coalition Agreement]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -77,28 +83,32 @@ Coalition Agreement
 
 ## Majority Formation Model
 
-```text
-Alliance Partners
-         ↓
-Combined Strength
-         ↓
-Legislative Majority
-         ↓
-Government Claim
+```mermaid
+flowchart TD
+    A[🤝 Alliance Partners]
+    B[💪 Combined Strength]
+    C[👑 Legislative Majority]
+    D[🏛️ Government Claim]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ---
 
 ## Government Formation Stage
 
-```text
-Majority Support
-        ↓
-Leader Selection
-        ↓
-Government Formation
-        ↓
-Council of Ministers
+```mermaid
+flowchart TD
+    A[👑 Majority Support]
+    B[🙋 Leader Selection]
+    C[⚙️ Government Formation]
+    D[👥 Council of Ministers]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -110,46 +120,45 @@ Council of Ministers
 
 ## Coalition Governance Framework
 
-```text
-Coalition Partners
-         ↓
-Policy Coordination
-         ↓
-Joint Decision Making
-         ↓
-Governance
+```mermaid
+flowchart TD
+    A[🤝 Coalition Partners]
+    B[📋 Policy Coordination]
+    C[💬 Joint Decision Making]
+    D[🌐 Governance]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ---
 
 ## Stability and Accountability
 
-```text
-Coalition Government
-          ↓
-Legislative Support
-          ↓
-Governance Outcomes
-          ↓
-Public Evaluation
+```mermaid
+flowchart TD
+    A[⚙️ Coalition Government]
+    B[🏛️ Legislative Support]
+    C[📈 Governance Outcomes]
+    D[📊 Public Evaluation]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Election
-    ↓
-No Majority
-    ↓
-Negotiation
-    ↓
-Alliance
-    ↓
-Majority
-    ↓
-Government
+```mermaid
+flowchart LR
+    A[🗳️ Election] --> B[❓ No Majority]
+    B --> C[🤝 Negotiation]
+    C --> D[🏛️ Alliance]
+    D --> E[👑 Majority]
+    E --> F[⚙️ Government]
 ```
 
 ---
@@ -213,41 +222,38 @@ Election diagrams help:
 
 ## Progress Status
 
-```text
-Completed
-├── Election Process Flow
-├── Voter to Government Journey
-├── Election Commission Structure
-├── Government Formation Process
-├── Constituency Representation Model
-├── Election Result Analysis Framework
-├── Coalition Formation Workflow
-├── Lok Sabha Election Workflow
-└── Rajya Sabha Election Workflow
-
-Next Recommended
-├── By-Election Process
-├── Electoral Roll Management
-├── Candidate Nomination Workflow
-└── Campaign to Result Journey
+```mermaid
+mindmap
+  root((🗳️ Election Diagrams))
+    Election Process Flow
+    Voter to Government Journey
+    Election Commission Structure
+    Government Formation Process
+    Constituency Representation
+    Election Result Analysis
+    Coalition Formation
+    Lok Sabha Election
+    Rajya Sabha Election
 ```
 
 ---
 
 ## Recommended Diagram Structure
 
-```text
-Citizen
-    ↓
-Voter Registration
-    ↓
-Election
-    ↓
-Representation
-    ↓
-Government Formation
-    ↓
-Governance
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizen]
+    B[📝 Voter Registration]
+    C[🗳️ Election]
+    D[🙋 Representation]
+    E[🤝 Government Formation]
+    F[🌐 Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
@@ -283,18 +289,13 @@ Governance
 
 ## Quick Revision
 
-```text
-Voter
-   ↓
-Vote
-   ↓
-Representative
-   ↓
-Parliament / Assembly
-   ↓
-Government
-   ↓
-Governance
+```mermaid
+flowchart LR
+    A[🗳️ Voter] --> B[☑️ Vote]
+    B --> C[🙋 Representative]
+    C --> D[🏛️ Parliament / Assembly]
+    D --> E[⚙️ Government]
+    E --> F[🌐 Governance]
 ```
 
 ---

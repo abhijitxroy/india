@@ -22,32 +22,50 @@ Understanding the judicial hierarchy helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((⚖️ Judicial Hierarchy))
+    🏛️ Supreme Court
+    ⚖️ High Courts
+    🏢 District Courts
+    📜 Subordinate Courts
+    ⬆️ Appeals
+    🛡️ Rights Protection
+    👨‍👩‍👧‍👦 Citizens
+```
+
+---
+
 ## Judicial Hierarchy
 
-```text
-Supreme Court of India
-          ↓
-High Courts
-          ↓
-District & Sessions Courts
-          ↓
-Subordinate Courts
-          ↓
-Citizens
+```mermaid
+flowchart TD
+    A[🏛️ Supreme Court of India]
+    B[⚖️ High Courts]
+    C[🏢 District & Sessions Courts]
+    D[📜 Subordinate Courts]
+    E[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Supreme Court Structure
 
-```text
-Supreme Court
-       ↓
-Constitutional Matters
-       ↓
-National Importance
-       ↓
-Final Appeals
+```mermaid
+flowchart TD
+    A[🏛️ Supreme Court]
+    B[📜 Constitutional Matters]
+    C[🇮🇳 National Importance]
+    D[✅ Final Appeals]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -60,14 +78,16 @@ Final Appeals
 
 ## High Court Structure
 
-```text
-High Court
-      ↓
-State Jurisdiction
-      ↓
-Appeals
-      ↓
-Supervision of Lower Courts
+```mermaid
+flowchart TD
+    A[⚖️ High Court]
+    B[🏛️ State Jurisdiction]
+    C[⬆️ Appeals]
+    D[👀 Supervision of Lower Courts]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -80,14 +100,16 @@ Supervision of Lower Courts
 
 ## District Court Structure
 
-```text
-District Courts
-        ↓
-Civil Matters
-        ↓
-Criminal Matters
-        ↓
-Local Justice Delivery
+```mermaid
+flowchart TD
+    A[🏢 District Courts]
+    B[📄 Civil Matters]
+    C[🚔 Criminal Matters]
+    D[⚖️ Local Justice Delivery]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -100,14 +122,16 @@ Local Justice Delivery
 
 ## Appeals Framework
 
-```text
-Subordinate Courts
-         ↓
-District Courts
-         ↓
-High Courts
-         ↓
-Supreme Court
+```mermaid
+flowchart TD
+    A[📜 Subordinate Courts]
+    B[🏢 District Courts]
+    C[⚖️ High Courts]
+    D[🏛️ Supreme Court]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -120,32 +144,30 @@ Supreme Court
 
 ## Citizen Justice Framework
 
-```text
-Citizens
-    ↓
-Courts
-    ↓
-Judgments
-    ↓
-Appeals
-    ↓
-Final Resolution
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[⚖️ Courts]
+    C[📜 Judgments]
+    D[⬆️ Appeals]
+    E[✅ Final Resolution]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Supreme Court
-      ↓
-High Courts
-      ↓
-District Courts
-      ↓
-Subordinate Courts
-      ↓
-Citizens
+```mermaid
+flowchart LR
+    A[🏛️ Supreme Court] --> B[⚖️ High Courts]
+    B --> C[🏢 District Courts]
+    C --> D[📜 Subordinate Courts]
+    D --> E[👨‍👩‍👧‍👦 Citizens]
 ```
 
 ---

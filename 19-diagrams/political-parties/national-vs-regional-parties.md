@@ -20,36 +20,53 @@ Understanding national and regional parties helps explain:
 - How federal governance operates
 - How political competition varies across regions
 
+```mermaid
+mindmap
+  root((🏛️ Political Parties))
+    🇮🇳 National Parties
+    🗺️ Regional Parties
+    🗳️ Elections
+    👨‍👩‍👧‍👦 Representation
+    🤝 Coalitions
+    ⚙️ Governance
+    🇮🇳 Federal Democracy
+```
+
 ---
 
 ## Political Party Framework
 
-```text
-Citizens
-    ↓
-Political Parties
-    ↓
-National Parties
-    +
-Regional Parties
-    ↓
-Elections
-    ↓
-Representation
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🏛️ Political Parties]
+    C[🇮🇳 National Parties]
+    D[🗺️ Regional Parties]
+    E[🗳️ Elections]
+    F[👥 Representation]
+
+    A --> B
+    B --> C
+    B --> D
+    C --> E
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## National Party Model
 
-```text
-National Presence
-        ↓
-Multiple States
-        ↓
-National Issues
-        ↓
-National Governance
+```mermaid
+flowchart TD
+    A[🇮🇳 National Presence]
+    B[🗺️ Multiple States]
+    C[📜 National Issues]
+    D[🏛️ National Governance]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Characteristics
@@ -63,14 +80,16 @@ National Governance
 
 ## Regional Party Model
 
-```text
-Regional Base
-       ↓
-State Interests
-       ↓
-Regional Representation
-       ↓
-State Governance
+```mermaid
+flowchart TD
+    A[🗺️ Regional Base]
+    B[🏛️ State Interests]
+    C[👥 Regional Representation]
+    D[⚙️ State Governance]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Characteristics
@@ -84,30 +103,35 @@ State Governance
 
 ## Democratic Representation Model
 
-```text
-Citizens
-    ↓
-National Interests
-    +
-Regional Interests
-    ↓
-Political Representation
-    ↓
-Democratic Governance
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🇮🇳 National Interests]
+    C[🗺️ Regional Interests]
+    D[👥 Political Representation]
+    E[🌐 Democratic Governance]
+
+    A --> B
+    A --> C
+    B --> D
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Coalition Politics Framework
 
-```text
-National Parties
-        +
-Regional Parties
-        ↓
-Alliance Formation
-        ↓
-Coalition Government
+```mermaid
+flowchart TD
+    A[🇮🇳 National Parties]
+    B[🗺️ Regional Parties]
+    C[🤝 Alliance Formation]
+    D[🏛️ Coalition Government]
+
+    A --> C
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -120,34 +144,30 @@ Coalition Government
 
 ## Governance Participation
 
-```text
-Political Parties
-       ↓
-Legislature
-       ↓
-Government
-       ↓
-Policy Making
-       ↓
-Governance
+```mermaid
+flowchart TD
+    A[🏛️ Political Parties]
+    B[🏛️ Legislature]
+    C[🏛️ Government]
+    D[📜 Policy Making]
+    E[⚙️ Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-National Parties
-       ↓
-National Representation
-
-Regional Parties
-       ↓
-Regional Representation
-
-Together
-       ↓
-Democratic Governance
+```mermaid
+flowchart LR
+    A[🇮🇳 National Parties] --> B[National Representation]
+    C[🗺️ Regional Parties] --> D[Regional Representation]
+    B --> E[🌐 Democratic Governance]
+    D --> E
 ```
 
 ---

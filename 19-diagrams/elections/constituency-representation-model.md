@@ -20,42 +20,59 @@ Understanding constituency representation helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((🗳️ Representation))
+    👨‍👩‍👧‍👦 Citizens
+    🏘️ Constituencies
+    🗳️ Elections
+    🙋 Representatives
+    🏛️ Legislatures
+    ⚙️ Governments
+```
+
+---
+
 ## Representation Framework
 
-```text
-Citizens
-     ↓
-Voters
-     ↓
-Constituency
-     ↓
-Election
-     ↓
-Representative
-     ↓
-Legislature
-     ↓
-Government
-     ↓
-Governance
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Voters]
+    C[🏘️ Constituency]
+    D[🗳️ Election]
+    E[🙋 Representative]
+    F[🏛️ Legislature]
+    G[⚙️ Government]
+    H[🌐 Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
 ```
 
 ---
 
 ## Lok Sabha Representation Model
 
-```text
-Citizens
-     ↓
-Lok Sabha Constituency
-     ↓
-Vote
-     ↓
-Member of Parliament (MP)
-     ↓
-Lok Sabha
-     ↓
-Union Government
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🏘️ Lok Sabha Constituency]
+    C[🗳️ Vote]
+    D[🙋 MP]
+    E[🏛️ Lok Sabha]
+    F[🇮🇳 Union Government]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ### Key Points
@@ -69,18 +86,20 @@ Union Government
 
 ## State Assembly Representation Model
 
-```text
-Citizens
-     ↓
-Assembly Constituency
-     ↓
-Vote
-     ↓
-Member of Legislative Assembly (MLA)
-     ↓
-State Assembly
-     ↓
-State Government
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🏘️ Assembly Constituency]
+    C[🗳️ Vote]
+    D[🙋 MLA]
+    E[🏛️ State Assembly]
+    F[⚙️ State Government]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ### Key Points
@@ -93,40 +112,36 @@ State Government
 
 ## Accountability Cycle
 
-```text
-Citizens
-     ↓
-Vote
-     ↓
-Representative
-     ↓
-Decision Making
-     ↓
-Governance Outcomes
-     ↓
-Public Evaluation
-     ↓
-Next Election
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Vote]
+    C[🙋 Representative]
+    D[📋 Decision Making]
+    E[🌐 Governance Outcomes]
+    F[📊 Public Evaluation]
+    G[🗳️ Next Election]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Citizen
-    ↓
-Constituency
-    ↓
-Election
-    ↓
-Representative
-    ↓
-Legislature
-    ↓
-Government
-    ↓
-Governance
+```mermaid
+flowchart LR
+    A[👨‍👩‍👧‍👦 Citizen] --> B[🏘️ Constituency]
+    B --> C[🗳️ Election]
+    C --> D[🙋 Representative]
+    D --> E[🏛️ Legislature]
+    E --> F[⚙️ Government]
+    F --> G[🌐 Governance]
 ```
 
 ---

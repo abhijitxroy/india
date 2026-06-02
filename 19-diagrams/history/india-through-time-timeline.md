@@ -18,38 +18,55 @@ Understanding India's timeline helps explain:
 - How colonial rule affected India
 - How modern India emerged
 
+```mermaid
+mindmap
+  root((🇮🇳 India Through Time))
+    🏺 Ancient India
+    🏛️ Classical India
+    🕌 Medieval India
+    🇬🇧 Colonial India
+    ✊ Freedom Struggle
+    🎉 Independence
+    📜 Republic of India
+    🌏 Contemporary India
+```
+
 ---
 
 ## Master Timeline
 
-```text
-Ancient India
-      ↓
-Classical India
-      ↓
-Medieval India
-      ↓
-Colonial India
-      ↓
-Freedom Struggle
-      ↓
-Independence
-      ↓
-Republic of India
-      ↓
-Contemporary India
+```mermaid
+flowchart TD
+    A[🏺 Ancient India]
+    B[🏛️ Classical India]
+    C[🕌 Medieval India]
+    D[🇬🇧 Colonial India]
+    E[✊ Freedom Struggle]
+    F[🎉 Independence]
+    G[📜 Republic of India]
+    H[🌏 Contemporary India]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
 ```
 
 ---
 
 ## Ancient India
 
-```text
-Early Settlements
-       ↓
-Indus Valley Civilization
-       ↓
-Vedic Period
+```mermaid
+flowchart TD
+    A[🏕️ Early Settlements]
+    B[🏺 Indus Valley Civilization]
+    C[📜 Vedic Period]
+
+    A --> B
+    B --> C
 ```
 
 ### Key Themes
@@ -62,12 +79,14 @@ Vedic Period
 
 ## Classical India
 
-```text
-Mahajanapadas
-        ↓
-Major Kingdoms
-        ↓
-Large Empires
+```mermaid
+flowchart TD
+    A[⚔️ Mahajanapadas]
+    B[🏛️ Major Kingdoms]
+    C[👑 Large Empires]
+
+    A --> B
+    B --> C
 ```
 
 ### Key Themes
@@ -80,12 +99,14 @@ Large Empires
 
 ## Medieval India
 
-```text
-Regional Powers
-       ↓
-Sultanates
-       ↓
-Major Empires
+```mermaid
+flowchart TD
+    A[🏰 Regional Powers]
+    B[🕌 Sultanates]
+    C[👑 Major Empires]
+
+    A --> B
+    B --> C
 ```
 
 ### Key Themes
@@ -98,12 +119,14 @@ Major Empires
 
 ## Colonial India
 
-```text
-European Presence
-        ↓
-Colonial Expansion
-        ↓
-British Rule
+```mermaid
+flowchart TD
+    A[⛵ European Presence]
+    B[🏛️ Colonial Expansion]
+    C[🇬🇧 British Rule]
+
+    A --> B
+    B --> C
 ```
 
 ### Key Themes
@@ -116,14 +139,16 @@ British Rule
 
 ## Freedom Struggle
 
-```text
-Political Awareness
-        ↓
-National Movement
-        ↓
-Mass Participation
-        ↓
-Independence
+```mermaid
+flowchart TD
+    A[💡 Political Awareness]
+    B[🏛️ National Movement]
+    C[👨‍👩‍👧‍👦 Mass Participation]
+    D[🎉 Independence]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Key Themes
@@ -136,12 +161,14 @@ Independence
 
 ## Republic of India
 
-```text
-Independence
-      ↓
-Constitution
-      ↓
-Democratic Republic
+```mermaid
+flowchart TD
+    A[🎉 Independence]
+    B[📜 Constitution]
+    C[🗳️ Democratic Republic]
+
+    A --> B
+    B --> C
 ```
 
 ### Key Themes
@@ -154,14 +181,16 @@ Democratic Republic
 
 ## Contemporary India
 
-```text
-Governance
-     ↓
-Development
-     ↓
-Digital Transformation
-     ↓
-Global Engagement
+```mermaid
+flowchart TD
+    A[🏛️ Governance]
+    B[📈 Development]
+    C[💻 Digital Transformation]
+    D[🌏 Global Engagement]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Key Themes
@@ -174,22 +203,15 @@ Global Engagement
 
 ## Quick Revision
 
-```text
-Civilization
-      ↓
-Kingdoms
-      ↓
-Empires
-      ↓
-Colonial Rule
-      ↓
-Freedom Struggle
-      ↓
-Independence
-      ↓
-Republic
-      ↓
-Contemporary India
+```mermaid
+flowchart LR
+    A[🏺 Civilization] --> B[🏛️ Kingdoms]
+    B --> C[👑 Empires]
+    C --> D[🇬🇧 Colonial Rule]
+    D --> E[✊ Freedom Struggle]
+    E --> F[🎉 Independence]
+    F --> G[📜 Republic]
+    G --> H[🌏 Contemporary India]
 ```
 
 ---

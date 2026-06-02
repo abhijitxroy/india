@@ -1,5 +1,3 @@
-
-
 # Nation Building Timeline
 
 ## Overview
@@ -22,36 +20,53 @@ Understanding nation building helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((🇮🇳 Nation Building))
+    🎉 Independence
+    📜 Constitution
+    🏛️ Democratic Institutions
+    📈 Economic Development
+    👨‍👩‍👧‍👦 Social Transformation
+    ⚙️ Governance Reforms
+    💻 Digital Transformation
+    🌏 Contemporary India
+```
+
 ## Nation Building Timeline
 
-```text
-Independence
-      ↓
-Constitution
-      ↓
-Democratic Institutions
-      ↓
-Economic Development
-      ↓
-Social Transformation
-      ↓
-Governance Reforms
-      ↓
-Digital Transformation
-      ↓
-Contemporary India
+```mermaid
+flowchart TD
+    A[🎉 Independence]
+    B[📜 Constitution]
+    C[🏛️ Democratic Institutions]
+    D[📈 Economic Development]
+    E[👨‍👩‍👧‍👦 Social Transformation]
+    F[⚙️ Governance Reforms]
+    G[💻 Digital Transformation]
+    H[🌏 Contemporary India]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
 ```
 
 ---
 
 ## Phase 1: Independence
 
-```text
-Freedom
-    ↓
-Transfer of Power
-    ↓
-Independent India
+```mermaid
+flowchart TD
+    A[✊ Freedom]
+    B[🤝 Transfer of Power]
+    C[🇮🇳 Independent India]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -63,12 +78,14 @@ Independent India
 
 ## Phase 2: Constitution
 
-```text
-Constituent Assembly
-         ↓
-Constitution Drafting
-         ↓
-Republic of India
+```mermaid
+flowchart TD
+    A[🏛️ Constituent Assembly]
+    B[📜 Constitution Drafting]
+    C[🇮🇳 Republic of India]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -81,14 +98,16 @@ Republic of India
 
 ## Phase 3: Democratic Institutions
 
-```text
-Constitution
-      ↓
-Parliament
-      ↓
-Executive
-      ↓
-Judiciary
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🏛️ Parliament]
+    C[⚙️ Executive]
+    D[⚖️ Judiciary]
+
+    A --> B
+    A --> C
+    A --> D
 ```
 
 ### Significance
@@ -100,12 +119,14 @@ Judiciary
 
 ## Phase 4: Economic Development
 
-```text
-Planning
-    ↓
-Development Programs
-    ↓
-Economic Growth
+```mermaid
+flowchart TD
+    A[📋 Planning]
+    B[🏗️ Development Programs]
+    C[📈 Economic Growth]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -117,12 +138,14 @@ Economic Growth
 
 ## Phase 5: Social Transformation
 
-```text
-Education
-     ↓
-Healthcare
-     ↓
-Social Development
+```mermaid
+flowchart TD
+    A[🎓 Education]
+    B[🏥 Healthcare]
+    C[👨‍👩‍👧‍👦 Social Development]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -134,12 +157,14 @@ Social Development
 
 ## Phase 6: Governance Reforms
 
-```text
-Administrative Reforms
-         ↓
-Public Service Improvements
-         ↓
-Governance Modernization
+```mermaid
+flowchart TD
+    A[🏢 Administrative Reforms]
+    B[❤️ Public Service Improvements]
+    C[⚙️ Governance Modernization]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -151,12 +176,14 @@ Governance Modernization
 
 ## Phase 7: Digital Transformation
 
-```text
-Technology Adoption
-        ↓
-Digital Governance
-        ↓
-Digital Public Infrastructure
+```mermaid
+flowchart TD
+    A[💻 Technology Adoption]
+    B[🌐 Digital Governance]
+    C[📱 Digital Public Infrastructure]
+
+    A --> B
+    B --> C
 ```
 
 ### Significance
@@ -169,20 +196,14 @@ Digital Public Infrastructure
 
 ## Quick Revision
 
-```text
-Independence
-      ↓
-Constitution
-      ↓
-Institutions
-      ↓
-Development
-      ↓
-Governance Reforms
-      ↓
-Digital Transformation
-      ↓
-Contemporary India
+```mermaid
+flowchart LR
+    A[🎉 Independence] --> B[📜 Constitution]
+    B --> C[🏛️ Institutions]
+    C --> D[📈 Development]
+    D --> E[⚙️ Reforms]
+    E --> F[💻 Digital Transformation]
+    F --> G[🌏 Contemporary India]
 ```
 
 ---

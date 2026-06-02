@@ -27,62 +27,63 @@ These diagrams are designed for:
 - Interview preparation and quick revision
 - Long-term conceptual understanding of India
 
+```mermaid
+mindmap
+  root((🇮🇳 Indian Politics & Governance))
+    📜 Constitution
+    🗳️ Elections
+    🏛️ Parliament
+    🏛️ Government
+    ⚖️ Judiciary
+    🏛️ Political Parties
+    ⚙️ Governance
+    📅 Timelines
+    👨‍👩‍👧‍👦 Citizens
+```
+
 ---
 
 ## How India Works
 
-### Visual Version (GitHub Mermaid)
-
 ```mermaid
 flowchart TD
-    A[History] --> B[Constitution]
-    B --> C[Elections]
-    C --> D[Political Parties]
-    D --> E[Parliament]
-    E --> F[Government]
-    F --> G[Governance]
-    G --> H[Judiciary Oversight]
-    H --> I[Citizens]
-```
+    A[🏺 History]
+    B[📜 Constitution]
+    C[🗳️ Elections]
+    D[🏛️ Political Parties]
+    E[🏛️ Parliament]
+    F[🏛️ Government]
+    G[⚙️ Governance]
+    H[⚖️ Judiciary Oversight]
+    I[👨‍👩‍👧‍👦 Citizens]
 
-```text
-History
-   ↓
-Constitution
-   ↓
-Elections
-   ↓
-Political Parties
-   ↓
-Parliament
-   ↓
-Government
-   ↓
-Governance
-   ↓
-Judiciary Oversight
-   ↓
-Citizens
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+    H --> I
 ```
 
 ---
 
 ## Progress Status
 
-```text
-Completed Sections
-├── Constitution
-├── Elections
-├── Governance
-├── Government Structure
-├── History
-├── Judiciary
-├── Parliament
-├── Political Parties
-└── Timelines
-
-Status
-└── Visual Learning System Complete
+```mermaid
+mindmap
+  root((📊 Visual Learning System))
+    ✅ Constitution
+    ✅ Elections
+    ✅ Governance
+    ✅ Government Structure
+    ✅ History
+    ✅ Judiciary
+    ✅ Parliament
+    ✅ Political Parties
+    ✅ Timelines
+    🎯 Core Governance Coverage Complete
 ```
 
 ---
@@ -107,44 +108,32 @@ Status
 
 ### Stage 1 — Every Citizen Must Know
 
-```text
-Constitution
-     ↓
-Elections
-     ↓
-Parliament
-     ↓
-Government Structure
-     ↓
-Judiciary
+```mermaid
+flowchart LR
+    A[📜 Constitution] --> B[🗳️ Elections]
+    B --> C[🏛️ Parliament]
+    C --> D[🏛️ Government Structure]
+    D --> E[⚖️ Judiciary]
 ```
 
 ### Stage 2 — Understand Governance
 
-```text
-Political Parties
-      ↓
-Government Formation
-      ↓
-Government Structure
-      ↓
-Governance
-      ↓
-Centre-State Relations
+```mermaid
+flowchart LR
+    A[🏛️ Political Parties] --> B[🏛️ Government Formation]
+    B --> C[🏛️ Government Structure]
+    C --> D[⚙️ Governance]
+    D --> E[🤝 Centre-State Relations]
 ```
 
 ### Stage 3 — Understand India's Journey
 
-```text
-History
-    ↓
-Nation Building
-    ↓
-Prime Ministers
-    ↓
-Economic Reforms
-    ↓
-Contemporary India
+```mermaid
+flowchart LR
+    A[🏺 History] --> B[🏗️ Nation Building]
+    B --> C[👤 Prime Ministers]
+    C --> D[📈 Economic Reforms]
+    D --> E[🇮🇳 Contemporary India]
 ```
 
 ---
@@ -201,18 +190,12 @@ After completing this section, a citizen should be able to explain:
 
 ## Quick Revision
 
-```text
-Constitution
-      ↓
-Elections
-      ↓
-Parliament
-      ↓
-Government Structure
-      ↓
-Governance
-      ↓
-Judiciary
-      ↓
-Citizens
+```mermaid
+flowchart LR
+    A[📜 Constitution] --> B[🗳️ Elections]
+    B --> C[🏛️ Parliament]
+    C --> D[🏛️ Government Structure]
+    D --> E[⚙️ Governance]
+    E --> F[⚖️ Judiciary]
+    F --> G[👨‍👩‍👧‍👦 Citizens]
 ```

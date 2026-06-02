@@ -18,6 +18,18 @@ Political party diagrams help:
 - Understand government-opposition dynamics
 - Improve revision speed
 
+```mermaid
+mindmap
+  root((🏛️ Political Parties))
+    👨‍👩‍👧‍👦 Citizens
+    🏛️ Political Parties
+    🗳️ Elections
+    🤝 Coalitions
+    🏛️ Government
+    👥 Opposition
+    ⚙️ Governance
+```
+
 ---
 
 ## Learning Priority Order
@@ -32,19 +44,18 @@ Political party diagrams help:
 
 ## Progress Status
 
-```text
-Completed
-├── Political Party Ecosystem
-├── Party to Government Journey
-├── Coalition Formation Model
-├── Government vs Opposition Framework
-└── National vs Regional Parties
-
-Next Recommended
-├── Internal Party Structure
-├── Candidate Selection Workflow
-├── Party Organization Model
-└── Election Campaign Framework
+```mermaid
+mindmap
+  root((🏛️ Political Party Diagrams))
+    ✅ Political Party Ecosystem
+    ✅ Party to Government Journey
+    ✅ Coalition Formation Model
+    ✅ Government vs Opposition Framework
+    ✅ National vs Regional Parties
+    🚀 Internal Party Structure
+    🚀 Candidate Selection Workflow
+    🚀 Party Organization Model
+    🚀 Election Campaign Framework
 ```
 
 ### P2
@@ -65,18 +76,20 @@ Next Recommended
 
 ## Recommended Diagram Structure
 
-```text
-Citizens
-    ↓
-Political Parties
-    ↓
-Elections
-    ↓
-Representation
-    ↓
-Government
-    ↓
-Governance
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🏛️ Political Parties]
+    C[🗳️ Elections]
+    D[👥 Representation]
+    E[🏛️ Government]
+    F[⚙️ Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
@@ -114,18 +127,13 @@ Governance
 
 ## Quick Revision
 
-```text
-Citizens
-    ↓
-Political Parties
-    ↓
-Elections
-    ↓
-Legislature
-    ↓
-Government
-    ↓
-Governance
+```mermaid
+flowchart LR
+    A[👨‍👩‍👧‍👦 Citizens] --> B[🏛️ Political Parties]
+    B --> C[🗳️ Elections]
+    C --> D[🏛️ Legislature]
+    D --> E[🏛️ Government]
+    E --> F[⚙️ Governance]
 ```
 
 ---

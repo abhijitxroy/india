@@ -20,46 +20,62 @@ Understanding this journey helps explain:
 - How public accountability is established
 - How elections connect citizens and institutions
 
+```mermaid
+mindmap
+  root((🗳️ Voter to Government))
+    👨‍👩‍👧‍👦 Citizen
+    📝 Registration
+    🗳️ Voting
+    🙋 Representation
+    🏛️ Legislature
+    ⚙️ Government
+    🌐 Governance
+```
+
 ---
 
 ## Complete Journey
 
-```text
-Citizen
-    ↓
-Voter Registration
-    ↓
-Eligible Voter
-    ↓
-Vote
-    ↓
-Election Result
-    ↓
-Representative
-    ↓
-Legislature
-    ↓
-Government Formation
-    ↓
-Public Policy
-    ↓
-Governance
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizen]
+    B[📝 Voter Registration]
+    C[✅ Eligible Voter]
+    D[🗳️ Vote]
+    E[📊 Election Result]
+    F[🙋 Representative]
+    G[🏛️ Legislature]
+    H[🤝 Government Formation]
+    I[📜 Public Policy]
+    J[🌐 Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+    H --> I
+    I --> J
 ```
 
 ---
 
 ## Stage 1: Citizen to Voter
 
-```text
-Citizen
-    ↓
-Eligibility
-    ↓
-Voter Registration
-    ↓
-Electoral Roll
-    ↓
-Eligible Voter
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizen]
+    B[✅ Eligibility]
+    C[📝 Voter Registration]
+    D[📋 Electoral Roll]
+    E[🗳️ Eligible Voter]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Outcome
@@ -71,18 +87,20 @@ Eligible Voter
 
 ## Stage 2: Voter to Representative
 
-```text
-Voter
-    ↓
-Election
-    ↓
-Vote Casting
-    ↓
-Counting
-    ↓
-Election Result
-    ↓
-Representative
+```mermaid
+flowchart TD
+    A[🗳️ Voter]
+    B[🗳️ Election]
+    C[☑️ Vote Casting]
+    D[📊 Counting]
+    E[🏆 Election Result]
+    F[🙋 Representative]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ### Outcome
@@ -94,14 +112,16 @@ Representative
 
 ## Stage 3: Representative to Legislature
 
-```text
-Representative
-       ↓
-Lok Sabha / Assembly
-       ↓
-Legislature
-       ↓
-Law Making
+```mermaid
+flowchart TD
+    A[🙋 Representative]
+    B[🏛️ Lok Sabha / Assembly]
+    C[🏛️ Legislature]
+    D[📜 Law Making]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -113,14 +133,16 @@ Law Making
 
 ## Stage 4: Legislature to Government
 
-```text
-Legislative Majority
-         ↓
-Government Formation
-         ↓
-Executive Authority
-         ↓
-Council of Ministers
+```mermaid
+flowchart TD
+    A[👑 Legislative Majority]
+    B[🤝 Government Formation]
+    C[⚙️ Executive Authority]
+    D[👥 Council of Ministers]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -132,16 +154,18 @@ Council of Ministers
 
 ## Stage 5: Government to Governance
 
-```text
-Government
-      ↓
-Public Policy
-      ↓
-Administration
-      ↓
-Service Delivery
-      ↓
-Development Outcomes
+```mermaid
+flowchart TD
+    A[⚙️ Government]
+    B[📜 Public Policy]
+    C[🏢 Administration]
+    D[❤️ Service Delivery]
+    E[📈 Development Outcomes]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Outcome
@@ -153,36 +177,33 @@ Development Outcomes
 
 ## Accountability Loop
 
-```text
-Citizens
-     ↓
-Vote
-     ↓
-Government
-     ↓
-Governance Outcomes
-     ↓
-Public Evaluation
-     ↓
-Next Election
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Vote]
+    C[⚙️ Government]
+    D[🌐 Governance Outcomes]
+    E[📊 Public Evaluation]
+    F[🗳️ Next Election]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Citizen
-   ↓
-Vote
-   ↓
-Representative
-   ↓
-Legislature
-   ↓
-Government
-   ↓
-Governance
+```mermaid
+flowchart LR
+    A[👨‍👩‍👧‍👦 Citizen] --> B[🗳️ Vote]
+    B --> C[🙋 Representative]
+    C --> D[🏛️ Legislature]
+    D --> E[⚙️ Government]
+    E --> F[🌐 Governance]
 ```
 
 ---

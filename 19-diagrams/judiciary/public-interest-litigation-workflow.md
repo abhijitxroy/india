@@ -1,5 +1,3 @@
-
-
 # Public Interest Litigation Workflow
 
 ## Overview
@@ -22,34 +20,52 @@ Understanding PIL helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((⚖️ Public Interest Litigation))
+    👨‍👩‍👧‍👦 Citizens
+    📢 Public Issues
+    📄 Petition
+    ⚖️ Court Review
+    🏛️ Judicial Intervention
+    📜 Orders
+    🌍 Public Impact
+```
+
+---
+
 ## Public Interest Litigation Workflow
 
-```text
-Public Issue
-      ↓
-Petition
-      ↓
-Court Admission
-      ↓
-Judicial Examination
-      ↓
-Directions / Orders
-      ↓
-Public Impact
+```mermaid
+flowchart TD
+    A[📢 Public Issue]
+    B[📄 Petition]
+    C[⚖️ Court Admission]
+    D[🔍 Judicial Examination]
+    E[📜 Directions / Orders]
+    F[🌍 Public Impact]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Public Concern Framework
 
-```text
-Citizens
-    ↓
-Public Problem
-    ↓
-Public Interest
-    ↓
-Legal Action
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[⚠️ Public Problem]
+    C[🤝 Public Interest]
+    D[⚖️ Legal Action]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -62,14 +78,16 @@ Legal Action
 
 ## PIL Filing Process
 
-```text
-Issue Identified
-        ↓
-Petition Filed
-        ↓
-Court Review
-        ↓
-Admission Decision
+```mermaid
+flowchart TD
+    A[🔍 Issue Identified]
+    B[📄 Petition Filed]
+    C[⚖️ Court Review]
+    D[✅ Admission Decision]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -82,14 +100,16 @@ Admission Decision
 
 ## Judicial Examination Framework
 
-```text
-Petition
-    ↓
-Evidence & Arguments
-    ↓
-Judicial Review
-    ↓
-Decision
+```mermaid
+flowchart TD
+    A[📄 Petition]
+    B[📑 Evidence & Arguments]
+    C[⚖️ Judicial Review]
+    D[📜 Decision]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -102,14 +122,16 @@ Decision
 
 ## Constitutional Protection Model
 
-```text
-Constitution
-      ↓
-Fundamental Rights
-      ↓
-Judiciary
-      ↓
-Public Interest Litigation
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🛡️ Fundamental Rights]
+    C[⚖️ Judiciary]
+    D[📢 Public Interest Litigation]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -122,14 +144,16 @@ Public Interest Litigation
 
 ## Public Impact Framework
 
-```text
-Court Order
-      ↓
-Government Action
-      ↓
-Implementation
-      ↓
-Public Benefit
+```mermaid
+flowchart TD
+    A[📜 Court Order]
+    B[🏛️ Government Action]
+    C[⚙️ Implementation]
+    D[🌍 Public Benefit]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -142,32 +166,30 @@ Public Benefit
 
 ## Citizen Justice Framework
 
-```text
-Citizens
-    ↓
-Public Interest Issue
-    ↓
-PIL
-    ↓
-Court Intervention
-    ↓
-Relief / Reform
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[📢 Public Interest Issue]
+    C[⚖️ PIL]
+    D[🏛️ Court Intervention]
+    E[✅ Relief / Reform]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Public Issue
-      ↓
-PIL
-      ↓
-Court Review
-      ↓
-Order
-      ↓
-Public Impact
+```mermaid
+flowchart LR
+    A[📢 Public Issue] --> B[⚖️ PIL]
+    B --> C[🔍 Court Review]
+    C --> D[📜 Order]
+    D --> E[🌍 Public Impact]
 ```
 
 ---

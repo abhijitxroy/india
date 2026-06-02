@@ -1,5 +1,3 @@
-
-
 # Party to Government Journey
 
 ## Overview
@@ -22,34 +20,52 @@ Understanding the party-to-government journey helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((🏛️ Party to Government))
+    👨‍👩‍👧‍👦 Citizens
+    🏛️ Political Parties
+    📢 Campaigns
+    🗳️ Elections
+    👥 Representation
+    🏛️ Government Formation
+    ⚙️ Governance
+```
+
+---
+
 ## Complete Journey
 
-```text
-Citizens
-    ↓
-Political Parties
-    ↓
-Election Campaign
-    ↓
-Election
-    ↓
-Legislative Representation
-    ↓
-Government Formation
-    ↓
-Governance
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🏛️ Political Parties]
+    C[📢 Election Campaign]
+    D[🗳️ Election]
+    E[👥 Legislative Representation]
+    F[🏛️ Government Formation]
+    G[⚙️ Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 ---
 
 ## Stage 1: Political Organization
 
-```text
-Citizens
-    ↓
-Political Participation
-    ↓
-Political Parties
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🤝 Political Participation]
+    C[🏛️ Political Parties]
+
+    A --> B
+    B --> C
 ```
 
 ### Outcome
@@ -61,14 +77,16 @@ Political Parties
 
 ## Stage 2: Electoral Competition
 
-```text
-Political Parties
-        ↓
-Candidates
-        ↓
-Election Campaign
-        ↓
-Voters
+```mermaid
+flowchart TD
+    A[🏛️ Political Parties]
+    B[🧑 Candidates]
+    C[📢 Election Campaign]
+    D[🗳️ Voters]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -80,14 +98,16 @@ Voters
 
 ## Stage 3: Election Results
 
-```text
-Voting
-   ↓
-Counting
-   ↓
-Results
-   ↓
-Legislative Seats
+```mermaid
+flowchart TD
+    A[🗳️ Voting]
+    B[📊 Counting]
+    C[📋 Results]
+    D[👥 Legislative Seats]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -99,14 +119,16 @@ Legislative Seats
 
 ## Stage 4: Government Formation
 
-```text
-Legislative Majority
-         ↓
-Government Formation
-         ↓
-Executive Leadership
-         ↓
-Council of Ministers
+```mermaid
+flowchart TD
+    A[📈 Legislative Majority]
+    B[🏛️ Government Formation]
+    C[👤 Executive Leadership]
+    D[👥 Council of Ministers]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Outcome
@@ -118,16 +140,18 @@ Council of Ministers
 
 ## Stage 5: Governance
 
-```text
-Government
-      ↓
-Public Policy
-      ↓
-Administration
-      ↓
-Service Delivery
-      ↓
-Citizens
+```mermaid
+flowchart TD
+    A[🏛️ Government]
+    B[📜 Public Policy]
+    C[⚙️ Administration]
+    D[🚚 Service Delivery]
+    E[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Outcome
@@ -139,34 +163,32 @@ Citizens
 
 ## Accountability Cycle
 
-```text
-Citizens
-     ↓
-Election
-     ↓
-Government
-     ↓
-Governance Outcomes
-     ↓
-Public Evaluation
-     ↓
-Next Election
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Election]
+    C[🏛️ Government]
+    D[📈 Governance Outcomes]
+    E[📊 Public Evaluation]
+    F[🗳️ Next Election]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Political Party
-       ↓
-Election
-       ↓
-Representation
-       ↓
-Government
-       ↓
-Governance
+```mermaid
+flowchart LR
+    A[🏛️ Political Party] --> B[🗳️ Election]
+    B --> C[👥 Representation]
+    C --> D[🏛️ Government]
+    D --> E[⚙️ Governance]
 ```
 
 ---

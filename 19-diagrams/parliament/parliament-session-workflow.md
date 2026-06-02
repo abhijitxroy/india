@@ -20,34 +20,51 @@ Understanding Parliament sessions helps explain:
 - How national issues are debated
 - How democratic oversight operates
 
+```mermaid
+mindmap
+  root((🏛️ Parliament Session))
+    📅 Session Begins
+    📋 Agenda
+    ❓ Question Hour
+    💬 Debates
+    📜 Bills
+    🗳️ Voting
+    ⚖️ Oversight
+    🔚 Adjournment
+```
+
 ---
 
 ## Parliament Session Workflow
 
-```text
-Session Convened
-        ↓
-Agenda & Business
-        ↓
-Debates & Discussions
-        ↓
-Questions & Oversight
-        ↓
-Legislative Business
-        ↓
-Adjournment
+```mermaid
+flowchart TD
+    A[📅 Session Convened]
+    B[📋 Agenda & Business]
+    C[💬 Debates & Discussions]
+    D[❓ Questions & Oversight]
+    E[📜 Legislative Business]
+    F[🔚 Adjournment]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Session Commencement Framework
 
-```text
-Parliament
-      ↓
-Session Begins
-      ↓
-Scheduled Business
+```mermaid
+flowchart TD
+    A[🏛️ Parliament]
+    B[📅 Session Begins]
+    C[📋 Scheduled Business]
+
+    A --> B
+    B --> C
 ```
 
 ### Purpose
@@ -60,14 +77,16 @@ Scheduled Business
 
 ## Parliamentary Business Model
 
-```text
-Questions
-    ↓
-Debates
-    ↓
-Bills
-    ↓
-Voting
+```mermaid
+flowchart TD
+    A[❓ Questions]
+    B[💬 Debates]
+    C[📜 Bills]
+    D[🗳️ Voting]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -80,14 +99,16 @@ Voting
 
 ## Legislative Workflow
 
-```text
-Bill Introduction
-        ↓
-Discussion
-        ↓
-Examination
-        ↓
-Voting
+```mermaid
+flowchart TD
+    A[📜 Bill Introduction]
+    B[💬 Discussion]
+    C[🔍 Examination]
+    D[🗳️ Voting]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -100,14 +121,16 @@ Voting
 
 ## Government Accountability Framework
 
-```text
-Government
-     ↓
-Parliament Questions
-     ↓
-Responses
-     ↓
-Accountability
+```mermaid
+flowchart TD
+    A[⚙️ Government]
+    B[❓ Parliament Questions]
+    C[📝 Responses]
+    D[⚖️ Accountability]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -120,14 +143,16 @@ Accountability
 
 ## Debate and Deliberation Model
 
-```text
-National Issues
-       ↓
-Parliament Debate
-       ↓
-Policy Discussion
-       ↓
-Public Record
+```mermaid
+flowchart TD
+    A[🇮🇳 National Issues]
+    B[🏛️ Parliament Debate]
+    C[📋 Policy Discussion]
+    D[📖 Public Record]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -140,34 +165,31 @@ Public Record
 
 ## Democratic Governance Framework
 
-```text
-Citizens
-    ↓
-Representatives
-    ↓
-Parliament Session
-    ↓
-Legislation & Oversight
-    ↓
-Governance
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Representatives]
+    C[🏛️ Parliament Session]
+    D[📜 Legislation & Oversight]
+    E[🌐 Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Session Begins
-       ↓
-Questions
-       ↓
-Debates
-       ↓
-Bills
-       ↓
-Voting
-       ↓
-Adjournment
+```mermaid
+flowchart LR
+    A[📅 Session Begins] --> B[❓ Questions]
+    B --> C[💬 Debates]
+    C --> D[📜 Bills]
+    D --> E[🗳️ Voting]
+    E --> F[🔚 Adjournment]
 ```
 
 ---
