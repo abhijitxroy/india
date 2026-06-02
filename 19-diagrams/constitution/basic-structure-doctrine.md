@@ -1,5 +1,3 @@
-
-
 # Basic Structure Doctrine
 
 ## Overview
@@ -24,30 +22,34 @@ Understanding the Basic Structure Doctrine helps explain:
 
 ## Basic Structure Doctrine Framework
 
-```text
-Constitution
-      ↓
-Parliament
-      ↓
-Amendment Power
-      ↓
-Basic Structure Test
-      ↓
-Constitutional Validity
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🏛️ Parliament]
+    C[✏️ Amendment Power]
+    D[⚖️ Basic Structure Test]
+    E[✅ Constitutional Validity]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Constitutional Amendment Process
 
-```text
-Need for Change
-        ↓
-Parliament
-        ↓
-Constitutional Amendment
-        ↓
-Judicial Review
+```mermaid
+flowchart TD
+    A[🔄 Need for Change]
+    B[🏛️ Parliament]
+    C[📜 Constitutional Amendment]
+    D[⚖️ Judicial Review]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -60,14 +62,16 @@ Judicial Review
 
 ## Balance of Powers Model
 
-```text
-Parliament
-      ↓
-Amend Constitution
-      ↓
-Cannot Destroy
-      ↓
-Basic Structure
+```mermaid
+flowchart TD
+    A[🏛️ Parliament]
+    B[✏️ Amend Constitution]
+    C[🚫 Cannot Destroy]
+    D[🏛️ Basic Structure]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -80,14 +84,16 @@ Basic Structure
 
 ## Judicial Safeguard Framework
 
-```text
-Constitutional Amendment
-          ↓
-Judicial Examination
-          ↓
-Basic Structure Test
-          ↓
-Valid / Invalid
+```mermaid
+flowchart TD
+    A[📜 Constitutional Amendment]
+    B[⚖️ Judicial Examination]
+    C[🏛️ Basic Structure Test]
+    D[✅ Valid / ❌ Invalid]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -100,18 +106,20 @@ Valid / Invalid
 
 ## Core Constitutional Values
 
-```text
-Constitution
-      ↓
-Democracy
-      ↓
-Rule of Law
-      ↓
-Judicial Independence
-      ↓
-Federalism
-      ↓
-Rights & Liberties
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🗳️ Democracy]
+    C[⚖️ Rule of Law]
+    D[🏛️ Judicial Independence]
+    E[🤝 Federalism]
+    F[🛡️ Rights & Liberties]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ### Significance
@@ -124,30 +132,28 @@ Rights & Liberties
 
 ## Constitutional Protection Model
 
-```text
-Citizens
-    ↓
-Constitution
-    ↓
-Institutions
-    ↓
-Judicial Protection
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[📜 Constitution]
+    C[🏛️ Institutions]
+    D[⚖️ Judicial Protection]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Constitution
-      ↓
-Amendment Power
-      ↓
-Basic Structure
-      ↓
-Judicial Review
-      ↓
-Constitutional Protection
+```mermaid
+flowchart LR
+    A[📜 Constitution] --> B[✏️ Amendment Power]
+    B --> C[🏛️ Basic Structure]
+    C --> D[⚖️ Judicial Review]
+    D --> E[🛡️ Constitutional Protection]
 ```
 
 ---

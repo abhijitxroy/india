@@ -14,20 +14,22 @@ The Constitution is the foundation of modern India.
 
 Every major institution operates within the constitutional framework:
 
-```text
-Constitution
-      ↓
-Citizens
-      ↓
-Elections
-      ↓
-Parliament
-      ↓
-Government
-      ↓
-Governance
-      ↓
-Judiciary
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[👨‍👩‍👧‍👦 Citizens]
+    C[🗳️ Elections]
+    D[🏛️ Parliament]
+    E[⚙️ Government]
+    F[🌐 Governance]
+    G[⚖️ Judiciary]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 ```
 
 Understanding the Constitution helps explain:
@@ -57,34 +59,34 @@ Understanding the Constitution helps explain:
 
 ## Progress Status
 
-```text
-Completed
-├── Fundamental Rights Framework
-├── Directive Principles Framework
-├── Constitutional Governance Model
-├── Constitution Amendment Process
-└── Basic Structure Doctrine
-
-Status
-└── Constitution Section Complete
+```mermaid
+mindmap
+  root((📜 Constitution))
+    🛡️ Fundamental Rights
+    🎯 Directive Principles
+    🌐 Governance Model
+    ✏️ Amendment Process
+    ⚖️ Basic Structure Doctrine
 ```
 
 ---
 
 ## Citizen Learning Path
 
-```text
-Constitution
-      ↓
-Rights
-      ↓
-Representation
-      ↓
-Government
-      ↓
-Governance
-      ↓
-Judicial Protection
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🛡️ Rights]
+    C[🗳️ Representation]
+    D[🏛️ Government]
+    E[🌐 Governance]
+    F[⚖️ Judicial Protection]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
@@ -137,18 +139,13 @@ The goal is to understand:
 
 ## Quick Revision
 
-```text
-Constitution
-      ↓
-Rights
-      ↓
-Institutions
-      ↓
-Governance
-      ↓
-Judiciary
-      ↓
-Citizen Protection
+```mermaid
+flowchart LR
+    A[📜 Constitution] --> B[🛡️ Rights]
+    B --> C[🏛️ Institutions]
+    C --> D[🌐 Governance]
+    D --> E[⚖️ Judiciary]
+    E --> F[👨‍👩‍👧‍👦 Citizen Protection]
 ```
 
 ---

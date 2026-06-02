@@ -20,32 +20,50 @@ Understanding Directive Principles helps explain:
 
 ---
 
+```mermaid
+mindmap
+  root((🎯 DPSP))
+    Social Justice
+    Economic Welfare
+    Public Health
+    Education
+    Equal Opportunity
+    Rural Development
+    Citizen Welfare
+```
+
+---
+
 ## Directive Principles Framework
 
-```text
-Constitution
-      ↓
-Directive Principles
-      ↓
-Public Policy
-      ↓
-Government Action
-      ↓
-Citizen Welfare
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🎯 Directive Principles]
+    C[📋 Public Policy]
+    D[🏛️ Government Action]
+    E[👨‍👩‍👧‍👦 Citizen Welfare]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Governance Vision Model
 
-```text
-Constitution
-      ↓
-Social Justice
-      ↓
-Economic Justice
-      ↓
-Political Justice
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🤝 Social Justice]
+    C[📈 Economic Justice]
+    D[🗳️ Political Justice]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -58,14 +76,16 @@ Political Justice
 
 ## Policy Guidance Framework
 
-```text
-Directive Principles
-          ↓
-Government Policies
-          ↓
-Programs & Reforms
-          ↓
-Public Welfare
+```mermaid
+flowchart TD
+    A[🎯 Directive Principles]
+    B[📋 Government Policies]
+    C[⚙️ Programs & Reforms]
+    D[❤️ Public Welfare]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -78,16 +98,18 @@ Public Welfare
 
 ## Welfare State Framework
 
-```text
-Government
-      ↓
-Public Welfare
-      ↓
-Education
-      ↓
-Healthcare
-      ↓
-Social Development
+```mermaid
+flowchart TD
+    A[🏛️ Government]
+    B[❤️ Public Welfare]
+    C[🎓 Education]
+    D[🏥 Healthcare]
+    E[👨‍👩‍👧‍👦 Social Development]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Purpose
@@ -100,14 +122,10 @@ Social Development
 
 ## Rights and Principles Relationship
 
-```text
-Fundamental Rights
-          ↓
-Protect Citizens
-
-Directive Principles
-          ↓
-Guide Governments
+```mermaid
+flowchart LR
+    A[🛡️ Fundamental Rights] --> B[👨‍👩‍👧‍👦 Protect Citizens]
+    C[🎯 Directive Principles] --> D[🏛️ Guide Governments]
 ```
 
 ### Significance
@@ -120,32 +138,30 @@ Guide Governments
 
 ## Constitutional Development Model
 
-```text
-Constitution
-      ↓
-Directive Principles
-      ↓
-Governance
-      ↓
-Development
-      ↓
-Citizen Welfare
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🎯 Directive Principles]
+    C[🌐 Governance]
+    D[📈 Development]
+    E[👨‍👩‍👧‍👦 Citizen Welfare]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Constitution
-      ↓
-Directive Principles
-      ↓
-Public Policy
-      ↓
-Development
-      ↓
-Citizen Welfare
+```mermaid
+flowchart LR
+    A[📜 Constitution] --> B[🎯 Directive Principles]
+    B --> C[📋 Public Policy]
+    C --> D[📈 Development]
+    D --> E[👨‍👩‍👧‍👦 Citizen Welfare]
 ```
 
 ---

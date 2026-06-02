@@ -24,30 +24,34 @@ Understanding the amendment process helps explain:
 
 ## Constitution Amendment Process
 
-```text
-Need for Change
-        ↓
-Constitution Amendment Proposal
-        ↓
-Parliament
-        ↓
-Approval Process
-        ↓
-Constitutional Amendment
-        ↓
-Implementation
+```mermaid
+flowchart TD
+    A[🔄 Need for Change]
+    B[📜 Amendment Proposal]
+    C[🏛️ Parliament]
+    D[✅ Approval Process]
+    E[✏️ Constitutional Amendment]
+    F[⚙️ Implementation]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Amendment Initiation Framework
 
-```text
-Governance Need
-        ↓
-Constitutional Change Proposal
-        ↓
-Parliamentary Consideration
+```mermaid
+flowchart TD
+    A[🏛️ Governance Need]
+    B[📜 Constitutional Change Proposal]
+    C[🗣️ Parliamentary Consideration]
+
+    A --> B
+    B --> C
 ```
 
 ### Purpose
@@ -60,14 +64,16 @@ Parliamentary Consideration
 
 ## Parliamentary Approval Model
 
-```text
-Amendment Proposal
-         ↓
-Parliament
-         ↓
-Debate & Deliberation
-         ↓
-Approval
+```mermaid
+flowchart TD
+    A[📜 Amendment Proposal]
+    B[🏛️ Parliament]
+    C[💬 Debate & Deliberation]
+    D[✅ Approval]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -80,14 +86,16 @@ Approval
 
 ## Federal Participation Framework
 
-```text
-Constitutional Amendment
-          ↓
-Parliament
-          ↓
-States (where applicable)
-          ↓
-Constitutional Change
+```mermaid
+flowchart TD
+    A[📜 Constitutional Amendment]
+    B[🏛️ Parliament]
+    C[🤝 States<br/>where applicable]
+    D[✅ Constitutional Change]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -100,14 +108,16 @@ Constitutional Change
 
 ## Constitutional Safeguard Model
 
-```text
-Amendment
-    ↓
-Basic Structure Test
-    ↓
-Judicial Review
-    ↓
-Constitutional Validity
+```mermaid
+flowchart TD
+    A[✏️ Amendment]
+    B[🏛️ Basic Structure Test]
+    C[⚖️ Judicial Review]
+    D[✅ Constitutional Validity]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -120,30 +130,23 @@ Constitutional Validity
 
 ## Constitutional Evolution Framework
 
-```text
-Constitution
-      ↓
-Amendment
-      ↓
-Adaptation
-      ↓
-Continuity
+```mermaid
+flowchart LR
+    A[📜 Constitution] --> B[✏️ Amendment]
+    B --> C[🔄 Adaptation]
+    C --> D[♾️ Continuity]
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Need for Change
-        ↓
-Parliament
-        ↓
-Amendment
-        ↓
-Judicial Review
-        ↓
-Constitutional Continuity
+```mermaid
+flowchart LR
+    A[🔄 Need for Change] --> B[🏛️ Parliament]
+    B --> C[✏️ Amendment]
+    C --> D[⚖️ Judicial Review]
+    D --> E[♾️ Constitutional Continuity]
 ```
 
 ---

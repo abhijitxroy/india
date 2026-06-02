@@ -22,36 +22,37 @@ Understanding constitutional governance helps explain:
 
 ## Constitutional Governance Model
 
-```text
-Constitution
-      ↓
-Legislature
-      ↓
-Executive
-      ↓
-Administration
-      ↓
-Citizens
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🏛️ Legislature]
+    C[⚙️ Executive]
+    D[🏢 Administration]
+    E[👨‍👩‍👧‍👦 Citizens]
 
-Constitution
-      ↓
-Judiciary
-      ↓
-Constitutional Protection
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+
+    A --> F[⚖️ Judiciary]
+    F --> G[🛡️ Constitutional Protection]
 ```
 
 ---
 
 ## Constitutional Foundation
 
-```text
-Constitution
-      ↓
-Powers
-      ↓
-Institutions
-      ↓
-Governance
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[⚡ Powers]
+    C[🏛️ Institutions]
+    D[🌐 Governance]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -64,20 +65,18 @@ Governance
 
 ## Separation of Powers Framework
 
-```text
-Constitution
-      ↓
-Legislature
-      ↓
-Law Making
+```mermaid
+flowchart LR
+    A[📜 Constitution]
 
-Executive
-      ↓
-Implementation
+    A --> B[🏛️ Legislature]
+    B --> C[📜 Law Making]
 
-Judiciary
-      ↓
-Interpretation
+    A --> D[⚙️ Executive]
+    D --> E[🚀 Implementation]
+
+    A --> F[⚖️ Judiciary]
+    F --> G[🔍 Interpretation]
 ```
 
 ### Purpose
@@ -90,16 +89,18 @@ Interpretation
 
 ## Citizen Governance Connection
 
-```text
-Citizens
-    ↓
-Elections
-    ↓
-Representatives
-    ↓
-Government
-    ↓
-Governance
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🗳️ Elections]
+    C[🙋 Representatives]
+    D[🏛️ Government]
+    E[🌐 Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Significance
@@ -112,14 +113,16 @@ Governance
 
 ## Constitutional Accountability Model
 
-```text
-Constitution
-      ↓
-Institutions
-      ↓
-Checks & Balances
-      ↓
-Accountability
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🏛️ Institutions]
+    C[⚖️ Checks & Balances]
+    D[✅ Accountability]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -132,14 +135,16 @@ Accountability
 
 ## Rights Protection Framework
 
-```text
-Citizens
-    ↓
-Fundamental Rights
-    ↓
-Judiciary
-    ↓
-Constitutional Protection
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🛡️ Fundamental Rights]
+    C[⚖️ Judiciary]
+    D[✅ Constitutional Protection]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -152,34 +157,32 @@ Constitutional Protection
 
 ## Governance Cycle
 
-```text
-Constitution
-      ↓
-Institutions
-      ↓
-Governance
-      ↓
-Citizens
-      ↓
-Elections
-      ↓
-Renewed Mandate
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🏛️ Institutions]
+    C[🌐 Governance]
+    D[👨‍👩‍👧‍👦 Citizens]
+    E[🗳️ Elections]
+    F[🔄 Renewed Mandate]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Constitution
-      ↓
-Legislature
-      ↓
-Executive
-      ↓
-Judiciary
-      ↓
-Citizens
+```mermaid
+flowchart LR
+    A[📜 Constitution] --> B[🏛️ Legislature]
+    B --> C[⚙️ Executive]
+    C --> D[⚖️ Judiciary]
+    D --> E[👨‍👩‍👧‍👦 Citizens]
 ```
 
 ---

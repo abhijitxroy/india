@@ -18,32 +18,47 @@ Understanding Fundamental Rights helps explain:
 - How citizens can challenge violations of rights
 - How the Constitution protects individuals
 
+```mermaid
+mindmap
+  root((🛡️ Fundamental Rights))
+    Equality
+    Freedom
+    Protection from Exploitation
+    Freedom of Religion
+    Cultural & Educational Rights
+    Constitutional Remedies
+```
+
 ---
 
 ## Fundamental Rights Framework
 
-```text
-Constitution
-      ↓
-Fundamental Rights
-      ↓
-Citizens
-      ↓
-Constitutional Protection
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🛡️ Fundamental Rights]
+    C[👨‍👩‍👧‍👦 Citizens]
+    D[⚖️ Constitutional Protection]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ---
 
 ## Rights Protection Model
 
-```text
-Citizens
-    ↓
-Fundamental Rights
-    ↓
-Legal Protection
-    ↓
-Rule of Law
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🛡️ Fundamental Rights]
+    C[⚖️ Legal Protection]
+    D[🏛️ Rule of Law]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -56,14 +71,16 @@ Rule of Law
 
 ## Equality Framework
 
-```text
-Constitution
-      ↓
-Equality Before Law
-      ↓
-Equal Protection
-      ↓
-Citizens
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[⚖️ Equality Before Law]
+    C[🤝 Equal Protection]
+    D[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -76,14 +93,16 @@ Citizens
 
 ## Freedom Framework
 
-```text
-Citizens
-    ↓
-Freedoms
-    ↓
-Participation
-    ↓
-Democracy
+```mermaid
+flowchart TD
+    A[👨‍👩‍👧‍👦 Citizens]
+    B[🕊️ Freedoms]
+    C[🗳️ Participation]
+    D[🏛️ Democracy]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -96,14 +115,16 @@ Democracy
 
 ## Constitutional Remedy Framework
 
-```text
-Rights Violation
-        ↓
-Judiciary
-        ↓
-Constitutional Remedy
-        ↓
-Rights Protection
+```mermaid
+flowchart TD
+    A[❌ Rights Violation]
+    B[⚖️ Judiciary]
+    C[📜 Constitutional Remedy]
+    D[🛡️ Rights Protection]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Purpose
@@ -116,14 +137,16 @@ Rights Protection
 
 ## Rights and Governance Relationship
 
-```text
-Fundamental Rights
-          ↓
-Citizen Protection
-          ↓
-Accountable Governance
-          ↓
-Democratic Stability
+```mermaid
+flowchart TD
+    A[🛡️ Fundamental Rights]
+    B[👨‍👩‍👧‍👦 Citizen Protection]
+    C[✅ Accountable Governance]
+    D[🏛️ Democratic Stability]
+
+    A --> B
+    B --> C
+    C --> D
 ```
 
 ### Significance
@@ -136,32 +159,30 @@ Democratic Stability
 
 ## Citizen Protection Cycle
 
-```text
-Constitution
-      ↓
-Rights
-      ↓
-Protection
-      ↓
-Judiciary
-      ↓
-Citizens
+```mermaid
+flowchart TD
+    A[📜 Constitution]
+    B[🛡️ Rights]
+    C[⚖️ Protection]
+    D[🏛️ Judiciary]
+    E[👨‍👩‍👧‍👦 Citizens]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ---
 
 ## Quick Revision
 
-```text
-Constitution
-      ↓
-Fundamental Rights
-      ↓
-Citizens
-      ↓
-Judiciary
-      ↓
-Protection
+```mermaid
+flowchart LR
+    A[📜 Constitution] --> B[🛡️ Fundamental Rights]
+    B --> C[👨‍👩‍👧‍👦 Citizens]
+    C --> D[⚖️ Judiciary]
+    D --> E[🛡️ Protection]
 ```
 
 ---
