@@ -4,6 +4,73 @@ All notable changes to this repository will be documented in this file.
 
 ---
 
+# v1.25.0 - Defence & National Security Expansion
+
+Release Date: 2026-06-03
+
+## Added
+
+### Military History
+
+Completed military history coverage including:
+
+- Major India-Pakistan Wars
+- Sino-Indian War (1962)
+- Kargil War (1999)
+- Surgical Strikes (2016)
+- Balakot Air Strike (2019)
+- Operation Sindoor
+- Strategic military lessons
+- Military history learning framework
+
+### Missile & Space Defence
+
+Completed strategic defence coverage for:
+
+- Missile classifications
+- Strategic missile systems
+- Ballistic missile defence
+- Air defence systems
+- Nuclear deterrence framework
+- Strategic Forces Command
+- Space security concepts
+- Missile defence architecture
+
+### Paramilitary Forces
+
+Completed coverage for:
+
+- CRPF
+- BSF
+- ITBP
+- SSB
+- CISF
+- Assam Rifles
+- NSG
+- RAF
+- CoBRA
+- Indian Coast Guard
+
+### Defence Organisations & Agencies
+
+Completed defence governance coverage for:
+
+- Ministry of Defence
+- Chief of Defence Staff (CDS)
+- Department of Military Affairs (DMA)
+- Integrated Defence Staff (IDS)
+- DRDO
+- Defence Acquisition Council (DAC)
+- Defence Space Agency
+- Defence Cyber Agency
+- Armed Forces Special Operations Division (AFSOD)
+
+### Defence Budget & Modernisation
+
+Completed modernization and defence
+
+---
+
 # v1.24.0 - Governance Case Studies
 
 Release Date: 2026-06-02
@@ -66,7 +133,7 @@ Crisis Governance
 
 ## Updated
 
-- 23-governance-case-studies README
+- 24-governance-case-studies README
 - Root README
 - TODO roadmap
 
@@ -190,7 +257,7 @@ Performance Evaluation
 
 ## Updated
 
-- 22-governments-performance-tracking README
+- 23-governments-performance-tracking README
 - Root README
 - TODO roadmap
 
@@ -253,7 +320,7 @@ Public Policy
 
 ## Updated
 
-- 20-reference-material README
+- 21-reference-material README
 - Root README
 - TODO roadmap
 
@@ -359,7 +426,7 @@ Completed citizen-first visual learning coverage for:
 
 ### Repository Enhancements
 
-- 19-diagrams README synchronized
+- 20-diagrams README synchronized
 - Root README enhanced with learning paths
 - Citizen learning journey framework added
 - Visual learning navigation improved
@@ -389,7 +456,7 @@ Citizens
 ## Updated
 
 - Root README
-- 19-diagrams README
+- 20-diagrams README
 - Constitution README
 - Government Structure README
 - Parliament README

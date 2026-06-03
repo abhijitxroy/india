@@ -287,12 +287,26 @@ Status: Planned
 
 ### Foreign Policy & Defence
 
-- Add Foreign Policy & Defence README
+Current Status:
+
+```text
+Foreign Policy Foundation           Partial
+Military History                    ✅
+Missile & Space Defence             ✅
+Paramilitary Forces                 ✅
+Defence Organisations & Agencies    ✅
+Defence Budget & Modernisation      ✅
+Defence Timelines                   ✅
+National Security Foundation        ✅
+Cyber Warfare & Information Warfare Planned
+```
+
+- Add Foreign Policy & Defence README ✅
 - Add learning priority framework (P1/P2/P3)
 - Add foreign policy timeline
-- Add defence timeline
-- Add national security timeline
-- Add wars timeline
+- Add defence timeline ✅
+- Add national security timeline ✅
+- Add wars timeline ✅
 - Add India-China relations timeline
 - Add India-Pakistan relations timeline
 - Add foreign policy journey diagrams
@@ -301,11 +315,11 @@ Status: Planned
 - Add strategic autonomy framework
 - Add foreign policy dashboard
 - Add national security dashboard
-- Add defence dashboard
-- Add war timeline dashboard
+- Add defence dashboard ✅
+- Add war timeline dashboard ✅
 - Add India-China relations dashboard
 - Add India-Pakistan relations dashboard
-- Add military modernization dashboard
+- Add military modernization dashboard ✅
 - Add strategic partnership dashboard
 - Add India-US Relations
 - Add India-Russia Relations
@@ -322,14 +336,30 @@ Status: Planned
 - Add Border Security
 - Add Counter-Terrorism Framework
 - Add Intelligence Agencies Overview
-- Add Defence Production Ecosystem
-- Add Make in India Defence Sector
-- Add Space Security
-- Add Cyber Security Framework
-- Add Defence Procurement Framework
+- Add Defence Production Ecosystem ✅
+- Add Make in India Defence Sector ✅
+- Add Space Security ✅
+- Add Cyber Security Framework ✅
+  - Add Military History ✅
+  - Add Missile & Space Defence ✅
+  - Add Paramilitary Forces ✅
+  - Add Defence Organisations & Agencies ✅
+  - Add Defence Budget & Modernisation ✅
+- Add Defence Procurement Framework ✅
 - Add Foreign Policy case studies
 - Add National Security case studies
 - Add War lessons learned comparisons
+
+### Next Priority
+
+- Cyber Warfare, Electronic Warfare & Information Warfare
+- Intelligence Agencies Overview
+- Counter-Terrorism Framework
+- Border Security
+- Maritime Security
+- India-China Relations Timeline
+- India-Pakistan Relations Timeline
+- Strategic Partnership Dashboard
 
 ---
 
@@ -444,7 +474,7 @@ Future Expansion
 
 ### Current Status
 
-The visual learning system (19-diagrams) now provides broad coverage of the Constitution, Elections, Parliament, Judiciary, Governance, Government Structure, Political Parties, Local Governance, History, and Timelines through Mermaid-based learning assets and visual revision frameworks.
+The visual learning system (20-diagrams) now provides broad coverage of the Constitution, Elections, Parliament, Judiciary, Governance, Government Structure, Political Parties, Local Governance, History, and Timelines through Mermaid-based learning assets and visual revision frameworks.
 
 Future work should focus on:
 
@@ -500,7 +530,7 @@ Provide authoritative, primary-source-oriented references that help readers veri
 
 Structure:
 
-20-reference-material
+21-reference-material
 
 ### Completed
 
@@ -557,7 +587,7 @@ Provide a citizen-focused, evidence-based framework for evaluating governments u
 
 Structure:
 
-22-governments-performance-tracking
+23-governments-performance-tracking
 
 ### Completed
 
@@ -617,7 +647,7 @@ Understand how major governance reforms, public policies, and development initia
 
 Structure:
 
-23-governance-case-studies
+24-governance-case-studies
 
 ### Completed
 
@@ -671,7 +701,7 @@ Provide a chronological understanding of India's political, constitutional, inst
 
 Structure:
 
-21-india-timelines
+22-india-timelines
 
 ### Completed
 
