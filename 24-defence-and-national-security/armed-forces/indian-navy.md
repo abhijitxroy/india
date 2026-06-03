@@ -59,6 +59,23 @@ flowchart TD
 
 ---
 
+## Command Structure
+
+```mermaid
+flowchart TD
+    CNS[Chief of Naval Staff]
+
+    CNS --> WNC[Western Naval Command]
+    CNS --> ENC[Eastern Naval Command]
+    CNS --> SNC[Southern Naval Command]
+
+    WNC --> WesternFleet[Western Fleet]
+    ENC --> EasternFleet[Eastern Fleet]
+    SNC --> TrainingCommand[Training Establishments]
+```
+
+---
+
 ## Mission and Responsibilities
 
 ### Maritime Security
@@ -105,46 +122,78 @@ Acts as the Navy's principal training command.
 
 ---
 
+## Fleet Structure
+
+| Fleet | Headquarters | Responsibility |
+|----------|----------|----------|
+| Western Fleet | Mumbai | Arabian Sea operations |
+| Eastern Fleet | Visakhapatnam | Bay of Bengal and Indo-Pacific operations |
+| Training Fleet | Kochi | Training and professional development |
+
+### Western Fleet
+
+- India's primary strike fleet
+- Supports carrier battle group operations
+- Focuses on western maritime front
+
+### Eastern Fleet
+
+- Covers Bay of Bengal and eastern maritime approaches
+- Supports Indo-Pacific deployments
+- Strategic presence in eastern waters
+
+---
+
 ## Major Components
 
 ```mermaid
 mindmap
   root((Indian Navy))
+    Aircraft Carriers
     Surface Fleet
-      Aircraft Carriers
-      Destroyers
-      Frigates
-      Corvettes
     Submarine Fleet
-      Conventional
-      Nuclear
     Naval Aviation
-      Fighters
-      Helicopters
-      Maritime Patrol Aircraft
-    Special Forces
-      MARCOS
+    MARCOS
+    Coastal Defence
 ```
 
 ### Aircraft Carriers
 
-Provide sea-based air power and strategic reach.
+| Carrier | Type |
+|----------|----------|
+| INS Vikramaditya | Aircraft Carrier |
+| INS Vikrant | Indigenous Aircraft Carrier |
 
-### Surface Combatants
+Aircraft carriers provide sea-based air power and strategic reach.
 
-Include destroyers, frigates, corvettes, and patrol vessels.
+### Surface Fleet
+
+- Destroyers
+- Frigates
+- Corvettes
+- Patrol Vessels
+- Amphibious Ships
 
 ### Submarine Fleet
 
-Provides underwater deterrence and strategic capabilities.
+- Conventional submarines
+- Nuclear-powered submarines
+- Ballistic missile submarines
 
 ### Naval Aviation
 
-Supports surveillance, anti-submarine warfare, and fleet operations.
+- MiG-29K fighters
+- P-8I maritime patrol aircraft
+- MH-60R helicopters
+- ALH naval variants
 
 ### MARCOS
 
-Elite Marine Commandos specializing in special operations.
+Marine Commandos are the Indian Navy's elite special operations force.
+
+### Coastal Defence
+
+Supports maritime surveillance, coastal security and port protection.
 
 ---
 
@@ -159,6 +208,20 @@ Elite Marine Commandos specializing in special operations.
 ---
 
 ## Major Operations
+---
+
+## Major Naval Assets
+
+| Category | Examples |
+|----------|----------|
+| Aircraft Carriers | INS Vikramaditya, INS Vikrant |
+| Destroyers | Kolkata Class, Visakhapatnam Class |
+| Frigates | Shivalik Class, Talwar Class |
+| Submarines | Arihant Class, Scorpene Class |
+| Patrol Aircraft | P-8I Poseidon |
+| Naval Helicopters | MH-60R, Sea King |
+
+These assets form the backbone of India's maritime deterrence and operational capability.
 
 ### Indo-Pak War (1971)
 
@@ -196,11 +259,13 @@ Elite Marine Commandos specializing in special operations.
 
 ## Future Roadmap
 
-- Larger blue-water navy capability
-- Enhanced indigenous shipbuilding
-- Increased submarine fleet strength
-- Advanced unmanned maritime systems
-- Greater integration with theatre commands
+- Expansion of blue-water navy capability
+- Additional indigenous aircraft carriers
+- Larger submarine fleet including SSNs
+- Unmanned maritime and underwater systems
+- Stronger Indo-Pacific presence
+- Greater integration with future theatre commands
+- Indigenous naval aviation and weapon systems
 
 ---
 
@@ -210,13 +275,15 @@ Elite Marine Commandos specializing in special operations.
 |----------|----------|
 | Professional Head | Chief of the Naval Staff |
 | Headquarters | New Delhi |
-| Operational Commands | 3 |
-| Primary Domain | Maritime Warfare |
+| Commands | Western, Eastern, Southern |
+| Main Fleets | Western Fleet and Eastern Fleet |
+| Aircraft Carriers | INS Vikramaditya, INS Vikrant |
 | Elite Force | MARCOS |
+| Maritime Region | Indian Ocean Region |
 
 ---
 
-## Important Questions and Answers
+## Key Concepts
 
 ### What is the primary role of the Indian Navy?
 

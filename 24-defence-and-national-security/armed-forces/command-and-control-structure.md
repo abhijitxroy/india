@@ -1,5 +1,3 @@
-
-
 # Defence Command and Control Structure of India
 
 ## Why This Matters
@@ -25,22 +23,41 @@ The armed forces operate under the authority of the elected government.
 
 ---
 
-## National Command Structure
+## Core Principle of Indian Defence Management
+
+India follows a democratic military structure where:
+
+- Elected civilian leadership makes national security decisions
+- Armed forces execute government decisions
+- Military remains politically neutral
+- Strategic decisions remain under civilian authority
+
+This model is followed by most major democracies.
+
+---
+
+## National Defence Command Structure
 
 ```mermaid
 flowchart TD
-    A[President of India<br/>Supreme Commander] --> B[Prime Minister]
+    A[President of India<br/>Supreme Commander]
+    A --> B[Prime Minister]
     B --> C[Cabinet Committee on Security]
     C --> D[Defence Minister]
     D --> E[Chief of Defence Staff]
 
-    E --> F[Chief of Army Staff]
-    E --> G[Chief of Naval Staff]
-    E --> H[Chief of Air Staff]
+    E --> F[Department of Military Affairs]
+    E --> G[Chief of Army Staff]
+    E --> H[Chief of Naval Staff]
+    E --> I[Chief of Air Staff]
 
-    F --> I[Army Commands]
-    G --> J[Naval Commands]
-    H --> K[Air Commands]
+    G --> J[Army Commands]
+    H --> K[Naval Commands]
+    I --> L[Air Commands]
+
+    J --> M[Field Formations]
+    K --> M
+    L --> M
 ```
 
 ---
@@ -55,6 +72,19 @@ flowchart TD
 | Defence Minister | Political head of Ministry of Defence |
 | Chief of Defence Staff (CDS) | Principal military adviser |
 | Service Chiefs | Lead Army, Navy and Air Force |
+
+---
+
+## Chain of Authority
+
+| Level | Authority |
+|----------|----------|
+| Political Leadership | President and Prime Minister |
+| National Security Leadership | Cabinet Committee on Security |
+| Defence Administration | Defence Minister |
+| Military Coordination | Chief of Defence Staff |
+| Service Leadership | Army, Navy and Air Force Chiefs |
+| Operational Leadership | Commands and Field Formations |
 
 ---
 
@@ -179,21 +209,30 @@ Responsible for:
 
 ---
 
-## Theatre Command Concept
+## Theatre Command Structure (Future Model)
 
 ```mermaid
-flowchart LR
-    A[Army] --> D[Integrated Theatre Command]
-    B[Navy] --> D
-    C[Air Force] --> D
+flowchart TD
+    A[Chief of Defence Staff]
+
+    A --> B[Northern Theatre Command]
+    A --> C[Western Theatre Command]
+    A --> D[Maritime Theatre Command]
+    A --> E[Air Defence Command]
+
+    B --> F[Army Navy Air Force Units]
+    C --> F
+    D --> F
+    E --> F
 ```
 
-Purpose:
+### Objective
 
-- Faster decision-making
-- Unified operations
+- Unified command structure
+- Faster military response
 - Better resource utilization
-- Joint warfighting capability
+- Improved joint operations
+- Integrated warfighting capability
 
 ---
 
@@ -212,12 +251,12 @@ flowchart TD
 
 ---
 
-## Interview Questions
+## Important Topics and Answers
 
 ### Who is the Supreme Commander of the Indian Armed Forces?
 President of India.
 
-### Who is the principal military adviser to the Government?
+### Who is the principal military adviser to the Government of India?
 Chief of Defence Staff.
 
 ### What is the highest security decision-making body in India?
@@ -226,17 +265,19 @@ Cabinet Committee on Security (CCS).
 ### Who heads the Ministry of Defence politically?
 Defence Minister.
 
-### Why are theatre commands being introduced?
-To improve joint operations among Army, Navy and Air Force.
+### Who commands the Army, Navy and Air Force?
+Their respective Service Chiefs.
 
----
+### Why are Theatre Commands being introduced?
+To improve joint operations and military effectiveness.
 
-## Quick Revision
+### Quick Revision
 
 - President = Supreme Commander
-- Prime Minister leads national security decisions
+- Prime Minister = National security leadership
 - CCS = Highest security decision-making body
 - Defence Minister = Political head of defence
 - CDS = Principal military adviser
-- Service Chiefs lead Army, Navy and Air Force
-- Theatre Commands = Future joint warfighting structure
+- Service Chiefs = Lead Army, Navy and Air Force
+- Theatre Commands = Future integrated warfighting structure
+- Civilian control of military = Core constitutional principle

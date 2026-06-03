@@ -11,16 +11,19 @@ Understanding Indian Air Force ranks is important for:
 
 ---
 
-## Reporting Structure
+## Air Force Command Chain
 
 ```mermaid
 flowchart TD
-    A[President of India<br/>Supreme Commander] --> B[Chief of Defence Staff]
-    B --> C[Chief of the Air Staff<br/>Air Chief Marshal]
-    C --> D[Air Commands]
-    D --> E[Operational Commands and Bases]
-    E --> F[Squadrons]
-    F --> G[Airmen and Personnel]
+    A[President of India<br/>Supreme Commander]
+    A --> B[Prime Minister]
+    B --> C[Defence Minister]
+    C --> D[Chief of Defence Staff]
+    D --> E[Chief of the Air Staff<br/>Air Chief Marshal]
+    E --> F[Air Headquarters]
+    F --> G[Operational and Functional Commands]
+    G --> H[Air Bases and Stations]
+    H --> I[Squadrons and Units]
 ```
 
 ---
@@ -85,14 +88,15 @@ flowchart TD
 
 ---
 
-## Highest Rank
+## Marshal of the Indian Air Force
 
-### Marshal of the Indian Air Force
+### Overview
 
-- Five-star rank
+- Five-star rank of the Indian Air Force
 - Equivalent to Field Marshal in the Army
+- Equivalent to Admiral of the Fleet in the Navy
+- Wartime or exceptional honorary rank
 - Highest rank in the Indian Air Force
-- Awarded only in exceptional circumstances
 
 ### Recipient
 
@@ -138,26 +142,30 @@ Responsibilities:
 
 ---
 
-## Interview Questions
+## Important Topics and Answers
 
-### Who is the head of the Indian Air Force?
-Chief of the Air Staff (Air Chief Marshal).
+### Who is the Supreme Commander of the Indian Armed Forces?
+President of India.
+
+### Who leads the Indian Air Force?
+Chief of the Air Staff (CAS) with the rank of Air Chief Marshal.
 
 ### What is the highest rank in the Indian Air Force?
 Marshal of the Indian Air Force.
 
-### Who is the only Marshal of the Indian Air Force?
+### Who is the only officer to receive the rank of Marshal of the Indian Air Force?
 Arjan Singh.
 
-### Which Air Force rank is equivalent to a Colonel?
+### Which Air Force rank is equivalent to Colonel in the Army?
 Group Captain.
 
-### Which Air Force rank is equivalent to a Brigadier?
+### Which Air Force rank is equivalent to Brigadier in the Army?
 Air Commodore.
 
----
+### Which rank normally commands a fighter squadron?
+Wing Commander.
 
-## Quick Revision
+### Quick Revision
 
 - President = Supreme Commander
 - Air Chief Marshal = Head of Indian Air Force
@@ -166,3 +174,4 @@ Air Commodore.
 - Air Commodore ≈ Brigadier
 - Highest rank = Marshal of the Indian Air Force
 - Only recipient = Arjan Singh
+- Indian Air Force motto = Touch the Sky with Glory

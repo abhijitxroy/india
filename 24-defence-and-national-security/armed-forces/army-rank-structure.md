@@ -1,5 +1,3 @@
-
-
 # Indian Army Rank Structure
 
 ## Why This Matters
@@ -13,18 +11,22 @@ Understanding Army ranks helps in:
 
 ---
 
-## Reporting Structure
+## Army Command Chain
 
 ```mermaid
 flowchart TD
-    A[President of India<br/>Supreme Commander] --> B[Chief of Defence Staff]
-    B --> C[Chief of Army Staff<br/>General]
-    C --> D[Army Commands]
-    D --> E[Corps]
-    E --> F[Divisions]
-    F --> G[Brigades]
-    G --> H[Battalions]
-    H --> I[Companies and Platoons]
+    A[President of India<br/>Supreme Commander]
+    A --> B[Prime Minister]
+    B --> C[Defence Minister]
+    C --> D[Chief of Defence Staff]
+    D --> E[Chief of Army Staff<br/>General]
+    E --> F[Army Headquarters]
+    F --> G[Army Commands]
+    G --> H[Corps]
+    H --> I[Divisions]
+    I --> J[Brigades]
+    J --> K[Battalions]
+    K --> L[Companies and Platoons]
 ```
 
 ---
@@ -43,7 +45,6 @@ flowchart TD
 | Major | Company-level leadership |
 | Captain | Junior officer command |
 | Lieutenant | Entry-level commissioned officer |
-|
 
 ### Officer Rank Hierarchy
 
@@ -90,14 +91,15 @@ flowchart TD
 
 ---
 
-## Highest Rank
+## Field Marshal
 
-### Field Marshal
+### Overview
 
-- Five-star rank
+- Five-star rank of the Indian Army
+- Equivalent to Marshal of the Indian Air Force
+- Equivalent to Admiral of the Fleet in the Navy
+- Ceremonial and honorary rank
 - Highest rank in the Indian Army
-- Largely ceremonial
-- Awarded only in exceptional circumstances
 
 ### Recipients
 
@@ -144,10 +146,13 @@ Responsibilities:
 
 ---
 
-## Interview Questions
+## Important Topics and Answers
 
-### Who is the head of the Indian Army?
-Chief of Army Staff (General).
+### Who is the Supreme Commander of the Indian Armed Forces?
+President of India.
+
+### Who leads the Indian Army?
+Chief of Army Staff (COAS) with the rank of General.
 
 ### What is the highest rank in the Indian Army?
 Field Marshal.
@@ -158,17 +163,19 @@ Sam Manekshaw and K. M. Cariappa.
 ### Which rank commands a Brigade?
 Brigadier.
 
-### Which rank is equivalent to a Navy Captain?
-Colonel.
+### Which rank commands a Division?
+Major General.
 
----
+### Which rank commands a Corps?
+Lieutenant General.
 
-## Quick Revision
+### Quick Revision
 
 - President = Supreme Commander
-- General = Head of Army
+- General = Head of Indian Army
 - Brigadier commands Brigade
 - Major General commands Division
-- Lieutenant General commands Corps / Commands
+- Lieutenant General commands Corps or Commands
 - Highest rank = Field Marshal
 - Field Marshals = Sam Manekshaw and K. M. Cariappa
+- Indian Army motto = Service Before Self

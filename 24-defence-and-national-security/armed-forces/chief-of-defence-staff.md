@@ -28,16 +28,19 @@ The CDS promotes jointness, integration and long-term defence planning.
 
 ---
 
-## Command Structure
+## Position in National Security Structure
 
 ```mermaid
 flowchart TD
-    A[President of India<br/>Supreme Commander] --> B[Cabinet Committee on Security]
-    B --> C[Defence Minister]
-    C --> D[Chief of Defence Staff]
-    D --> E[Chief of Army Staff]
-    D --> F[Chief of Naval Staff]
-    D --> G[Chief of Air Staff]
+    A[President of India<br/>Supreme Commander]
+    A --> B[Prime Minister]
+    B --> C[Cabinet Committee on Security]
+    C --> D[Defence Minister]
+    D --> E[Chief of Defence Staff]
+    E --> F[Department of Military Affairs]
+    E --> G[Chief of Army Staff]
+    E --> H[Chief of Naval Staff]
+    E --> I[Chief of Air Staff]
 ```
 
 ---
@@ -54,6 +57,24 @@ flowchart TD
 
 ---
 
+## Why Was CDS Created?
+
+Before the CDS system:
+
+- Army, Navy and Air Force largely planned independently
+- Joint operations required additional coordination
+- Procurement priorities sometimes overlapped
+- Long-term military planning lacked a single military focal point
+
+The CDS position was created to:
+
+- Improve tri-service integration
+- Enable joint planning
+- Support theatre command reforms
+- Improve military modernization
+- Create a unified military advisory system
+---
+
 ## Major Responsibilities
 
 ### Principal Military Adviser
@@ -61,31 +82,43 @@ flowchart TD
 Provides military advice to:
 
 - Defence Minister
+- Prime Minister
 - Cabinet Committee on Security
 - Government of India
 
-### Jointness Among Services
+### Head of Department of Military Affairs
 
-Ensures better coordination among:
+Responsible for:
+
+- Military administration matters
+- Joint training initiatives
+- Staffing policies
+- Military reforms
+
+### Promote Jointness
+
+Improves integration among:
 
 - Army
 - Navy
 - Air Force
 
-### Theatre Commands
+### Theatre Command Reforms
 
-Leads efforts to establish:
+Drives:
 
 - Integrated Theatre Commands
-- Joint operational planning
+- Joint operational structures
+- Multi-domain warfare planning
 
 ### Defence Modernization
 
-Helps prioritize:
+Supports:
 
-- Procurement
 - Capability development
-- Long-term military planning
+- Indigenous defence production
+- Long-term force planning
+- Resource prioritization
 
 ---
 
@@ -117,20 +150,15 @@ under the Ministry of Defence.
 
 ---
 
-## Importance of CDS
+## Why CDS Is Important
 
-### Before CDS
-
-- Services often planned separately
-- Coordination challenges existed
-- Procurement duplication sometimes occurred
-
-### After CDS
-
-- Improved integration
-- Better resource utilization
-- Faster joint planning
-- Stronger unified military approach
+| Before CDS | After CDS |
+|------------|------------|
+| Service-centric planning | Joint planning approach |
+| Separate priorities | Integrated priorities |
+| Slower coordination | Faster coordination |
+| Limited joint structures | Theatre command focus |
+| Fragmented military advice | Unified military advice |
 
 ---
 
@@ -145,7 +173,7 @@ under the Ministry of Defence.
 
 ---
 
-## Interview Questions
+## Important Topics and Answers
 
 ### Who is the principal military adviser to the Government of India?
 Chief of Defence Staff (CDS).
@@ -156,17 +184,22 @@ Chief of Defence Staff (CDS).
 ### Which department is headed by the CDS?
 Department of Military Affairs (DMA).
 
-### Is the CDS above the Army, Navy and Air Force chiefs?
-The CDS coordinates and advises jointly, while each service chief remains responsible for their own service.
+### Is the CDS a five-star officer?
+No. The CDS is a four-star officer.
 
----
+### Does the CDS command the Army, Navy and Air Force?
+No. Service chiefs continue to command their respective services.
 
-## Quick Revision
+### Why was the CDS position created?
+To improve jointness, integration and military planning.
+
+### Quick Revision
 
 - CDS = Chief of Defence Staff
 - Created in 2020
 - Four-star military officer
 - Principal military adviser to Government of India
 - Head of Department of Military Affairs
-- Promotes jointness among Army, Navy and Air Force
-- Key driver of integrated theatre commands
+- Promotes tri-service integration
+- Supports Theatre Commands
+- Reports to Defence Minister and Government of India
