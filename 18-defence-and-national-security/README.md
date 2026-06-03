@@ -84,11 +84,11 @@ flowchart TD
 
 Covers:
 
-- Ancient military history
-- Medieval military history
-- Modern military history
-- Wars and operations
+- Major wars and conflicts
+- Military operations
 - Strategic lessons
+- Joint operations
+- Peacekeeping missions
 
 ### Armed Forces
 
@@ -97,6 +97,9 @@ Covers:
 - Indian Army
 - Indian Navy
 - Indian Air Force
+- Rank structures
+- Training institutions
+- Joint commands
 
 ### Paramilitary Forces
 
@@ -122,11 +125,11 @@ Covers:
 
 Covers:
 
-- Intelligence agencies
-- Intelligence coordination
+- RAW, IB, NTRO, DIA and NIA
+- Intelligence coordination mechanisms
 - Strategic intelligence
-- National security planning
-- Future intelligence domains
+- SIGINT and technical intelligence
+- Cyber and information warfare
 
 ### Missile Systems
 
@@ -160,7 +163,13 @@ Covers:
 
 ### Defence Platforms
 
-*Covers content related to defence platforms* 
+Covers:
+
+- Army platforms
+- Air-force platforms
+- Naval platforms
+- Combat-support systems
+- Operational capabilities
 
 ### Defence Industry
 
@@ -176,9 +185,10 @@ Covers:
 
 Covers:
 
-- Defence spending
-- Procurement systems
-- Defence industry
+- Defence budget
+- Capital vs revenue expenditure
+- Defence procurement
+- Modernisation programmes
 - Atmanirbhar Bharat initiatives
 
 ---
@@ -187,16 +197,23 @@ Covers:
 
 ```mermaid
 flowchart TD
-    Govt[Government of India]
+    GOI[Government of India]
     MOD[Ministry of Defence]
 
-    MOD --> Army[Indian Army]
-    MOD --> Navy[Indian Navy]
-    MOD --> AirForce[Indian Air Force]
+    GOI --> MOD
 
-    MOD --> Organisations[Defence Organisations]
-    Organisations --> Space[Space Domain]
-    Organisations --> Cyber[Cyber Domain]
+    MOD --> CDS[CDS]
+    CDS --> IDS[IDS]
+
+    CDS --> Army[Indian Army]
+    CDS --> Navy[Indian Navy]
+    CDS --> AirForce[Indian Air Force]
+
+    MOD --> DRDO[DRDO]
+    MOD --> DAC[DAC]
+
+    MOD --> Cyber[Defence Cyber Agency]
+    MOD --> Space[Defence Space Agency]
 ```
 
 ---
@@ -225,6 +242,7 @@ flowchart TD
 - Paramilitary forces support border and internal security.
 - CDS, DMA and IDS improve military integration.
 - Intelligence supports national-security decision-making.
+- RAW, IB, NTRO and DIA form the core intelligence ecosystem.
 - Missile systems provide strategic deterrence.
 - Air and missile defence protects critical assets.
 - Space security supports communications, navigation and surveillance.

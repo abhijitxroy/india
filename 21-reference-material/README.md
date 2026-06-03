@@ -1,143 +1,3 @@
-
-
-# Reference Material
-
-## Overview
-
-This section contains primary sources, official references, reports, constitutional documents, government publications, statistical resources, and supporting material used throughout the repository.
-
-The objective is to help readers verify information, explore original sources, and develop a deeper understanding of Indian politics and governance.
-
----
-
-## Why It Matters
-
-Good governance knowledge should be based on reliable sources.
-
-This section helps readers:
-
-- Verify facts and claims
-- Access primary source documents
-- Explore official government publications
-- Understand constitutional provisions directly
-- Build research and analytical skills
-
----
-
-## Learning Priority
-
-### P0 (Must Know)
-
-- Constitution of India
-- Election Commission resources
-- Parliament resources
-- Supreme Court resources
-- Government of India publications
-
-### P1 (Important)
-
-- Census data
-- Economic Survey
-- Budget documents
-- NITI Aayog publications
-- State government resources
-
----
-
-## Reference Categories
-
-### Constitutional Sources
-
-- Constitution of India
-- Constitutional amendments
-- Constituent Assembly references
-
-### Government Sources
-
-- Government publications
-- Ministry reports
-- Annual reports
-- Policy documents
-
-### Parliamentary Sources
-
-- Parliamentary proceedings
-- Committee reports
-- Legislative documents
-
-### Judicial Sources
-
-- Supreme Court judgments
-- High Court judgments
-- Constitutional case references
-
-### Statistical Sources
-
-- Census data
-- Economic data
-- Election data
-- Government statistics
-
----
-
-## Research Approach
-
-```text
-Topic
-  ↓
-Primary Source
-  ↓
-Verification
-  ↓
-Analysis
-  ↓
-Understanding
-```
-
----
-
-## Repository Philosophy
-
-Whenever possible, readers should prefer:
-
-```text
-Primary Sources
-      ↓
-Official Publications
-      ↓
-Academic Analysis
-      ↓
-Secondary Commentary
-```
-
-This improves accuracy and reduces misinformation.
-
----
-
-## Quick Revision
-
-```text
-Constitution
-      ↓
-Government Sources
-      ↓
-Parliament Sources
-      ↓
-Judicial Sources
-      ↓
-Statistical Sources
-```
-
----
-
-## Related Sections
-
-- Constitution
-- Elections
-- Parliament
-- Judiciary
-- Governance
-- Visual Diagrams & Learning Maps
 # Reference Material
 
 ## Overview
@@ -145,6 +5,14 @@ Statistical Sources
 This section contains authoritative sources, official publications, constitutional references, parliamentary material, judicial resources, government portals, economic reports, statistical datasets, and commission reports.
 
 The objective is to help readers move beyond summaries and understand Indian politics and governance through original and reliable sources.
+
+---
+
+## Purpose
+
+This section serves as the repository's central source-verification and research hub.
+
+It provides direct access to official documents, reports, constitutional material, parliamentary records, judicial resources, economic publications, and statistical datasets used throughout the repository.
 
 ---
 
@@ -201,6 +69,23 @@ Completed
 
 Status
 └── Reference Material Foundation Complete
+```
+
+---
+
+## Repository Structure
+
+```text
+21-reference-material/
+├── constitution-of-india-resources.md
+├── parliament-resources.md
+├── judiciary-resources.md
+├── election-commission-resources.md
+├── government-portals.md
+├── budget-resources.md
+├── economic-survey-resources.md
+├── census-and-statistics-resources.md
+└── official-reports-and-commissions.md
 ```
 
 ---
@@ -304,6 +189,22 @@ Understanding
 
 ---
 
+## How To Use This Section
+
+### Fact Verification
+
+Use official sources to validate claims, statistics, and public-policy discussions.
+
+### Deep Research
+
+Follow references from repository topics back to original government publications and reports.
+
+### Interview Preparation
+
+Use this section to strengthen answers with constitutional provisions, reports, commissions, and official data sources.
+
+---
+
 ## Repository Philosophy
 
 Whenever possible, readers should prefer:
@@ -321,6 +222,21 @@ Secondary Commentary
 ```
 
 This improves accuracy, reduces misinformation, and encourages evidence-based understanding.
+
+---
+
+## Reference Coverage
+
+Current coverage includes:
+
+- Constitution and constitutional references
+- Parliament and legislative material
+- Judiciary and legal resources
+- Election and democratic institutions
+- Government portals and citizen services
+- Budget and economic publications
+- Statistical datasets and surveys
+- Commission and committee reports
 
 ---
 

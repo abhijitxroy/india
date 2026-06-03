@@ -2,6 +2,25 @@
 
 ## Overview
 
+This section serves as the visual-learning hub of the repository.
+
+Complex political, constitutional, governance, and institutional concepts are represented through diagrams, workflows, relationship maps, and timelines to improve understanding and long-term retention.
+
+## Repository Structure
+
+```text
+20-diagrams/
+├── history/
+├── constitution/
+├── elections/
+├── political-parties/
+├── parliament/
+├── government-structure/
+├── governance/
+├── judiciary/
+└── timelines/
+```
+
 ## Importance
 
 Indian politics and governance can appear complex because multiple institutions operate together.
@@ -74,16 +93,16 @@ flowchart TD
 ```mermaid
 mindmap
   root((📊 Visual Learning System))
+    ✅ History
     ✅ Constitution
     ✅ Elections
-    ✅ Governance
-    ✅ Government Structure
-    ✅ History
-    ✅ Judiciary
-    ✅ Parliament
     ✅ Political Parties
+    ✅ Parliament
+    ✅ Government Structure
+    ✅ Governance
+    ✅ Judiciary
     ✅ Timelines
-    🎯 Core Governance Coverage Complete
+    🎯 Repository-wide Visual Coverage
 ```
 
 ---
@@ -105,6 +124,20 @@ mindmap
 ---
 
 ## Learning Order Recommendation
+
+## Recommended Usage
+
+### First Time Learners
+
+Follow the learning order from Constitution → Elections → Parliament → Government → Judiciary.
+
+### Revision Learners
+
+Use diagrams as 5–10 minute visual refreshers before revisiting detailed topic files.
+
+### Interview Preparation
+
+Focus on workflows, institutional relationships, constitutional structures, and governance diagrams.
 
 ### Stage 1 — Every Citizen Must Know
 
@@ -142,15 +175,27 @@ flowchart LR
 
 | Section | Focus Area |
 |----------|------------|
-| history | India's historical journey and nation building |
-| constitution | Constitutional principles, rights and governance |
-| elections | Electoral process and democratic representation |
-| political-parties | Political competition and government formation |
-| parliament | Law making and parliamentary processes |
-| government-structure | President, PM, Governor, CM and constitutional authorities |
-| governance | Policy, administration and public service delivery |
-| judiciary | Courts, judicial review and constitutional protection |
-| timelines | Historical and governance evolution |
+| history | India's historical evolution and nation building |
+| constitution | constitutional framework and foundational principles |
+| elections | electoral systems and democratic processes |
+| political-parties | political ecosystem and government formation |
+| parliament | legislative process and parliamentary operations |
+| government-structure | constitutional authorities and executive structure |
+| governance | administration, policy and public-service delivery |
+| judiciary | courts, judicial review and constitutional safeguards |
+| timelines | chronological evolution of India and governance |
+
+---
+
+## Why Visual Learning Works
+
+Visual models help learners:
+
+- Understand relationships faster
+- Retain information longer
+- Connect multiple topics together
+- Revise complex concepts quickly
+- Build mental models of institutions and processes
 
 ---
 
@@ -185,6 +230,22 @@ After completing this section, a citizen should be able to explain:
 - How courts protect rights
 - How governance reaches citizens
 - How India evolved over time
+
+---
+
+## Diagram Coverage
+
+Current visual coverage includes:
+
+- Constitutional framework
+- Elections and democratic processes
+- Government formation
+- Parliament and law making
+- Governance and administration
+- Judiciary and judicial review
+- Political-party ecosystem
+- Historical timelines
+- Institutional relationships
 
 ---
 

@@ -85,10 +85,12 @@ Foreign Policy & Defence
         ↓
 Contemporary India
         ↓
-Glossary & Revision Hub
+Defence & National Security
+        ↓
+Reference & Revision Hub
 ```
 
-### India Can Be Studied Through 5 Different Lenses
+## India Can Be Studied Through 5 Different Lenses
 
 ```text
 India Through History
@@ -127,7 +129,9 @@ Society
       ↓
 Contemporary India
       ↓
-Glossary & Revision
+Defence & National Security
+      ↓
+Reference & Revision
 ```
 
 This layered approach helps explain not only what happened, but why India evolved the way it did.
@@ -569,217 +573,66 @@ P1 (Highest ROI)
 
 ---
 
-## 18. India Timelines
+## 18. Defence & National Security
 
-A dedicated timeline section connects major events, institutions, leaders, reforms, and democratic developments across Indian history and governance.
+Understanding India's military, strategic, intelligence, defence-industrial, and national-security ecosystem.
 
-### Coverage
-
-#### Historical Evolution
-
-- Civilization Timeline
-- Freedom Struggle Timeline
-- Constitutional Development Timeline
-
-#### Democracy & Political Development
-
-- Election Timeline
-- Political Party Timeline
-- Prime Minister Timeline
-- President Timeline
-
-#### Governance & Nation Building
-
-- State Formation Timeline
-- Major Laws Timeline
-- Economic Reforms Timeline
-
-### Why It Matters
-
-Timelines help readers understand:
-
-- Cause and effect
-- Historical continuity
-- Democratic evolution
-- Institutional development
-- Nation-building across generations
-
-### Citizen Learning Path
-
-```text
-Civilization
-      ↓
-Freedom Struggle
-      ↓
-Constitutional Development
-      ↓
-Elections
-      ↓
-Prime Ministers
-      ↓
-Major Laws & Reforms
-      ↓
-Modern India
-```
-
----
-
-## 19. Governments & Performance Tracking
-
-Understanding how citizens can evaluate governments using evidence, governance outcomes, public policy results, and measurable indicators.
+This section expands the defence and national-security topics introduced in "16. Foreign Policy & Defence" and provides deeper military, intelligence, strategic, and defence-industry coverage.
 
 ### Coverage
 
-- Citizen Accountability Framework
-- Governance Performance Framework
-- Central Government Performance Framework
-- State Government Comparison Framework
-- Economic Performance Framework
-- Infrastructure Performance Framework
-- Education Performance Framework
-- Healthcare Performance Framework
-- Social Development Framework
-- Manifesto vs Performance Framework
-
-### Why It Matters
-
-This section teaches readers how to evaluate governance beyond political narratives.
-
-The focus is on:
-
-- Accountability
-- Governance Outcomes
-- Economic Performance
-- Education Outcomes
-- Healthcare Outcomes
-- Infrastructure Development
-- Social Development
-- Evidence-Based Assessment
-
-### Evaluation Model
-
-```text
-Citizen
-    ↓
-Accountability
-    ↓
-Governance
-    ↓
-Economy
-    ↓
-Education
-    ↓
-Healthcare
-    ↓
-Social Development
-    ↓
-Performance Evaluation
-```
-
-### Learning Priority
-
-#### Must Know
-
-- Citizen Accountability Framework
-- Governance Performance Framework
-- Economic Performance Framework
-- Manifesto vs Performance Framework
-
-#### Important
-
-- Education Performance Framework
-- Healthcare Performance Framework
-- Social Development Framework
-- Infrastructure Performance Framework
-
-#### Advanced
-
-- Central Government Performance Framework
-- State Government Comparison Framework
+- Military History
+- Armed Forces
+- Paramilitary Forces
+- Defence Organisations & Agencies
+- Intelligence
+- Missile Systems
+- Air & Missile Defence
+- Space Security
+- Defence Platforms
+- Defence Industry
+- Defence Budget & Modernisation
 
 ---
 
-## 20. Glossary
+## 19. Glossary
 
-Quick reference for important terms.
+Central terminology reference covering:
 
 - Political Terminology
 - Constitutional Terminology
-- Economic Terminology
 - Governance Terminology
 - Administrative Terminology
-- Election Terminology
 - Parliamentary Terminology
+- Election Terminology
 - Judicial Terminology
 - Legal Terminology
+- Economic Terminology
 - Foreign Policy Terminology
 
-### Priority Learning Order
+---
 
-```text
-P1 (Highest ROI)
-├── Political Terminology
-├── Constitutional Terminology
-└── Economic Terminology
+## 20. Visual Diagrams & Learning Maps
 
-P2
-├── Governance Terminology
-├── Administrative Terminology
-└── Election Terminology
+Repository-wide visual learning system covering:
 
-P3
-├── Parliamentary Terminology
-├── Judicial Terminology
-├── Legal Terminology
-└── Foreign Policy Terminology
-```
+- History
+- Constitution
+- Elections
+- Parliament
+- Government Structure
+- Governance
+- Judiciary
+- Political Parties
+- Timelines
 
 ---
 
-## 21. Visual Diagrams & Learning Maps
+## 21. Reference Material
 
-Visual learning resources explaining how India works through diagrams, workflows, timelines, governance maps, and institutional relationships.
+Official sources and research references including:
 
-Coverage includes:
-
-- Constitution Diagrams
-- Elections Diagrams
-- Parliament Diagrams
-- Judiciary Diagrams
-- Governance Diagrams
-- Government Structure Diagrams
-- Local Governance Diagrams
-- Political Parties Diagrams
-- History Diagrams
-- Timeline Diagrams
-
-### Why It Matters
-
-The diagram section helps readers quickly understand:
-
-- How India is governed
-- How elections work
-- How laws are created
-- How governments are formed
-- How courts protect rights
-- How institutions interact
-- How India evolved over time
-
-This section serves as the visual learning system for the repository.
-
-### Current Status
-
-The repository contains visual learning maps, governance workflows, institutional relationship diagrams, timeline visualizations, and Mermaid-based learning assets covering the major pillars of Indian politics and governance.
-
-The goal is to make complex political, constitutional, governance, institutional, and historical concepts easier to understand through visual learning and quick revision frameworks.
-
----
-
-## 22. Reference Material
-
-Primary sources and supporting references used throughout the repository.
-
-- Constitution of India Resources
+- Constitution Resources
 - Parliament Resources
 - Judiciary Resources
 - Election Commission Resources
@@ -789,85 +642,58 @@ Primary sources and supporting references used throughout the repository.
 - Census & Statistics Resources
 - Official Reports & Commissions
 
-# ## 23. Governance Case Studies
+---
 
-Real-world governance and policy case studies that connect theory with implementation, outcomes, challenges, and lessons.
+## 22. India Timelines
 
-### Coverage
+Chronological learning and revision hub covering:
 
-#### Agricultural Transformation
-
-- Green Revolution
-- White Revolution
-
-#### Economic Reforms
-
-- Economic Liberalization (1991)
-- GST Implementation
-
-#### Transparency & Accountability
-
-- RTI Act Impact
-
-#### Digital Governance
-
-- JAM Trinity
-- Aadhaar & DBT
-- UPI Digital Payments
-
-#### Public Service Delivery
-
-- Swachh Bharat Mission
-- COVID-19 Governance Response
-
-### Why It Matters
-
-Case studies help readers understand:
-
-- Real governance challenges
-- Policy design decisions
-- Implementation approaches
-- Successes and failures
-- Public impact
-- Governance lessons
-
-### Governance Learning Model
-
-```text
-Problem
-    ↓
-Policy
-    ↓
-Implementation
-    ↓
-Outcome
-    ↓
-Lessons
-```
-
-### Priority Learning Order
-
-```text
-P1 (Highest ROI)
-├── Economic Liberalization (1991)
-├── GST
-├── Aadhaar & DBT
-├── UPI
-└── RTI
-
-P2
-├── Green Revolution
-├── White Revolution
-├── JAM Trinity
-└── COVID-19 Response
-
-P3
-└── Swachh Bharat Mission
-```
+- Civilization Timeline
+- Freedom Struggle Timeline
+- Constitutional Development Timeline
+- Election Timeline
+- Political Party Timeline
+- Prime Minister Timeline
+- President Timeline
+- State Formation Timeline
+- Major Laws Timeline
+- Economic Reforms Timeline
 
 ---
 
-# 🧭 Learning Paths & Study Strategy
+## 23. Governments & Performance Tracking
+
+Evidence-based governance evaluation frameworks covering:
+
+- Citizen Accountability
+- Governance Performance
+- Economic Performance
+- Infrastructure Performance
+- Education Performance
+- Healthcare Performance
+- Social Development
+- Manifesto vs Performance
+- Central Government Evaluation
+- State Government Comparison
+
+---
+
+## 24. Governance Case Studies
+
+Real-world governance and policy implementation case studies covering:
+
+- Green Revolution
+- White Revolution
+- Economic Liberalization (1991)
+- GST Implementation
+- RTI Act Impact
+- JAM Trinity
+- Aadhaar & DBT
+- UPI Digital Payments
+- Swachh Bharat Mission
+- COVID-19 Governance Response
+
+---
 
 # 🧭 Learning Paths & Study Strategy
 
@@ -921,6 +747,10 @@ Constitution
 Democracy
     ↓
 Modern India
+    ↓
+Defence & National Security
+    ↓
+Reference & Revision
 ```
 
 ---
@@ -1004,11 +834,12 @@ The long-term objective is to create a complete India Knowledge System covering:
 - Laws & Reforms
 - Economy
 - Society
-- Defence
 - Foreign Policy
 - Contemporary India
+- Defence & National Security
 - Glossary & Revision Hub
 - Government Performance & Accountability
+- Governance Case Studies
 - Data & Analytics
 
 ---
@@ -1088,17 +919,19 @@ If you're new to the repository, follow this order:
         ↓
 17 Contemporary India
         ↓
-18 India Timelines
+18 Defence & National Security
         ↓
-19 Governments & Performance Tracking
+19 Glossary
         ↓
-20 Glossary
-↓
-21 Visual Diagrams & Learning Maps
-↓
-22 Reference Material
+20 Visual Diagrams & Learning Maps
         ↓
-Remaining Sections
+21 Reference Material
+        ↓
+22 India Timelines
+        ↓
+23 Governments & Performance Tracking
+        ↓
+24 Governance Case Studies
 ```
 
 For most readers, the highest-ROI starting sequence is:

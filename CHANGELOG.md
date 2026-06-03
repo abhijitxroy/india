@@ -4,6 +4,51 @@ All notable changes to this repository will be documented in this file.
 
 ---
 
+# v1.26.0 - Repository Architecture Consolidation
+
+Release Date: 2026-06-04
+
+## Added
+
+### Defence & National Security Knowledge System
+
+Completed the dedicated Defence & National Security domain including:
+
+- Armed Forces
+- Military History
+- Defence Industry
+- Defence Organisations & Agencies
+- Defence Budget & Modernisation
+- Missile Systems
+- Air & Missile Defence
+- Intelligence Ecosystem
+- Space Security
+- Defence Platforms
+- Paramilitary Forces
+
+### Repository Architecture Refinement
+
+Repository learning flow reorganized into:
+
+```text
+01-17 Core India Learning Journey
+        ↓
+18 Defence & National Security
+        ↓
+19 Glossary
+        ↓
+20 Diagrams
+        ↓
+21 Reference Material
+        ↓
+22 India Timelines
+        ↓
+23 Governments Performance Tracking
+        ↓
+24 Governance Case Studies
+
+---
+
 # v1.25.0 - Defence & National Security Expansion
 
 Release Date: 2026-06-03

@@ -13,6 +13,28 @@ These case studies help explain:
 - What challenges emerged
 - What lessons future policymakers can learn
 
+## Purpose
+
+This section serves as the practical-governance learning layer of the repository.
+
+It examines how governments translated policies, reforms, and ideas into real-world outcomes through implementation, administration, technology, institutions, and public-service delivery.
+
+## Repository Structure
+
+```text
+24-governance-case-studies/
+├── green-revolution.md
+├── white-revolution.md
+├── economic-liberalization-1991.md
+├── gst-implementation.md
+├── rti-act-impact.md
+├── jam-trinity.md
+├── aadhaar-and-dbt.md
+├── upi-digital-payments.md
+├── swachh-bharat-mission.md
+└── covid-19-governance-response.md
+```
+
 ## Why Governance Case Studies Matter
 
 Governance is not only about institutions and laws.
@@ -34,6 +56,34 @@ flowchart LR
     C --> D
     D --> E
 ```
+
+## Case Study Analysis Framework
+
+Every case study should be examined through:
+
+```text
+Problem
+    ↓
+Policy Design
+    ↓
+Implementation
+    ↓
+Challenges
+    ↓
+Outcomes
+    ↓
+Lessons Learned
+```
+
+## Why Case Studies Matter
+
+Case studies help learners:
+
+- Connect theory with practice
+- Understand implementation challenges
+- Evaluate policy outcomes
+- Learn from successes and failures
+- Build analytical thinking skills
 
 ## Learning Path
 
@@ -127,6 +177,20 @@ flowchart LR
     I --> J
 ```
 
+## Governance Coverage
+
+Current case studies cover:
+
+- Agriculture and food security
+- Economic reforms
+- Tax reform
+- Transparency and accountability
+- Financial inclusion
+- Digital governance
+- Welfare delivery
+- Public health and sanitation
+- Crisis governance
+
 ## Interview Priority Matrix
 
 | Case Study                   | Interview Importance | Governance Importance |
@@ -141,6 +205,20 @@ flowchart LR
 | UPI                          | Very High            | Very High             |
 | Swachh Bharat Mission        | Medium               | High                  |
 | COVID-19 Response            | High                 | High                  |
+
+## How To Use This Section
+
+### Beginners
+
+Understand the problem, policy, implementation model, and outcome.
+
+### Interview Preparation
+
+Focus on achievements, limitations, criticisms, and lessons learned.
+
+### Governance Analysis
+
+Compare case studies to identify common implementation patterns and policy trade-offs.
 
 ## Quick Revision
 
@@ -159,14 +237,15 @@ flowchart LR
 
 ## Related Repository Sections
 
-- Government Structure
 - Public Administration
+- Major Laws and Reforms
 - Economic Transformations
 - Social Transformations
 - Contemporary India
-- Government Performance Tracking
-- Diagrams
+- Governments Performance Tracking
 - India Timelines
+- Reference Material
+- Defence and National Security
 
 ## Future Expansion
 
