@@ -4,6 +4,68 @@ All notable changes to this repository will be documented in this file.
 
 ---
 
+# v1.27.0 - Military History Reorganization
+
+Release Date: 2026-06-04
+
+## Added
+
+### Military History Knowledge Structure
+
+Completed military history reorganization into dedicated learning domains:
+
+- Wars
+- Military Operations
+- Counter-Terror Operations
+- Humanitarian & Evacuation Missions
+- Peacekeeping
+
+### War Coverage Expansion
+
+Added and organized coverage for:
+
+- First Indo-Pak War (1947-48)
+- Sino-Indian War (1962)
+- Indo-Pak War (1965)
+- Indo-Pak War (1971)
+- Kargil War (1999)
+
+### Military History Navigation System
+
+Added dedicated README learning hubs for:
+
+- Military History
+- Wars
+- Military Operations
+- Counter-Terror Operations
+- Humanitarian & Evacuation Missions
+- Peacekeeping
+
+## Improved
+
+### Defence & National Security Structure
+
+- Reorganized military-history into scalable subdomains
+- Improved repository navigation
+- Improved learning progression for defence topics
+- Added category-based military learning paths
+- Synchronized defence documentation hierarchy
+
+### Repository Synchronization
+
+- Updated Defence & National Security README
+- Updated root README
+- Updated TODO roadmap
+- Updated military-history navigation
+
+## Significance
+
+This release transforms military history from a flat collection of files into a structured learning system.
+
+The repository now provides dedicated learning paths for wars, military operations, counter-terror operations, humanitarian missions, and peacekeeping while maintaining chronological and thematic progression for long-term study and interview preparation.
+
+---
+
 # v1.26.0 - Repository Architecture Consolidation
 
 Release Date: 2026-06-04

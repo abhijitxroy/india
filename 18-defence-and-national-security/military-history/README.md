@@ -1,5 +1,3 @@
-
-
 # Military History
 
 ## Why It Matters
@@ -23,18 +21,51 @@ By studying wars, military operations, humanitarian missions and peacekeeping ef
 
 ---
 
+## Repository Structure
+
+```text
+military-history
+├── wars
+│   ├── 1947-48-war.md
+│   ├── 1962-war.md
+│   ├── 1965-war.md
+│   ├── 1971-war.md
+│   └── 1999-kargil-war.md
+│
+├── military-operations
+│   ├── operation-meghdoot.md
+│   ├── operation-cactus.md
+│   ├── operation-parakram.md
+│   └── operation-sindoor.md
+│
+├── counter-terror-operations
+│   ├── surgical-strikes-2016.md
+│   └── balakot-air-strike.md
+│
+├── humanitarian-evacuation-missions
+│   ├── operation-maitri.md
+│   ├── operation-rahat.md
+│   ├── operation-devi-shakti.md
+│   └── operation-ganga.md
+│
+└── peacekeeping
+    └── un-peacekeeping-missions.md
+```
+
+---
+
 ## Military History Timeline
 
 ```mermaid
 flowchart LR
-    War1947[1947-48 War]
+    War1947[1947-48 Indo-Pak War]
     Goa1961[Goa Liberation]
     War1962[1962 War]
     War1965[1965 War]
     War1971[1971 War]
     Meghdoot1984[Operation Meghdoot]
     Cactus1988[Operation Cactus]
-    Kargil1999[Kargil War]
+    Kargil1999[Kargil War 1999]
     Parakram2001[Operation Parakram]
     Surgical2016[Surgical Strikes]
     Balakot2019[Balakot Air Strike]
@@ -59,33 +90,74 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    Wars[Wars and Conflicts]
-    Operations[Military Operations]
-    CounterTerror[Counter-Terror Operations]
-    Humanitarian[Humanitarian Missions]
-    Peacekeeping[UN Peacekeeping]
 
-    Wars --> Operations
-    Operations --> CounterTerror
-    CounterTerror --> Humanitarian
-    Humanitarian --> Peacekeeping
+A[Military History]
+
+A --> B[Wars]
+A --> C[Military Operations]
+A --> D[Counter-Terror Operations]
+A --> E[Humanitarian Missions]
+A --> F[Peacekeeping]
 ```
 
 ---
 
-## Major Military Operations
+## Military History Categories
 
-### Historical Operations
+### Wars
+
+- 1947-48 Indo-Pak War
+- 1962 Sino-Indian War
+- 1965 Indo-Pak War
+- 1971 Indo-Pak War
+- Kargil War (1999)
+
+### Military Operations
 
 - Operation Meghdoot
 - Operation Cactus
 - Operation Parakram
+- Operation Sindoor
 
-### Modern Counter-Terror Operations
+### Counter-Terror Operations
 
 - Surgical Strikes (2016)
 - Balakot Air Strike (2019)
-- Operation Sindoor (2025)
+
+### Humanitarian and Evacuation Missions
+
+- Operation Maitri
+- Operation Rahat
+- Operation Devi Shakti
+- Operation Ganga
+
+### Peacekeeping
+
+- UN Peacekeeping Missions
+
+---
+
+## Major Wars
+
+### Post-Independence Wars
+
+| Conflict | Significance |
+|-----------|-------------|
+| 1947-48 Indo-Pak War | First war after independence and accession of Jammu and Kashmir |
+| 1962 Sino-Indian War | Exposed defence weaknesses and triggered military reforms |
+| 1965 Indo-Pak War | Demonstrated India's military recovery after 1962 |
+| 1971 Indo-Pak War | Led to the creation of Bangladesh |
+| Kargil War (1999) | High-altitude conflict resulting in Indian victory |
+
+```mermaid
+flowchart LR
+
+A[1947-48]
+--> B[1962]
+--> C[1965]
+--> D[1971]
+--> E[Kargil 1999]
+```
 
 ---
 
@@ -147,16 +219,16 @@ India's military doctrine has evolved through operational experience, technologi
 
 ## Quick Revision
 
-- 1947–48: First Indo-Pak War.
+- 1947-48: First Indo-Pak War over Jammu and Kashmir.
 - 1961: Goa Liberation.
-- 1962: Sino-Indian War.
-- 1965: Indo-Pak War.
-- 1971: Bangladesh Liberation War.
-- 1984: Operation Meghdoot.
-- 1988: Operation Cactus.
-- 1999: Kargil War.
-- 2001–02: Operation Parakram.
-- 2016: Surgical Strikes.
+- 1962: Sino-Indian War with China.
+- 1965: Second Indo-Pak War.
+- 1971: Bangladesh Liberation War and creation of Bangladesh.
+- 1984: Operation Meghdoot secured key Siachen positions.
+- 1988: Operation Cactus in Maldives.
+- 1999: Kargil War and Operation Vijay.
+- 2001-02: Operation Parakram military mobilization.
+- 2016: Surgical Strikes across the LoC.
 - 2019: Balakot Air Strike.
 - 2025: Operation Sindoor.
 
@@ -168,9 +240,17 @@ India's military doctrine has evolved through operational experience, technologi
 
 Military history provides lessons about strategy, leadership, logistics, intelligence and national security.
 
+### Why are wars and military operations studied separately?
+
+Wars are large-scale armed conflicts between states, while military operations are focused missions conducted to achieve specific strategic or tactical objectives. Studying them separately helps understand different levels of military planning and execution.
+
 ### Why is the 1971 war important?
 
 It resulted in the creation of Bangladesh and remains one of India's most significant military victories.
+
+### Why are the 1962 and 1965 wars important?
+
+The 1962 war exposed critical defence weaknesses, while the 1965 war demonstrated India's military recovery and operational improvements. These conflicts shaped future defence reforms and military planning.
 
 ### Why is Operation Meghdoot important?
 

@@ -1,5 +1,3 @@
-
-
 # Major Military Operations
 
 ## Why It Matters

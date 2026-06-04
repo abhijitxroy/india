@@ -579,9 +579,43 @@ Understanding India's military, strategic, intelligence, defence-industrial, and
 
 This section expands the defence and national-security topics introduced in "16. Foreign Policy & Defence" and provides deeper military, intelligence, strategic, and defence-industry coverage.
 
+### Repository Structure
+
+```text
+18-defence-and-national-security
+├── military-history
+│   ├── wars
+│   ├── military-operations
+│   ├── counter-terror-operations
+│   ├── humanitarian-evacuation-missions
+│   └── peacekeeping
+├── armed-forces
+├── paramilitary-forces
+├── defence-organisations-and-agencies
+├── intelligence
+├── missile-systems
+├── air-and-missile-defence
+├── space-security
+├── defence-platforms
+├── defence-industry
+└── defence-budget-and-modernisation
+```
+
+---
+
+### Defence & National Security Learning Areas
+
+| Area | Focus |
+| -------- | -------- |
+| Military History | Wars, operations, campaigns, and military lessons |
+| Armed Forces | Army, Navy, Air Force, CDS, commands |
+| Intelligence | RAW, IB, NTRO and intelligence ecosystem |
+| Defence Industry | Indigenous defence manufacturing and procurement |
+| National Security | Strategy, deterrence, border security, modernization |
+
 ### Coverage
 
-- Military History
+- Military History (Wars, Operations, Counter-Terror, Humanitarian Missions, Peacekeeping)
 - Armed Forces
 - Paramilitary Forces
 - Defence Organisations & Agencies

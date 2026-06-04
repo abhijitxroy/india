@@ -28,6 +28,11 @@ This section provides a structured understanding of India's defence ecosystem, m
 18-defence-and-national-security/
 ├── README.md
 ├── military-history/
+│   ├── wars/
+│   ├── military-operations/
+│   ├── counter-terror-operations/
+│   ├── humanitarian-evacuation-missions/
+│   └── peacekeeping/
 ├── armed-forces/
 ├── paramilitary-forces/
 ├── defence-organisations-and-agencies/
@@ -84,11 +89,22 @@ flowchart TD
 
 Covers:
 
-- Major wars and conflicts
+- Wars and conflicts
 - Military operations
-- Strategic lessons
-- Joint operations
-- Peacekeeping missions
+- Counter-terror operations
+- Humanitarian and evacuation missions
+- UN peacekeeping missions
+- Strategic and operational lessons
+
+### Military History Structure
+
+| Area | Focus |
+|--------|--------|
+| Wars | Major military conflicts involving India |
+| Military Operations | Strategic and operational military actions |
+| Counter-Terror Operations | Precision responses against terrorist threats |
+| Humanitarian Missions | Disaster relief and evacuation operations |
+| Peacekeeping | India's contribution to UN peacekeeping missions |
 
 ### Armed Forces
 

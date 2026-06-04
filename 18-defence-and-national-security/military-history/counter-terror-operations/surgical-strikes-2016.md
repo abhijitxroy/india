@@ -1,5 +1,3 @@
-
-
 # Surgical Strikes (2016)
 
 ## Why It Matters

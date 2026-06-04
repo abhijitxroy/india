@@ -291,7 +291,7 @@ Current Status:
 
 ```text
 Foreign Policy Foundation           Partial
-Military History                    ✅
+Military History (Reorganized)     ✅
 Missile & Space Defence             ✅
 Paramilitary Forces                 ✅
 Defence Organisations & Agencies    ✅
@@ -300,6 +300,20 @@ Defence Timelines                   ✅
 National Security Foundation        ✅
 Cyber Warfare & Information Warfare Planned
 ```
+
+### Completed Military History Foundation
+
+- Military History reorganization ✅
+- Wars subsection established ✅
+- Military Operations subsection established ✅
+- Counter-Terror Operations subsection established ✅
+- Humanitarian & Evacuation Missions subsection established ✅
+- Peacekeeping subsection established ✅
+- 1947-48 War coverage ✅
+- 1962 War coverage ✅
+- 1965 War coverage ✅
+- 1971 War coverage ✅
+- Kargil War coverage ✅
 
 - Add Foreign Policy & Defence README ✅
 - Add learning priority framework (P1/P2/P3)
@@ -352,6 +366,16 @@ Cyber Warfare & Information Warfare Planned
 
 ### Next Priority
 
+- Expand 1947-48 War
+- Expand 1962 War
+- Expand 1965 War
+- Expand 1971 War
+- Expand Kargil War
+- Add Operation Vijay (Goa Liberation)
+- Add Operation Pawan
+- Add Operation Trident
+- Add Operation Python
+- Add Military History diagrams and campaign maps
 - Cyber Warfare, Electronic Warfare & Information Warfare
 - Intelligence Agencies Overview
 - Counter-Terrorism Framework
