@@ -65,10 +65,9 @@ flowchart TD
     NSC[NSC]
 
     Modern[Modern Intelligence Domains]
-    SIGINT[SIGINT]
-    EW[Electronic Warfare]
-    Cyber[Cyber Warfare]
-    IW[Information Warfare]
+    SIGINT[Signals Intelligence]
+    COMINT[Communications Intelligence]
+    ELINT[Electronic Intelligence]
 
     Agencies --> Coordination
     Coordination --> Modern
@@ -84,9 +83,8 @@ flowchart TD
     JIC --> NSC
 
     Modern --> SIGINT
-    SIGINT --> EW
-    EW --> Cyber
-    Cyber --> IW
+    SIGINT --> COMINT
+    COMINT --> ELINT
 ```
 
 ---
@@ -122,10 +120,10 @@ intelligence/
 │   ├── jic.md
 │   └── nsc.md
 └── modern-intelligence-domains/
-    ├── sigint.md
-    ├── electronic-warfare.md
-    ├── cyber-warfare.md
-    └── information-warfare.md
+    ├── README.md
+    ├── signals-intelligence.md
+    ├── communications-intelligence.md
+    └── electronic-intelligence.md
 ```
 
 ---
@@ -206,9 +204,8 @@ Responsible for:
 Focus on:
 
 - Signals Intelligence (SIGINT)
-- Electronic Warfare (EW)
-- Cyber Warfare
-- Information Warfare
+- Communications Intelligence (COMINT)
+- Electronic Intelligence (ELINT)
 
 ---
 
@@ -276,10 +273,10 @@ Intelligence helps India:
 - MAC enables intelligence sharing.
 - JIC performs intelligence assessment.
 - NIA investigates terrorism-related offences.
-- SIGINT focuses on communications and electronic signals.
-- Electronic Warfare operates in the electromagnetic spectrum.
-- Cyber Warfare targets digital systems and infrastructure.
-- Information Warfare focuses on influence and information environments.
+- SIGINT is a major signals-intelligence discipline.
+- COMINT focuses on communication signals.
+- ELINT focuses on non-communication electronic emissions.
+- Modern intelligence supports military and national-security decision making.
 
 ---
 

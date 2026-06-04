@@ -10,6 +10,40 @@ This section covers the major military platforms operated by the Indian Armed Fo
 
 ---
 
+## Repository Structure
+
+```text
+defence-platforms
+├── README.md
+├── air-force-platforms
+│   ├── README.md
+│   ├── fighter-aircraft.md
+│   ├── transport-aircraft.md
+│   ├── helicopters.md
+│   ├── drones.md
+│   ├── airborne-warning-systems.md
+│   └── trainers.md
+├── army-platforms
+│   ├── README.md
+│   ├── tanks.md
+│   ├── artillery.md
+│   ├── armoured-vehicles.md
+│   ├── infantry-weapons.md
+│   ├── air-defence-systems.md
+│   └── logistics-vehicles.md
+└── navy-platforms
+    ├── README.md
+    ├── aircraft-carriers.md
+    ├── destroyers.md
+    ├── frigates.md
+    ├── corvettes.md
+    ├── submarines.md
+    ├── amphibious-ships.md
+    └── naval-aviation.md
+```
+
+---
+
 ## Defence Platform Ecosystem
 
 ```mermaid
@@ -39,13 +73,26 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    AirForce[Air Force Platforms]
-    Army[Army Platforms]
-    Navy[Navy Platforms]
 
-    AirForce --> Army
-    Army --> Navy
+A[Defence Platforms]
+--> B[Air Force Platforms]
+--> C[Army Platforms]
+--> D[Navy Platforms]
+
+B --> E[Air Power]
+C --> F[Land Warfare]
+D --> G[Sea Power]
 ```
+
+---
+
+## Platform Categories
+
+| Service | Primary Platform Categories |
+| -------- | -------- |
+| Indian Air Force | Fighters, Transport Aircraft, Helicopters, Drones, AWACS, Trainers |
+| Indian Army | Tanks, Artillery, Armoured Vehicles, Infantry Weapons, Air Defence Systems |
+| Indian Navy | Aircraft Carriers, Destroyers, Frigates, Corvettes, Submarines, Naval Aviation |
 
 ---
 
@@ -189,6 +236,7 @@ flowchart TD
 - Navy platforms protect maritime interests and support power projection.
 - Modern warfare depends on the integration of land, sea and air platforms.
 - Technology, mobility, firepower and situational awareness determine military effectiveness.
+- Each service branch operates specialized platforms optimized for its operational environment.
 
 ---
 

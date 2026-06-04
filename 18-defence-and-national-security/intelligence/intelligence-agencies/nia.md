@@ -1,5 +1,3 @@
-
-
 # National Investigation Agency (NIA)
 
 ## Why It Matters

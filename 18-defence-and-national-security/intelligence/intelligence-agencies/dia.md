@@ -1,5 +1,3 @@
-
-
 # Defence Intelligence Agency (DIA)
 
 ## Why It Matters

@@ -1,5 +1,3 @@
-
-
 # National Technical Research Organisation (NTRO)
 
 ## Why It Matters

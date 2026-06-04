@@ -1,5 +1,3 @@
-
-
 # National Security Council (NSC)
 
 ## Why It Matters

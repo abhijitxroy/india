@@ -1,5 +1,3 @@
-
-
 # Defence Organisations and Agencies
 
 ## Why It Matters

@@ -1,5 +1,3 @@
-
-
 # Research and Analysis Wing (RAW)
 
 ## Why It Matters

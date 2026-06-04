@@ -1,5 +1,3 @@
-
-
 # Signals Intelligence (SIGINT)
 
 ## Why It Matters

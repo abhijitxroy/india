@@ -1,5 +1,3 @@
-
-
 # Information Warfare
 
 ## Why It Matters

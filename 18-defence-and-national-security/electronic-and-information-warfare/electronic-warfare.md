@@ -1,5 +1,3 @@
-
-
 # Electronic Warfare (EW)
 
 ## Why It Matters

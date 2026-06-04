@@ -1,5 +1,3 @@
-
-
 # Intelligence Coordination
 
 ## Why It Matters
