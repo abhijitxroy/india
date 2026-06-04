@@ -18,7 +18,7 @@ Together, these institutions help protect India's sovereignty, territorial integ
 | Purpose | Intelligence Collection, Analysis and Coordination |
 | Coverage | Internal, External, Military and Technical Intelligence |
 | Key Objective | Threat Detection and National Security |
-| Major Agencies | IB, RAW, DIA, NTRO, NIA |
+| Major Agencies | IB, RAW, DIA, NTRO |
 | Strategic Importance | National Security Decision-Making |
 
 ---
