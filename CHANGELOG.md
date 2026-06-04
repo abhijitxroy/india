@@ -4,6 +4,76 @@ All notable changes to this repository will be documented in this file.
 
 ---
 
+# v1.28.0 - Repository Domain Expansion & Architecture Reorganization
+
+Release Date: 2026-06-04
+
+## Added
+
+### New Knowledge Domains
+
+Added five new top-level learning domains:
+
+- Home Affairs
+- Science & Space
+- Economy
+- Institutions
+- Jobs & Careers
+- Heritage & Culture
+
+### Home Affairs Coverage
+
+Added coverage for:
+
+- Internal Security
+- Border Management
+- Counter Terrorism
+- Cyber Crime
+- Police System
+- CAPFs
+- Disaster Management
+- NIA, CBI, CID, NCB and NCRB
+
+### Repository Reorganization
+
+Reorganized repository architecture from a 24-domain structure to a 30-domain structure.
+
+New top-level sequence:
+
+```text
+16 Foreign Policy
+17 Contemporary India
+18 Defence & National Security
+19 Home Affairs
+20 Science & Space
+21 Economy
+22 Institutions
+23 Jobs & Careers
+24 Heritage & Culture
+25 Glossary
+26 Diagrams
+27 Reference Material
+28 India Timelines
+29 Governments Performance Tracking
+30 Governance Case Studies
+```
+
+## Improved
+
+- Separated Foreign Policy from Defence topics
+- Moved internal-security topics into Home Affairs
+- Moved GST into Economy taxonomy
+- Improved repository ownership boundaries
+- Improved long-term scalability of repository structure
+- Updated root README navigation
+- Updated repository learning flow
+
+## Significance
+
+This release completes the transition from a politics-and-governance repository into a broader India knowledge system covering governance, security, economy, institutions, science, careers, culture and national development domains.
+
+---
+
 # v1.27.0 - Military History Reorganization
 
 Release Date: 2026-06-04

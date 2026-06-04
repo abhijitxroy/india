@@ -497,58 +497,20 @@ P3
 
 ---
 
-## 16. Foreign Policy & Defence
+## 16. Foreign Policy
 
 Understanding India's place in the world.
 
 - Foreign Policy
 - Strategic Autonomy
 - National Security
-- Defence Policy
 - Neighbourhood First Policy
 - Act East Policy
 - Nuclear Doctrine
-- Armed Forces Overview
-- Chief of Defence Staff (CDS)
-- Defence Modernization
 - India-China Relations
 - India-Pakistan Relations
 - India and United Nations
 - International Organizations
-- Indo-Pak War (1947-48)
-- Sino-Indian War (1962)
-- Indo-Pak War (1965)
-- Indo-Pak War (1971)
-- Kargil War (1999)
-- Surgical Strikes (2016)
-- Balakot Airstrike (2019)
-
-### Priority Learning Order
-
-```text
-P1 (Highest ROI)
-├── Foreign Policy
-├── National Security
-├── Defence Policy
-├── Strategic Autonomy
-├── Armed Forces
-├── India-China Relations
-└── India-Pakistan Relations
-
-P2
-├── Neighbourhood First Policy
-├── Act East Policy
-├── Nuclear Doctrine
-├── Defence Modernization
-├── India and United Nations
-└── International Organizations
-
-P3
-├── Chief of Defence Staff
-├── Major Wars
-├── Surgical Strikes (2016)
-└── Balakot Airstrike (2019)
-```
 
 ---
 
@@ -561,63 +523,14 @@ Understanding how India functions in the contemporary era.
 - Contemporary Public Policy
 - Contemporary States & Union Territories
 
-### Priority Learning Order
-
-```text
-P1 (Highest ROI)
-├── Contemporary Governance
-├── Contemporary Parliament
-├── Contemporary Public Policy
-└── Contemporary States & Union Territories
-```
-
 ---
 
 ## 18. Defence & National Security
 
-Understanding India's military, strategic, intelligence, defence-industrial, and national-security ecosystem.
+Understanding India's military, strategic, intelligence, defence-industrial and national-security ecosystem.
 
-This section expands the defence and national-security topics introduced in "16. Foreign Policy & Defence" and provides deeper military, intelligence, strategic, and defence-industry coverage.
-
-### Repository Structure
-
-```text
-18-defence-and-national-security
-├── military-history
-│   ├── wars
-│   ├── military-operations
-│   ├── counter-terror-operations
-│   ├── humanitarian-evacuation-missions
-│   └── peacekeeping
-├── armed-forces
-├── paramilitary-forces
-├── defence-organisations-and-agencies
-├── intelligence
-├── missile-systems
-├── air-and-missile-defence
-├── space-security
-├── defence-platforms
-├── defence-industry
-└── defence-budget-and-modernisation
-```
-
----
-
-### Defence & National Security Learning Areas
-
-| Area | Focus |
-| -------- | -------- |
-| Military History | Wars, operations, campaigns, and military lessons |
-| Armed Forces | Army, Navy, Air Force, CDS, commands |
-| Intelligence | RAW, IB, NTRO and intelligence ecosystem |
-| Defence Industry | Indigenous defence manufacturing and procurement |
-| National Security | Strategy, deterrence, border security, modernization |
-
-### Coverage
-
-- Military History (Wars, Operations, Counter-Terror, Humanitarian Missions, Peacekeeping)
+- Military History
 - Armed Forces
-- Paramilitary Forces
 - Defence Organisations & Agencies
 - Intelligence
 - Missile Systems
@@ -629,103 +542,142 @@ This section expands the defence and national-security topics introduced in "16.
 
 ---
 
-## 19. Glossary
+## 19. Home Affairs
 
-Central terminology reference covering:
+Understanding internal security, policing, CAPFs, disaster management and the Ministry of Home Affairs.
 
-- Political Terminology
-- Constitutional Terminology
-- Governance Terminology
-- Administrative Terminology
-- Parliamentary Terminology
-- Election Terminology
-- Judicial Terminology
-- Legal Terminology
-- Economic Terminology
-- Foreign Policy Terminology
+- Internal Security
+- Border Management
+- Counter Terrorism
+- Cyber Crime
+- Police System
+- CAPFs
+- Disaster Management
+- NIA, CBI, NCB and other agencies
 
 ---
 
-## 20. Visual Diagrams & Learning Maps
+## 20. Science & Space
 
-Repository-wide visual learning system covering:
+Understanding India's scientific, technological, nuclear and space ecosystem.
 
-- History
-- Constitution
-- Elections
-- Parliament
-- Government Structure
-- Governance
-- Judiciary
-- Political Parties
-- Timelines
-
----
-
-## 21. Reference Material
-
-Official sources and research references including:
-
-- Constitution Resources
-- Parliament Resources
-- Judiciary Resources
-- Election Commission Resources
-- Government Portals
-- Budget Resources
-- Economic Survey Resources
-- Census & Statistics Resources
-- Official Reports & Commissions
+- ISRO
+- Chandrayaan
+- Gaganyaan
+- Mangalyaan
+- NavIC
+- BARC
+- NPCIL
+- CSIR
+- Artificial Intelligence
+- Quantum Technology
+- Semiconductors
 
 ---
 
-## 22. India Timelines
+## 21. Economy
 
-Chronological learning and revision hub covering:
+Understanding India's economy, banking, taxation, trade and development.
 
-- Civilization Timeline
-- Freedom Struggle Timeline
-- Constitutional Development Timeline
-- Election Timeline
-- Political Party Timeline
-- Prime Minister Timeline
-- President Timeline
-- State Formation Timeline
-- Major Laws Timeline
-- Economic Reforms Timeline
-
----
-
-## 23. Governments & Performance Tracking
-
-Evidence-based governance evaluation frameworks covering:
-
-- Citizen Accountability
-- Governance Performance
-- Economic Performance
-- Infrastructure Performance
-- Education Performance
-- Healthcare Performance
-- Social Development
-- Manifesto vs Performance
-- Central Government Evaluation
-- State Government Comparison
+- GDP
+- Inflation
+- Fiscal Deficit
+- Union Budget
+- RBI
+- Monetary Policy
+- GST
+- Direct Tax
+- Indirect Tax
+- Agriculture
+- Manufacturing
+- Services
+- Exports & Imports
+- Forex Reserves
 
 ---
 
-## 24. Governance Case Studies
+## 22. Institutions
 
-Real-world governance and policy implementation case studies covering:
+Understanding constitutional bodies, regulators, commissions and accountability institutions.
 
-- Green Revolution
-- White Revolution
-- Economic Liberalization (1991)
-- GST Implementation
-- RTI Act Impact
-- JAM Trinity
-- Aadhaar & DBT
-- UPI Digital Payments
-- Swachh Bharat Mission
-- COVID-19 Governance Response
+- CAG
+- Lokpal
+- Finance Commission
+- NHRC
+- NCW
+- SEBI
+- TRAI
+- IRDAI
+- CCI
+
+---
+
+## 23. Jobs & Careers
+
+Understanding major government career paths and competitive examinations.
+
+- UPSC
+- IAS
+- IPS
+- IFS
+- NDA
+- AFCAT
+- SSC CGL
+- IBPS
+- SBI PO
+- RRB
+- State PSC
+
+---
+
+## 24. Heritage & Culture
+
+Understanding India's cultural, civilizational and heritage assets.
+
+- Taj Mahal
+- Red Fort
+- Konark Sun Temple
+- Indian Classical Dances
+- Indian Classical Music
+- Museums
+- National Archives
+- UNESCO World Heritage Sites
+
+---
+
+## 25. Glossary
+
+Central terminology reference covering political, constitutional, governance, legal, judicial, economic and foreign-policy terminology.
+
+---
+
+## 26. Visual Diagrams & Learning Maps
+
+Repository-wide visual learning system and Mermaid-based revision assets.
+
+---
+
+## 27. Reference Material
+
+Official sources, reports, portals and research references.
+
+---
+
+## 28. India Timelines
+
+Chronological learning and revision hub covering major events, institutions and reforms.
+
+---
+
+## 29. Governments & Performance Tracking
+
+Evidence-based governance evaluation and accountability frameworks.
+
+---
+
+## 30. Governance Case Studies
+
+Real-world governance and public-policy implementation case studies.
 
 ---
 
