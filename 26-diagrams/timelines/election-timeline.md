@@ -1,5 +1,3 @@
-
-
 # Election Timeline
 
 ## Overview
@@ -185,12 +183,3 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
-
-- election-process-flow.md
-- voter-to-government-journey.md
-- election-result-analysis-framework.md
-- constitutional-development-timeline.md
-- prime-ministers-timeline.md
-- elections-and-democracy.md
