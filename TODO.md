@@ -9,12 +9,20 @@ This document tracks planned enhancements and long-term roadmap items for the re
 The following repository sections are considered foundation complete and should be maintained, expanded, and refined as needed:
 
 - 18-defence-and-national-security ✅
+- 19-home-affairs ✅
+- 20-science-space ✅
+- 21-economy ✅
+- 22-institutions ✅
+- 23-jobs ✅
+- 24-heritage ✅
 - 25-glossary ✅
 - 26-diagrams ✅
 - 27-reference-material ✅
 - 28-india-timelines ✅
 - 29-governments-performance-tracking ✅
 - 30-governance-case-studies ✅
+
+Current focus should remain on deepening content quality inside existing domains rather than creating new top-level domains.
 
 ---
 
@@ -118,7 +126,7 @@ Status: Planned
 
 ---
 
-## Phase 3 - Foreign Policy & National Security
+## Phase 3 - Foreign Policy, Defence & Home Affairs
 
 Status: In Progress
 
@@ -146,6 +154,40 @@ Status: In Progress
 - India-Pakistan Relations Timeline
 - Foreign policy case studies
 - National security case studies
+
+### Home Affairs
+
+- Internal Security
+- Police Reforms
+- Intelligence Coordination
+- Border Management
+- Disaster Management
+- Counter Terrorism Case Studies
+- CAPF Deep Dives
+
+### Science & Space
+
+- ISRO Missions Expansion
+- Nuclear Programme Expansion
+- Emerging Technologies
+- Research Institutions
+- Space Security Integration
+
+### Economy
+
+- RBI Deep Dive
+- Banking System
+- Taxation Framework
+- Infrastructure Development
+- Trade Ecosystem
+- Economic Indicators Dashboard
+
+### Institutions
+
+- Constitutional Bodies Expansion
+- Regulatory Institutions
+- Watchdog Institutions
+- Commission Profiles
 
 ---
 
@@ -259,35 +301,3 @@ Primary Focus:
 3. Remaining States
 
 ---
-
-## Diagram Cleanup Initiative
-
-Status: Planned
-
-Current Findings:
-
-- Many diagram files still contain `## Related Topics`
-- Some diagram READMEs contain legacy navigation sections
-- Repository standard no longer uses:
-  - Related Topics
-  - See Also
-  - Further Reading
-  - Generic conclusion sections
-
-Tasks:
-
-- Remove all Related Topics sections from 20-diagrams
-- Remove all See Also sections from 20-diagrams
-- Remove all Further Reading sections from 20-diagrams
-- Align all diagram files with repository standards
-- Verify Mermaid rendering remains intact
-- Update diagram READMEs where necessary
-- Ensure diagram navigation is handled through README hierarchy only
-
-Success Criteria:
-
-- Zero Related Topics sections in 20-diagrams
-- Zero See Also sections in 20-diagrams
-- Zero Further Reading sections in 20-diagrams
-- Consistent formatting across all diagram files
-- Repository-standard visual learning structure maintained
