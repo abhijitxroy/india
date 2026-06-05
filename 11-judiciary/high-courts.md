@@ -1,5 +1,4 @@
 
-
 # High Courts in India
 
 ## Overview

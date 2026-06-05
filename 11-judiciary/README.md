@@ -1,5 +1,4 @@
 
-
 # Judiciary of India
 
 ## Overview
@@ -123,8 +122,8 @@ Subordinate Courts
 
 ## Related Sections
 
-- 03-constitution-and-nation-building
-- 04-government-structure
-- 08-presidents-and-vice-presidents
+- 03-constitution
+- 04-government
+- 08-presidents
 - 10-parliament-and-law-making
-- 12-public-administration-and-governance
+- 12-administration

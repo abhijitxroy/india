@@ -1,5 +1,4 @@
 
-
 # Judicial Review in India
 
 ## Overview

@@ -1,5 +1,4 @@
 
-
 # Foreign Policy of India
 
 ## Overview

@@ -1,5 +1,4 @@
 
-
 # Communist Party of India (Marxist) – CPI(M)
 
 ## Overview

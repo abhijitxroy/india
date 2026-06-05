@@ -8,19 +8,19 @@ This document tracks planned enhancements and long-term roadmap items for the re
 
 The following repository sections are considered foundation complete and should be maintained, expanded, and refined as needed:
 
-- 18-defence-and-national-security ✅
+- 18-defence ✅
 - 19-home-affairs ✅
-- 20-science-space ✅
-- 21-economy ✅
-- 22-institutions ✅
-- 23-jobs ✅
-- 24-heritage ✅
-- 25-glossary ✅
-- 26-diagrams ✅
-- 27-reference-material ✅
-- 28-india-timelines ✅
-- 29-governments-performance-tracking ✅
-- 30-governance-case-studies ✅
+- 21-science-and-space ✅
+- 22-economy ✅
+- 23-institutions ✅
+- 24-jobs ✅
+- 25-heritage ✅
+- 26-glossary ✅
+- 27-diagrams ✅
+- 28-reference-material ✅
+- 29-india-timelines ✅
+- 30-governments-performance-tracking ✅
+- 31-governance-case-studies ✅
 
 Current focus should remain on deepening content quality inside existing domains rather than creating new top-level domains.
 

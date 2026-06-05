@@ -1,5 +1,4 @@
 
-
 # Evolution of Political Parties in India
 
 ## Overview

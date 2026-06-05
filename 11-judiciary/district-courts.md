@@ -1,5 +1,4 @@
 
-
 # District Courts in India
 
 ## Overview

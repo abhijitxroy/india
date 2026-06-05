@@ -1,5 +1,4 @@
 
-
 # Judiciary of India
 
 ## Overview

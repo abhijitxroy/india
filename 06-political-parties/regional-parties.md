@@ -1,5 +1,4 @@
 
-
 # Regional Political Parties
 
 ## Overview

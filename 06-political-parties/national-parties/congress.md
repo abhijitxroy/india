@@ -1,5 +1,4 @@
 
-
 # Indian National Congress (INC)
 
 ## Overview
