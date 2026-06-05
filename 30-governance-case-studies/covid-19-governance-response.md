@@ -148,7 +148,7 @@ Key outcomes included:
 | Centre-State coordination is essential | High       |
 | Crisis communication matters           | High       |
 
-## Interview Questions
+## Key Concepts
 
 1. Why was COVID-19 considered a major governance challenge?
 2. What role did Centre-State coordination play during the pandemic?

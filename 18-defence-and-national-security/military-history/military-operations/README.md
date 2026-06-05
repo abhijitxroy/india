@@ -129,7 +129,7 @@ Recommended study order:
 
 ---
 
-## Interview Questions
+## Key Concepts
 
 ### Easy
 

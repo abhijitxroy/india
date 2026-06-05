@@ -254,7 +254,7 @@ flowchart LR
 
 ---
 
-## Interview Questions
+## Key Concepts
 
 ### Easy
 1. What is the primary role of fighter aircraft?

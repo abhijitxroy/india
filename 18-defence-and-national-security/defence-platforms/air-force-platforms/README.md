@@ -123,7 +123,7 @@ B --> I[Combat Power]
 
 ---
 
-## Interview Questions
+## Key Concepts
 
 ### Easy
 

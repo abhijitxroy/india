@@ -117,7 +117,7 @@ D --> G[Influence Operations]
 
 ---
 
-## Interview Questions
+## Key Concepts
 
 ### Easy
 

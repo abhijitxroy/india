@@ -168,7 +168,7 @@ Major outcomes include:
 | Financial inclusion supports development           | High       |
 | Technology requires strong security safeguards     | High       |
 
-## Interview Questions
+## Key Concepts
 
 1. What is UPI and why was it created?
 2. How does UPI support digital governance?

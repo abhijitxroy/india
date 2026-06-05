@@ -155,7 +155,7 @@ COMINT capabilities are used by intelligence agencies, defence organizations, an
 
 ---
 
-## Interview Questions
+## Key Concepts
 
 ### Easy
 

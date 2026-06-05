@@ -145,7 +145,7 @@ flowchart TD
 | Financial inclusion supports development      | High       |
 | Digital identity enables service delivery     | High       |
 
-## Interview Questions
+## Key Concepts
 
 1. What is the JAM Trinity?
 2. Why was the JAM framework created?

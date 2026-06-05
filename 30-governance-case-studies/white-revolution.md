@@ -150,7 +150,7 @@ Major outcomes included:
 | Technology improves productivity           | High       |
 | Citizen participation strengthens outcomes | High       |
 
-## Interview Questions
+## Key Concepts
 
 1. What was the objective of the White Revolution?
 2. What was Operation Flood?

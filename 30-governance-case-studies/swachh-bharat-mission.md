@@ -137,7 +137,7 @@ Major outcomes included:
 | Local implementation is critical                 | High       |
 | Long-term maintenance is essential               | High       |
 
-## Interview Questions
+## Key Concepts
 
 1. Why was Swachh Bharat Mission launched?
 2. What were the major objectives of the mission?

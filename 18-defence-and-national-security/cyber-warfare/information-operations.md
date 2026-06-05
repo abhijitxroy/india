@@ -149,7 +149,7 @@ Key areas include:
 
 ---
 
-## Interview Questions
+## Key Concepts
 
 ### Easy
 

@@ -131,7 +131,7 @@ Major outcomes included:
 | Long-term reforms need continuity             | High       |
 | Growth and inclusion should progress together | High       |
 
-## Interview Questions
+## Key Concepts
 
 1. Why were the 1991 reforms introduced?
 2. What do Liberalization, Privatization, and Globalization mean?

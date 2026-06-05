@@ -146,7 +146,7 @@ Major outcomes included:
 | Institutions require effective implementation capacity | High       |
 | Accountability mechanisms improve governance quality   | High       |
 
-## Interview Questions
+## Key Concepts
 
 1. Why was the RTI Act introduced?
 2. How does RTI improve accountability?

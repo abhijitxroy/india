@@ -169,7 +169,7 @@ Tri-service communication infrastructure supporting joint operations.
 
 ---
 
-## Interview Questions
+## Key Concepts
 
 ### Easy
 

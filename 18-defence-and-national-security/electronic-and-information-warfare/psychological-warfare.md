@@ -142,7 +142,7 @@ Important areas include:
 
 ---
 
-## Interview Questions
+## Key Concepts
 
 ### Easy
 

@@ -167,7 +167,7 @@ Observed outcomes include:
 | Transparency improves trust                      | Medium     |
 | Data protection is essential                     | High       |
 
-## Interview Questions
+## Key Concepts
 
 1. What problem was Aadhaar and DBT designed to solve?
 2. What is the JAM Trinity?

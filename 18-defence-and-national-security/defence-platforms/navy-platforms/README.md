@@ -131,7 +131,7 @@ H --> K[Maritime Awareness]
 
 ---
 
-## Interview Questions
+## Key Concepts
 
 ### Easy
 

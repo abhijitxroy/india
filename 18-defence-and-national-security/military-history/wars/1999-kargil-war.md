@@ -345,7 +345,7 @@ The lessons of Kargil continue to influence:
 
 ---
 
-## Interview Questions
+## Key Concepts
 
 ### Easy
 

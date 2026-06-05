@@ -132,7 +132,7 @@ This sequence shows India's military evolution from major setbacks to decisive v
 
 ---
 
-## Interview Questions
+## Key Concepts
 
 ### Easy
 

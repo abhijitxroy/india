@@ -124,7 +124,7 @@ Introduces institutions responsible for officer training and military leadership
 
 ---
 
-## Interview Questions
+## Key Concepts
 
 ### Easy
 

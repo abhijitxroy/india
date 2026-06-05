@@ -136,7 +136,7 @@ Major outcomes included:
 | Stakeholder coordination is essential           | High       |
 | Tax simplification improves efficiency          | High       |
 
-## Interview Questions
+## Key Concepts
 
 1. Why was GST introduced?
 2. What problems existed before GST?

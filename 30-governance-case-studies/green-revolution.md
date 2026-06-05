@@ -133,7 +133,7 @@ Major outcomes included:
 | Policy and technology must work together     | High       |
 | Sustainability should accompany growth       | High       |
 
-## Interview Questions
+## Key Concepts
 
 1. Why was the Green Revolution introduced?
 2. What were the major components of the Green Revolution?

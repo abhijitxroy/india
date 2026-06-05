@@ -123,7 +123,7 @@ Key organizations include:
 
 ---
 
-## Interview Questions
+## Key Concepts
 
 ### Easy
 

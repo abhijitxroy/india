@@ -155,7 +155,7 @@ Training personnel to identify and respond to cyber threats.
 
 ---
 
-## Interview Questions
+## Key Concepts
 
 ### Easy
 
