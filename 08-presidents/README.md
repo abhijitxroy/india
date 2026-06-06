@@ -1,4 +1,3 @@
-
 # Presidents and Vice Presidents of India
 
 ## Overview
@@ -56,13 +55,13 @@ Parliamentary Functions
 
 ### Major Presidents
 
-- rajendra-prasad.md
-- radhakrishnan.md
-- zakir-husain.md
-- vv-giri.md
-- kr-narayanan.md
-- apj-abdul-kalam.md
-- droupadi-murmu.md
+- 1950-1962-rajendra-prasad.md
+- 1962-1967-radhakrishnan.md
+- 1967-1969-zakir-husain.md
+- 1969-1974-vv-giri.md
+- 1997-2002-kr-narayanan.md
+- 2002-2007-apj-abdul-kalam.md
+- 2022-present-droupadi-murmu.md
 
 ---
 

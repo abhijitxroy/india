@@ -1,4 +1,3 @@
-
 # Presidents Timeline of India
 
 ## Overview

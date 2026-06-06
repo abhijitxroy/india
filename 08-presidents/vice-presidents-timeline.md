@@ -1,4 +1,3 @@
-
 # Vice Presidents Timeline of India
 
 ## Overview
