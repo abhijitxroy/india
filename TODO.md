@@ -4,33 +4,31 @@ This document tracks planned enhancements and long-term roadmap items for the re
 
 ---
 
-## Foundation Status
+## Repository Status
 
-The following repository sections are considered foundation complete and should be maintained, expanded, and refined as needed:
+Current repository architecture has been reorganized into the following long-term domains:
 
-- 18-defence ✅
-- 19-home-affairs ✅
-- 21-science-and-space ✅
-- 22-economy ✅
-- 23-institutions ✅
-- 24-jobs ✅
-- 25-heritage ✅
-- 26-glossary ✅
-- 27-diagrams ✅
-- 28-reference-material ✅
-- 29-india-timelines ✅
-- 30-governments-performance-tracking ✅
-- 31-governance-case-studies ✅
+- 01-foundations
+- 02-governance
+- 03-politics
+- 04-economy
+- 05-security
+- 06-foreign-policy
+- 07-science-technology
+- 08-society-culture
+- 09-states
+- 10-personalities
+- 11-resources
 
-Current focus should remain on deepening content quality inside existing domains rather than creating new top-level domains.
+Current priority is expanding content depth, improving consistency, filling empty sections, and maintaining cross-domain quality.
 
 ---
 
-## Phase 1 - Complete Core Governance Coverage
+## Phase 1 - Governance Expansion
 
 Status: In Progress
 
-### Prime Ministers & Governments
+### Prime Ministers
 
 - Create profiles for all Prime Ministers
 - Add governments timeline
@@ -39,7 +37,7 @@ Status: In Progress
 - Add major policy timeline
 - Add government formation diagrams
 
-### Presidents & Vice Presidents
+### Presidents
 
 - Create profiles for all Presidents
 - Create profiles for all Vice Presidents
@@ -49,7 +47,7 @@ Status: In Progress
 - Add President vs Vice President comparison
 - Add constitutional office timeline
 
-### Chief Ministers & States
+### State System
 
 - Expand state formation history
 - Add Chief Ministers timelines
@@ -75,7 +73,7 @@ Status: In Progress
 - Add separation of powers case studies
 - Add judiciary timeline
 
-### Public Administration
+### Administration
 
 - Expand IAS, IPS and IFS coverage
 - Add governance workflows
@@ -86,7 +84,7 @@ Status: In Progress
 
 ---
 
-## Phase 2 - Reforms & Transformation
+## Phase 2 - Economy, Society & Reforms
 
 Status: Planned
 
@@ -126,7 +124,7 @@ Status: Planned
 
 ---
 
-## Phase 3 - Foreign Policy, Defence & Home Affairs
+## Phase 3 - Security, Foreign Policy & Science
 
 Status: In Progress
 
@@ -208,10 +206,16 @@ Status: Planned
 
 ---
 
-## Phase 5 - Dashboards & Analytics
+## Phase 5 - Resources & Knowledge Systems
 
 Status: Planned
 
+- Expand diagrams
+- Expand timelines
+- Expand glossary
+- Expand references
+- Expand case studies
+- Expand performance frameworks
 - India dashboards
 - Election dashboards
 - Parliament dashboards
@@ -223,7 +227,7 @@ Status: Planned
 
 ---
 
-## Phase 6 - West Bengal Deep Dive
+## Phase 6 - States & Personalities Expansion
 
 Status: Planned
 
@@ -235,10 +239,14 @@ Status: Planned
 - Economy and administration
 - Elections and reforms
 - Major political leaders
+- Expand remaining state profiles
+- Expand union territories
+- Expand state personalities
+- Expand state timelines
 
 ---
 
-## Phase 7 - Long-Term Projects
+## Phase 7 - Long-Term Knowledge Projects
 
 Status: Planned
 
@@ -292,7 +300,7 @@ Prehistoric India → Ancient Civilizations → Kingdoms & Empires → Colonial 
 
 ## Long-Term Vision
 
-Build a comprehensive, easy-to-understand knowledge repository explaining India's evolution through history, politics, governance, institutions, laws, reforms, elections, public policy, national security, and major transformations.
+Build a comprehensive, easy-to-understand knowledge system explaining India's evolution through its new domain architecture including foundations, governance, politics, economy, security, foreign policy, science and technology, society and culture, states, personalities, and resources. This repository aims to serve as a long-term knowledge system integrating history, politics, governance, institutions, laws, reforms, elections, public policy, national security, and major transformations in a unified framework.
 
 Primary Focus:
 

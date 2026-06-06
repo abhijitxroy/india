@@ -963,3 +963,86 @@ Modern India
 ```
 
 This provides the clearest understanding of how India evolved over thousands of years.
+
+# 🇮🇳 India Politics & Governance
+
+> A comprehensive, simple-English guide to India's history, governance, politics, economy, society, and nation-building.
+
+This repository helps you understand how India evolved from ancient civilization to a modern democracy—covering history, constitution, government, politics, economy, security, foreign policy, science, society, states, key personalities, and resources.
+
+---
+
+## 🧭 Repository Journey
+
+The repository is organized as a continuous learning flow across 11 domains:
+
+```text
+Foundations
+   ↓
+Governance
+   ↓
+Politics
+   ↓
+Economy
+   ↓
+Security
+   ↓
+Foreign Policy
+   ↓
+Science & Technology
+   ↓
+Society & Culture
+   ↓
+States
+   ↓
+Personalities
+   ↓
+Resources
+```
+
+---
+
+## 🗂️ Repository Structure
+
+- **01-foundations**: History, Modern India, Geography
+- **02-governance**: Constitution, Government, Parliament, Judiciary, Presidents, Prime Ministers, State System, Administration, Institutions, Laws & Reforms
+- **03-politics**: Elections, Political Parties, India Today
+- **04-economy**: Economy, Economic Development, Infrastructure
+- **05-security**: Defence, Home Affairs, National Security
+- **06-foreign-policy**: Foreign Policy, Neighbourhood
+- **07-science-technology**: Space, Nuclear, Technology, Institutions
+- **08-society-culture**: Social Development, Heritage, Religion, Tourism
+- **09-states**: States, Union Territories
+- **10-personalities**: State-wise personalities
+- **11-resources**: Jobs, Glossary, Diagrams, References, Timelines, Government Performance, Case Studies
+
+---
+
+## 🧭 Recommended Learning Path
+
+1. **Start with Foundations:** Understand India's history, geography, and civilizational roots.
+2. **Move to Governance:** Learn about the Constitution, government structure, Parliament, judiciary, and administration.
+3. **Explore Politics:** Elections, political parties, and contemporary political landscape.
+4. **Study Economy:** Key economic concepts, development, and infrastructure.
+5. **Understand Security:** Defence, internal security, and national security apparatus.
+6. **Learn Foreign Policy:** India's relations with the world and neighbourhood.
+7. **See Science & Technology:** Major scientific, nuclear, and space achievements.
+8. **Delve into Society & Culture:** Social development, heritage, religion, and tourism.
+9. **Know the States:** Explore India's states and union territories.
+10. **Meet Personalities:** Key figures shaping India, state by state.
+11. **Use Resources:** Jobs, glossary, diagrams, timelines, references, and case studies for revision and deep dives.
+
+---
+
+## 👥 Who Is This Repository For?
+
+- Students & UPSC/state PSC aspirants
+- Professionals & curious citizens
+- Beginners in politics, governance, or Indian studies
+- Anyone interested in understanding India—no prior knowledge required!
+
+---
+
+## 🚀 Long-Term Vision
+
+To build an accessible, complete, and continuously updated knowledge system explaining India's journey—connecting history, governance, politics, society, economy, and key transformations for all learners.

@@ -4,7 +4,106 @@ All notable changes to this repository will be documented in this file.
 
 ---
 
-# v1.28.0 - Repository Domain Expansion & Architecture Reorganization
+## v2.3.0 - Repository Architecture Consolidation
+
+Release Date: 2026-06-06
+
+### Changed
+
+- Reorganized repository into 11 permanent domains:
+  - Foundations
+  - Governance
+  - Politics
+  - Economy
+  - Security
+  - Foreign Policy
+  - Science & Technology
+  - Society & Culture
+  - States
+  - Personalities
+  - Resources
+- Consolidated related topics into domain-based structures
+- Standardized level-1 and level-2 hierarchy
+- Simplified repository navigation and discoverability
+- Established long-term scalable architecture
+
+### Significance
+
+This release establishes the permanent repository structure. Future work will focus primarily on content expansion rather than structural changes.
+
+---
+
+## v2.2.0 - State Knowledge System Foundation
+
+Release Date: 2026-06-06
+
+### Changed
+
+#### Repository
+
+- Standardized repository-wide content structure
+- Removed deprecated section patterns
+- Standardized Quick Revision and Knowledge Check sections
+- Resolved markdownlint issues
+- Improved consistency across documentation
+
+#### West Bengal
+
+- Reorganized West Bengal into a domain-based knowledge system
+- Added district and city hierarchy
+- Added overview, geography, economy, governance, culture and infrastructure sections
+- Improved navigation and content organization
+
+#### Quality
+
+- Repository-wide cleanup and formatting improvements
+- Consistent heading structure
+- Removed obsolete organizational patterns
+
+---
+
+## v2.1.0 - Repository Reorganization and West Bengal Foundation
+
+Release Date: 2026-06-06
+
+### Changed
+
+#### Repository Structure
+
+- Reorganized sections 26-38 into dedicated domains
+- Added support for personalities, states, tourism, religion, neighbourhood and infrastructure topics
+- Renumbered supporting knowledge sections
+- Updated internal references
+
+#### States
+
+- Introduced state knowledge-system architecture
+- Added West Bengal as the reference implementation
+- Added district hierarchy, major cities and administrative divisions
+- Added Bengal Renaissance, Sundarbans, Ganga Delta and Darjeeling Hills coverage
+
+#### Cleanup
+
+- Removed redundant state-profile and district structures
+
+---
+
+## v2.0.0 - Repository Structure Simplification
+
+Release Date: 2026-06-04
+
+### Changed
+
+- Simplified top-level folder naming
+- Reorganized major knowledge domains
+- Improved navigation and consistency
+- Updated documentation references
+- Achieved markdownlint-clean repository state
+- Preserved existing content while standardizing structure
+
+---
+
+## v1.28.0 - Repository Domain Expansion & Architecture Reorganization
 
 Release Date: 2026-06-04
 
@@ -74,7 +173,7 @@ This release completes the transition from a politics-and-governance repository 
 
 ---
 
-# v1.27.0 - Military History Reorganization
+## v1.27.0 - Military History Reorganization
 
 Release Date: 2026-06-04
 
@@ -136,7 +235,7 @@ The repository now provides dedicated learning paths for wars, military operatio
 
 ---
 
-# v1.26.0 - Repository Architecture Consolidation
+## v1.26.0 - Repository Architecture Consolidation
 
 Release Date: 2026-06-04
 
@@ -178,10 +277,11 @@ Repository learning flow reorganized into:
 23 Governments Performance Tracking
         ↓
 24 Governance Case Studies
+```
 
 ---
 
-# v1.25.0 - Defence & National Security Expansion
+## v1.25.0 - Defence & National Security Expansion
 
 Release Date: 2026-06-03
 
@@ -248,7 +348,7 @@ Completed modernization and defence
 
 ---
 
-# v1.24.0 - Governance Case Studies
+## v1.24.0 - Governance Case Studies
 
 Release Date: 2026-06-02
 
@@ -322,7 +422,7 @@ The repository now explains how major reforms, governance initiatives, developme
 
 ---
 
-# v1.23.0 - Visual Learning System Expansion
+## v1.23.0 - Visual Learning System Expansion
 
 Release Date: 2026-06-02
 
@@ -356,7 +456,7 @@ Expanded timeline coverage with:
 
 ### Visual Learning Coverage
 
-````text
+```text
 History
       ↓
 Constitution
@@ -376,10 +476,11 @@ Local Governance
 Timelines
       ↓
 Citizens
+```
 
 ---
 
-# v1.22.0 - Government Performance Tracking Foundation
+## v1.22.0 - Government Performance Tracking Foundation
 
 Release Date: 2026-06-02
 
@@ -418,7 +519,7 @@ Healthcare
 Social Development
     ↓
 Performance Evaluation
-````
+```
 
 ### Evaluation Categories
 
@@ -446,7 +547,7 @@ The repository now provides a dedicated performance and accountability layer alo
 
 ---
 
-# v1.21.0 - Reference Material Foundation
+## v1.21.0 - Reference Material Foundation
 
 Release Date: 2026-06-02
 
@@ -509,7 +610,7 @@ The repository now provides a dedicated verification and research layer alongsid
 
 ---
 
-# v1.20.0 - India Timelines Foundation
+## v1.20.0 - India Timelines Foundation
 
 Release Date: 2026-06-02
 
@@ -550,7 +651,7 @@ Modern India
 
 ---
 
-# v1.19.0 - Visual Learning System Foundation
+## v1.19.0 - Visual Learning System Foundation
 
 Release Date: 2026-06-02
 
@@ -650,7 +751,7 @@ The visual learning system serves as a citizen-friendly entry point into the bro
 
 ---
 
-# v1.18.0 - Glossary & Revision Hub Foundation
+## v1.18.0 - Glossary & Revision Hub Foundation
 
 Release Date: 2026-06-02
 
@@ -759,7 +860,7 @@ The repository now provides a centralized quick-reference system that connects t
 
 ---
 
-# v1.17.0 - Contemporary India Foundation
+## v1.17.0 - Contemporary India Foundation
 
 Release Date: 2026-06-02
 
@@ -857,7 +958,7 @@ The repository now explains how governance institutions, Parliament, public poli
 
 ---
 
-# v1.16.0 - Foreign Policy & Defence Foundation
+## v1.16.0 - Foreign Policy & Defence Foundation
 
 Release Date: 2026-06-02
 
@@ -981,7 +1082,7 @@ The repository now explains how diplomacy, defence institutions, security strate
 
 ---
 
-# v1.15.0 - Social Justice & Reservation Foundation
+## v1.15.0 - Social Justice & Reservation Foundation
 
 Release Date: 2026-06-01
 
@@ -1085,7 +1186,7 @@ The repository now explains how social justice policies, reservation systems, re
 
 ---
 
-# v1.14.0 - Economic Transformations Foundation
+## v1.14.0 - Economic Transformations Foundation
 
 Release Date: 2026-06-01
 
@@ -1202,7 +1303,7 @@ The repository now explains how agriculture, planning institutions, economic ref
 
 ---
 
-# v1.13.0 - Major Laws & Reforms Foundation
+## v1.13.0 - Major Laws & Reforms Foundation
 
 Release Date: 2026-06-01
 
@@ -1296,7 +1397,7 @@ The repository now explains how major laws, constitutional amendments, governanc
 
 ---
 
-# v1.12.0 - Public Administration & Governance Foundation
+## v1.12.0 - Public Administration & Governance Foundation
 
 Release Date: 2026-06-01
 
@@ -1381,7 +1482,7 @@ The repository now explains how government policies move from decision-making to
 
 ---
 
-# v1.11.0 - Judiciary Foundation
+## v1.11.0 - Judiciary Foundation
 
 Release Date: 2026-06-01
 
@@ -1465,7 +1566,7 @@ The repository now explains how courts function, how constitutional rights are p
 
 ---
 
-# v1.10.0 - Parliament and Law Making Foundation
+## v1.10.0 - Parliament and Law Making Foundation
 
 Release Date: 2026-06-01
 
@@ -1547,7 +1648,7 @@ The repository now explains how Parliament functions, how laws are made, and how
 
 ---
 
-# v1.9.0 - States and Chief Ministers Foundation
+## v1.9.0 - States and Chief Ministers Foundation
 
 Release Date: 2026-06-01
 
@@ -1628,7 +1729,7 @@ The repository now explains how Indian states evolved, how state governments fun
 
 ---
 
-# v1.8.0 - Presidents and Vice Presidents Foundation
+## v1.8.0 - Presidents and Vice Presidents Foundation
 
 Release Date: 2026-06-01
 
@@ -1702,7 +1803,7 @@ The repository now explains the role of India's highest constitutional offices a
 
 ---
 
-# v1.7.0 - Prime Ministers and Governments Foundation
+## v1.7.0 - Prime Ministers and Governments Foundation
 
 Release Date: 2026-06-01
 
@@ -1783,7 +1884,7 @@ The repository now explains how elections, political parties, governments, and n
 
 ---
 
-# v1.6.0 - Political Parties Foundation
+## v1.6.0 - Political Parties Foundation
 
 Release Date: 2026-06-01
 
@@ -1890,7 +1991,7 @@ The repository now explains how political parties emerge, compete in elections, 
 
 ---
 
-# v1.5.0 - Elections and Democracy Foundation
+## v1.5.0 - Elections and Democracy Foundation
 
 Release Date: 2026-06-01
 
@@ -1968,7 +2069,7 @@ The repository now explains how citizens, votes, elections, representatives, and
 
 ---
 
-# v1.4.0 - Government Structure Foundation
+## v1.4.0 - Government Structure Foundation
 
 Release Date: 2026-06-01
 
@@ -2055,7 +2156,7 @@ This release establishes the governance foundation required to understand:
 
 ---
 
-# v1.3.0 - Constitution and Nation Building Foundation
+## v1.3.0 - Constitution and Nation Building Foundation
 
 Release Date: 2026-06-01
 
@@ -2127,7 +2228,7 @@ This release establishes the constitutional foundation required to understand:
 
 ---
 
-# v1.2.0 - India Through Time Foundation
+## v1.2.0 - India Through Time Foundation
 
 Release Date: 2026-06-01
 
@@ -2185,7 +2286,7 @@ Added future planning for:
 
 ---
 
-# v1.1.0 - Civilization & History Foundation
+## v1.1.0 - Civilization & History Foundation
 
 Release Date: 2026-06-01
 
@@ -2254,7 +2355,7 @@ Mughal Empire
 
 ---
 
-# v1.0.0 - Repository Foundation
+## v1.0.0 - Repository Foundation
 
 Release Date: 2026-06-01
 
