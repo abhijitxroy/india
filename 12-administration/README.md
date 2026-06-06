@@ -136,7 +136,7 @@ Citizen Benefits
 ## Related Sections
 
 - 04-government
-- 09-states
+- 09-state-system
 - 10-parliament-and-law-making
 - 11-judiciary
 - 13-economy-and-development
