@@ -1,6 +1,6 @@
 # Manufacturing
 
-## Why It Matters
+## Economic Importance
 
 Manufacturing converts raw materials into finished products and is a major driver of industrialization, employment, exports, innovation, and economic growth.
 

@@ -203,8 +203,6 @@ Its influence extends beyond election results and includes contributions to:
 
 ---
 
-## Related Topics
-
 - cpim.md
 - congress.md
 - bjp.md

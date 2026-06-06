@@ -1,7 +1,7 @@
 
 # Institutions
 
-## Why It Matters
+## Institutional Importance
 
 Institutions provide stability, accountability, regulation, oversight, and governance within a democratic system.
 

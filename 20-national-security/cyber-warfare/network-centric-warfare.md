@@ -1,6 +1,6 @@
 # Network-Centric Warfare
 
-## Why It Matters
+## Strategic Importance
 
 Network-Centric Warfare (NCW) is a military doctrine that uses interconnected communication networks, sensors, intelligence systems, command centers, and combat platforms to achieve superior situational awareness and faster decision-making.
 

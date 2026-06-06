@@ -168,8 +168,6 @@ Delhi has a unique constitutional position as the National Capital Territory.
 
 ---
 
-## Related Topics
-
 - central-government.md
 - state-government.md
 - federalism.md

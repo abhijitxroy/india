@@ -1,7 +1,7 @@
 
 # Artillery Systems
 
-## Why It Matters
+## Strategic Importance
 
 Artillery is often called the 'God of War' because it provides long-range firepower that can destroy enemy positions, support advancing troops, and shape the battlefield before direct combat begins.
 

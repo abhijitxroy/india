@@ -1,6 +1,6 @@
 # Wars
 
-## Why It Matters
+## Strategic Importance
 
 Wars have played a major role in shaping India's defence policy, military doctrine, force structure, border management, and national security strategy.
 

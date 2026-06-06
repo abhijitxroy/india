@@ -1,6 +1,6 @@
 # Semiconductors
 
-## Why It Matters
+## Scientific Importance
 
 Semiconductors are the foundation of modern electronics and digital technology.
 

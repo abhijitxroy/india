@@ -1,6 +1,6 @@
 # Insurance Regulatory and Development Authority of India (IRDAI)
 
-## Why It Matters
+## Institutional Importance
 
 The Insurance Regulatory and Development Authority of India (IRDAI) is the statutory regulator responsible for regulating and developing the insurance sector in India.
 

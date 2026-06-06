@@ -1,6 +1,6 @@
 # Comptroller and Auditor General of India (CAG)
 
-## Why It Matters
+## Institutional Importance
 
 The Comptroller and Auditor General of India (CAG) is the supreme audit institution of the country.
 

@@ -9,7 +9,7 @@ It helps visualize the flow of democratic representation, executive authority, l
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding the State Government structure helps explain:
 
@@ -198,8 +198,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - union-government-structure.md
 - governor-chief-minister-relationship.md

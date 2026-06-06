@@ -9,7 +9,7 @@ It provides a high-level view of the evolution of India's legal and governance f
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding major laws helps explain:
 
@@ -205,8 +205,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - constitutional-development-timeline.md
 - governance-reform-timeline.md

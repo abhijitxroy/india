@@ -135,8 +135,6 @@ Digital India is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - upi-revolution.md
 - aadhaar-and-dbt.md
 - jan-dhan-yojana.md

@@ -9,7 +9,7 @@ It provides a high-level understanding of how administrative systems, public ser
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding governance reforms helps explain:
 
@@ -188,8 +188,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - governance-framework.md
 - public-policy-lifecycle.md

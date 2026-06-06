@@ -1,6 +1,6 @@
 # Major Military Operations
 
-## Why It Matters
+## Strategic Importance
 
 Military operations provide valuable lessons about strategy, leadership, logistics, intelligence, technology and national security.
 

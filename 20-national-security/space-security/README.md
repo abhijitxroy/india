@@ -1,6 +1,6 @@
 # Space Security
 
-## Why It Matters
+## Strategic Importance
 
 Space has become a critical domain for national security, military operations, communications, navigation, surveillance and strategic deterrence.
 

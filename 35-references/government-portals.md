@@ -7,7 +7,7 @@ This document lists important Government of India portals that help citizens acc
 
 ---
 
-## Why It Matters
+## Why Use This Resource
 
 Government portals help citizens:
 
@@ -140,8 +140,6 @@ Citizens
 ```
 
 ---
-
-## Related Topics
 
 - constitution-of-india-resources.md
 - election-commission-resources.md

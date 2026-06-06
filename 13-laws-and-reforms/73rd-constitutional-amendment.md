@@ -125,8 +125,6 @@ The 73rd Amendment is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - 74th-constitutional-amendment.md
 - local-governance.md
 - public-administration-overview.md

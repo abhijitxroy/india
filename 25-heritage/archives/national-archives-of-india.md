@@ -1,6 +1,6 @@
 # National Archives of India (NAI)
 
-## Why It Matters
+## Historical and Cultural Importance
 
 The National Archives of India (NAI) is the custodian of the nation's documentary heritage.
 

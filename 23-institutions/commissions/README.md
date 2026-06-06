@@ -1,7 +1,7 @@
 
 # Commissions
 
-## Why It Matters
+## Institutional Importance
 
 Commissions are established to address specific governance, social, administrative, and human rights issues.
 

@@ -16,7 +16,7 @@ The objective is to help citizens understand how governments can be evaluated us
 
 ---
 
-## Why It Matters
+## Governance Importance
 
 Democracy is not only about voting.
 

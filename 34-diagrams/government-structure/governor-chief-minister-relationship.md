@@ -9,7 +9,7 @@ It helps visualize how constitutional authority, democratic representation, exec
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding the Governor–Chief Minister relationship helps explain:
 
@@ -197,8 +197,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - president-prime-minister-relationship.md
 - state-government-structure.md

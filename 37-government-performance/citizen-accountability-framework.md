@@ -9,7 +9,7 @@ The objective is to help citizens understand their role in strengthening democra
 
 ---
 
-## Why It Matters
+## Governance Importance
 
 Democracy does not end after an election.
 
@@ -159,8 +159,6 @@ Hold Accountable
 ```
 
 ---
-
-## Related Topics
 
 - governance-performance-framework.md
 - manifesto-vs-performance-framework.md

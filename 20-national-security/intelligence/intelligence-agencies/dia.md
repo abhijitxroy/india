@@ -1,6 +1,6 @@
 # Defence Intelligence Agency (DIA)
 
-## Why It Matters
+## Strategic Importance
 
 The Defence Intelligence Agency (DIA) is India's primary military intelligence organization responsible for coordinating intelligence activities across the Indian Army, Indian Navy and Indian Air Force.
 

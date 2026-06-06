@@ -1,6 +1,6 @@
 # Psychological Warfare
 
-## Why It Matters
+## Strategic Importance
 
 Psychological Warfare (PsyWar) involves the planned use of information, messaging, influence activities, and psychological techniques to affect the perceptions, emotions, attitudes, and behaviour of target audiences.
 

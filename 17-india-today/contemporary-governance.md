@@ -128,8 +128,6 @@ Contemporary Governance is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - prime-ministers-and-governments.md
 - presidents-of-india.md
 - parliament.md

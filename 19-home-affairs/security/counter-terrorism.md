@@ -1,6 +1,6 @@
 # Counter-Terrorism in India
 
-## Why It Matters
+## National Importance
 
 Counter-terrorism is a critical component of India's national security framework.
 

@@ -8,7 +8,7 @@ It helps visualize coordination, resource sharing, policy implementation, and jo
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding cooperative federalism helps explain:
 
@@ -167,8 +167,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - governance-framework.md
 - centre-state-relations-framework.md

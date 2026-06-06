@@ -9,7 +9,7 @@ The objective is to help readers understand how India's democratic and constitut
 
 ---
 
-## Why It Matters
+## Historical Significance
 
 Understanding constitutional development helps explain:
 
@@ -127,8 +127,6 @@ Republic of India
 ```
 
 ---
-
-## Related Topics
 
 - civilization-timeline.md
 - freedom-struggle-timeline.md

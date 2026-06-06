@@ -1,6 +1,6 @@
 # Central Armed Police Forces (CAPF)
 
-## Why It Matters
+## National Importance
 
 The Central Armed Police Forces (CAPFs) are responsible for border guarding, internal security, counter-terrorism, protection of critical infrastructure, riot control, and support to civil authorities.
 

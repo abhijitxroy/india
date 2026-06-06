@@ -8,7 +8,7 @@ It helps visualize the flow of democratic representation, law making, executive 
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding the Union Government structure helps explain:
 
@@ -204,8 +204,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - state-government-structure.md
 - president-prime-minister-relationship.md

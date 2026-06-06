@@ -197,8 +197,6 @@ Together they illustrate the long and diverse journey of the Indian subcontinent
 
 ---
 
-## Related Topics
-
 - origins-of-india.md
 - prehistoric-india.md
 - civilization-timeline.md

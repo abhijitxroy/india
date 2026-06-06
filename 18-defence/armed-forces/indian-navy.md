@@ -1,6 +1,6 @@
 # Indian Navy
 
-## Why It Matters
+## Strategic Importance
 
 The Indian Navy is the maritime warfare branch of the Indian Armed Forces. It safeguards India's maritime interests, protects sea lines of communication, secures the Indian Ocean Region, supports national security, and contributes to humanitarian assistance and disaster relief operations.
 

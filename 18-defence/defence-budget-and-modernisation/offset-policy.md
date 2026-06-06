@@ -1,7 +1,7 @@
 
 # Defence Offset Policy
 
-## Why It Matters
+## Strategic Importance
 
 The Defence Offset Policy is a mechanism used to leverage major defence purchases for the development of India's domestic defence-industrial ecosystem.
 

@@ -131,8 +131,6 @@ National parties play a central role in parliamentary democracy.
 
 ---
 
-## Related Topics
-
 - bjp.md
 - congress.md
 - cpi.md

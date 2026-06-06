@@ -1,6 +1,6 @@
 # Finance Commission
 
-## Why It Matters
+## Institutional Importance
 
 The Finance Commission is a constitutional body responsible for recommending the distribution of financial resources between the Union Government and State Governments.
 

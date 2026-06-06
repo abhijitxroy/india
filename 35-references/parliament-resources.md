@@ -7,7 +7,7 @@ This document lists important parliamentary resources that help citizens underst
 
 ---
 
-## Why It Matters
+## Why Use This Resource
 
 Parliament is the central legislative institution of India.
 
@@ -153,8 +153,6 @@ Governance
 ```
 
 ---
-
-## Related Topics
 
 - constitution-of-india-resources.md
 - judiciary-resources.md

@@ -1,7 +1,7 @@
 
 # Ministry of Defence (MoD)
 
-## Why It Matters
+## Strategic Importance
 
 The Ministry of Defence (MoD) is the central government ministry responsible for India's national defence and military administration.
 

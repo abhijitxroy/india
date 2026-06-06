@@ -1,6 +1,6 @@
 # Electronic Warfare (EW)
 
-## Why It Matters
+## Strategic Importance
 
 Modern military forces depend heavily on radar systems, communications networks, sensors and electronic equipment.
 

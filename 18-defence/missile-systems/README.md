@@ -1,6 +1,6 @@
 # Missiles and Strategic Weapons
 
-## Why It Matters
+## Strategic Importance
 
 Missiles and strategic weapons are among the most important components of national power. They provide deterrence, long-range strike capability, air defence, battlefield support and strategic stability.
 

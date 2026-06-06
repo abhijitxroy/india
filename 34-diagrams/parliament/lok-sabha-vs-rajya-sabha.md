@@ -9,7 +9,7 @@ It helps visualize representation, powers, responsibilities, and how both Houses
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding Lok Sabha and Rajya Sabha helps explain:
 
@@ -180,8 +180,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - parliament-structure.md
 - how-a-bill-becomes-law.md

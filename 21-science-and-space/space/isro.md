@@ -1,6 +1,6 @@
 # Indian Space Research Organisation (ISRO)
 
-## Why It Matters
+## Scientific Importance
 
 The Indian Space Research Organisation (ISRO) is India's national space agency and the primary institution responsible for space research, satellite development, launch vehicles, planetary exploration, and space-based services.
 

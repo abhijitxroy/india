@@ -138,8 +138,6 @@ Courts review legality and constitutionality, while elected governments continue
 
 ---
 
-## Related Topics
-
 - judiciary-overview.md
 - supreme-court.md
 - high-courts.md

@@ -9,7 +9,7 @@ It provides a high-level view of how representative government, democratic insti
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding constitutional development helps explain:
 
@@ -201,8 +201,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - nation-building-timeline.md
 - india-through-time-timeline.md

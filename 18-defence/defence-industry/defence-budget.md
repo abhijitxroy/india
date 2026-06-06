@@ -1,7 +1,7 @@
 
 # Defence Budget of India
 
-## Why It Matters
+## Strategic Importance
 
 India maintains one of the world's largest armed forces and faces security challenges across land, sea, air, cyber, and space domains.
 

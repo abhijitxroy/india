@@ -130,8 +130,6 @@ The Reservation System is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - mandal-commission.md
 - constitution-and-nation-building.md
 - elections-and-democracy.md

@@ -1,6 +1,6 @@
 # Defence Budget and Modernisation
 
-## Why It Matters
+## Strategic Importance
 
 Defence modernization depends on sustained financial investment, efficient procurement systems, indigenous manufacturing and long-term capability development.
 

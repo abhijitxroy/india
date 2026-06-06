@@ -148,8 +148,6 @@ The judiciary helps maintain constitutional democracy and the rule of law.
 
 ---
 
-## Related Topics
-
 - supreme-court.md
 - high-courts.md
 - district-courts.md

@@ -93,8 +93,6 @@ Studying election terminology helps:
 
 ---
 
-## Related Topics
-
 - elections-and-democracy.md
 - political-parties.md
 - parliament-and-law-making.md

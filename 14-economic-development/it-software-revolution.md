@@ -136,8 +136,6 @@ The IT and Software Revolution is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - digital-india.md
 - startup-india.md
 - make-in-india.md

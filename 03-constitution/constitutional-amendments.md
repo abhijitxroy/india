@@ -282,8 +282,6 @@ The Constitution balances adaptability with stability.
 
 ---
 
-## Related Topics
-
 - constitution-overview.md
 - constituent-assembly.md
 - preamble.md

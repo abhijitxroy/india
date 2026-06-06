@@ -1,4 +1,3 @@
-
 # Mahajanapadas
 
 ## What Were the Mahajanapadas?
@@ -194,8 +193,6 @@ The Age of Mahajanapadas gradually came to an end.
 - The Maurya Empire emerged from Magadha.
 
 ---
-
-## Related Topics
 
 - vedic-period.md
 - maurya-empire.md

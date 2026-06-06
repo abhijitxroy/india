@@ -1,4 +1,3 @@
-
 # Maurya Empire
 
 ## What Was the Maurya Empire?
@@ -231,8 +230,6 @@ The Maurya Empire:
 - First major empire to unify large parts of India.
 
 ---
-
-## Related Topics
 
 - mahajanapadas.md
 - gupta-empire.md

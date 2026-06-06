@@ -153,8 +153,6 @@ Social Justice is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - reservation-system.md
 - affirmative-action.md
 - sc-st-reservations.md

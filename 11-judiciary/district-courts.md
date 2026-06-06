@@ -139,8 +139,6 @@ They handle a large share of judicial work and are essential for effective rule 
 
 ---
 
-## Related Topics
-
 - judiciary-overview.md
 - supreme-court.md
 - high-courts.md

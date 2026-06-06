@@ -147,8 +147,6 @@ The Anti-Defection Law is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - parliament-and-law-making.md
 - political-parties.md
 - coalition-governments.md

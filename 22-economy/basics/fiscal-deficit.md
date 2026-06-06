@@ -1,6 +1,6 @@
 # Fiscal Deficit
 
-## Why It Matters
+## Economic Importance
 
 Fiscal deficit measures the gap between a government's total expenditure and its total revenue excluding borrowings.
 

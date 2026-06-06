@@ -221,8 +221,6 @@ Many duties encourage participation in nation-building and social progress.
 
 ---
 
-## Related Topics
-
 - constitution-overview.md
 - preamble.md
 - fundamental-rights.md

@@ -216,8 +216,6 @@ The Mughal Empire:
 
 ---
 
-## Related Topics
-
 - delhi-sultanate.md
 - regional-kingdoms.md
 - british-raj.md

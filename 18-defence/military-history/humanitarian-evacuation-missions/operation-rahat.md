@@ -1,7 +1,7 @@
 
 # Operation Rahat
 
-## Why It Matters
+## Strategic Importance
 
 Operation Rahat was one of India's largest overseas evacuation missions. Conducted in 2015 during the conflict in Yemen, the operation demonstrated India's ability to safely evacuate citizens from an active conflict zone through coordinated diplomatic, military and civilian efforts.
 

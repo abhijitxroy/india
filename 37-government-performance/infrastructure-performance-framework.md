@@ -9,7 +9,7 @@ The objective is to assess infrastructure outcomes rather than announcements or 
 
 ---
 
-## Why It Matters
+## Governance Importance
 
 Infrastructure supports:
 
@@ -158,8 +158,6 @@ Citizen Benefits
 ```
 
 ---
-
-## Related Topics
 
 - economic-performance-framework.md
 - social-development-framework.md

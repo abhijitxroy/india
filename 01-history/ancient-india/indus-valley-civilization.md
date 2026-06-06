@@ -1,4 +1,3 @@
-
 # Indus Valley Civilization
 
 ## What Was the Indus Valley Civilization?
@@ -228,8 +227,6 @@ It remains one of the most important chapters in India's ancient history.
 - Harappan Civilization represents its mature phase.
 
 ---
-
-## Related Topics
 
 - harappan-civilization.md
 - prehistoric-india.md

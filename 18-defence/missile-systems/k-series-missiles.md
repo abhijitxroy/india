@@ -1,6 +1,6 @@
 # K-Series Missiles
 
-## Why It Matters
+## Strategic Importance
 
 The K-Series is India's family of submarine-launched ballistic missiles (SLBMs) and forms the sea-based component of the country's nuclear deterrence architecture.
 

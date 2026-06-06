@@ -1,6 +1,6 @@
 # Economy
 
-## Why It Matters
+## Economic Importance
 
 The economy determines growth, jobs, investment, trade, infrastructure development, government spending, and living standards.
 

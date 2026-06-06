@@ -153,8 +153,6 @@ India–Pakistan relations are important because they help explain:
 
 ---
 
-## Related Topics
-
 - foreign-policy.md
 - wars-of-india.md
 - national-security.md

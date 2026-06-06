@@ -1,6 +1,6 @@
 # Military Operations
 
-## Why It Matters
+## Strategic Importance
 
 Military operations are planned actions conducted by the Armed Forces to achieve specific strategic, operational, or tactical objectives.
 

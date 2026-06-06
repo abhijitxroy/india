@@ -8,7 +8,7 @@ It helps visualize how detailed scrutiny occurs beyond debates in the main House
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding Parliamentary Committees helps explain:
 
@@ -189,8 +189,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - parliament-structure.md
 - how-a-bill-becomes-law.md

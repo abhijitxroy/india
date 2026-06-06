@@ -207,8 +207,6 @@ The office is not merely ceremonial and performs significant constitutional func
 
 ---
 
-## Related Topics
-
 - prime-minister.md
 - vice-president.md
 - central-government.md

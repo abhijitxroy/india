@@ -180,8 +180,6 @@ The process ensures:
 
 ---
 
-## Related Topics
-
 - parliament-overview.md
 - lok-sabha.md
 - rajya-sabha.md

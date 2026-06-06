@@ -1,7 +1,7 @@
 
 # Operation Maitri
 
-## Why It Matters
+## Strategic Importance
 
 Operation Maitri was a major humanitarian assistance and disaster-relief mission conducted by India following the devastating Nepal earthquake in 2015.
 

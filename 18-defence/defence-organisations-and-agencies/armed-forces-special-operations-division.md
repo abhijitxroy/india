@@ -1,7 +1,7 @@
 
 # Armed Forces Special Operations Division (AFSOD)
 
-## Why It Matters
+## Strategic Importance
 
 The Armed Forces Special Operations Division (AFSOD) is India's first integrated tri-service special operations organization.
 

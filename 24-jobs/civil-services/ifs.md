@@ -1,6 +1,6 @@
 # Indian Foreign Service (IFS)
 
-## Why It Matters
+## Career Relevance
 
 The Indian Foreign Service (IFS) is India's premier diplomatic service responsible for managing the country's foreign relations, diplomacy, international negotiations, and representation abroad.
 

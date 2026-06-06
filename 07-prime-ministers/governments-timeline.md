@@ -228,8 +228,6 @@ Each period addressed different national priorities and challenges.
 
 ---
 
-## Related Topics
-
 - prime-ministers-timeline.md
 - coalition-governments.md
 - political-parties/party-evolution-timeline.md

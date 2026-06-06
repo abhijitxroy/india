@@ -1,6 +1,6 @@
 # National Technical Research Organisation (NTRO)
 
-## Why It Matters
+## Strategic Importance
 
 The National Technical Research Organisation (NTRO) is India's premier technical intelligence agency. It supports national security through satellite intelligence, cyber intelligence, signals intelligence, geospatial intelligence and advanced technical surveillance.
 

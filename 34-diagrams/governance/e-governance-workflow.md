@@ -9,7 +9,7 @@ It helps visualize the end-to-end workflow from citizen requests to digital serv
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding e-governance helps explain:
 
@@ -193,8 +193,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - digital-governance-framework.md
 - public-service-delivery-workflow.md

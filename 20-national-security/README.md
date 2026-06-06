@@ -1,6 +1,6 @@
 # National Security
 
-## Why It Matters
+## Strategic Importance
 
 National security protects India's sovereignty, territorial integrity, strategic interests, critical infrastructure, information systems, and citizens from internal and external threats.
 

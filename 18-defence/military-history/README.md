@@ -1,6 +1,6 @@
 # Military History
 
-## Why It Matters
+## Strategic Importance
 
 Military history helps explain how India developed its defence capabilities, military doctrine, strategic thinking and national-security framework.
 

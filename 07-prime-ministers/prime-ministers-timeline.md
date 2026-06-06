@@ -224,8 +224,6 @@ The Prime Minister is the head of the Union Government.
 
 ---
 
-## Related Topics
-
 - governments-timeline.md
 - coalition-governments.md
 - nehru.md

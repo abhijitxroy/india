@@ -1,7 +1,7 @@
 
 # Defence Industrial Corridors
 
-## Why It Matters
+## Strategic Importance
 
 Defence Industrial Corridors are specialized industrial ecosystems created to strengthen India's indigenous defence-manufacturing capability.
 

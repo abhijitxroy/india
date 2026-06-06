@@ -1,6 +1,6 @@
 # Banking System
 
-## Why It Matters
+## Economic Importance
 
 The banking system supports savings, lending, investment, payments, financial inclusion, and economic growth.
 

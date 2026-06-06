@@ -9,7 +9,7 @@ It provides a high-level understanding of integration, reorganization, federal d
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding state formation helps explain:
 
@@ -182,8 +182,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - constitutional-development-timeline.md
 - governance-reform-timeline.md

@@ -1,6 +1,6 @@
 # Artificial Intelligence (AI)
 
-## Why It Matters
+## Scientific Importance
 
 Artificial Intelligence (AI) refers to the ability of machines and computer systems to perform tasks that normally require human intelligence.
 

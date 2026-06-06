@@ -145,8 +145,6 @@ Landmark judgments help:
 
 ---
 
-## Related Topics
-
 - judiciary-overview.md
 - judicial-review.md
 - supreme-court.md

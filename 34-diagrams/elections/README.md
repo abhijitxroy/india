@@ -8,7 +8,7 @@ It helps visualize negotiations, alliance building, majority formation, and gove
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding coalition formation helps explain:
 
@@ -162,8 +162,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - election-result-analysis-framework.md
 - government-formation-process.md

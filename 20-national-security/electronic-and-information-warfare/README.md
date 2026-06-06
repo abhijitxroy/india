@@ -1,6 +1,6 @@
 # Electronic and Information Warfare
 
-## Why It Matters
+## Strategic Importance
 
 Modern military operations depend heavily on information, communications, sensors, and control of the electromagnetic spectrum.
 

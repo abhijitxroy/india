@@ -1,6 +1,6 @@
 # Heritage and Culture
 
-## Why It Matters
+## Historical and Cultural Importance
 
 India possesses one of the world's richest civilizational and cultural heritages.
 

@@ -1,6 +1,6 @@
 # UNESCO Heritage
 
-## Why It Matters
+## Historical and Cultural Importance
 
 UNESCO recognition helps preserve sites of outstanding cultural and natural value for humanity.
 

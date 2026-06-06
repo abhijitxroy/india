@@ -133,8 +133,6 @@ The UPI revolution is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - digital-india.md
 - startup-india.md
 - public-finance.md

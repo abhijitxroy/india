@@ -9,7 +9,7 @@ It helps visualize the complete governance chain from government decisions to ci
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding public service delivery helps explain:
 
@@ -193,8 +193,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - governance-framework.md
 - administrative-hierarchy.md

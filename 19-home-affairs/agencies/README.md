@@ -1,6 +1,6 @@
 # Investigative Agencies
 
-## Why It Matters
+## National Importance
 
 Investigative agencies are responsible for criminal investigation, counter-terrorism investigation, narcotics enforcement, criminal databases, and specialized law-enforcement functions across India.
 

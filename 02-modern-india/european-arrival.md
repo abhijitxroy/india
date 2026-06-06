@@ -255,8 +255,6 @@ It connected India more deeply with global trade networks while also setting the
 
 ---
 
-## Related Topics
-
 - east-india-company.md
 - british-raj.md
 - freedom-struggle.md

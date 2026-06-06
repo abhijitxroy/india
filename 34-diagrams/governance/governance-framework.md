@@ -9,7 +9,7 @@ It serves as the foundation diagram for understanding governance across the repo
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding the governance framework helps explain:
 
@@ -177,8 +177,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - citizen-to-policy-journey.md
 - public-policy-lifecycle.md

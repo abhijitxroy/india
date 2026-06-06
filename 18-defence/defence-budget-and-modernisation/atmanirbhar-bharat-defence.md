@@ -1,7 +1,7 @@
 
 # Atmanirbhar Bharat in Defence
 
-## Why It Matters
+## Strategic Importance
 
 Atmanirbhar Bharat in Defence is India's initiative to reduce dependence on foreign military imports and build a strong indigenous defence-industrial ecosystem.
 

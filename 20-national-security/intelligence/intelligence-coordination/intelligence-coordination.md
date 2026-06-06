@@ -1,6 +1,6 @@
 # Intelligence Coordination
 
-## Why It Matters
+## Strategic Importance
 
 No single intelligence agency can protect a country alone. Modern national security requires multiple agencies to collect, analyze and share information rapidly.
 

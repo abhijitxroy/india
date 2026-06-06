@@ -11,7 +11,7 @@ The objective is to help citizens evaluate whether commitments were translated i
 
 ---
 
-## Why It Matters
+## Governance Importance
 
 Election manifestos influence voting decisions.
 
@@ -160,8 +160,6 @@ Outcome
 ```
 
 ---
-
-## Related Topics
 
 - citizen-accountability-framework.md
 - governance-performance-framework.md

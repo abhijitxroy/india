@@ -1,7 +1,7 @@
 
 # Bharat Dynamics Limited (BDL)
 
-## Why It Matters
+## Strategic Importance
 
 Bharat Dynamics Limited (BDL) is one of India's most important defence manufacturing companies. It is the primary missile production agency of India and plays a major role in supporting the Indian Armed Forces with indigenous missile systems, underwater weapons, and strategic defence equipment.
 

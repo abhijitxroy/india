@@ -136,8 +136,6 @@ The Neighbourhood First Policy is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - foreign-policy.md
 - act-east-policy.md
 - india-pakistan-relations.md

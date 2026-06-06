@@ -1,6 +1,6 @@
 # Bhabha Atomic Research Centre (BARC)
 
-## Why It Matters
+## Scientific Importance
 
 The Bhabha Atomic Research Centre (BARC) is India's premier nuclear research institution.
 

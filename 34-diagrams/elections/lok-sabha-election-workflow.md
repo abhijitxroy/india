@@ -9,7 +9,7 @@ It helps visualize the complete journey from voters casting ballots to the forma
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding Lok Sabha elections helps explain:
 
@@ -192,8 +192,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - rajya-sabha-election-workflow.md
 - election-process-flow.md

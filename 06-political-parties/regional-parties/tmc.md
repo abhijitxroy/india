@@ -215,8 +215,6 @@ The TMC provides an example of how regional parties can shape both state and nat
 
 ---
 
-## Related Topics
-
 - regional-parties.md
 - coalition-politics.md
 - recognition-of-parties.md

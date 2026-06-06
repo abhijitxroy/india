@@ -8,7 +8,7 @@ It helps visualize the relationship between legislation, parliamentary debate, a
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding how a bill becomes a law helps explain:
 
@@ -192,8 +192,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - parliament-structure.md
 - lok-sabha-vs-rajya-sabha.md

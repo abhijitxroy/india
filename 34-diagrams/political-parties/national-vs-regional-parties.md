@@ -9,7 +9,7 @@ It helps visualize the role of parties at different levels of the political syst
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding national and regional parties helps explain:
 
@@ -170,8 +170,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - political-party-ecosystem.md
 - party-to-government-journey.md

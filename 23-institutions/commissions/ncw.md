@@ -1,6 +1,6 @@
 # National Commission for Women (NCW)
 
-## Why It Matters
+## Institutional Importance
 
 The National Commission for Women (NCW) is a statutory body established to protect and promote the rights of women in India.
 

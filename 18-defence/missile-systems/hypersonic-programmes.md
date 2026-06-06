@@ -1,6 +1,6 @@
 # Hypersonic Programmes
 
-## Why It Matters
+## Strategic Importance
 
 Hypersonic technology represents the next major evolution in missile and strategic weapon systems. Hypersonic vehicles travel at extremely high speeds while maintaining maneuverability, making them significantly more difficult to detect, track and intercept.
 

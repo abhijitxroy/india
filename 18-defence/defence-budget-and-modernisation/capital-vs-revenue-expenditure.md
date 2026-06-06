@@ -1,7 +1,7 @@
 
 # Capital vs Revenue Expenditure in Defence
 
-## Why It Matters
+## Strategic Importance
 
 Defence spending is broadly divided into Capital Expenditure and Revenue Expenditure.
 

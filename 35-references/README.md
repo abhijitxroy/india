@@ -16,7 +16,7 @@ It provides direct access to official documents, reports, constitutional materia
 
 ---
 
-## Why It Matters
+## Why Use This Resource
 
 A strong understanding of governance should be built on verified information.
 

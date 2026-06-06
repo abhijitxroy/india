@@ -136,8 +136,6 @@ The Act East Policy is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - foreign-policy.md
 - neighbourhood-first-policy.md
 - india-and-united-nations.md

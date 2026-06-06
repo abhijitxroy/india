@@ -1,6 +1,6 @@
 # Indian Coast Guard
 
-## Why It Matters
+## National Importance
 
 The Indian Coast Guard (ICG) is India's primary maritime law-enforcement and coastal-security force.
 

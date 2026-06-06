@@ -1,6 +1,6 @@
 # Archives
 
-## Why It Matters
+## Historical and Cultural Importance
 
 Archives preserve official records, historical documents, manuscripts, maps, photographs, and government records for future generations.
 

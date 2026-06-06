@@ -1,6 +1,6 @@
 # Internal Security in India
 
-## Why It Matters
+## National Importance
 
 Internal security refers to the protection of a nation from threats arising within its borders.
 

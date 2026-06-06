@@ -1,7 +1,7 @@
 
 # Military Training Academies of India
 
-## Why It Matters
+## Strategic Importance
 
 Military training academies produce the officers and leaders of the Indian Armed Forces. They transform civilian candidates into military professionals capable of leading troops during peace, war, disaster relief, and national security operations.
 

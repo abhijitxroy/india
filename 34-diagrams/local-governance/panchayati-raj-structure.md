@@ -1,7 +1,7 @@
 
 # Panchayati Raj Structure
 
-## Why It Matters
+## Diagram Purpose
 
 Panchayati Raj is India's rural local self-government system. It enables democratic participation at the village level and helps deliver development programs, public services, and local governance closer to citizens.
 

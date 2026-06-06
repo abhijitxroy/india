@@ -9,7 +9,7 @@ It helps visualize how independent constitutional bodies support the functioning
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding constitutional authorities helps explain:
 
@@ -171,8 +171,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - constitutional-governance-model.md
 - parliament-structure.md

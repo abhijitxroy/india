@@ -1,7 +1,7 @@
 
 # Communications Intelligence (COMINT)
 
-## Why It Matters
+## Strategic Importance
 
 Communications Intelligence (COMINT) is the collection and analysis of communication signals exchanged between individuals, organizations, military units, and governments.
 

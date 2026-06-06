@@ -1,6 +1,6 @@
 # Joint Intelligence Committee (JIC)
 
-## Why It Matters
+## Strategic Importance
 
 The Joint Intelligence Committee (JIC) is one of India's most important intelligence assessment bodies. While intelligence agencies collect information, the JIC evaluates, analyzes and synthesizes intelligence from multiple sources to support national-security decision-making.
 

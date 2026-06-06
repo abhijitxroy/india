@@ -148,8 +148,6 @@ SC/ST Reservations are important because they help explain:
 
 ---
 
-## Related Topics
-
 - reservation-system.md
 - social-justice.md
 - affirmative-action.md

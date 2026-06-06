@@ -1,6 +1,6 @@
 # Submarines
 
-## Why It Matters
+## Strategic Importance
 
 Submarines are among the most powerful and strategic military platforms in modern warfare. Their ability to operate underwater with stealth makes them difficult to detect and highly effective for surveillance, intelligence gathering, deterrence and combat operations.
 

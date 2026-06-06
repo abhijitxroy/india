@@ -9,7 +9,7 @@ The objective is to help readers understand how the Indian independence movement
 
 ---
 
-## Why It Matters
+## Historical Significance
 
 Understanding the freedom struggle helps explain:
 
@@ -122,8 +122,6 @@ Constitution
 ```
 
 ---
-
-## Related Topics
 
 - civilization-timeline.md
 - constitutional-development-timeline.md

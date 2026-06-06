@@ -224,8 +224,6 @@ Democracy functions not only at national and state levels but also at the local 
 
 ---
 
-## Related Topics
-
 - panchayat-election.md
 - voter-system.md
 - election-commission.md

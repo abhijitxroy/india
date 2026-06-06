@@ -1,6 +1,6 @@
 # Defence and National Security
 
-## Why It Matters
+## Strategic Importance
 
 Defence and national security are essential for protecting India's sovereignty, territorial integrity, citizens, strategic interests and global influence.
 

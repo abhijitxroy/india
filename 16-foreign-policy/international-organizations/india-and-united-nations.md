@@ -136,8 +136,6 @@ India and the United Nations are important because they help explain:
 
 ---
 
-## Related Topics
-
 - foreign-policy.md
 - international-organizations.md
 - neighbourhood-first-policy.md

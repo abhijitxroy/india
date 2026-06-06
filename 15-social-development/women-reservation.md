@@ -132,8 +132,6 @@ Women Reservation is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - social-justice.md
 - reservation-system.md
 - women-empowerment.md

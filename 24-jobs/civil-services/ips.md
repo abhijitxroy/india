@@ -1,6 +1,6 @@
 # Indian Police Service (IPS)
 
-## Why It Matters
+## Career Relevance
 
 The Indian Police Service (IPS) is one of India's premier All India Services responsible for law enforcement, public order, internal security, crime prevention, and national security.
 

@@ -1,6 +1,6 @@
 # UN Peacekeeping Missions
 
-## Why It Matters
+## Strategic Importance
 
 India has been one of the largest and most consistent contributors to United Nations peacekeeping operations.
 

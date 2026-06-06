@@ -1,6 +1,6 @@
 # Police Rank Structure in India
 
-## Why It Matters
+## National Importance
 
 The police rank structure defines the chain of command within police organizations and ensures discipline, accountability, and effective law enforcement.
 

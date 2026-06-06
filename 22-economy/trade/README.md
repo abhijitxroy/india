@@ -1,7 +1,7 @@
 
 # Trade
 
-## Why It Matters
+## Economic Importance
 
 Trade connects India with the global economy through the exchange of goods and services.
 

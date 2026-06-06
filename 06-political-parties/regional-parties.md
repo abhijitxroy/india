@@ -136,8 +136,6 @@ They help reflect India's linguistic, cultural, regional, and political diversit
 
 ---
 
-## Related Topics
-
 - regional-parties/README.md
 - regional-parties/tmc.md
 - national-parties.md

@@ -1,7 +1,7 @@
 
 # Integrated Defence Staff (IDS)
 
-## Why It Matters
+## Strategic Importance
 
 The Integrated Defence Staff (IDS) is the organization responsible for promoting coordination, integration and jointness among the Indian Army, Indian Navy and Indian Air Force.
 

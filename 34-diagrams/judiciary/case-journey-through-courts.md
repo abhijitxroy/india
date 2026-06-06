@@ -9,7 +9,7 @@ It helps visualize the structure of appeals, judicial review, and the process th
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding the journey of a case helps explain:
 
@@ -184,8 +184,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - judicial-hierarchy.md
 - judicial-review-framework.md

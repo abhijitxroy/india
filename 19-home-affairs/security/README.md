@@ -1,6 +1,6 @@
 # Internal Security
 
-## Why It Matters
+## National Importance
 
 Internal security protects the country from terrorism, insurgency, cyber threats, organized crime, cross-border infiltration, and other threats that can affect national stability.
 

@@ -132,8 +132,6 @@ The Creamy Layer concept is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - reservation-system.md
 - obc-reservations.md
 - social-justice.md

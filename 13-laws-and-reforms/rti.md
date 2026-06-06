@@ -128,8 +128,6 @@ RTI is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - governance.md
 - public-administration-overview.md
 - bureaucracy.md

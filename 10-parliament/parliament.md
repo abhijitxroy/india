@@ -139,8 +139,6 @@ Act
 
 ---
 
-## Related Topics
-
 - lok-sabha.md
 - rajya-sabha.md
 - law-making-process.md

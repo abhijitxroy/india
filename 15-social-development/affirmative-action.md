@@ -131,8 +131,6 @@ Affirmative action is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - reservation-system.md
 - sc-st-reservations.md
 - obc-reservations.md

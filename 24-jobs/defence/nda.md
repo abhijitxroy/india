@@ -1,6 +1,6 @@
 # National Defence Academy (NDA)
 
-## Why It Matters
+## Career Relevance
 
 The National Defence Academy (NDA) is India's premier joint-services training institution for future officers of the Army, Navy, and Air Force.
 

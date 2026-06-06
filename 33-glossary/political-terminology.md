@@ -104,8 +104,6 @@ Studying political terminology helps:
 
 ---
 
-## Related Topics
-
 - constitution-and-nation-building.md
 - government-structure.md
 - elections-and-democracy.md

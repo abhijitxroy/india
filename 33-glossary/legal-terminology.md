@@ -94,8 +94,6 @@ Studying legal terminology helps:
 
 ---
 
-## Related Topics
-
 - judiciary.md
 - parliament-and-law-making.md
 - major-laws-and-reforms.md

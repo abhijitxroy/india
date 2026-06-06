@@ -1,6 +1,6 @@
 # Staff Selection Commission Combined Graduate Level (SSC CGL)
 
-## Why It Matters
+## Career Relevance
 
 SSC CGL is one of India's most popular competitive examinations for recruitment to Group B and Group C posts in various ministries, departments, and organizations of the Government of India.
 

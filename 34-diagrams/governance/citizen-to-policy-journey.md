@@ -8,7 +8,7 @@ It helps visualize the connection between citizens, democratic institutions, pol
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding the citizen-to-policy journey helps explain:
 
@@ -204,8 +204,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - governance-framework.md
 - public-policy-lifecycle.md

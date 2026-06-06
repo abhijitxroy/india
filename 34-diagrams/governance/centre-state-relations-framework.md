@@ -8,7 +8,7 @@ It helps visualize how powers, responsibilities, resources, and governance funct
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding Centre-State relations helps explain:
 
@@ -162,8 +162,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - governance-framework.md
 - accountability-framework.md

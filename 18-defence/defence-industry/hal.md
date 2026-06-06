@@ -1,7 +1,7 @@
 
 # Hindustan Aeronautics Limited (HAL)
 
-## Why It Matters
+## Strategic Importance
 
 Hindustan Aeronautics Limited (HAL) is India's largest aerospace and defence manufacturing company. It designs, develops, manufactures, upgrades, and maintains military aircraft, helicopters, engines, and aerospace systems for the Indian Armed Forces.
 

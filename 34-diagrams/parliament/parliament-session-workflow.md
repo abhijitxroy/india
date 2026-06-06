@@ -9,7 +9,7 @@ It helps visualize the flow of parliamentary business from session commencement 
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding Parliament sessions helps explain:
 
@@ -192,8 +192,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - parliament-structure.md
 - how-a-bill-becomes-law.md

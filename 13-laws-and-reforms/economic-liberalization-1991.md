@@ -146,8 +146,6 @@ Economic Liberalization is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - demonetization-2016.md
 - gst.md
 - public-finance.md

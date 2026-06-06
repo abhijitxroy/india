@@ -213,8 +213,6 @@ Its role extends across:
 
 ---
 
-## Related Topics
-
 - national-parties.md
 - bjp.md
 - coalition-politics.md

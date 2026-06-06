@@ -134,8 +134,6 @@ The Green Revolution is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - white-revolution.md
 - reforms-1991.md
 - economic-development.md

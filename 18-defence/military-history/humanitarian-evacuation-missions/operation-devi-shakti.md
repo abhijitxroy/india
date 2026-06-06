@@ -1,6 +1,6 @@
 # Operation Devi Shakti
 
-## Why It Matters
+## Strategic Importance
 
 Operation Devi Shakti was India's evacuation mission conducted in 2021 following the rapidly changing security situation in Afghanistan.
 

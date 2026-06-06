@@ -9,7 +9,7 @@ The objective is to evaluate governance outcomes rather than political narrative
 
 ---
 
-## Why It Matters
+## Governance Importance
 
 Good governance affects nearly every aspect of public life.
 
@@ -152,8 +152,6 @@ Accountability
 ```
 
 ---
-
-## Related Topics
 
 - citizen-accountability-framework.md
 - central-government-performance-framework.md

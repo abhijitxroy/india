@@ -136,8 +136,6 @@ Jan Dhan Yojana is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - aadhaar-and-dbt.md
 - upi-revolution.md
 - digital-india.md

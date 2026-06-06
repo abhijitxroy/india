@@ -1,4 +1,3 @@
-
 # Origins of India
 
 ## Overview
@@ -213,8 +212,6 @@ Modern India is the result of thousands of years of historical evolution rather 
 - Modern India emerged from thousands of years of historical development.
 
 ---
-
-## Related Topics
 
 - india-bharat-hindustan.md
 - prehistoric-india.md

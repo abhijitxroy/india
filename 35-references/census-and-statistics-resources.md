@@ -7,7 +7,7 @@ This document lists important census, demographic, economic, social, and statist
 
 ---
 
-## Why It Matters
+## Why Use This Resource
 
 Statistics help answer:
 
@@ -142,8 +142,6 @@ Development
 ```
 
 ---
-
-## Related Topics
 
 - economic-survey-resources.md
 - budget-resources.md

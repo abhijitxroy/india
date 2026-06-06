@@ -125,8 +125,6 @@ Understanding the difference helps citizens:
 
 ---
 
-## Related Topics
-
 - how-a-law-is-made.md
 - parliament-overview.md
 - lok-sabha.md

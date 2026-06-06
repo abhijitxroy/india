@@ -1,6 +1,6 @@
 # Defence Public Sector Undertakings (DPSUs)
 
-## Why It Matters
+## Strategic Importance
 
 Defence Public Sector Undertakings (DPSUs) are government-owned companies responsible for manufacturing military equipment, defence electronics, aircraft, warships, missiles, ammunition, and strategic systems required by India's armed forces.
 

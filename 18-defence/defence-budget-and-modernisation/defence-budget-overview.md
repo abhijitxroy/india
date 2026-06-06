@@ -1,7 +1,7 @@
 
 # Defence Budget Overview
 
-## Why It Matters
+## Strategic Importance
 
 The defence budget determines how India funds its military preparedness, modernization programmes, personnel requirements and strategic capabilities.
 

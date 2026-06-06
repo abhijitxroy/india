@@ -7,7 +7,7 @@ This document explains the Economic Survey and related resources that help citiz
 
 ---
 
-## Why It Matters
+## Why Use This Resource
 
 The Economic Survey is one of the most important annual government publications.
 
@@ -129,8 +129,6 @@ Growth
 ```
 
 ---
-
-## Related Topics
 
 - budget-resources.md
 - census-and-statistics-resources.md

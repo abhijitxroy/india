@@ -9,7 +9,7 @@ It provides a high-level understanding of the constitutional role of the Preside
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding the Presidents timeline helps explain:
 
@@ -184,8 +184,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - prime-ministers-timeline.md
 - constitutional-development-timeline.md

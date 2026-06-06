@@ -224,8 +224,6 @@ This transformation remains one of the most significant political developments o
 
 ---
 
-## Related Topics
-
 - freedom-struggle.md
 - partition.md
 - republic-of-india.md

@@ -1,6 +1,6 @@
 # Prithvi Series
 
-## Why It Matters
+## Strategic Importance
 
 The Prithvi Series was India's first indigenous ballistic missile family and one of the earliest successes of the Integrated Guided Missile Development Programme (IGMDP).
 

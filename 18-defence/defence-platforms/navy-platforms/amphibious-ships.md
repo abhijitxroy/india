@@ -1,6 +1,6 @@
 # Amphibious Ships
 
-## Why It Matters
+## Strategic Importance
 
 Amphibious ships enable armed forces to transport troops, vehicles, equipment and supplies from sea to land during military operations. They are essential for expeditionary warfare, island operations, disaster relief and humanitarian assistance missions.
 

@@ -203,8 +203,6 @@ Its role is to administer elections, not participate in politics.
 
 ---
 
-## Related Topics
-
 - voter-system.md
 - lok-sabha-election.md
 - vidhan-sabha-election.md

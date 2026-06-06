@@ -1,7 +1,7 @@
 
 # Infrastructure
 
-## Why It Matters
+## Economic Importance
 
 Infrastructure forms the foundation of economic growth by enabling transportation, logistics, communication, energy supply, and industrial development.
 

@@ -1,6 +1,6 @@
 # Nirbhay Missile
 
-## Why It Matters
+## Strategic Importance
 
 Nirbhay is India's indigenous long-range cruise missile programme designed to provide precision strike capability against strategic targets.
 

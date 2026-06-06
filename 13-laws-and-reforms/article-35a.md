@@ -118,8 +118,6 @@ Article 35A is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - article-370.md
 - jammu-and-kashmir-reorganisation.md
 - constitution-and-nation-building.md

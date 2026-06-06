@@ -1,6 +1,6 @@
 # Kargil War (1999)
 
-## Why It Matters
+## Strategic Importance
 
 The Kargil War was fought between India and Pakistan in 1999 in the Kargil-Dras-Batalik sector of Jammu and Kashmir.
 

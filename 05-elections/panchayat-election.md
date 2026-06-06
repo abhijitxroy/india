@@ -206,8 +206,6 @@ Democracy functions at national, state, and local levels.
 
 ---
 
-## Related Topics
-
 - municipal-election.md
 - voter-system.md
 - election-commission.md

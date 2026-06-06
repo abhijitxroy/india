@@ -1,6 +1,6 @@
 # Services Sector
 
-## Why It Matters
+## Economic Importance
 
 The services sector is the largest contributor to India's GDP and plays a major role in employment, innovation, exports, and economic growth.
 

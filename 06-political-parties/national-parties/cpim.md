@@ -206,8 +206,6 @@ Its influence extends beyond elections and includes contributions to:
 
 ---
 
-## Related Topics
-
 - cpi.md
 - congress.md
 - bjp.md

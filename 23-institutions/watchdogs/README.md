@@ -1,7 +1,7 @@
 
 # Watchdogs
 
-## Why It Matters
+## Institutional Importance
 
 Watchdog institutions promote transparency, accountability, integrity, and good governance.
 

@@ -93,8 +93,6 @@ Studying judicial terminology helps:
 
 ---
 
-## Related Topics
-
 - judiciary.md
 - constitution-and-nation-building.md
 - legal-terminology.md

@@ -1,6 +1,6 @@
 # Indirect Tax
 
-## Why It Matters
+## Economic Importance
 
 Indirect taxes are levied on the consumption of goods and services rather than directly on income or profits.
 

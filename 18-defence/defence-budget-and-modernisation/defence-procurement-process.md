@@ -1,7 +1,7 @@
 
 # Defence Procurement Process
 
-## Why It Matters
+## Strategic Importance
 
 The defence procurement process is the mechanism through which India acquires military equipment, platforms, weapons and technologies required by the Armed Forces.
 

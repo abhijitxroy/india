@@ -9,7 +9,7 @@ It helps visualize the relationship between the President, Lok Sabha, Rajya Sabh
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding Parliament helps explain:
 
@@ -196,8 +196,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - how-a-bill-becomes-law.md
 - lok-sabha-vs-rajya-sabha.md

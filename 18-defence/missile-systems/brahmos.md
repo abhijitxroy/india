@@ -1,6 +1,6 @@
 # BrahMos Missile
 
-## Why It Matters
+## Strategic Importance
 
 BrahMos is one of the world's most well-known supersonic cruise missile systems and a major component of India's precision-strike capability.
 

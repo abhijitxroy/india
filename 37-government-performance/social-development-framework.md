@@ -9,7 +9,7 @@ The objective is to assess social progress using measurable indicators and long-
 
 ---
 
-## Why It Matters
+## Governance Importance
 
 Economic growth alone does not guarantee social progress.
 
@@ -154,8 +154,6 @@ Social Progress
 ```
 
 ---
-
-## Related Topics
 
 - economic-performance-framework.md
 - education-performance-framework.md

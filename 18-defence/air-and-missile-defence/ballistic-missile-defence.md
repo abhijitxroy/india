@@ -1,6 +1,6 @@
 # Ballistic Missile Defence (BMD)
 
-## Why It Matters
+## Strategic Importance
 
 Ballistic Missile Defence (BMD) is designed to detect, track and intercept incoming ballistic missiles before they can reach their targets.
 

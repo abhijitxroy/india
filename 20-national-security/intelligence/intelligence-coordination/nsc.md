@@ -1,6 +1,6 @@
 # National Security Council (NSC)
 
-## Why It Matters
+## Strategic Importance
 
 The National Security Council (NSC) is India's highest institutional mechanism for coordinating national-security policy.
 

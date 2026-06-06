@@ -1,6 +1,6 @@
 # NavIC (Navigation with Indian Constellation)
 
-## Why It Matters
+## Scientific Importance
 
 NavIC is India's indigenous satellite-based navigation system developed by ISRO.
 

@@ -1,7 +1,7 @@
 
 # Airborne Warning Systems (AWACS & AEW&C)
 
-## Why It Matters
+## Strategic Importance
 
 Airborne Warning Systems are flying command-and-control platforms equipped with powerful radars and sensors that detect aircraft, missiles, drones, and other threats over very long distances.
 

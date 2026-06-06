@@ -1,6 +1,6 @@
 # Museums
 
-## Why It Matters
+## Historical and Cultural Importance
 
 Museums preserve and display historical, cultural, scientific, archaeological, and artistic collections for education and public awareness.
 

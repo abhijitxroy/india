@@ -1,6 +1,6 @@
 # Competition Commission of India (CCI)
 
-## Why It Matters
+## Institutional Importance
 
 The Competition Commission of India (CCI) is the statutory regulator responsible for promoting fair competition in markets and preventing anti-competitive practices.
 

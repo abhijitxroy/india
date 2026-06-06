@@ -144,8 +144,6 @@ They are central to the functioning of India's political system.
 
 ---
 
-## Related Topics
-
 - national-parties/README.md
 - national-parties/bjp.md
 - national-parties/congress.md

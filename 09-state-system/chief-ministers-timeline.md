@@ -154,8 +154,6 @@ Future sections will cover:
 
 ---
 
-## Related Topics
-
 - states-timeline.md
 - state-formation-timeline.md
 - federalism.md

@@ -128,8 +128,6 @@ NRC is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - caa.md
 - citizenship.md
 - constitution-and-nation-building.md

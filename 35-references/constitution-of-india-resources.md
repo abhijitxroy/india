@@ -7,7 +7,7 @@ This document lists the most important constitutional resources that help citize
 
 ---
 
-## Why It Matters
+## Why Use This Resource
 
 The Constitution is the foundation of the Indian Republic.
 
@@ -142,8 +142,6 @@ Democracy
 ```
 
 ---
-
-## Related Topics
 
 - parliament-resources.md
 - judiciary-resources.md

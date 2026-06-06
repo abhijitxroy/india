@@ -273,8 +273,6 @@ The Freedom Struggle:
 
 ---
 
-## Related Topics
-
 - british-raj.md
 - partition.md
 - independent-india.md

@@ -11,7 +11,7 @@ The objective is to understand how central governments can be assessed using evi
 
 ---
 
-## Why It Matters
+## Governance Importance
 
 The Central Government influences:
 
@@ -170,8 +170,6 @@ Foreign Policy
 ```
 
 ---
-
-## Related Topics
 
 - governance-performance-framework.md
 - economic-performance-framework.md

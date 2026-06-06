@@ -133,8 +133,6 @@ Demonetization is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - economic-liberalization-1991.md
 - gst.md
 - public-finance.md

@@ -11,7 +11,7 @@ The objective is to understand how economic performance can be assessed using ev
 
 ---
 
-## Why It Matters
+## Governance Importance
 
 Economic performance affects:
 
@@ -152,8 +152,6 @@ Citizen Welfare
 ```
 
 ---
-
-## Related Topics
 
 - governance-performance-framework.md
 - social-development-framework.md

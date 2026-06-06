@@ -136,8 +136,6 @@ The 74th Amendment is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - 73rd-constitutional-amendment.md
 - local-governance.md
 - public-administration-overview.md

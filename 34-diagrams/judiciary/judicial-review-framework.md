@@ -9,7 +9,7 @@ It helps visualize how courts examine laws, executive actions, and governmental 
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding Judicial Review helps explain:
 
@@ -176,8 +176,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - judicial-hierarchy.md
 - case-journey-through-courts.md

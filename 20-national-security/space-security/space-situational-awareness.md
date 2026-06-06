@@ -1,6 +1,6 @@
 # Space Situational Awareness (SSA)
 
-## Why It Matters
+## Strategic Importance
 
 Space Situational Awareness (SSA) is the ability to detect, track, identify and monitor objects and activities in space.
 

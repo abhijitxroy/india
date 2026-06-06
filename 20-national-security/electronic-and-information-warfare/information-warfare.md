@@ -1,6 +1,6 @@
 # Information Warfare
 
-## Why It Matters
+## Strategic Importance
 
 Information has become a strategic resource in modern conflicts.
 

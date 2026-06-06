@@ -1,7 +1,7 @@
 
 # Science and Space
 
-## Why It Matters
+## Scientific Importance
 
 Science, technology, nuclear research, and space exploration play a critical role in India's development, innovation ecosystem, strategic capabilities, and global competitiveness.
 

@@ -8,7 +8,7 @@ It provides a high-level timeline for understanding the evolution of governance 
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding major empires helps explain:
 
@@ -206,8 +206,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - india-through-time-timeline.md
 - ancient-to-contemporary-india-journey.md

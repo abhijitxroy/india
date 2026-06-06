@@ -123,8 +123,6 @@ The CAA is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - constitution-and-nation-building.md
 - citizenship.md
 - fundamental-rights-protection.md

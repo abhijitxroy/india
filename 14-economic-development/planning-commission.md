@@ -152,8 +152,6 @@ The Planning Commission is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - niti-aayog.md
 - license-raj.md
 - reforms-1991.md

@@ -1,6 +1,6 @@
 # Operation Cactus
 
-## Why It Matters
+## Strategic Importance
 
 Operation Cactus was one of India's most successful rapid military intervention operations. Conducted in 1988, it demonstrated India's ability to respond quickly to a security crisis in its neighbourhood and highlighted the growing importance of air mobility, joint operations and regional security cooperation.
 

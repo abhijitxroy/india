@@ -1,6 +1,6 @@
 # Signals Intelligence (SIGINT)
 
-## Why It Matters
+## Strategic Importance
 
 Signals Intelligence (SIGINT) is one of the most important sources of modern intelligence collection.
 

@@ -134,8 +134,6 @@ States and Union Territories are important because they help explain:
 
 ---
 
-## Related Topics
-
 - contemporary-governance.md
 - contemporary-parliament.md
 - public-administration-and-governance.md

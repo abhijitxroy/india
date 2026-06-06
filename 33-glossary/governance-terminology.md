@@ -93,8 +93,6 @@ Studying governance terminology helps:
 
 ---
 
-## Related Topics
-
 - public-administration-and-governance.md
 - contemporary-governance.md
 - contemporary-public-policy.md

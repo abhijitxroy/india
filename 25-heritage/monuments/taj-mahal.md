@@ -1,6 +1,6 @@
 # Taj Mahal
 
-## Why It Matters
+## Historical and Cultural Importance
 
 The Taj Mahal is one of the most famous monuments in the world and a globally recognized symbol of India's cultural heritage.
 

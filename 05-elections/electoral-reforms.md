@@ -211,8 +211,6 @@ The quality of elections directly influences governance and public policy.
 
 ---
 
-## Related Topics
-
 - election-commission.md
 - voter-system.md
 - electronic-voting-machines.md

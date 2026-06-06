@@ -9,7 +9,7 @@ It helps visualize the hierarchy of courts, appellate structure, and the adminis
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding the judicial hierarchy helps explain:
 
@@ -170,8 +170,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - case-journey-through-courts.md
 - judicial-review-framework.md

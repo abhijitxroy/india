@@ -1,6 +1,6 @@
 # Monetary Policy
 
-## Why It Matters
+## Economic Importance
 
 Monetary policy refers to the actions taken by the Reserve Bank of India (RBI) to manage money supply, interest rates, inflation, and liquidity in the economy.
 

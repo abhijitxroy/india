@@ -1,7 +1,7 @@
 
 # NavIC and Military Navigation
 
-## Why It Matters
+## Strategic Importance
 
 Navigation systems are critical for modern military operations, precision targeting, transportation, logistics and strategic decision-making.
 

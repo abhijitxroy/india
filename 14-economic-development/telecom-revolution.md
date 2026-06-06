@@ -136,8 +136,6 @@ The Telecom Revolution is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - digital-india.md
 - upi-revolution.md
 - aadhaar-and-dbt.md

@@ -142,8 +142,6 @@ Foreign Policy is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - neighbourhood-first-policy.md
 - act-east-policy.md
 - defence-policy.md

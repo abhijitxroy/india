@@ -138,8 +138,6 @@ Aadhaar and DBT are important because they help explain:
 
 ---
 
-## Related Topics
-
 - upi-revolution.md
 - digital-india.md
 - jan-dhan-yojana.md

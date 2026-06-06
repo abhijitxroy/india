@@ -1,6 +1,6 @@
 # Culture
 
-## Why It Matters
+## Historical and Cultural Importance
 
 India's culture is one of the oldest and most diverse in the world.
 

@@ -1,6 +1,6 @@
 # Cyber Warfare
 
-## Why It Matters
+## Strategic Importance
 
 Cyber warfare has become a critical domain of modern conflict alongside land, sea, air, and space.
 

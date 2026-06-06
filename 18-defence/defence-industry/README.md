@@ -1,6 +1,6 @@
 # Defence Industry
 
-## Why It Matters
+## Strategic Importance
 
 A strong defence industry allows India to build, maintain, modernize, and export military equipment without excessive dependence on foreign countries.
 

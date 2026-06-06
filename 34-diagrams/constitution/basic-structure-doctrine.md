@@ -8,7 +8,7 @@ It helps explain the balance between Parliament's power to amend the Constitutio
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding the Basic Structure Doctrine helps explain:
 
@@ -157,8 +157,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - constitution-amendment-process.md
 - constitutional-governance-model.md

@@ -1,4 +1,3 @@
-
 # Delhi Sultanate
 
 ## What Was the Delhi Sultanate?
@@ -182,8 +181,6 @@ The Delhi Sultanate:
 - Followed by the Mughal Empire.
 
 ---
-
-## Related Topics
 
 - regional-kingdoms.md
 - mughal-empire.md

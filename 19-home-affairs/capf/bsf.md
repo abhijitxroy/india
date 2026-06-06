@@ -1,6 +1,6 @@
 # Border Security Force (BSF)
 
-## Why It Matters
+## National Importance
 
 The Border Security Force (BSF) is India's primary border-guarding force responsible for securing large sections of the country's international borders.
 

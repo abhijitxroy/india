@@ -143,8 +143,6 @@ The IPS contributes to:
 
 ---
 
-## Related Topics
-
 - civil-services.md
 - bureaucracy.md
 - district-administration.md

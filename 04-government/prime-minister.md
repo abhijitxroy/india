@@ -229,8 +229,6 @@ The government remains accountable to the Lok Sabha.
 
 ---
 
-## Related Topics
-
 - president.md
 - vice-president.md
 - central-government.md

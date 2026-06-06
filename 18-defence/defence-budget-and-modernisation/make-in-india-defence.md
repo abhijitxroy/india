@@ -1,6 +1,6 @@
 # Make in India Defence
 
-## Why It Matters
+## Strategic Importance
 
 Make in India Defence is India's initiative to strengthen domestic defence manufacturing and reduce dependence on imported military equipment.
 

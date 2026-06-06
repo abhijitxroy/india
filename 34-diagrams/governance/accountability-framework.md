@@ -9,7 +9,7 @@ It helps visualize the mechanisms that keep public institutions answerable for t
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding accountability helps explain:
 
@@ -197,8 +197,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - governance-framework.md
 - citizen-to-policy-journey.md

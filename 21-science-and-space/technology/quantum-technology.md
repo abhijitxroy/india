@@ -1,6 +1,6 @@
 # Quantum Technology
 
-## Why It Matters
+## Scientific Importance
 
 Quantum Technology uses the principles of quantum mechanics to develop advanced computing, communication, sensing, and security systems.
 

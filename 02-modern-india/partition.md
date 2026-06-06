@@ -237,8 +237,6 @@ It remains one of the most important events in modern Indian history.
 
 ---
 
-## Related Topics
-
 - freedom-struggle.md
 - independent-india.md
 - republic-of-india.md

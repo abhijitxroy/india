@@ -136,8 +136,6 @@ The Nuclear Doctrine is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - national-security.md
 - defence-policy.md
 - foreign-policy.md

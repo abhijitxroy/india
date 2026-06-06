@@ -141,8 +141,6 @@ NITI Aayog is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - planning-commission.md
 - reforms-1991.md
 - digital-india.md

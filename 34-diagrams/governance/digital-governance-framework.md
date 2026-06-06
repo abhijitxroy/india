@@ -8,7 +8,7 @@ It helps visualize the transformation of traditional governance into technology-
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding digital governance helps explain:
 
@@ -172,8 +172,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - governance-framework.md
 - e-governance-workflow.md

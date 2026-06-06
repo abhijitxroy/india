@@ -1,6 +1,6 @@
 # Mangalyaan (Mars Orbiter Mission)
 
-## Why It Matters
+## Scientific Importance
 
 Mangalyaan, officially known as the Mars Orbiter Mission (MOM), was India's first interplanetary mission and one of ISRO's most significant achievements.
 

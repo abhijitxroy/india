@@ -1,6 +1,6 @@
 # Air Force Common Admission Test (AFCAT)
 
-## Why It Matters
+## Career Relevance
 
 The Air Force Common Admission Test (AFCAT) is the primary recruitment examination for commissioning officers in the Indian Air Force.
 

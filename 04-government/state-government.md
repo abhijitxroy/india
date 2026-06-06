@@ -249,8 +249,6 @@ State Legislatures can pass laws on subjects assigned to them by the Constitutio
 
 ---
 
-## Related Topics
-
 - central-government.md
 - federalism.md
 - governor.md

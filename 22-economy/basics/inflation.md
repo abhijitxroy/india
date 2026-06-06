@@ -1,6 +1,6 @@
 # Inflation
 
-## Why It Matters
+## Economic Importance
 
 Inflation refers to the sustained increase in the general price level of goods and services over time.
 

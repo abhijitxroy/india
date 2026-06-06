@@ -1,7 +1,7 @@
 
 # Bharat Electronics Limited (BEL)
 
-## Why It Matters
+## Strategic Importance
 
 Bharat Electronics Limited (BEL) is India's leading defence electronics company. It develops and manufactures radar systems, communication equipment, electronic warfare systems, command-and-control platforms, naval electronics, and advanced defence technologies used by the Indian Armed Forces.
 

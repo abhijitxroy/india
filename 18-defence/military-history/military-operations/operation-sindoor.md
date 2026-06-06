@@ -1,6 +1,6 @@
 # Operation Sindoor
 
-## Why It Matters
+## Strategic Importance
 
 Operation Sindoor was one of India's most significant military operations in recent years. Conducted in 2025, it demonstrated India's capability to carry out precision strikes against terrorist infrastructure while combining intelligence, surveillance and coordinated military planning.
 

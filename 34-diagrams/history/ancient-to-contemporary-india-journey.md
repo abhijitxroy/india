@@ -9,7 +9,7 @@ It provides a high-level visual framework for understanding major historical tra
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding this journey helps explain:
 
@@ -237,8 +237,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - india-through-time-timeline.md
 - major-empires-timeline.md

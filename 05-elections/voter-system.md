@@ -248,8 +248,6 @@ Citizens vote in national, state, and local elections.
 
 ---
 
-## Related Topics
-
 - election-commission.md
 - electronic-voting-machines.md
 - lok-sabha-election.md

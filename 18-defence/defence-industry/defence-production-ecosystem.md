@@ -1,7 +1,7 @@
 
 # Defence Production Ecosystem of India
 
-## Why It Matters
+## Strategic Importance
 
 India's defence production ecosystem consists of government organizations, defence public sector undertakings, private companies, startups, research institutions, and the armed forces working together to design, develop, manufacture, and maintain military equipment.
 

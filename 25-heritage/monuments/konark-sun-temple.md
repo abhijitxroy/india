@@ -1,6 +1,6 @@
 # Konark Sun Temple
 
-## Why It Matters
+## Historical and Cultural Importance
 
 The Konark Sun Temple is one of India's most remarkable architectural and cultural monuments.
 

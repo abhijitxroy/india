@@ -231,8 +231,6 @@ Members came from different regions, backgrounds, and political perspectives.
 
 ---
 
-## Related Topics
-
 - constitution-overview.md
 - making-of-the-constitution.md
 - preamble.md

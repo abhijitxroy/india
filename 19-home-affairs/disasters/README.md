@@ -1,6 +1,6 @@
 # Disaster Management
 
-## Why It Matters
+## National Importance
 
 India faces natural and human-made disasters including floods, cyclones, earthquakes, landslides, droughts, industrial accidents, and pandemics.
 

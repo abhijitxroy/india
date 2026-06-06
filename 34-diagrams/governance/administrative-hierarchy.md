@@ -8,7 +8,7 @@ It helps visualize how authority, responsibility, coordination, and execution fl
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding the administrative hierarchy helps explain:
 
@@ -191,8 +191,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - governance-framework.md
 - public-service-delivery-workflow.md

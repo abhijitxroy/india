@@ -8,7 +8,7 @@ The objective is to help readers understand how political parties developed, com
 
 ---
 
-## Why It Matters
+## Historical Significance
 
 Understanding political party evolution helps explain:
 
@@ -117,8 +117,6 @@ Modern Multi-Party System
 ```
 
 ---
-
-## Related Topics
 
 - election-timeline.md
 - prime-minister-timeline.md

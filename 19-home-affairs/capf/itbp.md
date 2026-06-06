@@ -1,6 +1,6 @@
 # Indo-Tibetan Border Police (ITBP)
 
-## Why It Matters
+## National Importance
 
 The Indo-Tibetan Border Police (ITBP) is India's primary force responsible for guarding the India–China border in some of the world's most challenging high-altitude environments.
 

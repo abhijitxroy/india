@@ -1,6 +1,6 @@
 # Agriculture
 
-## Why It Matters
+## Economic Importance
 
 Agriculture is one of the most important sectors of the Indian economy.
 

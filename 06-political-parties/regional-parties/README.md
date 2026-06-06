@@ -129,8 +129,6 @@ They help reflect India's regional, linguistic, cultural, and political diversit
 
 ---
 
-## Related Topics
-
 - tmc.md
 - national-parties.md
 - recognition-of-parties.md

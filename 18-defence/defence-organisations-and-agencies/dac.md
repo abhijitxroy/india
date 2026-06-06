@@ -1,7 +1,7 @@
 
 # Defence Acquisition Council (DAC)
 
-## Why It Matters
+## Strategic Importance
 
 The Defence Acquisition Council (DAC) is India's highest decision-making body for defence procurement.
 

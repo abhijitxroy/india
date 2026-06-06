@@ -8,7 +8,7 @@ It helps visualize the complete democratic journey from political organization t
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding the party-to-government journey helps explain:
 
@@ -192,8 +192,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - political-party-ecosystem.md
 - coalition-formation-model.md

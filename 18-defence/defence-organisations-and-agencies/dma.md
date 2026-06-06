@@ -1,7 +1,7 @@
 
 # Department of Military Affairs (DMA)
 
-## Why It Matters
+## Strategic Importance
 
 The Department of Military Affairs (DMA) is one of the most significant defence reforms in modern India.
 

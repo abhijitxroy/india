@@ -1,6 +1,6 @@
 # UNESCO World Heritage Sites in India
 
-## Why It Matters
+## Historical and Cultural Importance
 
 UNESCO World Heritage Sites are places recognized for their outstanding cultural or natural value to humanity.
 

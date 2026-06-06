@@ -1,7 +1,7 @@
 
 # Armoured Vehicles
 
-## Why It Matters
+## Strategic Importance
 
 Armoured vehicles provide the Indian Army with mobility, protection and firepower on the battlefield. They enable forces to operate in hostile environments while protecting soldiers from enemy fire, artillery fragments and battlefield threats.
 

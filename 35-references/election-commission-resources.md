@@ -7,7 +7,7 @@ This document lists important Election Commission resources that help citizens u
 
 ---
 
-## Why It Matters
+## Why Use This Resource
 
 The Election Commission plays a critical role in ensuring free and fair elections.
 
@@ -135,8 +135,6 @@ Government
 ```
 
 ---
-
-## Related Topics
 
 - constitution-of-india-resources.md
 - parliament-resources.md

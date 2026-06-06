@@ -1,6 +1,6 @@
 # Economic Sectors
 
-## Why It Matters
+## Economic Importance
 
 Economic sectors are the productive engines of the economy. They generate employment, income, exports, investment, and economic growth.
 

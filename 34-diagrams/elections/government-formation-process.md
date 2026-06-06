@@ -9,7 +9,7 @@ It helps visualize the transition from election results to governance.
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding government formation helps explain:
 
@@ -152,8 +152,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - election-process-flow.md
 - voter-to-government-journey.md

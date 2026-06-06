@@ -9,7 +9,7 @@ The objective is to help readers understand how policy changes transformed India
 
 ---
 
-## Why It Matters
+## Historical Significance
 
 Understanding economic reforms helps explain:
 
@@ -122,8 +122,6 @@ PLI Era
 ```
 
 ---
-
-## Related Topics
 
 - major-laws-timeline.md
 - prime-minister-timeline.md

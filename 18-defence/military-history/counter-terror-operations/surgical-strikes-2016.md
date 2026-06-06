@@ -1,6 +1,6 @@
 # Surgical Strikes (2016)
 
-## Why It Matters
+## Strategic Importance
 
 The 2016 Surgical Strikes marked an important moment in India's modern security and military response framework.
 

@@ -269,8 +269,6 @@ They:
 
 ---
 
-## Related Topics
-
 - regional-kingdoms.md
 - gupta-empire.md
 - delhi-sultanate.md

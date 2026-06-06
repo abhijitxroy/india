@@ -14,7 +14,7 @@ It connects civilizations, governments, constitutional development, elections, l
 
 ---
 
-## Why It Matters
+## Historical Significance
 
 Timelines help connect events across different topics and answer:
 

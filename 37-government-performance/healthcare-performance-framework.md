@@ -9,7 +9,7 @@ The objective is to assess healthcare outcomes rather than political claims.
 
 ---
 
-## Why It Matters
+## Governance Importance
 
 Healthcare directly affects:
 
@@ -152,8 +152,6 @@ Well-Being
 ```
 
 ---
-
-## Related Topics
 
 - social-development-framework.md
 - education-performance-framework.md

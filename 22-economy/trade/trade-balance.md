@@ -1,6 +1,6 @@
 # Trade Balance
 
-## Why It Matters
+## Economic Importance
 
 Trade balance measures the difference between a country's exports and imports.
 

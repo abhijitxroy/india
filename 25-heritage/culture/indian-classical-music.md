@@ -1,6 +1,6 @@
 # Indian Classical Music
 
-## Why It Matters
+## Historical and Cultural Importance
 
 Indian classical music is one of the oldest living musical traditions in the world.
 

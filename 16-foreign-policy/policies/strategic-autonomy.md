@@ -136,8 +136,6 @@ Strategic Autonomy is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - foreign-policy.md
 - national-security.md
 - act-east-policy.md

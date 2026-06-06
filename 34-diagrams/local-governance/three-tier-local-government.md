@@ -1,7 +1,7 @@
 
 # Three-Tier Local Government
 
-## Why It Matters
+## Diagram Purpose
 
 The three-tier local government system brings governance closer to citizens. It distributes responsibilities across district, block, and village levels to improve administration, participation, and development outcomes.
 

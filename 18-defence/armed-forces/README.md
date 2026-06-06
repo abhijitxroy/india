@@ -1,6 +1,6 @@
 # Armed Forces
 
-## Why It Matters
+## Strategic Importance
 
 The Armed Forces are responsible for defending India's sovereignty, territorial integrity, maritime interests, airspace, and national security.
 

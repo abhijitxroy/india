@@ -9,7 +9,7 @@ It provides a high-level view of how economic policy, development strategy, libe
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding economic reforms helps explain:
 
@@ -210,8 +210,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - nation-building-timeline.md
 - constitutional-development-timeline.md

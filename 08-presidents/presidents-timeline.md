@@ -144,8 +144,6 @@ The President acts as the constitutional head of the Republic.
 
 ---
 
-## Related Topics
-
 - vice-presidents-timeline.md
 - president-election.md
 - powers-of-president.md

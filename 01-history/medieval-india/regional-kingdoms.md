@@ -214,8 +214,6 @@ A new phase of Indian history began.
 
 ---
 
-## Related Topics
-
 - gupta-empire.md
 - south-indian-kingdoms.md
 - delhi-sultanate.md

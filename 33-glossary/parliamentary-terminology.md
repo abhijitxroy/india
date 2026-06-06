@@ -92,8 +92,6 @@ Studying parliamentary terminology helps:
 
 ---
 
-## Related Topics
-
 - parliament-and-law-making.md
 - elections-and-democracy.md
 - political-parties.md

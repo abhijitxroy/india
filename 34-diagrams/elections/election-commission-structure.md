@@ -8,7 +8,7 @@ It helps visualize how elections are administered across the country.
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding the Election Commission helps explain:
 
@@ -159,8 +159,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - election-process-flow.md
 - voter-to-government-journey.md

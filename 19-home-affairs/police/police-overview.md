@@ -1,6 +1,6 @@
 # Police in India
 
-## Why It Matters
+## National Importance
 
 The police system is the primary law enforcement mechanism in India and plays a crucial role in maintaining law and order, preventing crime, protecting citizens, and supporting the justice system.
 

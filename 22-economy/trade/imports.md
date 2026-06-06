@@ -1,6 +1,6 @@
 # Imports
 
-## Why It Matters
+## Economic Importance
 
 Imports are goods and services purchased by India from other countries.
 

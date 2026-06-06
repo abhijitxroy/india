@@ -1,6 +1,6 @@
 # Nuclear Power Corporation of India Limited (NPCIL)
 
-## Why It Matters
+## Scientific Importance
 
 The Nuclear Power Corporation of India Limited (NPCIL) is the public sector enterprise responsible for the construction, operation, and management of nuclear power plants in India.
 

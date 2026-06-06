@@ -133,8 +133,6 @@ The Mandal Commission is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - constitution-and-nation-building.md
 - elections-and-democracy.md
 - public-administration-overview.md

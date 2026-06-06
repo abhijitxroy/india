@@ -1,7 +1,7 @@
 
 # Logistics Vehicles
 
-## Why It Matters
+## Strategic Importance
 
 Logistics vehicles are the backbone of military operations. Armies cannot fight effectively without a continuous supply of fuel, ammunition, food, water, medical support and equipment.
 

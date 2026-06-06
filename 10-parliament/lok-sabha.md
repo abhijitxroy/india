@@ -136,8 +136,6 @@ It serves as the primary link between citizens and the Union Government.
 
 ---
 
-## Related Topics
-
 - parliament-overview.md
 - rajya-sabha.md
 - law-making-process.md

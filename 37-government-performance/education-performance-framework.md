@@ -9,7 +9,7 @@ The objective is to assess education outcomes rather than political claims.
 
 ---
 
-## Why It Matters
+## Governance Importance
 
 Education influences:
 
@@ -141,8 +141,6 @@ Development
 ```
 
 ---
-
-## Related Topics
 
 - social-development-framework.md
 - healthcare-performance-framework.md

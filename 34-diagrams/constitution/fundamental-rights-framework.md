@@ -8,7 +8,7 @@ It helps visualize the relationship between citizens, constitutional protections
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding Fundamental Rights helps explain:
 
@@ -186,8 +186,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - constitutional-governance-model.md
 - constitution-amendment-process.md

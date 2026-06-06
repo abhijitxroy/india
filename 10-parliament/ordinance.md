@@ -136,8 +136,6 @@ Parliament retains the authority to approve, modify, or reject measures introduc
 
 ---
 
-## Related Topics
-
 - parliament-overview.md
 - law-making-process.md
 - bill-vs-act.md

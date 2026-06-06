@@ -1,6 +1,6 @@
 # Criminal Investigation Department (CID)
 
-## Why It Matters
+## National Importance
 
 The Criminal Investigation Department (CID) is the specialized investigation wing of state police forces responsible for handling complex criminal cases, intelligence gathering, and specialized investigations.
 

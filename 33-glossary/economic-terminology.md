@@ -111,8 +111,6 @@ Studying economic terminology helps:
 
 ---
 
-## Related Topics
-
 - economic-transformations.md
 - major-laws-and-reforms.md
 - contemporary-public-policy.md

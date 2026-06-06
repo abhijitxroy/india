@@ -1,6 +1,6 @@
 # Telecom Regulatory Authority of India (TRAI)
 
-## Why It Matters
+## Institutional Importance
 
 The Telecom Regulatory Authority of India (TRAI) is the statutory regulator responsible for regulating telecommunications services in India.
 

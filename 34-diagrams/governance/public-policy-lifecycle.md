@@ -9,7 +9,7 @@ It helps visualize the complete journey from identifying a public problem to ach
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding the public policy lifecycle helps explain:
 
@@ -230,8 +230,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - governance-framework.md
 - citizen-to-policy-journey.md

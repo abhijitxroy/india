@@ -1,6 +1,6 @@
 # Chief of Defence Staff (CDS)
 
-## Why It Matters
+## Strategic Importance
 
 The Chief of Defence Staff (CDS) is the highest-ranking uniformed military officer in India and serves as the principal military adviser to the Government of India.
 

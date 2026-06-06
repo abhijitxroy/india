@@ -1,6 +1,6 @@
 # Air Force Platforms
 
-## Why It Matters
+## Strategic Importance
 
 Air power is a critical component of modern warfare. Air Force platforms provide air superiority, strategic reach, surveillance, reconnaissance, air defence, logistics support, and precision strike capabilities.
 

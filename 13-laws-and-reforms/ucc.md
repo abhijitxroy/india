@@ -127,8 +127,6 @@ UCC is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - constitution-and-nation-building.md
 - fundamental-rights-protection.md
 - directive-principles-of-state-policy.md

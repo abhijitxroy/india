@@ -140,8 +140,6 @@ Modern Federal India
 
 ---
 
-## Related Topics
-
 - chief-ministers-timeline.md
 - state-formation-timeline.md
 - state-reorganization.md

@@ -123,8 +123,6 @@ The IFS contributes to:
 
 ---
 
-## Related Topics
-
 - civil-services.md
 - bureaucracy.md
 - governance.md

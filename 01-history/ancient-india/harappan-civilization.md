@@ -1,4 +1,3 @@
-
 # Harappan Civilization
 
 ## What Was the Harappan Civilization?
@@ -204,8 +203,6 @@ The Harappan Civilization:
 - Declined around 1900 BCE onwards.
 
 ---
-
-## Related Topics
 
 - indus-valley-civilization.md
 - prehistoric-india.md

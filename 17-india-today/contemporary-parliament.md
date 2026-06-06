@@ -139,8 +139,6 @@ The Contemporary Parliament is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - contemporary-governance.md
 - parliament-and-law-making.md
 - elections-and-democracy.md

@@ -9,7 +9,7 @@ It provides a high-level timeline for understanding how political awareness, ref
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding the freedom struggle helps explain:
 
@@ -178,8 +178,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - india-through-time-timeline.md
 - ancient-to-contemporary-india-journey.md

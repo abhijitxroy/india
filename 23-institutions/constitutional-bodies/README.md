@@ -1,6 +1,6 @@
 # Constitutional Bodies
 
-## Why It Matters
+## Institutional Importance
 
 Constitutional bodies derive their authority directly from the Constitution of India.
 

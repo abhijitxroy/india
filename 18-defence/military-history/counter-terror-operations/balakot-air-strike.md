@@ -1,7 +1,7 @@
 
 # Balakot Air Strike
 
-## Why It Matters
+## Strategic Importance
 
 The Balakot Air Strike was one of the most significant air-power operations in modern Indian military history.
 

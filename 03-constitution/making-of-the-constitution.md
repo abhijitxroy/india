@@ -230,8 +230,6 @@ The final document emerged after extensive consultation and debate.
 
 ---
 
-## Related Topics
-
 - constituent-assembly.md
 - constitution-overview.md
 - preamble.md

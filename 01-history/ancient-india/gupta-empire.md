@@ -1,4 +1,3 @@
-
 # Gupta Empire
 
 ## What Was the Gupta Empire?
@@ -175,8 +174,6 @@ The Gupta Empire:
 - Declined due to invasions and internal weaknesses
 
 ---
-
-## Related Topics
 
 - maurya-empire.md
 - regional-kingdoms.md

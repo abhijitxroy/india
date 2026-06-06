@@ -8,7 +8,7 @@ It helps visualize the connection between voters and governance.
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding constituency representation helps explain:
 
@@ -145,8 +145,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - election-process-flow.md
 - voter-to-government-journey.md

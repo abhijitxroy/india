@@ -246,8 +246,6 @@ Courts play an important role in protecting constitutional rights.
 
 ---
 
-## Related Topics
-
 - preamble.md
 - directive-principles.md
 - fundamental-duties.md

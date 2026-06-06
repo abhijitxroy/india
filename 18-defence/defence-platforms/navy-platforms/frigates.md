@@ -1,6 +1,6 @@
 # Frigates
 
-## Why It Matters
+## Strategic Importance
 
 Frigates are versatile multi-role warships that form the backbone of many modern naval fleets. They protect larger ships, conduct anti-submarine operations, provide air defence, escort merchant vessels and participate in maritime security missions.
 

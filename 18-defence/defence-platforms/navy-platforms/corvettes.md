@@ -1,6 +1,6 @@
 # Corvettes
 
-## Why It Matters
+## Strategic Importance
 
 Corvettes are small, fast and highly maneuverable warships designed for coastal defence, patrol missions, anti-submarine warfare and maritime security operations.
 

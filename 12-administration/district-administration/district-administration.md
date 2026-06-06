@@ -141,8 +141,6 @@ Administrative reforms often focus on improving district-level governance.
 
 ---
 
-## Related Topics
-
 - public-administration-overview.md
 - bureaucracy.md
 - civil-services.md

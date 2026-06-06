@@ -189,8 +189,6 @@ This transformation created the framework for modern governance in India.
 
 ---
 
-## Related Topics
-
 - independent-india.md
 - constitution-overview.md
 - preamble.md

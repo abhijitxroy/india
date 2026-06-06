@@ -1,6 +1,6 @@
 # Akash Missile System
 
-## Why It Matters
+## Strategic Importance
 
 The Akash Missile System is one of India's most important indigenous air-defence systems.
 

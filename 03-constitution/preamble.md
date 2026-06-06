@@ -245,8 +245,6 @@ The term reflects social and economic justice objectives.
 
 ---
 
-## Related Topics
-
 - constitution-overview.md
 - making-of-the-constitution.md
 - constituent-assembly.md

@@ -7,7 +7,7 @@ This document lists important judicial resources that help citizens understand I
 
 ---
 
-## Why It Matters
+## Why Use This Resource
 
 Understanding judicial resources helps citizens learn:
 
@@ -133,8 +133,6 @@ Justice
 ```
 
 ---
-
-## Related Topics
 
 - constitution-of-india-resources.md
 - parliament-resources.md

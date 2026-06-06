@@ -1,6 +1,6 @@
 # Securities and Exchange Board of India (SEBI)
 
-## Why It Matters
+## Institutional Importance
 
 The Securities and Exchange Board of India (SEBI) is the statutory regulator of India's securities and capital markets.
 

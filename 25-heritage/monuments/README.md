@@ -1,6 +1,6 @@
 # Monuments
 
-## Why It Matters
+## Historical and Cultural Importance
 
 India's monuments reflect its rich historical, architectural, cultural, and political heritage.
 

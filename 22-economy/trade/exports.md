@@ -1,6 +1,6 @@
 # Exports
 
-## Why It Matters
+## Economic Importance
 
 Exports are goods and services sold by India to other countries.
 

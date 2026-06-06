@@ -8,7 +8,7 @@ It provides a visual understanding of how democratic representation is created t
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding the election process helps explain:
 
@@ -199,8 +199,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - voter-to-government-journey.md
 - election-commission-structure.md

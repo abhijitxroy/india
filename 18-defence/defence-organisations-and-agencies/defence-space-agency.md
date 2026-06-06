@@ -1,6 +1,6 @@
 # Defence Space Agency (DSA)
 
-## Why It Matters
+## Strategic Importance
 
 The Defence Space Agency (DSA) is India's tri-service military organization responsible for coordinating space-related defence capabilities.
 

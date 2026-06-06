@@ -8,7 +8,7 @@ It provides a structured framework for interpreting election outcomes beyond sim
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding election result analysis helps explain:
 
@@ -178,8 +178,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - election-process-flow.md
 - government-formation-process.md

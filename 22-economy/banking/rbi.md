@@ -1,6 +1,6 @@
 # Reserve Bank of India (RBI)
 
-## Why It Matters
+## Economic Importance
 
 The Reserve Bank of India (RBI) is India's central bank and the most important institution responsible for monetary policy, banking regulation, currency management, and financial stability.
 

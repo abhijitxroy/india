@@ -107,8 +107,6 @@ Studying foreign policy terminology helps:
 
 ---
 
-## Related Topics
-
 - foreign-policy.md
 - strategic-autonomy.md
 - national-security.md

@@ -8,7 +8,7 @@ It serves as the foundation diagram for understanding India's political party sy
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding the political party ecosystem helps explain:
 
@@ -194,8 +194,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - party-to-government-journey.md
 - coalition-formation-model.md

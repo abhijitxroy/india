@@ -1,6 +1,6 @@
 # Defence Platforms
 
-## Why It Matters
+## Strategic Importance
 
 Military power is not determined by the number of soldiers alone. Modern armed forces depend on a wide range of platforms operating across land, sea, air, space and cyberspace.
 

@@ -1,6 +1,6 @@
 # Red Fort
 
-## Why It Matters
+## Historical and Cultural Importance
 
 The Red Fort is one of India's most important historical monuments and a powerful symbol of the nation's heritage.
 

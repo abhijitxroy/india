@@ -1,4 +1,3 @@
-
 # Vedic Period
 
 ## What Was the Vedic Period?
@@ -204,8 +203,6 @@ For centuries, Vedic knowledge was transmitted through memorization rather than 
 - The period led to the rise of the Mahajanapadas.
 
 ---
-
-## Related Topics
 
 - prehistoric-india.md
 - indus-valley-civilization.md

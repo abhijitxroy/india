@@ -8,7 +8,7 @@ It provides a high-level understanding of how leadership and governments shaped 
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding the Prime Ministers timeline helps explain:
 
@@ -210,8 +210,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - presidents-timeline.md
 - constitutional-development-timeline.md

@@ -1,7 +1,7 @@
 
 # Municipal Governance Structure
 
-## Why It Matters
+## Diagram Purpose
 
 Municipal governments manage urban areas and are responsible for essential civic services such as roads, sanitation, water supply, public health, urban planning, and local infrastructure. Understanding municipal governance helps citizens know how cities are administered.
 

@@ -1,6 +1,6 @@
 # Air and Missile Defence
 
-## Why It Matters
+## Strategic Importance
 
 Air and Missile Defence (AMD) protects a country from hostile aircraft, drones, cruise missiles, ballistic missiles, and other airborne threats.
 

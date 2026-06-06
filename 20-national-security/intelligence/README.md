@@ -1,6 +1,6 @@
 # Intelligence and Security Agencies
 
-## Why It Matters
+## Strategic Importance
 
 Intelligence is one of the most important components of national security. Governments require timely and accurate information to identify threats, prevent attacks, support military operations and make strategic decisions.
 

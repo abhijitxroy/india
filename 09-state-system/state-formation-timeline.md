@@ -181,8 +181,6 @@ The structure continues to evolve through constitutional and parliamentary proce
 
 ---
 
-## Related Topics
-
 - states-timeline.md
 - chief-ministers-timeline.md
 - federalism.md

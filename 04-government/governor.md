@@ -195,8 +195,6 @@ The role is not purely ceremonial and includes important constitutional function
 
 ---
 
-## Related Topics
-
 - chief-minister.md
 - state-government.md
 - federalism.md

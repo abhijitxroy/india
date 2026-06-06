@@ -1,6 +1,6 @@
 # Paramilitary Forces Overview
 
-## Why It Matters
+## National Importance
 
 India's paramilitary forces, officially known as Central Armed Police Forces (CAPFs) and related security organizations, play a critical role in border security, internal security, counter-insurgency operations, infrastructure protection and national security.
 

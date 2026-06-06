@@ -1,6 +1,6 @@
 # Direct Tax
 
-## Why It Matters
+## Economic Importance
 
 Direct taxes are levied directly on individuals, businesses, and other entities based on their income, profits, or wealth.
 

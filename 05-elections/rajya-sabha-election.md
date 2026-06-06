@@ -193,8 +193,6 @@ Both houses play important constitutional roles.
 
 ---
 
-## Related Topics
-
 - lok-sabha-election.md
 - vidhan-sabha-election.md
 - parliament.md

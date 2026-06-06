@@ -8,7 +8,7 @@ It serves as the master timeline for the repository and connects history, govern
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding India's timeline helps explain:
 
@@ -215,8 +215,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - ancient-to-contemporary-india-journey.md
 - freedom-struggle-timeline.md

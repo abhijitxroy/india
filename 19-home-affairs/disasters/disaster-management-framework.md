@@ -1,7 +1,7 @@
 
 # Disaster Management Framework in India
 
-## Why It Matters
+## National Importance
 
 India is vulnerable to natural and human-made disasters such as floods, cyclones, earthquakes, droughts, landslides, industrial accidents, and pandemics.
 

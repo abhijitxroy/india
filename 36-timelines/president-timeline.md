@@ -9,7 +9,7 @@ The objective is to help readers understand the evolution of India's highest con
 
 ---
 
-## Why It Matters
+## Historical Significance
 
 Understanding the President timeline helps explain:
 
@@ -101,8 +101,6 @@ Droupadi Murmu
 ```
 
 ---
-
-## Related Topics
 
 - prime-minister-timeline.md
 - constitutional-development-timeline.md

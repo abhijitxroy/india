@@ -1,6 +1,6 @@
 # Atmanirbhar Defence
 
-## Why It Matters
+## Strategic Importance
 
 Atmanirbhar Defence is India's strategy to reduce dependence on foreign military imports and build a strong indigenous defence manufacturing ecosystem. The objective is to improve national security, strengthen domestic industry, create high-skilled jobs, increase exports, and achieve strategic autonomy.
 

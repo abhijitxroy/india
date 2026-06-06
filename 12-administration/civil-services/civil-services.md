@@ -132,8 +132,6 @@ Administrative reforms often aim to address these challenges.
 
 ---
 
-## Related Topics
-
 - public-administration-overview.md
 - bureaucracy.md
 - governance.md

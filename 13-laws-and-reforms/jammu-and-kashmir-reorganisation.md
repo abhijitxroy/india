@@ -134,8 +134,6 @@ The Reorganisation Act is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - article-370.md
 - article-35a.md
 - centre-state-relations.md

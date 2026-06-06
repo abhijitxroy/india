@@ -8,7 +8,7 @@ It helps visualize negotiations, alliances, majority building, government format
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding coalition formation helps explain:
 
@@ -162,8 +162,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - political-party-ecosystem.md
 - party-to-government-journey.md

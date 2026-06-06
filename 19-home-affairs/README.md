@@ -1,6 +1,6 @@
 # Home Affairs
 
-## Why It Matters
+## National Importance
 
 Home Affairs is responsible for maintaining internal security, law and order, border management, disaster response, counter-terrorism, policing, and coordination of national security within India.
 

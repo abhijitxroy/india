@@ -1,6 +1,6 @@
 # Gaganyaan Mission
 
-## Why It Matters
+## Scientific Importance
 
 Gaganyaan is India's first human spaceflight programme developed by ISRO.
 

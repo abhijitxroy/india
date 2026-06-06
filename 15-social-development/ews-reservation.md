@@ -132,8 +132,6 @@ EWS Reservation is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - 103rd-constitutional-amendment.md
 - reservation-system.md
 - social-justice.md

@@ -1,7 +1,7 @@
 
 # Operation Ganga
 
-## Why It Matters
+## Strategic Importance
 
 Operation Ganga was a major evacuation mission conducted by India in 2022 to bring back Indian citizens stranded in Ukraine during the Russia-Ukraine conflict.
 

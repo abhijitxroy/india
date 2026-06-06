@@ -133,8 +133,6 @@ The Supreme Court helps maintain:
 
 ---
 
-## Related Topics
-
 - judiciary-overview.md
 - high-courts.md
 - district-courts.md

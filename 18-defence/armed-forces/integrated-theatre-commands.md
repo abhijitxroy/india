@@ -1,6 +1,6 @@
 # Integrated Theatre Commands
 
-## Why It Matters
+## Strategic Importance
 
 Integrated Theatre Commands are proposed unified military commands that bring together Army, Navy, and Air Force assets under a single operational commander. The objective is faster decision-making, improved joint operations, better resource utilization, and enhanced combat effectiveness.
 

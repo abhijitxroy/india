@@ -8,7 +8,7 @@ It provides a high-level understanding of how education, social justice, urbaniz
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding social transformation helps explain:
 
@@ -189,8 +189,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - nation-building-timeline.md
 - economic-reforms-timeline.md

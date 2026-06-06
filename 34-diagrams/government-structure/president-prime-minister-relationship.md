@@ -8,7 +8,7 @@ It helps visualize the distinction between the Head of State and the Head of Gov
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding the President–Prime Minister relationship helps explain:
 
@@ -195,8 +195,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - governor-chief-minister-relationship.md
 - union-government-structure.md

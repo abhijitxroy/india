@@ -1,7 +1,7 @@
 
 # Tanks
 
-## Why It Matters
+## Strategic Importance
 
 Tanks are among the most powerful land-combat platforms in modern warfare. They combine firepower, armour protection and mobility, allowing armies to conduct offensive operations, break enemy defences and dominate the battlefield.
 

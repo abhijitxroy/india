@@ -1,7 +1,7 @@
 
 # Peacekeeping
 
-## Why It Matters
+## Strategic Importance
 
 Peacekeeping operations help maintain international peace and security in conflict-affected regions.
 

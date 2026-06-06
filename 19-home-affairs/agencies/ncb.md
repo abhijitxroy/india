@@ -1,6 +1,6 @@
 # Narcotics Control Bureau (NCB)
 
-## Why It Matters
+## National Importance
 
 The Narcotics Control Bureau (NCB) is India's primary agency for combating drug trafficking and the illegal narcotics trade.
 

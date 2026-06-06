@@ -182,8 +182,6 @@ The Vice President's primary day-to-day role is serving as Chairman of the Rajya
 
 ---
 
-## Related Topics
-
 - president.md
 - prime-minister.md
 - rajya-sabha.md

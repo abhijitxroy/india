@@ -8,7 +8,7 @@ It provides a high-level framework for understanding the creation of modern Indi
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding nation building helps explain:
 
@@ -207,8 +207,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - india-through-time-timeline.md
 - ancient-to-contemporary-india-journey.md

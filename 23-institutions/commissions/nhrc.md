@@ -1,6 +1,6 @@
 # National Human Rights Commission (NHRC)
 
-## Why It Matters
+## Institutional Importance
 
 The National Human Rights Commission (NHRC) is India's premier human rights institution responsible for protecting and promoting human rights.
 

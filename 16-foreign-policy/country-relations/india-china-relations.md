@@ -151,8 +151,6 @@ India–China relations are important because they help explain:
 
 ---
 
-## Related Topics
-
 - foreign-policy.md
 - sino-indian-war-1962.md
 - national-security.md

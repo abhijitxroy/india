@@ -7,7 +7,7 @@ This document lists important commissions, committees, expert bodies, and offici
 
 ---
 
-## Why It Matters
+## Why Use This Resource
 
 Official reports and commissions often:
 
@@ -170,8 +170,6 @@ Impact
 ```
 
 ---
-
-## Related Topics
 
 - constitution-of-india-resources.md
 - parliament-resources.md

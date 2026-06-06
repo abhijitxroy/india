@@ -1,6 +1,6 @@
 # Technology
 
-## Why It Matters
+## Scientific Importance
 
 Technology is transforming economies, industries, governance, defence, healthcare, education, and everyday life.
 

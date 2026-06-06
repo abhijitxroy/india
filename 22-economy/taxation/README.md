@@ -1,6 +1,6 @@
 # Taxation
 
-## Why It Matters
+## Economic Importance
 
 Taxation is the primary source of government revenue and funds public services, infrastructure, welfare programmes, defence, healthcare, and education.
 

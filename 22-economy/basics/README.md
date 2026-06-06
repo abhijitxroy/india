@@ -1,6 +1,6 @@
 # Economic Basics
 
-## Why It Matters
+## Economic Importance
 
 Economic indicators help measure the health, growth, stability, and performance of an economy.
 

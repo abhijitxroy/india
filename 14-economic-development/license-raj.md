@@ -147,8 +147,6 @@ License Raj is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - reforms-1991.md
 - planning-commission.md
 - niti-aayog.md

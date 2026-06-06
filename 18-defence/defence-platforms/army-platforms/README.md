@@ -1,6 +1,6 @@
 # Army Platforms
 
-## Why It Matters
+## Strategic Importance
 
 Army platforms form the backbone of land warfare capabilities. They enable mobility, firepower, protection, surveillance, logistics, and battlefield dominance across diverse operational environments.
 

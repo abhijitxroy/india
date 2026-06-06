@@ -147,8 +147,6 @@ The White Revolution is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - green-revolution.md
 - rural-development.md
 - agriculture-in-india.md

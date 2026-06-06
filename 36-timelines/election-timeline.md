@@ -9,7 +9,7 @@ The objective is to help readers understand how India's electoral system develop
 
 ---
 
-## Why It Matters
+## Historical Significance
 
 Understanding election history helps explain:
 
@@ -119,8 +119,6 @@ Modern Elections
 ```
 
 ---
-
-## Related Topics
 
 - political-party-timeline.md
 - prime-minister-timeline.md

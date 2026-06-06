@@ -1,6 +1,6 @@
 # Destroyers
 
-## Why It Matters
+## Strategic Importance
 
 Destroyers are among the most powerful surface combatants in a modern navy. They protect aircraft carriers, defend naval fleets, engage enemy warships, intercept aerial threats and conduct anti-submarine operations.
 
@@ -220,7 +220,7 @@ It provides long-range supersonic strike capability.
 
 # Aircraft Carriers
 
-## Why It Matters
+## Strategic Importance
 
 Aircraft carriers are among the most powerful military platforms in the world. They function as mobile airbases at sea, allowing a country to project military power far beyond its coastline.
 

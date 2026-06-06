@@ -1,6 +1,6 @@
 # Sashastra Seema Bal (SSB)
 
-## Why It Matters
+## National Importance
 
 The Sashastra Seema Bal (SSB) is India's dedicated border-guarding force responsible for securing the India–Nepal and India–Bhutan borders.
 

@@ -215,8 +215,6 @@ It also involves cooperation, coordination, and constitutional balance.
 
 ---
 
-## Related Topics
-
 - central-government.md
 - state-government.md
 - president.md

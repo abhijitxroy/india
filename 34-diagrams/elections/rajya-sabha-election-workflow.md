@@ -9,7 +9,7 @@ It helps visualize the indirect election process, the role of State Legislative 
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding Rajya Sabha elections helps explain:
 
@@ -169,8 +169,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - lok-sabha-election-workflow.md
 - election-process-flow.md

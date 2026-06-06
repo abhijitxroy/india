@@ -1,6 +1,6 @@
 # National Security Guard (NSG)
 
-## Why It Matters
+## National Importance
 
 The National Security Guard (NSG) is India's premier counter-terrorism and hostage-rescue force.
 

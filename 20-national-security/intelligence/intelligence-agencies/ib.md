@@ -1,6 +1,6 @@
 # Intelligence Bureau (IB)
 
-## Why It Matters
+## Strategic Importance
 
 The Intelligence Bureau (IB) is India's oldest intelligence organization and the country's primary internal intelligence and domestic security agency.
 

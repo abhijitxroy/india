@@ -139,8 +139,6 @@ Governance reforms often focus on addressing these challenges.
 
 ---
 
-## Related Topics
-
 - public-administration-overview.md
 - civil-services.md
 - governance.md

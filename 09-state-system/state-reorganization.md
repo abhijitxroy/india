@@ -149,8 +149,6 @@ It has helped accommodate diversity while preserving national unity.
 
 ---
 
-## Related Topics
-
 - state-formation-timeline.md
 - states-timeline.md
 - chief-ministers-timeline.md

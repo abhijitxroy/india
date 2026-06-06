@@ -202,8 +202,6 @@ Its electoral performance has significantly shaped:
 
 ---
 
-## Related Topics
-
 - national-parties.md
 - congress.md
 - coalition-politics.md

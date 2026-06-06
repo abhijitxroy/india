@@ -8,7 +8,7 @@ It helps visualize the relationship between citizens, public concerns, constitut
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding PIL helps explain:
 
@@ -193,8 +193,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - judicial-review-framework.md
 - judicial-hierarchy.md

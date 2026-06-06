@@ -139,8 +139,6 @@ It strengthens both democracy and federalism.
 
 ---
 
-## Related Topics
-
 - parliament.md
 - lok-sabha.md
 - law-making-process.md

@@ -1,6 +1,6 @@
 # Trainer Aircraft
 
-## Why It Matters
+## Strategic Importance
 
 Trainer aircraft are used to prepare military pilots before they operate frontline combat aircraft. Every fighter pilot, transport pilot, and helicopter pilot begins their journey through a structured training system.
 

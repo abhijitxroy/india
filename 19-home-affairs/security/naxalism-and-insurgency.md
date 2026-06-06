@@ -1,6 +1,6 @@
 # Naxalism and Insurgency in India
 
-## Why It Matters
+## National Importance
 
 Naxalism and insurgency have been among the most significant internal security challenges faced by India.
 

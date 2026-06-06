@@ -1,6 +1,6 @@
 # National Investigation Agency (NIA)
 
-## Why It Matters
+## National Importance
 
 The National Investigation Agency (NIA) is India's premier counter-terrorism investigation agency. It is responsible for investigating offences that affect national security, including terrorism, terrorist financing, organized terror networks and other serious security-related crimes.
 

@@ -132,8 +132,6 @@ The 103rd Amendment is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - reservation-system.md
 - ews-reservation.md
 - women-reservation.md

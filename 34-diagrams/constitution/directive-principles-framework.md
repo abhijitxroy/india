@@ -8,7 +8,7 @@ It helps visualize how the Constitution directs governments to work toward socia
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding Directive Principles helps explain:
 
@@ -165,8 +165,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - fundamental-rights-framework.md
 - constitutional-governance-model.md

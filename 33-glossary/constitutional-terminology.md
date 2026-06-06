@@ -105,8 +105,6 @@ Studying constitutional terminology helps:
 
 ---
 
-## Related Topics
-
 - constitution-and-nation-building.md
 - government-structure.md
 - parliament-and-law-making.md

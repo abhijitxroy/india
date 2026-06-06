@@ -172,8 +172,6 @@ National Security is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - defence-policy.md
 - foreign-policy.md
 - armed-forces-overview.md

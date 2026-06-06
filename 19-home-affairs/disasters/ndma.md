@@ -1,6 +1,6 @@
 # National Disaster Management Authority (NDMA)
 
-## Why It Matters
+## National Importance
 
 The National Disaster Management Authority (NDMA) is the apex body responsible for disaster management in India.
 

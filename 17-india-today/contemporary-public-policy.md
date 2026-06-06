@@ -146,8 +146,6 @@ Contemporary Public Policy is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - contemporary-governance.md
 - contemporary-parliament.md
 - public-administration-and-governance.md

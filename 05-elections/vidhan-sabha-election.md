@@ -219,8 +219,6 @@ The winning candidate does not need an absolute majority of votes.
 
 ---
 
-## Related Topics
-
 - voter-system.md
 - election-commission.md
 - lok-sabha-election.md

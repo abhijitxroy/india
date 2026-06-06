@@ -9,7 +9,7 @@ It helps visualize how both sides contribute to democratic governance, accountab
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding the Government-Opposition framework helps explain:
 
@@ -172,8 +172,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - political-party-ecosystem.md
 - party-to-government-journey.md

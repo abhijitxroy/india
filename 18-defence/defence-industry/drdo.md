@@ -1,7 +1,7 @@
 
 # Defence Research and Development Organisation (DRDO)
 
-## Why It Matters
+## Strategic Importance
 
 The Defence Research and Development Organisation (DRDO) is India's premier military research organization. It is responsible for developing indigenous defence technologies, weapons, missiles, aircraft systems, radars, electronic warfare platforms, and strategic military capabilities.
 

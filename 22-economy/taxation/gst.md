@@ -1,6 +1,6 @@
 # Goods and Services Tax (GST)
 
-## Why It Matters
+## Economic Importance
 
 GST is India's unified indirect tax system that replaced multiple central and state taxes.
 

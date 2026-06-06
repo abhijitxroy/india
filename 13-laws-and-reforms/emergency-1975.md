@@ -139,8 +139,6 @@ The Emergency remains important because it helps explain:
 
 ---
 
-## Related Topics
-
 - constitution-and-nation-building.md
 - judiciary-overview.md
 - fundamental-rights-protection.md

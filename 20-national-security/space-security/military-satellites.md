@@ -1,7 +1,7 @@
 
 # Military Satellites
 
-## Why It Matters
+## Strategic Importance
 
 Military satellites are among the most important components of modern national-security infrastructure.
 

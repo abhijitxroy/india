@@ -145,8 +145,6 @@ The office helps ensure stability and continuity within the constitutional syste
 
 ---
 
-## Related Topics
-
 - presidents-timeline.md
 - president-election.md
 - powers-of-president.md

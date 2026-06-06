@@ -136,8 +136,6 @@ The 1991 reforms are important because they explain:
 
 ---
 
-## Related Topics
-
 - economic-liberalization-1991.md
 - gst.md
 - demonetization-2016.md

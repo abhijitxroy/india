@@ -1,6 +1,6 @@
 # Ministry of Home Affairs (MHA)
 
-## Why It Matters
+## National Importance
 
 The Ministry of Home Affairs (MHA) is one of the most important ministries of the Government of India.
 

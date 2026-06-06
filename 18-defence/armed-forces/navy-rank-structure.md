@@ -1,6 +1,6 @@
 # Indian Navy Rank Structure
 
-## Why It Matters
+## Strategic Importance
 
 The rank structure of the Indian Navy defines leadership responsibilities, command authority, operational control, and career progression. Naval ranks help maintain discipline, command ships and fleets, and conduct maritime operations across the Indian Ocean Region.
 

@@ -156,8 +156,6 @@ International Organizations are important because they help explain:
 
 ---
 
-## Related Topics
-
 - india-and-united-nations.md
 - foreign-policy.md
 - act-east-policy.md

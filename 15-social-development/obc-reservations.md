@@ -148,8 +148,6 @@ OBC Reservations are important because they help explain:
 
 ---
 
-## Related Topics
-
 - reservation-system.md
 - backward-class-commissions.md
 - creamy-layer.md

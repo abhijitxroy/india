@@ -1,6 +1,6 @@
 # Central Bureau of Investigation (CBI)
 
-## Why It Matters
+## National Importance
 
 The Central Bureau of Investigation (CBI) is India's premier investigative agency responsible for investigating major crimes, corruption cases, economic offences, and special crimes of national importance.
 

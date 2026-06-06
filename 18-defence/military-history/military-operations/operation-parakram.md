@@ -1,7 +1,7 @@
 
 # Operation Parakram
 
-## Why It Matters
+## Strategic Importance
 
 Operation Parakram was one of the largest military mobilizations in India's history. Conducted between 2001 and 2002, it demonstrated India's ability to rapidly mobilize military forces following a major national-security crisis.
 

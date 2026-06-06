@@ -1,7 +1,7 @@
 
 # Gross Domestic Product (GDP)
 
-## Why It Matters
+## Economic Importance
 
 GDP is the most widely used measure of a country's economic performance.
 

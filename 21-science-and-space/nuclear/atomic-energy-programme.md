@@ -1,6 +1,6 @@
 # Atomic Energy Programme
 
-## Why It Matters
+## Scientific Importance
 
 India's Atomic Energy Programme aims to develop nuclear technology for peaceful purposes including electricity generation, scientific research, healthcare, agriculture, and strategic capabilities.
 

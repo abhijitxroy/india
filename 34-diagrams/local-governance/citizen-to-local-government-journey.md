@@ -1,7 +1,7 @@
 
 # Citizen to Local Government Journey
 
-## Why It Matters
+## Diagram Purpose
 
 Local government is the closest level of government to citizens. Understanding how citizens interact with local institutions helps explain how public services, grievances, development projects, and community participation work in everyday life.
 

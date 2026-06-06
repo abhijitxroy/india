@@ -234,8 +234,6 @@ While not legally enforceable, they are considered fundamental to governance.
 
 ---
 
-## Related Topics
-
 - constitution-overview.md
 - preamble.md
 - fundamental-rights.md

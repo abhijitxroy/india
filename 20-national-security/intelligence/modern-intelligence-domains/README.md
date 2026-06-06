@@ -1,6 +1,6 @@
 # Modern Intelligence Domains
 
-## Why It Matters
+## Strategic Importance
 
 Modern intelligence operations rely on specialized methods of collecting, analyzing, and disseminating information.
 

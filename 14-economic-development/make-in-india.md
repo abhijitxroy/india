@@ -136,8 +136,6 @@ Make in India is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - startup-india.md
 - reforms-1991.md
 - digital-india.md

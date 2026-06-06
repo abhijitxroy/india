@@ -9,7 +9,7 @@ It provides a high-level understanding of how political competition, representat
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding political party evolution helps explain:
 
@@ -189,8 +189,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - political-party-ecosystem.md
 - national-vs-regional-parties.md

@@ -1,7 +1,7 @@
 
 # Counter-Terror Operations
 
-## Why It Matters
+## Strategic Importance
 
 Counter-terror operations are military actions conducted against terrorist organizations, terrorist infrastructure, or cross-border terror networks.
 

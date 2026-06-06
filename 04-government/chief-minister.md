@@ -204,8 +204,6 @@ States control many important areas such as health, agriculture, police, and loc
 
 ---
 
-## Related Topics
-
 - state-government.md
 - governor.md
 - chief-ministers-timeline.md

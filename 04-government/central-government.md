@@ -252,8 +252,6 @@ India is federal, so states exercise authority in many areas.
 
 ---
 
-## Related Topics
-
 - state-government.md
 - federalism.md
 - president.md

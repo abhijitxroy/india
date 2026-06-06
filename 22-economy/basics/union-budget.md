@@ -1,6 +1,6 @@
 # Union Budget
 
-## Why It Matters
+## Economic Importance
 
 The Union Budget is the annual financial statement of the Government of India.
 

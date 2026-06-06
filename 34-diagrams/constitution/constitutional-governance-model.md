@@ -8,7 +8,7 @@ It helps visualize how constitutional institutions interact, how powers are dist
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding constitutional governance helps explain:
 
@@ -186,8 +186,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - fundamental-rights-framework.md
 - constitution-amendment-process.md

@@ -1,6 +1,6 @@
 # Scientific Institutions
 
-## Why It Matters
+## Scientific Importance
 
 Scientific institutions provide the foundation for research, innovation, technological advancement, space exploration, nuclear development, and national scientific capability.
 

@@ -1,6 +1,6 @@
 # Navy Platforms
 
-## Why It Matters
+## Strategic Importance
 
 Naval platforms are essential for protecting maritime interests, securing sea lines of communication, deterring adversaries, projecting power, and supporting national security objectives.
 

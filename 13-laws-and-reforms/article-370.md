@@ -131,8 +131,6 @@ Article 370 remains important because it helps explain:
 
 ---
 
-## Related Topics
-
 - constitution-and-nation-building.md
 - article-35a.md
 - centre-state-relations.md

@@ -1,7 +1,7 @@
 
 # Infantry Weapons
 
-## Why It Matters
+## Strategic Importance
 
 Infantry soldiers form the foundation of every army. Regardless of technological advancements, territory is ultimately secured and controlled by soldiers on the ground.
 

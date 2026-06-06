@@ -1,7 +1,7 @@
 
 # Information Operations
 
-## Why It Matters
+## Strategic Importance
 
 Information Operations (Info Ops) involve the coordinated use of information, influence, cyber capabilities, electronic warfare, intelligence, and communication strategies to achieve military and national security objectives.
 

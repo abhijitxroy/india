@@ -1,6 +1,6 @@
 # Naval Aviation
 
-## Why It Matters
+## Strategic Importance
 
 Naval Aviation extends the reach of the Indian Navy beyond the horizon by combining air power with maritime operations. It enables surveillance, reconnaissance, anti-submarine warfare, search and rescue operations, fleet defence and maritime strike missions.
 

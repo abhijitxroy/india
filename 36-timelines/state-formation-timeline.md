@@ -9,7 +9,7 @@ The objective is to help readers understand the development of India's federal s
 
 ---
 
-## Why It Matters
+## Historical Significance
 
 Understanding state formation helps explain:
 
@@ -118,8 +118,6 @@ Modern States
 ```
 
 ---
-
-## Related Topics
 
 - constitutional-development-timeline.md
 - election-timeline.md

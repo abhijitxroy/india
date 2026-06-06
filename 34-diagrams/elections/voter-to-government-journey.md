@@ -9,7 +9,7 @@ It provides a complete visual journey from democratic participation to public ad
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding this journey helps explain:
 
@@ -206,8 +206,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - election-process-flow.md
 - government-formation-process.md

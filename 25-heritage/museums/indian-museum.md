@@ -1,6 +1,6 @@
 # Indian Museum
 
-## Why It Matters
+## Historical and Cultural Importance
 
 The Indian Museum is the oldest and largest museum in India and one of the oldest museums in Asia.
 

@@ -1,6 +1,6 @@
 # Multi Agency Centre (MAC)
 
-## Why It Matters
+## Strategic Importance
 
 The Multi Agency Centre (MAC) is India's primary intelligence-sharing mechanism. It was created to improve coordination among intelligence, security and law-enforcement agencies by enabling timely sharing of information related to national-security threats.
 

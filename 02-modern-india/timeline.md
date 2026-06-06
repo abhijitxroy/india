@@ -142,8 +142,6 @@ These events established the framework of modern India.
 
 ---
 
-## Related Topics
-
 - european-arrival.md
 - east-india-company.md
 - british-raj.md

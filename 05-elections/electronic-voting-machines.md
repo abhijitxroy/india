@@ -213,8 +213,6 @@ Strong institutions and procedures remain important.
 
 ---
 
-## Related Topics
-
 - voter-system.md
 - election-commission.md
 - lok-sabha-election.md

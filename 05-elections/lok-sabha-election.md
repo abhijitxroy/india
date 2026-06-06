@@ -211,8 +211,6 @@ Lok Sabha elections form the Union Government, while state elections form State 
 
 ---
 
-## Related Topics
-
 - voter-system.md
 - election-commission.md
 - vidhan-sabha-election.md

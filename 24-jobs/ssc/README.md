@@ -1,6 +1,6 @@
 # SSC Jobs
 
-## Why It Matters
+## Career Relevance
 
 The Staff Selection Commission (SSC) recruits candidates for a wide range of Group B and Group C posts in ministries, departments, and organizations of the Government of India.
 

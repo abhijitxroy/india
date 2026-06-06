@@ -1,6 +1,6 @@
 # Indian Classical Dances
 
-## Why It Matters
+## Historical and Cultural Importance
 
 Indian classical dances are among the oldest surviving performing arts traditions in the world.
 

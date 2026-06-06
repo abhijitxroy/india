@@ -9,7 +9,7 @@ It provides a high-level understanding of how India developed its international 
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding foreign policy helps explain:
 
@@ -208,8 +208,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - prime-ministers-timeline.md
 - constitutional-development-timeline.md

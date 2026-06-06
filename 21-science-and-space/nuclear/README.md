@@ -1,6 +1,6 @@
 # Nuclear Programme
 
-## Why It Matters
+## Scientific Importance
 
 India's nuclear programme supports energy security, scientific research, strategic deterrence, medicine, agriculture, and industrial development.
 

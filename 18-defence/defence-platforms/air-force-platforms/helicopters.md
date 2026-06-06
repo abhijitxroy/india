@@ -1,7 +1,7 @@
 
 # Helicopters
 
-## Why It Matters
+## Strategic Importance
 
 Helicopters provide the Indian Armed Forces with mobility, flexibility, and rapid response capability. Unlike fixed-wing aircraft, helicopters can take off and land vertically, operate in difficult terrain, support frontline troops, conduct rescue missions, and deliver supplies to remote locations.
 

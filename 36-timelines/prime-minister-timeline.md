@@ -9,7 +9,7 @@ The objective is to help readers understand how political leadership, governance
 
 ---
 
-## Why It Matters
+## Historical Significance
 
 Understanding the Prime Minister timeline helps explain:
 
@@ -130,8 +130,6 @@ Narendra Modi
 ```
 
 ---
-
-## Related Topics
 
 - president-timeline.md
 - political-party-timeline.md

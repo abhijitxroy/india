@@ -1,6 +1,6 @@
 # Foreign Exchange Reserves
 
-## Why It Matters
+## Economic Importance
 
 Foreign exchange reserves are assets held by a country's central bank in foreign currencies, gold, and other reserve assets.
 

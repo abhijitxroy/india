@@ -9,7 +9,7 @@ It helps visualize the relationship between Parliament, constitutional change, f
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding the amendment process helps explain:
 
@@ -149,8 +149,6 @@ flowchart LR
 ```
 
 ---
-
-## Related Topics
 
 - basic-structure-doctrine.md
 - constitutional-governance-model.md

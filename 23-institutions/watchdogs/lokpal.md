@@ -1,6 +1,6 @@
 # Lokpal
 
-## Why It Matters
+## Institutional Importance
 
 Lokpal is India's national anti-corruption ombudsman established to investigate allegations of corruption against public servants.
 

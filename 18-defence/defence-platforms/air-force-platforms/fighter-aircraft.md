@@ -1,6 +1,6 @@
 # Fighter Aircraft
 
-## Why It Matters
+## Strategic Importance
 
 Fighter aircraft are the cornerstone of a nation's air defence and offensive capabilities. They ensure control of the skies, protect national airspace, support ground operations, and provide strategic deterrence. For India, maintaining a versatile and modern fighter fleet is essential to counter evolving security challenges and assert regional air superiority.
 

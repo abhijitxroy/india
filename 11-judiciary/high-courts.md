@@ -140,8 +140,6 @@ They help maintain judicial accountability and public confidence in the justice 
 
 ---
 
-## Related Topics
-
 - judiciary-overview.md
 - supreme-court.md
 - district-courts.md

@@ -1,6 +1,6 @@
 # Aircraft Carriers
 
-## Why It Matters
+## Strategic Importance
 
 Aircraft carriers are among the most powerful military platforms in the world. They function as mobile airbases at sea, allowing a country to project military power far beyond its coastline.
 

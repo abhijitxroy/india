@@ -1,7 +1,7 @@
 
 # Mazagon Dock Shipbuilders Limited (MDL)
 
-## Why It Matters
+## Strategic Importance
 
 Mazagon Dock Shipbuilders Limited (MDL) is India's premier warship and submarine construction company. It is one of the most strategically important Defence Public Sector Undertakings (DPSUs) because it builds frontline naval platforms that strengthen India's maritime security and naval power.
 

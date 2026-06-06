@@ -244,8 +244,6 @@ The Constitution remains the governing framework.
 
 ---
 
-## Related Topics
-
 - constituent-assembly.md
 - making-of-the-constitution.md
 - preamble.md

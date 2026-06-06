@@ -1,6 +1,6 @@
 # Research and Analysis Wing (RAW)
 
-## Why It Matters
+## Strategic Importance
 
 The Research and Analysis Wing (RAW) is India's primary external intelligence agency. It is responsible for collecting and analyzing intelligence related to foreign countries, external security threats, strategic developments and matters affecting India's national interests abroad.
 

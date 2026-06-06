@@ -124,8 +124,6 @@ The RTE Act is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - constitution-and-nation-building.md
 - public-administration-overview.md
 - governance.md

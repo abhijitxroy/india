@@ -241,8 +241,6 @@ It also gave rise to the modern Indian independence movement.
 
 ---
 
-## Related Topics
-
 - european-arrival.md
 - east-india-company.md
 - freedom-struggle.md

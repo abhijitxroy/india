@@ -1,7 +1,7 @@
 
 # Ordnance Factories
 
-## Why It Matters
+## Strategic Importance
 
 Ordnance Factories have historically been the backbone of India's military production system. They were responsible for manufacturing ammunition, weapons, armoured systems, explosives, military equipment, and logistics support items required by the armed forces.
 

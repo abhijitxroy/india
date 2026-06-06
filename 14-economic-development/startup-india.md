@@ -136,8 +136,6 @@ Startup India is important because it helps explain:
 
 ---
 
-## Related Topics
-
 - make-in-india.md
 - digital-india.md
 - it-software-revolution.md

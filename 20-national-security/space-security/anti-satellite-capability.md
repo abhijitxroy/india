@@ -1,6 +1,6 @@
 # Anti-Satellite Capability (ASAT)
 
-## Why It Matters
+## Strategic Importance
 
 Anti-Satellite (ASAT) capability refers to the ability to detect, track and neutralize satellites in space.
 

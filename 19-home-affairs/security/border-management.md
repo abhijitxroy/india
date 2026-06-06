@@ -1,6 +1,6 @@
 # Border Management in India
 
-## Why It Matters
+## National Importance
 
 Border management is a critical component of India's national security strategy.
 

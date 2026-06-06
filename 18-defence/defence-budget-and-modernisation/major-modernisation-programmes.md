@@ -1,6 +1,6 @@
 # Major Modernisation Programmes
 
-## Why It Matters
+## Strategic Importance
 
 Military modernization refers to the continuous process of upgrading India's defence capabilities to address evolving security challenges, technological advancements and future warfare requirements.
 

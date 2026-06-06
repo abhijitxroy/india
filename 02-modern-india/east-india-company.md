@@ -234,8 +234,6 @@ The East India Company:
 
 ---
 
-## Related Topics
-
 - european-arrival.md
 - british-raj.md
 - freedom-struggle.md

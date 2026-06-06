@@ -142,8 +142,6 @@ Reservation debates are important because they help explain:
 
 ---
 
-## Related Topics
-
 - reservation-system.md
 - affirmative-action.md
 - social-justice.md

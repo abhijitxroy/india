@@ -200,8 +200,6 @@ Without understanding prehistoric India, it is difficult to understand how the I
 
 ---
 
-## Related Topics
-
 - origins-of-india.md
 - harappan-civilization.md
 - indus-valley-civilization.md

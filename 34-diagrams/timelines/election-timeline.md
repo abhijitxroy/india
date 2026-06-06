@@ -8,7 +8,7 @@ It provides a high-level view of how electoral institutions, voter participation
 
 ---
 
-## Why It Matters
+## Diagram Purpose
 
 Understanding the election timeline helps explain:
 

@@ -198,8 +198,6 @@ The party system continues to evolve with society and technology.
 
 ---
 
-## Related Topics
-
 - national-parties.md
 - regional-parties.md
 - coalition-politics.md

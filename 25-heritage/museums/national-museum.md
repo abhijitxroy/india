@@ -1,6 +1,6 @@
 # National Museum
 
-## Why It Matters
+## Historical and Cultural Importance
 
 The National Museum is one of India's most important cultural institutions and houses a vast collection representing the country's rich historical, artistic, and civilizational heritage.
 

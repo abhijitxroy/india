@@ -7,7 +7,7 @@ This document lists important budget-related resources that help citizens unders
 
 ---
 
-## Why It Matters
+## Why Use This Resource
 
 Understanding the budget helps explain:
 
@@ -135,8 +135,6 @@ Development
 ```
 
 ---
-
-## Related Topics
 
 - economic-survey-resources.md
 - parliament-resources.md

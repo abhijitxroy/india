@@ -1,6 +1,6 @@
 # Chandrayaan Programme
 
-## Why It Matters
+## Scientific Importance
 
 The Chandrayaan Programme is India's flagship lunar exploration programme developed by ISRO.
 
