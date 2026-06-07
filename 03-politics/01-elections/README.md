@@ -1,5 +1,4 @@
-
-# Elections and Democracy in India
+# Elections
 
 ## Overview
 
@@ -10,23 +9,6 @@ Elections are the mechanism through which citizens choose their representatives 
 Every government in India ultimately derives its authority from the people through elections.
 
 This section explains how votes are transformed into governments.
-
----
-
-## Why This Section Matters
-
-Democracy is not just about voting.
-
-It involves:
-
-- Voters
-- Elections
-- Political Parties
-- Representatives
-- Governments
-- Accountability
-
-Understanding elections helps explain how India's democratic system functions.
 
 ---
 
@@ -65,17 +47,23 @@ Election Commission
        ↓
 Electronic Voting Machines
        ↓
-Lok Sabha Election
+National Elections
        ↓
-Vidhan Sabha Election
+State Elections
        ↓
-Rajya Sabha Election
-       ↓
-Panchayat Election
-       ↓
-Municipal Election
+Local Elections
        ↓
 Electoral Reforms
+```
+
+---
+
+## Structure
+
+```text
+01-elections
+├── national-elections
+└── state-and-local-elections
 ```
 
 ---
@@ -90,17 +78,14 @@ Electoral Reforms
 
 ### National Elections
 
-- lok-sabha-election.md
-- rajya-sabha-election.md
+- national-elections/lok-sabha-election.md
+- national-elections/rajya-sabha-election.md
 
-### State Elections
+### State and Local Elections
 
-- vidhan-sabha-election.md
-
-### Local Elections
-
-- panchayat-election.md
-- municipal-election.md
+- state-and-local-elections/vidhan-sabha-election.md
+- state-and-local-elections/panchayat-election.md
+- state-and-local-elections/municipal-election.md
 
 ### Election Improvements
 
@@ -195,11 +180,3 @@ They are one of the most important pillars of the Indian Republic.
 - Democracy connects citizens directly to governance.
 
 ---
-
-## Related Sections
-
-- 03-constitution
-- 04-government
-- 06-political-parties
-- 10-parliament-and-law-making
-- 12-administration

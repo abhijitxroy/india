@@ -1,4 +1,3 @@
-
 # India Through Time
 
 ## Overview
@@ -158,6 +157,91 @@ Understanding this era helps explain how modern India was formed.
 
 ## Related Sections
 
-- 01-history
+- 01-ancient-medieval-history
 - 03-constitution
 - 22-india-timelines
+
+# Modern India
+
+## Overview
+
+This section covers the transformation of India from the arrival of European trading powers to independence, partition, and the emergence of the modern Republic of India.
+
+It explains the political, economic, social, and institutional developments that shaped contemporary India.
+
+## Learning Flow
+
+```text
+European Arrival
+    ↓
+East India Company
+    ↓
+British Expansion
+    ↓
+British Raj
+    ↓
+Freedom Movement
+    ↓
+Partition
+    ↓
+Independence
+    ↓
+Republic of India
+```
+
+## Coverage
+
+- European Arrival
+- East India Company
+- British Raj
+- Freedom Movement
+- Partition
+- Independent India
+- Republic of India
+- Modern Institutions
+
+## Core Themes
+
+- Colonial Expansion
+- Nationalism
+- Constitutional Development
+- Political Awakening
+- Social Reform Movements
+- Economic Transformation
+- Nation Building
+- Democratic Institutions
+
+## Major Milestones
+
+| Year | Event |
+|------|--------|
+| 1498 | Vasco da Gama arrives in India |
+| 1600 | East India Company founded |
+| 1757 | Battle of Plassey |
+| 1857 | Revolt of 1857 |
+| 1858 | British Raj begins |
+| 1885 | Indian National Congress founded |
+| 1942 | Quit India Movement |
+| 1947 | Independence and Partition |
+| 1950 | Republic of India |
+
+## Quick Revision
+
+- European traders gradually gained political influence.
+- The East India Company became the dominant colonial power.
+- The British Raj governed India from 1858 to 1947.
+- The freedom movement led to independence.
+- Partition created India and Pakistan.
+- India adopted its Constitution in 1950.
+- Modern democratic institutions emerged from this period.
+
+## Expansion Roadmap
+
+- Revolt of 1857
+- Bengal Renaissance
+- Social Reform Movements
+- Freedom Movement Leaders
+- Constitutional Development
+- Partition Studies
+- Nation Building
+- Early Republic Challenges

@@ -1,4 +1,3 @@
-
 # India Through Time Timeline
 
 ## Overview
@@ -43,9 +42,9 @@ It connects colonial rule, the freedom movement, independence, partition, and th
 
 ---
 
-## Detailed Timeline
+## Major Events
 
-| Year | Event | Why It Matters |
+| Year | Event | Significance |
 |----------|----------|----------|
 | 1498 | Vasco da Gama reaches Calicut | Direct sea route between Europe and India established |
 | 1600 | East India Company founded | Beginning of British commercial presence |
@@ -73,61 +72,6 @@ It connects colonial rule, the freedom movement, independence, partition, and th
 
 ---
 
-## Colonial Period
-
-### European Arrival
-
-- Portuguese arrive first.
-- Dutch, French, British, and Danish powers follow.
-- Competition for trade and influence grows.
-
-### Company Rule
-
-- East India Company expands from trade to governance.
-- Military victories increase British influence.
-- Large territories come under company control.
-
-### British Raj
-
-- Direct Crown rule begins in 1858.
-- Administrative, legal, and railway systems expand.
-- Nationalist movements become stronger.
-
----
-
-## Freedom Movement Era
-
-Major phases:
-
-- Revolt of 1857
-- Moderate political reforms
-- Swadeshi Movement
-- Gandhian mass movements
-- Revolutionary activities
-- INA movement
-- Quit India Movement
-
-Together these movements increased pressure for independence.
-
----
-
-## Birth of Modern India
-
-Important milestones:
-
-| Year | Milestone |
-|----------|----------|
-| 1947 | Independence |
-| 1947 | Partition |
-| 1947–49 | Integration of States |
-| 1949 | Constitution Adopted |
-| 1950 | Republic of India |
-| 1951–52 | First General Election |
-
-These events established the framework of modern India.
-
----
-
 ## Quick Revision
 
 - Vasco da Gama arrived in 1498.
@@ -142,10 +86,12 @@ These events established the framework of modern India.
 
 ---
 
-- european-arrival.md
-- east-india-company.md
-- british-raj.md
-- freedom-struggle.md
-- partition.md
-- independent-india.md
-- republic-of-india.md
+## Related Topics
+
+- European Arrival
+- East India Company
+- British Raj
+- Freedom Struggle
+- Partition
+- Independent India
+- Republic of India

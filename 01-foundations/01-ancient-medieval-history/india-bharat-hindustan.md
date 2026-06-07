@@ -1,4 +1,3 @@
-
 # India, Bharat, and Hindustan
 
 ## Overview

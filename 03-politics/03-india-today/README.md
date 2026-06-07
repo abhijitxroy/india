@@ -1,24 +1,8 @@
-
-# Contemporary India
+# India Today
 
 ## Overview
 
-This section explains how India functions in the contemporary era through its governance institutions, public policies, parliamentary system, federal structure, and administrative framework.
-
-It focuses on enduring structures and processes rather than short-term current affairs, making it useful as a long-term reference.
-
----
-
-## Why Study Contemporary India?
-
-Understanding Contemporary India helps explain:
-
-- How India is governed today
-- How public policy is created and implemented
-- How Parliament functions
-- How States and Union Territories operate
-- How institutions interact with citizens
-- How governance shapes development
+This section focuses on how India functions today through governance institutions, Parliament, public policy, and the federal system.
 
 ---
 
@@ -29,9 +13,9 @@ Constitution
       ↓
 Government Structure
       ↓
-Contemporary Governance
+Governance
       ↓
-Contemporary Parliament
+Parliament
       ↓
 Public Policy
       ↓
@@ -42,14 +26,15 @@ Development & Governance
 
 ---
 
-## Learning Priority Order
+## Structure
 
-| Priority | Topic | Importance |
-|----------|--------|------------|
-| P1 | Contemporary Governance | How India is governed |
-| P1 | Contemporary Parliament | Law-making and accountability |
-| P1 | Contemporary Public Policy | Government decision-making |
-| P1 | States & Union Territories | Federal governance |
+```text
+03-india-today
+├── governance.md
+├── parliament.md
+├── public-policy.md
+└── states-and-union-territories.md
+```
 
 ---
 
@@ -57,20 +42,20 @@ Development & Governance
 
 ### Governance
 
-- Contemporary Governance
-- Contemporary Parliament
+- Governance
+- Parliament
 
 ### Policy & Administration
 
-- Contemporary Public Policy
+- Public Policy
 
 ### Federal Structure
 
-- Contemporary States and Union Territories
+- States and Union Territories
 
 ---
 
-## Contemporary India Framework
+## Governance Framework
 
 ```text
 Citizens
@@ -93,9 +78,9 @@ Development Outcomes
 ## Quick Revision Roadmap
 
 ```text
-Contemporary Governance
+Governance
       ↓
-Contemporary Parliament
+Parliament
       ↓
 Public Policy
       ↓
@@ -103,14 +88,3 @@ States & Union Territories
 ```
 
 ---
-
-## Related Sections
-
-- Constitution & Nation Building
-- Government Structure
-- Elections & Democracy
-- Parliament & Law Making
-- Public Administration & Governance
-- Foreign Policy & Defence
-- Economic Transformations
-- Social Transformations

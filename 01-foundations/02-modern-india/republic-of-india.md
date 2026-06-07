@@ -1,4 +1,3 @@
-
 # Republic of India
 
 ## Overview
