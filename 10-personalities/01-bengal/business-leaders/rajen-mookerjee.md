@@ -1,8 +1,8 @@
-# Rajen Mookerjee
+# Sir Rajen Mookerjee
 
 ## Overview
 
-Sir Rajen Mookerjee was one of the most prominent Indian industrialists, engineers, and entrepreneurs of the late nineteenth and early twentieth centuries.
+Sir Rajen Mookerjee was one of the most prominent Indian business leaders, engineers, and entrepreneurs of the late nineteenth and early twentieth centuries.
 
 He played a major role in the development of modern engineering, infrastructure, and industry in British India and was associated with several important industrial and construction projects.
 
@@ -12,9 +12,9 @@ He played a major role in the development of modern engineering, infrastructure,
 |----------|----------|
 | Full Name | Sir Rajendra Nath Mookerjee |
 | Popular Name | Rajen Mookerjee |
-| Profession | Industrialist, Engineer, Entrepreneur |
+| Profession | Business Leader, Engineer, Entrepreneur |
 | Region | Bengal |
-| Known For | Industrial development and engineering projects |
+| Known For | Martin & Co., Engineering and Industrial Development |
 
 ## Early Life
 
@@ -58,7 +58,7 @@ He played a major role in the development of modern engineering, infrastructure,
 
 ## Legacy
 
-- Remembered as a pioneering industrialist from Bengal.
+- Remembered as a pioneering business leader from Bengal.
 - Contributed to India's industrial and engineering development.
 - Inspired future generations of entrepreneurs and engineers.
 
@@ -68,7 +68,7 @@ Rajen Mookerjee represents Bengal's contribution to India's industrial transform
 
 ## Quick Revision
 
-- Rajen Mookerjee was a leading industrialist and engineer.
+- Sir Rajen Mookerjee was a pioneering Bengali business leader and engineer.
 - He contributed to major engineering and infrastructure projects.
 - He played an important role in industrial development.
 - He helped strengthen Indian participation in modern industry.
