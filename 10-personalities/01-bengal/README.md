@@ -2,19 +2,49 @@
 
 ## Overview
 
-This section covers notable personalities associated with Bengal who made significant contributions to literature, science, politics, administration, sports, arts, cinema, music and public life.
+This section covers notable personalities associated with Bengal who made significant contributions to literature, science, education, medicine, politics, administration, law, business, journalism, sports, arts, music, cinema, broadcasting, social reform, and public life.
+
+The collection is organized by domain to provide a structured overview of Bengal's contribution to Indian and world history, culture, and society.
 
 ## Structure
 
 ```text
 01-bengal
 ├── artists
+├── bands
+├── business-leaders
+├── detective-writers
+├── doctors
+├── education
+├── freedom-fighters
+├── journalists
 ├── judges
 ├── literature
+├── magicians
+├── military-leaders
 ├── political-leaders
+├── radio-and-television
+├── reformers
 ├── scientists
-├── social-reformers
+├── social-workers
+├── spiritual-leaders
 └── sports
+```
+
+## Artists
+
+```text
+artists
+├── cinema
+│   ├── actors
+│   └── directors
+├── music
+│   ├── composers
+│   ├── instrumentalists
+│   └── singers
+├── painting
+├── photography
+└── theatre
 ```
 
 ## Literature
@@ -27,13 +57,17 @@ literature
 └── writers
 ```
 
-## Arts
+## Political Leaders
 
 ```text
-artists
-├── cinema
-├── music
-└── visual-arts
+political-leaders
+├── administrators
+├── cm
+├── governors
+├── lawyers
+├── national-leaders
+├── party-founders
+└── party-organisers
 ```
 
 ## Sports
@@ -49,8 +83,10 @@ sports
 
 ## Coverage Principles
 
-- Focus on historically significant personalities.
-- Prefer individuals with lasting influence on Bengal, India or the world.
-- Avoid duplication across repository sections.
-- Include concise biographies, achievements, legacy and revision material.
-- Prioritise educational and historical value over popularity alone.
+- Focus on historically and culturally significant personalities.
+- Prefer individuals with lasting influence on Bengal, India, or the world.
+- Organize personalities by their primary field of contribution.
+- Avoid duplication across repository sections wherever possible.
+- Include concise biographies, key achievements, historical significance, legacy, and quick revision material.
+- Prioritize educational and historical value over short-term popularity.
+- Maintain a balanced representation of literature, arts, science, politics, social reform, and public life.
