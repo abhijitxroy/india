@@ -91,3 +91,23 @@ Sukumar Ray is remembered for:
 3. Which works made him famous?
 4. What qualities distinguished his writing style?
 5. Why do his works remain popular across generations?
+
+
+# TODO
+Abol Tabol (The Weird and the Absurd)
+Pagla Dashu (Crazy Dashu)[11]
+
+Pagla Dashu
+Khai-Khai (Eat-Eat)
+Heshoram Hushiyarer Diary (The diary of Heshoram Hushiyar) (early science fiction parody)[12]
+HaJaBaRaLa (Mumbo-Jumbo)
+Jhalapala O Onanyo Natok (Cacophony and Other Plays)
+Lokkhoner Shoktishel (Lokkhon Shellshocked)
+Chalachittachanchari
+Shabdakalpadrum
+Bohurupi (Chameleon)
+Abak Jalpan (A Strange Drink of Water 1914)
+Bhasar Atyachar (Torture of Language 1915)
+Barnamalatatva (Theory of Alphabet)
+Desh-Bidesher Golpo (Tales from Many Lands)
+Jiboner Hisab (Bidye bojhai babumoshai)

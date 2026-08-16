@@ -4,6 +4,100 @@ All notable changes to this repository will be documented in this file.
 
 ---
 
+## v2.8.0 Indian Nuclear Energy Knowledge Base
+
+### Highlights
+
+- Added comprehensive Indian nuclear energy knowledge section.
+- Added history of India's nuclear programme, including Homi Bhabha and Trombay.
+- Added India's three-stage nuclear programme covering PHWRs, fast breeder reactors, and thorium.
+- Added Indian nuclear resources, reactors, fuel cycle, and thorium programme.
+- Added Pokhran 1974, Pokhran 1998, and India's nuclear doctrine.
+- Added nuclear sanctions, technology denial, NSG, India-US nuclear deal, and nuclear diplomacy.
+- Added nuclear energy policy, energy security, climate role, and future expansion.
+- Added profiles of major Indian nuclear organizations including DAE, AEC, BARC, NPCIL, BHAVINI, IGCAR, AERB, UCIL, and NFC.
+
+### Results
+
+A structured Indian nuclear-energy knowledge base covering the programme's history, reactor technologies, three-stage strategy, thorium pathway, fuel cycle, nuclear strategy, geopolitics, energy policy, and institutional ecosystem.
+
+---
+
+## v2.7.0 Foreign Policy Neighbourhood Expansion
+
+---
+
+## Highlights
+Added comprehensive neighbourhood diplomacy section
+Added country profiles for Bangladesh, Bhutan, Nepal, Sri Lanka, Maldives, Myanmar, Afghanistan, Pakistan, and China
+Added strategic partnerships coverage including USA, Russia, France, Japan, Australia, UAE, and Israel
+Added regional group documentation for SAARC, BIMSTEC, IORA, and QUAD
+Added border and boundary concepts including LAC, LoC, McMahon Line, and Sir Creek Dispute
+Expanded coverage of India's Neighbourhood First Policy, Act East Policy, maritime strategy, and regional connectivity initiatives
+
+## Results
+A structured foreign policy knowledge section covering India's immediate neighbours, strategic partners, regional organizations, border issues, and regional security architecture. The expansion strengthens understanding of India's diplomatic priorities, neighbourhood engagement, Indo-Pacific strategy, and geopolitical environment.
+
+---
+
+## v2.6.0 Bengal Business Leaders Expansion
+
+---
+
+## Highlights
+
+- Added dedicated Bengal business leaders section
+- Added profiles for Alamohan Das, Purnendu Chatterjee, Sir Rajen Mookerjee, Sir Biren Mookerjee, and Subrata Roy
+- Renamed industrialists category to business-leaders
+- Improved organization and future scalability of Bengal personalities coverage
+- Expanded representation of entrepreneurship, industry, investment, and business leadership in Bengal
+
+## Result
+
+A structured Bengal business leaders knowledge section covering pioneering industrial entrepreneurs, modern investors, and influential business personalities who contributed to economic development, enterprise growth, and industrial transformation in Bengal and India.
+
+---
+
+## v2.5.0 Bengali Detective Literature Expansion
+
+---
+
+## Highlights
+- Added dedicated Bengali detective writers knowledge section
+- Added classic, modern, and contemporary detective authors
+- Added historical evolution timeline of Bengali detective fiction
+- Added suggested reading order for new readers
+- Added profiles for detective writers, creators, and literary contributors
+- Expanded coverage of iconic characters and literary series
+- Improved detective literature navigation and discoverability
+
+## Result
+
+A structured Bengali detective literature knowledge system covering major writers, influential characters, historical development of the genre, and guided reading pathways for learners and enthusiasts.
+
+---
+
+## v2.4.0 Bengal Personalities Reorganization
+
+---
+
+## Highlights
+
+- Reorganized Bengal personalities into domain-focused categories
+- Split literature into children's literature, novelists, poets, and writers
+- Split music into singers, composers, and instrumentalists
+- Split cinema into actors and directors
+- Consolidated judges into a dedicated hierarchy
+- Added Olympians and swimming categories
+- Added notable Bengali athletes, writers, poets, and cultural figures
+- Updated README and navigation structure
+
+## Result
+
+A cleaner and more maintainable Bengal personalities knowledge system with improved categorization, easier discovery of personalities, and better long-term scalability.
+
+---
+
 ## v2.3.0 - Repository Architecture Consolidation
 
 Release Date: 2026-06-06

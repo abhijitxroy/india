@@ -18,15 +18,54 @@ History explains where India came from.
 The Constitution explains how the nation was built.  
 Governance explains how the state functions.  
 Politics explains how power is exercised.  
-The economy, society, security, and foreign policy explain how India operates today.
+The economy, society, security, foreign policy, and science and technology explain how India operates today.
 
 This repository connects these topics into one learning journey.
 
 ---
 
-# 🗂️ Repository Structure
+# 🗂️ Repository Dashboard
 
 ![Repository Structure](assets/repository-map.png)
+
+## 🧭 India Knowledge Dashboard
+
+| # | Domain | Major Areas | Access |
+|---|---|---|---|
+| **01** | 🏛️ **Foundations** | History · Modern India · Geography | [Open →](01-foundations/README.md) |
+| **02** | ⚖️ **Governance** | Constitution · Government · Parliament · Judiciary | [Open →](02-governance/README.md) |
+| **03** | 🗳️ **Politics** | Elections · Political Parties · Contemporary Politics | [Open →](03-politics/README.md) |
+| **04** | 💰 **Economy** | Economy · Development · Infrastructure | [Open →](04-economy/README.md) |
+| **05** | 🛡️ **Security** | Defence · Home Affairs · National Security | [Open →](05-security/README.md) |
+| **06** | 🌍 **Foreign Policy** | Neighbours · Strategic Partners · Regional Organizations · Geopolitics | [Open →](06-foreign-policy/README.md) |
+| **07** | 🔬 **Science & Technology** | Space · Nuclear Energy · Science & Technology | [Open →](science-and-technology/README.md) |
+| **08** | 🎭 **Society & Culture** | Society · Heritage · Religion · Tourism | [Open →](08-society-culture/README.md) |
+| **09** | 🗺️ **States** | States · Union Territories · Regional Profiles | [Open →](09-states/README.md) |
+| **10** | 👤 **Personalities** | National · Regional · Political · Cultural · Business Leaders | [Open →](10-personalities/README.md) |
+| **11** | 📚 **Resources** | Glossary · Diagrams · Timelines · References | [Open →](11-resources/README.md) |
+
+---
+
+## ⭐ Current Focus
+
+### 🔬 Science & Technology → Nuclear Energy
+
+The current expansion focuses on India's nuclear-energy programme.
+
+**[Open Indian Nuclear Energy →](science-and-technology/nuclear-energy/README.md)**
+
+| Area | Coverage |
+|---|---|
+| **01 History** | Origins of India's Nuclear Programme · Homi Bhabha · Trombay |
+| **02 Three-Stage Programme** | PHWR · Plutonium · Fast Breeders · Thorium · U-233 |
+| **03 Nuclear Resources** | Uranium · Thorium · Monazite · Resource Strategy |
+| **04 Nuclear Reactors** | PHWR · FBR · PFBR · Kalpakkam · Future Reactors |
+| **05 Thorium Programme** | Thorium Strategy · U-233 · AHWR · Future Thorium |
+| **06 Nuclear Fuel Cycle** | Fuel Cycle · Reprocessing · Plutonium · U-233 · Closed Cycle |
+| **07 Nuclear Strategy** | Pokhran 1974 · Pokhran 1998 · Nuclear Doctrine |
+| **08 Sanctions & Geopolitics** | Technology Denial · NSG · India-US Deal · Nuclear Diplomacy |
+| **09 Nuclear Energy Policy** | Policy · Targets · Energy Security · Climate · Future |
+| **10 Nuclear Organizations** | DAE · AEC · BARC · NPCIL · BHAVINI · IGCAR · Others |
 
 ---
 
@@ -45,119 +84,5 @@ flowchart TD
     E --> F[Economy]
     F --> G[Society]
     G --> H[Security]
-    H --> I[Contemporary India]
-```
-
-Instead of memorizing isolated facts, you learn how different parts of India evolved and became connected.
-
----
-
-## 📚 What You'll Learn
-
-- Indian civilization and history
-- Constitution and governance
-- Parliament and judiciary
-- Elections and political parties
-- Major laws and reforms
-- Economy and development
-- Society and culture
-- Foreign policy and national security
-- Science, technology, and space
-- States and Union Territories
-- Important leaders and institutions
-
----
-
-## 🧭 Repository Journey
-
-```mermaid
-flowchart TD
-    A[01 Foundations] --> B[02 Governance]
-    B --> C[03 Politics]
-    C --> D[04 Economy]
-    D --> E[05 Security]
-    E --> F[06 Foreign Policy]
-    F --> G[07 Science & Technology]
-    G --> H[08 Society & Culture]
-    H --> I[09 States]
-    I --> J[10 Personalities]
-    J --> K[11 Resources]
-```
-
----
-
-## 🏛️ Quick Domain Guide
-
-| Domain | Focus Area |
-|----------|----------|
-| 01-foundations | History, Modern India, Geography |
-| 02-governance | Constitution, Government, Parliament, Judiciary |
-| 03-politics | Elections, Political Parties, Contemporary Politics |
-| 04-economy | Economy, Development, Infrastructure |
-| 05-security | Defence, Home Affairs, National Security |
-| 06-foreign-policy | India's Relations with the World |
-| 07-science-technology | Space, Nuclear, Science & Technology |
-| 08-society-culture | Society, Heritage, Religion, Tourism |
-| 09-states | States and Union Territories |
-| 10-personalities | Important National and Regional Leaders |
-| 11-resources | Glossary, Diagrams, Timelines, References |
-
----
-
-## 🚀 Recommended Learning Path
-
-### 🌱 New Learners
-
-```mermaid
-flowchart LR
-    A[Foundations] --> B[Governance]
-    B --> C[Politics]
-    C --> D[Economy]
-    D --> E[Security]
-    E --> F[Foreign Policy]
-```
-
-### 📰 Current Affairs Readers
-
-```mermaid
-flowchart LR
-    A[Governance] --> B[Politics]
-    B --> C[Economy]
-    C --> D[Foreign Policy]
-    D --> E[Security]
-```
-
-### 🇮🇳 Complete India Journey
-
-```mermaid
-flowchart LR
-    A[Foundations] --> B[Governance]
-    B --> C[Politics]
-    C --> D[Economy]
-    D --> E[Society & Culture]
-    E --> F[Foreign Policy]
-    F --> G[Security]
-    G --> H[States]
-    H --> I[Personalities]
-```
-
----
-
-## 🎯 Why This Repository Exists
-
-Understanding India requires more than following daily news.
-
-This repository brings together history, governance, politics, economy, society, security, foreign policy, and national institutions to help citizens understand how India evolved and how the country functions today.
-
----
-
-## 👥 Who Is This Repository For?
-
-- Anyone interested in understanding India
-- Students
-- UPSC & State PSC aspirants
-- Professionals
-- Researchers
-- Curious citizens
-
-No prior knowledge is required.
+    H --> I[Science & Technology]
+    I --> J[Contemporary India]
