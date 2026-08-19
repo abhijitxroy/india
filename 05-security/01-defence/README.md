@@ -1,289 +1,67 @@
-# Defence and National Security
+# Indian Defence
 
-## Strategic Importance
+A simple reference to India's military services, weapons, systems, strategic capabilities, defence organizations, industry, budget and military history.
 
-Defence and national security are essential for protecting India's sovereignty, territorial integrity, citizens, strategic interests and global influence.
+## Military Services
 
-India maintains one of the world's largest military establishments and operates across multiple domains including land, sea, air, space, cyber and strategic deterrence.
+- [Land](land/README.md) — Indian Army and land-based military capabilities
+- [Air](air/README.md) — Indian Air Force and air-power capabilities
+- [Navy](navy/README.md) — Indian Navy and maritime capabilities
 
-This section provides a structured understanding of India's defence ecosystem, military history, organizations, capabilities and modernization efforts.
+## Strategic
 
----
+Nuclear deterrence, strategic missiles, missile defence, hypersonic programmes and space-related defence capabilities.
 
-## Quick Facts
+→ [Strategic](strategic/README.md)
 
-| Item | Details |
-|----------|----------|
-| Domain | Defence and National Security |
-| Coverage | Military, Strategic, Space, Cyber and Security Affairs |
-| Primary Ministry | Ministry of Defence |
-| Importance | National Security and Strategic Stability |
-| Learning Focus | Forces, Organisations, Capabilities and Reforms |
+## Organisations
 
----
+Ministry of Defence, CDS, IDS, command organizations and joint institutions.
 
-## Repository Structure
+→ [Organisations](organisations/README.md)
 
-```text
-18-defence/
-├── README.md
-├── military-history/
-│   ├── wars/
-│   ├── military-operations/
-│   ├── counter-terror-operations/
-│   ├── humanitarian-evacuation-missions/
-│   └── peacekeeping/
-├── armed-forces/
-├── paramilitary-forces/
-├── defence-organisations-and-agencies/
-├── intelligence/
-├── missile-systems/
-├── air-and-missile-defence/
-├── space-security/
-├── defence-platforms/
-├── defence-industry/
-└── defence-budget-and-modernisation/
-```
+## Industry
 
----
+India's defence production ecosystem and major defence manufacturers.
 
-## Learning Roadmap
+→ [Industry](industry/README.md)
 
-```mermaid
-flowchart TD
-    History[Military History]
-    Forces[Armed Forces]
-    Para[Paramilitary Forces]
+## Budget & Procurement
 
-    Org[Defence Organisations]
-    Intel[Intelligence]
+Defence expenditure, modernization, procurement, Make in India and Atmanirbhar Bharat.
 
-    Missiles[Missile Systems]
-    AirDef[Air and Missile Defence]
-    Space[Space Security]
+→ [Budget](budget/README.md)
 
-    Platforms[Defence Platforms]
-    Industry[Defence Industry]
-    Budget[Budget and Modernisation]
+## Military History
 
-    History --> Forces
-    Forces --> Para
+Wars, military operations, counter-terror operations, humanitarian missions and peacekeeping.
 
-    Para --> Org
-    Org --> Intel
+→ [History](history/README.md)
 
-    Intel --> Missiles
-    Missiles --> AirDef
-    AirDef --> Space
+## Armed Forces
 
-    Space --> Platforms
-    Platforms --> Industry
-    Industry --> Budget
-```
+India's Armed Forces consist of:
 
----
+- Indian Army — land warfare and territorial defence
+- Indian Navy — maritime security and naval warfare
+- Indian Air Force — air power and air defence
 
-## Major Sections
-
-### Military History
-
-Covers:
-
-- Wars and conflicts
-- Military operations
-- Counter-terror operations
-- Humanitarian and evacuation missions
-- UN peacekeeping missions
-- Strategic and operational lessons
-
-### Military History Structure
-
-| Area | Focus |
-|--------|--------|
-| Wars | Major military conflicts involving India |
-| Military Operations | Strategic and operational military actions |
-| Counter-Terror Operations | Precision responses against terrorist threats |
-| Humanitarian Missions | Disaster relief and evacuation operations |
-| Peacekeeping | India's contribution to UN peacekeeping missions |
-
-### Armed Forces
-
-Covers:
-
-- Indian Army
-- Indian Navy
-- Indian Air Force
-- Rank structures
-- Training institutions
-- Joint commands
-
-### Paramilitary Forces
-
-Covers:
-
-- Border-security forces
-- Internal-security forces
-- Counter-terrorism organizations
-- Maritime-security forces
-
-### Defence Organisations and Agencies
-
-Covers:
-
-- Ministry of Defence
-- CDS and DMA
-- Integrated Defence Staff
-- DRDO
-- Defence Space Agency
-- Defence Cyber Agency
-
-### Intelligence
-
-Covers:
-
-- RAW, IB, NTRO, DIA and NIA
-- Intelligence coordination mechanisms
-- Strategic intelligence
-- SIGINT and technical intelligence
-- Cyber and information warfare
-
-### Missile Systems
-
-Covers:
-
-- Ballistic missiles
-- Cruise missiles
-- Strategic deterrence
-- Sea-based deterrence
-- Hypersonic programmes
-
-### Air and Missile Defence
-
-Covers:
-
-- Air-defence systems
-- Ballistic missile defence
-- Layered defence concepts
-- Integrated air defence
-- Strategic protection systems
-
-### Space Security
-
-Covers:
-
-- Military satellites
-- NavIC and military navigation
-- Space situational awareness
-- Defence Space Agency
-- Anti-satellite capability
-
-### Defence Platforms
-
-Covers:
-
-- Army platforms
-- Air-force platforms
-- Naval platforms
-- Combat-support systems
-- Operational capabilities
-
-### Defence Industry
-
-Covers:
-
-- Defence manufacturing ecosystem
-- DPSUs
-- DRDO
-- Indigenous defence production
-- Defence industrial development
-
-### Defence Budget and Modernisation
-
-Covers:
-
-- Defence budget
-- Capital vs revenue expenditure
-- Defence procurement
-- Modernisation programmes
-- Atmanirbhar Bharat initiatives
-
----
-
-## Defence Architecture
-
-```mermaid
-flowchart TD
-    GOI[Government of India]
-    MOD[Ministry of Defence]
-
-    GOI --> MOD
-
-    MOD --> CDS[CDS]
-    CDS --> IDS[IDS]
-
-    CDS --> Army[Indian Army]
-    CDS --> Navy[Indian Navy]
-    CDS --> AirForce[Indian Air Force]
-
-    MOD --> DRDO[DRDO]
-    MOD --> DAC[DAC]
-
-    MOD --> Cyber[Defence Cyber Agency]
-    MOD --> Space[Defence Space Agency]
-```
-
----
-
-## Current Progress
-
-| Section | Status |
-|----------|----------|
-| Military History | Completed |
-| Armed Forces | Completed |
-| Paramilitary Forces | Completed |
-| Defence Organisations and Agencies | Completed |
-| Intelligence | In Progress |
-| Missile Systems | Completed |
-| Air and Missile Defence | Completed |
-| Space Security | Completed |
-| Defence Platforms | Completed |
-| Defence Industry | Completed |
-| Defence Budget and Modernisation | Completed |
-
----
-
-## Quick Revision
-
-- India's defence structure is built around the Army, Navy and Air Force.
-- Paramilitary forces support border and internal security.
-- CDS, DMA and IDS improve military integration.
-- Intelligence supports national-security decision-making.
-- RAW, IB, NTRO and DIA form the core intelligence ecosystem.
-- Missile systems provide strategic deterrence.
-- Air and missile defence protects critical assets.
-- Space security supports communications, navigation and surveillance.
-- DRDO and defence industry support indigenous capability.
-
----
+The three services increasingly operate through joint planning, integrated capabilities and coordinated command structures.
 
 ## Key Concepts
 
-### Why is defence important?
+- Joint Operations
+- Integrated Commands
+- Theatre Commands
+- Force Modernization
+- Strategic Deterrence
+- Military Readiness
+- National Security
 
-It protects sovereignty, territorial integrity and national interests.
+## Quick Revision
 
-### What are the major components of India's defence system?
-
-Armed Forces, defence organisations, strategic capabilities and security forces.
-
-### What is military jointness?
-
-The ability of the Army, Navy and Air Force to operate together effectively.
-
-### Why is modernization important?
-
-To address evolving threats and future warfare requirements.
-
-### Which organisation develops defence technologies?
-
-DRDO.
+- India has three military services: Army, Navy and Air Force.
+- The President is the Supreme Commander of the Armed Forces.
+- The CDS supports jointness and military integration.
+- Theatre-command reforms aim to improve operational effectiveness.
+- Modern warfare increasingly depends on joint operations across domains.
