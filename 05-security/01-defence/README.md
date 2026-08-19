@@ -1,6 +1,6 @@
 # Indian Defence
 
-A simple reference to India's military services, weapons, systems, strategic capabilities, defence organizations, industry, budget and military history.
+A simple reference to India's military services, weapons, systems, strategic capabilities, defence organisations, industry, budget and military history.
 
 ## Military Services
 
@@ -16,7 +16,7 @@ Nuclear deterrence, strategic missiles, missile defence, hypersonic programmes a
 
 ## Organisations
 
-Ministry of Defence, CDS, IDS, command organizations and joint institutions.
+Ministry of Defence, CDS, IDS, command organisations and joint institutions.
 
 → [Organisations](organisations/README.md)
 
@@ -28,7 +28,7 @@ India's defence production ecosystem and major defence manufacturers.
 
 ## Budget & Procurement
 
-Defence expenditure, modernization, procurement, Make in India and Atmanirbhar Bharat.
+Defence expenditure, modernisation, procurement, Make in India and Atmanirbhar Bharat.
 
 → [Budget](budget/README.md)
 
@@ -38,13 +38,21 @@ Wars, military operations, counter-terror operations, humanitarian missions and 
 
 → [History](history/README.md)
 
+## Defence Journeys
+
+Chronological stories explaining how India's defence capabilities evolved over time.
+
+→ [Defence Journeys](journey/README.md)
+
+The journeys provide the **story and evolution** of India's defence capabilities, while the sections above provide detailed reference information.
+
 ## Armed Forces
 
 India's Armed Forces consist of:
 
-- Indian Army — land warfare and territorial defence
-- Indian Navy — maritime security and naval warfare
-- Indian Air Force — air power and air defence
+- **Indian Army** — land warfare and territorial defence
+- **Indian Navy** — maritime security and naval warfare
+- **Indian Air Force** — air power and air defence
 
 The three services increasingly operate through joint planning, integrated capabilities and coordinated command structures.
 
@@ -53,10 +61,12 @@ The three services increasingly operate through joint planning, integrated capab
 - Joint Operations
 - Integrated Commands
 - Theatre Commands
-- Force Modernization
+- Force Modernisation
 - Strategic Deterrence
 - Military Readiness
 - National Security
+- Indigenous Defence Capability
+- Multi-Domain Operations
 
 ## Quick Revision
 
@@ -64,4 +74,7 @@ The three services increasingly operate through joint planning, integrated capab
 - The President is the Supreme Commander of the Armed Forces.
 - The CDS supports jointness and military integration.
 - Theatre-command reforms aim to improve operational effectiveness.
-- Modern warfare increasingly depends on joint operations across domains.
+- Modern warfare increasingly depends on joint operations across multiple domains.
+- India's defence capability includes conventional forces, strategic forces, defence industry and supporting organisations.
+- Indigenous defence production is an increasingly important part of India's long-term defence strategy.
+- The **Defence Journeys** provide chronological stories of how these capabilities evolved.
