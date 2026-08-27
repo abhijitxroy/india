@@ -280,11 +280,27 @@ Prehistoric India → Ancient Civilizations → Kingdoms & Empires → Colonial 
 ### India Through Data Project
 
 - Population
+- Demographics
 - Economy
-- Elections
+- Employment
+- Health
+- Education
+- Poverty
+- Agriculture
+- Industry
 - Infrastructure
+- Environment
 - Governance
+- Elections
 - Development indicators
+
+#### Data & Analysis
+
+- Build reliable datasets under `12-data/`
+- Create analysis and derived insights under `13-analysis/`
+- Prioritize Indian official sources
+- Use international sources for independent cross-checking
+- Document source, methodology, coverage, and data period
 
 ### India Through Institutions Project
 
