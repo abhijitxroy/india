@@ -37,6 +37,20 @@ Key Areas:
 
 ---
 
+### Ministry of Statistics & Programme Implementation (MoSPI) / National Statistical Office (NSO)
+
+India's central official statistical system covering major national statistical programs.
+
+Key Areas:
+
+- National accounts
+- Economic statistics
+- Social statistics
+- Population and demographic statistics
+- Large-scale sample surveys
+
+---
+
 ### National Sample Surveys (NSS)
 
 Large-scale surveys covering:
@@ -77,6 +91,20 @@ Tracks:
 - Industrial production
 - Manufacturing performance
 - Employment in industries
+
+---
+
+### Government of India Population Projections
+
+Official demographic projections used to assess India's future population trends and planning requirements.
+
+Key Areas:
+
+- Population projections
+- Fertility
+- Mortality
+- Age structure
+- State-wise population projections
 
 ---
 
