@@ -1,0 +1,1123 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Interactive reference to Indian elections, Parliament, Union and State government, Prime Ministers, Presidents and political history."><title>India Politics — Election & Government Reference</title><style>
+:root{
+  --bg:#f6f8fb;
+  --panel:#fff;
+  --ink:#172033;
+  --muted:#617087;
+  --line:#dfe5ee;
+  --accent:#0071c5;
+  --accent2:#005bb3;
+  --good:#107c10;
+  --warn:#d83b01;
+  --critical:#a4373a;
+  --code:#1f1f1f;
+  --codebg:#f3f3f3;
+}
+*{box-sizing:border-box;}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;}
+.container{display:flex;min-height:100vh;}
+.sidebar{position:fixed;left:0;top:0;bottom:0;width:280px;background:#0b1929;color:#e8eef7;overflow-y:auto;padding:0;border-right:1px solid #1a2d47;z-index:100;}
+.search-box{padding:16px;border-bottom:1px solid #1a2d47;}
+.search-input{width:100%;padding:8px 12px;background:#1a2d47;border:1px solid #2a4d6f;border-radius:4px;color:#fff;font-size:12px;}
+.search-input::placeholder{color:#7d8fa3;}
+.search-input:focus{outline:none;border-color:var(--accent);}
+.brand{padding:16px;border-bottom:1px solid #1a2d47;}
+.brand h1{font-size:16px;margin:0;font-weight:600;color:#fff;}
+.brand p{font-size:11px;margin:4px 0 0;color:#a8b8cc;}
+.nav-section{padding:0;}
+.nav-group{font-size:10px;text-transform:uppercase;letter-spacing:0.8px;color:#7d8fa3;padding:14px 16px 6px;font-weight:600;}
+.nav-btn{width:100%;border:none;background:transparent;color:#bcc5d0;text-align:left;padding:8px 16px;cursor:pointer;font-size:13px;transition:all 0.2s;margin:0;}
+.nav-btn:hover{background:#1a3047;color:#fff;}
+.nav-btn.active{background:linear-gradient(90deg,#0071c5,#005bb3);color:#fff;border-right:3px solid #fff;}
+.main{margin-left:280px;flex:1;overflow-y:auto;}
+.content-wrapper{width:100%;max-width:1500px;margin:0 auto;padding:36px 42px;}
+.page{display:none !important;}
+.page.active{display:block !important;animation:fadeIn 0.3s;}
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
+.search-results{display:none;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:20px;margin:20px 0;max-height:60vh;overflow-y:auto;}
+.search-results.active{display:block;}
+.search-results-empty{color:var(--muted);padding:20px;text-align:center;}
+.search-result-item{border-left:4px solid var(--accent);padding:12px 16px;margin:10px 0;background:#f9fafb;border-radius:0 4px 4px 0;cursor:pointer;transition:all 0.2s;}
+.search-result-item:hover{background:#f0f5ff;transform:translateX(4px);}
+.search-result-title{font-weight:600;color:var(--accent);font-size:13px;}
+.search-result-chapter{font-size:11px;color:var(--muted);margin-top:4px;}
+.search-result-snippet{font-size:12px;color:var(--ink);margin-top:6px;line-height:1.4;}
+.hero{background:linear-gradient(135deg,#10223d,#1e4c91);color:white;padding:35px;border-radius:8px;margin-bottom:30px;}
+.hero h2{margin:0 0 10px;font-size:32px;font-weight:600;}
+.hero p{margin:0;font-size:14px;color:#dce8fb;max-width:1100px;line-height:1.6;}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:24px;margin:20px 0;box-shadow:0 1px 4px rgba(0,0,0,0.08);}
+.card h3{margin:0 0 15px;font-size:18px;color:var(--ink);}
+.card h4{margin:16px 0 8px;font-size:14px;color:var(--ink);font-weight:600;}
+.info-box{border-left:4px solid var(--accent);background:#f0f6ff;padding:14px 16px;border-radius:0 4px 4px 0;margin:16px 0;font-size:13px;}
+.note-box{border-left:4px solid #8a63df;background:#f5f1ff;padding:14px 16px;border-radius:0 4px 4px 0;margin:16px 0;font-size:13px;}
+.warn-box{border-left:4px solid #d83b01;background:#fff7f0;padding:14px 16px;border-radius:0 4px 4px 0;margin:16px 0;font-size:13px;}
+.critical-box{border-left:4px solid #a4373a;background:#fff0f0;padding:14px 16px;border-radius:0 4px 4px 0;margin:16px 0;font-size:13px;}
+.code-block{background:var(--codebg);border:1px solid #e0e0e0;border-radius:4px;padding:14px;font-family:'Courier New',monospace;font-size:12px;overflow-x:auto;margin:14px 0;color:var(--code);line-height:1.5;}
+.diagram{background:#f5f7fa;border:1px solid #d7e3f0;border-radius:8px;padding:16px;color:#24364b;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:12px;line-height:1.7;overflow-x:hidden;overflow-wrap:anywhere;word-break:normal;box-sizing:border-box;max-width:100%;margin:16px 0;white-space:pre-wrap;}
+.table{width:100%;border-collapse:collapse;font-size:13px;margin:16px 0;}
+.table th{background:#f4f7fb;border:1px solid var(--line);padding:10px;text-align:left;font-weight:600;color:var(--ink);}
+.table td{border:1px solid var(--line);padding:10px;text-align:left;}
+.table tr:nth-child(even){background:#fafbfc;}
+.table tr:hover{background:#f0f5ff;}
+/* Give the first column enough room across reference tables; keep identifiers intact. */
+.table th:first-child,.table td:first-child{min-width:210px;}
+.table th:first-child code,.table td:first-child code{white-space:nowrap;overflow-wrap:normal;word-break:normal;}
+/* Fusion Packaging opening flow */
+.fp-opening-card{padding:26px;}
+.fp-opening-kicker{font-size:11px;font-weight:800;letter-spacing:.09em;color:#0871b9;margin-bottom:6px;}
+.fp-opening-intro{max-width:980px;color:#526277;margin:0 0 12px;}
+.fp-flow-wrap{display:grid;grid-template-columns:minmax(0,1fr) 28px minmax(0,1.18fr) 28px minmax(0,1.18fr) 28px minmax(0,.9fr);align-items:stretch;gap:7px;margin:20px 0 16px;}
+.fp-flow-node{display:flex;flex-direction:column;min-width:0;padding:16px 14px;border:1px solid #d8e3ef;border-top:4px solid #507da9;border-radius:10px;background:linear-gradient(180deg,#f5f9fd 0%,#fff 55%);}
+.fp-flow-assets{border-top-color:#0877bd;background:linear-gradient(180deg,#eef7ff 0%,#fff 58%);}
+.fp-flow-package{border-top-color:#39816c;background:linear-gradient(180deg,#f0faf5 0%,#fff 58%);}
+.fp-flow-output{border-top-color:#6c7aa3;background:linear-gradient(180deg,#f4f5fb 0%,#fff 58%);}
+.fp-flow-kicker{font-size:9px;font-weight:800;letter-spacing:.07em;color:#62758b;line-height:1.4;margin-bottom:9px;}
+.fp-flow-node h4{margin:0 0 9px;font-size:15px;line-height:1.35;overflow-wrap:anywhere;}
+.fp-flow-node h4 code{white-space:normal;}
+.fp-flow-node p{margin:0 0 14px;font-size:12px;line-height:1.55;color:#43566d;}
+.fp-flow-links{display:flex;flex-direction:column;gap:6px;margin-top:auto;padding-top:4px;}
+.fp-flow-links a,.fp-responsibility-card a{font-size:11px;font-weight:650;line-height:1.4;}
+.fp-flow-arrow{display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:700;color:#0879c9;}
+.fp-dependency-note{padding:13px 15px;border-left:4px solid #0877bd;border-radius:0 8px 8px 0;background:#eef6ff;color:#2e465e;font-size:12px;line-height:1.65;}
+.fp-responsibility-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:16px;}
+.fp-responsibility-card{padding:17px;border:1px solid var(--line);border-radius:9px;background:#fff;min-width:0;}
+.fp-tool-label{font-size:10px;font-weight:800;letter-spacing:.07em;color:#64758a;margin-bottom:6px;}
+.fp-responsibility-card h4{margin:0 0 8px;font-size:15px;}
+.fp-responsibility-card p{margin:0 0 10px;font-size:12px;line-height:1.6;color:#43566d;}
+@media(max-width:1200px){.fp-flow-wrap{grid-template-columns:minmax(0,1fr);gap:5px}.fp-flow-node{padding:14px 16px}.fp-flow-arrow{transform:rotate(90deg);font-size:21px;line-height:1;padding:0}.fp-flow-links{flex-direction:row;flex-wrap:wrap;column-gap:16px;}}
+@media(max-width:768px){.fp-opening-card{padding:18px}.fp-responsibility-grid{grid-template-columns:minmax(0,1fr)}.fp-flow-links{flex-direction:column;gap:7px}.table{display:block;max-width:100%;overflow-x:auto;}
+.table th:first-child,.table td:first-child{min-width:190px;}}
+
+.badge{display:inline-block;background:#edf3ff;color:#0071c5;padding:2px 8px;border-radius:3px;font-size:11px;font-weight:600;margin:2px 2px 2px 0;}
+.badge-verified{background:#e7f5e7;color:#107c10;}
+.badge-documented{background:#fff7f0;color:#d83b01;}
+.badge-partial{background:#fff0f5;color:#8a63df;}
+.badge-inference{background:#fef8f0;color:#c56103;}
+.badge-unknown{background:#f5f5f5;color:#666;}
+ul,ol{margin:12px 0;padding-left:24px;}
+li{margin:6px 0;}
+a{color:var(--accent);text-decoration:none;}
+a:hover{text-decoration:underline;}
+.back-to-top{display:inline-block;padding:8px 14px;margin:16px 0;background:var(--panel);border:1px solid var(--line);border-radius:4px;color:var(--accent);text-decoration:none;font-size:12px;transition:all 0.2s;cursor:pointer;}
+.back-to-top:hover{background:#f0f6ff;border-color:var(--accent);}
+.highlight{background-color:yellow;font-weight:bold;}
+.search-hit{background:#ffeb3b!important;color:#172033!important;padding:0 2px;border-radius:2px;font-weight:800;box-decoration-break:clone;-webkit-box-decoration-break:clone;}
+.search-result-chapter .search-typo-note{color:#b45309;font-weight:700;}
+/* Floating quick navigation and page-edge controls, matching the oneAPI-CI reference */
+.floating-tools{position:fixed;right:20px;bottom:22px;z-index:1200;display:flex;flex-direction:column;align-items:flex-end;gap:9px}
+.tool-btn{width:44px;height:44px;border:1px solid #cbd5e1;border-radius:50%;background:#fff;color:#172033;box-shadow:0 4px 14px rgba(14,39,65,.18);cursor:pointer;font-size:20px;display:flex;align-items:center;justify-content:center}
+.tool-btn:hover,.tool-btn:focus{background:#eaf4ff;border-color:#0878c9;outline:2px solid transparent}
+.tool-btn.primary{background:#0878c9;color:#fff;border-color:#0878c9}
+.quick-panel{display:none;flex-direction:column;gap:2px;min-width:190px;max-height:55vh;overflow:auto;padding:8px;background:#fff;border:1px solid #dfe5ee;border-radius:10px;box-shadow:0 8px 24px rgba(14,39,65,.2)}
+.quick-panel.open{display:flex}
+.quick-panel a{display:block;padding:8px 10px;border-radius:6px;color:#172033;text-decoration:none;font-size:12px}
+.quick-panel a:hover,.quick-panel a:focus{background:#eaf4ff;color:#005bb3}
+@media(max-width:768px){.floating-tools{right:12px;bottom:14px}.tool-btn{width:40px;height:40px}.quick-panel{max-width:calc(100vw - 32px)}}
+@media(max-width:1024px){.sidebar{width:240px;}.main{margin-left:240px;}.content-wrapper{padding:30px 35px;}.card{padding:18px;}}
+@media(max-width:768px){.sidebar{position:absolute;width:260px;z-index:1000;}.main{margin-left:0;}.content-wrapper{padding:20px;}.hero h2{font-size:24px;}.hero{padding:24px;}}
+.flow-diagram{background:#f5f7fa;border:1px solid #d7e3f0;border-radius:8px;padding:16px;margin:16px 0;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:12px;line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere;word-break:normal;overflow-x:hidden;box-sizing:border-box;max-width:100%;}
+.core-flow{display:flex;flex-direction:column;gap:0;padding:0;background:transparent;border:0;font-family:inherit;font-size:14px;line-height:1.5;}
+.core-flow-step{display:grid;grid-template-columns:42px minmax(0,1fr);gap:12px;align-items:start;background:#f5f8fc;border:1px solid #d7e3f0;border-radius:9px;padding:14px 16px;}
+.core-flow-number{display:flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background:#0b65a5;color:white;font-weight:700;}
+.core-flow-step strong{display:block;margin:1px 0 4px;color:#142c45;font-size:15px;}
+.core-flow-step p{margin:0;color:#334155;}
+.core-flow-arrow{text-align:center;color:#0878c9;font-size:23px;font-weight:700;line-height:1.3;padding:3px 0;}
+@media(max-width:520px){.core-flow-step{grid-template-columns:32px minmax(0,1fr);gap:9px;padding:12px}.core-flow-number{width:28px;height:28px}}
+.source-link{font-size:11px;color:var(--muted);margin-top:8px;word-break:break-all;}
+.toc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:16px 0;}
+.toc-section-link{display:block;padding:10px 12px;background:var(--panel);border:1px solid var(--line);border-radius:4px;color:var(--accent);text-decoration:none;font-size:13px;transition:all 0.2s;}
+.toc-section-link:hover{background:#f0f6ff;border-color:var(--accent);transform:translateY(-1px);box-shadow:0 2px 6px rgba(0,113,197,0.1);}
+
+/* Search results stay in the left sidebar, directly below the search field. */
+.sidebar .search-results{display:none;position:relative;background:#10243a;border:0;border-bottom:1px solid #1a2d47;border-radius:0;padding:10px;margin:0;max-height:42vh;overflow-y:auto;color:#e8eef7;}
+.sidebar .search-results.active{display:block;}
+.sidebar .search-results-header{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px;}
+.sidebar .search-results-header h3{font-size:12px;color:#fff;margin:0;}
+.sidebar .search-results-header button{color:#cbd6e4!important;float:none!important;background:transparent!important;}
+.sidebar .search-result-item{padding:9px 7px;border-bottom:1px solid #263d56;cursor:pointer;overflow-wrap:anywhere;}
+.sidebar .search-result-item:hover{background:#1a3047;}
+.sidebar .search-result-title{font-size:12px;font-weight:600;color:#fff;line-height:1.35;}
+.sidebar .search-result-chapter{font-size:10px;color:#9fb0c5;margin-top:3px;}
+.sidebar .search-result-snippet{font-size:11px;color:#d1dae6;line-height:1.4;margin-top:4px;}
+.sidebar .search-results-empty{font-size:11px;color:#a8b8cc;padding:10px 4px;}
+
+
+/* Search belongs in the main body, not the left navigation sidebar. */
+.body-search{width:100%;max-width:1500px;margin:18px auto 0;padding:0 42px;position:relative;z-index:20;}
+.body-search .search-box{padding:0 0 12px;border-bottom:0;}
+.body-search .search-input{box-sizing:border-box;width:100%;padding:11px 14px;background:var(--panel);border:1px solid var(--line);border-radius:6px;color:var(--ink);font-size:14px;}
+.body-search .search-results{display:none;position:relative;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:18px;margin:0 0 14px;max-height:55vh;overflow-y:auto;color:var(--text);box-shadow:0 8px 24px rgba(0,0,0,.12);}
+.body-search .search-results.active{display:block;}
+.body-search .search-results-header{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:10px;}
+.body-search .search-results-header h3{font-size:15px;margin:0;}
+.body-search .search-results-header button{color:var(--text)!important;float:none!important;background:transparent!important;}
+.body-search .search-result-item{padding:12px 14px;border-bottom:1px solid var(--line);cursor:pointer;overflow-wrap:anywhere;background:transparent;}
+.body-search .search-result-item:hover{background:var(--bg);}
+.body-search .search-result-title{font-weight:600;}
+.body-search .search-result-snippet{line-height:1.5;margin-top:4px;}
+.body-search .search-results-empty{color:var(--muted);padding:12px 4px;text-align:center;}
+@media(max-width:768px){.body-search{padding:0 20px;margin-top:14px;}}
+
+
+/* Keep workflow sequences readable on desktop and mobile: preserve line breaks and wrap long labels. */
+pre, pre code{white-space:pre-wrap;overflow-wrap:anywhere;word-break:normal;max-width:100%;box-sizing:border-box;}
+.card pre{overflow-x:hidden;}
+@media(max-width:768px){.diagram,.flow-diagram{font-size:11px;padding:12px;line-height:1.65}}
+
+.audit-status{border-left:4px solid #b7791f}.audit-source h2{margin-top:0}.source-meta{color:var(--muted);font-size:.92em}.audit-source table{font-size:.88em}.table-scroll{max-width:100%;overflow-x:auto}.audit-source pre{max-width:100%;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere}.audit-source code{overflow-wrap:anywhere}.audit-source li{margin:.35em 0}.audit-source h1,.audit-source h2,.audit-source h3,.audit-source h4{scroll-margin-top:20px}
+
+.audit-report-content{overflow-wrap:anywhere}.audit-report-content h1{font-size:1.5rem;margin-top:1.4em}.audit-report-content h2{font-size:1.25rem;margin-top:1.4em}.audit-report-content h3{font-size:1.05rem;margin-top:1.2em}.audit-report-content pre{white-space:pre-wrap;overflow-wrap:anywhere;max-width:100%;background:var(--codebg);padding:12px;border-radius:6px;overflow:auto}.audit-report-content table{display:block;max-width:100%;overflow-x:auto;border-collapse:collapse}.audit-report-content th,.audit-report-content td{border:1px solid var(--line);padding:7px;text-align:left;vertical-align:top}.audit-report-content code{overflow-wrap:anywhere}
+
+
+/* OMIX chapter: readable, task-oriented structure */
+.omix-start-here .omix-flow{display:flex;flex-direction:column;gap:6px;margin:16px 0}
+.omix-flow-step{border:1px solid var(--border,#d6dbe1);border-radius:9px;padding:12px 14px;background:var(--card-bg,#fff);display:flex;flex-direction:column;gap:4px}
+.omix-flow-step span{color:var(--muted,#5d6673);font-size:.94em}
+.omix-flow-arrow{text-align:center;font-size:1.2rem;line-height:1.1;color:var(--muted,#687384)}
+.omix-index{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:8px 22px}
+.omix-index a{font-weight:600}
+.omix-table{width:100%;border-collapse:collapse;display:table}
+.omix-table th,.omix-table td{border:1px solid var(--border,#d6dbe1);padding:9px 10px;text-align:left;vertical-align:top}
+.omix-table th{background:var(--surface-muted,#f2f4f7)}
+.small-note{font-size:.9em;color:var(--muted,#5d6673)}
+@media(max-width:700px){.omix-table{display:block;overflow-x:auto}.omix-index{grid-template-columns:1fr}}
+
+
+/* Interactive jargon glossary */
+.glossary-term { text-decoration: underline dotted currentColor; text-underline-offset: 3px; cursor: help; border-radius: 2px; }
+.glossary-term:focus-visible { outline: 2px solid var(--accent, #4776d0); outline-offset: 2px; }
+/* Navigation jargon is plain text: no glossary underline or help cursor in either navigation area. */
+.sidebar .glossary-term,
+.quick-panel .glossary-term,
+#quickPanel .glossary-term { text-decoration: none !important; cursor: inherit; }
+.sidebar a,
+.sidebar a:hover,
+.sidebar a:focus,
+.sidebar a:visited { text-decoration: none; }
+.quick-panel a:hover,
+.quick-panel a:focus { text-decoration: none; }
+#jargon-popover { position: fixed; z-index: 99999; max-width: min(360px, calc(100vw - 24px)); padding: 12px 14px; border: 1px solid var(--border-color, #8886); border-radius: 10px; box-shadow: 0 8px 28px #0003; background: var(--card-bg, Canvas); color: var(--text-color, CanvasText); font-size: 13px; line-height: 1.45; display: none; }
+#jargon-popover strong { display:block; margin-bottom:5px; font-size:14px; }
+#jargon-popover .jargon-short { opacity:.75; margin-bottom:4px; font-size:11px; text-transform:uppercase; letter-spacing:.04em; }
+
+/* Jargon definitions are selection-only; no hover tooltip. */
+.glossary-term:hover { /* intentionally no tooltip or popup on hover */ }
+
+.e2e-layout{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(280px,.9fr);gap:18px;align-items:start;margin:18px 0}.e2e-canvas,.e2e-detail{border:1px solid var(--border-color,#d7deea);border-radius:12px;padding:16px;background:var(--panel-bg,#fff);min-width:0}.e2e-lane{font-size:11px;font-weight:800;letter-spacing:.07em;color:var(--muted,#5c6677);padding:10px 4px 7px;border-bottom:1px solid var(--border-color,#d7deea);margin:8px 0 10px}.e2e-node,.e2e-decision{display:block;width:min(100%,560px);margin:0 auto;padding:11px 13px;border:1px solid #b8c7dd;border-radius:8px;background:#f5f8fc;color:#172b4d;font:inherit;font-size:13px;line-height:1.4;text-align:center;cursor:pointer}.e2e-node:hover,.e2e-node:focus-visible{border-color:#4776d0;outline:2px solid #4776d033}.e2e-node.selected{border:2px solid #4776d0;background:#eaf1ff}.e2e-arrow{text-align:center;color:#718096;font-size:20px;line-height:1.7}.e2e-decision{background:#fff7e8;border-color:#dfb45f;font-weight:700}.e2e-detail{position:sticky;top:16px;max-height:calc(100vh - 40px);overflow:auto;min-height:220px}.e2e-detail h3{font-size:18px}.e2e-detail p,.e2e-detail li{font-size:13px;line-height:1.55}.e2e-status{display:inline-block;padding:4px 7px;border-radius:4px;font-size:10px;font-weight:800;margin-bottom:8px;background:#edf8ef;color:#225c2b}.e2e-status.partial{background:#fff4e5;color:#81520c}.e2e-status.unknown{background:#fceeee;color:#8a2525}.e2e-detail dl{display:grid;grid-template-columns:78px 1fr;gap:6px 10px;font-size:12px;line-height:1.45}.e2e-detail dt{font-weight:800;color:var(--muted,#5c6677)}.e2e-detail dd{margin:0;overflow-wrap:anywhere}@media(max-width:900px){.e2e-layout{grid-template-columns:1fr}.e2e-detail{position:static;max-height:none}}
+
+/* Clean section navigation and dashboard visual language */
+.nav-group{font-size:10px;text-transform:uppercase;letter-spacing:0.9px;color:#8fa5bd;padding:15px 16px 7px;font-weight:700;}
+.nav-btn{line-height:1.35;}
+.dashboard-header{display:grid;grid-template-columns:minmax(0,1fr) minmax(230px,330px);gap:22px;align-items:end;margin:0 0 24px;}
+.dashboard-eyebrow{margin:0 0 8px;color:#1d6ec7;font-size:11px;font-weight:800;letter-spacing:1.5px;}
+.dashboard-header h2{font-size:34px;line-height:1.15;margin:0 0 8px;color:#102642;}
+.dashboard-lead{font-size:15px;line-height:1.65;margin:0;color:#536477;max-width:900px;}
+.dashboard-note{border:1px solid #c9dff9;background:linear-gradient(135deg,#eef6ff,#f8fbff);border-radius:12px;padding:17px 18px;color:#234568;box-shadow:0 3px 12px rgba(22,76,135,.05);}
+.dashboard-note strong{display:block;font-size:14px;color:#164b86;margin-bottom:6px;}
+.dashboard-note span{font-size:12px;line-height:1.55;display:block;}
+.dashboard-flow-card{border:1px solid #d9e5f2;background:linear-gradient(180deg,#fbfdff,#f7faff);box-shadow:0 4px 18px rgba(18,51,86,.07);border-radius:14px;padding:22px;margin:0 0 20px;max-width:100%;box-sizing:border-box;}
+.dashboard-section-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:15px;margin-bottom:18px;}
+.dashboard-section-heading h3{font-size:23px;line-height:1.25;margin:0 0 5px;color:#122742;}
+.dashboard-section-heading p{margin:0;color:#5e7085;font-size:13px;line-height:1.5;}
+.dashboard-pill{white-space:nowrap;display:inline-flex;align-items:center;padding:6px 10px;border-radius:999px;background:#edf2f8;border:1px solid #dbe4ee;color:#52667b;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;}
+.dashboard-flow-grid{display:grid;grid-template-columns:minmax(0,1fr) 20px minmax(0,1fr) 20px minmax(0,1fr) 20px minmax(0,1fr);gap:7px;align-items:stretch;}
+.dashboard-stage{min-width:0;border-radius:11px;padding:12px;border:1px solid var(--stage-border);background:var(--stage-bg);display:flex;flex-direction:column;gap:8px;}
+.stage-source{--stage-bg:#eaf4ff;--stage-border:#a7d1f5;--stage-title:#0068b5;--step-bg:#f9fcff;}
+.stage-build{--stage-bg:#fff0e2;--stage-border:#f4bc85;--stage-title:#c65d00;--step-bg:#fffbf7;}
+.stage-test{--stage-bg:#e6f9ed;--stage-border:#9ce4b7;--stage-title:#087542;--step-bg:#fbfffc;}
+.stage-promote{--stage-bg:#fff6dc;--stage-border:#f3d277;--stage-title:#86530a;--step-bg:#fffefa;}
+.dashboard-stage-title{display:flex;align-items:center;gap:8px;min-height:32px;color:var(--stage-title);}
+.dashboard-stage-title h4{margin:0;font-size:13px;line-height:1.25;color:inherit;}
+.dashboard-stage-icon{display:inline-flex;width:27px;height:27px;flex:0 0 27px;align-items:center;justify-content:center;border-radius:8px;background:rgba(255,255,255,.75);font-size:18px;font-weight:800;}
+.dashboard-step{background:var(--step-bg);border:1px solid color-mix(in srgb,var(--stage-border) 78%,white);border-radius:8px;padding:9px 8px;font-size:11px;line-height:1.35;color:#273c53;overflow-wrap:anywhere;}
+.dashboard-arrow{display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:700;color:#3978ba;}
+.dashboard-branch-note{display:flex;align-items:flex-start;gap:10px;margin:14px 0 16px;padding:12px 14px;background:#f0f6ff;border:1px solid #c9def9;border-radius:9px;color:#385571;font-size:12px;line-height:1.55;}
+.branch-mark{font-weight:800;color:#1869bb;font-size:19px;line-height:1;}
+.dashboard-foundation{border:1px solid #f1be8b;background:linear-gradient(120deg,#fff2e5,#fffaf5);border-radius:11px;padding:13px;margin-top:12px;min-width:0;}
+.dashboard-foundation-title{display:flex;align-items:center;gap:9px;margin-bottom:10px;color:#c65d00;}
+.dashboard-foundation-title>span{font-size:21px;font-weight:800;}
+.dashboard-foundation-title h4{margin:0;color:#a84f00;font-size:14px;}
+.dashboard-infra-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;}
+.dashboard-infra-item{background:rgba(255,255,255,.88);border:1px solid #f5d3af;border-radius:8px;padding:10px;min-width:0;}
+.dashboard-infra-item strong{display:block;color:#23496e;font-size:11px;margin-bottom:4px;}
+.dashboard-infra-item span{display:block;color:#5f7285;font-size:10px;line-height:1.4;}
+.dashboard-lower-grid{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(230px,.9fr);gap:12px;}
+.dashboard-repos{background:linear-gradient(120deg,#eaf4ff,#f8fbff);border-color:#a7d1f5;}
+.dashboard-repos .dashboard-foundation-title{color:#0068b5;}
+.dashboard-repos .dashboard-foundation-title h4{color:#064f85;}
+.dashboard-repo-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;}
+.dashboard-repo-item{background:#fff;border:1px solid #bfdaf5;border-radius:8px;padding:10px 9px;font-size:11px;line-height:1.4;color:#244f76;min-width:0;}
+.dashboard-output{background:linear-gradient(120deg,#e5f9ed,#f5fff8);border-color:#a9e7c0;}
+.dashboard-output .dashboard-foundation-title{color:#0c8c4b;}
+.dashboard-output .dashboard-foundation-title h4{color:#12643b;}
+.dashboard-output-list{display:grid;grid-template-columns:1fr;gap:7px;}
+.dashboard-output-list div{padding:8px 10px;background:#fff;border:1px solid #c6edd4;border-radius:7px;font-size:11px;line-height:1.4;color:#2d6344;}
+.dashboard-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin:18px 0;}
+.dashboard-summary{border:1px solid var(--summary-border);background:var(--summary-bg);border-radius:11px;padding:17px;min-width:0;display:flex;flex-direction:column;}
+.summary-purpose{--summary-bg:#fff2e5;--summary-border:#f1c99d;--summary-color:#c65d00;}
+.summary-workflows{--summary-bg:#eafaef;--summary-border:#c3ebcf;--summary-color:#147744;}
+.summary-components{--summary-bg:#fff7e2;--summary-border:#f1dfa5;--summary-color:#926311;}
+.summary-omix{--summary-bg:#fbeef2;--summary-border:#efc7d3;--summary-color:#a83253;}
+.dashboard-summary h3{display:flex;align-items:center;gap:8px;margin:0 0 9px;font-size:15px;color:#1b2d43;}
+.dashboard-summary h3 span{font-size:20px;color:var(--summary-color);}
+.dashboard-summary p{margin:0 0 13px;color:#4d5e70;font-size:12px;line-height:1.55;flex:1;}
+.dashboard-link{align-self:flex-start;border:0;padding:0;background:transparent;color:var(--summary-color);font-weight:700;font-size:12px;cursor:pointer;text-decoration:none;}
+.dashboard-link:hover{text-decoration:underline;}
+.dashboard-footer-note{border-left:3px solid #9db8d6;padding:9px 12px;color:#5e7186;font-size:11px;line-height:1.55;background:#f7faff;border-radius:0 6px 6px 0;margin:10px 0 0;}
+@media(max-width:1160px){
+ .dashboard-flow-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}
+ .dashboard-arrow{display:none;}
+ .dashboard-infra-grid{grid-template-columns:repeat(3,minmax(0,1fr));}
+ .dashboard-repo-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+ .dashboard-cards{grid-template-columns:repeat(2,minmax(0,1fr));}
+}
+@media(max-width:768px){
+ .dashboard-header{grid-template-columns:1fr;}
+ .dashboard-header h2{font-size:28px;}
+ .dashboard-flow-card{padding:14px;}
+ .dashboard-section-heading{flex-direction:column;}
+ .dashboard-flow-grid{grid-template-columns:1fr;}
+ .dashboard-infra-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+ .dashboard-lower-grid{grid-template-columns:1fr;}
+ .dashboard-cards{grid-template-columns:1fr;}
+}
+
+
+/* Enhanced Overview dashboard: multi-lane, clickable and evidence-bounded */
+.overview-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(270px,350px);gap:24px;align-items:stretch;margin:0 0 22px}.overview-hero-copy{padding:4px 0}.overview-eyebrow{font-size:10px;font-weight:800;letter-spacing:1.6px;color:#0d68bd;margin:0 0 7px}.overview-hero h2{font-size:35px;line-height:1.15;color:#122640;margin:0 0 9px}.overview-lead{font-size:15px;line-height:1.65;color:#4e6176;max-width:900px;margin:0}.overview-hero-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:17px}.overview-action{background:#fff;border:1px solid #c9d8e8;color:#234b72;border-radius:8px;padding:9px 12px;font-size:12px;font-weight:700;cursor:pointer}.overview-action.primary{background:#125eb3;border-color:#125eb3;color:#fff}.overview-action:hover{filter:brightness(.97);box-shadow:0 2px 8px rgba(27,67,108,.12)}
+.overview-evidence-card{border:1px solid #d2e0ef;background:linear-gradient(145deg,#f3f8ff,#e9f3ff);border-radius:13px;padding:16px 17px;box-shadow:0 4px 14px rgba(30,69,110,.06)}.overview-evidence-card h3{display:flex;gap:8px;align-items:center;margin:0 0 12px;font-size:14px;color:#153e6d}.overview-evidence-icon{font-size:23px;color:#176abe}.overview-evidence-row{display:flex;gap:9px;align-items:flex-start;margin:9px 0}.evidence-dot{flex:0 0 9px;width:9px;height:9px;border-radius:50%;margin-top:5px}.code-dot{background:#1474cf}.docs-dot{background:#8d58c7}.external-dot{background:#d99920}.overview-evidence-row strong{display:block;color:#284763;font-size:11px;margin-bottom:3px}.overview-evidence-row small{display:block;color:#5c7186;font-size:10px;line-height:1.45}.overview-snapshot-note{border-top:1px solid #d1e0f0;padding-top:9px;margin:11px 0 0;font-size:9px;line-height:1.5;color:#66788a}
+.overview-section-title{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;margin:20px 0 12px}.overview-section-title h3{font-size:22px;line-height:1.25;margin:0 0 4px;color:#132c49}.overview-section-title p{font-size:12px;margin:0;color:#64778a;line-height:1.5}.overview-label{font-size:9px;text-transform:uppercase;letter-spacing:.8px;font-weight:800;color:#61768a;background:#f1f5f9;border:1px solid #dbe4ec;border-radius:999px;padding:5px 9px;white-space:nowrap}.overview-lanes{display:flex;flex-direction:column;gap:14px}.overview-lane{border-radius:13px;border:1px solid var(--lane-border);background:linear-gradient(165deg,var(--lane-tint),#fff);padding:16px;box-shadow:0 3px 12px rgba(20,48,79,.045);min-width:0}.lane-component{--lane-border:#d6c3f7;--lane-tint:#f9f5ff;--lane-strong:#7545b9;--lane-step:#fff}.lane-integration{--lane-border:#b7d7f6;--lane-tint:#f1f8ff;--lane-strong:#1768af;--lane-step:#fff}.lane-resource-promotion{--lane-border:#f1dca5;--lane-tint:#fffaf0;--lane-strong:#94650e;--lane-step:#fff}.overview-lane-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin:0 0 14px}.overview-lane-title{display:flex;align-items:flex-start;gap:10px;min-width:0}.lane-index{display:flex;align-items:center;justify-content:center;width:29px;height:29px;border-radius:9px;background:var(--lane-strong);color:#fff;font-weight:800;font-size:13px;flex:0 0 29px}.overview-lane-title h4{color:#18344f;font-size:16px;line-height:1.3;margin:0 0 4px}.overview-lane-title p{color:#61758a;font-size:11px;line-height:1.5;margin:0;max-width:850px}.overview-status{font-size:9px;line-height:1.35;font-weight:700;padding:6px 8px;border-radius:6px;white-space:nowrap;max-width:200px;text-align:center}.status-docs{color:#6942a4;background:#f0e7ff;border:1px solid #dac8f7}.status-code{color:#155d9d;background:#e1f0ff;border:1px solid #bad8f8}
+.overview-flow{display:grid;grid-template-columns:minmax(0,1fr) 18px minmax(0,1fr) 18px minmax(0,1fr) 18px minmax(0,1fr);gap:6px;align-items:stretch}.overview-node{background:var(--lane-step);border:1px solid color-mix(in srgb,var(--lane-border) 74%,white);border-radius:9px;padding:11px;min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:5px}.node-type{font-size:8px;font-weight:800;letter-spacing:.9px;color:var(--lane-strong);text-transform:uppercase}.overview-node h5{font-size:12px;line-height:1.35;color:#213d59;margin:0;overflow-wrap:anywhere}.overview-node p{font-size:10px;line-height:1.5;color:#5e7184;margin:0 0 3px;overflow-wrap:anywhere;flex:1}.overview-node a,.node-link{font-size:10px;font-weight:700;line-height:1.4;color:var(--lane-strong);text-decoration:none;border:0;background:none;padding:0;cursor:pointer;text-align:left}.overview-node a:hover,.node-link:hover{text-decoration:underline}.overview-flow-arrow{display:flex;align-items:center;justify-content:center;color:var(--lane-strong);font-size:25px;font-weight:800}.overview-lane-note{font-size:10px;color:#526a80;line-height:1.55;border-top:1px solid color-mix(in srgb,var(--lane-border) 72%,white);padding-top:10px;margin-top:12px}.overview-lane-note strong{color:#324e68}.overview-parallel-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}.overview-parallel-card{border:1px dashed #9ab9da;background:#fff;border-radius:10px;padding:12px;min-width:0}.overview-parallel-card h5{font-size:12px;color:#214d7a;margin:5px 0 6px}.overview-parallel-card p{font-size:10px;line-height:1.5;color:#5a6e82;margin:0 0 7px}.overview-parallel-card a{font-size:10px;color:#1c65a8;font-weight:700;text-decoration:none}.overview-parallel-card a:hover{text-decoration:underline}.parallel-tag{font-size:8px;font-weight:800;letter-spacing:.7px;color:#47709a;background:#eff6ff;border-radius:5px;padding:4px 6px;display:inline-block}
+.overview-foundation{border:1px solid #cbdbea;background:linear-gradient(120deg,#f1f7fc,#f9fbfd);border-radius:12px;padding:15px;margin-top:18px}.overview-service-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px}.overview-service{padding:12px;border:1px solid #d1dfed;background:#fff;border-radius:9px;display:flex;flex-direction:column;gap:5px;text-decoration:none;min-width:0;transition:box-shadow .15s,transform .15s}.overview-service:hover{box-shadow:0 4px 12px rgba(32,71,111,.12);transform:translateY(-1px)}.overview-service strong{font-size:11px;color:#233f59}.overview-service span{font-size:10px;line-height:1.45;color:#60758a;flex:1}.overview-service small{font-size:9px;line-height:1.4;font-weight:700;color:#1d65a6}.service-blue{border-top:3px solid #2780d0}.service-teal{border-top:3px solid #13a6a0}.service-green{border-top:3px solid #27a667}.service-gold{border-top:3px solid #d7a126}.service-purple{border-top:3px solid #8b59c5}
+.overview-bottom-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:13px;margin-top:15px}.overview-bottom-card{border:1px solid #dce5ed;border-radius:11px;padding:16px;background:#fff;min-width:0}.overview-bottom-card h3{font-size:14px;color:#18334d;margin:0 0 10px}.overview-bottom-card ul{margin:0;padding-left:17px;color:#5a6e81;font-size:11px;line-height:1.7}.overview-quicklinks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.overview-quicklinks button{border:1px solid #d3dfeb;border-radius:7px;background:#f8fbff;color:#1d5e9c;font-size:10px;font-weight:700;padding:9px 8px;text-align:left;cursor:pointer}.overview-quicklinks button:hover{background:#edf6ff}.overview-notice{margin-top:15px;padding:12px 14px;border-left:3px solid #8daeca;background:#f5f8fb;color:#5d7083;font-size:10px;line-height:1.55;border-radius:0 7px 7px 0}.overview-notice strong{color:#334f69}
+/* Every page gets a curated code/resource panel for direct navigation */
+.resource-panel{border:1px solid #d6e2ee;border-radius:11px;background:linear-gradient(135deg,#f7fbff,#fff);padding:16px;margin:24px 0 4px;box-shadow:0 2px 9px rgba(24,55,88,.035)}.resource-panel-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin-bottom:12px}.resource-panel-kicker{display:block;font-size:8px;font-weight:800;letter-spacing:1.25px;color:#2878bd;margin-bottom:5px}.resource-panel-heading h3{font-size:16px;color:#183650;line-height:1.3;margin:0 0 4px}.resource-panel-heading p{font-size:10px;color:#6b7d8f;line-height:1.5;margin:0;max-width:900px}.resource-index-button{border:1px solid #bdd3e8;border-radius:7px;background:#fff;color:#1b5e98;font-size:10px;font-weight:700;padding:8px 10px;white-space:nowrap;cursor:pointer}.resource-index-button:hover{background:#edf6ff}.resource-links-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}.resource-link-card{border:1px solid #e0e8f0;background:#fff;border-radius:8px;padding:11px;min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:5px}.resource-type{font-size:8px;font-weight:800;letter-spacing:.7px;color:#697d90;background:#f0f4f7;border-radius:4px;padding:3px 5px}.resource-link-card>a,.resource-page-link{font-size:11px;line-height:1.4;color:#1765a8;font-weight:700;text-decoration:none;overflow-wrap:anywhere}.resource-link-card>a:hover,.resource-page-link:hover{text-decoration:underline}.resource-page-link{padding:0;border:0;background:none;cursor:pointer;text-align:left}.resource-link-card p{font-size:10px;line-height:1.5;color:#63768a;margin:0}
+@media(max-width:1250px){.overview-flow{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.overview-flow-arrow{display:none}.overview-service-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:900px){.overview-hero{grid-template-columns:1fr}.overview-service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.overview-bottom-grid{grid-template-columns:1fr}.resource-links-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.overview-hero h2{font-size:28px}.overview-section-title{align-items:flex-start;flex-direction:column}.overview-lane-heading{flex-direction:column}.overview-flow{grid-template-columns:1fr}.overview-parallel-grid{grid-template-columns:1fr}.overview-service-grid{grid-template-columns:1fr}.overview-bottom-grid{grid-template-columns:1fr}.overview-quicklinks{grid-template-columns:repeat(2,minmax(0,1fr))}.resource-links-grid{grid-template-columns:1fr}.resource-panel-heading{flex-direction:column}}
+
+
+/* Clean, readable Overview dashboard */
+.overview-hero{grid-template-columns:minmax(0,1fr);gap:12px;margin-bottom:24px;}
+.overview-hero-copy{max-width:1100px;}
+.overview-hero h2{font-size:34px;line-height:1.18;margin-bottom:10px;}
+.overview-lead{font-size:15px;line-height:1.65;max-width:1050px;}
+.overview-hero-actions{margin-top:16px;gap:8px;}
+.overview-action{font-size:12px;padding:9px 13px;}
+.overview-section-title{margin:22px 0 13px;}
+.overview-section-title h3{font-size:21px;}
+.overview-section-title p{font-size:13px;line-height:1.55;}
+.overview-lane{padding:17px;}
+.overview-lane-heading{margin-bottom:15px;}
+.overview-lane-title{gap:0;}
+.overview-lane-title h4{font-size:16px;margin-bottom:5px;}
+.overview-lane-title p{font-size:12px;line-height:1.55;}
+.overview-flow{gap:8px;}
+.overview-node{padding:13px;gap:7px;}
+.overview-node h5{font-size:13px;line-height:1.4;}
+.overview-node p{font-size:12px;line-height:1.55;}
+.overview-node a,.node-link{font-size:11px;line-height:1.5;}
+.overview-flow-arrow{font-size:25px;}
+.overview-lane-note{font-size:11px;line-height:1.6;padding-top:10px;}
+.overview-parallel-card{padding:13px;}
+.overview-parallel-card h5{font-size:13px;}
+.overview-parallel-card p{font-size:11px;line-height:1.55;}
+.overview-parallel-card a{font-size:11px;}
+.overview-foundation{padding:16px;}
+.overview-foundation-title h4{font-size:14px;}
+.overview-service-grid{gap:10px;}
+.overview-service{padding:13px;}
+.overview-service strong{font-size:12px;}
+.overview-service span{font-size:11px;line-height:1.5;}
+.overview-service small{font-size:10px;}
+.overview-bottom-card{padding:16px;}
+.overview-bottom-card h3{font-size:15px;}
+.overview-bottom-card ul{font-size:12px;line-height:1.7;}
+.overview-quicklinks button{font-size:11px;line-height:1.4;padding:10px;}
+/* Keep resource panels useful without repeated editorial labels */
+.resource-panel{padding:15px;margin:22px 0 4px;}
+.resource-panel-heading h3{font-size:15px;}
+.resource-panel-heading p{font-size:11px;line-height:1.5;}
+.resource-index-button{font-size:11px;}
+.resource-link-card{padding:11px;gap:6px;}
+.resource-type{font-size:9px;}
+.resource-link-card>a,.resource-page-link{font-size:12px;line-height:1.45;}
+.resource-link-card p{font-size:11px;line-height:1.5;}
+@media(max-width:1250px){
+ .overview-flow{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;}
+ .overview-flow-arrow{display:none;}
+ .overview-service-grid{grid-template-columns:repeat(3,minmax(0,1fr));}
+}
+@media(max-width:900px){
+ .overview-hero{grid-template-columns:1fr;}
+ .overview-service-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+ .overview-bottom-grid{grid-template-columns:1fr;}
+ .resource-links-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+}
+@media(max-width:650px){
+ .overview-hero h2{font-size:28px;}
+ .overview-section-title{align-items:flex-start;flex-direction:column;}
+ .overview-lane-heading{flex-direction:column;}
+ .overview-flow{grid-template-columns:1fr;}
+ .overview-parallel-grid{grid-template-columns:1fr;}
+ .overview-service-grid{grid-template-columns:1fr;}
+ .overview-bottom-grid{grid-template-columns:1fr;}
+ .overview-quicklinks{grid-template-columns:repeat(2,minmax(0,1fr));}
+ .resource-links-grid{grid-template-columns:1fr;}
+ .resource-panel-heading{flex-direction:column;}
+}
+
+
+/* Flow-detail source links: every selectable Fusion CI and OMIX stage exposes direct references. */
+.dashboard-header{grid-template-columns:minmax(0,1fr);align-items:start;gap:0;margin-bottom:24px;}
+.dashboard-title-block{max-width:1120px;}
+.dashboard-eyebrow{color:#004b87;}
+.dashboard-header h2{color:#003b70;}
+.dashboard-lead{color:#274f74;}
+.e2e-sources{margin-top:16px;padding-top:13px;border-top:1px solid #dce6f1;}
+.e2e-sources h4{margin:0 0 9px;color:#123b68;font-size:13px;line-height:1.4;}
+.e2e-source-list{display:flex;flex-wrap:wrap;gap:7px;align-items:stretch;}
+.e2e-source-link{display:inline-flex;align-items:center;gap:5px;max-width:100%;border:1px solid #bed5ee;border-radius:7px;background:#edf5ff;color:#084f91;padding:7px 9px;font-size:11px;line-height:1.35;font-weight:700;text-decoration:none;overflow-wrap:anywhere;}
+.e2e-source-link:hover,.e2e-source-link:focus-visible{background:#dcecff;border-color:#7eb4e8;color:#003b70;text-decoration:underline;outline-offset:2px;}
+.e2e-source-note{margin:9px 0 0;padding:9px 10px;border-left:3px solid #f0a12b;background:#fff8e9;color:#5d4a28;border-radius:0 6px 6px 0;font-size:11px;line-height:1.5;}
+@media(max-width:600px){.e2e-source-link{width:100%;}.dashboard-header h2{font-size:30px;}}
+
+
+/* USA Politics reference additions — built on the Fusion CI reference template */
+.hero-kicker,.section-kicker{font-size:11px;font-weight:800;letter-spacing:.12em;color:#8dc9ff;margin-bottom:8px}
+.hero h2{font-size:31px}.hero{background:linear-gradient(135deg,#10223d,#1e4c91);border-radius:8px}
+.body-search .search-box{padding-bottom:8px}
+.search-hint{font-size:10px;color:var(--muted);margin:5px 2px 0}
+.stats-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:18px 0}
+.stats-grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.stat-card{padding:18px;border:1px solid var(--line);border-radius:9px;background:#fff;box-shadow:0 2px 7px rgba(0,0,0,.04);border-top:4px solid #0878c9}
+.stat-card.purple{border-top-color:#8063c9}.stat-card.green{border-top-color:#16865b}.stat-card.orange{border-top-color:#df8135}
+.stat-value{font-size:30px;font-weight:800;line-height:1.2;color:#163c65}.stat-label{font-weight:700;font-size:13px;margin-top:5px}.stat-card small{font-size:11px;color:var(--muted)}
+.gov-architecture{padding:14px;background:#f5f8fc;border:1px solid #d9e4ef;border-radius:10px;text-align:center}
+.gov-top{background:#173b64;color:#fff;border-radius:8px;padding:15px;display:flex;justify-content:center;gap:14px;flex-wrap:wrap}.gov-top span{color:#d5e7fb}
+.gov-connect{font-weight:800;color:#0878c9;padding:8px}
+.gov-branches{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.gov-branch{padding:16px 12px;border-radius:8px;background:#fff;border:1px solid #dce5ef;border-top:5px solid #0878c9;display:flex;flex-direction:column;gap:7px}
+.gov-branch.exec{border-top-color:#18865d}.gov-branch.leg{border-top-color:#0878c9}.gov-branch.judi{border-top-color:#8063c9}
+.gov-branch>b{font-size:10px;letter-spacing:.06em;color:#60758b}.gov-branch strong{font-size:16px}.gov-branch span{font-size:12px;color:#526277}
+.gov-states{background:#eaf3fb;border:1px solid #cbdff1;border-radius:8px;padding:14px;display:flex;flex-direction:column;gap:4px}.gov-states span{font-size:12px;color:#526277}
+.level-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.level-card{text-align:left;padding:18px;border:1px solid var(--line);border-radius:9px;background:#fff;cursor:pointer;display:flex;flex-direction:column;gap:8px;color:var(--ink);min-height:170px}
+.level-card span{font-size:10px;font-weight:800;letter-spacing:.1em;color:#0878c9}.level-card b{font-size:19px}.level-card small{font-size:12px;color:var(--muted);line-height:1.5}.level-card em{font-style:normal;font-size:12px;font-weight:700;color:#0878c9;margin-top:auto}
+.level-two span{color:#7859bd}.level-three span{color:#16865b}
+.compare-mini{display:grid;grid-template-columns:1fr 1fr;gap:14px}.compare-mini>div{padding:18px;border:1px solid var(--line);border-radius:8px;background:#fbfcfe}
+.flag-label{display:inline-block;padding:4px 8px;border-radius:4px;font-size:10px;font-weight:800;letter-spacing:.08em;margin-bottom:9px}.flag-label.usa{background:#e6f2ff;color:#075b9a}.flag-label.india{background:#fff0e4;color:#a64b08}
+.compare-mini strong{display:block;font-size:16px}.compare-mini p{font-size:12px;color:#526277;margin-bottom:0}
+.process-flow{display:flex;flex-direction:column;align-items:stretch;max-width:850px;margin:16px auto}
+.flow-node{padding:14px 18px;border-radius:9px;border:1px solid #d7e3f0;border-left:5px solid #0878c9;background:#f5f9fd;display:flex;flex-direction:column;gap:4px}
+.flow-node b{font-size:14px;color:#163c65}.flow-node span{font-size:12px;color:#526277;line-height:1.5}
+.flow-arrow{text-align:center;font-size:23px;font-weight:800;color:#0878c9;line-height:1.3}
+.n-blue{border-left-color:#0878c9;background:#eff7ff}.n-purple{border-left-color:#8063c9;background:#f6f2ff}.n-violet{border-left-color:#a15ab6;background:#fbf3ff}.n-orange{border-left-color:#df8135;background:#fff7ef}.n-green{border-left-color:#16865b;background:#effaf5}.n-dark{border-left-color:#243b53;background:#f0f3f7}
+.compact{max-width:100%}.branch-two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.timeline{display:flex;flex-direction:column;gap:0}.timeline article{display:grid;grid-template-columns:48px minmax(0,1fr);gap:14px;padding:15px 0;border-bottom:1px solid var(--line)}
+.time-badge{width:38px;height:38px;border-radius:50%;background:#0878c9;color:white;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800}
+.timeline h4{margin:0 0 5px;font-size:15px}.timeline p{margin:0 0 8px;font-size:12px;color:#526277}
+.tag{display:inline-block;background:#eaf3fb;color:#075b9a;border-radius:4px;padding:3px 7px;font-size:10px;font-weight:700}
+.calendar-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.calendar-grid>div{padding:13px;border-radius:8px;background:#f4f8fc;border:1px solid #dbe5ef}.calendar-grid b,.calendar-grid strong{display:block}.calendar-grid b{font-size:10px;color:#0878c9;text-transform:uppercase}.calendar-grid strong{font-size:14px;margin:5px 0}.calendar-grid p{font-size:11px;color:#526277;margin:0}
+.grid-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.grid-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.mini-card{padding:15px;border:1px solid var(--line);border-radius:8px;background:#fff}.mini-card b{display:block;font-size:14px;margin-bottom:5px}.mini-card p{font-size:12px;color:#526277;margin:0}
+.two-column{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.callout{padding:16px;border-radius:8px;border:1px solid #dce5ef;background:#f7faff}.callout>b{font-size:14px}.callout p{font-size:12px;color:#526277;margin:7px 0}
+.callout.blue{border-left:4px solid #0878c9}.callout.purple{border-left:4px solid #8063c9}.callout.green{border-left:4px solid #16865b}
+.formula{font-family:ui-monospace,monospace;font-size:18px;font-weight:800;text-align:center;padding:18px;background:#eef6ff;border:1px dashed #83b8e2;border-radius:8px;color:#164d7a;margin:14px 0}
+.num{text-align:center;font-variant-numeric:tabular-nums}.table{font-size:12px}.table th:first-child,.table td:first-child{min-width:unset}
+.table td{vertical-align:top}.table tr td:nth-child(2){min-width:130px}
+.table.sortable tbody tr:hover{background:#eef6ff}
+.chamber{border-top:5px solid #0878c9}.chamber.senate{border-top-color:#8063c9}.chamber-number{font-size:38px;font-weight:800;color:#0878c9}.senate .chamber-number{color:#8063c9}
+.party-card{min-height:190px}.party-card.dem{border-top:5px solid #1976c8}.party-card.rep{border-top:5px solid #c84b4b}
+.example-bars{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:18px 0}.bar-track{height:14px;background:#e9eef4;border-radius:20px;overflow:hidden;margin:7px 0}.bar-track i{display:block;height:100%;border-radius:20px}
+.chip-list{display:flex;flex-wrap:wrap;gap:7px}.state-chip,.ut-chip{display:inline-block;padding:6px 10px;border-radius:5px;background:#eaf3fb;color:#164d7a;font-size:11px;font-weight:650}.ut-chip{background:#f3effb;color:#6848a3}
+.glossary-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 22px}.glossary-list>div{padding:12px 0;border-bottom:1px solid var(--line)}.glossary-list b{color:#164d7a}.glossary-list p{font-size:12px;color:#526277;margin:4px 0 0}
+details{border-bottom:1px solid var(--line);padding:12px 0}details summary{font-weight:650;cursor:pointer;color:#173b64}details p{font-size:12px;color:#526277;margin:8px 0 0}
+.source-list li{margin:12px 0}.source-list a{font-weight:700}.source-list span{display:block;color:#617087;font-size:11px}
+.muted{color:var(--muted);font-size:12px}.numbered li{padding:4px 0;font-size:13px}
+.search-result-item{border-left:4px solid var(--accent)}.search-result-item mark{background:#fff0a6;color:#172033}
+.page{scroll-margin-top:15px}
+@media(max-width:1000px){.stats-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.calendar-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:768px){.gov-branches,.level-grid,.grid-2,.grid-3,.two-column,.compare-mini,.branch-two,.glossary-list{grid-template-columns:1fr}.stats-grid,.stats-grid.three{grid-template-columns:repeat(2,minmax(0,1fr))}.calendar-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero h2{font-size:24px}.body-search{padding:0 20px}.content-wrapper{padding:20px}.table{display:block;max-width:100%;overflow-x:auto}.example-bars{grid-template-columns:1fr}}
+@media(max-width:480px){.stats-grid,.stats-grid.three{grid-template-columns:1fr 1fr}.stat-value{font-size:25px}.calendar-grid{grid-template-columns:1fr 1fr}.timeline article{grid-template-columns:38px minmax(0,1fr);gap:10px}.time-badge{width:32px;height:32px}}
+
+/* Responsive navigation and search fixes */
+.mobile-sidebar-toggle{display:none;align-items:center;gap:8px;min-height:38px;padding:8px 12px;margin:0 0 10px;border:1px solid #cbd5e1;border-radius:6px;background:#fff;color:#17324f;font:600 13px/1.2 inherit;cursor:pointer;box-shadow:0 1px 2px rgba(15,35,60,.06)}
+.mobile-sidebar-toggle:hover,.mobile-sidebar-toggle:focus-visible{background:#eef6ff;border-color:#0878c9;outline:2px solid #0878c933;outline-offset:1px}
+.main,.body-search,.content-wrapper{min-width:0;max-width:100%}
+.body-search{box-sizing:border-box;width:100%;}
+.body-search .search-box{min-width:0;width:100%;}
+.body-search .search-input{display:block;min-width:0;max-width:100%;box-sizing:border-box;width:100%;line-height:1.4;}
+.search-hint{line-height:1.45;overflow-wrap:anywhere}
+@media(max-width:768px){
+  html,body{max-width:100%;overflow-x:hidden}
+  .container{width:100%;min-width:0;}
+  .main{width:100%;margin-left:0;overflow-x:hidden;}
+  .body-search{padding:0 16px;margin:14px 0 0;}
+  .mobile-sidebar-toggle{display:inline-flex;}
+  .sidebar{position:fixed;top:0;bottom:0;left:0;width:min(290px,86vw);height:100dvh;max-height:100vh;overflow-y:auto;z-index:2000;transform:translateX(-105%);visibility:hidden;transition:transform .22s ease,visibility .22s ease;box-shadow:8px 0 24px rgba(0,0,0,.22);}
+  .sidebar.mobile-open{transform:translateX(0);visibility:visible;}
+  .content-wrapper{padding:18px 16px;}
+  .body-search .search-input{font-size:14px;padding:11px 12px;}
+  .stats-grid,.stats-grid.three{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .table{display:block;max-width:100%;overflow-x:auto;}
+}
+@media(max-width:380px){
+  .body-search{padding-left:12px;padding-right:12px;}
+  .content-wrapper{padding-left:12px;padding-right:12px;}
+  .stats-grid,.stats-grid.three{grid-template-columns:1fr 1fr;gap:8px;}
+  .stat-card{padding:12px;min-width:0;}
+  .stat-value{font-size:24px;}
+}
+@media(prefers-reduced-motion:reduce){.sidebar{transition:none!important}.page.active{animation:none!important}}
+
+
+
+/* Final responsive polish: keep every process direction visible at tablet/mobile widths. */
+.body-search{display:block;min-width:0;width:100%;padding:0 16px;margin:14px 0 0;}
+.body-search .search-box{display:block;width:100%;min-width:0;padding:0;border:0;background:transparent;}
+.body-search .search-input{width:100%;min-width:0;max-width:100%;height:auto;min-height:42px;padding:11px 14px;font-size:14px;line-height:1.4;border:1px solid #d5dfeb;border-radius:8px;background:#fff;color:#172033;}
+.body-search .search-input::placeholder{color:#718096;opacity:1;}
+.mobile-sidebar-toggle{font-family:inherit;}
+
+/* The dashboard is a sequential process: use vertical connectors when it stacks. */
+@media(max-width:1160px){
+  .dashboard-flow-grid{grid-template-columns:minmax(0,1fr);gap:4px;}
+  .dashboard-arrow{display:flex;min-height:22px;transform:rotate(90deg);font-size:22px;line-height:1;}
+}
+@media(max-width:768px){
+  .body-search{padding:0 16px;}
+  .body-search .search-box{padding:0;}
+  .body-search .search-input{font-size:14px;}
+  .dashboard-flow-grid{grid-template-columns:minmax(0,1fr);}
+  .dashboard-arrow{display:flex;min-height:22px;transform:rotate(90deg);}
+}
+
+/* Overview lanes: never hide connectors when a horizontal row becomes a vertical stack. */
+@media(max-width:1250px){
+  .overview-flow{grid-template-columns:minmax(0,1fr);gap:4px;}
+  .overview-flow-arrow{display:flex;min-height:22px;transform:rotate(90deg);font-size:22px;line-height:1;}
+}
+@media(max-width:650px){
+  .overview-flow{grid-template-columns:minmax(0,1fr);gap:4px;}
+  .overview-flow-arrow{display:flex;min-height:22px;transform:rotate(90deg);}
+}
+
+/* Clearly mark the two parallel outcomes in a contingent Electoral College election. */
+.branch-two{position:relative;gap:16px;padding-top:12px;}
+.branch-two:before{content:'TWO SEPARATE, PARALLEL VOTES';display:block;grid-column:1/-1;text-align:center;color:#617087;font-size:10px;font-weight:800;letter-spacing:.08em;padding:0 0 3px;}
+.branch-two .flow-node{position:relative;}
+.branch-two .flow-node:before{content:'↓';position:absolute;top:-25px;left:50%;transform:translateX(-50%);font-size:19px;font-weight:800;color:#0878c9;line-height:1;}
+@media(max-width:768px){.branch-two{grid-template-columns:minmax(0,1fr);gap:16px}.branch-two:before{grid-column:1}.branch-two .flow-node:before{top:-23px}}
+
+/* Prevent narrow screens from squeezing diagram labels or creating horizontal page overflow. */
+.process-flow,.flow-node,.gov-architecture,.gov-branches,.gov-branch,.card,.hero{min-width:0;max-width:100%;}
+.flow-node b,.flow-node span,.gov-branch strong,.gov-branch span{overflow-wrap:anywhere;}
+@media(max-width:520px){
+  .content-wrapper{padding-left:12px;padding-right:12px;}
+  .card{padding:16px;}
+  .hero{padding:22px 18px;}
+  .process-flow{width:100%;}
+}
+
+
+/* Expanded presidential history and India–US relationship section */
+#presidential-record-review .table th:nth-child(3),#presidential-record-review .table th:nth-child(4){min-width:300px}
+#presidential-record-review .table td:nth-child(3),#presidential-record-review .table td:nth-child(4){min-width:300px;white-space:normal;line-height:1.5}
+#india-relations .card[style*="border-left"]{background:var(--surface, #fff)}
+#india-relations .card h4{margin-top:0}
+#india-relations .table td{white-space:normal;line-height:1.5}
+@media(max-width:700px){#presidential-record-review .table th:nth-child(3),#presidential-record-review .table th:nth-child(4),#presidential-record-review .table td:nth-child(3),#presidential-record-review .table td:nth-child(4){min-width:260px}}
+
+/* Population chapter: responsive and searchable demographic table */
+#population .table-tools{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin:12px 0}
+#populationFilter{width:min(360px,100%);max-width:100%;padding:10px 12px;border:1px solid var(--border,#d8dee8);border-radius:8px;font:inherit;background:var(--surface,#fff);color:var(--ink,#172033);box-sizing:border-box}
+#population .table{min-width:900px}#population .table th[role=button]{cursor:pointer;user-select:none}#population .table th[role=button]:after{content:' ⇅';opacity:.55;font-size:.85em}
+#population .table td:not(:first-child){font-variant-numeric:tabular-nums;white-space:nowrap}
+#population .mini-card{padding:16px;border:1px solid var(--border,#d8dee8);border-radius:10px;background:var(--surface,#fff);display:flex;flex-direction:column;gap:6px}
+#population .mini-card strong{font-size:1.35rem;color:var(--primary,#2463a6)}#population .mini-card span{font-size:.9rem}
+@media(max-width:700px){#population .table-tools{align-items:stretch}#populationFilter{width:100%}}
+
+/* Population overview: independent responsive grid (never reuse workflow connector grid). */
+.population-glance-grid{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:12px;
+  align-items:stretch;
+  width:100%;
+  min-width:0;
+  margin:14px 0 16px;
+}
+.population-glance-grid > .mini-card{
+  min-width:0;
+  width:auto;
+  max-width:100%;
+  box-sizing:border-box;
+  overflow-wrap:anywhere;
+  word-break:normal;
+}
+.population-glance-grid > .mini-card strong{
+  display:block;
+  color:#2463a6;
+  font-size:clamp(20px,2vw,27px);
+  line-height:1.25;
+  font-weight:800;
+  overflow-wrap:anywhere;
+  margin:0 0 8px;
+}
+.population-glance-grid > .mini-card span{
+  display:block;
+  font-size:12px;
+  line-height:1.5;
+  overflow-wrap:anywhere;
+}
+#population .card{min-width:0;max-width:100%;box-sizing:border-box;}
+#population .table-tools{display:flex;align-items:center;gap:12px;flex-wrap:wrap;min-width:0;margin:12px 0;}
+#populationFilter{width:min(100%,360px);max-width:100%;min-width:0;box-sizing:border-box;}
+#populationTable{width:100%;min-width:850px;border-collapse:collapse;}
+#population .table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;}
+#population .table th,#population .table td{white-space:nowrap;}
+#population .source-note{overflow-wrap:anywhere;line-height:1.55;}
+/* General layout safety: prevent grid/flex children from forcing page overflow. */
+.card,.hero,.content-wrapper,.page,.dashboard-flow-card,.dashboard-flow-grid,
+.dashboard-cards,.stats-grid,.grid-2,.grid-3,.two-column,.compare-mini,
+.gov-branches,.level-grid,.calendar-grid,.timeline,.resource-links-grid{
+  min-width:0;
+  max-width:100%;
+  box-sizing:border-box;
+}
+.card img,.hero img,.page img{max-width:100%;height:auto;}
+@media(max-width:1000px){
+  .population-glance-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+}
+@media(max-width:600px){
+  .population-glance-grid{grid-template-columns:1fr;gap:10px;}
+  #population .card{padding:16px;}
+  #population .table-tools{align-items:stretch;flex-direction:column;}
+  #populationFilter{width:100%;}
+}
+
+
+/* Indian-numbering quick-read equivalents for large population figures. */
+.indian-equivalent{
+  display:inline-block;
+  color:#65758b;
+  font-size:.88em;
+  font-weight:500;
+  white-space:nowrap;
+  margin-left:2px;
+}
+.population-glance-grid .indian-equivalent{
+  display:block;
+  margin:3px 0 0;
+  font-size:.78em;
+  line-height:1.25;
+  font-weight:600;
+}
+#populationTable td .indian-equivalent{font-size:.82em;}
+
+
+/* Population table sizing fix: scroll the wrapper, not the table element. */
+#population .population-table-wrap{
+  display:block;
+  width:100%;
+  max-width:100%;
+  min-width:0;
+  overflow-x:auto;
+  overflow-y:hidden;
+  -webkit-overflow-scrolling:touch;
+  border:1px solid #d8e1ec;
+  border-radius:8px;
+  background:#fff;
+}
+#population .population-table-wrap > table#populationTable{
+  display:table !important;
+  width:100% !important;
+  min-width:1180px !important;
+  max-width:none !important;
+  table-layout:auto;
+  border-collapse:collapse;
+  margin:0;
+}
+#population .population-table-wrap #populationTable th,
+#population .population-table-wrap #populationTable td{
+  white-space:nowrap;
+  padding:10px 12px;
+  vertical-align:middle;
+}
+#population .population-table-wrap #populationTable th{
+  position:sticky;
+  top:0;
+  z-index:1;
+}
+#population .population-table-wrap #populationTable td:first-child,
+#population .population-table-wrap #populationTable th:first-child{
+  position:sticky;
+  left:0;
+  z-index:2;
+  background:#f8fafc;
+}
+#population .population-table-wrap #populationTable thead th:first-child{z-index:3;}
+#population .population-table-wrap #populationTable td .indian-equivalent{
+  white-space:nowrap;
+}
+@media(min-width:1200px){
+  #population .population-table-wrap > table#populationTable{min-width:100% !important;}
+}
+@media(max-width:700px){
+  #population .population-table-wrap > table#populationTable{min-width:1120px !important;}
+}
+
+
+/* Government structure diagram: explicit connectors, not text-glyph arrows. */
+.gov-architecture{width:100%;min-width:0;overflow:hidden;}
+.gov-top{position:relative;z-index:1;min-height:58px;align-items:center;box-sizing:border-box;}
+.gov-split-connector{
+  position:relative;
+  height:58px;
+  display:flex;
+  align-items:flex-start;
+  justify-content:center;
+  min-width:0;
+}
+.gov-split-connector:before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:50%;
+  height:18px;
+  border-left:2px solid #1682c5;
+  transform:translateX(-1px);
+}
+.gov-split-connector:after{
+  content:"";
+  position:absolute;
+  left:16.666%;
+  right:16.666%;
+  top:18px;
+  border-top:2px solid #1682c5;
+}
+.gov-split-connector span{
+  position:relative;
+  z-index:1;
+  margin-top:22px;
+  padding:0 12px;
+  background:#f5f8fc;
+  color:#0878c9;
+  font-size:13px;
+  line-height:1.35;
+  font-weight:800;
+  text-align:center;
+}
+.gov-branches{position:relative;gap:12px;align-items:stretch;}
+.gov-branch{position:relative;min-width:0;box-sizing:border-box;}
+.gov-branch:before{
+  content:"";
+  position:absolute;
+  left:50%;
+  top:-22px;
+  height:17px;
+  border-left:2px solid #1682c5;
+  transform:translateX(-1px);
+}
+.gov-branch:after{
+  content:"";
+  position:absolute;
+  left:calc(50% - 5px);
+  top:-7px;
+  width:7px;
+  height:7px;
+  border-right:2px solid #1682c5;
+  border-bottom:2px solid #1682c5;
+  transform:rotate(45deg);
+}
+.gov-federalism-connector{
+  position:relative;
+  min-height:62px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:8px 12px;
+  box-sizing:border-box;
+}
+.gov-federalism-connector:before{
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:50%;
+  border-left:2px dashed #5b91bd;
+  transform:translateX(-1px);
+}
+.gov-federalism-connector span{
+  position:relative;
+  z-index:1;
+  max-width:760px;
+  padding:5px 14px;
+  border:1px solid #c8dced;
+  border-radius:20px;
+  background:#f5f8fc;
+  color:#0878c9;
+  font-size:13px;
+  font-weight:800;
+  line-height:1.4;
+}
+.gov-states{position:relative;z-index:1;box-sizing:border-box;}
+@media(max-width:700px){
+  .gov-split-connector{height:48px;}
+  .gov-split-connector:after{display:none;}
+  .gov-branches{grid-template-columns:minmax(0,1fr) !important;gap:14px;}
+  .gov-branch:before{top:-15px;height:12px;}
+  .gov-branch:after{top:-9px;transform:rotate(45deg);}
+  .gov-federalism-connector{min-height:76px;}
+  .gov-top{flex-direction:column;gap:5px;}
+}
+@media(min-width:701px) and (max-width:980px){
+  .gov-branches{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;}
+  .gov-branch{padding:14px 8px;}
+}
+
+/* Mermaid-inspired government flowchart: fixed geometry, SVG connectors, responsive scaling. */
+.gov-architecture{padding:14px;background:#f5f8fc;border:1px solid #d9e4ef;border-radius:12px;overflow:hidden;text-align:left;}
+.us-gov-mermaid{width:100%;max-width:100%;min-width:0;}
+.us-gov-flow-svg{display:block;width:100%;height:auto;max-width:100%;overflow:visible;}
+.us-gov-flow-svg .mf-line{fill:none;stroke:#647f9b;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;}
+.us-gov-flow-svg .mf-constitution{fill:#173b64;stroke:#173b64;stroke-width:1.5;}
+.us-gov-flow-svg .mf-white{fill:#fff;}
+.us-gov-flow-svg .mf-title{font-size:19px;font-weight:800;letter-spacing:.3px;}
+.us-gov-flow-svg .mf-sub{font-size:14px;fill:#53677d;}
+.us-gov-flow-svg .mf-white.mf-sub{fill:#dce9f6;}
+.us-gov-flow-svg .mf-label{font-size:14px;font-weight:800;fill:#0878c9;letter-spacing:.35px;}
+.us-gov-flow-svg .mf-node{fill:#fff;stroke:#d5e0eb;stroke-width:1.5;}
+.us-gov-flow-svg .mf-exec{stroke:#18865d;stroke-width:3;}
+.us-gov-flow-svg .mf-leg{stroke:#0878c9;stroke-width:3;}
+.us-gov-flow-svg .mf-jud{stroke:#8063c9;stroke-width:3;}
+.us-gov-flow-svg .mf-kicker{font-size:12px;font-weight:800;letter-spacing:1px;fill:#60758b;}
+.us-gov-flow-svg .mf-node-title{font-size:21px;font-weight:800;fill:#172b45;}
+.us-gov-flow-svg .mf-node-sub{font-size:14px;fill:#526277;}
+.us-gov-flow-svg .mf-federalism{fill:#edf5fc;stroke:#bcd7ee;stroke-width:1.5;}
+.us-gov-flow-svg .mf-states{fill:#e5f1fb;stroke:#bcd7ee;stroke-width:1.5;}
+.mf-note{margin:10px 4px 0;color:#526277;font-size:12px;line-height:1.5;text-align:center;}
+@media(max-width:720px){
+  .gov-architecture{padding:8px;}
+  .us-gov-flow-svg{min-width:720px;width:720px;max-width:none;}
+  .us-gov-mermaid{overflow-x:auto;overflow-y:hidden;padding-bottom:8px;-webkit-overflow-scrolling:touch;}
+  .mf-note{text-align:left;}
+}
+
+/* Final flowchart geometry: separated labels, clean branch connectors, consistent scale. */
+.gov-architecture{
+  width:100%;max-width:100%;min-width:0;box-sizing:border-box;
+  padding:16px;background:#f5f8fc;border:1px solid #d9e4ef;
+  border-radius:12px;overflow:hidden;text-align:left;
+}
+.us-gov-mermaid{display:block;width:100%;max-width:100%;min-width:0;overflow:hidden;}
+.us-gov-flow-svg{display:block;width:100%;height:auto;max-width:100%;overflow:visible;}
+.us-gov-flow-svg .mf-line{fill:none;stroke:#647f9b;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;}
+.us-gov-flow-svg .mf-constitution{fill:#173b64;stroke:#173b64;stroke-width:1.5;}
+.us-gov-flow-svg .mf-white{fill:#fff;}
+.us-gov-flow-svg .mf-title{font-size:21px;font-weight:800;letter-spacing:.25px;}
+.us-gov-flow-svg .mf-sub{font-size:16px;fill:#53677d;}
+.us-gov-flow-svg .mf-white.mf-sub{fill:#dce9f6;}
+.us-gov-flow-svg .mf-label-bg{fill:#f5f8fc;stroke:#c8dced;stroke-width:1.2;}
+.us-gov-flow-svg .mf-label{font-size:14px;font-weight:800;fill:#0878c9;letter-spacing:.25px;}
+.us-gov-flow-svg .mf-node{fill:#fff;stroke:#d5e0eb;stroke-width:1.5;}
+.us-gov-flow-svg .mf-exec{stroke:#18865d;stroke-width:3.5;}
+.us-gov-flow-svg .mf-leg{stroke:#0878c9;stroke-width:3.5;}
+.us-gov-flow-svg .mf-jud{stroke:#8063c9;stroke-width:3.5;}
+.us-gov-flow-svg .mf-kicker{font-size:13px;font-weight:800;letter-spacing:1px;fill:#60758b;}
+.us-gov-flow-svg .mf-node-title{font-size:23px;font-weight:800;fill:#172b45;}
+.us-gov-flow-svg .mf-node-sub{font-size:16px;fill:#526277;}
+.us-gov-flow-svg .mf-federalism{fill:#edf5fc;stroke:#bcd7ee;stroke-width:1.7;}
+.us-gov-flow-svg .mf-states{fill:#e5f1fb;stroke:#bcd7ee;stroke-width:1.7;}
+.mf-note{margin:12px 4px 0;color:#526277;font-size:12px;line-height:1.5;text-align:center;}
+@media(max-width:760px){
+ .gov-architecture{padding:8px;}
+ .us-gov-mermaid{overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;padding-bottom:8px;}
+ .us-gov-flow-svg{width:900px;max-width:none;}
+ .mf-note{text-align:left;}
+}
+
+/* Each branch receives its own SVG arrow marker; no shared-path marker ambiguity. */
+.us-gov-flow-svg .mf-branch-arrow{
+  fill:none;
+  stroke:#647f9b;
+  stroke-width:2.5;
+  stroke-linecap:round;
+  marker-end:url(#govArrowBlue);
+}
+
+/* Overview: make summary tiles and topic cards visibly navigable. */
+#dashboard .stat-card-link{display:block;min-width:0;text-decoration:none;color:inherit;border-radius:10px;}
+#dashboard .stat-card-link .stat-card{height:100%;box-sizing:border-box;transition:transform .16s ease,box-shadow .16s ease,border-color .16s ease;}
+#dashboard .stat-card-link:hover .stat-card,
+#dashboard .stat-card-link:focus-visible .stat-card{transform:translateY(-2px);box-shadow:0 5px 16px rgba(25,60,95,.13);outline:2px solid #2684c7;outline-offset:2px;}
+#dashboard .overview-click-card{cursor:pointer;transition:box-shadow .16s ease,border-color .16s ease,transform .16s ease;}
+#dashboard .overview-click-card:hover,
+#dashboard .overview-click-card:focus-visible{outline:2px solid #2684c7;outline-offset:2px;box-shadow:0 5px 16px rgba(25,60,95,.10);transform:translateY(-1px);}
+#dashboard .toc-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;}
+#dashboard .toc-section-link{display:flex;align-items:center;min-height:48px;padding:11px 13px;border:1px solid #d8e3ef;border-radius:9px;background:#fff;color:#174c7b;text-decoration:none;font-weight:650;line-height:1.35;transition:background .15s ease,border-color .15s ease,transform .15s ease;}
+#dashboard .toc-section-link:after{content:"↗";margin-left:auto;padding-left:8px;color:#2684c7;font-weight:800;}
+#dashboard .toc-section-link:hover,#dashboard .toc-section-link:focus-visible{background:#f0f7fd;border-color:#8bb9dd;transform:translateY(-1px);outline:2px solid #2684c7;outline-offset:1px;}
+@media(max-width:850px){#dashboard .toc-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media(max-width:560px){#dashboard .toc-grid{grid-template-columns:1fr;}}
+
+/* Unified Mermaid-inspired diagram system used throughout the reference. */
+.mermaid-diagram{display:block;width:100%;max-width:100%;min-width:0;overflow-x:auto;overflow-y:hidden;border:1px solid #d9e4ef;border-radius:12px;background:#f5f8fc;padding:12px;box-sizing:border-box;-webkit-overflow-scrolling:touch;}
+.mermaid-svg{display:block;width:100%;height:auto;max-width:100%;overflow:visible;}
+.mermaid-svg .md-line{fill:none;stroke:#647f9b;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;}
+
+.mermaid-svg .md-node{fill:#fff;stroke-width:1.8;}
+.mermaid-svg .md-title{font-size:19px;font-weight:800;fill:#172b45;}
+.mermaid-svg .md-desc{font-size:15px;fill:#526277;}
+.mermaid-svg .md-title-left{font-size:19px;font-weight:800;fill:#172b45;}
+.mermaid-svg .md-desc-left{font-size:14px;fill:#526277;}
+.mermaid-svg .md-kicker{font-size:12px;font-weight:800;letter-spacing:.7px;fill:#60758b;}
+.mermaid-svg .md-tag{font-size:13px;font-weight:700;fill:#0878c9;}
+.mermaid-svg .md-label{font-size:14px;font-weight:800;letter-spacing:.3px;fill:#0878c9;text-anchor:middle;}
+.mermaid-svg .md-label-bg{fill:#edf5fc;stroke:#c8dced;stroke-width:1.4;}
+.mermaid-svg .md-constitution{fill:#173b64;stroke:#173b64;}
+.mermaid-svg .md-white-title{font-size:21px;font-weight:800;fill:#fff;text-anchor:middle;}
+.mermaid-svg .md-white-sub{font-size:15px;fill:#dce9f6;text-anchor:middle;}
+.mermaid-svg .md-step-circle{fill:#173b64;stroke:#fff;stroke-width:3;}
+.mermaid-svg .md-step-no{font-size:15px;font-weight:800;fill:#fff;}
+.mermaid-svg .md-gov-card{fill:#fff;stroke-width:3;}
+.mermaid-svg .md-green{stroke:#18865d;}
+.mermaid-svg .md-blue{stroke:#0878c9;}
+.mermaid-svg .md-purple{stroke:#8063c9;}
+.mermaid-svg .md-federalism{fill:#edf5fc;stroke:#bcd7ee;stroke-width:1.6;}
+.mermaid-svg .md-states{fill:#e5f1fb;stroke:#bcd7ee;stroke-width:1.6;}
+@media(max-width:760px){
+ .mermaid-diagram{padding:8px;}
+ .mermaid-svg{width:900px;max-width:none;}
+}
+
+/* Standard visual scale for all diagrams: centered, readable and not oversized. */
+.mermaid-diagram{
+  width:100%;
+  max-width:880px;
+  margin:18px auto;
+  padding:10px;
+  border-radius:10px;
+  background:#f7f9fc;
+  box-sizing:border-box;
+  overflow-x:auto;
+  overflow-y:hidden;
+}
+.mermaid-svg{
+  display:block;
+  width:100%;
+  max-width:100%;
+  height:auto;
+  margin:0 auto;
+}
+@media(max-width:760px){
+  .mermaid-diagram{max-width:100%;padding:8px;margin:14px auto;}
+  .mermaid-svg{width:100%;max-width:100%;}
+}
+
+.mermaid-svg .md-title-left{font-size:16px;font-weight:750;fill:#172b45;}
+.mermaid-svg .md-desc-left{font-size:12.5px;fill:#526277;}
+.mermaid-svg .md-tag{font-size:11px;font-weight:700;fill:#0878c9;}
+.mermaid-svg .md-step-no{font-size:12px;font-weight:800;fill:#fff;}
+@media(max-width:760px){
+  /* Keep the standard diagram width on mobile; scroll only if the actual diagram needs it. */
+  .mermaid-diagram .mermaid-svg{min-width:680px;width:680px;max-width:none;}
+}
+
+/* Final diagram balance: full-width panel, medium-sized centred diagram content. */
+.mermaid-diagram{
+  display:block;
+  width:100%;
+  max-width:none;
+  margin:18px 0;
+  padding:16px 20px;
+  border:1px solid #d9e4ef;
+  border-radius:10px;
+  background:#f7f9fc;
+  box-sizing:border-box;
+  overflow-x:auto;
+  overflow-y:hidden;
+}
+.mermaid-diagram .mermaid-svg{
+  display:block;
+  width:100%;
+  max-width:1120px;
+  height:auto;
+  margin:0 auto;
+}
+@media(max-width:760px){
+  .mermaid-diagram{width:100%;padding:10px 8px;margin:14px 0;}
+  .mermaid-diagram .mermaid-svg{
+    width:100%;
+    max-width:100%;
+    min-width:680px;
+    margin:0;
+  }
+}
+
+/* Universal table controls: consistent search, row counts and sortable headers. */
+.table-enhance-toolbar{
+  display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  width:100%;min-width:0;box-sizing:border-box;margin:10px 0 8px;
+}
+.table-enhance-search{
+  flex:1 1 260px;max-width:380px;min-width:160px;
+  padding:9px 12px;border:1px solid #cfdbea;border-radius:8px;
+  background:#fff;color:#17324f;font:inherit;font-size:13px;box-sizing:border-box;
+}
+.table-enhance-count{font-size:12px;color:#64758b;white-space:nowrap;}
+.table-enhance-clear{
+  border:1px solid #d3deea;border-radius:7px;background:#fff;
+  color:#315b80;padding:8px 12px;font:inherit;font-size:12px;cursor:pointer;
+}
+.table-enhance-clear:hover{background:#eef5fb;border-color:#9dbbd6;}
+table[data-enhanced-table="true"] thead th.table-sort-header{
+  cursor:pointer;user-select:none;white-space:nowrap;position:relative;
+}
+table[data-enhanced-table="true"] thead th.table-sort-header:after{
+  content:"↕";display:inline-block;margin-left:6px;color:#8b9bad;font-size:10px;
+}
+table[data-enhanced-table="true"] thead th.table-sort-header.sort-ascending:after{content:"↑";color:#0878c9;}
+table[data-enhanced-table="true"] thead th.table-sort-header.sort-descending:after{content:"↓";color:#0878c9;}
+table[data-enhanced-table="true"] thead th.table-sort-header:focus-visible{
+  outline:2px solid #2684c7;outline-offset:2px;border-radius:3px;
+}
+table[data-enhanced-table="true"] tbody tr[hidden]{display:none !important;}
+@media(max-width:600px){
+  .table-enhance-toolbar{gap:7px;}
+  .table-enhance-search{flex-basis:100%;max-width:none;width:100%;}
+  .table-enhance-count{flex:1;}
+}
+
+/* Federal structure: explicit checks-and-balances and federalism relationships. */
+.mermaid-diagram:has(svg[viewBox="0 0 1200 755"]){overflow-x:auto;overflow-y:hidden;}
+.mermaid-svg[viewBox="0 0 1200 755"]{width:100%;max-width:1120px;height:auto;}
+
+/* Parallel constitutional principles diagram: no causal arrow between the principles. */
+.mermaid-svg[viewBox="0 0 1200 765"]{width:100%;max-width:1120px;height:auto;margin:0 auto;display:block;}
+@media(max-width:760px){
+ .mermaid-diagram:has(svg[viewBox="0 0 1200 765"]){overflow-x:auto;}
+ .mermaid-svg[viewBox="0 0 1200 765"]{width:900px;max-width:none;}
+}
+
+/* Powers & authority chapter */
+#powers .hero{margin-bottom:16px;}
+#powers .powers-table-card{margin:16px 0;min-width:0;}
+#powers .table-scroll{width:100%;max-width:100%;overflow-x:auto;}
+#powers table{min-width:1120px;width:100%;table-layout:auto;}
+#powers table th,#powers table td{vertical-align:top;line-height:1.48;white-space:normal;min-width:115px;}
+#powers table th:first-child,#powers table td:first-child{min-width:185px;font-weight:650;}
+#powers table td:nth-child(4),#powers table td:nth-child(5){min-width:300px;}
+#powers .grid-2{margin:16px 0;}
+#powers .card li{margin:6px 0;}
+#powers .powers-table-card h3{margin-bottom:10px;}
+@media(max-width:760px){
+ #powers table{min-width:1050px;}
+ #powers .powers-table-card{padding:12px;}
+}
+
+/* Click-to-open explanations: deliberately scoped to article/body content only. */
+.explain-term{
+  display:inline;
+  color:#075fa8;
+  font:inherit;
+  font-weight:650;
+  text-decoration:underline;
+  text-decoration-style:dotted;
+  text-decoration-color:#7daed2;
+  text-underline-offset:3px;
+  cursor:pointer;
+  border:0;
+  border-radius:3px;
+  background:transparent;
+  padding:0 1px;
+}
+.explain-term:hover,.explain-term:focus-visible{
+  color:#034b86;
+  background:#edf6ff;
+  outline:2px solid #9cc9eb;
+  outline-offset:2px;
+}
+svg text.explain-svg-term{cursor:pointer;fill:#075fa8;text-decoration:underline;text-decoration-style:dotted;text-decoration-color:#7daed2;text-underline-offset:3px;}
+svg text.explain-svg-term:focus{outline:none;filter:drop-shadow(0 0 2px #7db8e5);}
+.explain-popover{
+  position:fixed;z-index:10000;width:min(390px,calc(100vw - 28px));
+  max-height:min(440px,calc(100vh - 28px));overflow:auto;
+  background:#fff;border:1px solid #cfdbe8;border-radius:10px;
+  box-shadow:0 12px 36px rgba(18,38,63,.22);padding:17px 18px 16px;
+  color:#172033;display:none;
+}
+.explain-popover.open{display:block;animation:explainIn .12s ease-out;}
+@keyframes explainIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+.explain-popover h3{font-size:16px;line-height:1.35;margin:0 30px 8px 0;color:#123b63;}
+.explain-popover p{font-size:13px;line-height:1.55;margin:7px 0;color:#405168;}
+.explain-popover .explain-example{background:#f2f7fc;border-left:3px solid #4c91c8;padding:9px 11px;border-radius:0 5px 5px 0;margin-top:10px;}
+.explain-popover .explain-close{
+  position:absolute;right:9px;top:8px;border:0;background:#f1f4f8;color:#44556a;
+  border-radius:6px;width:27px;height:27px;font-size:18px;line-height:1;cursor:pointer;
+}
+.explain-hint{font-size:11px;color:#748399;margin-top:10px;}
+
+
+/* Immigration annual-series section */
+.immigration-overview-card .compare-mini{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:14px 0;}
+.immigration-overview-card .compare-mini>div{background:#f5f8fc;border:1px solid #dbe5ef;border-radius:9px;padding:13px;}
+.immigration-overview-card .compare-mini strong{display:block;color:#173b64;margin-bottom:5px;}
+.immigration-overview-card .compare-mini p{margin:0;font-size:13px;line-height:1.5;}
+.immigration-data-card .source-note{margin-top:10px;}
+@media(max-width:850px){.immigration-overview-card .compare-mini{grid-template-columns:1fr;}}
+
+
+/* Official-source map and separate state index in Overview */
+.us-map-section{margin:22px 0 24px;border:1px solid #d7e1ec;border-radius:14px;background:#fff;padding:18px;box-shadow:0 3px 12px rgba(22,48,78,.045)}
+.us-map-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;margin-bottom:12px}
+.us-map-heading h3{margin:0 0 4px;color:#132c49;font-size:21px}
+.us-map-heading p{margin:0;color:#64778a;font-size:12px;line-height:1.5}
+.us-map-source{font-size:10px;color:#64778a;white-space:nowrap}
+.us-map-frame{background:#f7f9fc;border:1px solid #e1e8f0;border-radius:10px;padding:12px;display:flex;justify-content:center;align-items:center}
+.us-map-frame img{display:block;width:100%;max-width:980px;height:auto;object-fit:contain}
+.us-map-caption{font-size:10px;line-height:1.5;color:#64778a;margin:9px 2px 0}
+.us-state-index{margin-top:18px;border-top:1px solid #e3eaf1;padding-top:15px}
+.us-state-index-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:10px}
+.us-state-index-head h4{margin:0;color:#173653;font-size:15px}
+.us-state-index-head span{font-size:10px;color:#6b7d90}
+.us-state-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:7px}
+.us-state-chip{display:flex;align-items:center;gap:7px;min-width:0;text-align:left;border:1px solid #dce5ee;background:#fbfcfe;border-radius:7px;padding:8px 9px;color:#284763;font-size:11px;cursor:pointer}
+.us-state-chip:hover{border-color:#8bb8e3;background:#f1f7fd}
+.us-state-chip b{font-size:10px;color:#176abe;min-width:22px}
+.us-state-note{font-size:10px;color:#64778a;line-height:1.5;margin:10px 0 0}
+@media(max-width:900px){.us-state-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:620px){.us-map-section{padding:13px}.us-map-heading{display:block}.us-map-source{display:block;margin-top:6px}.us-state-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+
+.us-interactive-map-frame{display:block;min-height:290px}.us-interactive-map{width:100%;max-width:1040px;margin:auto}.us-interactive-map svg{display:block;width:100%;height:auto;max-height:650px}
+.us-interactive-map g[data-state]{cursor:pointer;outline:none}.us-interactive-map g[data-state] path.boundary{stroke:#fff;stroke-width:1.5;stroke-linejoin:round;vector-effect:non-scaling-stroke;transition:filter .12s}
+.us-interactive-map g[data-state]:hover path.boundary,.us-interactive-map g[data-state]:focus path.boundary{filter:brightness(.84);stroke:#173653;stroke-width:2.4}.us-interactive-map g[data-state].selected path.boundary{stroke:#111827;stroke-width:3}
+.us-interactive-map g[data-state] text{pointer-events:none;font-weight:700}.us-map-loading{text-align:center;padding:65px 12px;color:#64778a}
+.us-map-controls{display:flex;flex-wrap:wrap;gap:8px;margin:13px 0 8px}.us-map-mode{border:1px solid #d4dfeb;background:#f8fafc;color:#304b66;border-radius:8px;padding:9px 13px;font-size:12px;font-weight:650;cursor:pointer}.us-map-mode.active{background:#173e65;color:#fff;border-color:#173e65}
+.us-map-legend{font-size:11px;color:#586d82;margin:7px 0 12px}.us-state-detail{border:1px solid #dce5ee;background:#fbfcfe;border-radius:10px;padding:14px;min-height:90px}
+.us-state-detail-head{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:10px}.us-state-detail-head h4{margin:0;color:#173653;font-size:18px}.us-state-detail-head small{color:#61758a;font-size:11px}
+.us-state-detail-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}.us-state-detail-cell{background:white;border:1px solid #e4eaf1;border-radius:7px;padding:9px}.us-state-detail-cell span{display:block;color:#718296;font-size:10px;margin-bottom:4px}.us-state-detail-cell strong{display:block;color:#233f5b;font-size:12px;line-height:1.35}.us-state-detail-cell em{font-style:normal;font-size:10px;color:#687d91}
+@media(max-width:650px){.us-state-detail-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.us-map-mode{flex:1 1 100%}.us-interactive-map-frame{padding:4px}}
+</style><style>
+.india-interactive-map{width:100%;max-width:760px;margin:0 auto 16px;overflow:auto;background:#f9fbfe;border:1px solid #dce6f0;border-radius:10px;padding:8px}.india-interactive-map svg{display:block;width:100%;height:auto;max-height:680px}.india-interactive-map path{stroke:#fff;stroke-width:.7;cursor:pointer;transition:filter .12s,stroke-width .12s}.india-interactive-map path:hover,.india-interactive-map path.selected{stroke:#153b60;stroke-width:2;filter:brightness(.88)}.map-loading{padding:35px;text-align:center;color:#617087;font-size:13px}.india-map-shell{background:#f5f8fc;border:1px solid #d9e4ef;border-radius:12px;padding:16px}.india-map-note{font-size:12px;color:#60758b;font-weight:700;margin-bottom:12px}.india-state-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}.india-state-chip{border:1px solid #b9cde0;background:#fff;color:#174c7b;border-radius:8px;padding:10px 11px;text-align:left;font:inherit;font-size:12px;font-weight:650;cursor:pointer;transition:.15s}.india-state-chip.ut{background:#f4f0ff;border-color:#d1c3ef;color:#60468b}.india-state-chip:hover,.india-state-chip.selected{background:#0878c9;color:#fff;border-color:#0878c9}.india-state-detail{margin-top:14px}.india-state-detail-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}.india-state-detail-cell{background:#fff;border:1px solid #e4eaf1;border-radius:7px;padding:9px}.india-state-detail-cell span{display:block;color:#718296;font-size:10px;margin-bottom:4px}.india-state-detail-cell strong{display:block;color:#233f5b;font-size:12px;line-height:1.35}.india-state-detail-cell em{font-style:normal;font-size:10px;color:#687d91}.source-note{font-size:11px;color:#617087;line-height:1.5;margin-top:10px}.state-chip,.ut-chip{display:inline-block;margin:4px;padding:5px 9px;border-radius:5px;background:#e8f2fc;color:#245a83;font-size:12px}.ut-chip{background:#f1eafa;color:#63458b}.page{scroll-margin-top:20px}.nav-btn{cursor:pointer}.content-wrapper{padding-top:30px}.table td{vertical-align:top}.table td ul{margin:0;padding-left:18px}.table td li{margin:3px 0}@media(max-width:700px){.india-state-detail-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.india-state-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+</style></head><body><div class="container"><aside class="sidebar" id="sidebarNavigation"><div class="brand"><h1>India Politics</h1><p>Election &amp; Government Reference · 1947–2026</p></div><nav class="nav-section"><button class="nav-btn active" data-page="dashboard">Overview</button><div class="nav-group">ELECTION SYSTEM</div><button class="nav-btn " data-page="l1">L1 · Election at a glance</button><button class="nav-btn " data-page="l2">L2 · Full election flow</button><button class="nav-btn " data-page="l3">L3 · Detailed mechanics</button><button class="nav-btn " data-page="map">Lok Sabha constituencies & map</button><button class="nav-btn " data-page="voting">Voting, EVMs, VVPAT & counting</button><div class="nav-group">GOVERNMENT STRUCTURE</div><button class="nav-btn " data-page="federal">Union government</button><button class="nav-btn " data-page="parliament">Parliament · Lok Sabha & Rajya Sabha</button><button class="nav-btn " data-page="states-gov">State & Union Territory government</button><button class="nav-btn " data-page="powers">Powers & constitutional offices</button><button class="nav-btn " data-page="parties">Political parties & coalitions</button><div class="nav-group">HISTORY & PUBLIC RECORD</div><button class="nav-btn " data-page="pm-history">All Prime Ministers · 1947–2026</button><button class="nav-btn " data-page="president-history">All Presidents · 1950–2026</button><button class="nav-btn " data-page="leaders">Key national leaders & institutions</button><button class="nav-btn " data-page="policies">Major policies, reforms & controversies</button><button class="nav-btn " data-page="timeline">National & state election timeline</button><div class="nav-group">PEOPLE & REFERENCE</div><button class="nav-btn " data-page="population">Population, representation & federal map</button><button class="nav-btn " data-page="glossary">Glossary & FAQs</button><button class="nav-btn " data-page="sources">Sources & update notes</button></nav></aside><main class="main"><div class="body-search"><div class="search-box"><input id="search-input" class="search-input" placeholder="Search any topic: Lok Sabha, Article 356, Patel…" autocomplete="off"><div class="search-hint">Central search · Searches every chapter, table, historical record and glossary term.</div></div><div id="search-results" class="search-results"><div class="search-results-header"><h3>Search Results <span id="result-count"></span></h3><button id="closeSearch" type="button">✕</button></div><div id="search-results-list"></div><div id="search-empty" class="search-results-empty">No results found</div></div></div><div class="content-wrapper"><section class="page active" id="dashboard"><div class="hero"><div class="hero-kicker">CIVICS · ELECTIONS · CONSTITUTION</div><h2>How India’s political system works</h2><p>A layered reference to India’s electoral process, Parliament, Union and State governments, constitutional offices, political parties, Prime Ministers, Presidents, major public policies and the country’s federal structure.</p></div><div class="stats-grid"><a class="stat-card-link" href="#" data-open="map"><div class="stat-card blue"><div class="stat-value">28</div><div class="stat-label">States</div><small>India’s federal units</small></div></a><a class="stat-card-link" href="#" data-open="map"><div class="stat-card purple"><div class="stat-value">8</div><div class="stat-label">Union Territories</div><small>Different administrative arrangements</small></div></a><a class="stat-card-link" href="#" data-open="parliament"><div class="stat-card green"><div class="stat-value">543</div><div class="stat-label">Lok Sabha seats</div><small>Directly elected constituencies</small></div></a><a class="stat-card-link" href="#" data-open="parliament"><div class="stat-card orange"><div class="stat-value">245</div><div class="stat-label">Rajya Sabha seats</div><small>233 elected + 12 nominated (sanctioned strength)</small></div></a></div><div class="card"><h3>Explore India’s federal map</h3><p>Open the interactive state and Union Territory explorer to inspect capitals, Chief Ministers / administrators and parliamentary seat representation.</p><a class="toc-section-link" href="#" data-open="map">Open interactive India map →</a></div><div class="card"><h3>Start here · learning path</h3><div class="toc-grid"><a class="toc-section-link" href="#" data-open="l1">L1 · Election at a glance</a><a class="toc-section-link" href="#" data-open="l2">L2 · Full election flow</a><a class="toc-section-link" href="#" data-open="l3">L3 · Detailed mechanics</a><a class="toc-section-link" href="#" data-open="federal">Union government</a><a class="toc-section-link" href="#" data-open="parliament">Parliament</a><a class="toc-section-link" href="#" data-open="pm-history">Prime Ministers</a><a class="toc-section-link" href="#" data-open="states-gov">States & UTs</a><a class="toc-section-link" href="#" data-open="policies">Policies & public record</a></div></div><div class="card"><h3>How to read this reference</h3><p>Facts, official records, political claims and historical interpretations are separated. A government’s stated objective is not automatically proof of its outcome. For every Prime Minister and major policy, the reference records documented initiatives alongside criticisms, legal findings or contested interpretations where relevant.</p><p><b>Political neutrality:</b> no party or leader is assigned an overall score or winner label. Compare evidence, time period, institutional context and measurable outcomes.</p></div></section><section class="page " id="l1"><div class="hero"><div class="hero-kicker">LEVEL 1 · ELECTION AT A GLANCE</div><h2>How a Lok Sabha election works</h2><p>A simple overview before moving into the full election lifecycle.</p></div><div class="card"><h3>The Indian general election in one view</h3><div class="core-flow"><div class="core-flow-step"><div class="core-flow-number">1</div><div><strong>Constituencies and voters</strong><p>India is divided into 543 Lok Sabha constituencies. Eligible citizens aged 18 or above can register and vote, subject to electoral-roll rules.</p></div></div><div class="core-flow-arrow">↓</div><div class="core-flow-step"><div class="core-flow-number">2</div><div><strong>Political parties nominate candidates</strong><p>Parties select candidates internally; independent candidates may also contest. The Election Commission publishes the election schedule and enforces election law and the Model Code of Conduct.</p></div></div><div class="core-flow-arrow">↓</div><div class="core-flow-step"><div class="core-flow-number">3</div><div><strong>Campaign and polling</strong><p>Campaigning is regulated by law and the Model Code. Voters cast one vote for a Lok Sabha candidate in their constituency, normally using an EVM with VVPAT.</p></div></div><div class="core-flow-arrow">↓</div><div class="core-flow-step"><div class="core-flow-number">4</div><div><strong>Counting and results</strong><p>Votes are counted constituency by constituency. The candidate with the highest valid vote total wins that seat (first-past-the-post); a nationwide majority of votes is not required.</p></div></div><div class="core-flow-arrow">↓</div><div class="core-flow-step"><div class="core-flow-number">5</div><div><strong>Government formation</strong><p>The President appoints as Prime Minister the person who can command the confidence of the Lok Sabha. The Council of Ministers is collectively responsible to that House.</p></div></div></div></div><div class="card"><h3>Key distinction</h3><p>Indian voters do <b>not</b> directly elect the Prime Minister. They elect their constituency’s Member of Parliament. The party or coalition able to demonstrate Lok Sabha confidence forms the Union government.</p></div></section><section class="page " id="l2"><div class="hero"><div class="hero-kicker">LEVEL 2 · FULL ELECTION FLOW</div><h2>Detailed Lok Sabha election lifecycle</h2><p>From election notification to government formation, including the actors and legal checkpoints.</p></div><div class="card"><h3>Full Lok Sabha election lifecycle</h3><ol><li><b>Constitutional term:</b> Lok Sabha normally continues for five years from its first meeting unless dissolved earlier. A general election follows dissolution or expiry.</li><li><b>Election schedule:</b> ECI announces phases, nomination dates, scrutiny, withdrawal, polling and counting.</li><li><b>Electoral rolls:</b> voter registration, claims and objections, photo electoral rolls and voter identification arrangements.</li><li><b>Candidate nomination:</b> nomination papers, security deposit, scrutiny, withdrawal and final candidate list.</li><li><b>Campaign period:</b> public meetings, manifestos, media, expenditure monitoring, silence period and MCC compliance.</li><li><b>Polling:</b> polling parties, mock poll, EVM control unit/ballot unit, VVPAT, indelible ink, secrecy and accessibility.</li><li><b>Post-poll custody:</b> strong-room security, candidate/agent access and documented chain of custody.</li><li><b>Counting:</b> EVM counting, postal ballots, round-wise tabulation and VVPAT verification under ECI instructions.</li><li><b>Result declaration:</b> Returning Officer declares constituency result; ECI compiles national outcome.</li><li><b>Government formation:</b> President appoints Prime Minister; confidence of Lok Sabha is the governing test.</li></ol></div><div class="card"><h3>General election vs other elections</h3><table class="table"><thead><tr><th>Election</th><th>Voters / electoral college</th><th>What is elected</th></tr></thead><tbody><tr><td>Lok Sabha</td><td>Eligible voters in parliamentary constituencies</td><td>Members of Parliament</td></tr><tr><td>State Assembly</td><td>Eligible voters in assembly constituencies</td><td>MLAs</td></tr><tr><td>Rajya Sabha</td><td>Elected MLAs, using proportional representation by single transferable vote; nominated seats are appointed</td><td>Members of Council of States</td></tr><tr><td>President</td><td>Electoral college of elected MPs and elected MLAs of States and specified UTs</td><td>President of India</td></tr><tr><td>Vice-President</td><td>Members of both Houses of Parliament, elected and nominated</td><td>Vice-President</td></tr><tr><td>Local bodies</td><td>Voters under State Election Commission rules</td><td>Municipal and Panchayat representatives</td></tr></tbody></table></div></section><section class="page " id="l3"><div class="hero"><div class="hero-kicker">LEVEL 3 · DETAILED MECHANICS</div><h2>How the election machinery actually works</h2><p>The constitutional, statutory, administrative and procedural layers behind Indian elections.</p></div><div class="card"><h3>Detailed mechanics and institutions</h3><h4>Constitutional and statutory framework</h4><ul><li>Constitution: Articles 324–329 (elections), 326 (adult suffrage), 79–122 (Parliament), 52–78 (Union executive), and 168–212 (State legislatures).</li><li>Representation of the People Act, 1950: allocation of seats and electoral rolls.</li><li>Representation of the People Act, 1951: conduct of elections, qualifications, disqualifications, corrupt practices and election disputes.</li><li>Conduct of Elections Rules, 1961: procedural rules including voting and counting.</li><li>Election Symbols (Reservation and Allotment) Order, 1968: party recognition and symbols.</li><li>Model Code of Conduct: ECI’s framework for campaign conduct; it is not itself a standalone Act of Parliament.</li></ul><h4>Who does what?</h4><ul><li><b>Election Commission of India:</b> constitutional superintendence, direction and control over elections to Parliament, State legislatures, President and Vice-President.</li><li><b>Chief Electoral Officer:</b> state-level coordination under ECI.</li><li><b>District Election Officer:</b> district election administration.</li><li><b>Returning Officer:</b> nomination, scrutiny, polling/counting supervision and result declaration for a constituency.</li><li><b>Presiding Officer:</b> manages a polling station.</li><li><b>State Election Commission:</b> conducts Panchayat and Municipal elections under Articles 243K and 243ZA; separate from ECI.</li></ul></div><div class="card"><h3>Counting, verification and disputes</h3><p>Counting is conducted under statutory rules and ECI instructions. Candidates and authorised agents can observe prescribed processes. Election petitions are adjudicated by the High Courts under the Representation of the People Act, 1951, with appeals as provided by law. Do not treat an allegation, a pending petition, a recount request or a statistical claim as a final judicial finding.</p></div></section><section class="page " id="map"><div class="hero"><div class="hero-kicker">GEOGRAPHY · FEDERAL STRUCTURE</div><h2>India’s states, Union Territories & representation</h2><p>Explore each of India’s 28 states and 8 Union Territories, their capitals, elected leadership and representation in Parliament.</p></div><div class="card"><h3>India map & state-by-state explorer</h3><p>Choose a state or Union Territory. The detail panel updates below; the same state index remains available if the visual map is unavailable.</p><div class="india-map-shell"><div class="india-map-note">Interactive state-boundary map · Select a state or UT</div><div id="indiaInteractiveMap" class="india-interactive-map"><div class="map-loading">Loading India state boundaries…</div></div><div class="india-state-grid"><button class="india-state-chip" data-state="Andhra Pradesh">Andhra Pradesh</button><button class="india-state-chip" data-state="Arunachal Pradesh">Arunachal Pradesh</button><button class="india-state-chip" data-state="Assam">Assam</button><button class="india-state-chip" data-state="Bihar">Bihar</button><button class="india-state-chip" data-state="Chhattisgarh">Chhattisgarh</button><button class="india-state-chip" data-state="Goa">Goa</button><button class="india-state-chip" data-state="Gujarat">Gujarat</button><button class="india-state-chip" data-state="Haryana">Haryana</button><button class="india-state-chip" data-state="Himachal Pradesh">Himachal Pradesh</button><button class="india-state-chip" data-state="Jharkhand">Jharkhand</button><button class="india-state-chip" data-state="Karnataka">Karnataka</button><button class="india-state-chip" data-state="Kerala">Kerala</button><button class="india-state-chip" data-state="Madhya Pradesh">Madhya Pradesh</button><button class="india-state-chip" data-state="Maharashtra">Maharashtra</button><button class="india-state-chip" data-state="Manipur">Manipur</button><button class="india-state-chip" data-state="Meghalaya">Meghalaya</button><button class="india-state-chip" data-state="Mizoram">Mizoram</button><button class="india-state-chip" data-state="Nagaland">Nagaland</button><button class="india-state-chip" data-state="Odisha">Odisha</button><button class="india-state-chip" data-state="Punjab">Punjab</button><button class="india-state-chip" data-state="Rajasthan">Rajasthan</button><button class="india-state-chip" data-state="Sikkim">Sikkim</button><button class="india-state-chip" data-state="Tamil Nadu">Tamil Nadu</button><button class="india-state-chip" data-state="Telangana">Telangana</button><button class="india-state-chip" data-state="Tripura">Tripura</button><button class="india-state-chip" data-state="Uttar Pradesh">Uttar Pradesh</button><button class="india-state-chip" data-state="Uttarakhand">Uttarakhand</button><button class="india-state-chip" data-state="West Bengal">West Bengal</button><button class="india-state-chip ut" data-state="Andaman & Nicobar Islands">Andaman & Nicobar Islands</button><button class="india-state-chip ut" data-state="Chandigarh">Chandigarh</button><button class="india-state-chip ut" data-state="Dadra & Nagar Haveli and Daman & Diu">Dadra & Nagar Haveli and Daman & Diu</button><button class="india-state-chip ut" data-state="Delhi (NCT)">Delhi (NCT)</button><button class="india-state-chip ut" data-state="Jammu & Kashmir">Jammu & Kashmir</button><button class="india-state-chip ut" data-state="Ladakh">Ladakh</button><button class="india-state-chip ut" data-state="Lakshadweep">Lakshadweep</button><button class="india-state-chip ut" data-state="Puducherry">Puducherry</button></div><div id="indiaStateDetail" class="us-state-detail"><div class="us-state-detail-head"><h4>Select a state or Union Territory</h4><small>28 states · 8 UTs</small></div><p>Capital, Chief Minister / administrator, and parliamentary representation will appear here.</p></div></div><p class="source-note">The grid is a geographic index, not a boundary-accurate cartographic map. Seat counts follow the Election Commission of India’s published house-term reference; officeholder names are a dated snapshot and must be rechecked before relying on them.</p></div><div class="card"><h3>State and UT seat reference</h3><div class="table-enhance-toolbar"><input class="table-enhance-search" placeholder="Search this table…" type="search"><span class="table-enhance-count"></span><button class="table-enhance-clear" type="button">Clear</button></div><div class="table-scroll"><table class="table" data-enhanced-table="true"><thead><tr><th class="table-sort-header" tabindex="0">State / UT</th><th class="table-sort-header" tabindex="0">Capital</th><th class="table-sort-header" tabindex="0">Chief Minister / Administrator</th><th class="table-sort-header" tabindex="0">Lok Sabha seats</th><th class="table-sort-header" tabindex="0">Assembly seats</th><th class="table-sort-header" tabindex="0">Rajya Sabha seats</th></tr></thead><tbody><tr><td>Andhra Pradesh</td><td>Amaravati</td><td>N. Chandrababu Naidu</td><td>25</td><td>175</td><td>11</td></tr><tr><td>Arunachal Pradesh</td><td>Itanagar</td><td>Pema Khandu</td><td>2</td><td>60</td><td>1</td></tr><tr><td>Assam</td><td>Dispur</td><td>Himanta Biswa Sarma</td><td>14</td><td>126</td><td>7</td></tr><tr><td>Bihar</td><td>Patna</td><td>Samrat Choudhary</td><td>40</td><td>243</td><td>16</td></tr><tr><td>Chhattisgarh</td><td>Raipur</td><td>Vishnu Deo Sai</td><td>11</td><td>90</td><td>5</td></tr><tr><td>Goa</td><td>Panaji</td><td>Pramod Sawant</td><td>2</td><td>40</td><td>1</td></tr><tr><td>Gujarat</td><td>Gandhinagar</td><td>Bhupendra Patel</td><td>26</td><td>182</td><td>11</td></tr><tr><td>Haryana</td><td>Chandigarh</td><td>Nayab Singh Saini</td><td>10</td><td>90</td><td>5</td></tr><tr><td>Himachal Pradesh</td><td>Shimla</td><td>Sukhvinder Singh Sukhu</td><td>4</td><td>68</td><td>3</td></tr><tr><td>Jharkhand</td><td>Ranchi</td><td>Hemant Soren</td><td>14</td><td>81</td><td>6</td></tr><tr><td>Karnataka</td><td>Bengaluru</td><td>D. K. Shivakumar</td><td>28</td><td>224</td><td>12</td></tr><tr><td>Kerala</td><td>Thiruvananthapuram</td><td>Pinarayi Vijayan</td><td>20</td><td>140</td><td>9</td></tr><tr><td>Madhya Pradesh</td><td>Bhopal</td><td>Mohan Yadav</td><td>29</td><td>230</td><td>11</td></tr><tr><td>Maharashtra</td><td>Mumbai</td><td>Devendra Fadnavis</td><td>48</td><td>288</td><td>19</td></tr><tr><td>Manipur</td><td>Imphal</td><td>Yumnam Khemchand Singh</td><td>2</td><td>60</td><td>1</td></tr><tr><td>Meghalaya</td><td>Shillong</td><td>Conrad K. Sangma</td><td>2</td><td>60</td><td>1</td></tr><tr><td>Mizoram</td><td>Aizawl</td><td>Lalduhoma</td><td>1</td><td>40</td><td>1</td></tr><tr><td>Nagaland</td><td>Kohima</td><td>Neiphiu Rio</td><td>1</td><td>60</td><td>1</td></tr><tr><td>Odisha</td><td>Bhubaneswar</td><td>Mohan Charan Majhi</td><td>21</td><td>147</td><td>10</td></tr><tr><td>Punjab</td><td>Chandigarh</td><td>Bhagwant Mann</td><td>13</td><td>117</td><td>7</td></tr><tr><td>Rajasthan</td><td>Jaipur</td><td>Bhajan Lal Sharma</td><td>25</td><td>200</td><td>10</td></tr><tr><td>Sikkim</td><td>Gangtok</td><td>Prem Singh Tamang</td><td>1</td><td>32</td><td>1</td></tr><tr><td>Tamil Nadu</td><td>Chennai</td><td>C. Joseph Vijay</td><td>39</td><td>234</td><td>18</td></tr><tr><td>Telangana</td><td>Hyderabad</td><td>A. Revanth Reddy</td><td>17</td><td>119</td><td>7</td></tr><tr><td>Tripura</td><td>Agartala</td><td>Manik Saha</td><td>2</td><td>60</td><td>1</td></tr><tr><td>Uttar Pradesh</td><td>Lucknow</td><td>Yogi Adityanath</td><td>80</td><td>403</td><td>31</td></tr><tr><td>Uttarakhand</td><td>Dehradun</td><td>Pushkar Singh Dhami</td><td>5</td><td>70</td><td>3</td></tr><tr><td>West Bengal</td><td>Kolkata</td><td>Suvendu Adhikari</td><td>42</td><td>294</td><td>16</td></tr><tr><td>Andaman & Nicobar Islands</td><td>Port Blair</td><td>Lieutenant Governor / Administrator</td><td>1</td><td>—</td><td>—</td></tr><tr><td>Chandigarh</td><td>Chandigarh</td><td>Administrator</td><td>1</td><td>—</td><td>—</td></tr><tr><td>Dadra & Nagar Haveli and Daman & Diu</td><td>Daman</td><td>Administrator</td><td>2</td><td>—</td><td>—</td></tr><tr><td>Delhi (NCT)</td><td>New Delhi</td><td>Rekha Gupta</td><td>7</td><td>70</td><td>3</td></tr><tr><td>Jammu & Kashmir</td><td>Srinagar / Jammu</td><td>Omar Abdullah</td><td>5</td><td>90</td><td>4</td></tr><tr><td>Ladakh</td><td>Leh</td><td>Lieutenant Governor / Administrator</td><td>1</td><td>—</td><td>—</td></tr><tr><td>Lakshadweep</td><td>Kavaratti</td><td>Administrator</td><td>1</td><td>—</td><td>—</td></tr><tr><td>Puducherry</td><td>Puducherry</td><td>N. Rangaswamy</td><td>1</td><td>30</td><td>1</td></tr></tbody></table></div></div><div class="card"><h3>Important interpretation notes</h3><ul><li>Lok Sabha seat totals shown by ECI may include specified UT constituencies. Current elected-member occupancy can differ from sanctioned seats when a vacancy exists.</li><li>Assembly seat figures are legal/constituency totals and can be affected by delimitation, reorganisation or special constitutional arrangements.</li><li>Rajya Sabha seats are allocated by state; members are elected by elected MLAs using proportional representation by single transferable vote.</li><li>Delhi, Jammu & Kashmir and Puducherry have legislatures under their respective constitutional/statutory frameworks; other UTs do not have elected Legislative Assemblies.</li></ul></div></section><section class="page " id="voting"><div class="hero"><div class="hero-kicker">VOTING · POLLING · VERIFICATION</div><h2>Voter eligibility, EVMs, VVPAT & counting</h2><p>How an elector gets registered, casts a ballot and how the result is recorded and verified.</p></div><div class="card"><h3>Who can vote?</h3><ul><li>Indian citizen, ordinarily resident in the constituency, at least 18 years old on the qualifying date, and enrolled in the electoral roll.</li><li>Being 18 does not automatically place a person on the roll; registration is required.</li><li>Overseas electors may register under the relevant provisions but generally vote in person in India.</li><li>Service voters, proxy voting and postal ballot facilities operate under specific eligibility and procedural rules.</li></ul></div><div class="card"><h3>EVM + VVPAT: functional flow</h3><div class="core-flow"><div class="core-flow-step"><div class="core-flow-number">1</div><div><strong>Ballot Unit</strong><p>Voter presses the button next to the chosen candidate and symbol.</p></div></div><div class="core-flow-arrow">↓</div><div class="core-flow-step"><div class="core-flow-number">2</div><div><strong>Control Unit</strong><p>Registers the vote after the Presiding Officer enables the ballot; prevents multiple votes in one activation.</p></div></div><div class="core-flow-arrow">↓</div><div class="core-flow-step"><div class="core-flow-number">3</div><div><strong>VVPAT slip</strong><p>A printed slip is visible through a window for the prescribed period, then drops into a sealed box.</p></div></div><div class="core-flow-arrow">↓</div><div class="core-flow-step"><div class="core-flow-number">4</div><div><strong>Counting and prescribed verification</strong><p>Control Unit totals are counted; VVPAT slips are verified in the manner directed by law and ECI instructions, including additional verification where ordered by courts.</p></div></div></div></div><div class="card"><h3>Safeguards and limits</h3><p>Safeguards include candidate/agent presence at specified stages, mock polls, sealing, documented custody, strong-room security, randomisation and VVPAT verification. Any claim of malfunction, manipulation or procedural breach should be evaluated against specific records, technical evidence, ECI instructions and court findings—not assumed from a viral post.</p></div></section><section class="page " id="federal"><div class="hero"><div class="hero-kicker">GOVERNMENT STRUCTURE · UNION</div><h2>Union government · Executive, legislature & judiciary</h2><p>India follows a parliamentary system. Executive authority is exercised in the constitutional framework by the President and the Council of Ministers headed by the Prime Minister.</p></div><div class="card"><h3>Union government architecture</h3><div class="gov-architecture"><div class="core-flow"><div class="core-flow-step"><div class="core-flow-number">C</div><div><strong>Constitution of India</strong><p>Supreme law; distributes powers, establishes institutions and protects rights.</p></div></div><div class="core-flow-arrow">↓</div><div class="core-flow-step"><div class="core-flow-number">1</div><div><strong>Union Executive</strong><p>President (constitutional head) · Prime Minister · Council of Ministers · Cabinet · ministries and departments.</p></div></div><div class="core-flow-step"><div class="core-flow-number">2</div><div><strong>Union Legislature · Parliament</strong><p>President + Lok Sabha + Rajya Sabha; makes laws, authorises taxation and expenditure, and scrutinises government.</p></div></div><div class="core-flow-step"><div class="core-flow-number">3</div><div><strong>Union Judiciary</strong><p>Supreme Court · High Courts · subordinate courts; interprets law and reviews constitutionality.</p></div></div><div class="core-flow-step"><div class="core-flow-number">F</div><div><strong>Federal distribution</strong><p>Union, State and Concurrent Lists allocate legislative fields; local self-government is constitutionally recognised.</p></div></div></div></div></div><div class="card"><h3>Parliamentary accountability</h3><p>The Council of Ministers is collectively responsible to the Lok Sabha. The Prime Minister and ministers ordinarily remain in office while they retain the confidence of the Lok Sabha. The President generally acts on the aid and advice of the Council of Ministers, subject to constitutional provisions and limited areas of discretion.</p></div><div class="card"><h3>Three organs and checks</h3><ul><li><b>Legislature:</b> makes laws, approves budgets, questions ministers and conducts committee scrutiny.</li><li><b>Executive:</b> implements laws, administers departments and formulates policy.</li><li><b>Judiciary:</b> adjudicates disputes, interprets the Constitution and can invalidate unconstitutional laws or executive action.</li></ul></div></section><section class="page " id="parliament"><div class="hero"><div class="hero-kicker">LEGISLATURE · BICAMERAL PARLIAMENT</div><h2>Parliament · Lok Sabha & Rajya Sabha</h2><p>Understand membership, election method, terms, legislative procedure, money bills, committees and accountability.</p></div><div class="card"><h3>The two Houses</h3><div class="two-column"><div class="callout blue"><b>Lok Sabha · House of the People</b><p>Directly elected from territorial constituencies. Normal term: five years unless dissolved earlier. The Council of Ministers is collectively responsible to this House.</p></div><div class="callout purple"><b>Rajya Sabha · Council of States</b><p>Permanent House; not subject to dissolution. Members generally serve six-year terms, with roughly one-third retiring every two years. Most are elected by elected MLAs; 12 are nominated by the President for special knowledge or practical experience in literature, science, art and social service.</p></div></div></div><div class="card"><h3>Core parliamentary facts</h3><div class="stats-grid three"><div class="stat-card blue"><div class="stat-value">543</div><div class="stat-label">Lok Sabha elected constituencies</div><small>Direct election</small></div><div class="stat-card purple"><div class="stat-value">245</div><div class="stat-label">Rajya Sabha sanctioned strength</div><small>233 elected + 12 nominated</small></div><div class="stat-card green"><div class="stat-value">5 years</div><div class="stat-label">Lok Sabha normal term</div><small>Unless dissolved earlier</small></div></div><p class="source-note">The Digital Sansad portal showed 542 elected members at the time of this reference’s review, reflecting a vacancy; sanctioned elected seats and sitting membership are different concepts.</p></div><div class="card"><h3>How a bill becomes law</h3><ol><li>Bill introduced in either House, except Money Bills which can only be introduced in Lok Sabha.</li><li>First reading and publication/introduction.</li><li>Second reading: general discussion; possible committee referral; clause-by-clause consideration.</li><li>Third reading and vote in the originating House.</li><li>Other House considers the bill; ordinary bills generally require agreement by both Houses.</li><li>In case of a qualifying deadlock on an ordinary bill, a joint sitting may be summoned under Article 108.</li><li>President’s assent; the bill becomes an Act, subject to constitutional provisions.</li></ol><p>Money Bills have a special procedure: Rajya Sabha may make recommendations within 14 days, but Lok Sabha may accept or reject them.</p></div><div class="card"><h3>Oversight mechanisms</h3><ul><li>Question Hour and Zero Hour.</li><li>Department-related Standing Committees and other parliamentary committees.</li><li>Budget discussion, demands for grants and cut motions.</li><li>No-confidence motion and confidence motions in Lok Sabha.</li><li>Comptroller and Auditor General reports examined by committees including the Public Accounts Committee.</li></ul></div></section><section class="page " id="states-gov"><div class="hero"><div class="hero-kicker">FEDERALISM · STATE POLITICS</div><h2>State & Union Territory government</h2><p>How state governments are formed, what Governors and Chief Ministers do, and how UT administration differs.</p></div><div class="card"><h3>State government structure</h3><ul><li><b>Governor:</b> constitutional head of a State, appointed by the President under Article 155.</li><li><b>Chief Minister:</b> head of the elected State government; appointed by the Governor and ordinarily the leader able to command Assembly confidence.</li><li><b>Council of Ministers:</b> aids and advises the Governor; collectively responsible to the Legislative Assembly.</li><li><b>Vidhan Sabha:</b> directly elected lower/only House of a State legislature.</li><li><b>Vidhan Parishad:</b> upper House in six States: Andhra Pradesh, Telangana, Bihar, Karnataka, Maharashtra and Uttar Pradesh (subject to current constitutional status).</li><li><b>High Court:</b> constitutional court for the State or group of States/UTs.</li></ul></div><div class="card"><h3>Union Territories</h3><p>UTs are administered by the President through an Administrator or Lieutenant Governor under Article 239 and the relevant law. Delhi, Puducherry and Jammu & Kashmir have legislatures with special constitutional/statutory arrangements; their powers and the role of the Lieutenant Governor are not identical.</p></div><div class="card"><h3>Local self-government</h3><p>The 73rd and 74th Constitutional Amendments recognise Panchayats and Municipalities. State Election Commissions conduct local body elections; the Election Commission of India conducts elections to Parliament, State legislatures, President and Vice-President.</p></div><div class="card"><h3>State-by-state leadership and seat data</h3><div class="table-enhance-toolbar"><input class="table-enhance-search" placeholder="Search this table…" type="search"><span class="table-enhance-count"></span><button class="table-enhance-clear" type="button">Clear</button></div><div class="table-scroll"><table class="table" data-enhanced-table="true"><thead><tr><th class="table-sort-header" tabindex="0">State / UT</th><th class="table-sort-header" tabindex="0">Capital</th><th class="table-sort-header" tabindex="0">Chief Minister / Administrator</th><th class="table-sort-header" tabindex="0">Lok Sabha seats</th><th class="table-sort-header" tabindex="0">Assembly seats</th><th class="table-sort-header" tabindex="0">Rajya Sabha seats</th></tr></thead><tbody><tr><td>Andhra Pradesh</td><td>Amaravati</td><td>N. Chandrababu Naidu</td><td>25</td><td>175</td><td>11</td></tr><tr><td>Arunachal Pradesh</td><td>Itanagar</td><td>Pema Khandu</td><td>2</td><td>60</td><td>1</td></tr><tr><td>Assam</td><td>Dispur</td><td>Himanta Biswa Sarma</td><td>14</td><td>126</td><td>7</td></tr><tr><td>Bihar</td><td>Patna</td><td>Samrat Choudhary</td><td>40</td><td>243</td><td>16</td></tr><tr><td>Chhattisgarh</td><td>Raipur</td><td>Vishnu Deo Sai</td><td>11</td><td>90</td><td>5</td></tr><tr><td>Goa</td><td>Panaji</td><td>Pramod Sawant</td><td>2</td><td>40</td><td>1</td></tr><tr><td>Gujarat</td><td>Gandhinagar</td><td>Bhupendra Patel</td><td>26</td><td>182</td><td>11</td></tr><tr><td>Haryana</td><td>Chandigarh</td><td>Nayab Singh Saini</td><td>10</td><td>90</td><td>5</td></tr><tr><td>Himachal Pradesh</td><td>Shimla</td><td>Sukhvinder Singh Sukhu</td><td>4</td><td>68</td><td>3</td></tr><tr><td>Jharkhand</td><td>Ranchi</td><td>Hemant Soren</td><td>14</td><td>81</td><td>6</td></tr><tr><td>Karnataka</td><td>Bengaluru</td><td>D. K. Shivakumar</td><td>28</td><td>224</td><td>12</td></tr><tr><td>Kerala</td><td>Thiruvananthapuram</td><td>Pinarayi Vijayan</td><td>20</td><td>140</td><td>9</td></tr><tr><td>Madhya Pradesh</td><td>Bhopal</td><td>Mohan Yadav</td><td>29</td><td>230</td><td>11</td></tr><tr><td>Maharashtra</td><td>Mumbai</td><td>Devendra Fadnavis</td><td>48</td><td>288</td><td>19</td></tr><tr><td>Manipur</td><td>Imphal</td><td>Yumnam Khemchand Singh</td><td>2</td><td>60</td><td>1</td></tr><tr><td>Meghalaya</td><td>Shillong</td><td>Conrad K. Sangma</td><td>2</td><td>60</td><td>1</td></tr><tr><td>Mizoram</td><td>Aizawl</td><td>Lalduhoma</td><td>1</td><td>40</td><td>1</td></tr><tr><td>Nagaland</td><td>Kohima</td><td>Neiphiu Rio</td><td>1</td><td>60</td><td>1</td></tr><tr><td>Odisha</td><td>Bhubaneswar</td><td>Mohan Charan Majhi</td><td>21</td><td>147</td><td>10</td></tr><tr><td>Punjab</td><td>Chandigarh</td><td>Bhagwant Mann</td><td>13</td><td>117</td><td>7</td></tr><tr><td>Rajasthan</td><td>Jaipur</td><td>Bhajan Lal Sharma</td><td>25</td><td>200</td><td>10</td></tr><tr><td>Sikkim</td><td>Gangtok</td><td>Prem Singh Tamang</td><td>1</td><td>32</td><td>1</td></tr><tr><td>Tamil Nadu</td><td>Chennai</td><td>C. Joseph Vijay</td><td>39</td><td>234</td><td>18</td></tr><tr><td>Telangana</td><td>Hyderabad</td><td>A. Revanth Reddy</td><td>17</td><td>119</td><td>7</td></tr><tr><td>Tripura</td><td>Agartala</td><td>Manik Saha</td><td>2</td><td>60</td><td>1</td></tr><tr><td>Uttar Pradesh</td><td>Lucknow</td><td>Yogi Adityanath</td><td>80</td><td>403</td><td>31</td></tr><tr><td>Uttarakhand</td><td>Dehradun</td><td>Pushkar Singh Dhami</td><td>5</td><td>70</td><td>3</td></tr><tr><td>West Bengal</td><td>Kolkata</td><td>Suvendu Adhikari</td><td>42</td><td>294</td><td>16</td></tr><tr><td>Andaman & Nicobar Islands</td><td>Port Blair</td><td>Lieutenant Governor / Administrator</td><td>1</td><td>—</td><td>—</td></tr><tr><td>Chandigarh</td><td>Chandigarh</td><td>Administrator</td><td>1</td><td>—</td><td>—</td></tr><tr><td>Dadra & Nagar Haveli and Daman & Diu</td><td>Daman</td><td>Administrator</td><td>2</td><td>—</td><td>—</td></tr><tr><td>Delhi (NCT)</td><td>New Delhi</td><td>Rekha Gupta</td><td>7</td><td>70</td><td>3</td></tr><tr><td>Jammu & Kashmir</td><td>Srinagar / Jammu</td><td>Omar Abdullah</td><td>5</td><td>90</td><td>4</td></tr><tr><td>Ladakh</td><td>Leh</td><td>Lieutenant Governor / Administrator</td><td>1</td><td>—</td><td>—</td></tr><tr><td>Lakshadweep</td><td>Kavaratti</td><td>Administrator</td><td>1</td><td>—</td><td>—</td></tr><tr><td>Puducherry</td><td>Puducherry</td><td>N. Rangaswamy</td><td>1</td><td>30</td><td>1</td></tr></tbody></table></div></div></section><section class="page " id="powers"><div class="hero"><div class="hero-kicker">OFFICES · AUTHORITY · ACCOUNTABILITY</div><h2>Powers & constitutional responsibilities</h2><p>A practical guide to what major elected and appointed offices can—and cannot—do under the Constitution.</p></div><div class="table-enhance-toolbar"><input class="table-enhance-search" placeholder="Search this table…" type="search"><span class="table-enhance-count"></span><button class="table-enhance-clear" type="button">Clear</button></div><div class="table-scroll"><table class="table" data-enhanced-table="true"><thead><tr><th class="table-sort-header" tabindex="0">Office</th><th class="table-sort-header" tabindex="0">How selected</th><th class="table-sort-header" tabindex="0">Core role / powers</th><th class="table-sort-header" tabindex="0">Key checks / limits</th></tr></thead><tbody><tr><td>President of India</td><td>Electoral college</td><td>Constitutional head; appoints PM and other constitutional functionaries; assent/return/reservation of bills as constitutionally permitted; supreme commander in constitutional form; pardoning power under Article 72.</td><td>Normally acts on ministerial aid and advice; impeachment procedure; judicial and parliamentary constitutional limits.</td></tr><tr><td>Prime Minister</td><td>Appointed by President; must command Lok Sabha confidence</td><td>Heads Council of Ministers, coordinates Union policy, allocates portfolios, leads government and represents it in Parliament.</td><td>Collective responsibility to Lok Sabha; judicial review; Parliament, elections, constitutional limits.</td></tr><tr><td>Union Cabinet / Ministers</td><td>Appointed by President on PM advice</td><td>Runs ministries, proposes legislation and policy, implements laws and budgets.</td><td>Collective responsibility; parliamentary questions/committees; CAG; courts; statutory oversight.</td></tr><tr><td>Speaker of Lok Sabha</td><td>Elected by Lok Sabha members</td><td>Presides over House, interprets rules, certifies Money Bills under constitutional framework, manages proceedings.</td><td>House rules, constitutional provisions, judicial review in defined circumstances.</td></tr><tr><td>Governor</td><td>Appointed by President</td><td>Constitutional head of State; appoints CM; summons/prorogues legislature; certain bill and report functions.</td><td>Bound by Constitution and ministerial advice except limited discretion; judicial review.</td></tr><tr><td>Chief Minister</td><td>Appointed by Governor; Assembly confidence</td><td>Heads State Council of Ministers and state administration.</td><td>Collective responsibility to Legislative Assembly; courts, legislature, federal law.</td></tr><tr><td>Chief Justice of India / Supreme Court</td><td>Constitutional appointment process</td><td>Heads Supreme Court institutionally; judicial administration and adjudication.</td><td>Constitution, judicial independence, collegium/appointment framework, public law and ethics.</td></tr></tbody></table></div></section><section class="page " id="parties"><div class="hero"><div class="hero-kicker">POLITICAL LANDSCAPE · PARTY SYSTEM</div><h2>Political parties, coalitions & opposition</h2><p>How national and regional parties compete, form alliances, receive recognition and exercise legislative influence.</p></div><div class="card"><h3>18th Lok Sabha · party-wise representation snapshot</h3><p>Digital Sansad’s live Lok Sabha page displayed the following leading party counts when this reference was assembled. Membership can change through by-elections, vacancies, disqualification, party splits and changes in affiliation; consult the live portal for the current complete list.</p><div class="table-enhance-toolbar"><input class="table-enhance-search" placeholder="Search this table…" type="search"><span class="table-enhance-count"></span><button class="table-enhance-clear" type="button">Clear</button></div><div class="table-scroll"><table class="table" data-enhanced-table="true"><thead><tr><th class="table-sort-header" tabindex="0">Party</th><th class="table-sort-header" tabindex="0">Members shown</th><th class="table-sort-header" tabindex="0">Party name</th></tr></thead><tbody><tr><td>BJP</td><td>240</td><td>Bharatiya Janata Party</td></tr><tr><td>INC</td><td>98</td><td>Indian National Congress</td></tr><tr><td>SP</td><td>37</td><td>Samajwadi Party</td></tr><tr><td>AITC</td><td>28</td><td>All India Trinamool Congress</td></tr><tr><td>DMK</td><td>22</td><td>Dravida Munnetra Kazhagam</td></tr><tr><td>TDP</td><td>16</td><td>Telugu Desam Party</td></tr><tr><td>Shiv Sena</td><td>13</td><td>Shiv Sena</td></tr><tr><td>JD(U)</td><td>12</td><td>Janata Dal (United)</td></tr><tr><td>NCP–SP</td><td>8</td><td>Nationalist Congress Party – Sharadchandra Pawar</td></tr></tbody></table></div></p><p><a href="https://sansad.in/ls/" target="_blank" rel="noopener">Digital Sansad · live party-wise representation</a></p></div><div class="card"><h3>India’s multi-party system</h3><p>India uses a first-past-the-post system for Lok Sabha and most Assembly constituencies. A party can win a large seat share without winning a majority of all votes nationwide. Regional parties can be decisive in particular States and in coalition governments. Party recognition and symbols are governed by ECI rules.</p></div><div class="card"><h3>National parties and regional parties</h3><p>National-party recognition is based on criteria in the Election Symbols (Reservation and Allotment) Order, 1968, including vote share and/or seat performance across States. State-party recognition is separately determined. Status can change; the ECI’s current recognition order should be treated as authoritative.</p></div><div class="card"><h3>Government, coalition and opposition</h3><ul><li><b>Single-party majority:</b> one party has more than half of the effective House strength needed for confidence.</li><li><b>Coalition:</b> two or more parties support a government through a formal or informal arrangement.</li><li><b>Outside support:</b> a party supports confidence/supply without necessarily joining the Council of Ministers.</li><li><b>Opposition:</b> scrutinises policy, questions ministers, offers alternatives and may lead committees; recognition as Leader of Opposition follows applicable rules and conventions.</li><li><b>Anti-defection law:</b> Tenth Schedule provides disqualification rules, with Speaker/Chairman adjudication subject to judicial review.</li></ul></div><div class="card"><h3>How to compare party performance</h3><p>Use comparable time periods and measurable indicators: manifesto commitments, legislation passed, budget allocations, implementation, audit findings, court judgments, outcomes and independent datasets. Separate a party’s national record from State-government records and distinguish party decisions from actions by individual officeholders.</p></div></section><section class="page " id="pm-history"><div class="hero"><div class="hero-kicker">POLITICAL HISTORY · UNION EXECUTIVE</div><h2>All Prime Ministers of India · 1947–2026</h2><p>Chronological record of Prime Ministers, party/coalition, documented initiatives and major criticisms or controversies. Records distinguish completed terms from the ongoing government.</p></div><div class="card"><h3>How to interpret this record</h3><p>This is not a scorecard. “Initiatives / contributions” identifies notable actions or programmes associated with a tenure; it does not claim that one person alone created every outcome. “Criticisms / controversies” includes documented events, allegations, court or commission findings and contested assessments. Allegations are not convictions, and policy outcomes often span multiple governments.</p></div><div class="card"><h3>Prime Minister record</h3><div class="table-enhance-toolbar"><input class="table-enhance-search" placeholder="Search this table…" type="search"><span class="table-enhance-count"></span><button class="table-enhance-clear" type="button">Clear</button></div><div class="table-scroll"><table class="table" data-enhanced-table="true"><thead><tr><th class="table-sort-header" tabindex="0">Prime Minister</th><th class="table-sort-header" tabindex="0">Term(s)</th><th class="table-sort-header" tabindex="0">Party / coalition</th><th class="table-sort-header" tabindex="0">Initiatives / contributions</th><th class="table-sort-header" tabindex="0">Criticisms / controversies</th></tr></thead><tbody><tr><td>Jawaharlal Nehru</td><td>1947–1964</td><td>INC</td><td><ul><li>Parliamentary institutions</li><li>Planning Commission and public-sector industrialisation</li><li>IITs/AIIMS and scientific institutions</li><li>non-alignment</li><li>support for linguistic reorganisation.</li></ul></td><td><ul><li>China policy and 1962 war defeat</li><li>centralised planning and permit controls later criticised</li><li>Kashmir and Article 370 decisions remain contested</li><li>handling of Tibet/China border is debated.</li></ul></td></tr><tr><td>Gulzarilal Nanda (acting)</td><td>1964; 1966</td><td>INC</td><td><ul><li>Constitutional continuity during leadership transitions after Nehru and Shastri.</li></ul></td><td><ul><li>Short caretaker periods</li><li>not a full elected PM tenure.</li></ul></td></tr><tr><td>Lal Bahadur Shastri</td><td>1964–1966</td><td>INC</td><td><ul><li>Green Revolution groundwork</li><li>food self-reliance push</li><li>1965 war leadership</li><li>Tashkent Declaration</li><li>slogan “Jai Jawan Jai Kisan”.</li></ul></td><td><ul><li>Food shortages and economic stress</li><li>Tashkent settlement and circumstances of his death have generated debate, but conspiracy claims are not established findings.</li></ul></td></tr><tr><td>Indira Gandhi</td><td>1966–1977; 1980–1984</td><td>INC</td><td><ul><li>1971 war and Bangladesh’s independence</li><li>bank nationalisation</li><li>abolition of privy purses</li><li>1974 nuclear test</li><li>Green Revolution expansion.</li></ul></td><td><ul><li>Emergency 1975–77: civil-liberty restrictions, press censorship, arrests and forced sterilisation abuses</li><li>centralisation</li><li>Operation Blue Star and its aftermath</li><li>political violence and institutional controversies.</li></ul></td></tr><tr><td>Morarji Desai</td><td>1977–1979</td><td>Janata Party</td><td><ul><li>First non-Congress Union government</li><li>44th Amendment rolled back several Emergency-era provisions and strengthened safeguards.</li></ul></td><td><ul><li>Coalition divisions and instability</li><li>government fell before completing term</li><li>foreign-policy and intelligence decisions remain debated.</li></ul></td></tr><tr><td>Charan Singh</td><td>1979–1980</td><td>Janata (Secular)</td><td><ul><li>Emphasised agrarian and farmers’ interests.</li></ul></td><td><ul><li>Government did not face a confidence vote</li><li>resigned before proving majority after support withdrawal.</li></ul></td></tr><tr><td>Rajiv Gandhi</td><td>1984–1989</td><td>INC</td><td><ul><li>Telecom and computerisation push</li><li>technology and education initiatives</li><li>anti-defection law (52nd Amendment)</li><li>local-government reform groundwork</li><li>Assam and Mizoram accords.</li></ul></td><td><ul><li>Bofors allegations</li><li>Shah Bano legislative reversal</li><li>1984 anti-Sikh violence and state response</li><li>Sri Lanka IPKF intervention</li><li>centralisation and later political scandals.</li></ul></td></tr><tr><td>V. P. Singh</td><td>1989–1990</td><td>Janata Dal / National Front</td><td><ul><li>Implemented Mandal Commission recommendations for OBC reservation in central services</li><li>anti-corruption platform.</li></ul></td><td><ul><li>Mandir–Mandal political conflict</li><li>coalition instability</li><li>Kashmir and Punjab security challenges</li><li>government fell after BJP withdrew support.</li></ul></td></tr><tr><td>Chandra Shekhar</td><td>1990–1991</td><td>Samajwadi Janata Party (Rashtriya)</td><td><ul><li>Managed a short transition during balance-of-payments pressure</li><li>limited continuity in administration.</li></ul></td><td><ul><li>Minority government dependent on Congress support</li><li>resigned after support withdrawal</li><li>severe external-payments crisis.</li></ul></td></tr><tr><td>P. V. Narasimha Rao</td><td>1991–1996</td><td>INC</td><td><ul><li>1991 economic reforms with Finance Minister Manmohan Singh</li><li>delicensing and trade opening</li><li>Look East policy</li><li>telecom and financial-sector changes.</li></ul></td><td><ul><li>Babri Masjid demolition occurred during his tenure and central response is criticised</li><li>JMM bribery case</li><li>securities scam and corruption allegations</li><li>reform benefits and distributional effects debated.</li></ul></td></tr><tr><td>Atal Bihari Vajpayee</td><td>1996; 1998–2004</td><td>BJP-led NDA</td><td><ul><li>Pokhran-II nuclear tests</li><li>Lahore diplomacy</li><li>Kargil response</li><li>Golden Quadrilateral and highways</li><li>telecom reforms</li><li>Sarva Shiksha Abhiyan</li><li>coalition governance.</li></ul></td><td><ul><li>1998–99 instability</li><li>Gujarat 2002 riots and debate over state/central response</li><li>Kandahar hijacking release</li><li>disinvestment and labour policy controversies.</li></ul></td></tr><tr><td>H. D. Deve Gowda</td><td>1996–1997</td><td>United Front</td><td><ul><li>Coalition period</li><li>attention to rural development and federal consultation</li><li>continued decentralisation debates.</li></ul></td><td><ul><li>Short tenure and coalition fragility</li><li>limited time for durable national policy delivery.</li></ul></td></tr><tr><td>I. K. Gujral</td><td>1997–1998</td><td>United Front</td><td><ul><li>Gujral Doctrine sought improved relations with neighbouring countries</li><li>emphasis on non-reciprocity toward smaller neighbours.</li></ul></td><td><ul><li>Short-lived coalition</li><li>Jain Commission report and DMK support controversy contributed to government instability.</li></ul></td></tr><tr><td>Manmohan Singh</td><td>2004–2014</td><td>INC-led UPA</td><td><ul><li>RTI Act</li><li>MGNREGA</li><li>National Rural Health Mission</li><li>Right to Education</li><li>India–US civil nuclear agreement</li><li>high growth in parts of tenure</li><li>Aadhaar rollout</li><li>food security law.</li></ul></td><td><ul><li>2G, coal allocation and Commonwealth Games corruption controversies</li><li>policy paralysis criticism in later years</li><li>inflation</li><li>26/11 security preparedness questions</li><li>growth and fiscal performance debated.</li></ul></td></tr><tr><td>Narendra Modi</td><td>2014–present (as at 4 Nov 2026)</td><td>BJP-led NDA</td><td><ul><li>Jan Dhan, UPI ecosystem expansion, GST, Insolvency and Bankruptcy Code, Swachh Bharat, electrification/road infrastructure, Ayushman Bharat, Article 370 changes, 2016 demonetisation stated objectives, 2020–21 farm laws later repealed, 2023 women’s reservation amendment.</li></ul></td><td><ul><li>Demonetisation’s costs and outcomes debated</li><li>GST compliance burden for some firms</li><li>COVID second-wave preparedness and migrant distress</li><li>farm laws and protest handling</li><li>unemployment/data debates</li><li>press/civil-society and institutional-independence concerns raised by critics</li><li>communal-polarisation concerns contested by government supporters.</li></ul></td></tr></tbody></table></div></div></section><section class="page " id="president-history"><div class="hero"><div class="hero-kicker">CONSTITUTIONAL HISTORY · PRESIDENT OF INDIA</div><h2>All Presidents of India · 1950–2026</h2><p>Chronological reference to the heads of state, their terms and key constitutional context.</p></div><div class="card"><h3>President’s constitutional position</h3><p>The President is the constitutional head of the Union. The President is elected indirectly by an electoral college comprising elected MPs of both Houses and elected MLAs of States and specified Union Territories. The President generally acts on the aid and advice of the Council of Ministers, subject to constitutional provisions. The President is not the day-to-day head of government; that role belongs to the Prime Minister and Council of Ministers.</p></div><div class="card"><h3>Presidential record</h3><div class="table-enhance-toolbar"><input class="table-enhance-search" placeholder="Search this table…" type="search"><span class="table-enhance-count"></span><button class="table-enhance-clear" type="button">Clear</button></div><div class="table-scroll"><table class="table" data-enhanced-table="true"><thead><tr><th class="table-sort-header" tabindex="0">President</th><th class="table-sort-header" tabindex="0">Term</th><th class="table-sort-header" tabindex="0">Political background</th><th class="table-sort-header" tabindex="0">Contributions / constitutional context</th><th class="table-sort-header" tabindex="0">Debates / controversies</th></tr></thead><tbody><tr><td>Rajendra Prasad</td><td>1950–1962</td><td>INC</td><td>First President; helped establish conventions of the republic.</td><td>Debates with Nehru over Hindu Code Bill and constitutional role.</td></tr><tr><td>Sarvepalli Radhakrishnan</td><td>1962–1967</td><td>Independent</td><td>Scholar-statesman; represented India internationally during Cold War period.</td><td>Presidency largely constitutional; limited executive role.</td></tr><tr><td>Zakir Husain</td><td>1967–1969</td><td>Independent</td><td>Educationist; first Muslim President; emphasised education.</td><td>Died in office.</td></tr><tr><td>V. V. Giri</td><td>1969–1974</td><td>Independent</td><td>Elected after a contested presidential election; labour movement background.</td><td>Presidency coincided with political centralisation and Emergency-era constitutional tensions developing later.</td></tr><tr><td>Fakhruddin Ali Ahmed</td><td>1974–1977</td><td>INC</td><td>Served as President during major constitutional crisis.</td><td>Signed Emergency proclamation in 1975 on PM advice; role remains a central constitutional debate.</td></tr><tr><td>B. D. Jatti (acting)</td><td>1977</td><td>Acting President</td><td>Served as Acting President after Fakhruddin Ali Ahmed’s death and before Neelam Sanjiva Reddy assumed office.</td><td>Acting constitutional office; not counted among elected Presidents.</td></tr><tr><td>Neelam Sanjiva Reddy</td><td>1977–1982</td><td>Janata-supported</td><td>Only President elected unopposed; served during political transition.</td><td>Dissolution of Lok Sabha and constitutional discretion debated.</td></tr><tr><td>Zail Singh</td><td>1982–1987</td><td>INC</td><td>First Sikh President; exercised constitutional office during major political conflict.</td><td>Post Office Bill and pocket-veto episode; relationship with Rajiv Gandhi government strained.</td></tr><tr><td>R. Venkataraman</td><td>1987–1992</td><td>Independent</td><td>Presided over coalition and government transitions.</td><td>Discretion in inviting parties to form government debated.</td></tr><tr><td>Shankar Dayal Sharma</td><td>1992–1997</td><td>Independent</td><td>Constitutional continuity through coalition era.</td><td>Invitations to form government during hung Lok Sabha period debated.</td></tr><tr><td>K. R. Narayanan</td><td>1997–2002</td><td>Independent</td><td>First Dalit President; asserted constitutional scrutiny and public reasoning.</td><td>Presidential discretion and return of advice/bills discussed in constitutional scholarship.</td></tr><tr><td>A. P. J. Abdul Kalam</td><td>2002–2007</td><td>Independent</td><td>Scientist President; promoted education, science and youth engagement.</td><td>Office largely non-partisan; returned Office of Profit bill for reconsideration.</td></tr><tr><td>Pratibha Patil</td><td>2007–2012</td><td>INC</td><td>First woman President of India.</td><td>Mercy-petition decisions and public expenditure/travel controversies drew criticism.</td></tr><tr><td>Pranab Mukherjee</td><td>2012–2017</td><td>INC</td><td>Experienced constitutional and parliamentary figure; addressed Parliament and constitutional conventions.</td><td>Mercy petitions and assent decisions debated; office remained largely within established conventions.</td></tr><tr><td>Ram Nath Kovind</td><td>2017–2022</td><td>BJP-supported</td><td>Second Dalit President; constitutional continuity through major legislative changes.</td><td>Assent to major laws including Article 370 reorganisation and farm-law period drew political debate.</td></tr><tr><td>Droupadi Murmu</td><td>2022–present (as at 4 Nov 2026)</td><td>BJP-supported NDA electoral college</td><td>First tribal President and second woman President; constitutional head during current period.</td><td>Ongoing term; assessments should be tied to specific constitutional actions rather than party affiliation.</td></tr></tbody></table></div></div></section><section class="page " id="leaders"><div class="hero"><div class="hero-kicker">PEOPLE · INSTITUTIONS · CONTRIBUTIONS</div><h2>Key national leaders, institution-builders & public servants</h2><p>A wider record beyond Prime Ministers: constitution-makers, administrators, military and security leaders, reformers and institution-builders.</p></div><div class="card"><h3>Constitution, integration and institution-building</h3><table class="table"><thead><tr><th>Person</th><th>Role / period</th><th>Documented contribution</th><th>Context / debate</th></tr></thead><tbody><tr><td><b>Sardar Vallabhbhai Patel</b></td><td>Deputy PM; Home Minister; 1947–1950</td><td>Central role in integration of princely states; organisation of All India Services; major role in constitutional transition.</td><td>Hyderabad, Junagadh and Kashmir integration involved distinct political and military circumstances; interpretations of decisions vary.</td></tr><tr><td><b>Dr. B. R. Ambedkar</b></td><td>Chairman, Drafting Committee; Law Minister</td><td>Central role in drafting the Constitution; championed constitutional morality, equality and safeguards; major social reform voice.</td><td>Debates with Congress leadership and resignation over Hindu Code Bill; not the sole author of the Constitution.</td></tr><tr><td><b>Maulana Abul Kalam Azad</b></td><td>Education Minister; 1947–1958</td><td>Early national education architecture; support for IITs, UGC and scientific/technical institutions.</td><td>Education outcomes and early policy priorities are assessed across the broader Nehru-era state-building programme.</td></tr><tr><td><b>Shyama Prasad Mukherjee</b></td><td>Minister; founder of Bharatiya Jana Sangh</td><td>Opposition politics and early party-system development; advocated national integration and industrial development.</td><td>Resignation from Nehru cabinet over policy differences; death in detention in Kashmir remains historically debated.</td></tr><tr><td><b>Jayaprakash Narayan</b></td><td>Opposition / Sarvodaya leader</td><td>Led the movement against Emergency-era authoritarian measures; called for “Total Revolution”.</td><td>Movement’s political alliances and consequences remain debated.</td></tr><tr><td><b>Verghese Kurien</b></td><td>Co-operative / dairy institution builder</td><td>Led Operation Flood and the cooperative dairy movement; transformed milk production and rural producer networks.</td><td>Regional and distributional impacts differ; institutional and market outcomes require separate assessment.</td></tr><tr><td><b>Sam Manekshaw</b></td><td>Chief of Army Staff</td><td>Led Indian Army during 1971 war as Chief of Army Staff.</td><td>Military outcomes involved the armed forces, political leadership, diplomacy and regional context.</td></tr><tr><td><b>A. P. J. Abdul Kalam</b></td><td>Scientist; President</td><td>Major role in India’s missile and defence R&D ecosystem; science education advocacy.</td><td>Defence programmes are collective institutional efforts, not individual achievements alone.</td></tr><tr><td><b>R. N. Kao</b></td><td>Founder of R&amp;AW</td><td>Established the Research and Analysis Wing in 1968 and shaped external intelligence architecture.</td><td>Intelligence operations are partly classified; public assessments should avoid unsupported claims.</td></tr><tr><td><b>Ajit Doval</b></td><td>National Security Adviser; former IPS</td><td>Served as Director of Intelligence Bureau; National Security Adviser from 2014; associated with national-security policy coordination.</td><td>Security decisions, operations and outcomes are politically contested; distinguish official statements, verified records and claims that remain uncorroborated.</td></tr><tr><td><b>Manohar Parrikar</b></td><td>Defence Minister; Goa CM</td><td>Defence procurement and organisational reforms during tenure; led Goa government at state level.</td><td>Specific procurement outcomes and policy changes should be assessed through audit and parliamentary records.</td></tr></tbody></table></div><div class="card"><h3>Important distinction</h3><p>Public administration, military command, intelligence, civil service and political leadership are different roles. A contribution by an official or institution should not be incorrectly attributed to a Prime Minister or party without evidence.</p></div></section><section class="page " id="policies"><div class="hero"><div class="hero-kicker">POLICY RECORD · OUTCOMES · DEBATE</div><h2>Major policies, reforms, legislation & controversies</h2><p>A cross-government record of major national decisions, with stated purpose, implementation context and documented criticisms.</p></div><div class="table-enhance-toolbar"><input class="table-enhance-search" placeholder="Search this table…" type="search"><span class="table-enhance-count"></span><button class="table-enhance-clear" type="button">Clear</button></div><div class="table-scroll"><table class="table" data-enhanced-table="true"><thead><tr><th class="table-sort-header" tabindex="0">Period / government</th><th class="table-sort-header" tabindex="0">Policy / event</th><th class="table-sort-header" tabindex="0">Stated purpose / documented action</th><th class="table-sort-header" tabindex="0">Criticism, outcome debate or legal context</th></tr></thead><tbody><tr><td>1950s · Nehru</td><td>Planning Commission; Five-Year Plans</td><td>Coordinated public investment, heavy industry and infrastructure.</td><td>Criticism of licensing, inefficiency, weak competition and agricultural underinvestment; later reforms changed the model.</td></tr><tr><td>1950s–1960s</td><td>Land reform and linguistic reorganisation</td><td>Reorganised States and attempted changes to land tenure.</td><td>Implementation varied widely; land ceilings and tenancy reform had uneven results.</td></tr><tr><td>1969 · Indira Gandhi</td><td>Bank nationalisation</td><td>Expanded state control and directed credit toward development priorities.</td><td>Efficiency, political lending and fiscal cost debated; later banking reforms altered structure.</td></tr><tr><td>1975–1977</td><td>National Emergency</td><td>Government cited internal security and stability; Emergency declared under Article 352.</td><td>Civil liberties suspended/restricted, censorship, preventive detention and forced sterilisation abuses; 44th Amendment later strengthened safeguards.</td></tr><tr><td>1980s · Rajiv Gandhi</td><td>Telecom and computerisation</td><td>Modernised communications and technology sectors.</td><td>Bofors scandal and other controversies; liberalisation was partial and uneven.</td></tr><tr><td>1991 · Rao government</td><td>Economic liberalisation</td><td>Balance-of-payments crisis response; industrial delicensing, trade and investment reform.</td><td>Distributional effects, job security and inequality debates; reform pace and sequencing contested.</td></tr><tr><td>2005 · UPA</td><td>RTI Act</td><td>Empowered citizens to access public records and improve accountability.</td><td>Implementation, vacancies, exemptions and later amendments raised concerns.</td></tr><tr><td>2005 · UPA</td><td>MGNREGA</td><td>Legal guarantee of rural wage employment subject to statutory conditions.</td><td>Payment delays, leakages and asset quality debates; independent evaluations show varied local results.</td></tr><tr><td>2008 · UPA</td><td>India–US Civil Nuclear Agreement</td><td>Enabled civil nuclear cooperation and a new strategic relationship.</td><td>Nuclear liability, energy economics and strategic autonomy debated.</td></tr><tr><td>2016 · Modi government</td><td>Demonetisation</td><td>Government cited black money, counterfeit currency, terror financing and digital payments.</td><td>Most returned currency was later reported by RBI; economic disruption, informal-sector impact and effectiveness of stated aims debated.</td></tr><tr><td>2017 · Modi government</td><td>Goods and Services Tax</td><td>Unified many indirect taxes into a destination-based tax framework.</td><td>Compliance complexity, rate changes and small-business burden criticised; revenue and formalisation effects debated.</td></tr><tr><td>2019 · Modi government</td><td>Article 370 changes and J&K reorganisation</td><td>Changed Jammu & Kashmir’s special constitutional status and reorganised it into UTs.</td><td>Constitutional process, federalism, detentions, communications restrictions and security consequences litigated/debated; Supreme Court upheld core action in 2023 while directing restoration of statehood and elections.</td></tr><tr><td>2020–2021 · Modi government</td><td>Three farm laws; repeal</td><td>Government said laws would expand market options; repealed after sustained farmer protests.</td><td>Concerns about bargaining power, MSP and federal consultation; repeal followed political negotiation and protest movement.</td></tr><tr><td>2020–2021</td><td>COVID-19 response</td><td>Lockdowns, vaccination, health and economic relief measures.</td><td>First/second wave preparedness, oxygen shortages, migrant-worker distress, data and public-health communication criticised; vaccine scale-up also documented.</td></tr><tr><td>2023 · Modi government</td><td>Women’s Reservation Act (106th Amendment)</td><td>Provides one-third reservation for women in Lok Sabha and State Assemblies, linked to census and delimitation process.</td><td>Implementation timing and dependency on future census/delimitation debated.</td></tr><tr><td>2024–2026</td><td>Implementation and coalition governance</td><td>Current 18th Lok Sabha term; policy priorities and parliamentary oversight continue.</td><td>Ongoing; outcomes must not be presented as settled historical facts.</td></tr></tbody></table></div></section><section class="page " id="timeline"><div class="hero"><div class="hero-kicker">ELECTION HISTORY · GENERAL ELECTIONS</div><h2>National and State election timeline</h2><p>A chronological index of general elections and major electoral transitions. Seat outcomes are not presented as popularity scores.</p></div><div class="table-enhance-toolbar"><input class="table-enhance-search" placeholder="Search this table…" type="search"><span class="table-enhance-count"></span><button class="table-enhance-clear" type="button">Clear</button></div><div class="table-scroll"><table class="table" data-enhanced-table="true"><thead><tr><th class="table-sort-header" tabindex="0">Election year</th><th class="table-sort-header" tabindex="0">Lok Sabha</th><th class="table-sort-header" tabindex="0">Government / Prime Minister formed</th><th class="table-sort-header" tabindex="0">Historical context</th></tr></thead><tbody><tr><td>1951–52</td><td>1st</td><td>INC · Jawaharlal Nehru</td><td>First general election under universal adult franchise.</td></tr><tr><td>1957</td><td>2nd</td><td>INC · Nehru</td><td>Second general election.</td></tr><tr><td>1962</td><td>3rd</td><td>INC · Nehru</td><td>Last general election before Nehru’s death.</td></tr><tr><td>1967</td><td>4th</td><td>INC · Indira Gandhi</td><td>Congress lost power in several States; marked a major change in state politics.</td></tr><tr><td>1971</td><td>5th</td><td>INC · Indira Gandhi</td><td>“Garibi Hatao” campaign; Congress returned with a large parliamentary majority.</td></tr><tr><td>1977</td><td>6th</td><td>Janata Party · Morarji Desai</td><td>First non-Congress government at Union level after Emergency.</td></tr><tr><td>1980</td><td>7th</td><td>INC · Indira Gandhi</td><td>Congress returned to power.</td></tr><tr><td>1984–85</td><td>8th</td><td>INC · Rajiv Gandhi</td><td>Election followed Indira Gandhi’s assassination.</td></tr><tr><td>1989</td><td>9th</td><td>National Front · V. P. Singh</td><td>Coalition era began at Union level.</td></tr><tr><td>1991–92</td><td>10th</td><td>INC · P. V. Narasimha Rao</td><td>Election held in phases after Rajiv Gandhi’s assassination; economic crisis and reforms.</td></tr><tr><td>1996</td><td>11th</td><td>United Front · H. D. Deve Gowda / I. K. Gujral</td><td>Hung Parliament and successive coalition governments.</td></tr><tr><td>1998</td><td>12th</td><td>NDA · Atal Bihari Vajpayee</td><td>Coalition government.</td></tr><tr><td>1999</td><td>13th</td><td>NDA · Vajpayee</td><td>NDA returned after 1999 election.</td></tr><tr><td>2004</td><td>14th</td><td>UPA · Manmohan Singh</td><td>Change of government; coalition era continued.</td></tr><tr><td>2009</td><td>15th</td><td>UPA · Manmohan Singh</td><td>UPA returned for a second term.</td></tr><tr><td>2014</td><td>16th</td><td>NDA · Narendra Modi</td><td>BJP secured a single-party majority.</td></tr><tr><td>2019</td><td>17th</td><td>NDA · Narendra Modi</td><td>NDA returned; BJP increased its Lok Sabha tally.</td></tr><tr><td>2024</td><td>18th</td><td>NDA · Narendra Modi</td><td>BJP did not reach a majority alone; NDA formed government with coalition partners.</td></tr></tbody></table></div></section><section class="page " id="population"><div class="hero"><div class="hero-kicker">PEOPLE · REPRESENTATION · FEDERALISM</div><h2>Population, representation & federal map</h2><p>How population, constituency boundaries, language and federal design relate to political representation.</p></div><div class="card"><h3>Population and delimitation</h3><p>Lok Sabha constituencies are territorial and elect one MP each. The current 543 elected-seat framework reflects the constitutional and statutory arrangements following the 1971 Census freeze and later extensions. The Constitution provides for readjustment after the first census taken after 2026, subject to the relevant constitutional process. Do not assume that the 2027 census automatically changes seat allocation immediately.</p></div><div class="card"><h3>Representation across States</h3><p>Unlike the US Senate, Rajya Sabha representation is not equal by State. Seat allocation broadly reflects population, subject to constitutional provisions. Lok Sabha seats are also distributed among States and UTs. Delimitation determines constituency boundaries; the Delimitation Commission operates under parliamentary law.</p></div><div class="card"><h3>28 States · 8 Union Territories</h3><div class="chip-list"><span class="state-chip">Andhra Pradesh</span><span class="state-chip">Arunachal Pradesh</span><span class="state-chip">Assam</span><span class="state-chip">Bihar</span><span class="state-chip">Chhattisgarh</span><span class="state-chip">Goa</span><span class="state-chip">Gujarat</span><span class="state-chip">Haryana</span><span class="state-chip">Himachal Pradesh</span><span class="state-chip">Jharkhand</span><span class="state-chip">Karnataka</span><span class="state-chip">Kerala</span><span class="state-chip">Madhya Pradesh</span><span class="state-chip">Maharashtra</span><span class="state-chip">Manipur</span><span class="state-chip">Meghalaya</span><span class="state-chip">Mizoram</span><span class="state-chip">Nagaland</span><span class="state-chip">Odisha</span><span class="state-chip">Punjab</span><span class="state-chip">Rajasthan</span><span class="state-chip">Sikkim</span><span class="state-chip">Tamil Nadu</span><span class="state-chip">Telangana</span><span class="state-chip">Tripura</span><span class="state-chip">Uttar Pradesh</span><span class="state-chip">Uttarakhand</span><span class="state-chip">West Bengal</span></div><h4>Union Territories</h4><div class="chip-list"><span class="ut-chip">Andaman & Nicobar Islands</span><span class="ut-chip">Chandigarh</span><span class="ut-chip">Dadra & Nagar Haveli and Daman & Diu</span><span class="ut-chip">Delhi (NCT)</span><span class="ut-chip">Jammu & Kashmir</span><span class="ut-chip">Ladakh</span><span class="ut-chip">Lakshadweep</span><span class="ut-chip">Puducherry</span></div></div></section><section class="page " id="glossary"><div class="hero"><div class="hero-kicker">REFERENCE · CIVICS</div><h2>Glossary & frequently asked questions</h2><p>Definitions of the institutions, election terms and constitutional language used throughout this reference.</p></div><div class="table-enhance-toolbar"><input class="table-enhance-search" placeholder="Search this table…" type="search"><span class="table-enhance-count"></span><button class="table-enhance-clear" type="button">Clear</button></div><div class="table-scroll"><table class="table" data-enhanced-table="true"><thead><tr><th class="table-sort-header" tabindex="0">Term</th><th class="table-sort-header" tabindex="0">Meaning</th></tr></thead><tbody><tr><td>First-past-the-post (FPTP)</td><td>The candidate with the highest valid vote total wins the constituency; an absolute majority is not required.</td></tr><tr><td>Lok Sabha</td><td>The directly elected House of the People; the chamber to which the Union Council of Ministers is collectively responsible.</td></tr><tr><td>Rajya Sabha</td><td>The Council of States; permanent upper House with staggered six-year terms.</td></tr><tr><td>Vidhan Sabha</td><td>State Legislative Assembly, normally directly elected for five years.</td></tr><tr><td>Vidhan Parishad</td><td>State Legislative Council, the upper House in States that have one.</td></tr><tr><td>Electoral College</td><td>The constitutionally defined group of elected representatives that elects the President or Vice-President.</td></tr><tr><td>Model Code of Conduct</td><td>ECI’s campaign-conduct framework that applies from announcement of election schedule until completion of the election process.</td></tr><tr><td>EVM</td><td>Electronic Voting Machine used to record votes in Indian elections.</td></tr><tr><td>VVPAT</td><td>Voter Verifiable Paper Audit Trail; prints a slip that the voter can view briefly.</td></tr><tr><td>Returning Officer</td><td>The statutory officer responsible for conducting election processes and declaring result in a constituency.</td></tr><tr><td>Delimitation</td><td>Redrawing or readjusting constituency boundaries and allocation of seats under law.</td></tr><tr><td>No-confidence motion</td><td>A Lok Sabha motion testing whether the Council of Ministers retains the House’s confidence.</td></tr><tr><td>Money Bill</td><td>A bill meeting Article 110 criteria; special procedure gives Lok Sabha primacy and limits Rajya Sabha’s role.</td></tr><tr><td>Anti-defection law</td><td>Tenth Schedule provisions governing disqualification of legislators on specified grounds.</td></tr><tr><td>Coalition government</td><td>Government supported by two or more parties.</td></tr><tr><td>MCC</td><td>Model Code of Conduct.</td></tr><tr><td>CAG</td><td>Comptroller and Auditor General of India; constitutional auditor of Union and State accounts as provided by law.</td></tr><tr><td>RTI</td><td>Right to Information; statutory right to access information held by public authorities, subject to exemptions.</td></tr></tbody></table></div></section><section class="page " id="sources"><div class="hero"><div class="hero-kicker">PRIMARY SOURCES · VERIFICATION</div><h2>Sources, accuracy notes & update policy</h2><p>Official sources take precedence for current officeholders, election procedure, seat terms and constitutional provisions.</p></div><div class="card"><h3>India · official sources</h3><ul><li><a href="https://www.eci.gov.in/" target="_blank" rel="noopener">Election Commission of India</a> — election administration, results, voter services, EVM/VVPAT and election law.</li><li><a href="https://www.eci.gov.in/term-of-the-houses/" target="_blank" rel="noopener">ECI · Terms of the Houses</a> — Lok Sabha, Rajya Sabha and State Assembly terms and seat references.</li><li><a href="https://www.india.gov.in/directory/whos-who" target="_blank" rel="noopener">National Portal of India · Who’s Who</a> — current President, Vice-President, Prime Minister, Council of Ministers, Governors and CMs.</li><li><a href="https://sansad.in/ls/about/introduction" target="_blank" rel="noopener">Digital Sansad · Parliament introduction</a> — constitutional framework and parliamentary structure.</li><li><a href="https://www.sci.gov.in/constitution/" target="_blank" rel="noopener">Supreme Court of India · Constitution</a> — constitutional principles and judicial role.</li><li><a href="https://www.presidentofindia.gov.in/former-presidents" target="_blank" rel="noopener">President of India · Former Presidents</a> — presidential chronology.</li><li><a href="https://www.pmindia.gov.in/" target="_blank" rel="noopener">Prime Minister’s Office</a> — official PM and Council of Ministers information.</li></ul></div><div class="card"><h3>Accuracy and interpretation notes</h3><ul><li>Officeholder snapshot: 4 November 2026. The National Portal is the live source for current officeholders; verify names before relying on this static file.</li><li>ECI’s Terms of the Houses page is the reference for terms and seat allocation. Current sitting membership can differ from sanctioned strength because of vacancies.</li><li>India has 28 States and 8 Union Territories. Jammu & Kashmir and Ladakh are UTs, not States.</li><li>Rajya Sabha sanctioned strength is commonly stated as 245: 233 elected and 12 nominated; check current official records for vacancies and actual membership.</li><li>Historical assessments are summaries, not judicial findings. Allegations, pending cases, commissions, court findings and political criticism are labelled distinctly where possible.</li><li>Current term records are provisional. The Narendra Modi government’s third term began in June 2024 and remains ongoing as of the review date.</li><li>Some state-level officeholder and seat details may change after elections, resignations, deaths, court orders, delimitation or reorganisation.</li></ul><div class="warn-box"><b>Last reviewed:</b> 4 November 2026. This is a civic learning reference, not legal advice or an official government publication. For a disputed or time-sensitive fact, follow the linked primary source and record its publication date.</div></div></section></div></main></div><div class="floating-tools"><button class="tool-btn primary" id="topBtn" title="Back to top">↑</button></div>
+<script>
+(function(){
+ const pages=[...document.querySelectorAll('.page')], nav=[...document.querySelectorAll('.nav-btn')];
+ function show(id){pages.forEach(p=>p.classList.toggle('active',p.id===id));nav.forEach(b=>b.classList.toggle('active',b.dataset.page===id));document.querySelector('.main').scrollTo({top:0,behavior:'smooth'});history.replaceState(null,'','#'+id)}
+ nav.forEach(b=>b.addEventListener('click',()=>show(b.dataset.page)));
+ document.querySelectorAll('[data-open]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();show(a.dataset.open)}));
+ document.querySelectorAll('.table-enhance-toolbar').forEach(t=>{const table=t.parentElement.querySelector('table');if(!table)return;const inp=t.querySelector('input'),count=t.querySelector('.table-enhance-count'),clear=t.querySelector('button');const rows=[...table.tBodies[0].rows];function filter(){let n=0;rows.forEach(r=>{const ok=r.innerText.toLowerCase().includes(inp.value.toLowerCase());r.hidden=!ok;if(ok)n++});count.textContent=n+' of '+rows.length+' rows'}inp.addEventListener('input',filter);clear.addEventListener('click',()=>{inp.value='';filter()});table.querySelectorAll('th').forEach((th,i)=>{th.addEventListener('click',()=>{const asc=th.dataset.sort!=='asc';table.querySelectorAll('th').forEach(x=>delete x.dataset.sort);th.dataset.sort=asc?'asc':'desc';rows.sort((a,b)=>{let x=a.cells[i].innerText.trim(),y=b.cells[i].innerText.trim();let nx=Number(x.replace(/[^0-9.-]/g,'')),ny=Number(y.replace(/[^0-9.-]/g,''));return (Number.isFinite(nx)&&Number.isFinite(ny)?nx-ny:x.localeCompare(y,undefined,{numeric:true}))* (asc?1:-1)}).forEach(r=>table.tBodies[0].appendChild(r));filter()});th.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();th.click()}})});filter()});
+ const search=document.getElementById('search-input'), results=document.getElementById('search-results'), list=document.getElementById('search-results-list'), count=document.getElementById('result-count'), empty=document.getElementById('search-empty'); search.addEventListener('input',()=>{let q=search.value.trim().toLowerCase();list.innerHTML='';if(!q){results.classList.remove('active');return}let hits=pages.filter(p=>p.textContent.toLowerCase().includes(q));count.textContent='('+hits.length+')';empty.style.display=hits.length?'none':'block';hits.slice(0,30).forEach(p=>{let item=document.createElement('button');item.type='button';item.className='search-result-item';let h=p.querySelector('h2')?.innerText||p.id;let txt=p.textContent.replace(/\s+/g,' ').trim();let pos=txt.toLowerCase().indexOf(q);item.innerHTML='<div class="search-result-title"></div><div class="search-result-snippet"></div>';item.querySelector('.search-result-title').textContent=h;item.querySelector('.search-result-snippet').textContent=txt.slice(Math.max(0,pos-65),Math.min(txt.length,pos+190));item.addEventListener('click',()=>{show(p.id);results.classList.remove('active');search.value=''});list.appendChild(item)});results.classList.add('active')}); document.getElementById('closeSearch').addEventListener('click',()=>results.classList.remove('active'));
+ document.getElementById('topBtn').addEventListener('click',()=>{document.querySelector('.main').scrollTo({top:0,behavior:'smooth'})});
+ document.querySelectorAll('.india-state-chip').forEach(b=>b.addEventListener('click',()=>{const name=b.dataset.state;document.querySelectorAll('.india-state-chip').forEach(x=>x.classList.toggle('selected',x===b));const rows=[...document.querySelectorAll('#map table tbody tr')];let r=rows.find(x=>x.cells[0].innerText.trim()===name);if(!r)return;const d=[...r.cells].map(c=>c.innerText.trim());document.getElementById('indiaStateDetail').innerHTML='<div class="us-state-detail-head"><h4>'+d[0]+'</h4><small>State / Union Territory</small></div><div class="india-state-detail-grid">'+['Capital','Chief Minister / Administrator','Lok Sabha seats','Assembly seats','Rajya Sabha seats'].map((k,i)=>'<div class="india-state-detail-cell"><span>'+k+'</span><strong>'+d[i+1]+'</strong></div>').join('')+'</div>';document.getElementById('indiaStateDetail').scrollIntoView({behavior:'smooth',block:'nearest'})}));
+
+ const mapHost=document.getElementById('indiaInteractiveMap'); const palette=['#4f91c6','#e5a04b','#62a58a','#8b79b8','#d77f76','#6f9dba','#b58a58','#7faeaa','#9b8cc2','#d48f9b']; const norm=s=>(s||'').toLowerCase().replace(/&/g,'and').replace(/[^a-z]/g,''); const aliases={'dadraandnagarhavelianddamananddiu':'Dadra & Nagar Haveli and Daman & Diu','delhi':'Delhi (NCT)','nctofdelhi':'Delhi (NCT)','jammuandkashmir':'Jammu & Kashmir','andamanandnicobarislands':'Andaman & Nicobar Islands'};
+ fetch('https://cdn.jsdelivr.net/gh/udit-001/india-maps-data@2884453/geojson/india.geojson').then(r=>{if(!r.ok)throw Error('Map data unavailable');return r.json()}).then(gj=>{const feats=gj.features||[];let coords=[];const getName=f=>{const p=f.properties||{};let raw=p.name||p.NAME_1||p.NAME||p.st_nm||p.ST_NM||p.shapeName||p.State||p.state||Object.values(p).find(v=>typeof v==='string'&&v.length>2)||'';let n=norm(raw);return aliases[n]||raw};function scan(c){if(typeof c[0]==='number'){coords.push(c);return}c.forEach(scan)}feats.forEach(f=>scan(f.geometry.coordinates));const xs=coords.map(c=>c[0]),ys=coords.map(c=>c[1]),minX=Math.min(...xs),maxX=Math.max(...xs),minY=Math.min(...ys),maxY=Math.max(...ys);const W=650,H=700,pad=18,scale=Math.min((W-2*pad)/(maxX-minX),(H-2*pad)/(maxY-minY));const project=c=>[pad+(c[0]-minX)*scale,H-pad-(c[1]-minY)*scale];function ringPath(r){return r.map((c,i)=>{const [x,y]=project(c);return (i?'L':'M')+x.toFixed(1)+','+y.toFixed(1)}).join(' ')+' Z'}function geomPath(g){if(g.type==='Polygon')return g.coordinates.map(ringPath).join(' ');if(g.type==='MultiPolygon')return g.coordinates.map(poly=>poly.map(ringPath).join(' ')).join(' ');return ''}const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox',`0 0 ${W} ${H}`);svg.setAttribute('role','img');svg.setAttribute('aria-label','Clickable map of Indian states and Union Territories');feats.forEach((f,i)=>{const name=getName(f);const path=document.createElementNS('http://www.w3.org/2000/svg','path');path.setAttribute('d',geomPath(f.geometry));path.setAttribute('fill',palette[i%palette.length]);path.dataset.state=name;path.setAttribute('tabindex','0');path.setAttribute('role','button');path.setAttribute('aria-label',name);path.addEventListener('click',()=>selectState(name));path.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectState(name)}});const title=document.createElementNS('http://www.w3.org/2000/svg','title');title.textContent=name;path.appendChild(title);svg.appendChild(path)});mapHost.innerHTML='';mapHost.appendChild(svg);function selectState(name){let key=norm(name);let btn=[...document.querySelectorAll('.india-state-chip')].find(b=>norm(b.dataset.state)===key||norm(b.dataset.state).startsWith(key)||key.startsWith(norm(b.dataset.state)));if(btn)btn.click();svg.querySelectorAll('path').forEach(p=>p.classList.toggle('selected',norm(p.dataset.state)===key))}}).catch(e=>{mapHost.innerHTML='<div class="map-loading">The boundary map could not load. Use the clickable state and UT index below; selecting a name still opens its details.</div>';console.warn(e)});
+ const hash=location.hash.slice(1);if(hash&&document.getElementById(hash))show(hash);
+})();
+</script></body></html>
