@@ -1,0 +1,2046 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><style>
+:root{--bg:#f5f7fb;--panel:#fff;--ink:#172033;--muted:#617087;--line:#dfe5ee;--accent:#0878c9;--nav:#0b1929}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+.shell{display:flex;min-height:100vh}.sidebar{position:fixed;inset:0 auto 0 0;width:278px;background:var(--nav);color:#e8eef7;overflow-y:auto;z-index:10;border-right:1px solid #1a2d47}
+.brand{padding:18px 16px;border-bottom:1px solid #1a2d47}.brand h1{font-size:17px;margin:0;color:#fff}.brand p{font-size:11px;color:#a8b8cc;margin:4px 0 0}
+.search-wrap{padding:14px 14px 10px;border-bottom:1px solid #1a2d47}.search{width:100%;padding:10px 12px;border:1px solid #2a4d6f;border-radius:6px;background:#1a2d47;color:#fff;font-size:13px}.search::placeholder{color:#9aaabd}
+.nav-group{padding:13px 15px 5px;color:#7d8fa3;font-size:10px;letter-spacing:.1em;text-transform:uppercase;font-weight:700}
+.nav-btn{width:100%;display:block;text-align:left;border:0;background:transparent;color:#c2ccda;padding:8px 15px;font-size:12.5px;cursor:pointer}.nav-btn:hover{background:#1a3047;color:#fff}.nav-btn.active{background:linear-gradient(90deg,#0878c9,#075a9a);color:#fff;border-right:3px solid #fff}
+.main{margin-left:278px;min-width:0;flex:1}.topbar{padding:15px 36px 0;max-width:1500px;margin:auto}.content{padding:18px 36px 50px;max-width:1500px;margin:auto}.page{display:none}.page.active{display:block;animation:fade .2s ease}@keyframes fade{from{opacity:.4;transform:translateY(5px)}to{opacity:1;transform:none}}
+.hero{padding:32px 34px;border-radius:10px;background:linear-gradient(135deg,#10223d,#1e4c91);color:#fff;margin-bottom:22px}.hero h2{font-size:29px;line-height:1.2;margin:5px 0 10px}.hero p{max-width:1000px;color:#dce8fb;margin:0}.eyebrow{font-size:10px;letter-spacing:.12em;font-weight:800;color:#a8d5f5}
+.card{background:#fff;border:1px solid var(--line);border-radius:9px;padding:22px;margin:17px 0;box-shadow:0 2px 8px #1720330a}.card h3{font-size:18px;margin:0 0 12px;color:#1c2c42}.card h4{font-size:14px;margin:18px 0 8px}.muted{color:var(--muted)}.small{font-size:11px}
+table{width:100%;border-collapse:collapse;margin:13px 0;font-size:12.5px}th{background:#edf3f9;text-align:left;font-weight:700;color:#233b55}th,td{padding:10px;border:1px solid var(--line);vertical-align:top}tr:nth-child(even) td{background:#fafbfd}td:first-child{font-weight:600}
+.notice{padding:13px 15px;border-left:4px solid #0878c9;background:#eef6ff;border-radius:0 7px 7px 0;margin:14px 0;font-size:12.5px}.notice.warn{border-color:#c17a18;background:#fff7e9}.source{font-size:11px;color:#68788c}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:16px 0 20px}.stat{display:block;text-decoration:none;color:inherit;background:#fff;border:1px solid var(--line);border-radius:9px;padding:17px;box-shadow:0 2px 8px #1720330a}.stat strong{display:block;font-size:27px;color:#086eae}.stat span{color:var(--muted);font-size:12px}
+.flow{display:flex;flex-direction:column;max-width:900px;margin:12px auto}.flowstep{border:1px solid #d5e2ef;background:#f5f9fd;border-radius:8px;padding:13px 16px}.flowstep b{display:block;color:#173d60}.flowstep span{font-size:12px;color:#526277}.arrow{text-align:center;color:#0878c9;font-size:22px;line-height:1.25}
+.tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.tiles a{display:block;padding:13px;background:#f7faff;border:1px solid #d9e5f0;border-radius:8px;color:#075d9e;text-decoration:none;font-weight:650}.tiles a:hover{background:#eaf4ff;border-color:#8db9da}
+.timeline{border-left:3px solid #9cc4e2;margin:8px 0 8px 8px;padding-left:20px}.timeline div{position:relative;margin:0 0 15px}.timeline div:before{content:"";position:absolute;width:10px;height:10px;border-radius:50%;background:#0878c9;left:-27px;top:6px}.timeline b{display:inline-block;min-width:95px;color:#075f9f}.timeline span{color:#45566b}
+details{border:1px solid var(--line);border-radius:7px;padding:12px;margin:9px 0}summary{font-weight:700;cursor:pointer;color:#174b77}
+.map-layout{display:grid;grid-template-columns:minmax(320px,1.1fr) minmax(220px,.8fr);gap:18px;align-items:start}.map-frame{min-width:0;background:#f5f8fc;border:1px solid #d9e4ef;border-radius:10px;padding:12px;overflow:hidden}.map-frame svg{display:block;width:100%;height:auto;max-height:850px}.map-outline{fill:#eaf0f6;stroke:#405a75;stroke-width:5;stroke-linejoin:round}.district-shape{stroke:#fff;stroke-width:4;stroke-linejoin:round;cursor:pointer;fill:#a9c8e2;transition:fill .15s,stroke .15s,stroke-width .15s}.district-shape:nth-child(odd){fill:#8fb8d8}.district-shape:hover{fill:#f2c56b;stroke:#1c4e79;stroke-width:6}.district-shape.selected{fill:#f0ad37;stroke:#123e66;stroke-width:8;filter:drop-shadow(0 2px 2px #253d5a55)}.map-context{fill:url(#disputedHatch);stroke:#9a6a6a;stroke-width:2;stroke-dasharray:6 4}.map-boundary-dash{fill:none;stroke:#9a6a6a;stroke-width:3;stroke-dasharray:8 7}.map-label-small{font-size:14px;fill:#68545a;font-weight:700}.map-north{font-size:20px;font-weight:800;fill:#314b68}.map-legend{display:flex;gap:12px;flex-wrap:wrap;margin:10px 0 3px;font-size:11px;color:#5b6b7f}.legend-dot{display:inline-block;width:12px;height:12px;border:1px solid #49627a;background:#a9c8e2;border-radius:3px;vertical-align:-2px;margin-right:5px}.active-dot{background:#f0ad37;border:2px solid #123e66}.legend-dash{display:inline-block;width:16px;border-top:3px dashed #9a6a6a;vertical-align:middle;margin-right:5px}.district-list{display:flex;flex-direction:column;gap:8px}.district-btn{display:block;text-align:left;padding:12px 13px;border:1px solid #d5e0eb;background:#fff;border-radius:8px;color:#21364d;font-weight:700;cursor:pointer}.district-btn small{display:block;color:#64758b;font-weight:400;margin-top:3px}.district-btn:hover{background:#f1f7fd;border-color:#8bb8da}.district-btn.active{border:2px solid #0878c9;background:#edf7ff;box-shadow:0 2px 8px #0878c91c}.detail-panel{margin-top:16px;padding:18px;border:1px solid #c9dcec;border-left:5px solid #0878c9;background:#f5faff;border-radius:8px}.detail-panel h3{margin:0 0 8px}.detail-panel p{margin:7px 0}
+.search-results{display:none;background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px;margin:10px 0;max-height:55vh;overflow:auto}.search-results.active{display:block}.result{display:block;padding:10px;border-bottom:1px solid var(--line);color:#075d9e;text-decoration:none}.result small{display:block;color:#68788c}
+@media(max-width:1000px){.sidebar{width:245px}.main{margin-left:245px}.content,.topbar{padding-left:24px;padding-right:24px}.map-layout{grid-template-columns:minmax(280px,1fr)}.map-frame svg{max-height:650px}}
+@media(max-width:720px){.sidebar{position:relative;width:100%;max-height:45vh}.shell{display:block}.main{margin-left:0}.content,.topbar{padding:14px}.hero{padding:23px}.hero h2{font-size:23px}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}.map-layout{grid-template-columns:1fr}.map-frame svg{max-height:700px}}
+</style><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="Visual reference to Israel elections, coalition government, the Knesset, constitutional framework, security institutions, political history, society and foreign relations." name="description"/><title>Israel Politics — Election &amp; Government Reference</title><style>
+:root{
+  --bg:#f6f8fb;
+  --panel:#fff;
+  --ink:#172033;
+  --muted:#617087;
+  --line:#dfe5ee;
+  --accent:#0071c5;
+  --accent2:#005bb3;
+  --good:#107c10;
+  --warn:#d83b01;
+  --critical:#a4373a;
+  --code:#1f1f1f;
+  --codebg:#f3f3f3;
+}
+*{box-sizing:border-box;}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;}
+.container{display:flex;min-height:100vh;}
+.sidebar{position:fixed;left:0;top:0;bottom:0;width:280px;background:#0b1929;color:#e8eef7;overflow-y:auto;padding:0;border-right:1px solid #1a2d47;z-index:100;}
+.search-box{padding:16px;border-bottom:1px solid #1a2d47;}
+.search-input{width:100%;padding:8px 12px;background:#1a2d47;border:1px solid #2a4d6f;border-radius:4px;color:#fff;font-size:12px;}
+.search-input::placeholder{color:#7d8fa3;}
+.search-input:focus{outline:none;border-color:var(--accent);}
+.brand{padding:16px;border-bottom:1px solid #1a2d47;}
+.brand h1{font-size:16px;margin:0;font-weight:600;color:#fff;}
+.brand p{font-size:11px;margin:4px 0 0;color:#a8b8cc;}
+.nav-section{padding:0;}
+.nav-group{font-size:10px;text-transform:uppercase;letter-spacing:0.8px;color:#7d8fa3;padding:14px 16px 6px;font-weight:600;}
+.nav-btn{width:100%;border:none;background:transparent;color:#bcc5d0;text-align:left;padding:8px 16px;cursor:pointer;font-size:13px;transition:all 0.2s;margin:0;}
+.nav-btn:hover{background:#1a3047;color:#fff;}
+.nav-btn.active{background:linear-gradient(90deg,#0071c5,#005bb3);color:#fff;border-right:3px solid #fff;}
+.main{margin-left:280px;flex:1;overflow-y:auto;}
+.content-wrapper{width:100%;max-width:1500px;margin:0 auto;padding:36px 42px;}
+.page{display:none !important;}
+.page.active{display:block !important;animation:fadeIn 0.3s;}
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
+.search-results{display:none;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:20px;margin:20px 0;max-height:60vh;overflow-y:auto;}
+.search-results.active{display:block;}
+.search-results-empty{color:var(--muted);padding:20px;text-align:center;}
+.search-result-item{border-left:4px solid var(--accent);padding:12px 16px;margin:10px 0;background:#f9fafb;border-radius:0 4px 4px 0;cursor:pointer;transition:all 0.2s;}
+.search-result-item:hover{background:#f0f5ff;transform:translateX(4px);}
+.search-result-title{font-weight:600;color:var(--accent);font-size:13px;}
+.search-result-chapter{font-size:11px;color:var(--muted);margin-top:4px;}
+.search-result-snippet{font-size:12px;color:var(--ink);margin-top:6px;line-height:1.4;}
+.hero{background:linear-gradient(135deg,#10223d,#1e4c91);color:white;padding:35px;border-radius:8px;margin-bottom:30px;}
+.hero h2{margin:0 0 10px;font-size:32px;font-weight:600;}
+.hero p{margin:0;font-size:14px;color:#dce8fb;max-width:1100px;line-height:1.6;}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:24px;margin:20px 0;box-shadow:0 1px 4px rgba(0,0,0,0.08);}
+.card h3{margin:0 0 15px;font-size:18px;color:var(--ink);}
+.card h4{margin:16px 0 8px;font-size:14px;color:var(--ink);font-weight:600;}
+.info-box{border-left:4px solid var(--accent);background:#f0f6ff;padding:14px 16px;border-radius:0 4px 4px 0;margin:16px 0;font-size:13px;}
+.note-box{border-left:4px solid #8a63df;background:#f5f1ff;padding:14px 16px;border-radius:0 4px 4px 0;margin:16px 0;font-size:13px;}
+.warn-box{border-left:4px solid #d83b01;background:#fff7f0;padding:14px 16px;border-radius:0 4px 4px 0;margin:16px 0;font-size:13px;}
+.critical-box{border-left:4px solid #a4373a;background:#fff0f0;padding:14px 16px;border-radius:0 4px 4px 0;margin:16px 0;font-size:13px;}
+.code-block{background:var(--codebg);border:1px solid #e0e0e0;border-radius:4px;padding:14px;font-family:'Courier New',monospace;font-size:12px;overflow-x:auto;margin:14px 0;color:var(--code);line-height:1.5;}
+.diagram{background:#f5f7fa;border:1px solid #d7e3f0;border-radius:8px;padding:16px;color:#24364b;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:12px;line-height:1.7;overflow-x:hidden;overflow-wrap:anywhere;word-break:normal;box-sizing:border-box;max-width:100%;margin:16px 0;white-space:pre-wrap;}
+.table{width:100%;border-collapse:collapse;font-size:13px;margin:16px 0;}
+.table th{background:#f4f7fb;border:1px solid var(--line);padding:10px;text-align:left;font-weight:600;color:var(--ink);}
+.table td{border:1px solid var(--line);padding:10px;text-align:left;}
+.table tr:nth-child(even){background:#fafbfc;}
+.table tr:hover{background:#f0f5ff;}
+/* Give the first column enough room across reference tables; keep identifiers intact. */
+.table th:first-child,.table td:first-child{min-width:210px;}
+.table th:first-child code,.table td:first-child code{white-space:nowrap;overflow-wrap:normal;word-break:normal;}
+/* Fusion Packaging opening flow */
+.fp-opening-card{padding:26px;}
+.fp-opening-kicker{font-size:11px;font-weight:800;letter-spacing:.09em;color:#0871b9;margin-bottom:6px;}
+.fp-opening-intro{max-width:980px;color:#526277;margin:0 0 12px;}
+.fp-flow-wrap{display:grid;grid-template-columns:minmax(0,1fr) 28px minmax(0,1.18fr) 28px minmax(0,1.18fr) 28px minmax(0,.9fr);align-items:stretch;gap:7px;margin:20px 0 16px;}
+.fp-flow-node{display:flex;flex-direction:column;min-width:0;padding:16px 14px;border:1px solid #d8e3ef;border-top:4px solid #507da9;border-radius:10px;background:linear-gradient(180deg,#f5f9fd 0%,#fff 55%);}
+.fp-flow-assets{border-top-color:#0877bd;background:linear-gradient(180deg,#eef7ff 0%,#fff 58%);}
+.fp-flow-package{border-top-color:#39816c;background:linear-gradient(180deg,#f0faf5 0%,#fff 58%);}
+.fp-flow-output{border-top-color:#6c7aa3;background:linear-gradient(180deg,#f4f5fb 0%,#fff 58%);}
+.fp-flow-kicker{font-size:9px;font-weight:800;letter-spacing:.07em;color:#62758b;line-height:1.4;margin-bottom:9px;}
+.fp-flow-node h4{margin:0 0 9px;font-size:15px;line-height:1.35;overflow-wrap:anywhere;}
+.fp-flow-node h4 code{white-space:normal;}
+.fp-flow-node p{margin:0 0 14px;font-size:12px;line-height:1.55;color:#43566d;}
+.fp-flow-links{display:flex;flex-direction:column;gap:6px;margin-top:auto;padding-top:4px;}
+.fp-flow-links a,.fp-responsibility-card a{font-size:11px;font-weight:650;line-height:1.4;}
+.fp-flow-arrow{display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:700;color:#0879c9;}
+.fp-dependency-note{padding:13px 15px;border-left:4px solid #0877bd;border-radius:0 8px 8px 0;background:#eef6ff;color:#2e465e;font-size:12px;line-height:1.65;}
+.fp-responsibility-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:16px;}
+.fp-responsibility-card{padding:17px;border:1px solid var(--line);border-radius:9px;background:#fff;min-width:0;}
+.fp-tool-label{font-size:10px;font-weight:800;letter-spacing:.07em;color:#64758a;margin-bottom:6px;}
+.fp-responsibility-card h4{margin:0 0 8px;font-size:15px;}
+.fp-responsibility-card p{margin:0 0 10px;font-size:12px;line-height:1.6;color:#43566d;}
+@media(max-width:1200px){.fp-flow-wrap{grid-template-columns:minmax(0,1fr);gap:5px}.fp-flow-node{padding:14px 16px}.fp-flow-arrow{transform:rotate(90deg);font-size:21px;line-height:1;padding:0}.fp-flow-links{flex-direction:row;flex-wrap:wrap;column-gap:16px;}}
+@media(max-width:768px){.fp-opening-card{padding:18px}.fp-responsibility-grid{grid-template-columns:minmax(0,1fr)}.fp-flow-links{flex-direction:column;gap:7px}.table{display:block;max-width:100%;overflow-x:auto;}
+.table th:first-child,.table td:first-child{min-width:190px;}}
+
+.badge{display:inline-block;background:#edf3ff;color:#0071c5;padding:2px 8px;border-radius:3px;font-size:11px;font-weight:600;margin:2px 2px 2px 0;}
+.badge-verified{background:#e7f5e7;color:#107c10;}
+.badge-documented{background:#fff7f0;color:#d83b01;}
+.badge-partial{background:#fff0f5;color:#8a63df;}
+.badge-inference{background:#fef8f0;color:#c56103;}
+.badge-unknown{background:#f5f5f5;color:#666;}
+ul,ol{margin:12px 0;padding-left:24px;}
+li{margin:6px 0;}
+a{color:var(--accent);text-decoration:none;}
+a:hover{text-decoration:underline;}
+.back-to-top{display:inline-block;padding:8px 14px;margin:16px 0;background:var(--panel);border:1px solid var(--line);border-radius:4px;color:var(--accent);text-decoration:none;font-size:12px;transition:all 0.2s;cursor:pointer;}
+.back-to-top:hover{background:#f0f6ff;border-color:var(--accent);}
+.highlight{background-color:yellow;font-weight:bold;}
+.search-hit{background:#ffeb3b!important;color:#172033!important;padding:0 2px;border-radius:2px;font-weight:800;box-decoration-break:clone;-webkit-box-decoration-break:clone;}
+.search-result-chapter .search-typo-note{color:#b45309;font-weight:700;}
+/* Floating quick navigation and page-edge controls, matching the oneAPI-CI reference */
+.floating-tools{position:fixed;right:20px;bottom:22px;z-index:1200;display:flex;flex-direction:column;align-items:flex-end;gap:9px}
+.tool-btn{width:44px;height:44px;border:1px solid #cbd5e1;border-radius:50%;background:#fff;color:#172033;box-shadow:0 4px 14px rgba(14,39,65,.18);cursor:pointer;font-size:20px;display:flex;align-items:center;justify-content:center}
+.tool-btn:hover,.tool-btn:focus{background:#eaf4ff;border-color:#0878c9;outline:2px solid transparent}
+.tool-btn.primary{background:#0878c9;color:#fff;border-color:#0878c9}
+.quick-panel{display:none;flex-direction:column;gap:2px;min-width:190px;max-height:55vh;overflow:auto;padding:8px;background:#fff;border:1px solid #dfe5ee;border-radius:10px;box-shadow:0 8px 24px rgba(14,39,65,.2)}
+.quick-panel.open{display:flex}
+.quick-panel a{display:block;padding:8px 10px;border-radius:6px;color:#172033;text-decoration:none;font-size:12px}
+.quick-panel a:hover,.quick-panel a:focus{background:#eaf4ff;color:#005bb3}
+@media(max-width:768px){.floating-tools{right:12px;bottom:14px}.tool-btn{width:40px;height:40px}.quick-panel{max-width:calc(100vw - 32px)}}
+@media(max-width:1024px){.sidebar{width:240px;}.main{margin-left:240px;}.content-wrapper{padding:30px 35px;}.card{padding:18px;}}
+@media(max-width:768px){.sidebar{position:absolute;width:260px;z-index:1000;}.main{margin-left:0;}.content-wrapper{padding:20px;}.hero h2{font-size:24px;}.hero{padding:24px;}}
+.flow-diagram{background:#f5f7fa;border:1px solid #d7e3f0;border-radius:8px;padding:16px;margin:16px 0;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:12px;line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere;word-break:normal;overflow-x:hidden;box-sizing:border-box;max-width:100%;}
+.core-flow{display:flex;flex-direction:column;gap:0;padding:0;background:transparent;border:0;font-family:inherit;font-size:14px;line-height:1.5;}
+.core-flow-step{display:grid;grid-template-columns:42px minmax(0,1fr);gap:12px;align-items:start;background:#f5f8fc;border:1px solid #d7e3f0;border-radius:9px;padding:14px 16px;}
+.core-flow-number{display:flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background:#0b65a5;color:white;font-weight:700;}
+.core-flow-step strong{display:block;margin:1px 0 4px;color:#142c45;font-size:15px;}
+.core-flow-step p{margin:0;color:#334155;}
+.core-flow-arrow{text-align:center;color:#0878c9;font-size:23px;font-weight:700;line-height:1.3;padding:3px 0;}
+@media(max-width:520px){.core-flow-step{grid-template-columns:32px minmax(0,1fr);gap:9px;padding:12px}.core-flow-number{width:28px;height:28px}}
+.source-link{font-size:11px;color:var(--muted);margin-top:8px;word-break:break-all;}
+.toc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:16px 0;}
+.toc-section-link{display:block;padding:10px 12px;background:var(--panel);border:1px solid var(--line);border-radius:4px;color:var(--accent);text-decoration:none;font-size:13px;transition:all 0.2s;}
+.toc-section-link:hover{background:#f0f6ff;border-color:var(--accent);transform:translateY(-1px);box-shadow:0 2px 6px rgba(0,113,197,0.1);}
+
+/* Search results stay in the left sidebar, directly below the search field. */
+.sidebar .search-results{display:none;position:relative;background:#10243a;border:0;border-bottom:1px solid #1a2d47;border-radius:0;padding:10px;margin:0;max-height:42vh;overflow-y:auto;color:#e8eef7;}
+.sidebar .search-results.active{display:block;}
+.sidebar .search-results-header{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px;}
+.sidebar .search-results-header h3{font-size:12px;color:#fff;margin:0;}
+.sidebar .search-results-header button{color:#cbd6e4!important;float:none!important;background:transparent!important;}
+.sidebar .search-result-item{padding:9px 7px;border-bottom:1px solid #263d56;cursor:pointer;overflow-wrap:anywhere;}
+.sidebar .search-result-item:hover{background:#1a3047;}
+.sidebar .search-result-title{font-size:12px;font-weight:600;color:#fff;line-height:1.35;}
+.sidebar .search-result-chapter{font-size:10px;color:#9fb0c5;margin-top:3px;}
+.sidebar .search-result-snippet{font-size:11px;color:#d1dae6;line-height:1.4;margin-top:4px;}
+.sidebar .search-results-empty{font-size:11px;color:#a8b8cc;padding:10px 4px;}
+
+
+/* Search belongs in the main body, not the left navigation sidebar. */
+.body-search{width:100%;max-width:1500px;margin:18px auto 0;padding:0 42px;position:relative;z-index:20;}
+.body-search .search-box{padding:0 0 12px;border-bottom:0;}
+.body-search .search-input{box-sizing:border-box;width:100%;padding:11px 14px;background:var(--panel);border:1px solid var(--line);border-radius:6px;color:var(--ink);font-size:14px;}
+.body-search .search-results{display:none;position:relative;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:18px;margin:0 0 14px;max-height:55vh;overflow-y:auto;color:var(--text);box-shadow:0 8px 24px rgba(0,0,0,.12);}
+.body-search .search-results.active{display:block;}
+.body-search .search-results-header{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:10px;}
+.body-search .search-results-header h3{font-size:15px;margin:0;}
+.body-search .search-results-header button{color:var(--text)!important;float:none!important;background:transparent!important;}
+.body-search .search-result-item{padding:12px 14px;border-bottom:1px solid var(--line);cursor:pointer;overflow-wrap:anywhere;background:transparent;}
+.body-search .search-result-item:hover{background:var(--bg);}
+.body-search .search-result-title{font-weight:600;}
+.body-search .search-result-snippet{line-height:1.5;margin-top:4px;}
+.body-search .search-results-empty{color:var(--muted);padding:12px 4px;text-align:center;}
+@media(max-width:768px){.body-search{padding:0 20px;margin-top:14px;}}
+
+
+/* Keep workflow sequences readable on desktop and mobile: preserve line breaks and wrap long labels. */
+pre, pre code{white-space:pre-wrap;overflow-wrap:anywhere;word-break:normal;max-width:100%;box-sizing:border-box;}
+.card pre{overflow-x:hidden;}
+@media(max-width:768px){.diagram,.flow-diagram{font-size:11px;padding:12px;line-height:1.65}}
+
+.audit-status{border-left:4px solid #b7791f}.audit-source h2{margin-top:0}.source-meta{color:var(--muted);font-size:.92em}.audit-source table{font-size:.88em}.table-scroll{max-width:100%;overflow-x:auto}.audit-source pre{max-width:100%;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere}.audit-source code{overflow-wrap:anywhere}.audit-source li{margin:.35em 0}.audit-source h1,.audit-source h2,.audit-source h3,.audit-source h4{scroll-margin-top:20px}
+
+.audit-report-content{overflow-wrap:anywhere}.audit-report-content h1{font-size:1.5rem;margin-top:1.4em}.audit-report-content h2{font-size:1.25rem;margin-top:1.4em}.audit-report-content h3{font-size:1.05rem;margin-top:1.2em}.audit-report-content pre{white-space:pre-wrap;overflow-wrap:anywhere;max-width:100%;background:var(--codebg);padding:12px;border-radius:6px;overflow:auto}.audit-report-content table{display:block;max-width:100%;overflow-x:auto;border-collapse:collapse}.audit-report-content th,.audit-report-content td{border:1px solid var(--line);padding:7px;text-align:left;vertical-align:top}.audit-report-content code{overflow-wrap:anywhere}
+
+
+/* OMIX chapter: readable, task-oriented structure */
+.omix-start-here .omix-flow{display:flex;flex-direction:column;gap:6px;margin:16px 0}
+.omix-flow-step{border:1px solid var(--border,#d6dbe1);border-radius:9px;padding:12px 14px;background:var(--card-bg,#fff);display:flex;flex-direction:column;gap:4px}
+.omix-flow-step span{color:var(--muted,#5d6673);font-size:.94em}
+.omix-flow-arrow{text-align:center;font-size:1.2rem;line-height:1.1;color:var(--muted,#687384)}
+.omix-index{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:8px 22px}
+.omix-index a{font-weight:600}
+.omix-table{width:100%;border-collapse:collapse;display:table}
+.omix-table th,.omix-table td{border:1px solid var(--border,#d6dbe1);padding:9px 10px;text-align:left;vertical-align:top}
+.omix-table th{background:var(--surface-muted,#f2f4f7)}
+.small-note{font-size:.9em;color:var(--muted,#5d6673)}
+@media(max-width:700px){.omix-table{display:block;overflow-x:auto}.omix-index{grid-template-columns:1fr}}
+
+
+/* Interactive jargon glossary */
+.glossary-term { text-decoration: underline dotted currentColor; text-underline-offset: 3px; cursor: help; border-radius: 2px; }
+.glossary-term:focus-visible { outline: 2px solid var(--accent, #4776d0); outline-offset: 2px; }
+/* Navigation jargon is plain text: no glossary underline or help cursor in either navigation area. */
+.sidebar .glossary-term,
+.quick-panel .glossary-term,
+#quickPanel .glossary-term { text-decoration: none !important; cursor: inherit; }
+.sidebar a,
+.sidebar a:hover,
+.sidebar a:focus,
+.sidebar a:visited { text-decoration: none; }
+.quick-panel a:hover,
+.quick-panel a:focus { text-decoration: none; }
+#jargon-popover { position: fixed; z-index: 99999; max-width: min(360px, calc(100vw - 24px)); padding: 12px 14px; border: 1px solid var(--border-color, #8886); border-radius: 10px; box-shadow: 0 8px 28px #0003; background: var(--card-bg, Canvas); color: var(--text-color, CanvasText); font-size: 13px; line-height: 1.45; display: none; }
+#jargon-popover strong { display:block; margin-bottom:5px; font-size:14px; }
+#jargon-popover .jargon-short { opacity:.75; margin-bottom:4px; font-size:11px; text-transform:uppercase; letter-spacing:.04em; }
+
+/* Jargon definitions are selection-only; no hover tooltip. */
+.glossary-term:hover { /* intentionally no tooltip or popup on hover */ }
+
+.e2e-layout{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(280px,.9fr);gap:18px;align-items:start;margin:18px 0}.e2e-canvas,.e2e-detail{border:1px solid var(--border-color,#d7deea);border-radius:12px;padding:16px;background:var(--panel-bg,#fff);min-width:0}.e2e-lane{font-size:11px;font-weight:800;letter-spacing:.07em;color:var(--muted,#5c6677);padding:10px 4px 7px;border-bottom:1px solid var(--border-color,#d7deea);margin:8px 0 10px}.e2e-node,.e2e-decision{display:block;width:min(100%,560px);margin:0 auto;padding:11px 13px;border:1px solid #b8c7dd;border-radius:8px;background:#f5f8fc;color:#172b4d;font:inherit;font-size:13px;line-height:1.4;text-align:center;cursor:pointer}.e2e-node:hover,.e2e-node:focus-visible{border-color:#4776d0;outline:2px solid #4776d033}.e2e-node.selected{border:2px solid #4776d0;background:#eaf1ff}.e2e-arrow{text-align:center;color:#718096;font-size:20px;line-height:1.7}.e2e-decision{background:#fff7e8;border-color:#dfb45f;font-weight:700}.e2e-detail{position:sticky;top:16px;max-height:calc(100vh - 40px);overflow:auto;min-height:220px}.e2e-detail h3{font-size:18px}.e2e-detail p,.e2e-detail li{font-size:13px;line-height:1.55}.e2e-status{display:inline-block;padding:4px 7px;border-radius:4px;font-size:10px;font-weight:800;margin-bottom:8px;background:#edf8ef;color:#225c2b}.e2e-status.partial{background:#fff4e5;color:#81520c}.e2e-status.unknown{background:#fceeee;color:#8a2525}.e2e-detail dl{display:grid;grid-template-columns:78px 1fr;gap:6px 10px;font-size:12px;line-height:1.45}.e2e-detail dt{font-weight:800;color:var(--muted,#5c6677)}.e2e-detail dd{margin:0;overflow-wrap:anywhere}@media(max-width:900px){.e2e-layout{grid-template-columns:1fr}.e2e-detail{position:static;max-height:none}}
+
+/* Clean section navigation and dashboard visual language */
+.nav-group{font-size:10px;text-transform:uppercase;letter-spacing:0.9px;color:#8fa5bd;padding:15px 16px 7px;font-weight:700;}
+.nav-btn{line-height:1.35;}
+.dashboard-header{display:grid;grid-template-columns:minmax(0,1fr) minmax(230px,330px);gap:22px;align-items:end;margin:0 0 24px;}
+.dashboard-eyebrow{margin:0 0 8px;color:#1d6ec7;font-size:11px;font-weight:800;letter-spacing:1.5px;}
+.dashboard-header h2{font-size:34px;line-height:1.15;margin:0 0 8px;color:#102642;}
+.dashboard-lead{font-size:15px;line-height:1.65;margin:0;color:#536477;max-width:900px;}
+.dashboard-note{border:1px solid #c9dff9;background:linear-gradient(135deg,#eef6ff,#f8fbff);border-radius:12px;padding:17px 18px;color:#234568;box-shadow:0 3px 12px rgba(22,76,135,.05);}
+.dashboard-note strong{display:block;font-size:14px;color:#164b86;margin-bottom:6px;}
+.dashboard-note span{font-size:12px;line-height:1.55;display:block;}
+.dashboard-flow-card{border:1px solid #d9e5f2;background:linear-gradient(180deg,#fbfdff,#f7faff);box-shadow:0 4px 18px rgba(18,51,86,.07);border-radius:14px;padding:22px;margin:0 0 20px;max-width:100%;box-sizing:border-box;}
+.dashboard-section-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:15px;margin-bottom:18px;}
+.dashboard-section-heading h3{font-size:23px;line-height:1.25;margin:0 0 5px;color:#122742;}
+.dashboard-section-heading p{margin:0;color:#5e7085;font-size:13px;line-height:1.5;}
+.dashboard-pill{white-space:nowrap;display:inline-flex;align-items:center;padding:6px 10px;border-radius:999px;background:#edf2f8;border:1px solid #dbe4ee;color:#52667b;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;}
+.dashboard-flow-grid{display:grid;grid-template-columns:minmax(0,1fr) 20px minmax(0,1fr) 20px minmax(0,1fr) 20px minmax(0,1fr);gap:7px;align-items:stretch;}
+.dashboard-stage{min-width:0;border-radius:11px;padding:12px;border:1px solid var(--stage-border);background:var(--stage-bg);display:flex;flex-direction:column;gap:8px;}
+.stage-source{--stage-bg:#eaf4ff;--stage-border:#a7d1f5;--stage-title:#0068b5;--step-bg:#f9fcff;}
+.stage-build{--stage-bg:#fff0e2;--stage-border:#f4bc85;--stage-title:#c65d00;--step-bg:#fffbf7;}
+.stage-test{--stage-bg:#e6f9ed;--stage-border:#9ce4b7;--stage-title:#087542;--step-bg:#fbfffc;}
+.stage-promote{--stage-bg:#fff6dc;--stage-border:#f3d277;--stage-title:#86530a;--step-bg:#fffefa;}
+.dashboard-stage-title{display:flex;align-items:center;gap:8px;min-height:32px;color:var(--stage-title);}
+.dashboard-stage-title h4{margin:0;font-size:13px;line-height:1.25;color:inherit;}
+.dashboard-stage-icon{display:inline-flex;width:27px;height:27px;flex:0 0 27px;align-items:center;justify-content:center;border-radius:8px;background:rgba(255,255,255,.75);font-size:18px;font-weight:800;}
+.dashboard-step{background:var(--step-bg);border:1px solid color-mix(in srgb,var(--stage-border) 78%,white);border-radius:8px;padding:9px 8px;font-size:11px;line-height:1.35;color:#273c53;overflow-wrap:anywhere;}
+.dashboard-arrow{display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:700;color:#3978ba;}
+.dashboard-branch-note{display:flex;align-items:flex-start;gap:10px;margin:14px 0 16px;padding:12px 14px;background:#f0f6ff;border:1px solid #c9def9;border-radius:9px;color:#385571;font-size:12px;line-height:1.55;}
+.branch-mark{font-weight:800;color:#1869bb;font-size:19px;line-height:1;}
+.dashboard-foundation{border:1px solid #f1be8b;background:linear-gradient(120deg,#fff2e5,#fffaf5);border-radius:11px;padding:13px;margin-top:12px;min-width:0;}
+.dashboard-foundation-title{display:flex;align-items:center;gap:9px;margin-bottom:10px;color:#c65d00;}
+.dashboard-foundation-title>span{font-size:21px;font-weight:800;}
+.dashboard-foundation-title h4{margin:0;color:#a84f00;font-size:14px;}
+.dashboard-infra-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;}
+.dashboard-infra-item{background:rgba(255,255,255,.88);border:1px solid #f5d3af;border-radius:8px;padding:10px;min-width:0;}
+.dashboard-infra-item strong{display:block;color:#23496e;font-size:11px;margin-bottom:4px;}
+.dashboard-infra-item span{display:block;color:#5f7285;font-size:10px;line-height:1.4;}
+.dashboard-lower-grid{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(230px,.9fr);gap:12px;}
+.dashboard-repos{background:linear-gradient(120deg,#eaf4ff,#f8fbff);border-color:#a7d1f5;}
+.dashboard-repos .dashboard-foundation-title{color:#0068b5;}
+.dashboard-repos .dashboard-foundation-title h4{color:#064f85;}
+.dashboard-repo-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;}
+.dashboard-repo-item{background:#fff;border:1px solid #bfdaf5;border-radius:8px;padding:10px 9px;font-size:11px;line-height:1.4;color:#244f76;min-width:0;}
+.dashboard-output{background:linear-gradient(120deg,#e5f9ed,#f5fff8);border-color:#a9e7c0;}
+.dashboard-output .dashboard-foundation-title{color:#0c8c4b;}
+.dashboard-output .dashboard-foundation-title h4{color:#12643b;}
+.dashboard-output-list{display:grid;grid-template-columns:1fr;gap:7px;}
+.dashboard-output-list div{padding:8px 10px;background:#fff;border:1px solid #c6edd4;border-radius:7px;font-size:11px;line-height:1.4;color:#2d6344;}
+.dashboard-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin:18px 0;}
+.dashboard-summary{border:1px solid var(--summary-border);background:var(--summary-bg);border-radius:11px;padding:17px;min-width:0;display:flex;flex-direction:column;}
+.summary-purpose{--summary-bg:#fff2e5;--summary-border:#f1c99d;--summary-color:#c65d00;}
+.summary-workflows{--summary-bg:#eafaef;--summary-border:#c3ebcf;--summary-color:#147744;}
+.summary-components{--summary-bg:#fff7e2;--summary-border:#f1dfa5;--summary-color:#926311;}
+.summary-omix{--summary-bg:#fbeef2;--summary-border:#efc7d3;--summary-color:#a83253;}
+.dashboard-summary h3{display:flex;align-items:center;gap:8px;margin:0 0 9px;font-size:15px;color:#1b2d43;}
+.dashboard-summary h3 span{font-size:20px;color:var(--summary-color);}
+.dashboard-summary p{margin:0 0 13px;color:#4d5e70;font-size:12px;line-height:1.55;flex:1;}
+.dashboard-link{align-self:flex-start;border:0;padding:0;background:transparent;color:var(--summary-color);font-weight:700;font-size:12px;cursor:pointer;text-decoration:none;}
+.dashboard-link:hover{text-decoration:underline;}
+.dashboard-footer-note{border-left:3px solid #9db8d6;padding:9px 12px;color:#5e7186;font-size:11px;line-height:1.55;background:#f7faff;border-radius:0 6px 6px 0;margin:10px 0 0;}
+@media(max-width:1160px){
+ .dashboard-flow-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}
+ .dashboard-arrow{display:none;}
+ .dashboard-infra-grid{grid-template-columns:repeat(3,minmax(0,1fr));}
+ .dashboard-repo-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+ .dashboard-cards{grid-template-columns:repeat(2,minmax(0,1fr));}
+}
+@media(max-width:768px){
+ .dashboard-header{grid-template-columns:1fr;}
+ .dashboard-header h2{font-size:28px;}
+ .dashboard-flow-card{padding:14px;}
+ .dashboard-section-heading{flex-direction:column;}
+ .dashboard-flow-grid{grid-template-columns:1fr;}
+ .dashboard-infra-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+ .dashboard-lower-grid{grid-template-columns:1fr;}
+ .dashboard-cards{grid-template-columns:1fr;}
+}
+
+
+/* Enhanced Overview dashboard: multi-lane, clickable and evidence-bounded */
+.overview-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(270px,350px);gap:24px;align-items:stretch;margin:0 0 22px}.overview-hero-copy{padding:4px 0}.overview-eyebrow{font-size:10px;font-weight:800;letter-spacing:1.6px;color:#0d68bd;margin:0 0 7px}.overview-hero h2{font-size:35px;line-height:1.15;color:#122640;margin:0 0 9px}.overview-lead{font-size:15px;line-height:1.65;color:#4e6176;max-width:900px;margin:0}.overview-hero-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:17px}.overview-action{background:#fff;border:1px solid #c9d8e8;color:#234b72;border-radius:8px;padding:9px 12px;font-size:12px;font-weight:700;cursor:pointer}.overview-action.primary{background:#125eb3;border-color:#125eb3;color:#fff}.overview-action:hover{filter:brightness(.97);box-shadow:0 2px 8px rgba(27,67,108,.12)}
+.overview-evidence-card{border:1px solid #d2e0ef;background:linear-gradient(145deg,#f3f8ff,#e9f3ff);border-radius:13px;padding:16px 17px;box-shadow:0 4px 14px rgba(30,69,110,.06)}.overview-evidence-card h3{display:flex;gap:8px;align-items:center;margin:0 0 12px;font-size:14px;color:#153e6d}.overview-evidence-icon{font-size:23px;color:#176abe}.overview-evidence-row{display:flex;gap:9px;align-items:flex-start;margin:9px 0}.evidence-dot{flex:0 0 9px;width:9px;height:9px;border-radius:50%;margin-top:5px}.code-dot{background:#1474cf}.docs-dot{background:#8d58c7}.external-dot{background:#d99920}.overview-evidence-row strong{display:block;color:#284763;font-size:11px;margin-bottom:3px}.overview-evidence-row small{display:block;color:#5c7186;font-size:10px;line-height:1.45}.overview-snapshot-note{border-top:1px solid #d1e0f0;padding-top:9px;margin:11px 0 0;font-size:9px;line-height:1.5;color:#66788a}
+.overview-section-title{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;margin:20px 0 12px}.overview-section-title h3{font-size:22px;line-height:1.25;margin:0 0 4px;color:#132c49}.overview-section-title p{font-size:12px;margin:0;color:#64778a;line-height:1.5}.overview-label{font-size:9px;text-transform:uppercase;letter-spacing:.8px;font-weight:800;color:#61768a;background:#f1f5f9;border:1px solid #dbe4ec;border-radius:999px;padding:5px 9px;white-space:nowrap}.overview-lanes{display:flex;flex-direction:column;gap:14px}.overview-lane{border-radius:13px;border:1px solid var(--lane-border);background:linear-gradient(165deg,var(--lane-tint),#fff);padding:16px;box-shadow:0 3px 12px rgba(20,48,79,.045);min-width:0}.lane-component{--lane-border:#d6c3f7;--lane-tint:#f9f5ff;--lane-strong:#7545b9;--lane-step:#fff}.lane-integration{--lane-border:#b7d7f6;--lane-tint:#f1f8ff;--lane-strong:#1768af;--lane-step:#fff}.lane-resource-promotion{--lane-border:#f1dca5;--lane-tint:#fffaf0;--lane-strong:#94650e;--lane-step:#fff}.overview-lane-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin:0 0 14px}.overview-lane-title{display:flex;align-items:flex-start;gap:10px;min-width:0}.lane-index{display:flex;align-items:center;justify-content:center;width:29px;height:29px;border-radius:9px;background:var(--lane-strong);color:#fff;font-weight:800;font-size:13px;flex:0 0 29px}.overview-lane-title h4{color:#18344f;font-size:16px;line-height:1.3;margin:0 0 4px}.overview-lane-title p{color:#61758a;font-size:11px;line-height:1.5;margin:0;max-width:850px}.overview-status{font-size:9px;line-height:1.35;font-weight:700;padding:6px 8px;border-radius:6px;white-space:nowrap;max-width:200px;text-align:center}.status-docs{color:#6942a4;background:#f0e7ff;border:1px solid #dac8f7}.status-code{color:#155d9d;background:#e1f0ff;border:1px solid #bad8f8}
+.overview-flow{display:grid;grid-template-columns:minmax(0,1fr) 18px minmax(0,1fr) 18px minmax(0,1fr) 18px minmax(0,1fr);gap:6px;align-items:stretch}.overview-node{background:var(--lane-step);border:1px solid color-mix(in srgb,var(--lane-border) 74%,white);border-radius:9px;padding:11px;min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:5px}.node-type{font-size:8px;font-weight:800;letter-spacing:.9px;color:var(--lane-strong);text-transform:uppercase}.overview-node h5{font-size:12px;line-height:1.35;color:#213d59;margin:0;overflow-wrap:anywhere}.overview-node p{font-size:10px;line-height:1.5;color:#5e7184;margin:0 0 3px;overflow-wrap:anywhere;flex:1}.overview-node a,.node-link{font-size:10px;font-weight:700;line-height:1.4;color:var(--lane-strong);text-decoration:none;border:0;background:none;padding:0;cursor:pointer;text-align:left}.overview-node a:hover,.node-link:hover{text-decoration:underline}.overview-flow-arrow{display:flex;align-items:center;justify-content:center;color:var(--lane-strong);font-size:25px;font-weight:800}.overview-lane-note{font-size:10px;color:#526a80;line-height:1.55;border-top:1px solid color-mix(in srgb,var(--lane-border) 72%,white);padding-top:10px;margin-top:12px}.overview-lane-note strong{color:#324e68}.overview-parallel-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}.overview-parallel-card{border:1px dashed #9ab9da;background:#fff;border-radius:10px;padding:12px;min-width:0}.overview-parallel-card h5{font-size:12px;color:#214d7a;margin:5px 0 6px}.overview-parallel-card p{font-size:10px;line-height:1.5;color:#5a6e82;margin:0 0 7px}.overview-parallel-card a{font-size:10px;color:#1c65a8;font-weight:700;text-decoration:none}.overview-parallel-card a:hover{text-decoration:underline}.parallel-tag{font-size:8px;font-weight:800;letter-spacing:.7px;color:#47709a;background:#eff6ff;border-radius:5px;padding:4px 6px;display:inline-block}
+.overview-foundation{border:1px solid #cbdbea;background:linear-gradient(120deg,#f1f7fc,#f9fbfd);border-radius:12px;padding:15px;margin-top:18px}.overview-service-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px}.overview-service{padding:12px;border:1px solid #d1dfed;background:#fff;border-radius:9px;display:flex;flex-direction:column;gap:5px;text-decoration:none;min-width:0;transition:box-shadow .15s,transform .15s}.overview-service:hover{box-shadow:0 4px 12px rgba(32,71,111,.12);transform:translateY(-1px)}.overview-service strong{font-size:11px;color:#233f59}.overview-service span{font-size:10px;line-height:1.45;color:#60758a;flex:1}.overview-service small{font-size:9px;line-height:1.4;font-weight:700;color:#1d65a6}.service-blue{border-top:3px solid #2780d0}.service-teal{border-top:3px solid #13a6a0}.service-green{border-top:3px solid #27a667}.service-gold{border-top:3px solid #d7a126}.service-purple{border-top:3px solid #8b59c5}
+.overview-bottom-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:13px;margin-top:15px}.overview-bottom-card{border:1px solid #dce5ed;border-radius:11px;padding:16px;background:#fff;min-width:0}.overview-bottom-card h3{font-size:14px;color:#18334d;margin:0 0 10px}.overview-bottom-card ul{margin:0;padding-left:17px;color:#5a6e81;font-size:11px;line-height:1.7}.overview-quicklinks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.overview-quicklinks button{border:1px solid #d3dfeb;border-radius:7px;background:#f8fbff;color:#1d5e9c;font-size:10px;font-weight:700;padding:9px 8px;text-align:left;cursor:pointer}.overview-quicklinks button:hover{background:#edf6ff}.overview-notice{margin-top:15px;padding:12px 14px;border-left:3px solid #8daeca;background:#f5f8fb;color:#5d7083;font-size:10px;line-height:1.55;border-radius:0 7px 7px 0}.overview-notice strong{color:#334f69}
+/* Every page gets a curated code/resource panel for direct navigation */
+.resource-panel{border:1px solid #d6e2ee;border-radius:11px;background:linear-gradient(135deg,#f7fbff,#fff);padding:16px;margin:24px 0 4px;box-shadow:0 2px 9px rgba(24,55,88,.035)}.resource-panel-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin-bottom:12px}.resource-panel-kicker{display:block;font-size:8px;font-weight:800;letter-spacing:1.25px;color:#2878bd;margin-bottom:5px}.resource-panel-heading h3{font-size:16px;color:#183650;line-height:1.3;margin:0 0 4px}.resource-panel-heading p{font-size:10px;color:#6b7d8f;line-height:1.5;margin:0;max-width:900px}.resource-index-button{border:1px solid #bdd3e8;border-radius:7px;background:#fff;color:#1b5e98;font-size:10px;font-weight:700;padding:8px 10px;white-space:nowrap;cursor:pointer}.resource-index-button:hover{background:#edf6ff}.resource-links-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}.resource-link-card{border:1px solid #e0e8f0;background:#fff;border-radius:8px;padding:11px;min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:5px}.resource-type{font-size:8px;font-weight:800;letter-spacing:.7px;color:#697d90;background:#f0f4f7;border-radius:4px;padding:3px 5px}.resource-link-card>a,.resource-page-link{font-size:11px;line-height:1.4;color:#1765a8;font-weight:700;text-decoration:none;overflow-wrap:anywhere}.resource-link-card>a:hover,.resource-page-link:hover{text-decoration:underline}.resource-page-link{padding:0;border:0;background:none;cursor:pointer;text-align:left}.resource-link-card p{font-size:10px;line-height:1.5;color:#63768a;margin:0}
+@media(max-width:1250px){.overview-flow{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.overview-flow-arrow{display:none}.overview-service-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:900px){.overview-hero{grid-template-columns:1fr}.overview-service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.overview-bottom-grid{grid-template-columns:1fr}.resource-links-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.overview-hero h2{font-size:28px}.overview-section-title{align-items:flex-start;flex-direction:column}.overview-lane-heading{flex-direction:column}.overview-flow{grid-template-columns:1fr}.overview-parallel-grid{grid-template-columns:1fr}.overview-service-grid{grid-template-columns:1fr}.overview-bottom-grid{grid-template-columns:1fr}.overview-quicklinks{grid-template-columns:repeat(2,minmax(0,1fr))}.resource-links-grid{grid-template-columns:1fr}.resource-panel-heading{flex-direction:column}}
+
+
+/* Clean, readable Overview dashboard */
+.overview-hero{grid-template-columns:minmax(0,1fr);gap:12px;margin-bottom:24px;}
+.overview-hero-copy{max-width:1100px;}
+.overview-hero h2{font-size:34px;line-height:1.18;margin-bottom:10px;}
+.overview-lead{font-size:15px;line-height:1.65;max-width:1050px;}
+.overview-hero-actions{margin-top:16px;gap:8px;}
+.overview-action{font-size:12px;padding:9px 13px;}
+.overview-section-title{margin:22px 0 13px;}
+.overview-section-title h3{font-size:21px;}
+.overview-section-title p{font-size:13px;line-height:1.55;}
+.overview-lane{padding:17px;}
+.overview-lane-heading{margin-bottom:15px;}
+.overview-lane-title{gap:0;}
+.overview-lane-title h4{font-size:16px;margin-bottom:5px;}
+.overview-lane-title p{font-size:12px;line-height:1.55;}
+.overview-flow{gap:8px;}
+.overview-node{padding:13px;gap:7px;}
+.overview-node h5{font-size:13px;line-height:1.4;}
+.overview-node p{font-size:12px;line-height:1.55;}
+.overview-node a,.node-link{font-size:11px;line-height:1.5;}
+.overview-flow-arrow{font-size:25px;}
+.overview-lane-note{font-size:11px;line-height:1.6;padding-top:10px;}
+.overview-parallel-card{padding:13px;}
+.overview-parallel-card h5{font-size:13px;}
+.overview-parallel-card p{font-size:11px;line-height:1.55;}
+.overview-parallel-card a{font-size:11px;}
+.overview-foundation{padding:16px;}
+.overview-foundation-title h4{font-size:14px;}
+.overview-service-grid{gap:10px;}
+.overview-service{padding:13px;}
+.overview-service strong{font-size:12px;}
+.overview-service span{font-size:11px;line-height:1.5;}
+.overview-service small{font-size:10px;}
+.overview-bottom-card{padding:16px;}
+.overview-bottom-card h3{font-size:15px;}
+.overview-bottom-card ul{font-size:12px;line-height:1.7;}
+.overview-quicklinks button{font-size:11px;line-height:1.4;padding:10px;}
+/* Keep resource panels useful without repeated editorial labels */
+.resource-panel{padding:15px;margin:22px 0 4px;}
+.resource-panel-heading h3{font-size:15px;}
+.resource-panel-heading p{font-size:11px;line-height:1.5;}
+.resource-index-button{font-size:11px;}
+.resource-link-card{padding:11px;gap:6px;}
+.resource-type{font-size:9px;}
+.resource-link-card>a,.resource-page-link{font-size:12px;line-height:1.45;}
+.resource-link-card p{font-size:11px;line-height:1.5;}
+@media(max-width:1250px){
+ .overview-flow{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;}
+ .overview-flow-arrow{display:none;}
+ .overview-service-grid{grid-template-columns:repeat(3,minmax(0,1fr));}
+}
+@media(max-width:900px){
+ .overview-hero{grid-template-columns:1fr;}
+ .overview-service-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+ .overview-bottom-grid{grid-template-columns:1fr;}
+ .resource-links-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+}
+@media(max-width:650px){
+ .overview-hero h2{font-size:28px;}
+ .overview-section-title{align-items:flex-start;flex-direction:column;}
+ .overview-lane-heading{flex-direction:column;}
+ .overview-flow{grid-template-columns:1fr;}
+ .overview-parallel-grid{grid-template-columns:1fr;}
+ .overview-service-grid{grid-template-columns:1fr;}
+ .overview-bottom-grid{grid-template-columns:1fr;}
+ .overview-quicklinks{grid-template-columns:repeat(2,minmax(0,1fr));}
+ .resource-links-grid{grid-template-columns:1fr;}
+ .resource-panel-heading{flex-direction:column;}
+}
+
+
+/* Flow-detail source links: every selectable Fusion CI and OMIX stage exposes direct references. */
+.dashboard-header{grid-template-columns:minmax(0,1fr);align-items:start;gap:0;margin-bottom:24px;}
+.dashboard-title-block{max-width:1120px;}
+.dashboard-eyebrow{color:#004b87;}
+.dashboard-header h2{color:#003b70;}
+.dashboard-lead{color:#274f74;}
+.e2e-sources{margin-top:16px;padding-top:13px;border-top:1px solid #dce6f1;}
+.e2e-sources h4{margin:0 0 9px;color:#123b68;font-size:13px;line-height:1.4;}
+.e2e-source-list{display:flex;flex-wrap:wrap;gap:7px;align-items:stretch;}
+.e2e-source-link{display:inline-flex;align-items:center;gap:5px;max-width:100%;border:1px solid #bed5ee;border-radius:7px;background:#edf5ff;color:#084f91;padding:7px 9px;font-size:11px;line-height:1.35;font-weight:700;text-decoration:none;overflow-wrap:anywhere;}
+.e2e-source-link:hover,.e2e-source-link:focus-visible{background:#dcecff;border-color:#7eb4e8;color:#003b70;text-decoration:underline;outline-offset:2px;}
+.e2e-source-note{margin:9px 0 0;padding:9px 10px;border-left:3px solid #f0a12b;background:#fff8e9;color:#5d4a28;border-radius:0 6px 6px 0;font-size:11px;line-height:1.5;}
+@media(max-width:600px){.e2e-source-link{width:100%;}.dashboard-header h2{font-size:30px;}}
+
+
+/* USA Politics reference additions — built on the Fusion CI reference template */
+.hero-kicker,.section-kicker{font-size:11px;font-weight:800;letter-spacing:.12em;color:#8dc9ff;margin-bottom:8px}
+.hero h2{font-size:31px}.hero{background:linear-gradient(135deg,#10223d,#1e4c91);border-radius:8px}
+.body-search .search-box{padding-bottom:8px}
+.search-hint{font-size:10px;color:var(--muted);margin:5px 2px 0}
+.stats-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:18px 0}
+.stats-grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.stat-card{padding:18px;border:1px solid var(--line);border-radius:9px;background:#fff;box-shadow:0 2px 7px rgba(0,0,0,.04);border-top:4px solid #0878c9}
+.stat-card.purple{border-top-color:#8063c9}.stat-card.green{border-top-color:#16865b}.stat-card.orange{border-top-color:#df8135}
+.stat-value{font-size:30px;font-weight:800;line-height:1.2;color:#163c65}.stat-label{font-weight:700;font-size:13px;margin-top:5px}.stat-card small{font-size:11px;color:var(--muted)}
+.gov-architecture{padding:14px;background:#f5f8fc;border:1px solid #d9e4ef;border-radius:10px;text-align:center}
+.gov-top{background:#173b64;color:#fff;border-radius:8px;padding:15px;display:flex;justify-content:center;gap:14px;flex-wrap:wrap}.gov-top span{color:#d5e7fb}
+.gov-connect{font-weight:800;color:#0878c9;padding:8px}
+.gov-branches{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.gov-branch{padding:16px 12px;border-radius:8px;background:#fff;border:1px solid #dce5ef;border-top:5px solid #0878c9;display:flex;flex-direction:column;gap:7px}
+.gov-branch.exec{border-top-color:#18865d}.gov-branch.leg{border-top-color:#0878c9}.gov-branch.judi{border-top-color:#8063c9}
+.gov-branch>b{font-size:10px;letter-spacing:.06em;color:#60758b}.gov-branch strong{font-size:16px}.gov-branch span{font-size:12px;color:#526277}
+.gov-states{background:#eaf3fb;border:1px solid #cbdff1;border-radius:8px;padding:14px;display:flex;flex-direction:column;gap:4px}.gov-states span{font-size:12px;color:#526277}
+.level-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.level-card{text-align:left;padding:18px;border:1px solid var(--line);border-radius:9px;background:#fff;cursor:pointer;display:flex;flex-direction:column;gap:8px;color:var(--ink);min-height:170px}
+.level-card span{font-size:10px;font-weight:800;letter-spacing:.1em;color:#0878c9}.level-card b{font-size:19px}.level-card small{font-size:12px;color:var(--muted);line-height:1.5}.level-card em{font-style:normal;font-size:12px;font-weight:700;color:#0878c9;margin-top:auto}
+.level-two span{color:#7859bd}.level-three span{color:#16865b}
+.compare-mini{display:grid;grid-template-columns:1fr 1fr;gap:14px}.compare-mini>div{padding:18px;border:1px solid var(--line);border-radius:8px;background:#fbfcfe}
+.flag-label{display:inline-block;padding:4px 8px;border-radius:4px;font-size:10px;font-weight:800;letter-spacing:.08em;margin-bottom:9px}.flag-label.usa{background:#e6f2ff;color:#075b9a}.flag-label.india{background:#fff0e4;color:#a64b08}
+.compare-mini strong{display:block;font-size:16px}.compare-mini p{font-size:12px;color:#526277;margin-bottom:0}
+.process-flow{display:flex;flex-direction:column;align-items:stretch;max-width:850px;margin:16px auto}
+.flow-node{padding:14px 18px;border-radius:9px;border:1px solid #d7e3f0;border-left:5px solid #0878c9;background:#f5f9fd;display:flex;flex-direction:column;gap:4px}
+.flow-node b{font-size:14px;color:#163c65}.flow-node span{font-size:12px;color:#526277;line-height:1.5}
+.flow-arrow{text-align:center;font-size:23px;font-weight:800;color:#0878c9;line-height:1.3}
+.n-blue{border-left-color:#0878c9;background:#eff7ff}.n-purple{border-left-color:#8063c9;background:#f6f2ff}.n-violet{border-left-color:#a15ab6;background:#fbf3ff}.n-orange{border-left-color:#df8135;background:#fff7ef}.n-green{border-left-color:#16865b;background:#effaf5}.n-dark{border-left-color:#243b53;background:#f0f3f7}
+.compact{max-width:100%}.branch-two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.timeline{display:flex;flex-direction:column;gap:0}.timeline article{display:grid;grid-template-columns:48px minmax(0,1fr);gap:14px;padding:15px 0;border-bottom:1px solid var(--line)}
+.time-badge{width:38px;height:38px;border-radius:50%;background:#0878c9;color:white;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800}
+.timeline h4{margin:0 0 5px;font-size:15px}.timeline p{margin:0 0 8px;font-size:12px;color:#526277}
+.tag{display:inline-block;background:#eaf3fb;color:#075b9a;border-radius:4px;padding:3px 7px;font-size:10px;font-weight:700}
+.calendar-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.calendar-grid>div{padding:13px;border-radius:8px;background:#f4f8fc;border:1px solid #dbe5ef}.calendar-grid b,.calendar-grid strong{display:block}.calendar-grid b{font-size:10px;color:#0878c9;text-transform:uppercase}.calendar-grid strong{font-size:14px;margin:5px 0}.calendar-grid p{font-size:11px;color:#526277;margin:0}
+.grid-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.grid-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.mini-card{padding:15px;border:1px solid var(--line);border-radius:8px;background:#fff}.mini-card b{display:block;font-size:14px;margin-bottom:5px}.mini-card p{font-size:12px;color:#526277;margin:0}
+.two-column{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.callout{padding:16px;border-radius:8px;border:1px solid #dce5ef;background:#f7faff}.callout>b{font-size:14px}.callout p{font-size:12px;color:#526277;margin:7px 0}
+.callout.blue{border-left:4px solid #0878c9}.callout.purple{border-left:4px solid #8063c9}.callout.green{border-left:4px solid #16865b}
+.formula{font-family:ui-monospace,monospace;font-size:18px;font-weight:800;text-align:center;padding:18px;background:#eef6ff;border:1px dashed #83b8e2;border-radius:8px;color:#164d7a;margin:14px 0}
+.num{text-align:center;font-variant-numeric:tabular-nums}.table{font-size:12px}.table th:first-child,.table td:first-child{min-width:unset}
+.table td{vertical-align:top}.table tr td:nth-child(2){min-width:130px}
+.table.sortable tbody tr:hover{background:#eef6ff}
+.chamber{border-top:5px solid #0878c9}.chamber.senate{border-top-color:#8063c9}.chamber-number{font-size:38px;font-weight:800;color:#0878c9}.senate .chamber-number{color:#8063c9}
+.party-card{min-height:190px}.party-card.dem{border-top:5px solid #1976c8}.party-card.rep{border-top:5px solid #c84b4b}
+.example-bars{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:18px 0}.bar-track{height:14px;background:#e9eef4;border-radius:20px;overflow:hidden;margin:7px 0}.bar-track i{display:block;height:100%;border-radius:20px}
+.chip-list{display:flex;flex-wrap:wrap;gap:7px}.state-chip,.ut-chip{display:inline-block;padding:6px 10px;border-radius:5px;background:#eaf3fb;color:#164d7a;font-size:11px;font-weight:650}.ut-chip{background:#f3effb;color:#6848a3}
+.glossary-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 22px}.glossary-list>div{padding:12px 0;border-bottom:1px solid var(--line)}.glossary-list b{color:#164d7a}.glossary-list p{font-size:12px;color:#526277;margin:4px 0 0}
+details{border-bottom:1px solid var(--line);padding:12px 0}details summary{font-weight:650;cursor:pointer;color:#173b64}details p{font-size:12px;color:#526277;margin:8px 0 0}
+.source-list li{margin:12px 0}.source-list a{font-weight:700}.source-list span{display:block;color:#617087;font-size:11px}
+.muted{color:var(--muted);font-size:12px}.numbered li{padding:4px 0;font-size:13px}
+.search-result-item{border-left:4px solid var(--accent)}.search-result-item mark{background:#fff0a6;color:#172033}
+.page{scroll-margin-top:15px}
+@media(max-width:1000px){.stats-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.calendar-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:768px){.gov-branches,.level-grid,.grid-2,.grid-3,.two-column,.compare-mini,.branch-two,.glossary-list{grid-template-columns:1fr}.stats-grid,.stats-grid.three{grid-template-columns:repeat(2,minmax(0,1fr))}.calendar-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero h2{font-size:24px}.body-search{padding:0 20px}.content-wrapper{padding:20px}.table{display:block;max-width:100%;overflow-x:auto}.example-bars{grid-template-columns:1fr}}
+@media(max-width:480px){.stats-grid,.stats-grid.three{grid-template-columns:1fr 1fr}.stat-value{font-size:25px}.calendar-grid{grid-template-columns:1fr 1fr}.timeline article{grid-template-columns:38px minmax(0,1fr);gap:10px}.time-badge{width:32px;height:32px}}
+
+/* Responsive navigation and search fixes */
+.mobile-sidebar-toggle{display:none;align-items:center;gap:8px;min-height:38px;padding:8px 12px;margin:0 0 10px;border:1px solid #cbd5e1;border-radius:6px;background:#fff;color:#17324f;font:600 13px/1.2 inherit;cursor:pointer;box-shadow:0 1px 2px rgba(15,35,60,.06)}
+.mobile-sidebar-toggle:hover,.mobile-sidebar-toggle:focus-visible{background:#eef6ff;border-color:#0878c9;outline:2px solid #0878c933;outline-offset:1px}
+.main,.body-search,.content-wrapper{min-width:0;max-width:100%}
+.body-search{box-sizing:border-box;width:100%;}
+.body-search .search-box{min-width:0;width:100%;}
+.body-search .search-input{display:block;min-width:0;max-width:100%;box-sizing:border-box;width:100%;line-height:1.4;}
+.search-hint{line-height:1.45;overflow-wrap:anywhere}
+@media(max-width:768px){
+  html,body{max-width:100%;overflow-x:hidden}
+  .container{width:100%;min-width:0;}
+  .main{width:100%;margin-left:0;overflow-x:hidden;}
+  .body-search{padding:0 16px;margin:14px 0 0;}
+  .mobile-sidebar-toggle{display:inline-flex;}
+  .sidebar{position:fixed;top:0;bottom:0;left:0;width:min(290px,86vw);height:100dvh;max-height:100vh;overflow-y:auto;z-index:2000;transform:translateX(-105%);visibility:hidden;transition:transform .22s ease,visibility .22s ease;box-shadow:8px 0 24px rgba(0,0,0,.22);}
+  .sidebar.mobile-open{transform:translateX(0);visibility:visible;}
+  .content-wrapper{padding:18px 16px;}
+  .body-search .search-input{font-size:14px;padding:11px 12px;}
+  .stats-grid,.stats-grid.three{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .table{display:block;max-width:100%;overflow-x:auto;}
+}
+@media(max-width:380px){
+  .body-search{padding-left:12px;padding-right:12px;}
+  .content-wrapper{padding-left:12px;padding-right:12px;}
+  .stats-grid,.stats-grid.three{grid-template-columns:1fr 1fr;gap:8px;}
+  .stat-card{padding:12px;min-width:0;}
+  .stat-value{font-size:24px;}
+}
+@media(prefers-reduced-motion:reduce){.sidebar{transition:none!important}.page.active{animation:none!important}}
+
+
+
+/* Final responsive polish: keep every process direction visible at tablet/mobile widths. */
+.body-search{display:block;min-width:0;width:100%;padding:0 16px;margin:14px 0 0;}
+.body-search .search-box{display:block;width:100%;min-width:0;padding:0;border:0;background:transparent;}
+.body-search .search-input{width:100%;min-width:0;max-width:100%;height:auto;min-height:42px;padding:11px 14px;font-size:14px;line-height:1.4;border:1px solid #d5dfeb;border-radius:8px;background:#fff;color:#172033;}
+.body-search .search-input::placeholder{color:#718096;opacity:1;}
+.mobile-sidebar-toggle{font-family:inherit;}
+
+/* The dashboard is a sequential process: use vertical connectors when it stacks. */
+@media(max-width:1160px){
+  .dashboard-flow-grid{grid-template-columns:minmax(0,1fr);gap:4px;}
+  .dashboard-arrow{display:flex;min-height:22px;transform:rotate(90deg);font-size:22px;line-height:1;}
+}
+@media(max-width:768px){
+  .body-search{padding:0 16px;}
+  .body-search .search-box{padding:0;}
+  .body-search .search-input{font-size:14px;}
+  .dashboard-flow-grid{grid-template-columns:minmax(0,1fr);}
+  .dashboard-arrow{display:flex;min-height:22px;transform:rotate(90deg);}
+}
+
+/* Overview lanes: never hide connectors when a horizontal row becomes a vertical stack. */
+@media(max-width:1250px){
+  .overview-flow{grid-template-columns:minmax(0,1fr);gap:4px;}
+  .overview-flow-arrow{display:flex;min-height:22px;transform:rotate(90deg);font-size:22px;line-height:1;}
+}
+@media(max-width:650px){
+  .overview-flow{grid-template-columns:minmax(0,1fr);gap:4px;}
+  .overview-flow-arrow{display:flex;min-height:22px;transform:rotate(90deg);}
+}
+
+/* Clearly mark the two parallel outcomes in a contingent Electoral College election. */
+.branch-two{position:relative;gap:16px;padding-top:12px;}
+.branch-two:before{content:'TWO SEPARATE, PARALLEL VOTES';display:block;grid-column:1/-1;text-align:center;color:#617087;font-size:10px;font-weight:800;letter-spacing:.08em;padding:0 0 3px;}
+.branch-two .flow-node{position:relative;}
+.branch-two .flow-node:before{content:'↓';position:absolute;top:-25px;left:50%;transform:translateX(-50%);font-size:19px;font-weight:800;color:#0878c9;line-height:1;}
+@media(max-width:768px){.branch-two{grid-template-columns:minmax(0,1fr);gap:16px}.branch-two:before{grid-column:1}.branch-two .flow-node:before{top:-23px}}
+
+/* Prevent narrow screens from squeezing diagram labels or creating horizontal page overflow. */
+.process-flow,.flow-node,.gov-architecture,.gov-branches,.gov-branch,.card,.hero{min-width:0;max-width:100%;}
+.flow-node b,.flow-node span,.gov-branch strong,.gov-branch span{overflow-wrap:anywhere;}
+@media(max-width:520px){
+  .content-wrapper{padding-left:12px;padding-right:12px;}
+  .card{padding:16px;}
+  .hero{padding:22px 18px;}
+  .process-flow{width:100%;}
+}
+
+
+/* Expanded presidential history and India–US relationship section */
+#presidential-record-review .table th:nth-child(3),#presidential-record-review .table th:nth-child(4){min-width:300px}
+#presidential-record-review .table td:nth-child(3),#presidential-record-review .table td:nth-child(4){min-width:300px;white-space:normal;line-height:1.5}
+#india-relations .card[style*="border-left"]{background:var(--surface, #fff)}
+#india-relations .card h4{margin-top:0}
+#india-relations .table td{white-space:normal;line-height:1.5}
+@media(max-width:700px){#presidential-record-review .table th:nth-child(3),#presidential-record-review .table th:nth-child(4),#presidential-record-review .table td:nth-child(3),#presidential-record-review .table td:nth-child(4){min-width:260px}}
+
+/* Population chapter: responsive and searchable demographic table */
+#population .table-tools{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin:12px 0}
+#populationFilter{width:min(360px,100%);max-width:100%;padding:10px 12px;border:1px solid var(--border,#d8dee8);border-radius:8px;font:inherit;background:var(--surface,#fff);color:var(--ink,#172033);box-sizing:border-box}
+#population .table{min-width:900px}#population .table th[role=button]{cursor:pointer;user-select:none}#population .table th[role=button]:after{content:' ⇅';opacity:.55;font-size:.85em}
+#population .table td:not(:first-child){font-variant-numeric:tabular-nums;white-space:nowrap}
+#population .mini-card{padding:16px;border:1px solid var(--border,#d8dee8);border-radius:10px;background:var(--surface,#fff);display:flex;flex-direction:column;gap:6px}
+#population .mini-card strong{font-size:1.35rem;color:var(--primary,#2463a6)}#population .mini-card span{font-size:.9rem}
+@media(max-width:700px){#population .table-tools{align-items:stretch}#populationFilter{width:100%}}
+
+/* Population overview: independent responsive grid (never reuse workflow connector grid). */
+.population-glance-grid{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:12px;
+  align-items:stretch;
+  width:100%;
+  min-width:0;
+  margin:14px 0 16px;
+}
+.population-glance-grid > .mini-card{
+  min-width:0;
+  width:auto;
+  max-width:100%;
+  box-sizing:border-box;
+  overflow-wrap:anywhere;
+  word-break:normal;
+}
+.population-glance-grid > .mini-card strong{
+  display:block;
+  color:#2463a6;
+  font-size:clamp(20px,2vw,27px);
+  line-height:1.25;
+  font-weight:800;
+  overflow-wrap:anywhere;
+  margin:0 0 8px;
+}
+.population-glance-grid > .mini-card span{
+  display:block;
+  font-size:12px;
+  line-height:1.5;
+  overflow-wrap:anywhere;
+}
+#population .card{min-width:0;max-width:100%;box-sizing:border-box;}
+#population .table-tools{display:flex;align-items:center;gap:12px;flex-wrap:wrap;min-width:0;margin:12px 0;}
+#populationFilter{width:min(100%,360px);max-width:100%;min-width:0;box-sizing:border-box;}
+#populationTable{width:100%;min-width:850px;border-collapse:collapse;}
+#population .table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;}
+#population .table th,#population .table td{white-space:nowrap;}
+#population .source-note{overflow-wrap:anywhere;line-height:1.55;}
+/* General layout safety: prevent grid/flex children from forcing page overflow. */
+.card,.hero,.content-wrapper,.page,.dashboard-flow-card,.dashboard-flow-grid,
+.dashboard-cards,.stats-grid,.grid-2,.grid-3,.two-column,.compare-mini,
+.gov-branches,.level-grid,.calendar-grid,.timeline,.resource-links-grid{
+  min-width:0;
+  max-width:100%;
+  box-sizing:border-box;
+}
+.card img,.hero img,.page img{max-width:100%;height:auto;}
+@media(max-width:1000px){
+  .population-glance-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+}
+@media(max-width:600px){
+  .population-glance-grid{grid-template-columns:1fr;gap:10px;}
+  #population .card{padding:16px;}
+  #population .table-tools{align-items:stretch;flex-direction:column;}
+  #populationFilter{width:100%;}
+}
+
+
+/* Indian-numbering quick-read equivalents for large population figures. */
+.indian-equivalent{
+  display:inline-block;
+  color:#65758b;
+  font-size:.88em;
+  font-weight:500;
+  white-space:nowrap;
+  margin-left:2px;
+}
+.population-glance-grid .indian-equivalent{
+  display:block;
+  margin:3px 0 0;
+  font-size:.78em;
+  line-height:1.25;
+  font-weight:600;
+}
+#populationTable td .indian-equivalent{font-size:.82em;}
+
+
+/* Population table sizing fix: scroll the wrapper, not the table element. */
+#population .population-table-wrap{
+  display:block;
+  width:100%;
+  max-width:100%;
+  min-width:0;
+  overflow-x:auto;
+  overflow-y:hidden;
+  -webkit-overflow-scrolling:touch;
+  border:1px solid #d8e1ec;
+  border-radius:8px;
+  background:#fff;
+}
+#population .population-table-wrap > table#populationTable{
+  display:table !important;
+  width:100% !important;
+  min-width:1180px !important;
+  max-width:none !important;
+  table-layout:auto;
+  border-collapse:collapse;
+  margin:0;
+}
+#population .population-table-wrap #populationTable th,
+#population .population-table-wrap #populationTable td{
+  white-space:nowrap;
+  padding:10px 12px;
+  vertical-align:middle;
+}
+#population .population-table-wrap #populationTable th{
+  position:sticky;
+  top:0;
+  z-index:1;
+}
+#population .population-table-wrap #populationTable td:first-child,
+#population .population-table-wrap #populationTable th:first-child{
+  position:sticky;
+  left:0;
+  z-index:2;
+  background:#f8fafc;
+}
+#population .population-table-wrap #populationTable thead th:first-child{z-index:3;}
+#population .population-table-wrap #populationTable td .indian-equivalent{
+  white-space:nowrap;
+}
+@media(min-width:1200px){
+  #population .population-table-wrap > table#populationTable{min-width:100% !important;}
+}
+@media(max-width:700px){
+  #population .population-table-wrap > table#populationTable{min-width:1120px !important;}
+}
+
+
+/* Government structure diagram: explicit connectors, not text-glyph arrows. */
+.gov-architecture{width:100%;min-width:0;overflow:hidden;}
+.gov-top{position:relative;z-index:1;min-height:58px;align-items:center;box-sizing:border-box;}
+.gov-split-connector{
+  position:relative;
+  height:58px;
+  display:flex;
+  align-items:flex-start;
+  justify-content:center;
+  min-width:0;
+}
+.gov-split-connector:before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:50%;
+  height:18px;
+  border-left:2px solid #1682c5;
+  transform:translateX(-1px);
+}
+.gov-split-connector:after{
+  content:"";
+  position:absolute;
+  left:16.666%;
+  right:16.666%;
+  top:18px;
+  border-top:2px solid #1682c5;
+}
+.gov-split-connector span{
+  position:relative;
+  z-index:1;
+  margin-top:22px;
+  padding:0 12px;
+  background:#f5f8fc;
+  color:#0878c9;
+  font-size:13px;
+  line-height:1.35;
+  font-weight:800;
+  text-align:center;
+}
+.gov-branches{position:relative;gap:12px;align-items:stretch;}
+.gov-branch{position:relative;min-width:0;box-sizing:border-box;}
+.gov-branch:before{
+  content:"";
+  position:absolute;
+  left:50%;
+  top:-22px;
+  height:17px;
+  border-left:2px solid #1682c5;
+  transform:translateX(-1px);
+}
+.gov-branch:after{
+  content:"";
+  position:absolute;
+  left:calc(50% - 5px);
+  top:-7px;
+  width:7px;
+  height:7px;
+  border-right:2px solid #1682c5;
+  border-bottom:2px solid #1682c5;
+  transform:rotate(45deg);
+}
+.gov-federalism-connector{
+  position:relative;
+  min-height:62px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:8px 12px;
+  box-sizing:border-box;
+}
+.gov-federalism-connector:before{
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:50%;
+  border-left:2px dashed #5b91bd;
+  transform:translateX(-1px);
+}
+.gov-federalism-connector span{
+  position:relative;
+  z-index:1;
+  max-width:760px;
+  padding:5px 14px;
+  border:1px solid #c8dced;
+  border-radius:20px;
+  background:#f5f8fc;
+  color:#0878c9;
+  font-size:13px;
+  font-weight:800;
+  line-height:1.4;
+}
+.gov-states{position:relative;z-index:1;box-sizing:border-box;}
+@media(max-width:700px){
+  .gov-split-connector{height:48px;}
+  .gov-split-connector:after{display:none;}
+  .gov-branches{grid-template-columns:minmax(0,1fr) !important;gap:14px;}
+  .gov-branch:before{top:-15px;height:12px;}
+  .gov-branch:after{top:-9px;transform:rotate(45deg);}
+  .gov-federalism-connector{min-height:76px;}
+  .gov-top{flex-direction:column;gap:5px;}
+}
+@media(min-width:701px) and (max-width:980px){
+  .gov-branches{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;}
+  .gov-branch{padding:14px 8px;}
+}
+
+/* Mermaid-inspired government flowchart: fixed geometry, SVG connectors, responsive scaling. */
+.gov-architecture{padding:14px;background:#f5f8fc;border:1px solid #d9e4ef;border-radius:12px;overflow:hidden;text-align:left;}
+.us-gov-mermaid{width:100%;max-width:100%;min-width:0;}
+.us-gov-flow-svg{display:block;width:100%;height:auto;max-width:100%;overflow:visible;}
+.us-gov-flow-svg .mf-line{fill:none;stroke:#647f9b;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;}
+.us-gov-flow-svg .mf-constitution{fill:#173b64;stroke:#173b64;stroke-width:1.5;}
+.us-gov-flow-svg .mf-white{fill:#fff;}
+.us-gov-flow-svg .mf-title{font-size:19px;font-weight:800;letter-spacing:.3px;}
+.us-gov-flow-svg .mf-sub{font-size:14px;fill:#53677d;}
+.us-gov-flow-svg .mf-white.mf-sub{fill:#dce9f6;}
+.us-gov-flow-svg .mf-label{font-size:14px;font-weight:800;fill:#0878c9;letter-spacing:.35px;}
+.us-gov-flow-svg .mf-node{fill:#fff;stroke:#d5e0eb;stroke-width:1.5;}
+.us-gov-flow-svg .mf-exec{stroke:#18865d;stroke-width:3;}
+.us-gov-flow-svg .mf-leg{stroke:#0878c9;stroke-width:3;}
+.us-gov-flow-svg .mf-jud{stroke:#8063c9;stroke-width:3;}
+.us-gov-flow-svg .mf-kicker{font-size:12px;font-weight:800;letter-spacing:1px;fill:#60758b;}
+.us-gov-flow-svg .mf-node-title{font-size:21px;font-weight:800;fill:#172b45;}
+.us-gov-flow-svg .mf-node-sub{font-size:14px;fill:#526277;}
+.us-gov-flow-svg .mf-federalism{fill:#edf5fc;stroke:#bcd7ee;stroke-width:1.5;}
+.us-gov-flow-svg .mf-states{fill:#e5f1fb;stroke:#bcd7ee;stroke-width:1.5;}
+.mf-note{margin:10px 4px 0;color:#526277;font-size:12px;line-height:1.5;text-align:center;}
+@media(max-width:720px){
+  .gov-architecture{padding:8px;}
+  .us-gov-flow-svg{min-width:720px;width:720px;max-width:none;}
+  .us-gov-mermaid{overflow-x:auto;overflow-y:hidden;padding-bottom:8px;-webkit-overflow-scrolling:touch;}
+  .mf-note{text-align:left;}
+}
+
+/* Final flowchart geometry: separated labels, clean branch connectors, consistent scale. */
+.gov-architecture{
+  width:100%;max-width:100%;min-width:0;box-sizing:border-box;
+  padding:16px;background:#f5f8fc;border:1px solid #d9e4ef;
+  border-radius:12px;overflow:hidden;text-align:left;
+}
+.us-gov-mermaid{display:block;width:100%;max-width:100%;min-width:0;overflow:hidden;}
+.us-gov-flow-svg{display:block;width:100%;height:auto;max-width:100%;overflow:visible;}
+.us-gov-flow-svg .mf-line{fill:none;stroke:#647f9b;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;}
+.us-gov-flow-svg .mf-constitution{fill:#173b64;stroke:#173b64;stroke-width:1.5;}
+.us-gov-flow-svg .mf-white{fill:#fff;}
+.us-gov-flow-svg .mf-title{font-size:21px;font-weight:800;letter-spacing:.25px;}
+.us-gov-flow-svg .mf-sub{font-size:16px;fill:#53677d;}
+.us-gov-flow-svg .mf-white.mf-sub{fill:#dce9f6;}
+.us-gov-flow-svg .mf-label-bg{fill:#f5f8fc;stroke:#c8dced;stroke-width:1.2;}
+.us-gov-flow-svg .mf-label{font-size:14px;font-weight:800;fill:#0878c9;letter-spacing:.25px;}
+.us-gov-flow-svg .mf-node{fill:#fff;stroke:#d5e0eb;stroke-width:1.5;}
+.us-gov-flow-svg .mf-exec{stroke:#18865d;stroke-width:3.5;}
+.us-gov-flow-svg .mf-leg{stroke:#0878c9;stroke-width:3.5;}
+.us-gov-flow-svg .mf-jud{stroke:#8063c9;stroke-width:3.5;}
+.us-gov-flow-svg .mf-kicker{font-size:13px;font-weight:800;letter-spacing:1px;fill:#60758b;}
+.us-gov-flow-svg .mf-node-title{font-size:23px;font-weight:800;fill:#172b45;}
+.us-gov-flow-svg .mf-node-sub{font-size:16px;fill:#526277;}
+.us-gov-flow-svg .mf-federalism{fill:#edf5fc;stroke:#bcd7ee;stroke-width:1.7;}
+.us-gov-flow-svg .mf-states{fill:#e5f1fb;stroke:#bcd7ee;stroke-width:1.7;}
+.mf-note{margin:12px 4px 0;color:#526277;font-size:12px;line-height:1.5;text-align:center;}
+@media(max-width:760px){
+ .gov-architecture{padding:8px;}
+ .us-gov-mermaid{overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;padding-bottom:8px;}
+ .us-gov-flow-svg{width:900px;max-width:none;}
+ .mf-note{text-align:left;}
+}
+
+/* Each branch receives its own SVG arrow marker; no shared-path marker ambiguity. */
+.us-gov-flow-svg .mf-branch-arrow{
+  fill:none;
+  stroke:#647f9b;
+  stroke-width:2.5;
+  stroke-linecap:round;
+  marker-end:url(#govArrowBlue);
+}
+
+/* Overview: make summary tiles and topic cards visibly navigable. */
+#dashboard .stat-card-link{display:block;min-width:0;text-decoration:none;color:inherit;border-radius:10px;}
+#dashboard .stat-card-link .stat-card{height:100%;box-sizing:border-box;transition:transform .16s ease,box-shadow .16s ease,border-color .16s ease;}
+#dashboard .stat-card-link:hover .stat-card,
+#dashboard .stat-card-link:focus-visible .stat-card{transform:translateY(-2px);box-shadow:0 5px 16px rgba(25,60,95,.13);outline:2px solid #2684c7;outline-offset:2px;}
+#dashboard .overview-click-card{cursor:pointer;transition:box-shadow .16s ease,border-color .16s ease,transform .16s ease;}
+#dashboard .overview-click-card:hover,
+#dashboard .overview-click-card:focus-visible{outline:2px solid #2684c7;outline-offset:2px;box-shadow:0 5px 16px rgba(25,60,95,.10);transform:translateY(-1px);}
+#dashboard .toc-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;}
+#dashboard .toc-section-link{display:flex;align-items:center;min-height:48px;padding:11px 13px;border:1px solid #d8e3ef;border-radius:9px;background:#fff;color:#174c7b;text-decoration:none;font-weight:650;line-height:1.35;transition:background .15s ease,border-color .15s ease,transform .15s ease;}
+#dashboard .toc-section-link:after{content:"↗";margin-left:auto;padding-left:8px;color:#2684c7;font-weight:800;}
+#dashboard .toc-section-link:hover,#dashboard .toc-section-link:focus-visible{background:#f0f7fd;border-color:#8bb9dd;transform:translateY(-1px);outline:2px solid #2684c7;outline-offset:1px;}
+@media(max-width:850px){#dashboard .toc-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media(max-width:560px){#dashboard .toc-grid{grid-template-columns:1fr;}}
+
+/* Unified Mermaid-inspired diagram system used throughout the reference. */
+.mermaid-diagram{display:block;width:100%;max-width:100%;min-width:0;overflow-x:auto;overflow-y:hidden;border:1px solid #d9e4ef;border-radius:12px;background:#f5f8fc;padding:12px;box-sizing:border-box;-webkit-overflow-scrolling:touch;}
+.mermaid-svg{display:block;width:100%;height:auto;max-width:100%;overflow:visible;}
+.mermaid-svg .md-line{fill:none;stroke:#647f9b;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;}
+
+.mermaid-svg .md-node{fill:#fff;stroke-width:1.8;}
+.mermaid-svg .md-title{font-size:19px;font-weight:800;fill:#172b45;}
+.mermaid-svg .md-desc{font-size:15px;fill:#526277;}
+.mermaid-svg .md-title-left{font-size:19px;font-weight:800;fill:#172b45;}
+.mermaid-svg .md-desc-left{font-size:14px;fill:#526277;}
+.mermaid-svg .md-kicker{font-size:12px;font-weight:800;letter-spacing:.7px;fill:#60758b;}
+.mermaid-svg .md-tag{font-size:13px;font-weight:700;fill:#0878c9;}
+.mermaid-svg .md-label{font-size:14px;font-weight:800;letter-spacing:.3px;fill:#0878c9;text-anchor:middle;}
+.mermaid-svg .md-label-bg{fill:#edf5fc;stroke:#c8dced;stroke-width:1.4;}
+.mermaid-svg .md-constitution{fill:#173b64;stroke:#173b64;}
+.mermaid-svg .md-white-title{font-size:21px;font-weight:800;fill:#fff;text-anchor:middle;}
+.mermaid-svg .md-white-sub{font-size:15px;fill:#dce9f6;text-anchor:middle;}
+.mermaid-svg .md-step-circle{fill:#173b64;stroke:#fff;stroke-width:3;}
+.mermaid-svg .md-step-no{font-size:15px;font-weight:800;fill:#fff;}
+.mermaid-svg .md-gov-card{fill:#fff;stroke-width:3;}
+.mermaid-svg .md-green{stroke:#18865d;}
+.mermaid-svg .md-blue{stroke:#0878c9;}
+.mermaid-svg .md-purple{stroke:#8063c9;}
+.mermaid-svg .md-federalism{fill:#edf5fc;stroke:#bcd7ee;stroke-width:1.6;}
+.mermaid-svg .md-states{fill:#e5f1fb;stroke:#bcd7ee;stroke-width:1.6;}
+@media(max-width:760px){
+ .mermaid-diagram{padding:8px;}
+ .mermaid-svg{width:900px;max-width:none;}
+}
+
+/* Standard visual scale for all diagrams: centered, readable and not oversized. */
+.mermaid-diagram{
+  width:100%;
+  max-width:880px;
+  margin:18px auto;
+  padding:10px;
+  border-radius:10px;
+  background:#f7f9fc;
+  box-sizing:border-box;
+  overflow-x:auto;
+  overflow-y:hidden;
+}
+.mermaid-svg{
+  display:block;
+  width:100%;
+  max-width:100%;
+  height:auto;
+  margin:0 auto;
+}
+@media(max-width:760px){
+  .mermaid-diagram{max-width:100%;padding:8px;margin:14px auto;}
+  .mermaid-svg{width:100%;max-width:100%;}
+}
+
+.mermaid-svg .md-title-left{font-size:16px;font-weight:750;fill:#172b45;}
+.mermaid-svg .md-desc-left{font-size:12.5px;fill:#526277;}
+.mermaid-svg .md-tag{font-size:11px;font-weight:700;fill:#0878c9;}
+.mermaid-svg .md-step-no{font-size:12px;font-weight:800;fill:#fff;}
+@media(max-width:760px){
+  /* Keep the standard diagram width on mobile; scroll only if the actual diagram needs it. */
+  .mermaid-diagram .mermaid-svg{min-width:680px;width:680px;max-width:none;}
+}
+
+/* Final diagram balance: full-width panel, medium-sized centred diagram content. */
+.mermaid-diagram{
+  display:block;
+  width:100%;
+  max-width:none;
+  margin:18px 0;
+  padding:16px 20px;
+  border:1px solid #d9e4ef;
+  border-radius:10px;
+  background:#f7f9fc;
+  box-sizing:border-box;
+  overflow-x:auto;
+  overflow-y:hidden;
+}
+.mermaid-diagram .mermaid-svg{
+  display:block;
+  width:100%;
+  max-width:1120px;
+  height:auto;
+  margin:0 auto;
+}
+@media(max-width:760px){
+  .mermaid-diagram{width:100%;padding:10px 8px;margin:14px 0;}
+  .mermaid-diagram .mermaid-svg{
+    width:100%;
+    max-width:100%;
+    min-width:680px;
+    margin:0;
+  }
+}
+
+/* Universal table controls: consistent search, row counts and sortable headers. */
+.table-enhance-toolbar{
+  display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  width:100%;min-width:0;box-sizing:border-box;margin:10px 0 8px;
+}
+.table-enhance-search{
+  flex:1 1 260px;max-width:380px;min-width:160px;
+  padding:9px 12px;border:1px solid #cfdbea;border-radius:8px;
+  background:#fff;color:#17324f;font:inherit;font-size:13px;box-sizing:border-box;
+}
+.table-enhance-count{font-size:12px;color:#64758b;white-space:nowrap;}
+.table-enhance-clear{
+  border:1px solid #d3deea;border-radius:7px;background:#fff;
+  color:#315b80;padding:8px 12px;font:inherit;font-size:12px;cursor:pointer;
+}
+.table-enhance-clear:hover{background:#eef5fb;border-color:#9dbbd6;}
+table[data-enhanced-table="true"] thead th.table-sort-header{
+  cursor:pointer;user-select:none;white-space:nowrap;position:relative;
+}
+table[data-enhanced-table="true"] thead th.table-sort-header:after{
+  content:"↕";display:inline-block;margin-left:6px;color:#8b9bad;font-size:10px;
+}
+table[data-enhanced-table="true"] thead th.table-sort-header.sort-ascending:after{content:"↑";color:#0878c9;}
+table[data-enhanced-table="true"] thead th.table-sort-header.sort-descending:after{content:"↓";color:#0878c9;}
+table[data-enhanced-table="true"] thead th.table-sort-header:focus-visible{
+  outline:2px solid #2684c7;outline-offset:2px;border-radius:3px;
+}
+table[data-enhanced-table="true"] tbody tr[hidden]{display:none !important;}
+@media(max-width:600px){
+  .table-enhance-toolbar{gap:7px;}
+  .table-enhance-search{flex-basis:100%;max-width:none;width:100%;}
+  .table-enhance-count{flex:1;}
+}
+
+/* Federal structure: explicit checks-and-balances and federalism relationships. */
+.mermaid-diagram:has(svg[viewBox="0 0 1200 755"]){overflow-x:auto;overflow-y:hidden;}
+.mermaid-svg[viewBox="0 0 1200 755"]{width:100%;max-width:1120px;height:auto;}
+
+/* Parallel constitutional principles diagram: no causal arrow between the principles. */
+.mermaid-svg[viewBox="0 0 1200 765"]{width:100%;max-width:1120px;height:auto;margin:0 auto;display:block;}
+@media(max-width:760px){
+ .mermaid-diagram:has(svg[viewBox="0 0 1200 765"]){overflow-x:auto;}
+ .mermaid-svg[viewBox="0 0 1200 765"]{width:900px;max-width:none;}
+}
+
+/* Powers & authority chapter */
+#powers .hero{margin-bottom:16px;}
+#powers .powers-table-card{margin:16px 0;min-width:0;}
+#powers .table-scroll{width:100%;max-width:100%;overflow-x:auto;}
+#powers table{min-width:1120px;width:100%;table-layout:auto;}
+#powers table th,#powers table td{vertical-align:top;line-height:1.48;white-space:normal;min-width:115px;}
+#powers table th:first-child,#powers table td:first-child{min-width:185px;font-weight:650;}
+#powers table td:nth-child(4),#powers table td:nth-child(5){min-width:300px;}
+#powers .grid-2{margin:16px 0;}
+#powers .card li{margin:6px 0;}
+#powers .powers-table-card h3{margin-bottom:10px;}
+@media(max-width:760px){
+ #powers table{min-width:1050px;}
+ #powers .powers-table-card{padding:12px;}
+}
+
+/* Click-to-open explanations: deliberately scoped to article/body content only. */
+.explain-term{
+  display:inline;
+  color:#075fa8;
+  font:inherit;
+  font-weight:650;
+  text-decoration:underline;
+  text-decoration-style:dotted;
+  text-decoration-color:#7daed2;
+  text-underline-offset:3px;
+  cursor:pointer;
+  border:0;
+  border-radius:3px;
+  background:transparent;
+  padding:0 1px;
+}
+.explain-term:hover,.explain-term:focus-visible{
+  color:#034b86;
+  background:#edf6ff;
+  outline:2px solid #9cc9eb;
+  outline-offset:2px;
+}
+svg text.explain-svg-term{cursor:pointer;fill:#075fa8;text-decoration:underline;text-decoration-style:dotted;text-decoration-color:#7daed2;text-underline-offset:3px;}
+svg text.explain-svg-term:focus{outline:none;filter:drop-shadow(0 0 2px #7db8e5);}
+.explain-popover{
+  position:fixed;z-index:10000;width:min(390px,calc(100vw - 28px));
+  max-height:min(440px,calc(100vh - 28px));overflow:auto;
+  background:#fff;border:1px solid #cfdbe8;border-radius:10px;
+  box-shadow:0 12px 36px rgba(18,38,63,.22);padding:17px 18px 16px;
+  color:#172033;display:none;
+}
+.explain-popover.open{display:block;animation:explainIn .12s ease-out;}
+@keyframes explainIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+.explain-popover h3{font-size:16px;line-height:1.35;margin:0 30px 8px 0;color:#123b63;}
+.explain-popover p{font-size:13px;line-height:1.55;margin:7px 0;color:#405168;}
+.explain-popover .explain-example{background:#f2f7fc;border-left:3px solid #4c91c8;padding:9px 11px;border-radius:0 5px 5px 0;margin-top:10px;}
+.explain-popover .explain-close{
+  position:absolute;right:9px;top:8px;border:0;background:#f1f4f8;color:#44556a;
+  border-radius:6px;width:27px;height:27px;font-size:18px;line-height:1;cursor:pointer;
+}
+.explain-hint{font-size:11px;color:#748399;margin-top:10px;}
+
+
+/* Immigration annual-series section */
+.immigration-overview-card .compare-mini{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:14px 0;}
+.immigration-overview-card .compare-mini>div{background:#f5f8fc;border:1px solid #dbe5ef;border-radius:9px;padding:13px;}
+.immigration-overview-card .compare-mini strong{display:block;color:#173b64;margin-bottom:5px;}
+.immigration-overview-card .compare-mini p{margin:0;font-size:13px;line-height:1.5;}
+.immigration-data-card .source-note{margin-top:10px;}
+@media(max-width:850px){.immigration-overview-card .compare-mini{grid-template-columns:1fr;}}
+
+
+/* Official-source map and separate state index in Overview */
+.us-map-section{margin:22px 0 24px;border:1px solid #d7e1ec;border-radius:14px;background:#fff;padding:18px;box-shadow:0 3px 12px rgba(22,48,78,.045)}
+.us-map-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;margin-bottom:12px}
+.us-map-heading h3{margin:0 0 4px;color:#132c49;font-size:21px}
+.us-map-heading p{margin:0;color:#64778a;font-size:12px;line-height:1.5}
+.us-map-source{font-size:10px;color:#64778a;white-space:nowrap}
+.us-map-frame{background:#f7f9fc;border:1px solid #e1e8f0;border-radius:10px;padding:12px;display:flex;justify-content:center;align-items:center}
+.us-map-frame img{display:block;width:100%;max-width:980px;height:auto;object-fit:contain}
+.us-map-caption{font-size:10px;line-height:1.5;color:#64778a;margin:9px 2px 0}
+.us-state-index{margin-top:18px;border-top:1px solid #e3eaf1;padding-top:15px}
+.us-state-index-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:10px}
+.us-state-index-head h4{margin:0;color:#173653;font-size:15px}
+.us-state-index-head span{font-size:10px;color:#6b7d90}
+.us-state-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:7px}
+.us-state-chip{display:flex;align-items:center;gap:7px;min-width:0;text-align:left;border:1px solid #dce5ee;background:#fbfcfe;border-radius:7px;padding:8px 9px;color:#284763;font-size:11px;cursor:pointer}
+.us-state-chip:hover{border-color:#8bb8e3;background:#f1f7fd}
+.us-state-chip b{font-size:10px;color:#176abe;min-width:22px}
+.us-state-note{font-size:10px;color:#64778a;line-height:1.5;margin:10px 0 0}
+@media(max-width:900px){.us-state-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:620px){.us-map-section{padding:13px}.us-map-heading{display:block}.us-map-source{display:block;margin-top:6px}.us-state-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+
+.us-interactive-map-frame{display:block;min-height:290px}.us-interactive-map{width:100%;max-width:1040px;margin:auto}.us-interactive-map svg{display:block;width:100%;height:auto;max-height:650px}
+.us-interactive-map g[data-state]{cursor:pointer;outline:none}.us-interactive-map g[data-state] path.boundary{stroke:#fff;stroke-width:1.5;stroke-linejoin:round;vector-effect:non-scaling-stroke;transition:filter .12s}
+.us-interactive-map g[data-state]:hover path.boundary,.us-interactive-map g[data-state]:focus path.boundary{filter:brightness(.84);stroke:#173653;stroke-width:2.4}.us-interactive-map g[data-state].selected path.boundary{stroke:#111827;stroke-width:3}
+.us-interactive-map g[data-state] text{pointer-events:none;font-weight:700}.us-map-loading{text-align:center;padding:65px 12px;color:#64778a}
+.us-map-controls{display:flex;flex-wrap:wrap;gap:8px;margin:13px 0 8px}.us-map-mode{border:1px solid #d4dfeb;background:#f8fafc;color:#304b66;border-radius:8px;padding:9px 13px;font-size:12px;font-weight:650;cursor:pointer}.us-map-mode.active{background:#173e65;color:#fff;border-color:#173e65}
+.us-map-legend{font-size:11px;color:#586d82;margin:7px 0 12px}.us-state-detail{border:1px solid #dce5ee;background:#fbfcfe;border-radius:10px;padding:14px;min-height:90px}
+.us-state-detail-head{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:10px}.us-state-detail-head h4{margin:0;color:#173653;font-size:18px}.us-state-detail-head small{color:#61758a;font-size:11px}
+.us-state-detail-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}.us-state-detail-cell{background:white;border:1px solid #e4eaf1;border-radius:7px;padding:9px}.us-state-detail-cell span{display:block;color:#718296;font-size:10px;margin-bottom:4px}.us-state-detail-cell strong{display:block;color:#233f5b;font-size:12px;line-height:1.35}.us-state-detail-cell em{font-style:normal;font-size:10px;color:#687d91}
+@media(max-width:650px){.us-state-detail-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.us-map-mode{flex:1 1 100%}.us-interactive-map-frame{padding:4px}}
+</style><style>
+/* Israel map: visible, colorful, responsive and synchronized with the district index. */
+#districtMap{display:block;width:100%;height:auto;max-height:760px;min-height:420px;background:#f7fbff;border:1px solid #dce5ee;border-radius:10px}
+.district-shape{cursor:pointer;stroke:#fff;stroke-width:2.5;vector-effect:non-scaling-stroke;transition:filter .15s,stroke-width .15s}
+.district-shape:hover{filter:brightness(.94);stroke:#173653;stroke-width:3.5}
+.district-shape.selected{stroke:#102b48;stroke-width:5;filter:brightness(.88)}
+.district-btn{cursor:pointer}
+.district-btn.active{background:#e5f2ff!important;border-color:#0878c9!important;color:#073d69!important;font-weight:700}
+#districtDetail{border:1px solid #dce5ee;background:#fbfcfe;border-radius:10px;padding:16px;min-height:105px}
+#districtDetail h3{margin:0 0 8px;color:#173653}
+#districtDetail p{margin:5px 0}
+@media(max-width:768px){#districtMap{min-height:320px}.content-wrapper{padding:20px}}
+</style></head><body>
+<div class="container">
+<aside class="sidebar" id="sidebarNavigation">
+<div class="brand"><h1>Israel Politics</h1><p>Election &amp; Government Reference · Government &amp; Society</p></div>
+<nav class="nav-section"><div class="nav-group">Election System</div><button class="nav-btn active" data-page="dashboard">Overview</button><button class="nav-btn" data-page="l1">L1 · Election at a glance</button><button class="nav-btn" data-page="l2">L2 · Full election flow</button><button class="nav-btn" data-page="l3">L3 · Detailed election mechanics</button><button class="nav-btn" data-page="map">Districts &amp; interactive map</button><button class="nav-btn" data-page="voting">Voting, ballots &amp; counting</button><div class="nav-group">Government Structure</div><button class="nav-btn" data-page="federal">President &amp; Government</button><button class="nav-btn" data-page="parliament">Knesset · Parliament</button><button class="nav-btn" data-page="judiciary">Judiciary &amp; Basic Laws</button><button class="nav-btn" data-page="security">Security, defence &amp; intelligence</button><button class="nav-btn" data-page="parties">Parties &amp; coalition landscape</button><div class="nav-group">History &amp; Leadership</div><button class="nav-btn" data-page="prime-ministers">All Prime Ministers · 1948–2026</button><button class="nav-btn" data-page="presidents">All Presidents · 1949–2026</button><button class="nav-btn" data-page="leaders">Key leaders &amp; institutions</button><button class="nav-btn" data-page="policies">Policies, wars &amp; controversies</button><button class="nav-btn" data-page="timeline">Political timeline · 1897–2026</button><div class="nav-group">Society &amp; International</div><button class="nav-btn" data-page="foreign">Israel &amp; the world</button><button class="nav-btn" data-page="society">Population &amp; territorial questions</button><button class="nav-btn" data-page="glossary">Glossary &amp; FAQs</button><button class="nav-btn" data-page="sources">Sources &amp; update notes</button></nav>
+</aside>
+<main class="main"><div class="body-search">
+<button aria-controls="sidebarNavigation" aria-expanded="false" class="mobile-sidebar-toggle" id="mobileSidebarToggle" type="button"><span aria-hidden="true">☰</span> Menu</button>
+<div class="search-box">
+<input autocomplete="off" class="search-input" id="search-input" placeholder="Search any topic: Knesset, coalition, Basic Law, Prime Minister, IDF..." type="text"/>
+<div class="search-hint">Central search · Searches every chapter, table, political timeline, officeholder record and reference topic.</div>
+</div>
+<div class="search-results" id="search-results">
+<div class="search-results-header"><h3>Search Results <span id="result-count"></span></h3><button onclick="closeSearch()" style="float:right;border:none;background:none;cursor:pointer;font-size:16px;">✕</button></div>
+<div id="search-results-list"></div><div class="search-results-empty" id="search-empty">No results found</div>
+</div>
+</div>
+
+<div class="content-wrapper"><section class="page active" id="dashboard">
+<div class="hero">
+<div class="eyebrow">COUNTRY POLITICS REFERENCE · UPDATED 4 NOVEMBER 2026</div>
+<h2>How Israel’s political system works</h2>
+<p>A structured guide to Israel’s elections, coalition government, Knesset, Basic Laws, courts, security institutions, political parties, leaders, history and international relationships.</p>
+</div>
+<div class="stats">
+<a class="stat" data-go="parliament" href="#"><strong>120</strong><span>Knesset seats</span></a>
+<a class="stat" data-go="l1" href="#"><strong>3.25%</strong><span>Electoral threshold</span></a>
+<a class="stat" data-go="federal" href="#"><strong>61</strong><span>Seats for a majority</span></a>
+<a class="stat" data-go="map" href="#"><strong>6</strong><span>Administrative districts</span></a>
+</div>
+<div class="card">
+<h3>Current political situation · 4 November 2026</h3>
+<p>Israel held its 26th Knesset election on <b>27 October 2026</b>. The completed count gives Likud 27 seats, but no political bloc has the 61 seats needed to command a majority. The Likud-led bloc has 53 seats, the opposition bloc 48, and Arab-led parties 19. President Isaac Herzog begins consultations with the elected factions on 4 November. Benjamin Netanyahu remains Prime Minister while government formation is unresolved. The 26th Knesset is expected to convene on 10 November.</p>
+<div class="notice warn"><b>Important:</b> the Knesset results page describes the tally as final but unofficial. Treat the seat distribution as the completed-count snapshot pending formal certification. A party bloc is a political grouping, not a constitutional institution.</div>
+<p class="source">Sources: Knesset election results; Israeli President’s Office announcement; Congressional Research Service, 30 October 2026.</p>
+</div>
+<div class="card">
+<h3>Start with the system</h3>
+<div class="flow">
+<div class="flowstep"><b>1 · Voters</b><span>Vote for a nationwide closed party list, not an individual constituency candidate.</span></div>
+<div class="arrow">↓</div>
+<div class="flowstep"><b>2 · Knesset</b><span>120 seats are allocated proportionally to lists that pass the 3.25% threshold.</span></div>
+<div class="arrow">↓</div>
+<div class="flowstep"><b>3 · President</b><span>Consults elected factions and tasks an MK with trying to form a government.</span></div>
+<div class="arrow">↓</div>
+<div class="flowstep"><b>4 · Coalition</b><span>Parties negotiate a governing agreement and present the government to the Knesset.</span></div>
+<div class="arrow">↓</div>
+<div class="flowstep"><b>5 · Government</b><span>Prime Minister and ministers exercise executive authority and remain politically accountable to the Knesset.</span></div>
+</div>
+</div>
+<div class="card">
+<h3>Explore the reference</h3>
+<div class="tiles">
+<a data-go="l1">Election at a glance</a><a data-go="l2">Full election flow</a><a data-go="map">District map</a>
+<a data-go="federal">President &amp; Government</a><a data-go="parliament">Knesset</a><a data-go="judiciary">Courts &amp; Basic Laws</a>
+<a data-go="parties">Parties &amp; coalitions</a><a data-go="prime-ministers">Prime Ministers</a><a data-go="policies">Policies &amp; controversies</a>
+<a data-go="timeline">Political timeline</a><a data-go="foreign">Foreign relations</a><a data-go="glossary">Glossary</a>
+</div>
+</div>
+<div class="card">
+<h3>How to read this reference</h3>
+<ul><li><b>Constitutional design:</b> what the laws formally provide.</li><li><b>Political practice:</b> how coalitions, party discipline and institutions operate in reality.</li><li><b>Disputed matters:</b> territorial claims, war conduct, judicial power and allegations are identified as disputed where appropriate.</li><li><b>Time-sensitive information:</b> the election and coalition status is a snapshot dated 4 November 2026, not a prediction of the eventual government.</li></ul>
+</div>
+</section><section class="page" id="l1">
+<div class="hero"><div class="eyebrow">L1 · QUICK ORIENTATION</div><h2>Israel’s election at a glance</h2><p>The national vote chooses a 120-member parliament. The government is formed afterwards through coalition negotiations.</p></div>
+<div class="card"><h3>Core election facts</h3><table><tr><th>Item</th><th>How it works</th></tr>
+<tr><td>Parliament</td><td>Knesset; unicameral; 120 members.</td></tr>
+<tr><td>Election date in this cycle</td><td>27 October 2026 · 26th Knesset election.</td></tr>
+<tr><td>Electoral formula</td><td>Nationwide proportional representation using closed party lists.</td></tr>
+<tr><td>Electoral district</td><td>The whole country is one constituency; no single-member local parliamentary constituencies.</td></tr>
+<tr><td>Threshold</td><td>3.25% of valid votes.</td></tr>
+<tr><td>Term</td><td>Normally four years, but early dissolution can trigger an early election.</td></tr>
+<tr><td>Majority</td><td>61 of 120 Knesset members.</td></tr>
+<tr><td>Head of state</td><td>President Isaac Herzog; largely ceremonial and constitutional functions.</td></tr>
+<tr><td>Head of government</td><td>Prime Minister Benjamin Netanyahu remains in office during the post-election government-formation process.</td></tr>
+</table></div>
+<div class="card"><h3>Completed-count results · 26th Knesset election</h3><p class="muted">Seat tally reported after all ballots were counted; the Knesset page labels the result final but unofficial pending certification.</p>
+<table><tr><th>List / party</th><th>Seats</th><th>Political position (broad description)</th></tr>
+<tr><td>Likud</td><td>27</td><td>Right-wing national-conservative; led by Benjamin Netanyahu.</td></tr>
+<tr><td>Yashar</td><td>21</td><td>Centrist list led by Gadi Eisenkot.</td></tr>
+<tr><td>B’Yachad</td><td>12</td><td>List led by Naftali Bennett.</td></tr>
+<tr><td>Joint List</td><td>11</td><td>Arab-led alliance/list.</td></tr>
+<tr><td>The Democrats</td><td>8</td><td>Left/centre-left social-democratic list led by Yair Golan.</td></tr>
+<tr><td>Ra’am</td><td>8</td><td>Arab Islamist/conservative party.</td></tr>
+<tr><td>Yisrael Beiteinu</td><td>7</td><td>Secular nationalist/right-wing party led by Avigdor Lieberman.</td></tr>
+<tr><td>Otzma Yehudit</td><td>7</td><td>Far-right national-religious party led by Itamar Ben-Gvir.</td></tr>
+<tr><td>United Torah Judaism</td><td>7</td><td>Ultra-Orthodox Ashkenazi alliance.</td></tr>
+<tr><td>Shas</td><td>6</td><td>Sephardi/Mizrahi ultra-Orthodox party.</td></tr>
+<tr><td>Religious Zionism–Zehut</td><td>6</td><td>Religious-nationalist alliance/list.</td></tr>
+</table>
+<div class="notice warn">The bloc arithmetic (53 + 48 + 19 = 120) is a reported political grouping, not an official legal classification. Party alignments can change during negotiations.</div>
+</div>
+<div class="card"><h3>What happens next?</h3><ol><li>The Central Elections Committee completes certification and publication.</li><li>The President consults all elected factions. President Isaac Herzog announced consultations beginning 4 November 2026.</li><li>The President assigns an MK the task of forming a government.</li><li>The designated MK normally has 28 days, with a possible 14-day extension, under the applicable Basic Law framework.</li><li>If no government is formed, another MK may be tasked; failure can lead to another election.</li></ol></div>
+</section><section class="page" id="l2">
+<div class="hero"><div class="eyebrow">L2 · END-TO-END PROCESS</div><h2>How an Israeli general election becomes a government</h2><p>Election day determines parliamentary representation. It does not directly elect the Prime Minister.</p></div>
+<div class="card"><h3>Election-to-government lifecycle</h3>
+<div class="flow">
+<div class="flowstep"><b>1. Election called</b><span>The Knesset term can end at the normal statutory point or early dissolution can trigger an early election.</span></div><div class="arrow">↓</div>
+<div class="flowstep"><b>2. Lists registered</b><span>Parties and electoral alliances submit candidate lists, subject to election law and eligibility requirements.</span></div><div class="arrow">↓</div>
+<div class="flowstep"><b>3. Nationwide voting</b><span>Eligible voters cast one ballot for a party/list. There are no separate constituency ballots for individual MKs.</span></div><div class="arrow">↓</div>
+<div class="flowstep"><b>4. Count and threshold</b><span>Valid votes are counted; lists below 3.25% do not receive seats.</span></div><div class="arrow">↓</div>
+<div class="flowstep"><b>5. Seat allocation</b><span>120 seats are distributed proportionally, with surplus-vote arrangements and the Bader–Ofer allocation method.</span></div><div class="arrow">↓</div>
+<div class="flowstep"><b>6. Presidential consultations</b><span>The President consults elected factions about who is best placed to form a government.</span></div><div class="arrow">↓</div>
+<div class="flowstep"><b>7. Coalition negotiations</b><span>Parties negotiate policy guidelines, ministerial portfolios, coalition discipline and confidence support.</span></div><div class="arrow">↓</div>
+<div class="flowstep"><b>8. Government presented</b><span>The proposed government and its policy guidelines are presented to the Knesset for confidence.</span></div><div class="arrow">↓</div>
+<div class="flowstep"><b>9. Government takes office</b><span>Once confidence is secured, the new government assumes office. If formation fails, further attempts or a new election may follow.</span></div>
+</div></div>
+<div class="card"><h3>Key distinction</h3><p>Israelis elect the Knesset, not the Prime Minister directly. The President does not personally choose a preferred political programme; the President’s task is to assign the formation mandate to an MK assessed as most likely to secure Knesset confidence.</p></div>
+</section><section class="page" id="l3">
+<div class="hero"><div class="eyebrow">L3 · TECHNICAL MECHANICS</div><h2>How votes become Knesset seats</h2><p>Israel uses a single nationwide party-list proportional representation system.</p></div>
+<div class="card"><h3>Seat allocation, simplified</h3><ol><li>Count all valid ballots cast for each list.</li><li>Exclude lists that fail the 3.25% electoral threshold.</li><li>Calculate the electoral quotient from the valid votes of qualifying lists divided by 120.</li><li>Allocate whole seats proportionally using the statutory allocation method.</li><li>Allocate remaining seats using the Bader–Ofer method; surplus-vote agreements between lists can affect the final allocation.</li><li>Seats are filled by candidates in the order shown on each closed list.</li></ol><div class="notice">The example below is conceptual, not a reconstruction of the 2026 official count.</div>
+<table><tr><th>List vote share</th><th>Approximate seats before remainder rules</th></tr><tr><td>30%</td><td>36</td></tr><tr><td>20%</td><td>24</td></tr><tr><td>10%</td><td>12</td></tr><tr><td>5%</td><td>6</td></tr></table></div>
+<div class="card"><h3>Why coalitions are central</h3><p>Because many parties can win representation and no one party normally wins 61 seats alone, governments are built from coalition agreements. Small parties can gain bargaining leverage when their seats are needed for a majority. Coalition instability can cause budget disputes, defections, no-confidence motions or early elections.</p></div>
+<div class="card"><h3>What voters do not directly choose</h3><ul><li>They do not directly elect the Prime Minister.</li><li>They do not elect 120 local constituency MPs.</li><li>They do not vote separately for ministers.</li><li>They do not elect the President by popular vote; the Knesset elects the President.</li></ul></div>
+</section><section class="page" id="map">
+<div class="hero"><div class="eyebrow">ADMINISTRATIVE GEOGRAPHY · INTERACTIVE</div><h2>Israel’s districts &amp; geographic reference</h2><p>Select a district on the map or in the list to update the same detail panel. The map is an illustrative locator, not a cadastral boundary or a representation of final sovereignty.</p></div>
+<div class="card"><h3>Interactive district locator</h3>
+<div class="map-layout">
+<div class="map-frame">
+<svg aria-label="Schematic map of Israel's six administrative districts" id="districtMap" role="img" viewbox="0 0 640 900">
+<defs><pattern height="9" id="disputedHatch" patternunits="userSpaceOnUse" width="9"><path d="M0 0 L9 9 M-2 7 L2 11 M7 -2 L11 2" stroke="#9a6a6a" stroke-width="1.3"></path></pattern></defs>
+<path class="map-outline" d="M245 35 L315 42 L355 88 L370 132 L350 175 L365 218 L345 263 L362 305 L344 352 L355 396 L330 443 L340 495 L320 545 L330 596 L304 645 L310 700 L280 748 L250 805 L220 850 L182 825 L205 780 L220 735 L228 690 L215 646 L230 602 L218 555 L230 510 L214 468 L225 425 L210 380 L225 335 L215 290 L230 245 L218 202 L235 160 L220 115 Z"></path>
+<g class="district-shapes">
+<path class="district-shape" d="M245 35 L315 42 L355 88 L370 132 L350 175 L365 218 L345 263 L280 260 L230 245 L218 202 L235 160 L220 115 Z" data-district="north" id="d-north"><title>Northern District</title></path>
+<path class="district-shape" d="M230 245 L280 260 L345 263 L362 305 L344 352 L285 350 L225 335 L215 290 Z" data-district="haifa" id="d-haifa"><title>Haifa District</title></path>
+<path class="district-shape" d="M225 335 L285 350 L344 352 L355 396 L330 443 L270 440 L225 425 L210 380 Z" data-district="telaviv" id="d-telaviv"><title>Tel Aviv District</title></path>
+<path class="district-shape" d="M270 440 L330 443 L340 495 L320 545 L330 596 L265 600 L218 555 L230 510 L214 468 L225 425 Z" data-district="central" id="d-central"><title>Central District</title></path>
+<path class="district-shape" d="M330 443 L340 495 L320 545 L330 596 L304 645 L260 640 L265 600 L320 545 Z" data-district="jerusalem" id="d-jerusalem"><title>Jerusalem District</title></path>
+<path class="district-shape" d="M260 640 L304 645 L310 700 L280 748 L250 805 L220 850 L182 825 L205 780 L220 735 L228 690 L215 646 Z" data-district="south" id="d-south"><title>Southern District</title></path>
+</g>
+<path class="map-boundary-dash" d="M390 250 L420 320 L410 410 L430 500 L420 610"></path>
+<text class="map-label-small" x="438" y="345">West Bank</text><text class="map-label-small" x="438" y="365">(separate status)</text>
+<rect class="map-context" height="48" rx="4" width="22" x="130" y="435"></rect><text class="map-label-small" x="65" y="460">Gaza</text><text class="map-label-small" x="65" y="480">Strip</text>
+<path class="map-context" d="M345 76 L400 48 L458 62 L442 120 L370 132 Z"></path><text class="map-label-small" x="455" y="92">Golan</text><text class="map-label-small" x="455" y="110">Heights</text>
+<text class="map-north" x="65" y="880">N</text><path d="M78 845 L78 815 M78 815 l-8 12 M78 815 l8 12" fill="none" stroke="#314b68" stroke-width="3"></path>
+</svg>
+<div class="map-legend"><span><i class="legend-dot active-dot"></i>Selected district</span><span><i class="legend-dot"></i>Other districts</span><span><i class="legend-dash"></i>Context only / disputed status</span></div>
+<p class="muted small">Schematic only · not to scale · district shapes are simplified for navigation. Israel’s electoral system is nationwide, not district-based.</p>
+</div>
+<div class="district-list" id="districtList">
+<button class="district-btn active" data-district="north">Northern District <small>Capital: Safed</small></button>
+<button class="district-btn" data-district="haifa">Haifa District <small>Capital: Haifa</small></button>
+<button class="district-btn" data-district="telaviv">Tel Aviv District <small>Capital: Tel Aviv-Yafo</small></button>
+<button class="district-btn" data-district="central">Central District <small>Capital: Ramla</small></button>
+<button class="district-btn" data-district="jerusalem">Jerusalem District <small>Capital: Jerusalem</small></button>
+<button class="district-btn" data-district="south">Southern District <small>Capital: Beersheba</small></button>
+</div>
+</div>
+<div aria-live="polite" class="detail-panel" id="districtDetail"><h3>Northern District</h3><p><b>District capital:</b> Safed (Tzfat)</p><p>Northern Galilee, Golan area and northern communities. The district includes areas whose territorial status or boundaries are disputed in international diplomacy; do not treat the map as a sovereignty ruling.</p></div>
+</div>
+<div class="card"><h3>Territorial status: do not conflate these categories</h3><table><tr><th>Area</th><th>How to describe it carefully</th></tr>
+<tr><td>Israel within the Green Line</td><td>The internationally recognised State of Israel is generally described with reference to the 1949 Armistice Lines (Green Line), although borders with some neighbours were later established by treaties.</td></tr>
+<tr><td>East Jerusalem</td><td>Israel extended its law and administration to East Jerusalem and regards Jerusalem as its capital. The annexation is not recognised by most states and is regarded as occupied territory under the prevailing international position.</td></tr>
+<tr><td>West Bank</td><td>Territory captured by Israel in 1967. Israel exercises varying degrees of control; Palestinian self-government operates in parts under the Oslo framework. The territory’s final status remains unresolved.</td></tr>
+<tr><td>Gaza Strip</td><td>Palestinian territory. Israel withdrew settlements and permanent ground forces in 2005, but questions of control, blockade, occupation and legal responsibility remain contested and have been addressed differently by international bodies and legal actors.</td></tr>
+<tr><td>Golan Heights</td><td>Captured from Syria in 1967 and annexed by Israel in 1981. The annexation is not recognised by the UN Security Council; most of the international community considers the Golan occupied Syrian territory.</td></tr>
+</table></div>
+</section><section class="page" id="voting">
+<div class="hero"><div class="eyebrow">VOTING &amp; COUNTING</div><h2>Voter eligibility, ballots and election administration</h2><p>National parliamentary elections are conducted as a party-list vote under the Knesset election laws.</p></div>
+<div class="card"><h3>Who can vote?</h3><ul><li>Israeli citizens aged 18 or older on election day are generally eligible to vote, subject to statutory requirements.</li><li>Voting is normally conducted at polling stations in Israel. Special arrangements apply to certain categories, including eligible diplomatic and service personnel.</li><li>Voters cast one ballot for a registered list; they do not rank candidates or select an individual district representative.</li></ul></div>
+<div class="card"><h3>Ballot and counting</h3><ol><li>Voter receives an official ballot envelope and selects one party/list slip.</li><li>The sealed ballot is placed in the ballot box.</li><li>Polling station committees count and report results under election administration rules.</li><li>Votes are aggregated nationally; threshold eligibility is assessed.</li><li>Seat allocation is calculated and results are published by the Central Elections Committee.</li></ol><p>Israel uses paper ballots. Digital reporting and administrative systems do not mean that the voter casts a ballot through an internet voting platform.</p></div>
+<div class="card"><h3>Central Elections Committee</h3><p>The Central Elections Committee is responsible for administering and supervising Knesset elections, including candidate/list matters, polling arrangements, counting, and publication of results. Its chair is a Supreme Court justice, while its membership reflects parliamentary representation.</p></div>
+</section><section class="page" id="federal">
+<div class="hero"><div class="eyebrow">EXECUTIVE BRANCH</div><h2>President, Prime Minister &amp; Government</h2><p>Israel is a parliamentary system. The President is head of state; the Prime Minister leads the executive government.</p></div>
+<div class="card"><h3>Current officeholders · 4 November 2026</h3><table><tr><th>Office</th><th>Officeholder</th><th>Role</th></tr>
+<tr><td>President</td><td>Isaac Herzog</td><td>Head of state; elected by the Knesset for one seven-year term. Consults factions and assigns the government-formation task.</td></tr>
+<tr><td>Prime Minister</td><td>Benjamin Netanyahu</td><td>Head of government; remains in office in caretaker/continuity capacity until a successor government is formed and takes office.</td></tr>
+</table><div class="notice">The election result does not automatically remove the incumbent Prime Minister. The outgoing government continues until a new government is approved and assumes office.</div></div>
+<div class="card"><h3>President of Israel</h3><ul><li>Chosen by the Knesset in a secret ballot.</li><li>Serves a single seven-year term.</li><li>Performs constitutional and representative functions, including formal roles in government formation and pardons.</li><li>Does not run the day-to-day government or command a parliamentary majority.</li></ul></div>
+<div class="card"><h3>Prime Minister and Cabinet</h3><ul><li>The Prime Minister leads the government and coordinates ministers and policy.</li><li>Ministers head government ministries and are collectively responsible to the Knesset.</li><li>The government requires Knesset confidence and can be replaced through a constructive no-confidence process under the Basic Law: The Government.</li><li>Coalition agreements are politically important but do not override Basic Laws or ordinary legislation.</li></ul></div>
+<div class="card"><h3>Government formation in the current cycle</h3><p>President Herzog announced that consultations with factions elected to the 26th Knesset begin on 4 November 2026. After consultations, the President will designate an MK to form a government. The announced process gives the designee 28 days, with an extension possible under the Basic Law framework.</p></div>
+</section><section class="page" id="parliament">
+<div class="hero"><div class="eyebrow">LEGISLATIVE BRANCH</div><h2>The Knesset · Israel’s parliament</h2><p>One chamber, 120 members, elected through nationwide proportional representation.</p></div>
+<div class="card"><h3>What is the Knesset?</h3><ul><li>Unicameral national legislature with 120 Members of Knesset (MKs).</li><li>Legislates, approves budgets, scrutinises ministers, and expresses or withdraws confidence in governments.</li><li>Its committees examine bills and government activity.</li><li>It elects the President and has roles in judicial appointments and other constitutional processes.</li></ul></div>
+<div class="card"><h3>26th Knesset election seat distribution · completed count</h3><table><tr><th>Party/list</th><th>Seats</th></tr><tr><td>Likud</td><td>27</td></tr><tr><td>Yashar</td><td>21</td></tr><tr><td>B’Yachad</td><td>12</td></tr><tr><td>Joint List</td><td>11</td></tr><tr><td>The Democrats</td><td>8</td></tr><tr><td>Ra’am</td><td>8</td></tr><tr><td>Yisrael Beiteinu</td><td>7</td></tr><tr><td>Otzma Yehudit</td><td>7</td></tr><tr><td>United Torah Judaism</td><td>7</td></tr><tr><td>Shas</td><td>6</td></tr><tr><td>Religious Zionism–Zehut</td><td>6</td></tr><tr><th>Total</th><th>120</th></tr></table><p class="muted">Pending formal certification at the update cut-off.</p></div>
+<div class="card"><h3>Parliamentary majority and opposition</h3><p>A simple majority of the full 120-seat Knesset is 61. The election produced no clear 61-seat bloc. The current reported groupings are 53 seats for the Likud-led bloc, 48 for the opposition bloc, and 19 for Arab-led parties. Negotiations may change alignments; bloc totals are not fixed legal categories.</p></div>
+<div class="card"><h3>How a bill becomes law</h3><ol><li>Bill introduced by government or MKs.</li><li>Preliminary reading may apply to private members’ bills.</li><li>Committee deliberation and amendments.</li><li>First, second and third readings as required.</li><li>Publication and commencement under the law’s provisions.</li></ol></div>
+</section><section class="page" id="judiciary">
+<div class="hero"><div class="eyebrow">JUDICIAL BRANCH &amp; CONSTITUTIONAL FRAMEWORK</div><h2>Courts, Basic Laws &amp; constitutional review</h2><p>Israel does not have a single consolidated written constitution. Its constitutional framework is built around Basic Laws, ordinary statutes, judicial decisions and foundational declarations.</p></div>
+<div class="card"><h3>Basic Laws</h3><p>The Knesset has adopted Basic Laws covering institutions and rights, including the Knesset, Government, President, Judiciary, State Economy, Human Dignity and Liberty, Freedom of Occupation, and Israel as the Nation-State of the Jewish People. The Harari Resolution of 1950 envisaged a constitution developed chapter by chapter through Basic Laws.</p></div>
+<div class="card"><h3>Court structure</h3><ul><li><b>Supreme Court:</b> highest court; sits as a court of appeal and as the High Court of Justice (HCJ) in petitions against public authorities.</li><li><b>District courts:</b> major trial and appellate jurisdiction.</li><li><b>Magistrates’ courts:</b> lower-level civil and criminal matters.</li><li><b>Specialised and religious courts:</b> including labour, family and recognised religious jurisdictions within their statutory fields.</li></ul></div>
+<div class="card"><h3>Judicial selection and reform debate</h3><p>Judicial appointments are made through a statutory selection committee system. Proposals to change the committee’s composition, the Court’s review powers and the use of reasonableness review triggered major protests and constitutional controversy in 2023–2024. In January 2024, the Supreme Court struck down the 2023 amendment that restricted the reasonableness doctrine, in a landmark decision. Debates over judicial power, parliamentary sovereignty and checks and balances remain politically consequential.</p></div>
+<div class="card"><h3>Important distinction</h3><p>Israel’s Basic Laws form a constitutional framework, but they are not equivalent to a single entrenched constitution with a uniform amendment procedure. The scope of judicial review and the relationship between the Knesset and Supreme Court remain subjects of legal and political debate.</p></div>
+</section><section class="page" id="security">
+<div class="hero"><div class="eyebrow">SECURITY &amp; STATE INSTITUTIONS</div><h2>Defence, intelligence &amp; internal security</h2><p>Israel’s security system combines elected civilian authority, military command, intelligence agencies and internal security bodies.</p></div>
+<div class="card"><h3>Principal institutions</h3><table><tr><th>Institution</th><th>Primary remit</th></tr><tr><td>Israel Defense Forces (IDF)</td><td>Military defence and operations; formally under civilian government authority.</td></tr><tr><td>Ministry of Defence</td><td>Defence policy, procurement and administration.</td></tr><tr><td>Shin Bet / Israel Security Agency (ISA)</td><td>Domestic security, counterterrorism and protection of state institutions.</td></tr><tr><td>Mossad</td><td>Foreign intelligence and overseas operations.</td></tr><tr><td>National Security Council</td><td>Advises the Prime Minister and government on national security strategy and coordination.</td></tr><tr><td>Israel Police</td><td>Law enforcement and public order.</td></tr><tr><td>Border Police</td><td>Police force with security and border-related duties, including operations in sensitive areas.</td></tr></table></div>
+<div class="card"><h3>Civilian control and accountability</h3><p>The government and Defence Minister exercise civilian authority over the IDF. The Chief of General Staff commands the military under the authority of the government and Defence Minister. Intelligence agencies operate under statutory and executive frameworks, with parliamentary, judicial and other oversight mechanisms whose effectiveness is debated.</p></div>
+<div class="card"><h3>Security does not remove legal questions</h3><p>Military necessity, protection of civilians, hostages, detainees, proportionality, distinction, occupation law and accountability are distinct legal questions. Allegations about specific operations should be attributed to the relevant court, commission, government, UN body or investigative organisation rather than stated as settled findings without evidence.</p></div>
+</section><section class="page" id="parties">
+<div class="hero"><div class="eyebrow">POLITICAL LANDSCAPE</div><h2>Parties, blocs, coalition politics &amp; opposition</h2><p>Israeli politics is fragmented across ideological, religious, ethnic, national and socioeconomic cleavages. Coalition building is central.</p></div>
+<div class="card"><h3>Major parties and political traditions</h3><table><tr><th>Party / list</th><th>Broad orientation</th><th>Key context</th></tr>
+<tr><td>Likud</td><td>Right-wing national-conservative</td><td>Major governing party; associated with Netanyahu and the Revisionist Zionist tradition.</td></tr>
+<tr><td>Yashar</td><td>Centrist</td><td>Gadi Eisenkot-led list in the 2026 election.</td></tr>
+<tr><td>B’Yachad</td><td>Centrist / centre-right</td><td>Naftali Bennett-led list.</td></tr>
+<tr><td>The Democrats</td><td>Left / centre-left</td><td>Social-democratic and liberal-left tradition; led by Yair Golan.</td></tr>
+<tr><td>Yisrael Beiteinu</td><td>Secular nationalist / right</td><td>Led by Avigdor Lieberman; strong secular and Russian-speaking immigrant constituencies historically.</td></tr>
+<tr><td>Shas</td><td>Sephardi/Mizrahi ultra-Orthodox</td><td>Religious and social welfare agenda; historically led by Aryeh Deri.</td></tr>
+<tr><td>United Torah Judaism</td><td>Ashkenazi ultra-Orthodox</td><td>Religious education, community and conscription policy priorities.</td></tr>
+<tr><td>Otzma Yehudit</td><td>Far-right religious nationalist</td><td>Associated with Itamar Ben-Gvir.</td></tr>
+<tr><td>Religious Zionism–Zehut</td><td>Religious nationalist</td><td>National-religious alliance/list in 2026 election.</td></tr>
+<tr><td>Joint List</td><td>Arab-led alliance</td><td>Represents Arab citizens through a multi-party list.</td></tr>
+<tr><td>Ra’am</td><td>Arab Islamist / conservative</td><td>Independent Arab party; its participation or support can affect coalition arithmetic.</td></tr>
+</table></div>
+<div class="card"><h3>Why coalition arithmetic matters</h3><p>A party with a relatively small number of seats may be pivotal if the two largest blocs fall short of 61. Coalition agreements can determine budgets, religious-state policy, judicial legislation, security policy and ministerial appointments. A coalition may also be supported by parties that do not formally join the cabinet.</p></div>
+<div class="card"><h3>2026 post-election picture</h3><ul><li>Likud is the largest party with 27 seats.</li><li>The Likud-led bloc has 53 seats in the reported grouping.</li><li>The opposition bloc has 48 seats.</li><li>Arab-led parties hold 19 seats combined (Joint List 11 and Ra’am 8).</li><li>No bloc reaches the 61-seat majority alone. The role of Arab-led parties and possible unity arrangements are central to government-formation talks.</li></ul><div class="notice warn">Do not describe the 19 Arab-led seats as one unified negotiating bloc. The Joint List and Ra’am are separate lists with their own positions.</div></div>
+</section><section class="page" id="prime-ministers">
+<div class="hero"><div class="eyebrow">EXECUTIVE HISTORY</div><h2>Prime Ministers of Israel · 1948–2026</h2><p>Israel’s Prime Ministers and their periods in office. Dates may differ slightly depending on whether an interim or caretaker period is counted.</p></div>
+<div class="card"><table><tr><th>Prime Minister</th><th>Tenure</th><th>Historical context</th></tr>
+<tr><td>David Ben-Gurion</td><td>1948–1954; 1955–1963</td><td>Founding Prime Minister; state institutions, mass immigration and early security doctrine.</td></tr>
+<tr><td>Moshe Sharett</td><td>1954–1955</td><td>Diplomat and second Prime Minister.</td></tr>
+<tr><td>Levi Eshkol</td><td>1963–1969</td><td>Economic development and leadership during the 1967 Six-Day War.</td></tr>
+<tr><td>Golda Meir</td><td>1969–1974</td><td>Yom Kippur War; resigned amid public criticism of preparedness and leadership.</td></tr>
+<tr><td>Yitzhak Rabin</td><td>1974–1977; 1992–1995</td><td>Entebbe-era leadership; Oslo process; assassinated in 1995 by an Israeli extremist opposing the peace process.</td></tr>
+<tr><td>Menachem Begin</td><td>1977–1983</td><td>First Likud-led change of government; Egypt peace treaty; 1982 Lebanon War.</td></tr>
+<tr><td>Yitzhak Shamir</td><td>1983–1984; 1986–1992</td><td>Coalition leadership, First Intifada period and Madrid Conference.</td></tr>
+<tr><td>Shimon Peres</td><td>1984–1986; 1995–1996</td><td>National Unity rotation; Oslo-era leadership after Rabin’s assassination.</td></tr>
+<tr><td>Benjamin Netanyahu</td><td>1996–1999; 2009–2021; 2022–present (as of 4 Nov 2026)</td><td>Longest-serving Prime Minister overall; security, economy, Abraham Accords, judicial overhaul dispute, October 7 attack and Gaza war; corruption trial ongoing.</td></tr>
+<tr><td>Ehud Barak</td><td>1999–2001</td><td>Camp David 2000 negotiations; Second Intifada began during his tenure.</td></tr>
+<tr><td>Ariel Sharon</td><td>2001–2006</td><td>Second Intifada; unilateral disengagement from Gaza; incapacitated in 2006.</td></tr>
+<tr><td>Ehud Olmert</td><td>2006–2009</td><td>Second Lebanon War; later convicted in a corruption case.</td></tr>
+<tr><td>Naftali Bennett</td><td>2021–2022</td><td>Led ideologically diverse coalition that ended Netanyahu’s continuous 2009–2021 tenure.</td></tr>
+<tr><td>Yair Lapid</td><td>2022 (caretaker, July–December)</td><td>Interim Prime Minister before the 37th Government led by Netanyahu.</td></tr>
+</table><p class="muted">Netanyahu’s current status at the 4 November 2026 cut-off is incumbent Prime Minister pending formation of a new government after the 26th Knesset election.</p></div>
+</section><section class="page" id="presidents">
+<div class="hero"><div class="eyebrow">HEADS OF STATE</div><h2>Presidents of Israel · 1949–2026</h2><p>The President is elected by the Knesset and generally performs a largely ceremonial and constitutional role.</p></div>
+<div class="card"><table><tr><th>President</th><th>Term</th><th>Context</th></tr>
+<tr><td>Chaim Weizmann</td><td>1949–1952</td><td>Scientist and Zionist leader; first President.</td></tr>
+<tr><td>Yitzhak Ben-Zvi</td><td>1952–1963</td><td>Second President; served two terms.</td></tr>
+<tr><td>Zalman Shazar</td><td>1963–1973</td><td>Historian, writer and politician.</td></tr>
+<tr><td>Ephraim Katzir</td><td>1973–1978</td><td>Scientist; served during the Yom Kippur War period.</td></tr>
+<tr><td>Yitzhak Navon</td><td>1978–1983</td><td>First President of Sephardi/Mizrahi background.</td></tr>
+<tr><td>Chaim Herzog</td><td>1983–1993</td><td>Former military officer and diplomat.</td></tr>
+<tr><td>Ezer Weizman</td><td>1993–2000</td><td>Former Air Force commander and politician.</td></tr>
+<tr><td>Moshe Katsav</td><td>2000–2007</td><td>Resigned; later convicted of rape and other sexual offences.</td></tr>
+<tr><td>Shimon Peres</td><td>2007–2014</td><td>Former Prime Minister and Nobel Peace Prize laureate.</td></tr>
+<tr><td>Reuven Rivlin</td><td>2014–2021</td><td>Former Knesset Speaker and Likud politician.</td></tr>
+<tr><td>Isaac Herzog</td><td>2021–present</td><td>Former Labour leader and opposition leader; President during 2026 election and government-formation process.</td></tr>
+</table></div>
+</section><section class="page" id="leaders">
+<div class="hero"><div class="eyebrow">PEOPLE &amp; INSTITUTIONS</div><h2>Key leaders, founders, movements &amp; public institutions</h2><p>Israel’s political history has been shaped by founding leaders, military commanders, diplomats, judges, social movements and minority communities.</p></div>
+<div class="card"><h3>Founding and early statehood</h3><ul><li><b>Theodor Herzl:</b> political Zionism’s principal early theorist and organiser.</li><li><b>David Ben-Gurion:</b> led the declaration of independence and early state-building.</li><li><b>Chaim Weizmann:</b> scientist and Zionist diplomat; first President.</li><li><b>Golda Meir:</b> early labour movement leader and Prime Minister.</li><li><b>Menachem Begin:</b> Revisionist Zionist leader; led the 1977 political transition and Egypt peace treaty.</li></ul></div>
+<div class="card"><h3>Peace process and modern politics</h3><ul><li><b>Yitzhak Rabin:</b> Prime Minister and central Oslo Accords figure; assassinated in 1995.</li><li><b>Shimon Peres:</b> central figure in diplomacy and the Oslo process.</li><li><b>Ariel Sharon:</b> military and political leader; Gaza disengagement architect.</li><li><b>Benjamin Netanyahu:</b> dominant political figure across multiple terms since 1996.</li><li><b>Isaac Herzog:</b> President from 2021.</li><li><b>Gadi Eisenkot:</b> former IDF Chief of Staff and leader of Yashar in the 2026 election.</li><li><b>Naftali Bennett:</b> former Prime Minister and leader of B’Yachad in the 2026 election.</li><li><b>Yair Golan:</b> former deputy IDF chief and leader of The Democrats.</li></ul></div>
+<div class="card"><h3>Institutions and civil society</h3><ul><li><b>Histadrut:</b> major labour federation with a historic role in the pre-state and early state economy.</li><li><b>Jewish Agency:</b> institution central to immigration and Zionist state-building before and after 1948.</li><li><b>Supreme Court:</b> central to constitutional and administrative law disputes.</li><li><b>Central Elections Committee:</b> election administration and supervision.</li><li><b>Local authorities:</b> municipal government, services, planning and local political representation.</li><li><b>Arab citizens of Israel:</b> a major minority electorate with diverse political parties and civic organisations.</li></ul></div>
+</section><section class="page" id="policies">
+<div class="hero"><div class="eyebrow">POLICY, CONFLICT &amp; CONTROVERSY</div><h2>Major policies, wars, reforms &amp; contested decisions</h2><p>Separate historical events, official policy, legal findings, allegations and competing interpretations.</p></div>
+<div class="card"><h3>State-building, economy and society</h3><ul><li><b>Mass immigration:</b> large waves of Jewish immigration reshaped population, housing, labour and state institutions.</li><li><b>Reparations agreement (1952):</b> West German reparations and restitution became a major political controversy.</li><li><b>Economic liberalisation:</b> reforms accelerated in the 1980s and 1990s; Israel developed a high-tech export economy alongside persistent inequality and cost-of-living pressures.</li><li><b>Nation-State Basic Law (2018):</b> defined Israel as the nation-state of the Jewish people; critics argued it downgraded equality and minority status, while supporters defended national self-determination.</li></ul></div>
+<div class="card"><h3>Wars and territorial developments</h3><ul><li><b>1948 Arab–Israeli War:</b> establishment of Israel, war with neighbouring Arab states, Palestinian displacement (Nakba) and armistice lines.</li><li><b>1956 Suez Crisis:</b> Israel joined Britain and France in the campaign against Egypt.</li><li><b>1967 Six-Day War:</b> Israel captured the West Bank, East Jerusalem, Gaza, Sinai and Golan Heights.</li><li><b>1973 Yom Kippur War:</b> Egyptian and Syrian surprise attack; major reassessment of intelligence and preparedness.</li><li><b>1979 Egypt peace treaty:</b> formal peace and Israeli withdrawal from Sinai.</li><li><b>1982 Lebanon War:</b> invasion of Lebanon and long-term consequences; Sabra and Shatila massacre occurred under Israeli control of the area, with the Kahan Commission finding indirect Israeli responsibility and personal responsibility of senior officials in failing to prevent the massacre.</li><li><b>1993–1995 Oslo Accords:</b> mutual recognition between Israel and PLO and creation of Palestinian Authority; final-status issues unresolved.</li><li><b>2005 Gaza disengagement:</b> Israel removed settlements and permanent ground forces from Gaza.</li><li><b>2023–2026 war:</b> Hamas-led 7 October 2023 attacks killed civilians and security personnel and involved hostage-taking; Israel launched a major military campaign in Gaza. The conduct, humanitarian consequences, hostages, displacement, alleged violations and legal proceedings have been the subject of extensive international scrutiny and dispute.</li></ul></div>
+<div class="card"><h3>Domestic political controversies</h3><ul><li><b>Netanyahu corruption trial:</b> Netanyahu faces charges in Cases 1000, 2000 and 4000; he denies wrongdoing. Charges are allegations until adjudicated.</li><li><b>Judicial overhaul proposals:</b> 2023 proposals triggered mass protests and a constitutional crisis; the Supreme Court invalidated the reasonableness amendment in January 2024.</li><li><b>Ultra-Orthodox military conscription:</b> exemptions and enlistment policy remain major legal, social and coalition issues.</li><li><b>Settlement policy:</b> Israeli settlements in occupied West Bank are considered illegal under the prevailing international legal view; Israel disputes this legal interpretation.</li><li><b>Gaza humanitarian situation:</b> civilian deaths, displacement, aid access, destruction and accountability are major international concerns; casualty estimates and legal characterisations vary by source and date.</li></ul></div>
+<div class="card"><h3>How to assess claims</h3><p>For every controversy, ask: who made the claim; what evidence is public; whether an official inquiry, court or independent investigation reached a finding; whether the finding is final; and whether the subject disputes it. Do not treat an accusation, an interim legal measure or a political slogan as a final court judgment.</p></div>
+</section><section class="page" id="timeline">
+<div class="hero"><div class="eyebrow">NATIONAL POLITICAL HISTORY</div><h2>Israel · political timeline 1897–2026</h2><p>From political Zionism and the Mandate period to statehood, wars, peace agreements, political realignment and the 2026 election.</p></div>
+<div class="card"><div class="timeline">
+<div><b>1897</b><span>First Zionist Congress in Basel, organised by Theodor Herzl.</span></div>
+<div><b>1917</b><span>Balfour Declaration issued by the British government.</span></div>
+<div><b>1920–1948</b><span>British Mandate for Palestine; competing national movements and conflict.</span></div>
+<div><b>1947</b><span>UN General Assembly Resolution 181 recommends partition into Jewish and Arab states.</span></div>
+<div><b>14 May 1948</b><span>Declaration of the establishment of the State of Israel.</span></div>
+<div><b>1948–1949</b><span>War, armistice agreements and Palestinian Nakba/displacement.</span></div>
+<div><b>1956</b><span>Suez Crisis / Sinai Campaign.</span></div>
+<div><b>1967</b><span>Six-Day War; Israel captures territories including West Bank, East Jerusalem, Gaza and Golan.</span></div>
+<div><b>1973</b><span>Yom Kippur War.</span></div>
+<div><b>1977</b><span>Likud electoral victory; first major change from Labour-led dominance.</span></div>
+<div><b>1979</b><span>Egypt–Israel peace treaty.</span></div>
+<div><b>1982</b><span>Lebanon War; Sabra and Shatila massacre and Kahan Commission.</span></div>
+<div><b>1993–1995</b><span>Oslo Accords; Rabin assassinated in November 1995.</span></div>
+<div><b>2000–2005</b><span>Second Intifada; 2005 unilateral Gaza disengagement.</span></div>
+<div><b>2006</b><span>Second Lebanon War; Kadima emerges as a major centrist force.</span></div>
+<div><b>2009–2021</b><span>Netanyahu leads successive governments.</span></div>
+<div><b>2021–2022</b><span>Bennett–Lapid coalition replaces Netanyahu government for a period.</span></div>
+<div><b>2022</b><span>Netanyahu returns as Prime Minister.</span></div>
+<div><b>2023</b><span>Judicial overhaul protests; Hamas-led 7 October attacks and Gaza war.</span></div>
+<div><b>2024–2026</b><span>War, regional escalation, hostage negotiations, domestic accountability debates and 2026 election campaign.</span></div>
+<div><b>27 Oct 2026</b><span>Election for the 26th Knesset; no bloc secures a majority.</span></div>
+<div><b>4 Nov 2026</b><span>President Herzog begins consultations with elected factions to determine who should receive the government-formation mandate.</span></div>
+</div></div>
+</section><section class="page" id="foreign">
+<div class="hero"><div class="eyebrow">FOREIGN POLICY &amp; INTERNATIONAL RELATIONS</div><h2>Israel and the world</h2><p>Foreign relations are shaped by security, diplomacy, trade, technology, energy, religion and the unresolved Israeli–Palestinian conflict.</p></div>
+<div class="card"><h3>India–Israel relations</h3><ul><li>Full diplomatic relations established in 1992.</li><li>Cooperation includes defence, agriculture, water management, innovation, cybersecurity, science and technology.</li><li>India has historically supported a two-state solution and maintains relations with Israel and Palestine.</li><li>Defence ties have expanded over time, while India’s public positions on Gaza and Palestinian statehood reflect its broader regional diplomacy.</li></ul></div>
+<div class="card"><h3>United States</h3><ul><li>Israel’s most important strategic partner and principal military aid partner.</li><li>Relations include security assistance, intelligence, diplomacy, technology and domestic political debate in the United States.</li><li>Differences can arise over settlements, Palestinian statehood, Iran, military operations and civilian protection.</li></ul></div>
+<div class="card"><h3>Regional relationships</h3><ul><li><b>Egypt:</b> peace treaty since 1979.</li><li><b>Jordan:</b> peace treaty since 1994.</li><li><b>United Arab Emirates, Bahrain and Morocco:</b> normalisation agreements announced in 2020 under the Abraham Accords framework (Morocco’s arrangement has its own diplomatic context).</li><li><b>Saudi Arabia:</b> normalisation discussions have been affected by the Gaza war and Palestinian statehood questions.</li><li><b>Iran:</b> adversarial relationship involving nuclear programme concerns, regional armed groups and direct military escalation.</li><li><b>Lebanon and Syria:</b> security and border issues, with no full peace treaty.</li></ul></div>
+<div class="card"><h3>Europe, Russia and China</h3><p>European states are important trade and diplomatic partners, but differ over settlements, international law and the Gaza war. Russia has maintained contacts with regional actors while relations with Israel have been affected by the Ukraine war and Middle East conflicts. China is a major trade and technology partner, while Israel’s security ties with the United States constrain some strategic technology decisions.</p></div>
+</section><section class="page" id="society">
+<div class="hero"><div class="eyebrow">SOCIETY, DEMOGRAPHY &amp; TERRITORY</div><h2>Population, communities &amp; contested geography</h2><p>Israel is a diverse society. Population estimates vary with the definition of residents and whether East Jerusalem, the Golan and other territories are included.</p></div>
+<div class="card"><h3>Major communities and identities</h3><ul><li>Jewish Israelis, including diverse Ashkenazi, Mizrahi, Sephardi, Ethiopian, Russian-speaking and other communities.</li><li>Arab citizens of Israel, including Muslim, Christian, Druze and Bedouin communities; these groups are internally diverse.</li><li>Other communities include Circassians, migrants, asylum seekers and non-citizen residents.</li><li>Religious identity, language, ethnicity, class, geography and national identity all influence political preferences, but none should be treated as a single uniform voting bloc.</li></ul></div>
+<div class="card"><h3>Local government</h3><p>Israel has municipalities, local councils and regional councils. Local authorities provide services such as education support, sanitation, planning, local roads and community services, within national statutory and budgetary frameworks.</p></div>
+<div class="card"><h3>Population and territory: caution</h3><p>Always identify the statistical boundary used. Israeli statistical releases, UN datasets and international demographic estimates may differ in their treatment of East Jerusalem, the Golan Heights, West Bank settlements and Palestinian residents. Avoid combining figures from incompatible territorial definitions.</p></div>
+</section><section class="page" id="glossary">
+<div class="hero"><div class="eyebrow">REFERENCE</div><h2>Glossary &amp; frequently asked questions</h2><p>Key terms used in Israeli government, elections and political debate.</p></div>
+<div class="card"><table><tr><th>Term</th><th>Meaning</th></tr>
+<tr><td>Knesset</td><td>Israel’s unicameral parliament, consisting of 120 members.</td></tr>
+<tr><td>MK</td><td>Member of the Knesset.</td></tr>
+<tr><td>Basic Laws</td><td>Constitutional laws that form the core of Israel’s constitutional framework.</td></tr>
+<tr><td>Coalition</td><td>Parties and/or parliamentary groups supporting the government.</td></tr>
+<tr><td>Opposition</td><td>Parties not supporting the government; parliamentary status can depend on formal arrangements.</td></tr>
+<tr><td>Electoral threshold</td><td>Minimum vote share required for a list to participate in seat allocation; currently 3.25%.</td></tr>
+<tr><td>Closed list</td><td>Voters choose a party list; candidate order is set before election day.</td></tr>
+<tr><td>Bader–Ofer method</td><td>Statutory method used to allocate remaining Knesset seats after the initial proportional allocation.</td></tr>
+<tr><td>Constructive no-confidence</td><td>A mechanism requiring the Knesset to express confidence in an alternative government rather than merely dismiss the incumbent.</td></tr>
+<tr><td>HCJ</td><td>High Court of Justice, a function of the Supreme Court hearing petitions against public authorities.</td></tr>
+<tr><td>Green Line</td><td>1949 Armistice Line; often used as a reference line for the pre-1967 territory.</td></tr>
+<tr><td>Oslo Accords</td><td>1993–1995 agreements between Israel and the PLO that established interim Palestinian self-government arrangements.</td></tr>
+<tr><td>Intifada</td><td>Arabic term meaning uprising; commonly refers to Palestinian uprisings in 1987–1993 and 2000–2005.</td></tr>
+</table></div>
+<div class="card"><h3>FAQs</h3><details><summary>Does Israel directly elect its Prime Minister?</summary><p>No. Voters elect the Knesset. The President assigns an MK the task of forming a government, which must obtain Knesset confidence.</p></details><details><summary>Why are there so many parties?</summary><p>Nationwide proportional representation with a relatively low threshold allows multiple political currents to gain seats. Coalition formation then aggregates parties into governing majorities.</p></details><details><summary>Is Israel’s President like the US President?</summary><p>No. Israel’s President is a head of state with mostly ceremonial and constitutional functions. Executive power is exercised by the government led by the Prime Minister.</p></details><details><summary>Does Israel have a written constitution?</summary><p>It has no single consolidated constitution. Basic Laws form a constitutional framework, supplemented by statutes and judicial decisions.</p></details><details><summary>Are the West Bank and Gaza part of Israel’s six administrative districts?</summary><p>No. They are not among the six districts of Israel’s domestic administrative map. Their territorial and legal status is distinct and contested in international diplomacy and law.</p></details></div>
+</section><section class="page" id="sources">
+<div class="hero"><div class="eyebrow">SOURCES, VERIFICATION &amp; UPDATE POLICY</div><h2>Sources &amp; update notes</h2><p>Priority is given to official institutions for legal rules and certified results, and to independent reporting and research for analysis and disputed issues.</p></div>
+<div class="card"><h3>Primary and official sources</h3><ul>
+<li><a href="https://main.knesset.gov.il/mk/elections/pages/electionsresults26.aspx" rel="noopener" target="_blank">Knesset · 26th Knesset election results</a> — published tally and list seat totals.</li>
+<li><a href="https://www.gov.il/en/pages/president-herzog-to-begin-consultations-with-knesset-factions-2-nov-2026" rel="noopener" target="_blank">President’s Office / Government of Israel · 2 November 2026</a> — consultations beginning 4 November and government-formation process.</li>
+<li><a href="https://www.gov.il/apps/elections/eng/about/ElectoralSystem_eng.html" rel="noopener" target="_blank">Government of Israel · Electoral system</a> — official overview of party-list proportional representation.</li>
+<li><a href="https://main.knesset.gov.il/EN/activity/Pages/BasicLaws.aspx" rel="noopener" target="_blank">Knesset · Basic Laws</a> — constitutional framework.</li>
+<li><a href="https://m.knesset.gov.il/en/about/pages/branchesofgovernment.aspx" rel="noopener" target="_blank">Knesset · Three branches of government</a> — executive, legislative and judicial structure.</li>
+<li><a href="https://www.president.gov.il/en/presidents/" rel="noopener" target="_blank">President of Israel · Past Presidents</a> — presidential history.</li>
+<li><a href="https://www.gov.il/apps/pmo/history/historyPrimeMinistersEn.html" rel="noopener" target="_blank">Prime Minister’s Office · Former Prime Ministers</a> — PM history.</li>
+</ul></div>
+<div class="card"><h3>Independent and international research</h3><ul>
+<li><a href="https://www.everycrsreport.com/reports/IN12751.html" rel="noopener" target="_blank">Congressional Research Service · Israel: 2026 Elections and Government Formation (30 October 2026)</a> — election result context and coalition arithmetic.</li>
+<li><a href="https://blogs.loc.gov/law/2026/10/falqs-israels-upcoming-election-on-october-27-2026/" rel="noopener" target="_blank">Library of Congress · Israel’s 2026 election</a> — electoral threshold and seat allocation.</li>
+<li><a href="https://en.idi.org.il/articles/64066" rel="noopener" target="_blank">Israel Democracy Institute · Knesset 101</a> — accessible explanation of elections and parliament.</li>
+<li><a href="https://eprs.europarl.europa.eu/EPRS_ATA%282026%29796983" rel="noopener" target="_blank">European Parliamentary Research Service · 2026 election analysis</a> — political system and electoral formula.</li>
+<li><a href="https://apnews.com/article/3a793c0d07fdfe515390524b849d8674" rel="noopener" target="_blank">Associated Press · Coalition negotiations after 2026 election</a> — reported post-election arithmetic and negotiations.</li>
+</ul></div>
+<div class="card"><h3>Editorial and accuracy notes</h3><ul><li>Current snapshot date: <b>4 November 2026</b>.</li><li>2026 election seat figures are described as completed-count / final unofficial where formal certification remains pending.</li><li>Party labels such as “right”, “left”, “centrist” and “far-right” are broad analytical descriptions; parties contain internal diversity and positions can evolve.</li><li>Territorial questions are explicitly distinguished from internationally recognised status. The map is schematic and is not a legal boundary map.</li><li>Allegations are not presented as convictions; ongoing trials and investigations are identified as such.</li><li>Historical summaries are concise. For legal or academic work, consult the original legislation, judgments and official records linked above.</li></ul></div>
+</section></div>
+</main>
+</div>
+<div class="floating-tools"><div class="quick-panel" id="quickPanel"><a href="#dashboard" onclick="showPage('dashboard');return false;">Overview</a><a href="#l1" onclick="showPage('l1');return false;">Election at a glance</a><a href="#l2" onclick="showPage('l2');return false;">Election flow</a><a href="#l3" onclick="showPage('l3');return false;">Election mechanics</a><a href="#map" onclick="showPage('map');return false;">District map</a><a href="#voting" onclick="showPage('voting');return false;">Voting &amp; counting</a><a href="#federal" onclick="showPage('federal');return false;">President &amp; Government</a><a href="#parliament" onclick="showPage('parliament');return false;">Knesset</a><a href="#judiciary" onclick="showPage('judiciary');return false;">Judiciary &amp; Basic Laws</a><a href="#parties" onclick="showPage('parties');return false;">Political parties</a><a href="#prime-ministers" onclick="showPage('prime-ministers');return false;">Prime Ministers</a><a href="#presidents" onclick="showPage('presidents');return false;">Presidents</a><a href="#timeline" onclick="showPage('timeline');return false;">Political timeline</a><a href="#sources" onclick="showPage('sources');return false;">Sources</a></div><button class="tool-btn" onclick="document.getElementById('quickPanel').classList.toggle('open')" title="Quick navigation" type="button">☷</button><button class="tool-btn primary" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top" type="button">↑</button></div>
+<script>
+const pages=[...document.querySelectorAll('.page')];
+function showPage(id){
+  pages.forEach(p=>p.classList.toggle('active',p.id===id));
+  document.querySelectorAll('.nav-btn').forEach(b=>b.classList.toggle('active',b.dataset.page===id));
+  document.querySelector('.main').scrollTo({top:0,behavior:'smooth'});
+  window.scrollTo({top:0,behavior:'smooth'});
+  closeSearch();
+  history.replaceState(null,'','#'+id);
+}
+document.querySelectorAll('.nav-btn').forEach(b=>b.addEventListener('click',()=>showPage(b.dataset.page)));
+function closeSearch(){document.getElementById('search-results').classList.remove('active');document.getElementById('search-input').value='';}
+const searchInput=document.getElementById('search-input');
+const resultsBox=document.getElementById('search-results');
+const resultList=document.getElementById('search-results-list');
+const resultCount=document.getElementById('result-count');
+const emptyState=document.getElementById('search-empty');
+function norm(s){return (s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,' ').trim();}
+function lev(a,b){
+  if(a===b)return 0;if(!a||!b)return Math.max(a.length,b.length);
+  if(Math.abs(a.length-b.length)>2)return 3;
+  let prev=Array.from({length:b.length+1},(_,i)=>i);
+  for(let i=1;i<=a.length;i++){let cur=[i];for(let j=1;j<=b.length;j++)cur[j]=Math.min(cur[j-1]+1,prev[j]+1,prev[j-1]+(a[i-1]===b[j-1]?0:1));prev=cur;}
+  return prev[b.length];
+}
+const aliases={'senetaor':'senator','senetor':'senator','electrol college':'electoral college','loksobha':'lok sabha','vidhan sabha':'state legislative assembly','bidhan sabha':'state legislative assembly','rajya sabha':'rajya sabha','presedent':'president','governer':'governor','primery':'primary','caucus':'caucus','vp':'vice president','usa':'united states','us':'united states','india':'india'};
+function expandQuery(q){let n=norm(q);return aliases[n]||n;}
+function scoreText(query,text){
+ const q=expandQuery(query), t=norm(text);if(!q||!t)return 0;
+ if(t.includes(q))return 100+Math.min(q.length,30);
+ const qt=q.split(' ').filter(Boolean),tt=t.split(' ');
+ let score=0;
+ for(const token of qt){
+   if(tt.includes(token)){score+=12;continue;}
+   if(tt.some(w=>w.startsWith(token)||token.startsWith(w))){score+=8;continue;}
+   let d=3;for(const w of tt){if(Math.abs(w.length-token.length)<=2)d=Math.min(d,lev(token,w));}
+   if(d===1)score+=5;else if(d===2)score+=2;
+ }
+ return score;
+}
+function buildIndex(){
+ const idx=[];
+ document.querySelectorAll('.page').forEach(page=>{
+   const title=page.querySelector('.hero h2')?.innerText||page.id;
+   const els=[...page.querySelectorAll('h3,h4,p,li,td,th,summary,.flow-node,.mini-card,.glossary-list>div')];
+   els.forEach((el,i)=>{
+    const txt=(el.innerText||'').trim();if(txt.length<3)return;
+    idx.push({page:page.id,title,heading:el.closest('.card')?.querySelector('h3')?.innerText||title,text:txt,el});
+   });
+ });
+ return idx;
+}
+const searchIndex=buildIndex();
+function runSearch(raw){
+ const q=raw.trim();if(q.length<2){resultsBox.classList.remove('active');return;}
+ const ranked=searchIndex.map(x=>({...x,score:scoreText(q,x.text+' '+x.heading+' '+x.title)})).filter(x=>x.score>=5);
+ const seen=new Set(),items=[];
+ ranked.sort((a,b)=>b.score-a.score);
+ for(const r of ranked){const key=r.page+'|'+norm(r.text).slice(0,100);if(seen.has(key))continue;seen.add(key);items.push(r);if(items.length>=30)break;}
+ resultList.replaceChildren();resultCount.textContent='('+items.length+')';emptyState.style.display=items.length?'none':'block';
+ items.forEach(r=>{
+  const div=document.createElement('div');div.className='search-result-item';
+  const h=document.createElement('div');h.className='search-result-title';h.textContent=r.heading;
+  const ch=document.createElement('div');ch.className='search-result-chapter';ch.textContent=r.title+' · '+r.page.toUpperCase();
+  const sn=document.createElement('div');sn.className='search-result-snippet';sn.textContent=r.text.slice(0,240)+(r.text.length>240?'…':'');
+  div.append(h,ch,sn);div.addEventListener('click',()=>{showPage(r.page);setTimeout(()=>{r.el.scrollIntoView({behavior:'smooth',block:'center'});r.el.classList.add('search-hit');setTimeout(()=>r.el.classList.remove('search-hit'),1800)},100);});
+  resultList.appendChild(div);
+ });
+ resultsBox.classList.add('active');
+}
+let searchTimer;
+searchInput.addEventListener('input',()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>runSearch(searchInput.value),100);});
+searchInput.addEventListener('keydown',e=>{if(e.key==='Escape')closeSearch();if(e.key==='Enter'){const first=resultList.querySelector('.search-result-item');if(first)first.click();}});
+document.addEventListener('click',e=>{if(!e.target.closest('.body-search'))resultsBox.classList.remove('active');});
+(function(){
+ const sidebar=document.getElementById('sidebarNavigation');
+ const toggle=document.getElementById('mobileSidebarToggle');
+ if(!sidebar||!toggle)return;
+ const setMenuOpen=open=>{
+   sidebar.classList.toggle('mobile-open',open);
+   toggle.setAttribute('aria-expanded',String(open));
+ };
+ toggle.addEventListener('click',()=>setMenuOpen(!sidebar.classList.contains('mobile-open')));
+ sidebar.querySelectorAll('.nav-btn').forEach(button=>button.addEventListener('click',()=>setMenuOpen(false)));
+ document.addEventListener('click',event=>{
+   if(window.matchMedia('(max-width: 768px)').matches && sidebar.classList.contains('mobile-open') &&
+      !sidebar.contains(event.target) && !toggle.contains(event.target)) setMenuOpen(false);
+ });
+ document.addEventListener('keydown',event=>{if(event.key==='Escape')setMenuOpen(false);});
+ window.addEventListener('resize',()=>{if(!window.matchMedia('(max-width: 768px)').matches)setMenuOpen(false);});
+})();
+const initial=location.hash.slice(1);if(initial&&document.getElementById(initial)?.classList.contains('page'))showPage(initial);
+
+
+/* Overview dashboard cards behave as accessible links to their detailed chapters. */
+document.addEventListener('click', function(event) {
+  const card = event.target.closest('.overview-click-card[data-page]');
+  if (!card || event.target.closest('a,button')) return;
+  showPage(card.dataset.page);
+});
+document.addEventListener('keydown', function(event) {
+  const card = event.target.closest('.overview-click-card[data-page]');
+  if (!card || (event.key !== 'Enter' && event.key !== ' ')) return;
+  if (event.target.closest('a,button')) return;
+  event.preventDefault();
+  showPage(card.dataset.page);
+});
+
+
+/* Universal per-table search, filtering and sortable columns. */
+(function(){
+  const collator=new Intl.Collator(undefined,{numeric:true,sensitivity:'base'});
+  function cellValue(cell){
+    if(!cell)return '';
+    const raw=cell.getAttribute('data-value');
+    if(raw!==null && raw!==''){
+      const n=Number(raw);
+      return Number.isFinite(n)?{type:'number',value:n}:{type:'text',value:raw};
+    }
+    const text=(cell.innerText||cell.textContent||'').replace(/\s+/g,' ').trim();
+    const cleaned=text.replace(/,/g,'').replace(/[₹$%]/g,'').trim();
+    if(cleaned && /^-?\d+(\.\d+)?$/.test(cleaned))return {type:'number',value:Number(cleaned)};
+    return {type:'text',value:text};
+  }
+  function initTable(table){
+    if(table.dataset.tableEnhanced==='true')return;
+    table.dataset.tableEnhanced='true';
+    const toolbar=document.querySelector('.table-enhance-toolbar[data-table-target="'+table.id+'"]');
+    if(!toolbar)return;
+    const input=toolbar.querySelector('.table-enhance-search');
+    const count=toolbar.querySelector('.table-enhance-count');
+    const clear=toolbar.querySelector('.table-enhance-clear');
+    const body=table.tBodies[0];
+    if(!body)return;
+    const rows=[...body.rows];
+    function filter(){
+      const q=(input.value||'').trim().toLocaleLowerCase();
+      let shown=0;
+      rows.forEach(row=>{
+        const match=!q||(row.innerText||row.textContent||'').toLocaleLowerCase().includes(q);
+        row.hidden=!match;
+        if(match)shown++;
+      });
+      count.textContent=shown+' of '+rows.length+' rows';
+    }
+    input.addEventListener('input',filter);
+    clear.addEventListener('click',()=>{input.value='';filter();input.focus();});
+    const headers=[...table.querySelectorAll('thead th')];
+    headers.forEach((th,index)=>{
+      th.addEventListener('click',()=>sortBy(index,th));
+      th.addEventListener('keydown',event=>{
+        if(event.key==='Enter'||event.key===' '){event.preventDefault();sortBy(index,th);}
+      });
+    });
+    let lastColumn=-1,ascending=true;
+    function sortBy(index,header){
+      if(lastColumn===index)ascending=!ascending;
+      else {lastColumn=index;ascending=true;}
+      const sorted=[...body.rows].sort((a,b)=>{
+        const av=cellValue(a.cells[index]),bv=cellValue(b.cells[index]);
+        let cmp;
+        if(av.type==='number'&&bv.type==='number')cmp=av.value-bv.value;
+        else cmp=collator.compare(String(av.value),String(bv.value));
+        return cmp*(ascending?1:-1);
+      });
+      sorted.forEach(row=>body.appendChild(row));
+      headers.forEach(th=>{th.setAttribute('aria-sort','none');th.classList.remove('sort-ascending','sort-descending');});
+      header.setAttribute('aria-sort',ascending?'ascending':'descending');
+      header.classList.add(ascending?'sort-ascending':'sort-descending');
+      filter();
+    }
+    filter();
+  }
+  function initAll(){document.querySelectorAll('table[data-enhanced-table="true"]').forEach(initTable);}
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initAll);
+  else initAll();
+})();
+</script>
+<script>
+
+/* Body-only, click-to-open plain-English explanations. Navigation and links are excluded. */
+(function(){
+  const explanations = {
+    "acs": {
+      title:"ACS — American Community Survey",
+      meaning:"The American Community Survey is an ongoing survey conducted by the U.S. Census Bureau. It collects information about people and households, including birthplace, income, education and housing.",
+      why:"ACS figures are survey estimates based on a sample of the population, not a complete count of every person. They can have margins of error.",
+      example:"“Foreign-born, ACS 2024” means the 2024 American Community Survey estimate for people living in the United States who were born outside the country."
+    },
+    "aian": {
+      title:"AIAN — American Indian and Alaska Native",
+      meaning:"AIAN is the U.S. Census Bureau abbreviation for American Indian and Alaska Native, a race reporting category.",
+      why:"Census figures may report people who selected AIAN alone or people who selected AIAN along with one or more other races. Those are different measures.",
+      example:"“AIAN alone” means people who reported American Indian and Alaska Native as their only race category, rather than selecting it together with another race."
+    },
+    "checks and balances": {
+      title:"Checks and balances",
+      meaning:"A system in which each branch of the federal government has ways to limit or review the actions of the other branches. It helps prevent any one branch from becoming too powerful.",
+      why:"The President, Congress and the courts have separate responsibilities, but their powers overlap in carefully defined ways.",
+      example:"The President can veto a bill passed by Congress. Congress can override that veto with the required supermajority. Courts can rule that a law or government action violates the Constitution."
+    },
+    "separation of powers": {
+      title:"Separation of powers",
+      meaning:"The Constitution divides federal power among three branches: Legislative (Congress), Executive (President and executive agencies), and Judicial (federal courts).",
+      why:"Each branch has its own main job, so lawmaking, enforcement and interpretation are not all controlled by one institution.",
+      example:"Congress passes federal laws, the President and executive agencies enforce them, and courts decide legal disputes about their meaning and constitutionality."
+    },
+    "federalism": {
+      title:"Federalism",
+      meaning:"A system that divides governing authority between the national government and the state governments.",
+      why:"Some powers belong to the federal government, some are reserved to the states, and some areas involve both.",
+      example:"The federal government handles national defence and foreign affairs; states have major responsibilities for public education, state elections and many public-safety rules."
+    },
+    "enumerated powers": {
+      title:"Enumerated powers",
+      meaning:"Powers specifically listed in the US Constitution as belonging to the federal government or a particular branch.",
+      why:"The list helps define and limit what the federal government may do.",
+      example:"Congress has enumerated powers to tax, borrow money, regulate interstate commerce and declare war."
+    },
+    "reserved powers": {
+      title:"Reserved powers",
+      meaning:"Powers not delegated to the federal government and not prohibited to the states, generally reserved to the states or the people under the Tenth Amendment.",
+      why:"This is a central part of the federal-state division of authority.",
+      example:"States generally set many rules for public schools, professional licensing and local government."
+    },
+    "concurrent powers": {
+      title:"Concurrent powers",
+      meaning:"Powers that both the federal government and state governments can exercise.",
+      why:"Some responsibilities are shared rather than belonging exclusively to one level of government.",
+      example:"Both federal and state governments can tax, establish courts and make laws, subject to constitutional limits."
+    },
+    "supremacy clause": {
+      title:"Supremacy Clause",
+      meaning:"The constitutional rule that the US Constitution, valid federal laws and treaties are the supreme law of the land.",
+      why:"When valid federal law conflicts with state law, federal law generally prevails.",
+      example:"A state cannot enforce a rule that directly conflicts with a valid federal statute."
+    },
+    "veto": {
+      title:"Veto",
+      meaning:"The President's formal rejection of a bill passed by Congress.",
+      why:"It is an executive check on the legislative branch, but it is not always the final word.",
+      example:"Congress can override a presidential veto with a two-thirds vote in both the House and Senate."
+    },
+    "veto override": {
+      title:"Veto override",
+      meaning:"Congress's constitutional power to enact a bill despite a presidential veto by obtaining a two-thirds vote in each chamber.",
+      why:"It prevents the President from having an absolute veto over legislation.",
+      example:"The House and Senate must each reach the required two-thirds threshold."
+    },
+    "judicial review": {
+      title:"Judicial review",
+      meaning:"The power of courts to decide whether a law or government action is consistent with the Constitution.",
+      why:"It allows courts to enforce constitutional limits on government power.",
+      example:"A federal court may refuse to apply a law if it concludes that the law violates the Constitution."
+    },
+    "impeachment": {
+      title:"Impeachment",
+      meaning:"The constitutional process for formally charging a federal civil officer with serious misconduct. The House impeaches; the Senate conducts the trial.",
+      why:"Impeachment is a check on high-level officials, including the President, Vice President and federal judges.",
+      example:"A majority vote in the House approves articles of impeachment. Conviction and removal require a two-thirds vote of Senators present."
+    },
+    "appropriations": {
+      title:"Appropriations",
+      meaning:"Laws that provide legal authority for government agencies to spend money for specified purposes.",
+      why:"The executive branch cannot simply spend public money without legal authorization.",
+      example:"Congress passes appropriations laws to fund federal departments and programmes."
+    },
+    "power of the purse": {
+      title:"Power of the purse",
+      meaning:"Congress's central authority over federal taxation, borrowing and government spending.",
+      why:"It gives elected legislators substantial oversight over how the federal government raises and uses public money.",
+      example:"Congress authorizes and appropriates funds; executive agencies administer the funds within the law."
+    },
+    "commander in chief": {
+      title:"Commander in Chief",
+      meaning:"The President's constitutional role as the top civilian commander of the US armed forces.",
+      why:"Military command is placed under civilian leadership, while Congress retains important war, funding and oversight powers.",
+      example:"The President directs military operations, but Congress has constitutional powers including declaring war and funding the armed forces."
+    },
+    "treaty": {
+      title:"Treaty",
+      meaning:"A formal international agreement made by the United States through the constitutional treaty process.",
+      why:"The President negotiates treaties, but a treaty requires the advice and consent of two-thirds of Senators present to be ratified through the US process.",
+      example:"The President may negotiate an agreement with another country and submit it to the Senate for advice and consent."
+    },
+    "executive order": {
+      title:"Executive order",
+      meaning:"A written directive from the President to the executive branch, based on authority granted by the Constitution or federal law.",
+      why:"It can guide how the executive branch operates, but it cannot lawfully override the Constitution or an act of Congress.",
+      example:"A President may direct federal agencies to coordinate implementation of an existing law."
+    },
+    "executive privilege": {
+      title:"Executive privilege",
+      meaning:"A claimed ability of the President and executive branch to keep certain confidential communications from disclosure.",
+      why:"Confidentiality can protect sensitive advice and national-security discussions, but the privilege is not unlimited.",
+      example:"Courts may review an executive-privilege claim when it conflicts with a criminal investigation or another compelling legal need."
+    },
+    "filibuster": {
+      title:"Filibuster",
+      meaning:"A Senate practice used to delay or block action on a measure, often by preventing the Senate from reaching a final vote.",
+      why:"It gives the Senate minority leverage and means many measures need broader support to advance.",
+      example:"The Senate commonly uses a cloture vote, generally requiring three-fifths of the full Senate, to end debate on most legislation."
+    },
+    "cloture": {
+      title:"Cloture",
+      meaning:"The Senate procedure for limiting debate and moving toward a vote.",
+      why:"It is the main formal mechanism for ending a filibuster.",
+      example:"For most legislation, cloture generally requires 60 votes in the 100-member Senate."
+    },
+    "confirmation": {
+      title:"Senate confirmation",
+      meaning:"The Senate's constitutional role in giving or withholding consent for many presidential appointments.",
+      why:"It is a check on the President's appointment power.",
+      example:"The Senate votes on many Cabinet nominees, ambassadors and federal judges nominated by the President."
+    },
+    "advice and consent": {
+      title:"Advice and consent",
+      meaning:"The Senate's constitutional role in considering treaties and certain presidential nominations.",
+      why:"It makes the Senate a participant in major foreign-policy and appointment decisions.",
+      example:"Treaties require the consent of two-thirds of Senators present; many nominations are approved by a Senate majority."
+    },
+    "electoral college": {
+      title:"Electoral College",
+      meaning:"The constitutional process through which appointed presidential electors formally elect the President and Vice President.",
+      why:"The national popular vote is not itself the formal constitutional vote for President; state rules determine how electors are appointed.",
+      example:"A candidate needs a majority of the 538 electoral votes—currently 270—to win."
+    },
+    "popular vote": {
+      title:"Popular vote",
+      meaning:"The votes cast directly by individual voters in an election.",
+      why:"It measures voter support, but the US presidential election is formally decided through the Electoral College.",
+      example:"A candidate can win more votes nationwide but still lose the Electoral College."
+    },
+    "primaries & caucuses": {
+      title:"Primaries & caucuses",
+      meaning:"These are the state-by-state contests political parties use to choose their presidential nominees. In a primary, voters cast ballots; in a caucus, party participants meet and follow a party-run selection process.",
+      why:"The results determine how party delegates are allocated. Delegates then take part in the national convention, where the party formally nominates its presidential candidate.",
+      example:"In a primary, a voter may privately mark a ballot for a preferred candidate. In a caucus, participants may gather at a local meeting and show support under the party's rules. The exact rules vary by state and party."
+    },
+    "primaries and caucuses": {
+      title:"Primaries & caucuses",
+      meaning:"These are the state-by-state contests political parties use to choose their presidential nominees. In a primary, voters cast ballots; in a caucus, party participants meet and follow a party-run selection process.",
+      why:"The results determine how party delegates are allocated. Delegates then take part in the national convention, where the party formally nominates its presidential candidate.",
+      example:"In a primary, a voter may privately mark a ballot for a preferred candidate. In a caucus, participants may gather at a local meeting and show support under the party's rules. The exact rules vary by state and party."
+    },
+    "primary election": {
+      title:"Primary election",
+      meaning:"An election in which voters help choose a political party's candidate for the general election.",
+      why:"It is one of the main ways parties select nominees, though rules differ by state and party.",
+      example:"Voters may choose among candidates seeking their party's presidential nomination."
+    },
+    "caucus": {
+      title:"Caucus",
+      meaning:"A party-run meeting or local gathering where participants discuss candidates and select or allocate delegates under party rules.",
+      why:"Some states use caucuses instead of, or alongside, primary elections in the presidential nomination process.",
+      example:"Participants gather at local caucus locations and express support according to the state's party procedure."
+    },
+    "delegates": {
+      title:"Party delegates",
+      meaning:"People selected under party and state rules to represent voters or party members at a party's national nominating convention.",
+      why:"Delegates formally participate in selecting the party's presidential nominee.",
+      example:"Primary and caucus results determine how many delegates candidates receive under the applicable rules."
+    },
+    "swing state": {
+      title:"Swing state",
+      meaning:"A state where support for the major presidential candidates is relatively competitive and can shift between elections.",
+      why:"Because most states award electors on a winner-take-most basis, close states can have an outsized effect on the Electoral College result.",
+      example:"Campaigns often devote significant attention and resources to closely contested states."
+    },
+    "winner-take-all": {
+      title:"Winner-take-all",
+      meaning:"A state-level Electoral College method in which the statewide popular-vote winner receives all of that state's electoral votes.",
+      why:"It is used by most states and can make the distribution of votes across states more important than the nationwide popular-vote margin.",
+      example:"A candidate who narrowly wins a winner-take-all state generally receives all its electoral votes."
+    },
+    "congressional district": {
+      title:"Congressional district",
+      meaning:"A geographic area represented by one voting member of the US House of Representatives.",
+      why:"House seats are allocated among states based on population, and states draw district boundaries.",
+      example:"Voters in each district elect one representative to the House."
+    },
+    "constituent": {
+      title:"Constituent",
+      meaning:"A person who lives in the area represented by an elected official.",
+      why:"Representatives and Senators serve and communicate with constituents, including people who did not vote for them.",
+      example:"A House member's constituents are the residents of that member's congressional district."
+    },
+    "committee": {
+      title:"Congressional committee",
+      meaning:"A smaller group of Senators or Representatives that examines legislation, conducts oversight or investigates issues within a defined subject area.",
+      why:"Committees allow Congress to examine complex subjects in greater depth before the full chamber acts.",
+      example:"A committee may hold hearings, question witnesses and revise a bill."
+    },
+    "oversight": {
+      title:"Congressional oversight",
+      meaning:"Congress's review of how the executive branch and federal agencies implement laws and use public funds.",
+      why:"Oversight helps ensure that government programmes follow the law and remain accountable.",
+      example:"A committee may hold a hearing, request documents or investigate an agency's actions."
+    },
+    "majority leader": {
+      title:"Majority Leader",
+      meaning:"The leading floor strategist for the majority party in a chamber of Congress. The role is especially influential in setting the Senate's agenda.",
+      why:"Party leaders coordinate legislative priorities and manage floor activity, but they do not act alone.",
+      example:"The Senate Majority Leader negotiates scheduling and works to assemble votes for the party's priorities."
+    },
+    "speaker of the house": {
+      title:"Speaker of the House",
+      meaning:"The presiding officer and top elected leader of the US House of Representatives, chosen by the House.",
+      why:"The Speaker has major influence over House proceedings, committee assignments and the chamber's legislative agenda under House rules.",
+      example:"The Speaker helps determine which measures receive consideration and represents the House institutionally."
+    },
+    "president pro tempore": {
+      title:"President pro tempore",
+      meaning:"A Senator elected by the Senate to preside when the Vice President is absent. By tradition, this is usually the most senior Senator of the majority party.",
+      why:"The office is part of Senate leadership and has a role in presidential succession, though day-to-day floor duties are often delegated.",
+      example:"The President pro tempore may preside over a Senate session when the Vice President is not present."
+    },
+    "term limits": {
+      title:"Term limits",
+      meaning:"Legal limits on how many terms or years an elected official may serve.",
+      why:"The US Constitution limits a President to being elected twice, but does not impose general term limits on Senators or House members.",
+      example:"A President may serve a maximum of two elected terms under the Twenty-second Amendment."
+    },
+    "pardon": {
+      title:"Presidential pardon",
+      meaning:"The President's constitutional power to grant reprieves and pardons for federal offences, except in cases of impeachment.",
+      why:"It is a form of executive clemency, not a power to erase state convictions or reverse impeachment.",
+      example:"A President may pardon a person convicted of a federal crime."
+    },
+    "supreme court": {
+      title:"Supreme Court",
+      meaning:"The highest court in the federal judicial system of the United States.",
+      why:"Its decisions on federal law and the Constitution are authoritative, subject to the constitutional amendment process and other legal limits.",
+      example:"The Supreme Court may review a case involving the constitutionality of a federal or state law."
+    },
+    "life tenure": {
+      title:"Life tenure",
+      meaning:"Federal judges generally hold office during good behaviour, which usually means they serve for life unless they resign, retire or are removed through impeachment and conviction.",
+      why:"It is designed to protect judicial independence from short-term political pressure.",
+      example:"A Supreme Court Justice does not face a regular election or fixed term."
+    },
+    "federal agency": {
+      title:"Federal agency",
+      meaning:"An executive-branch organization created by the Constitution or federal law to administer programmes, enforce laws or provide public services.",
+      why:"Agencies carry out much of the day-to-day work of the federal government under laws and executive supervision.",
+      example:"The Environmental Protection Agency administers federal environmental laws."
+    },
+    "state of the union": {
+      title:"State of the Union",
+      meaning:"The President's constitutionally grounded report to Congress on the condition of the country, commonly delivered as an annual address.",
+      why:"It gives the President a major public opportunity to outline priorities and recommend measures to Congress.",
+      example:"The President addresses a joint session of Congress and presents legislative priorities."
+    }
+  };
+
+  const excluded = "a,button,input,textarea,select,option,label,.nav-btn,.search-box,.table-enhance-toolbar,.table-sort-header,.quick-nav,.quick-navigation,.breadcrumb,.pagination,.explain-popover,[contenteditable='true']";
+  const rootSelector = ".content-wrapper .page";
+  const termList = Object.keys(explanations).sort((a,b)=>b.length-a.length);
+  const phraseRegex = new RegExp("\\b(" + termList.map(s=>s.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")).join("|") + ")\\b","gi");
+
+  function isExcluded(node){
+    return !!node.parentElement?.closest(excluded);
+  }
+  function wrapTextNode(node){
+    const text = node.nodeValue;
+    if(!text || !phraseRegex.test(text)){ phraseRegex.lastIndex=0; return; }
+    phraseRegex.lastIndex=0;
+    const frag=document.createDocumentFragment();
+    let last=0, match;
+    while((match=phraseRegex.exec(text))){
+      const key=match[0].toLowerCase();
+      if(!explanations[key]) continue;
+      if(match.index>last) frag.append(document.createTextNode(text.slice(last,match.index)));
+      const btn=document.createElement("button");
+      btn.type="button"; btn.className="explain-term";
+      btn.textContent=match[0]; btn.dataset.explain=key;
+      btn.setAttribute("aria-haspopup","dialog");
+      btn.setAttribute("aria-label","Explain "+explanations[key].title);
+      frag.append(btn);
+      last=match.index+match[0].length;
+    }
+    if(last===0) return;
+    if(last<text.length) frag.append(document.createTextNode(text.slice(last)));
+    node.parentNode.replaceChild(frag,node);
+  }
+  function enhanceBody(){
+    document.querySelectorAll(rootSelector).forEach(page=>{
+      const walker=document.createTreeWalker(page,NodeFilter.SHOW_TEXT,{
+        acceptNode(node){
+          if(!node.nodeValue?.trim() || isExcluded(node)) return NodeFilter.FILTER_REJECT;
+          const p=node.parentElement;
+          if(!p || ["SCRIPT","STYLE","NOSCRIPT","TEXTAREA","INPUT","OPTION"].includes(p.tagName)) return NodeFilter.FILTER_REJECT;
+          if(p.closest("svg")) return NodeFilter.FILTER_REJECT;
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+      const nodes=[]; while(walker.nextNode()) nodes.push(walker.currentNode);
+      nodes.forEach(wrapTextNode);
+
+      // SVG flow labels are clickable too, without altering their geometry or connectors.
+      page.querySelectorAll("svg text").forEach(el=>{
+        const key=(el.textContent||"").trim().toLowerCase();
+        if(explanations[key] && !el.closest("a")){
+          el.classList.add("explain-svg-term");
+          el.dataset.explain=key;
+          el.setAttribute("tabindex","0");
+          el.setAttribute("role","button");
+          el.setAttribute("aria-haspopup","dialog");
+          el.setAttribute("aria-label","Explain "+explanations[key].title);
+        }
+      });
+    });
+  }
+
+  const pop=document.createElement("div");
+  pop.className="explain-popover"; pop.id="bodyExplanationPopover";
+  pop.setAttribute("role","dialog"); pop.setAttribute("aria-modal","false");
+  pop.setAttribute("aria-live","polite");
+  pop.innerHTML='<button type="button" class="explain-close" aria-label="Close explanation">×</button><div class="explain-content"></div><div class="explain-hint">Click another highlighted term to explore it, or press Esc to close.</div>';
+  document.body.append(pop);
+  const content=pop.querySelector(".explain-content");
+  const close=()=>{pop.classList.remove("open");pop.removeAttribute("data-active");};
+  pop.querySelector(".explain-close").addEventListener("click",close);
+
+  function openFor(target){
+    const data=explanations[target.dataset.explain];
+    if(!data) return;
+    content.innerHTML="";
+    const h=document.createElement("h3"); h.textContent=data.title; content.append(h);
+    const p1=document.createElement("p"); p1.textContent=data.meaning; content.append(p1);
+    const p2=document.createElement("p"); p2.innerHTML="<strong>Why it matters:</strong> "; p2.append(document.createTextNode(data.why)); content.append(p2);
+    const ex=document.createElement("div"); ex.className="explain-example";
+    const p3=document.createElement("p"); p3.innerHTML="<strong>Simple example:</strong> "; p3.append(document.createTextNode(data.example)); ex.append(p3); content.append(ex);
+    pop.classList.add("open"); pop.dataset.active=target.dataset.explain;
+    const r=target.getBoundingClientRect(), w=Math.min(390,window.innerWidth-28), hgt=pop.offsetHeight;
+    let left=Math.min(Math.max(14,r.left),window.innerWidth-w-14);
+    let top=r.bottom+9;
+    if(top+hgt>window.innerHeight-14) top=Math.max(14,r.top-hgt-9);
+    pop.style.left=left+"px"; pop.style.top=top+"px";
+  }
+  document.addEventListener("click",e=>{
+    const target=e.target.closest("[data-explain]");
+    if(target && target.closest(rootSelector)){ e.preventDefault(); e.stopPropagation(); openFor(target); return; }
+    if(pop.classList.contains("open") && !pop.contains(e.target)) close();
+  });
+  document.addEventListener("keydown",e=>{
+    if(e.key==="Escape") close();
+    if((e.key==="Enter" || e.key===" ") && e.target.matches("svg text[data-explain]")){e.preventDefault();openFor(e.target);}
+  });
+  window.addEventListener("resize",close);
+  window.addEventListener("scroll",e=>{if(pop.classList.contains("open") && !pop.contains(e.target)) close();},true);
+  if(document.readyState==="loading") document.addEventListener("DOMContentLoaded",enhanceBody,{once:true});
+  else enhanceBody();
+})();
+
+</script>
+
+<script>
+const navButtons=[...document.querySelectorAll('.nav-btn')], pages=[...document.querySelectorAll('.page')];
+function showPage(id){pages.forEach(p=>p.classList.toggle('active',p.id===id));navButtons.forEach(b=>b.classList.toggle('active',b.dataset.page===id));window.scrollTo({top:0,behavior:'instant'});document.querySelector('#searchResults').classList.remove('active');}
+navButtons.forEach(b=>b.addEventListener('click',()=>showPage(b.dataset.page)));
+document.querySelectorAll('[data-go]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();showPage(a.dataset.go)}));
+const searchable=pages.map(p=>({id:p.id,title:p.querySelector('h2')?.textContent||p.id,text:p.innerText}));
+const search=document.querySelector('#searchInput'), results=document.querySelector('#searchResults');
+search.addEventListener('input',()=>{const q=search.value.trim().toLowerCase();if(q.length<2){results.classList.remove('active');results.innerHTML='';return;}const found=searchable.filter(x=>(x.title+' '+x.text).toLowerCase().includes(q)).slice(0,15);results.innerHTML=found.length?found.map(x=>`<a class="result" href="#" data-result="${x.id}">${escapeHtml(x.title)}<small>${escapeHtml(x.text.slice(0,180))}…</small></a>`).join(''):'<p class="muted">No matching section found.</p>';results.classList.add('active');results.querySelectorAll('[data-result]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();showPage(a.dataset.result);search.value='';}));});
+function escapeHtml(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+const districts={"north": {"name": "Northern District", "capital": "Safed (Tzfat)", "description": "Northern Galilee, Golan area and northern communities. The district includes areas whose territorial status or boundaries are disputed in international diplomacy; do not treat the map as a sovereignty ruling."}, "haifa": {"name": "Haifa District", "capital": "Haifa", "description": "Haifa metropolitan area and northern coastal corridor; major port, industry, universities and mixed urban communities."}, "telaviv": {"name": "Tel Aviv District", "capital": "Tel Aviv-Yafo", "description": "Israel’s densest metropolitan core and principal commercial centre. It is a district, not a separate city-state or electoral constituency."}, "central": {"name": "Central District", "capital": "Ramla", "description": "Suburban belt and towns surrounding the Tel Aviv metropolitan area, including the Sharon and central lowlands."}, "jerusalem": {"name": "Jerusalem District", "capital": "Jerusalem", "description": "Jerusalem and surrounding local authorities. The status of East Jerusalem is internationally disputed; Israel regards the city as its capital, while most states do not recognise the annexation of East Jerusalem."}, "south": {"name": "Southern District", "capital": "Beersheba", "description": "Largest district by area, including the Negev and Eilat. It includes diverse Bedouin, Jewish and other communities."}};
+let selectedDistrict='north';
+function selectDistrict(id){
+ const d=districts[id]; if(!d)return; selectedDistrict=id;
+ document.querySelectorAll('.district-shape').forEach(p=>p.classList.toggle('selected',p.dataset.district===id));
+ document.querySelectorAll('.district-btn').forEach(b=>b.classList.toggle('active',b.dataset.district===id));
+ const panel=document.querySelector('#districtDetail');
+ panel.innerHTML=`<h3>${escapeHtml(d.name)}</h3><p><b>District capital:</b> ${escapeHtml(d.capital)}</p><p>${escapeHtml(d.description)}</p>`;
+}
+document.querySelectorAll('.district-shape').forEach(p=>p.addEventListener('click',()=>selectDistrict(p.dataset.district)));
+document.querySelectorAll('.district-btn').forEach(b=>b.addEventListener('click',()=>selectDistrict(b.dataset.district)));
+selectDistrict('north');
+</script></body></html>
