@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="An interactive knowledge index for India's history, governance, politics, economy, security, society and more.">
+<title>India Knowledge Library</title>
+<style>
+:root{--bg:#f6f8fb;--panel:#fff;--ink:#172033;--muted:#617087;--line:#dfe5ee;--blue:#0878c9;--navy:#10223d;--navy2:#1e4c91;--green:#16865b;--purple:#8063c9;--orange:#df8135;--shadow:0 2px 10px rgba(18,48,78,.06)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:18px}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.55}
+a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
+.sidebar{position:fixed;left:0;top:0;bottom:0;width:270px;background:#0b1929;color:#e8eef7;overflow-y:auto;border-right:1px solid #1a2d47;z-index:100}
+.brand{padding:19px 17px;border-bottom:1px solid #1a2d47}.brand h2{font-size:16px;color:#fff;margin:0}.brand p{font-size:11px;color:#a8b8cc;margin:4px 0 0}
+.side-group{padding:14px 16px 5px;color:#7d8fa3;font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.side-link{display:block;padding:8px 16px;color:#c3cfdd;font-size:12px;border-left:3px solid transparent}.side-link:hover,.side-link.active{background:#1a3047;color:#fff;border-left-color:#168bd4;text-decoration:none}
+.shell{width:auto;max-width:none;min-width:0;margin:0 0 0 270px;padding:26px clamp(22px,2.5vw,48px) 70px}
+.mobile-menu{display:none;position:fixed;top:12px;left:12px;z-index:150;border:1px solid #cbd5e1;border-radius:7px;background:#fff;padding:8px 12px;color:#17324f;font-weight:700}
+.side-overlay{display:none}
+.hero{background:linear-gradient(125deg,var(--navy),var(--navy2));color:#fff;border-radius:12px;padding:30px 34px;box-shadow:var(--shadow)}
+.kicker{font-size:11px;font-weight:800;letter-spacing:.14em;color:#a9d7ff;text-transform:uppercase;margin-bottom:7px}
+.hero h1{font-size:clamp(28px,4vw,40px);line-height:1.15;margin:0 0 12px}.hero p{max-width:950px;margin:0;color:#dce8fb;font-size:14px}
+.hero-meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.pill{border:1px solid #ffffff42;background:#ffffff12;border-radius:20px;padding:5px 10px;font-size:11px;color:#eaf4ff}
+.status{margin:16px 0 0;padding:11px 14px;border:1px solid #cfe0ef;border-radius:9px;background:#edf6ff;color:#244b70;font-size:12px}
+.status.error{background:#fff2f0;border-color:#f2c5bd;color:#8b2e20}
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:14px;flex-wrap:wrap;margin:28px 0 12px}.section-head h2{font-size:20px;margin:0;color:#183c62}.section-head p{margin:3px 0 0;color:var(--muted);font-size:12px}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin:18px 0}
+.stat-link{display:block;color:inherit;text-decoration:none}.stat{height:100%;background:var(--panel);border:1px solid var(--line);border-top:4px solid var(--blue);border-radius:10px;padding:16px;box-shadow:var(--shadow);transition:.16s}
+.stat.purple{border-top-color:var(--purple)}.stat.green{border-top-color:var(--green)}.stat.orange{border-top-color:var(--orange)}
+.stat-link:hover .stat,.stat-link:focus-visible .stat{transform:translateY(-2px);box-shadow:0 6px 18px #173c6020;outline:2px solid #7eb4e8}
+.stat-value{font-size:29px;line-height:1.2;font-weight:800;color:#163c65}.stat-label{font-size:13px;font-weight:750;margin-top:5px}.stat small{display:block;color:var(--muted);font-size:11px;margin-top:3px}
+.panel{min-width:0;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px;margin:14px 0;box-shadow:var(--shadow)}
+.quick-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.quick{display:flex;align-items:center;gap:10px;min-height:64px;border:1px solid #d9e5f0;border-radius:9px;background:#fff;padding:11px 12px;color:#194b78;transition:.15s}
+.quick:hover,.quick:focus-visible{background:#f0f7fd;border-color:#8bb9dd;transform:translateY(-1px);text-decoration:none;outline:2px solid #2684c7;outline-offset:1px}
+.quick .num{width:30px;height:30px;flex:0 0 30px;border-radius:8px;background:#eaf4fd;color:#0878c9;display:grid;place-items:center;font-size:11px;font-weight:800}
+.quick strong{display:block;font-size:12px;line-height:1.3}.quick small{display:block;color:var(--muted);font-size:10px;margin-top:2px}
+.controls{display:grid;grid-template-columns:minmax(220px,2fr) repeat(3,minmax(140px,1fr));gap:10px;margin:12px 0}
+input,select,button{font:inherit}.control{width:100%;min-width:0;padding:10px 12px;border:1px solid #cfdbea;border-radius:8px;background:#fff;color:#17324f;font-size:13px}
+.control:focus{outline:2px solid #9bc8ec;border-color:#2684c7}
+.search-note{font-size:11px;color:var(--muted);margin:-3px 0 8px}
+.domain{margin:18px 0 22px;scroll-margin-top:15px}
+.domain-title{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:0 0 8px}
+.domain-title h3{font-size:17px;margin:0;color:#183c62}.domain-count{font-size:11px;color:#4d6782;background:#edf4fb;border-radius:20px;padding:4px 9px}
+.table-wrap{width:100%;max-width:100%;overflow:auto;border:1px solid var(--line);border-radius:9px;background:#fff}
+table{width:100%;border-collapse:collapse;min-width:740px;font-size:12px}
+th{position:sticky;top:0;background:#f2f6fa;color:#344c66;text-align:left;padding:10px;border-bottom:1px solid var(--line);white-space:nowrap}
+th.sort{cursor:pointer;user-select:none}th.sort:after{content:" ↕";color:#91a1b4;font-size:10px}th.asc:after{content:" ↑";color:var(--blue)}th.desc:after{content:" ↓";color:var(--blue)}
+td{padding:9px 10px;border-bottom:1px solid #edf1f5;vertical-align:middle}tbody tr:nth-child(even){background:#fbfcfe}tbody tr:hover{background:#f0f6fc}tbody tr:last-child td{border-bottom:0}
+.index{width:52px;color:#748399;font-variant-numeric:tabular-nums}.topic{font-weight:700;color:#1c4268}.collection{color:#586d83}.type{display:inline-block;border-radius:5px;padding:3px 7px;background:#edf5ff;color:#155b91;font-size:10px;font-weight:700}
+.open-btn{display:inline-block;padding:5px 9px;border:1px solid #c9dced;border-radius:6px;background:#f3f8fd;color:#075a9b;font-weight:700;font-size:10px;white-space:nowrap;cursor:pointer}.open-btn:hover{background:#e4f1fc;text-decoration:none}
+.detail-row td{padding:0!important;background:#f7fbff!important}.detail-panel{padding:18px 20px;border:1px solid #d7e6f2;border-left:4px solid #168bd4;margin:8px 10px 14px;border-radius:8px;background:#fff;overflow-wrap:anywhere}
+.detail-panel h1,.detail-panel h2,.detail-panel h3,.detail-panel h4{color:#173e65;line-height:1.3;margin:1.2em 0 .5em}.detail-panel h1{font-size:24px}.detail-panel h2{font-size:20px}.detail-panel h3{font-size:16px}.detail-panel p,.detail-panel li{font-size:13px;color:#30465d}.detail-panel table{min-width:0;width:100%;font-size:12px;border-collapse:collapse;display:block;overflow-x:auto}.detail-panel th,.detail-panel td{border:1px solid #dfe5ee;padding:7px;text-align:left}.detail-panel pre{white-space:pre-wrap;overflow:auto;background:#f1f4f8;padding:12px;border-radius:7px}.detail-panel code{background:#eef2f6;padding:2px 4px;border-radius:3px}.detail-panel img{max-width:100%;height:auto}.detail-loading{color:#617087;font-size:12px}
+.detail-panel,.readme-content{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+.detail-panel h1,.readme-content h1{font-size:clamp(23px,2vw,30px);border-bottom:1px solid #e4ebf3;padding-bottom:10px}
+.detail-panel h2,.readme-content h2{font-size:clamp(19px,1.5vw,24px);border-bottom:1px solid #e8edf3;padding-bottom:7px}
+.detail-panel h3,.readme-content h3{font-size:17px}
+.detail-panel h4,.readme-content h4{font-size:15px;color:#234f78}
+.detail-panel p,.readme-content p{line-height:1.75;margin:10px 0 14px}
+.detail-panel ul,.detail-panel ol,.readme-content ul,.readme-content ol{padding-left:25px;line-height:1.8}
+.detail-panel li,.readme-content li{margin:3px 0}
+.detail-panel a,.readme-content a{font-weight:600}
+.detail-panel img,.readme-content img{display:block;max-width:min(100%,1000px);height:auto;margin:18px auto;border-radius:8px;box-shadow:0 2px 12px #10223d12}
+.detail-panel blockquote,.readme-content blockquote{padding:12px 18px;margin:16px 0;border-left:4px solid #168bd4;background:#f2f8fd;border-radius:0 8px 8px 0;color:#40566d}
+.detail-panel .md-table-wrap,.readme-content .md-table-wrap{width:100%;overflow-x:auto;margin:15px 0}
+.detail-panel table,.readme-content table{width:100%;border-collapse:collapse;min-width:560px;font-size:13px}
+.detail-panel th,.readme-content th{background:#edf4fa;color:#173e65;font-weight:750}
+.detail-panel td,.detail-panel th,.readme-content td,.readme-content th{padding:10px 12px;border:1px solid #dce5ef;text-align:left;vertical-align:top}
+.detail-panel tr:nth-child(even),.readme-content tr:nth-child(even){background:#fafcff}
+.detail-panel pre,.readme-content pre{white-space:pre;overflow:auto;background:#101f33;color:#e7eff9;padding:16px;border-radius:9px;line-height:1.6}
+.detail-panel pre code,.readme-content pre code{background:transparent;color:inherit;padding:0}
+.detail-panel :not(pre)>code,.readme-content :not(pre)>code{background:#eef3f8;color:#9b3f16;padding:2px 5px;border-radius:4px}
+.detail-panel hr,.readme-content hr{border:0;border-top:1px solid #e1e8f0;margin:24px 0}
+.detail-panel .mermaid,.readme-content .mermaid{overflow:auto;text-align:center;background:#fbfdff;border:1px solid #e2eaf3;border-radius:9px;padding:15px;margin:16px 0}
+.readme-content{font-size:14px}
+.readme-content>h1:first-child{margin-top:0}
+.readme-content img[alt="Status"],.readme-content img[alt="Coverage"],.readme-content img[alt="Language"]{display:inline-block;vertical-align:middle;margin:4px 4px 4px 0;box-shadow:none}
+
+.readme-panel{padding:24px 28px}.readme-content{width:100%;max-width:none;margin:0}.readme-content h1,.readme-content h2,.readme-content h3{color:#173e65;line-height:1.3;margin:1.35em 0 .55em}.readme-content h1{font-size:27px}.readme-content h2{font-size:22px;border-bottom:1px solid #e2e9f1;padding-bottom:7px}.readme-content h3{font-size:17px}.readme-content p,.readme-content li{font-size:13px;color:#30465d}.readme-content blockquote{margin:14px 0;padding:8px 16px;border-left:4px solid #168bd4;background:#f2f8fd;color:#43566c}.readme-content table{display:block;overflow-x:auto;border-collapse:collapse;width:100%;font-size:12px}.readme-content th,.readme-content td{border:1px solid #dfe5ee;padding:8px;text-align:left;vertical-align:top}.readme-content th{background:#f1f6fb}.readme-content img{max-width:100%;height:auto}.readme-content pre{white-space:pre-wrap;overflow:auto;background:#f1f4f8;padding:14px;border-radius:7px}.readme-content code{background:#eef2f6;padding:2px 4px;border-radius:3px}.readme-content hr{border:0;border-top:1px solid #e2e9f1;margin:24px 0}
+
+mark{background:#ffe45c;color:#172033;border-radius:2px;padding:0 1px;font-weight:800}
+.empty{padding:22px;text-align:center;color:var(--muted);font-size:12px}
+.domain[hidden]{display:none!important}
+.footer{margin:32px 0 0;padding:16px 0;border-top:1px solid var(--line);color:var(--muted);font-size:11px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.floating{position:fixed;right:18px;bottom:18px;z-index:220;display:flex;flex-direction:column;align-items:flex-end;gap:8px}.float-btn{width:43px;height:43px;border:1px solid #cbd5e1;border-radius:50%;background:#fff;color:#17324f;box-shadow:0 4px 14px #0e27412e;cursor:pointer;font-size:18px}.float-btn:hover{background:#eaf4ff;border-color:var(--blue)}
+.quick-panel{display:none;flex-direction:column;gap:2px;min-width:220px;max-height:55vh;overflow:auto;padding:8px;background:#fff;border:1px solid #dfe5ee;border-radius:10px;box-shadow:0 8px 24px rgba(14,39,65,.2)}.quick-panel.open{display:flex}.quick-panel a{display:block;padding:8px 10px;border-radius:6px;color:#172033;font-size:12px}.quick-panel a:hover{background:#eaf4ff;text-decoration:none}
+@media(max-width:1000px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.quick-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.controls{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:768px){.sidebar{width:min(285px,86vw);transform:translateX(-105%);visibility:hidden;transition:transform .2s,visibility .2s;box-shadow:8px 0 24px #0003}.sidebar.mobile-open{transform:translateX(0);visibility:visible}.shell{margin-left:0;padding-top:65px}.mobile-menu{display:block}.side-overlay.active{display:block;position:fixed;inset:0;background:#07142670;z-index:90}}
+@media(max-width:650px){.shell{padding:65px 13px 60px}.hero{padding:23px 20px}.stats{gap:8px}.stat{padding:13px}.stat-value{font-size:24px}.quick-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.quick{min-height:60px;padding:9px}.controls{grid-template-columns:1fr}.panel{padding:13px}.section-head{margin-top:22px}}
+</style>
+</head>
+<body>
+<aside class="sidebar" id="sidebar">
+ <div class="brand"><h2>India Knowledge</h2><p>Structured reference · India</p></div>
+ <nav id="sideNav">
+  <div class="side-group">Library navigation</div>
+  <a class="side-link" href="#top">Overview</a>
+  <a class="side-link" href="#repoDashboard">Overview</a>
+  <a class="side-link" href="#quicknav">Explore domains</a>
+  <a class="side-link" href="#catalogue">Topic catalogue</a>
+  <div class="side-group">Knowledge domains</div>
+  <div id="sideDomainLinks"><a class="side-link" href="#quicknav">Loading domains…</a></div>
+ </nav>
+</aside>
+<div class="side-overlay" id="sideOverlay" onclick="toggleSidebar(false)"></div>
+<button class="mobile-menu" type="button" onclick="toggleSidebar()">☰ Menu</button>
+<main class="shell" id="top">
+<header class="hero">
+ <div class="kicker">INDIA · KNOWLEDGE SYSTEM</div>
+ <h1>India Knowledge Library</h1>
+ <p>Explore India's history, Constitution, governance, politics, economy, national security, foreign policy, science, society, states and notable personalities through one structured knowledge index.</p>
+ <div class="hero-meta"><span class="pill">13 knowledge layers</span><span class="pill">Topic-based navigation</span><span class="pill">Searchable catalogue</span><span class="pill">Live repository index</span></div>
+</header>
+<section id="repoDashboard">
+ <div class="section-head"><div><h2>Overview</h2></div></div>
+ <div class="panel readme-panel"><div id="readmeContent" class="readme-content"><div class="detail-loading">Loading the repository's root README.md…</div></div></div>
+</section>
+<div id="status" class="status">Connecting to the public India repository and building the topic index…</div>
+
+<section aria-label="Library dashboard">
+ <div class="section-head"><div><h2>Knowledge dashboard</h2><p>Select a metric to jump directly to that part of the library.</p></div></div>
+ <div class="stats">
+  <a class="stat-link" href="#catalogue"><div class="stat"><div class="stat-value" id="totalCount">—</div><div class="stat-label">Knowledge topics</div><small>All indexed learning articles</small></div></a>
+  <a class="stat-link" href="#quicknav"><div class="stat purple"><div class="stat-value" id="domainCount">—</div><div class="stat-label">Knowledge domains</div><small>Major subject areas</small></div></a>
+  <a class="stat-link" href="#catalogue"><div class="stat green"><div class="stat-value" id="collectionCount">—</div><div class="stat-label">Collections</div><small>Organized subtopics</small></div></a>
+  <a class="stat-link" href="#catalogue"><div class="stat orange"><div class="stat-value" id="guideCount">—</div><div class="stat-label">Interactive guides</div><small>Standalone reference pages</small></div></a>
+ </div>
+</section>
+
+<section id="quicknav">
+ <div class="section-head"><div><h2>Explore the library</h2><p>Quick navigation to each subject domain. Counts are populated from the repository.</p></div></div>
+ <div class="panel"><div class="quick-grid" id="quickGrid"></div></div>
+</section>
+
+<section id="catalogue">
+ <div class="section-head"><div><h2>Topic catalogue</h2><p>Search across the complete index, or narrow it by domain, collection and content type.</p></div></div>
+ <div class="panel">
+  <div class="controls">
+   <input id="globalSearch" class="control" type="search" placeholder="Search topics… try a typo, e.g. 'parliment'" autocomplete="off">
+   <select id="domainFilter" class="control"><option value="">All domains</option></select>
+   <select id="collectionFilter" class="control"><option value="">All collections</option></select>
+   <select id="typeFilter" class="control"><option value="">All content types</option><option value="Article">Articles</option><option value="Interactive guide">Interactive guides</option></select>
+  </div>
+  <div class="search-note">Search is typo-tolerant. Matching text is highlighted in yellow. Each domain table also has its own search and sortable columns.</div>
+  <div id="catalogueSections"><div class="empty">Waiting for repository index…</div></div>
+ </div>
+</section>
+
+<footer class="footer"><span>India Knowledge Library · Read-only catalogue</span><span>Source: public India repository · Content opens on GitHub</span></footer>
+</main>
+<div class="floating" aria-label="Page navigation">
+ <div class="quick-panel" id="quickPanel"><a href="#top">Overview</a><a href="#repoDashboard">Overview</a><a href="#quicknav">Explore all domains</a><a href="#catalogue">Topic catalogue</a><div id="floatingDomainLinks"></div></div>
+ <button class="float-btn" title="Quick navigation" aria-label="Quick navigation" onclick="$('quickPanel').classList.toggle('open')">☷</button>
+ <button class="float-btn" title="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+ <button class="float-btn" title="Go to bottom" onclick="window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'})">↓</button>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<script>
+const OWNER="abhijitxroy",REPO="india",BRANCH="main";
+const EXCLUDED=new Set(["readme.md","changelog.md","contributing.md","security.md","todo.md"]);
+const DOMAIN_META={
+ "01-foundations":["01","Foundations","History · Modern India · Geography"],
+ "02-governance":["02","Governance","Constitution · Government · Parliament · Judiciary"],
+ "03-politics":["03","Politics","Elections · Political parties · Contemporary India"],
+ "04-economy":["04","Economy","Economic development · Infrastructure"],
+ "05-security":["05","Security","Defence · Home affairs · National security"],
+ "06-foreign-policy":["06","Foreign Policy","Neighbours · Strategic partners · Geopolitics"],
+ "07-science-technology":["07","Science & Technology","Space · Nuclear energy · Technology"],
+ "08-society-culture":["08","Society & Culture","Society · Heritage · Religion · Tourism"],
+ "09-states":["09","States & Union Territories","State and regional profiles"],
+ "10-personalities":["10","Personalities","National · Regional · Cultural · Business leaders"],
+ "11-resources":["11","Resources","Glossary · Diagrams · Timelines · References"],
+ "14-qna":["14","Questions & Answers","Curated Q&A"],
+ "science-and-technology":["N","Nuclear Energy Collection","Detailed nuclear programme topics"]
+};
+const $=id=>document.getElementById(id);
+let records=[],sections=[],activeQuery="";
+function clean(s){return s.replace(/\.(md|html)$/i,"").replace(/^\d+[-_. ]*/,"").replace(/[-_]+/g," ").replace(/\b\w/g,c=>c.toUpperCase()).replace(/\bAnd\b/g,"and").replace(/\bOf\b/g,"of").replace(/\bThe\b/g,"the").trim()}
+function domainKey(path){return path.split("/")[0]}
+function collectionKey(path){const p=path.split("/");return p.length>2?p[1]:p[0]}
+function titleFromPath(path){return clean(path.split("/").pop())}
+function displayCollection(path){const k=collectionKey(path);return clean(k)}
+function isGuide(path){return /\.html$/i.test(path)}
+function searchable(r){return (r.title+" "+r.collection+" "+r.domain+" "+r.path).toLowerCase()}
+function lev(a,b){if(a===b)return 0;if(!a.length)return b.length;if(!b.length)return a.length;let prev=Array.from({length:b.length+1},(_,i)=>i);for(let i=1;i<=a.length;i++){let cur=[i];for(let j=1;j<=b.length;j++)cur[j]=Math.min(cur[j-1]+1,prev[j]+1,prev[j-1]+(a[i-1]===b[j-1]?0:1));prev=cur;}return prev[b.length]}
+function fuzzyScore(q,text){if(text.includes(q))return 1;const words=text.split(/[\s/._-]+/);let best=0;for(const w of words){if(!w)continue;let d=lev(q,w),m=Math.max(q.length,w.length);let s=1-d/m;if(w.startsWith(q)||q.startsWith(w))s=Math.max(s,.82);best=Math.max(best,s)}return best}
+function matches(r,q){if(!q)return true;const hay=searchable(r);if(hay.includes(q))return true;const terms=q.split(/\s+/).filter(Boolean);return terms.every(t=>{if(hay.includes(t))return true;return hay.split(/\s+/).some(w=>w.length>=3&&fuzzyScore(t,w)>= (t.length<5?.68:.72))})}
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function highlight(text,q){let safe=escapeHtml(text);if(!q)return safe;const terms=q.split(/\s+/).filter(t=>t.length>1).sort((a,b)=>b.length-a.length);for(const t of terms){const esc=t.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");try{safe=safe.replace(new RegExp("("+esc+")","ig"),"<mark>$1</mark>")}catch{}}return safe}
+function sourceUrl(r){return "https://github.com/"+OWNER+"/"+REPO+"/blob/"+BRANCH+"/"+r.path}
+function makeRecord(path){const d=domainKey(path),meta=DOMAIN_META[d]||["","Other","Additional topics"];const isHtml=isGuide(path);return {path,title:titleFromPath(path),collection:displayCollection(path),collectionKey:collectionKey(path),domain:meta[1],domainKey:d,domainNo:meta[0],type:isHtml?"Interactive guide":"Article"}}
+function build(){
+ const groups=new Map();for(const r of records){if(!groups.has(r.domainKey))groups.set(r.domainKey,[]);groups.get(r.domainKey).push(r)}
+ sections=[...groups.entries()].map(([key,rows])=>({key,title:rows[0].domain,no:rows[0].domainNo,rows})).sort((a,b)=>{const na=parseInt(a.no)||99,nb=parseInt(b.no)||99;return na-nb||a.title.localeCompare(b.title)});
+ $("totalCount").textContent=records.length.toLocaleString("en-IN");
+ $("domainCount").textContent=sections.length;
+ $("collectionCount").textContent=new Set(records.map(r=>r.domainKey+"/"+r.collectionKey)).size;
+ $("guideCount").textContent=records.filter(r=>r.type==="Interactive guide").length;
+ $("quickGrid").innerHTML=sections.map(s=>`<a class="quick" href="#domain-${s.key}"><span class="num">${escapeHtml(s.no||"•")}</span><span><strong>${escapeHtml(s.title)}</strong><small>${s.rows.length.toLocaleString("en-IN")} topics</small></span></a>`).join("");
+ const navLinks=sections.map(s=>`<a class="side-link" href="#domain-${s.key}">${escapeHtml(s.no)} · ${escapeHtml(s.title)}</a>`).join("");
+ $("sideDomainLinks").innerHTML=navLinks;
+ $("floatingDomainLinks").innerHTML=navLinks;
+ $("domainFilter").innerHTML='<option value="">All domains</option>'+sections.map(s=>`<option value="${escapeHtml(s.key)}">${escapeHtml(s.title)}</option>`).join("");
+ const cols=[...new Map(records.map(r=>[r.domainKey+"/"+r.collectionKey,{key:r.domainKey+"/"+r.collectionKey,domainKey:r.domainKey,label:r.collection}])).values()].sort((a,b)=>a.label.localeCompare(b.label));
+ $("collectionFilter").innerHTML='<option value="">All collections</option>'+cols.map(c=>`<option value="${escapeHtml(c.key)}">${escapeHtml(c.label)} · ${escapeHtml(sections.find(s=>s.key===c.domainKey)?.title||"")}</option>`).join("");
+ $("catalogueSections").innerHTML=sections.map(s=>`<section class="domain" id="domain-${s.key}"><div class="domain-title"><h3>${escapeHtml(s.no)} · ${escapeHtml(s.title)}</h3><span class="domain-count" id="count-${s.key}">${s.rows.length} topics</span></div><div class="table-wrap"><table data-domain="${escapeHtml(s.key)}"><thead><tr><th class="index sort" data-col="index">#</th><th class="sort" data-col="title">Topic</th><th class="sort" data-col="collection">Collection</th><th class="sort" data-col="type">Type</th><th>Open</th></tr></thead><tbody></tbody></table></div><div class="empty" hidden>No matching topics in this domain.</div></section>`).join("");
+ sections.forEach(s=>renderTable(s,""));
+}
+function renderTable(s,q){
+ const section=document.querySelector("#domain-"+s.key),tbody=section.querySelector("tbody"),filterDomain=$("domainFilter").value,filterCollection=$("collectionFilter").value,filterType=$("typeFilter").value;
+ const rows=s.rows.filter(r=>matches(r,q)&&(!filterDomain||r.domainKey===filterDomain)&&(!filterCollection||r.domainKey+"/"+r.collectionKey===filterCollection)&&(!filterType||r.type===filterType));
+ tbody.innerHTML=rows.map((r,i)=>`<tr data-record="${escapeHtml(r.path)}"><td class="index">${i+1}</td><td class="topic">${highlight(r.title,q)}</td><td class="collection">${highlight(r.collection,q)}</td><td><span class="type">${r.type}</span></td><td><button class="open-btn" type="button" aria-expanded="false" onclick='toggleDetails(this,${JSON.stringify(r.path).replace(/</g,"\\u003c")})'>Show</button></td></tr>`).join("");
+ section.querySelector(".empty").hidden=rows.length!==0;
+ section.querySelector(".table-wrap").hidden=rows.length===0;
+ section.hidden=rows.length===0;
+ $("count-"+s.key).textContent=rows.length.toLocaleString("en-IN")+" shown";
+}
+const detailCache=new Map();
+function rawUrl(path){return `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/${path.split("/").map(encodeURIComponent).join("/")}`}
+function escapeHtml(value){
+ return String(value).replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
+}
+function safeHref(url){
+ const value=String(url||"").trim();
+ return /^(https?:|mailto:|#|\/)/i.test(value) ? value : "#";
+}
+function inlineMarkdown(text){
+ let out=escapeHtml(text);
+ out=out.replace(/`([^`]+)`/g,"<code>$1</code>");
+ out=out.replace(/!\[([^\]]*)\]\(([^ )]+)(?:\s+["']([^"']*)["'])?\)/g,(m,alt,url,title)=>`<img src="${escapeHtml(url)}" alt="${alt}"${title?` title="${escapeHtml(title)}"`:""} loading="lazy">`);
+ out=out.replace(/\[([^\]]+)\]\(([^ )]+)(?:\s+["']([^"']*)["'])?\)/g,(m,label,url,title)=>`<a href="${escapeHtml(safeHref(url))}"${title?` title="${escapeHtml(title)}"`:""}>${label}</a>`);
+ out=out.replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>").replace(/__(.+?)__/g,"<strong>$1</strong>");
+ out=out.replace(/(^|[^*])\*([^*]+)\*/g,"$1<em>$2</em>").replace(/(^|[^_])_([^_]+)_/g,"$1<em>$2</em>");
+ out=out.replace(/~~(.+?)~~/g,"<del>$1</del>");
+ return out;
+}
+function fallbackMarkdown(md){
+ const lines=String(md).replace(/\r\n?/g,"\n").split("\n"),out=[];
+ let i=0,paragraph=[],listType=null,code=false,codeLang="",codeLines=[];
+ const flushP=()=>{if(paragraph.length){out.push("<p>"+paragraph.map(inlineMarkdown).join("<br>")+"</p>");paragraph=[]}};
+ const closeList=()=>{if(listType){out.push(`</${listType}>`);listType=null}};
+ const isTableRow=x=>/^\s*\|?.+\|.+\|?\s*$/.test(x);
+ while(i<lines.length){
+  const line=lines[i],trim=line.trim();
+  if(/^```/.test(trim)){
+   flushP();closeList();
+   if(!code){code=true;codeLang=trim.slice(3).trim();codeLines=[]}
+   else{out.push(`<pre><code${codeLang?` class="language-${escapeHtml(codeLang)}"`:""}>${escapeHtml(codeLines.join("\n"))}</code></pre>`);code=false;codeLang=""}
+   i++;continue;
+  }
+  if(code){codeLines.push(line);i++;continue}
+  if(!trim){flushP();closeList();i++;continue}
+  if(/^<(?:div|iframe|script|style|table|section|figure)\b/i.test(trim)){flushP();closeList();out.push(`<pre>${escapeHtml(line)}</pre>`);i++;continue}
+  if(/^---+|\*\*\*+$|___+$/.test(trim)){flushP();closeList();out.push("<hr>");i++;continue}
+  const heading=trim.match(/^(#{1,6})\s+(.+?)\s*#*$/);
+  if(heading){flushP();closeList();const level=heading[1].length;out.push(`<h${level}>${inlineMarkdown(heading[2])}</h${level}>`);i++;continue}
+  if(i+1<lines.length && isTableRow(line) && /^\s*\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?\s*$/.test(lines[i+1])){
+   flushP();closeList();
+   const cells=x=>x.trim().replace(/^\|/,"").replace(/\|$/,"").split("|").map(c=>c.trim());
+   const heads=cells(line),align=cells(lines[i+1]);out.push("<div class=\"md-table-wrap\"><table><thead><tr>"+heads.map((c,j)=>`<th${align[j]&&align[j].startsWith(":")&&align[j].endsWith(":")?' style="text-align:center"':align[j]&&align[j].endsWith(":")?' style="text-align:right"':''}>${inlineMarkdown(c)}</th>`).join("")+"</tr></thead><tbody>");
+   i+=2;while(i<lines.length&&lines[i].includes("|")&&lines[i].trim()){const vals=cells(lines[i]);out.push("<tr>"+heads.map((_,j)=>`<td>${inlineMarkdown(vals[j]||"")}</td>`).join("")+"</tr>");i++}
+   out.push("</tbody></table></div>");continue;
+  }
+  if(/^>\s?/.test(trim)){flushP();closeList();const q=[];while(i<lines.length&&/^\s*>/.test(lines[i])){q.push(lines[i].replace(/^\s*>\s?/,""));i++}out.push("<blockquote>"+fallbackMarkdown(q.join("\n"))+"</blockquote>");continue}
+  const ul=trim.match(/^[-*+]\s+(.+)/),ol=trim.match(/^\d+[.)]\s+(.+)/);
+  if(ul||ol){flushP();const type=ul?"ul":"ol";if(listType!==type){closeList();listType=type;out.push(`<${type}>`)}out.push(`<li>${inlineMarkdown((ul||ol)[1])}</li>`);i++;continue}
+  closeList();paragraph.push(trim);i++;
+ }
+ flushP();closeList();
+ if(code)out.push(`<pre><code>${escapeHtml(codeLines.join("\n"))}</code></pre>`);
+ return out.join("\n");
+}
+function renderMarkdown(md){
+ if(window.marked&&window.DOMPurify){
+  try{return DOMPurify.sanitize(marked.parse(md,{gfm:true,breaks:false}),{ADD_ATTR:["target","loading","class"]})}catch(e){}
+ }
+ return fallbackMarkdown(md);
+}
+function repoPathUrl(path,basePath,isImage){
+ const clean=String(path||"").split("#")[0].split("?")[0];
+ if(!clean||/^(https?:|data:|blob:|\/\/|mailto:|#)/i.test(clean))return path;
+ const root=clean.startsWith("/")?clean.slice(1):basePath+clean;
+ const encoded=root.split("/").map(encodeURIComponent).join("/");
+ return isImage?`https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/${encoded}`:`https://github.com/${OWNER}/${REPO}/blob/${BRANCH}/${encoded}`;
+}
+function fixMarkdownAssets(root,sourcePath){
+ const base=sourcePath.includes("/")?sourcePath.slice(0,sourcePath.lastIndexOf("/")+1):"";
+ root.querySelectorAll("a[href]").forEach(a=>{
+  const href=a.getAttribute("href");
+  if(href&&!/^(https?:|mailto:|#|\/\/)/i.test(href)){
+   a.href=repoPathUrl(href,base,false);a.target="_blank";a.rel="noopener noreferrer";
+  }else if(/^https?:/i.test(href)){a.target="_blank";a.rel="noopener noreferrer"}
+ });
+ root.querySelectorAll("img[src]").forEach(img=>{
+  const src=img.getAttribute("src");
+  if(src&&!/^(https?:|data:|\/\/)/i.test(src))img.src=repoPathUrl(src,base,true);
+  img.loading="lazy";img.addEventListener("error",()=>{img.style.display="none"});
+ });
+ root.querySelectorAll("pre code.language-mermaid").forEach(code=>{
+  const box=document.createElement("div");box.className="mermaid";box.textContent=code.textContent;code.parentElement.replaceWith(box);
+ });
+ if(window.mermaid&&root.querySelector(".mermaid")){try{mermaid.initialize({startOnLoad:false,theme:"default",securityLevel:"strict"});mermaid.run({nodes:root.querySelectorAll(".mermaid")})}catch(e){}}
+}
+async function loadReadme(){
+ const target=$("readmeContent");
+ try{
+   const response=await fetch(`https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/README.md`);
+   if(!response.ok)throw new Error("GitHub returned HTTP "+response.status);
+   const readme=await response.text();
+   const lines=readme.replace(/\r\n?/g,"\n").split("\n");
+   const start=lines.findIndex(line=>/^##\s+🗺️?\s*Repository Overview\s*$/.test(line.trim()));
+   if(start<0)throw new Error("The 'Repository Overview' section was not found in README.md");
+   let end=lines.findIndex((line,index)=>index>start && /^#\s+/.test(line.trim()));
+   if(end<0)end=lines.length;
+   const overview=lines.slice(start+1,end).join("\n").trim();
+   target.innerHTML=renderMarkdown(overview);
+   fixMarkdownAssets(target,"README.md");
+ }catch(e){target.innerHTML='<div class="detail-loading">Unable to load README.md: '+escapeHtml(e.message)+'.</div>'}
+}
+function toggleSidebar(force){
+ const sb=$("sidebar"),open=typeof force==="boolean"?force:!sb.classList.contains("mobile-open");
+ sb.classList.toggle("mobile-open",open);$("sideOverlay").classList.toggle("active",open);
+}
+async function toggleDetails(button,path){
+ const row=button.closest("tr"),tbody=row.parentElement;
+ let detail=row.nextElementSibling;
+ if(detail&&detail.classList.contains("detail-row")){
+   const opening=detail.hidden;
+   detail.hidden=!opening;button.textContent=opening?"Hide":"Show";button.setAttribute("aria-expanded",String(opening));return;
+ }
+ detail=document.createElement("tr");detail.className="detail-row";
+ const cell=document.createElement("td");cell.colSpan=5;
+ const panel=document.createElement("div");panel.className="detail-panel";panel.innerHTML='<div class="detail-loading">Loading complete document content…</div>';
+ cell.appendChild(panel);detail.appendChild(cell);row.after(detail);
+ button.textContent="Hide";button.setAttribute("aria-expanded","true");
+ try{
+   let content=detailCache.get(path);
+   if(content===undefined){
+     const response=await fetch(rawUrl(path));if(!response.ok)throw new Error("GitHub returned HTTP "+response.status);
+     content=await response.text();detailCache.set(path,content);
+   }
+   if(/\.html$/i.test(path)){
+     const frame=document.createElement("iframe");frame.title="Full document: "+titleFromPath(path);frame.style.cssText="width:100%;min-height:650px;border:1px solid #dfe5ee;border-radius:7px;background:white";
+     frame.setAttribute("sandbox","allow-same-origin allow-popups");frame.srcdoc=content;panel.innerHTML="";panel.appendChild(frame);
+   }else{
+     panel.innerHTML=renderMarkdown(content);
+     fixMarkdownAssets(panel,path);
+   }
+ }catch(e){panel.innerHTML='<div class="detail-loading">Unable to load this document: '+escapeHtml(e.message)+'. Please try again.</div>'}
+}
+function toggleSidebar(force){const sb=$("sidebar"),open=typeof force==="boolean"?force:!sb.classList.contains("mobile-open");sb.classList.toggle("mobile-open",open);$("sideOverlay").classList.toggle("active",open)}
+function applyFilters(){activeQuery=$("globalSearch").value.trim().toLowerCase();sections.forEach(s=>renderTable(s,activeQuery))}
+function wireSorting(){
+ document.querySelectorAll("th.sort").forEach(th=>th.addEventListener("click",()=>{const table=th.closest("table"),col=th.dataset.col,tbody=table.querySelector("tbody"),rows=[...tbody.rows];const asc=!th.classList.contains("asc");table.querySelectorAll("th.sort").forEach(x=>x.classList.remove("asc","desc"));th.classList.add(asc?"asc":"desc");rows.sort((a,b)=>{let x=col==="index"?Number(a.cells[0].textContent):a.cells[col==="title"?1:col==="collection"?2:3].textContent.toLowerCase();let y=col==="index"?Number(b.cells[0].textContent):b.cells[col==="title"?1:col==="collection"?2:3].textContent.toLowerCase();return (x>y?1:x<y?-1:0)*(asc?1:-1)});rows.forEach(row=>tbody.appendChild(row))}));
+}
+async function load(){
+ try{
+  const response=await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/git/trees/${BRANCH}?recursive=1`,{headers:{Accept:"application/vnd.github+json"}});
+  if(!response.ok)throw new Error(response.status===403?"GitHub API rate limit reached. Please reload in a little while.":"GitHub returned HTTP "+response.status);
+  const data=await response.json();if(data.truncated)throw new Error("The repository tree is truncated; the full topic index could not be loaded.");
+  const paths=data.tree.filter(x=>x.type==="blob").map(x=>x.path);
+  records=paths.filter(p=>/\.(md|html)$/i.test(p)&&!EXCLUDED.has(p.split("/").pop().toLowerCase())&&!p.split("/").pop().startsWith(".")).map(makeRecord);
+  build();wireSorting();$("status").textContent=`Index ready · ${records.length.toLocaleString("en-IN")} topics and guides loaded from the public repository. Only filenames and folder structure are indexed; article contents are not copied into this page.`;
+ }catch(e){$("status").classList.add("error");$("status").textContent="Unable to load the library: "+e.message+" Check your connection or reload the page.";$("catalogueSections").innerHTML='<div class="empty">The live index could not be loaded. Please refresh the page to retry.</div>'}
+}
+$("globalSearch").addEventListener("input",applyFilters);
+["domainFilter","collectionFilter","typeFilter"].forEach(id=>$(id).addEventListener("change",applyFilters));
+loadReadme();
+load();
+</script>
+</body>
+</html>
